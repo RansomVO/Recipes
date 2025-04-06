@@ -8,7 +8,8 @@
 ]>
 
 <Recipe title="Cheese Ball" yields="1">
-	<Source>From the Kitchen of Bobbi Beagley Jennie's Mom</Source>
+	<Source>From the Kitchen of Bobbi Beagley</Source>
+	<Note>Jennie's Mom</Note>
 
 	<Section>&section;</Section>
 	<LastModified year="2025"
@@ -43,7 +44,7 @@
 	</Instructions>
 
 	<Notes id="Notes">
-		<note>For smaller servings, the mixture can be divided into two balls.</note>
+		<note>For smaller servings, the mixture can be divided into two Cheese Balls.</note>
 	</Notes>
 
 	<Modifications id="Modifications">

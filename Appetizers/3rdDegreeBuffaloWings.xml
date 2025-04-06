@@ -23,10 +23,10 @@
 			<ingredient name="Paprika" amount="&frac12; teaspoon" />
 			<ingredient name="Cayenne Pepper" amount="&frac12; teaspoon" />
 			<ingredient name="Salt" amount="&frac12; teaspoon" />
-			<ingredient name="Wings Pieces"
-				nameNote="About 3 lbs."
-				amount="20 Chicken" />
-			<ingredient name="Deep Frying" amount="Oil for" />
+			<ingredient name="Chicken Wings"
+				amount="20 Pieces"
+				amountNote="About 3 lbs." />
+			<ingredient name="Oil" amountNote="for Deep Frying" />
 		</section>
 		<section id="IngredientsSauce" title="Sauce">
 			<ingredient name="Butter" amount="&frac12; Cup" />
@@ -44,9 +44,9 @@
 			<instruction>Place Chicken Wings in mixture and stir until they are well coated.</instruction>
 			<instruction>Cover bowl and refrigerate for 60 to 90 minutes.<br /><span class="Note">(While waiting, make sauce)</span></instruction>
 			<instruction>Heat Oil in a deep fryer to 375&degrees;</instruction>
-			<instruction>Fry wings in hot oil for 10 to 15 minutes, until parts of wings begin to turn brown.</instruction>
-			<instruction>Place cooked wings into a large bowl or pan.</instruction>
-			<instruction>Coat wings with sauce and stir until covered.</instruction>
+			<instruction>Fry Chicken Wings in hot oil for 10 to 15 minutes, until they begin to turn brown.</instruction>
+			<instruction>Place cooked Chicken Wings into a large bowl or pan.</instruction>
+			<instruction>Coat Chicken Wings with sauce and stir until covered.</instruction>
 		</section>
 		<section id="InstructionsSauce" title="Sauce">
 			<instruction>In a small saucepan, combine Butter, Hot Sauce, Pepper and Garlic Powder.</instruction>
