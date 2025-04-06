@@ -14,7 +14,8 @@
 		month="3"
 		day="27" />
 
-	<Description id="Description"> Ransom served as a missionary in Puerto Rico. A bar/restaurant in Old San Juan invented a drink known as the Pi&#x148;a Colada. It is still served all over the place. Traditionally served with Rum, it is fantastic without. <br /> Pi&#x148;a Colada translates to "Strained Pineapple". It refers to the fact that it is made with Pineapple juice, and a coconut cream which is made by grating and <span class="HIGHLIGHT">straining</span> coconut. </Description>
+	<Description id="Description">Ransom served as a missionary in Puerto Rico. A bar/restaurant in Old San Juan invented a drink known as the Pi&#x148;a Colada. It is still served all over the world. <br /> Traditionally served with Rum, it is fantastic without. <span class="NOTE">(Ransom can attest to that because of the one he got there. &smiley;)</span>
+		<br />Pi&#x148;a Colada translates to "Strained Pineapple". It refers to the fact that it is made with Pineapple juice, and a coconut cream which is made by grating and <span class="HIGHLIGHT">straining</span> coconut.</Description>
 
 	<Ingredients id="Ingredients">
 		<section>

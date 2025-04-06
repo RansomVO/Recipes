@@ -14,11 +14,7 @@
 		month="3"
 		day="27" />
 
-	<Description id="Description">
-		I have no idea why, but at a family gathering with cousins, my dad just decided to mix a couple of juices.
-		The results looked disgusting, but actually tasted really good.
-		Because of the brown color, we decided to call it "Mud Punch".
-	</Description>
+	<Description id="Description"> We have no idea why, but at a family gathering with nephews and nieces, Grandpa John just decided to mix a couple of juices. The results looked <span class="EMPHASIZE">disgusting</span>, but actually tasted really good.<br />Because of the brown color, we decided to call it "Mud Punch". </Description>
 
 	<Ingredients id="Ingredients">
 		<section>
