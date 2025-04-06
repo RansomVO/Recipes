@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Pork Chops al Jardinero" yields="2 servings">
+	<Source>Classic</Source>
+
+	<Section>&section;</Section>
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025"
+		month="3"
+		day="29" />
+
+	<Description id="Description">"Jardinero" is the Spanish word for gardener. It is pronounced "Har-dee-neh-row".<br />Ransom prepared this recipe once when he had been out on his mission in Puerto Rico for only a couple of months. His senior companion just about died of pleasure. He said it was the first "real American" meal he had had in over a year!<br />Later, some members told Ransom what the name of the dish is in Spanish.</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Pork Chops" amount="2" />
+			<ingredient name="Onion" amount="1" />
+			<ingredient name="Potatoes" amount="2-4" />
+			<ingredient name="Carrots" amount="2-4" />
+			<ingredient name="Water" amount="&frac12; Cup" />
+			<ingredient name="Salt and Pepper" amountNote="To taste" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Peel Onion, then cut into chunks, then place across the bottom of a large saucepan.</instruction>
+			<instruction>Peel the Potatoes and cut into chunks slightly bigger than the head of a spoon.</instruction>
+			<instruction>Peel the Carrots and cut into chunks about the size of the head of a spoon.</instruction>
+			<instruction>Mix the Potatoes and Carrots together.</instruction>
+			<instruction>Place about &frac13; of the Potatoes and Carrots on top of the Onions, then place 1 Pork Chop on top of them.</instruction>
+			<instruction>Place about &frac12; of the remaining Potatoes and Carrots on top the Pork Chop, then place the other Pork Chop on top of them.</instruction>
+			<instruction>Place the remaining Potatoes and Carrots on top.</instruction>
+			<instruction>Sprinkle liberally with Salt and Pepper.</instruction>
+			<instruction>Sprinkle the Water on top.</instruction>
+			<instruction>Place on stove on high and bring to a boil.</instruction>
+			<instruction>Reduce heat and simmer for 30 minutes.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>Sprinkling the Water on top washes the Salt and Pepper down into everything.</note>
+		<note>When serving, you can make it look nice if you:</note>
+		<note>Put the Pork Chops on a platter <span class="NOTE">(or plate)</span>.</note>
+		<note>Put the Potatoes in one bowl.</note>
+		<note>Put the Carrots in another bowl.</note>
+		<note>Put the Onions in still another bowl.</note>
+		<note>Pour the drippings into a gravy bowl or boat.</note>
+		<note>I like to mash the Potatoes with a fork, then pour a little of the broth on it.</note>
+	</Notes>
+</Recipe>

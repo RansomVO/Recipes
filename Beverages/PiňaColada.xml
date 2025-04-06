@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Pi&#x148;a Colada" yields="2 1-Cup servings">
+	<Source>From the back of a can of Coco Lopez Coconut Cream</Source>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="27" />
+
+	<Description id="Description"> Ransom served as a missionary in Puerto Rico. A bar/restaurant in Old San Juan invented a drink known as the Pi&#x148;a Colada. It is still served all over the place. Traditionally served with Rum, it is fantastic without. <br /> Pi&#x148;a Colada translates to "Strained Pineapple". It refers to the fact that it is made with Pineapple juice, and a coconut cream which is made by grating and <span class="HIGHLIGHT">straining</span> coconut. </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Coconut Cream" amount="&frac12; Cup" />
+			<ingredient name="Pineapple Juice"
+				nameNote="Refrigerated"
+				amount="&frac12; Cup" />
+			<ingredient name="Crushed Ice" amount="About 1 Cup" />
+			<ingredient name="Maraschino Cherries"
+				nameNote="Optional"
+				amount="2" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a blender, combine the Coconut Cream and Pineapple Juice.</instruction>
+			<instruction>Turn blender on and begin to add Crushed Ice a little at a time.</instruction>
+			<instruction>Pour into glasses.</instruction>
+			<instruction>Top each glass with a Maraschino Cherry.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>When adding the ice, add it until the blender can barely handle it. If the blender suddenly starts going very fast, but the drink isn't moving on the top, you have added too much. <br /> When this happens, turn the blender off, stir it, and start it again on slow. Repeat until all Crushed Ice is blended. </note>
+		<note>If you use Ice Cubes instead of Crushed Ice, you frequently end up with small balls of ice hiding in the drink, instead of a smooth, slushy consistency.</note>
+		<note>If the Pineapple Juice is not refrigerated, then it takes more Ice to get the correct consistency. More Ice = more watered down and doesn't taste as good.</note>
+		<note>Basic Coconut Cream is made by grating coconut, then adding a small amount of boiling water then straining it. The result is a milky-looking juice. Then you add sugar until it is a thick syrup.<br />Since this is a long and painful process, it is best to just purchase a can of it. It is usually found by the "mixers", such as margarita mix, etc.</note>
+		<note><span class="SUPER_EMPHASIZE">DO NOT</span>&#xA0;get the cheap Coconut Cream. Unfortunately, there is a huge difference. The very best is Coco Lopez, but Coco Reál is also good. </note>
+	</Notes>
+</Recipe>

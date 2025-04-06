@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Klondike Chili" yields="8-10 servings">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025"
+		month="3"
+		day="29" />
+
+	<Description id="Description"> This is Ransom's second Chili recipe. The first one, <a href="../CrockPot/StealthAttackChili.xml">Entrees / CrockPot: Stealth-Attack Chili</a>, was really good, but it was complex and actually had to be started the day before you wanted to eat it. On top of that, when we moved to Washington, nobody could handle it. &smiley; <br /> This recipe is geared towards quick preparation, and 7 out of 8 times it actually won the first-place award at a Boy Scout district Dutch-Oven Chili cook-off at Klondike Derbies! </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Onion" amount="1" />
+			<ingredient name="Hamburger" amount="1 lb." />
+			<ingredient name="Pinto Beans"
+				nameNote="Drained"
+				amount="1 15 oz. Can" />
+			<ingredient name="Kidney Beans"
+				nameNote="Drained"
+				amount="1 15 oz. Can" />
+			<ingredient name="Red Beans"
+				nameNote="Drained"
+				amount="1 15 oz. Can" />
+			<ingredient name="Stewed/Sliced Tomatoes" amount="3 14.5oz. Cans" />
+			<ingredient name="Stewed/Diced Tomatoes" amount="2 14.5oz. Cans" />
+			<ingredient name="Poblano Pepper"
+				nameNote="Large"
+				amount="1" />
+			<ingredient name="AnaheimPeppers" amount="2" />
+			<ingredient name="Bell Pepper"
+				amountNote="Red"
+				amount="1" />
+		</section>
+		<section>
+			<ingredient name="Fresh Chopped Cilantro" amount="&frac12; Cup" />
+			<ingredient name="Brown Sugar" amount="1 Tablespoon" />
+			<ingredient name="Apple Cider Vinegar" amount="1 Tablespoon" />
+			<ingredient name="Ground Black Pepper" amount="&frac12; teaspoon" />
+			<ingredient name="Salt" amount="1 teaspoon" />
+			<ingredient name="Cumin" amount="1 teaspoon" />
+			<ingredient name="Garlic"
+				amountNote="Minced"
+				amount="1 teaspoon" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Peel Onion and slice into &frac12;" discs, then cut the disks into quarters.</instruction>
+			<instruction>Cut the top off of each of the Peppers, slice them in half, then remove and discard the seeds.</instruction>
+			<instruction>Cut the Peppers into chunks that are &frac12;" &vector; &frac12;".</instruction>
+			<instruction>In a large pot, combine Onions and Hamburger and cook until Hamburger is browned.</instruction>
+			<instruction>Add all of the rest of ingredients into the pot and stir well.</instruction>
+			<instruction>Bring to a boil, reduce heat and simmer for 30 minutes.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>
+			Cilantro purchased from the grocery store comes in a bunch of stems.
+			The leaves need to be picked from the stems and the stems can be discarded.
+			Then the leaves need to be chopped.
+		</note>
+		<note> The Onions and Peppers should be cut into chunks that are as large as possible, but still easy to get into a spoon. <ul>
+				<li>1" &vector; 1" is too big.</li>
+				<li>&frac18;" &vector; &frac18;" is too small.</li>
+			</ul>
+			<span class="NOTE">(We generally use &frac12;" &vector; &frac12;", but don't hesitate to make them bigger if you want.)</span>
+		</note>
+		<note> After chopping the Peppers, <span class="EMPHASIZE">be very careful to <span class="SUPER_EMPHASIZE">not</span> rub your eyes!</span> Even after washing your hands thoroughly, the spicy oils will still be there, and it will <span class="SUPER_EMPHASIZE">hurt!</span></note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>One or more of the cans of Sliced and/or Diced Tomatoes can be replaced with cans of Stewed Tomatoes of the same size, but cut them up with the spoon as you cook.</modification>
+		<modification>If you must make a smaller batch, don't use the Red Beans, and use 1 less Can of Sliced Tomatoes.</modification>
+		<modification> Serve with any combination of: <ul>
+				<li>A dollop of Sour Cream</li>
+				<li>Grated Cheddar or Pepper-Jack Cheese</li>
+				<li>Corn Chips</li>
+			</ul>
+		</modification>
+		<modification>For a spicier chili add: <table>
+				<tr>
+					<td class="RECIPE_INGREDIENT">Chili Powder</td>
+					<td class="RECIPE_INGREDIENT_QUANTITY">&frac12;-2 Tablespoons</td>
+				</tr>
+				<tr>
+					<td class="RECIPE_INGREDIENT">Cayenne Pepper</td>
+					<td class="RECIPE_INGREDIENT_QUANTITY">&frac12;-1 teaspoon</td>
+				</tr>
+			</table>
+		</modification>
+		<modification>To cook in a crock-pot:<ul>
+				<li>Brown Hamburger and Onions in a skillet.</li>
+				<li>Combine all ingredients <span class="NOTE">(including Hamburger and Onions)</span> in a 6-quart crock-pot.</li>
+				<li>Cook on high for 3 hours, or on low for 6 hours, stirring every 1-2 hours.</li>
+			</ul> For an 8-quart crock-pot add:<ul>
+				<li>1 extra can of Pinto Beans</li>
+				<li>1 extra can of Stewed Tomatoes or Sliced Tomatoes</li>
+				<li>2 extra Poblano Peppers</li>
+				<li>2 extra Anahiem Peppers</li>
+				<li>&frac12; Cup Fresh Chopped Cilantro</li>
+				<li>Double all Brown Sugar, Apple Cider Vinegar, Ground Black Pepper, Salt, Cumin and Garlic.</li>
+			</ul>
+		</modification>
+	</Modifications>
+
+	<FinalNote id="FinalNote">A similar recipe for use at home: <a href="../../Camping/DO_KlondikeChili.xml">Dutch Oven and other Camping Recipes: Dutch Oven Klondike Chili</a></FinalNote>
+</Recipe>

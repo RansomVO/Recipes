@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Cheese Ball" yields="1">
+	<Source>From the Kitchen of Bobbi Beagley Jennie's Mom</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="31" />
+
+	<Description id="Description"> Jennie's mom made this cheese ball every Christmas season and shared it with all of her friends. She wouldn't share the recipe with anybody because she wanted everybody to look forward to getting it. <br /> But, we talked her into sharing the recipe with us. &smiley;</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Blue Cheese" amount="2 oz." />
+			<ingredient name="Cream Cheese" amount="2 8oz. Packages" />
+			<ingredient name="Kraft Old English Cheese" amount="1 bottle" />
+			<ingredient name="Chopped or Dried Chives" amount="1 Tablespoon" />
+			<ingredient name="Chopped or Dried Parsley" amount="&frac14; Cup" />
+			<ingredient name="Garlic Salt" amount="1 Dash" />
+			<ingredient name="Worcestershire Sauce" amount="1 Tablespoon" />
+			<ingredient name="Pecans"
+				nameNote="Chopped"
+				amount="1 Cup" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Let Cream Cheese come to room temperature.</instruction>
+			<instruction>Place all ingredients, except Pecans, into a large bowl and knead together until well mixed.</instruction>
+			<instruction>Shape cheese into a ball.</instruction>
+			<instruction>Spread Chopped Pecans onto a flat surface, like a cookie sheet, then roll ball around in Pecans until it is covered.</instruction>
+			<instruction>Serve at room temperature.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>For smaller servings, the mixture can be divided into two balls.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>For people with nut allergies, substitute finely shredded Cheese for the Pecans.</modification>
+	</Modifications>
+</Recipe>

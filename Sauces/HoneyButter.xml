@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Honey Butter" yields="&frac34; Cup">
+	<Source>Traditional Utah Recipe</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="31" />
+
+	<Description id="Description"> There are many dishes that taste good with butter, that also taste good with honey. <span class="NOTE">(Corn Bread, Navajo Fry Bread, etc.)</span> In Utah, it is very common to serve Honey Butter with these. </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Butter"
+				nameNote="Softened"
+				amount="&frac12; Cup"
+				amountNote="1 stick" />
+			<ingredient name="Honey" amount="&frac14; Cup" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a small bowl, mix ingredients.</instruction>
+			<instruction>That's all. Enjoy!</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note> Make sure Butter is softened before starting this recipe. This is best done by leaving a stick on the counter for an hour or so. <br /> Use caution if you choose to soften in a microwave. <span class="SUPER_EMPHASIZE">Do not melt the Butter!</span> This will just make everything a coagulated ugly mess. </note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>Feel free to increase or decrease the amount of honey to your own taste.</modification>
+	</Modifications>
+</Recipe>

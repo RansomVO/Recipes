@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Teriyaki Sauce" yields="1 Cup">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="31" />
+
+	<Description id="Description">
+		One night, we started making Teriyaki chicken, then we found we didn't have any Teriyaki sauce.
+		So, Ransom did a little research, tried a few things and we came up with this.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Brown Sugar" amount="&frac12; Cup" />
+			<ingredient name="Soy Sauce" amount="&frac12; Cup" />
+			<ingredient name="Rice Vinegar" amount="2 Tablespoons" />
+			<ingredient name="Sesame Oil" amount="1 Tablespoon" />
+			<ingredient name="Ginger"
+				nameNote="Fresh, Grated"
+				amount="&frac12; teaspoon" />
+			<ingredient name="Garlic"
+				nameNote="Minced"
+				amount="&frac12; teaspoon" />
+		</section>
+	</Ingredients>
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Place all ingredients in a small pot and mix.</instruction>
+			<instruction>Heat on medium heat until it comes to a boil.</instruction>
+			<instruction>Remove immediately and let cool.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>Due to the high sugar content, this recipe will easily overflow if you let it boil for very long at all.</note>
+	</Notes>
+
+	<Modifications>
+		<modification>Use &frac12; Cup Corn Syrup instead of Brown Sugar.</modification>
+	</Modifications>
+</Recipe>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Robert Redford Dessert"
+	yields="12-16 servings">
+	<Source>From the kitchen of Bobbi Beagley</Source>
+	<Note>Jennie's Mom</Note>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="21" />
+
+	<Description id="Description">
+		Originally, this was called "Next Best Thing To Robert Redford".
+		However, that is a mouthful, so everybody just started calling it "Robert Redford", which is just as well because our kids have no idea who Robert Redford is.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section id="IngredientsCrust" title="Crust">
+			<ingredient name="Flour" amount="1 Cup" />
+			<ingredient name="Butter" amount="&frac12; Cup" />
+			<ingredient name="Pecans"
+				nameNote="finely chopped"
+				amount="1 Cup" />
+		</section>
+		<section id="IngredientsBottomLayer" title="Bottom Layer">
+			<ingredient name="Cream Cheese"
+				nameNote="softened"
+				amount="1 8-oz. package" />
+			<ingredient name="Powdered Sugar" amount="1 Cup" />
+			<ingredient name="Whipped Topping"
+				nameNote="thawed"
+				amount="8 oz." />
+		</section>
+		<section id="IngredientsTopLayer" title="Top Layer">
+			<ingredient name="Chocolate Instant Pudding Mix" amount="4 ounces" />
+			<ingredient name="Vanilla Instant Pudding Mix" amount="4 ounces" />
+			<ingredient name="Milk" amount="3 Cups" />
+		</section>
+		<section id="IngredientsTopLayer" title="Top Layer">
+			<ingredient name="Milk Chocolate Candy Bar"
+				nameNote="grated"
+				amount="1&frac12; oz." />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section id="InstructionsCrust" title="Crust">
+			<instruction>Mix Flour, Butter and Pecans until crumbly.</instruction>
+			<instruction>Press into 9 &vector; 13 inch pan and bake at 350&degrees; for 20 minutes.</instruction>
+			<instruction>Cool completely.</instruction>
+		</section>
+		<section id="InstructionsBottomLayer" title="Bottom Layer">
+			<instruction>Beat Cream Cheese and Powdered Sugar on high with a mixer until smooth.</instruction>
+			<instruction>Fold in half of the Whipped Topping.</instruction>
+			<instruction>Spread over cooled crust.</instruction>
+		</section>
+		<section id="InstructionsTopLayer" title="Top Layer">
+			<instruction>Mix the Puddings with the Milk, beat slowly with mixer until smooth <span class="NOTE">(about 2 minutes)</span>.</instruction>
+			<instruction>Spread on top of Bottom Layer.</instruction>
+			<instruction>Let stand a few minutes, then spoon remaining Whipped Topping over top and spread carefully.</instruction>
+		</section>
+		<section id="InstructionsFinishingTouch" title="Finishing Touch">
+			<instruction>Sprinkle with grated milk chocolate bar.</instruction>
+			<instruction>Cover and refrigerate until ready to serve.</instruction>
+		</section>
+	</Instructions>
+</Recipe>

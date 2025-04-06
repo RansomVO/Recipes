@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Wontons" yields="20-25 Wontons">
+	<Source>From the Kitchen of Gramma Mitzi, Di's Mom</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="27" />
+
+	<Description id="Description">
+		When Di looks back and remembers peaceful times at home, she remembers her mom making Wonton Soup.
+		We came up with this recipe to be able to make Wonton Soup.
+		Then we used leftovers to make Fried Wontons.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Ground Pork" amount="&frac12; lb." />
+			<ingredient name="Minced Garlic" amount="1 teaspoon" />
+			<ingredient name="Green Onion, Finely Chopped" amount="3 Tablespoons" />
+			<ingredient name="Yolk" amount="1 Egg" />
+			<ingredient name="Soy Sauce" amount="2 teaspoons" />
+			<ingredient name="Rice Vinegar" amount="1&frac12; teaspoons" />
+			<ingredient name="Sesame Oil" amount="&frac12; teaspoon" />
+			<ingredient name="Crushed Red Pepper" amount="&frac14; teaspoon" />
+			<ingredient name="Grated Ginger"
+				nameNote="Unless Di is there."
+				amount="1 teaspoon" />
+			<ingredient name="Wonton Wrappers" amount="25-30" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a bowl combine all of the ingredients, except for the Wrappers, and mix well.</instruction>
+			<instruction>Get out a cup or small bowl and fill with about 1 Cup Water.</instruction>
+			<instruction> Form the Wontons using one of the following styles: <subSection title="Envelope Style" list-style="upper-alpha" image="EnvelopeStyleWonton.png" font-size=".9em">
+					<instruction>Place 1 skin flat on the table and place 1 teaspoon of the filler in the middle.</instruction>
+					<instruction>Dip a finger in the Water and moisten each edge of the Wrapper.</instruction>
+					<instruction>Fold one corner of the Wrapper to the corner opposite of it, so that you will get a triangle.</instruction>
+					<instruction>Press down the edges, taking care to press all of the air out before the seal is complete.</instruction>
+					<instruction>Arrange the Wonton so that the longest edge is toward you.</instruction>
+					<instruction>Moisten the top ½" surface of the right corner and the bottom ½" surface of the left corner.</instruction>
+					<instruction>Place index finger, fingernail down, halfway between right and left corners.</instruction>
+					<instruction>Fold the left corner up onto your finger, then the right corner on top of the left corner.</instruction>
+					<instruction>Pinch the two corners together.</instruction>
+					<instruction>Gently set aside.</instruction>
+				</subSection>
+				<subSection title="4-Star Style" list-style="upper-alpha" image="4StarStyleWonton.png" font-size=".9em">
+					<instruction>Place 1 skin flat on the table and place 1 teaspoon of the filler in the middle.</instruction>
+					<instruction>Dip a finger in the Water and moisten each edge of the Wrapper.</instruction>
+					<instruction>Fold all 4 points of the wonton skin up to the center.</instruction>
+					<instruction>Pinch each edge from the center point to the outside edge, taking care to press all air out before the seal is complete.</instruction>
+					<instruction>Gently set aside.</instruction>
+				</subSection>
+			</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes" pageBreak="true">
+		<note>You can buy Wonton Wrappers at most grocery stores. A 14-oz. package contains about 44 skins.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>Do <span class="SUPER_EMPHASIZE">NOT</span> use Grated Ginger if Di is eating with you!<br />Di doesn't like Ginger, so her mom set it in a bowl on the table and it was used as a condiment. </modification>
+	</Modifications>
+</Recipe>

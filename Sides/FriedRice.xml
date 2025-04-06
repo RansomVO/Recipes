@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Fried Rice" yields="12-15 Servings">
+	<Source>Classic</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="1" />
+
+	<Description id="Description"> When Ransom was a Scout Master for 11-year-olds, he wanted to make a special Dutch oven meal for their first campout. He went through a bunch of cookbooks and came up with a recipe similar to this one, which he used as a main course. <br /> Later, after he was married, he was given a Wok, so he modified that recipe to this one for use as a side-dish. </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Cooked Rice"
+				nameNote="Cold or Cool"
+				amount="6-8 Cups" />
+			<ingredient name="Vegetable Oil" amount="1 Cup" />
+			<ingredient name="Salt" amount="1 teaspoon" />
+			<ingredient name="Chicken" amount="&frac14;-1 Lbs." />
+			<ingredient name="Chinese Cabbage" amount="&frac12;-1 head" />
+		</section>
+		<section>
+			<ingredient name="Carrots" amount="1-2" />
+			<ingredient name="Scallions"
+				nameNote="Green Onions"
+				amount="3-4" />
+			<ingredient name="Eggs" amount="3-4" />
+			<ingredient name="Soy Sauce" amount="&frac14; Cup" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Slice the Chinese Cabbage as thinly as possible. <span class="NOTE">(Goal is to have 1-2 Cups.)</span></instruction>
+			<instruction>Coarsely shred the Carrots.</instruction>
+			<instruction>Slice the Scallions into &frac12;&quote2; pieces.</instruction>
+			<instruction>Cut Chicken into &frac14;" chunks, thoroughly cook, then set aside.</instruction>
+			<instruction>In a large wok or pot, combine Rice and Oil.</instruction>
+			<instruction>Cook the mixture on medium-high heat, stirring frequently, until Rice begins to brown. <span class="NOTE">(10-15 minutes)</span></instruction>
+			<instruction>Add Chicken and vegetables, then stir well.</instruction>
+			<instruction>Dig as large of a hole as possible in the center of the Rice, all the way to the bottom, pushing the Rice to the outside edges of the wok or pot.</instruction>
+			<instruction>Break the Eggs into the hole, then stir the Eggs <span class="NOTE">(not the Rice)</span> until the Eggs are cooked and shredded.</instruction>
+			<instruction>Stir entire mixture together, then add Soy Sauce.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>For best results, cook the Rice the day before, then let it sit in the refrigerator overnight. <br /> If that is not possible, cook the Rice then spread it out to cool on a cookie sheet or butcher paper.</note>
+		<note>A cheese grater is ideal for "coarsely shredding" the Carrots.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>Instead of Chicken, you can use other meats, such as Ham <span class="NOTE">(which doesn't need to be precooked)</span> or Beef. You could also use a mixture of several meats, or even leave the meat completely out.</modification>
+		<modification>If you add extra meat, this can be treated as a main course instead of just a side-dish. <span class="NOTE">(With only half as many servings.)</span></modification>
+		<modification>For a slightly milder flavor, you can substitute Onions for Scallions. If so, you should precook the Onions with the meat.</modification>
+		<modification>For a slightly different flavor, substitute the green leaves from Celery for the Chinese Cabbage.</modification>
+		<modification>If desired, you can add other vegetables, such as Corn or Baby Corn, Sliced Mushrooms, Water Chestnuts, Peas, etc.</modification>
+	</Modifications>
+</Recipe>

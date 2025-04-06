@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Creamy Soft Toffee" yields="150 1-inch squares">
+	<Source>A VanOrman Original</Source>
+	<Section>&section;</Section>
+	<LastModified year=" 2025"
+		month=" 3"
+		day=" 21" />
+
+	<Description id="Description">
+		When Ransom was growing up, his family used to visit Canada every few years.
+		One of Ransom's favorite treats up there was " MacIntosh's Creamy Toffee".
+		Ransom tried many recipes to duplicate it and finally came up with this.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="White Sugar" amount="2 Cups" />
+			<ingredient name="Brown Sugar" amount="1 Cup" />
+			<ingredient name="Light Corn Syrup" amount="1 Cup" />
+			<ingredient name="Evaporated milk" amount="1 Cup" />
+			<ingredient name="Heavy Whipping Cream" amount="1 Pint" />
+			<ingredient name="Butter" amount="1 Cup" />
+			<ingredient name="Vanilla" amount="1&frac14; teaspoons" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Lightly spray a 10 &vector; 15 cookie sheet with non-stick spray.</instruction>
+			<instruction>In a LARGE, non-stick pot, combine all ingredients except Vanilla.</instruction>
+			<instruction>Heat mixture on high, using a candy thermometer to monitor temperature.</instruction>
+			<instruction>Stirring very frequently, heat to 253&degrees; F.<br /><span class="NOTE">(I know 253&degrees; sounds weird, but 250&degrees; leaves it runny, and 255&degrees; makes it brittle.)</span></instruction>
+			<instruction>When it reaches temperature, immediately remove the pot from the heat.</instruction>
+			<instruction>Stir in Vanilla.</instruction>
+			<instruction>Pour mixture onto the prepared cookie sheet and spread evenly.</instruction>
+			<instruction>Let the mixture cool completely.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>
+			<span class="SUPER_EMPHASIZE">Warning!
+			</b> Mixture will more than double while heating, then will reduce as it nears the correct temperature, so make sure you use a
+			<span class="SUPER_EMPHASIZE">Large</span> non-stick pot.
+		</note>
+		<note>Cutting it up is a challenge. At first, I used a hot, large, sharp, chopping knife, and was able to get it if I was patient.<br />Then I found if you waited until was nearly cool you can use a Pizza Cutter to do the primary cutting.<br /><i>
+				<b>NOTE
+				</span>: If you leave the edges touching, they will merge back together.
+			</i></note>
+	</Notes>
+</Recipe>

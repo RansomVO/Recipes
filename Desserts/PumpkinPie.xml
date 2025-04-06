@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Pumpkin Pie" yields="2 9-inch Pies">
+	<Source>From the Kitchen of Bobbi Beagley</Source>
+	<Note>Jennie's Mom</Note>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="21" />
+
+	<Description id="Description">
+		When Jennie and Ransom were first married, they each felt that their mother's pumpkin pie recipe was the best.
+		So, we had a bake-off.
+		In the end, it was decided that Ransom's mom's recipe looked the best, but that Jennie's mom's tasted the best.
+		So, Jennie's mom's is the one we make each year.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Pumpkin" amount="1 29 oz. Can" />
+			<ingredient name="Evaporated Milk" amount="2 12 fl. oz. Cans" />
+			<ingredient name="Sugar" amount="2 Cups" />
+			<ingredient name="Eggs" amount="4" />
+			<ingredient name="Salt" amount="1 teaspoon" />
+			<ingredient name="Cinnamon"
+				nameNote="ground"
+				amount="3 teaspoons" />
+			<ingredient name="Nutmeg"
+				nameNote="ground"
+				amount="1 teaspoon" />
+			<ingredient name="Ginger"
+				nameNote="ground"
+				amount="1 teaspoon" />
+			<ingredient name="Allspice"
+				nameNote="ground"
+				amount="1 teaspoon" />
+			<ingredient name="Cloves"
+				nameNote="ground"
+				amount="1 teaspoon" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Preheat oven to 425&degrees;.</instruction>
+			<instruction>Mix all ingredients with a beater until smooth.</instruction>
+			<instruction>Pour into pie pans with uncooked pie crust.</instruction>
+			<instruction>Bake at 425&degrees; for 15 minutes.</instruction>
+			<instruction>Reduce temperature to 350&degrees; and bake for an additional 35 minutes.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>You <span class="SUPER_EMPHASIZE">cannot</span> serve pumpkin pie without whipped cream, or vanilla ice cream.<br /><span class="HIGHLIGHT">(Or both &smiley;)</span></note>
+	</Notes>
+</Recipe>

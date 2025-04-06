@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="InstaPot Roast" yields="Depends upon Beef Roast Size and amount of vegetables.">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="31" />
+
+	<Description id="Description">We love having Roasts for dinner on Sundays. Of course, several burners and the oven really heat up the kitchen. Until we got an InstaPot and <span class="NOTE">(after a bunch of attempts)</span> came up with this.</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Beef Roast"
+				nameNote="Fresh or Frozen"
+				amount="1" />
+			<ingredient name="Minced Garlic" amount="&frac12; Tablespoon" />
+			<ingredient name="Beef Broth"
+				nameNote="1&frac12;-Strength"
+				amount="4 Cups" />
+			<ingredient name="Worcestershire Sauce" amount="&frac12; Tablespoon" />
+			<ingredient name="Tomato Sauce" amount="1 8 oz. Can" />
+		</section>
+		<section>
+			<ingredient name="Onion" amount="1" />
+			<ingredient name="Carrots" amount="3-10" />
+			<ingredient name="Potatoes" amount="3-10" />
+			<ingredient name="Corn Starch" amount="5 Tablespoons" />
+			<ingredient name="Water"
+				nameNote="Cool"
+				amount="&frac12; Cup" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a large container, mix Beef Broth, Worcestershire Sauce, and Tomato Sauce.</instruction>
+			<instruction>Slice Onion into 5-6 disks.</instruction>
+			<instruction>Put InstaPot in Saut&#xE9; mode, put in the butter and, using a spatula, move it around so that all of the bottom surface is covered. Continue until it is melted.</instruction>
+			<instruction>Place the roast in the InstaPot, and using tongs to turn it, let it sit on every side and edge in the butter until browns spots begin to be seen on that side.</instruction>
+			<instruction>Add Garlic and stir it with a spatula for 1 minute, then turn off the InstaPot.</instruction>
+			<instruction>Use a spatula to scrap up anything sticking to the bottom of the InstaPot.</instruction>
+			<instruction>Arrange Onion slices on the bottom of the InstaPot and place the Roast on top.</instruction>
+			<instruction> Pour the Broth mixture over the Roast and set to Pressure Cook. <subSection list-style="disc" font-size=".9em">
+					<instruction>If Roast is fresh, set for 30 minutes</instruction>
+					<instruction>If Roast is frozen, set for 1 hour.</instruction>
+				</subSection>
+			</instruction>
+		</section>
+		<section id="InstructionsWhileRoastIscooking" title="While Roast Is cooking">
+			<instruction>Combine Corn Starch and Cool Water in a small cup and mix <span class="EMPHASIZE">thoroughly</span>.</instruction>
+			<instruction>Peel Carrots and Potatoes then cut them into chunks the size that you would like.<br /><span class="Note">(We like the Carrots spoon sized, and the Potatoes about 1"-2" cubes.)</span></instruction>
+		</section>
+		<section id="InstructionsWhenPressureCookingCompletes" title="When Pressure Cooking Completes">
+			<instruction>Let sit for 20 minutes, then release any pressure.</instruction>
+			<instruction>Remove Roast and cover with foil, then remove Onions and set in a bowl and cover.</instruction>
+			<instruction>Drain any broth that collected in the bowl of Onions into the InstaPot.</instruction>
+			<instruction>Put Carrots and Potatoes in Broth in InstaPot and set to Pressure Cook for 3 minutes.</instruction>
+			<instruction>When Pressure Cooking completes, release pressure immediately, and put Carrots and Potatoes in separate serving bowls.</instruction>
+			<instruction>Mix the Corn Starch mixture again <span class="SUPER_EMPHASIZE">very</span> well, then slowly stir it into the Broth to create Gravy.</instruction>
+			<instruction>Remove foil and slice the Roast.</instruction>
+		</section>
+	</Instructions>
+
+	<Modifications id="Modifications">
+		<modification>You can create the 1&frac12;-Strength Beef Broth by using 4 Cups of Water + 6 Bouillon Cubes <span class="NOTE">(or the equivalent)</span>.</modification>
+	</Modifications>
+
+</Recipe>

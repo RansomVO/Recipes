@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Hot Chocolate" yields="3 Servings">
+	<Source>A VanOrman Original</Source>
+	<Note>Based on trick from Puerto Rico</Note>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="27" />
+
+	<Description id="Description">On Ransom's mission a member once made hot chocolate for him. He was shocked to see him adding Sugar along with the Chocolate Drink mix! But when he tasted it, he was sold. <br /> Once home, Ransom played with ingredients, until he came up with this recipe. It has become so famous with the ward youth that he is asked to make it every time they have an outing where they get cold.</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Evaporated Milk" amount="1 Can" />
+			<ingredient name="Water" amount="1&frac12; Cups" />
+			<ingredient name="Chocolate Drink Mix"
+				nameNote="such as Quik"
+				amount="6 teaspoons" />
+			<ingredient name="Sugar" amount="6 teaspoons" />
+			<ingredient name="Vanilla" amount="&frac12; teaspoon" />
+			<ingredient name="Cinnamon"
+				amount="&frac14; teaspoon"
+				nameNote="Optional" />
+			<ingredient name="Salt" amount="A shake" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Place all ingredients in a saucepan.</instruction>
+			<instruction>Heat, stirring occasionally, until it is at the temperature you like.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>Use the Evaporated Milk's can to measure the Water. It is exactly the right size.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>If you do not have Evaporated Milk, you can replace it with:<ul>
+				<li>Plain Milk <span class="NOTE">(Good, but not excellent)</span></li>
+				<li>&frac18;-&frac14; Cups Cream or Powdered Creamer <span class="NOTE">(Very good, but not excellent.)</span></li>
+			</ul>
+		</modification>
+		<modification>For an extra special treat, try one of the following: <ul>
+				<li>Replace vanilla with &frac14; teaspoon Almond Extract.</li>
+				<li>Add 1 Tablespoon Coconut Cream <span class="NOTE">(Such as Coco Lopez. It is found by the alcohol "mixers".)</span></li>
+			</ul>
+		</modification>
+	</Modifications>
+</Recipe>

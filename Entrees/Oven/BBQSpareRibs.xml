@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="BBQ Spare Ribs" yields="6-8 servings">
+	<Source>From the kitchen of Bobbi Beagley</Source>
+	<Note>Jennie's Mom</Note>
+	<Section>&section;</Section>
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025"
+		month="3"
+		day="25" />
+
+	<Description id="Description">
+		When Jennie was growing up, her mom used to make a wonderful BBQ spare rib recipe.
+		After we were married, she shared the recipe with us, but when we made it, it turned out totally different.
+		It turns out that instead of using Tomato Paste, like the recipe calls for, she always used Tomato Sauce, so it was runny and didn't taste as good.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Boneless Country Style Spare Ribs"
+				nameNote="pork or beef"
+				amount="4 lbs." />
+			<ingredient name="Tomato Paste" amount="3 6oz. Cans" />
+			<ingredient name="Ketchup" amount="1 Cup" />
+			<ingredient name="Apple Cider Vinegar" amount="&frac14; Cup" />
+			<ingredient name="Prepared Mustard" amount="2 Tablespoons" />
+			<ingredient name="Brown Sugar" amount="&frac34; Cup" />
+			<ingredient name="Onion"
+				nameNote="Diced"
+				amount="&frac12;" />
+			<ingredient name="Salt" amount="2 teaspoons" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a skillet, brown Ribs over high heat.</instruction>
+			<instruction>In slow cooker, mix all other ingredients to create sauce.</instruction>
+			<instruction>Remove ribs from skillet and place in slow cooker, gently rolling ribs until they are coated in sauce.</instruction>
+			<instruction>Cook on high for 2-3 hours, or on low for 4-6 hours.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>CAUTION: If you over-cook the ribs they will begin to fall apart, and you end up with shredded BBQ pork or beef.</note>
+		<note>When serving the ribs, the extra sauce tastes wonderful over baked potatoes, with a dollop of sour cream.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>This is a wonderful recipe when prepared in a Dutch Oven!</modification>
+	</Modifications>
+</Recipe>

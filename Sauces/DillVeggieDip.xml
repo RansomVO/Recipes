@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Dill Veggie Dip" yields="1 Pint">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="31" />
+
+	<Description id="Description">
+		This dip is ideal for veggie trays.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Sour Cream" amount="1 Cup" />
+			<ingredient name="Mayonnaise" amount="1 Cup" />
+			<ingredient name="Dill Weed" amount="1 teaspoon" />
+			<ingredient name="Bon Ap&#xE9;tite" amount="2 teaspoons" />
+			<ingredient name="Scallions"
+				nameNote="Green Onions"
+				amount="5" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Chop the Scallions into very small pieces.</instruction>
+			<instruction>Mix all ingredients well.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>Bon Ap&#xE9;tite is a spice you can find near the Ginger powder, etc.</note>
+		<note> Do <span class="SUPER_EMPHASIZE">not</span> use fat-free mayonnaise!<br />It will cause the dip to become a clumpy mess. </note>
+		<note> Do <span class="SUPER_EMPHASIZE">not</span> substitute Miracle Whip or "salad dressing" for the mayonnaise!<br />It changes the taste negatively. </note>
+	</Notes>
+</Recipe>

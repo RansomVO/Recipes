@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Cr&#xEA;pes" yields="6-8">
+	<Source>Modified from Classic French Recipe</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="31" />
+
+	<Description id="Description">
+		After trying a few recipes, we found this one to be the easiest to make and it tastes great.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Eggs" amount="2" />
+			<ingredient name="Milk" amount="&frac23; Cup" />
+			<ingredient name="Water" amount="&frac13; Cup" />
+			<ingredient name="Vanilla" amount="&frac12; teaspoon" />
+			<ingredient name="Sugar" amount="2 Tablespoons" />
+			<ingredient name="Salt" amount="&frac12; teaspoon" />
+			<ingredient name="Baking Powder" amount="1 teaspoon" />
+			<ingredient name="Flour" amount="&frac34; Cup" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Put Eggs, Milk, Water and Vanilla in a blender and mix on lowest setting.</instruction>
+			<instruction>While mixing, add Sugar, Salt and Baking Powder.</instruction>
+			<instruction>While still mixing, slowly add Flour.</instruction>
+			<instruction>Preheat a non-stick, 6-inch frying pan on medium heat.<br /><span class="NOTE">(You may want to spray with some non-stick spray.)</span></instruction>
+			<instruction>Pour about 2 Tablespoons of batter into pan, then tip and turn the pan until bottom is coated.</instruction>
+			<instruction>Cook until slight bubbles form. The bottom should turn a light golden brown.</instruction>
+			<instruction>Turn Cr&#xEA;pe over and cook until other side is a light golden brown.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>We like to spread syrup or jam on one side, then roll up into a loose tube before eating.</note>
+		<note> For a real treat: <ol>
+				<li>Put a few spoonfuls of fruit pie filling on flat Cr&#xEA;pe.</li>
+				<li>Roll it up.</li>
+				<li>Cover with syrup.</li>
+				<li>Top it with whipped cream.</li>
+			</ol>
+		</note>
+	</Notes>
+</Recipe>

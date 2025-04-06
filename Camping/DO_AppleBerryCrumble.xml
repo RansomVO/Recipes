@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Dutch Oven Apple-Berry Crumble" yields="6-8 Servings">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="2" />
+
+	<Description id="Description">
+		We had been trying to find something that is as easy to make as the traditional "Crispy" but tastes a little better.
+		After surprisingly few attempts, we came up with this dish.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section id="Filling" title="Filling">
+			<ingredient name="Apple Pie Filling" amount="2 Cans" />
+			<ingredient name="Fresh Blueberries" amount="1-2 Cups" />
+			<ingredient name="Zest from 3 Oranges" />
+		</section>
+		<section id="Topping" title="Topping">
+			<ingredient name="Rolled Oats" amount="2 Cups" />
+			<ingredient name="Flour" amount="&frac12; Cup" />
+			<ingredient name="Brown Sugar" amount="&frac12; Cup" />
+			<ingredient name="Cinnamon" amount="1 Tablespooon" />
+			<ingredient name="Butter"
+				amount="1 Cup"
+				amountNote="2 Sticks" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Use a 14" Dutch Oven.</instruction>
+			<instruction>Empty cans of Apple Pie Filling into the Dutch Oven.</instruction>
+			<instruction>Add Blueberries and Orange Zest then gently mix.</instruction>
+			<instruction>Smooth Filling until it covers the bottom of the Dutch Oven evenly.</instruction>
+			<instruction>Sift together all Topping ingredients, except for Butter.</instruction>
+			<instruction>Sprinkle Topping over Filling, then gently smooth it until even.</instruction>
+			<instruction>Slice sticks of Butter thinly and set around on top of Topping.</instruction>
+			<instruction>Heat top of Dutch Oven until Butter melts. If needed, spread Butter to make sure all of Topping absorbs some.</instruction>
+			<instruction>Slowly cook, with a small amount of heat on the bottom and a moderate amount of heat on the top, until Topping begins to turn a golden brown.</instruction>
+			<instruction>Reduce heat on top and add heat to bottom and cook until Filling just begins to bubble up.</instruction>
+		</section>
+	</Instructions>
+
+	<Modifications id="Modifications">
+		<modification>For people with Diabetes, the Apple Pie Filling can be a No-Sugar-Added variety.</modification>
+	</Modifications>
+</Recipe>

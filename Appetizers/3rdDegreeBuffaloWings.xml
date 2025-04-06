@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="3rd Degree Buffalo Wings" yields="5 servings">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="31" />
+
+	<Description id="Description"> When Ransom made his first attempt at this recipe, he left the room while the oil heated <span class="NOTE">(with the lid on)</span>. When he came back, the oil was smoking, so he lifted the lid to let it cool. <br /> Long story short, it burst into flames, splashed on his hand, arm and foot causing 1st, 2nd and near 3rd degree burns. <span class="NOTE">(The docs all said it was 3rd degree, but it healed without surgery, so they changed their mind.)</span> And it melted the microwave oven above the stove, totally destroying it. <br /> With Joshua's help, they got the lid back on the pan, then used baking soda to put out the rest of the fire shortly before the firemen showed up.<br />Only a few days later, with his foot and arm bandaged up, Ransom managed to finish cooking these and they turned out great! </Description>
+
+	<Ingredients id="Ingredients">
+		<section id="IngredientsWings" title="Wings">
+			<ingredient name="All-Purpose Flour" amount="1 Cup" />
+			<ingredient name="Paprika" amount="&frac12; teaspoon" />
+			<ingredient name="Cayenne Pepper" amount="&frac12; teaspoon" />
+			<ingredient name="Salt" amount="&frac12; teaspoon" />
+			<ingredient name="Wings Pieces"
+				nameNote="About 3 lbs."
+				amount="20 Chicken" />
+			<ingredient name="Deep Frying" amount="Oil for" />
+		</section>
+		<section id="IngredientsSauce" title="Sauce">
+			<ingredient name="Butter" amount="&frac12; Cup" />
+			<ingredient name="Hot Sauce"
+				nameNote="Such as Tapat&#xED;o"
+				amount="&frac12; Cup" />
+			<ingredient name="Ground Black Pepper" amount="2 Dashes" />
+			<ingredient name="Garlic Powder" amount="2 Dashes" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section id="InstructionsWings" title="Wings">
+			<instruction>In a large bowl mix together the Flour, Paprika, Cayenne Pepper and Salt.</instruction>
+			<instruction>Place Chicken Wings in mixture and stir until they are well coated.</instruction>
+			<instruction>Cover bowl and refrigerate for 60 to 90 minutes.<br /><span class="Note">(While waiting, make sauce)</span></instruction>
+			<instruction>Heat Oil in a deep fryer to 375&degrees;</instruction>
+			<instruction>Fry wings in hot oil for 10 to 15 minutes, until parts of wings begin to turn brown.</instruction>
+			<instruction>Place cooked wings into a large bowl or pan.</instruction>
+			<instruction>Coat wings with sauce and stir until covered.</instruction>
+		</section>
+		<section id="InstructionsSauce" title="Sauce">
+			<instruction>In a small saucepan, combine Butter, Hot Sauce, Pepper and Garlic Powder.</instruction>
+			<instruction>Over low heat, stir together until Butter is melted and mixture is well blended.</instruction>
+			<instruction>Remove from heat and let stand until Wings are done cooking.</instruction>
+		</section>
+	</Instructions>
+
+	<Modifications id="Modifications">
+		<modification>
+			The original recipe had you use a frying pan instead of a deep fryer.
+			If you read the description, you can understand why this was changed. &smiley;
+			However, you can use a frying pan on medium high if you are more careful and don't leave the kitchen while waiting for it to heat up.
+		</modification>
+	</Modifications>
+</Recipe>

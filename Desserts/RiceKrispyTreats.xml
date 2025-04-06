@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Rice Krispy Treats" yields="about 9 large pieces">
+	<Source>From the <a class="no-print" href="https://www.ricekrispies.us/recipes/the-original-treats-recipe">Rice Krispies web site</a><span class="no-screen">Rice Krispies web site</span></Source>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="21" />
+
+	<Description id="Description">
+		These are great for a change-up when you are tired of cookies and similar treats.
+		And all of the cooking is done in a pan, so you don't even have to heat up the oven.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Butter or Margarine" amount="3 Tablespoons" />
+			<ingredient name="Marshmallows"
+				nameNote="10 oz. Regular or 10.5 oz. Miniature; about 4 cups"
+				amount="1 Package" />
+			<ingredient name="Rice Krispies" amount="6 Cups" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Prepare a 9" &vector; 9" pan by greasing it.<br /><span class="NOTE">(The best way to do this is with cooking spray, such as Pam.)</span></instruction>
+			<instruction>In large saucepan melt butter over medium heat.</instruction>
+			<instruction>Add marshmallows and stir until completely melted, then remove from heat.</instruction>
+			<instruction>In a large bowl, combine Rice Krispies and melted Marshmallow mixture.</instruction>
+			<instruction>Using greased spatula, evenly press mixture into prepared 9" &vector; 9" pan.</instruction>
+			<instruction>Let cool</instruction>
+			<instruction>Using a sharp knife, cut into 9 equally-sized squares.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>CAUTION!!! Melted marshmallow mixture is very hot and sticky. It will cause nasty burns if you are not careful!</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>Instead of Rice Krispies, use Cocoa Krispies or Fruity Pebbles</modification>
+		<modification>Add some M&amp;Ms and/or Reese's Pieces to the Rice Krispies <span class="NOTE">(or Cocoa Krispies)</span> just before adding the melted Marshmallow mixture.</modification>
+	</Modifications>
+</Recipe>

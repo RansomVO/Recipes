@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Dutch Oven Orange Rolls" yields="??">
+	<Source>
+		<span class="TODO">ToDo</span>
+	</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="3" />
+
+	<Ingredients id="Ingredients">
+		<section id="Dough" title="Dough">
+			<ingredient name="Yeast" amount="1&frac12; Tablespoons" />
+			<ingredient name="warm Water" amount="&frac12; Cup" />
+			<ingredient name="Milk" amount="1 Cup" />
+			<ingredient name="Sugar" amount="&frac12; Cup" />
+			<ingredient name="Butter"
+				amount="&frac12; Cup"
+				amountNote="1 Stick" />
+			<ingredient name="Eggs" amount="2" />
+			<ingredient name="Flour" amount="5 Cups" />
+			<ingredient name="Salt" amount="1 teaspoon" />
+		</section>
+		<section id="Filling" title="Filling">
+			<ingredient name="Butter"
+				nameNote="Softened"
+				amount="&frac14; Cup"
+				amountNote="&frac12; Stick" />
+			<ingredient name="Zest from 1 Orange" />
+			<ingredient name="Sugar" amount="2 teaspoons" />
+		</section>
+		<section id="Glaze" title="Glaze">
+			<ingredient name="Juice from 1 Orange"
+				amountNote="&aboutEquals; &frac14; Cup" />
+			<ingredient name="Butter"
+				nameNote="Melted"
+				amount="&frac14; Cup"
+				amountNote="&frac12; Stick" />
+			<ingredient name="Powdered Sugar" amount="1 Cup" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Use a <span class="TODO">??</span>" Dutch Oven lined with foil.</instruction>
+			<instruction>Dissolve Yeast in warm water with 1 teaspoon of the Sugar and let sit until it foams.</instruction>
+			<instruction>Meanwhile, scald Milk and beat Eggs.</instruction>
+			<instruction>Combine all of the Dough ingredients and knead well for 5-10 minutes.</instruction>
+			<instruction>Let Dough rise until it doubles.</instruction>
+			<instruction>While Dough is rising, combine all of the Filling ingredients and mix well.</instruction>
+			<instruction>When Dough is done rising, punch it down, and roll out into a &frac12;" thick rectangle.</instruction>
+			<instruction>Spread Filling evenly over the Dough.</instruction>
+			<instruction>Roll rectangle and slice into 1" disks. Arrange on foil at the bottom of Dutch Oven.</instruction>
+			<instruction>Let Rolls rise until doubled, then cook with medium heat mostly from above.</instruction>
+			<instruction>While cooking, combine Glaze ingredients and mix well.</instruction>
+			<instruction>When Rolls are golden brown, remove from Dutch Oven and cover with glaze.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes>
+		<note>"Scald Milk" means to heat it to a temperature just below boiling. <span class="NOTE">(&aboutEquals; 180&degrees;)</span></note>
+	</Notes>
+
+	<Modifications>
+		<modification>These look especially appetizing when topped with Maraschino Cherries.</modification>
+	</Modifications>
+</Recipe>

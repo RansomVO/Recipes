@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="No-Sugar-Added Wild Blackberry Jam" yields="3 pints">
+	<Source>Basic</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="2" />
+	<Description id="Description">In Washington, we have wild blackberries growing everywhere. One year, we decided to make jam, and since Ransom is diabetic, we tried making some without sugar for him to enjoy. It has a more solid texture than the regular jam, but it tastes great!</Description>
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Wild Blackberries"
+				nameNote="Mashed"
+				amount="5 Cups"
+				amountNote="Requires about 7-8 Cups fresh berries" />
+			<ingredient name="Sucralose"
+				nameNote="Such as Splenda"
+				amount="2&frac12; Cups" />
+			<ingredient name="Lemon Juice" amount="&frac14; Cup" />
+			<ingredient name="No-Sugar-Needed Pectin" amount="1 1.75-oz. Package" />
+		</section>
+	</Ingredients>
+	<Instructions id="Instructions">
+		<section id="MakingMashedBerries" title="Making Mashed Berries">
+			<instruction>Remove any stems from berries</instruction>
+			<instruction>Let berries soak in a large bowl, and pick out grass, leaves, etc. that floats to the top.</instruction>
+			<instruction>Drain, then rinse berries in a strainer or colander.</instruction>
+			<instruction>Mash berries, using a potato masher or something similar.</instruction>
+		</section>
+		<section id="Jam" title="Jam">
+			<instruction>Put Mashed Wild Blackberries into a large pot, add Lemon Juice and mix well.</instruction>
+			<instruction>Bring berry mixture to a boil.</instruction>
+			<instruction>In a separate bowl, mix Sucralose and No-Sugar-Needed Pectin.</instruction>
+			<instruction>When berry mixture is boiling, slowly mix in Sucralose/Pectin mixture and stir until well dissolved.</instruction>
+			<instruction>Bring mixture to a boil again, and boil for 1 minute, then remove from heat immediately.</instruction>
+			<instruction>Follow instructions in the <a href="BathCanningHowTo.xml">Bath Canning: How-To</a> section.</instruction>
+		</section>
+	</Instructions>
+	<Notes id="Description">
+		<note> Cooking time in Bath Canner: <table border="1" style="margin-left:2em;">
+				<tr>
+					<th>Altitude</th>
+					<th>Time</th>
+				</tr>
+				<tr>
+					<td>Below 1000 feet</td>
+					<td style="text-align:right;">5 minutes</td>
+				</tr>
+				<tr>
+					<td>1000-6000 feet</td>
+					<td style="text-align:right;">10 minutes</td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">Above 6000 feet</td>
+					<td>15 minutes</td>
+				</tr>
+			</table>
+		</note>
+		<note>If you let the jam boil too long, it will not "set" and you end up with runny syrup instead of jam.</note>
+		<note>We do not recommend using liquid pectin. When we do, we have had problems getting it to set.</note>
+		<note>Instead of mashing fruit, you can place fruit in a blender and blend it for a few seconds until it is just barely liquefied.</note>
+		<note>The Lemon Juice raises the acidity level of the jam so it will not spoil when stored.</note>
+		<note>If you have a big enough pot, there is no reason that you can't double the recipe.</note>
+	</Notes>
+	<Modifications id="Modifications">
+		<modification>If you are not going to can the jam, the Lemon Juice can be left out.</modification>
+	</Modifications>
+</Recipe>

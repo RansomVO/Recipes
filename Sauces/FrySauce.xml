@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Fry Sauce" yields="1 Cup">
+	<Source>Traditional Utah Recipe</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="31" />
+
+	<Description id="Description"> One of the burger joints in Utah decided to create a special sauce into which you could dip French fries. It wasn't long until long until there were a lot of different versions. <br /> Here is the basic recipe. </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Ketchup" amount="&frac12; Cup" />
+			<ingredient name="Mayonnaise" amount="&frac12; Cup" />
+			<ingredient name="Pickle Relish" amount="1 Tablespoon" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a small bowl, mix all ingredients.</instruction>
+			<instruction>That's it. Enjoy!</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>In Washington, very few joints have Fry Sauce, so when we are eating at a sit-down burger joint there, Ransom will ask for the ingredients and an empty soup cup then mix up a batch right there. &smiley;</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>Add 1 teaspoon Horseradish Sauce to give it extra zing.</modification>
+	</Modifications>
+</Recipe>

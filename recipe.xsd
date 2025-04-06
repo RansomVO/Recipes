@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<!-- *************************************************************************** -->
+	<!-- ******************************** Main Type ******************************** -->
+	<!-- *************************************************************************** -->
+	<xs:element name="Recipe">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="LastModified" type="LastModified" />
+				<xs:element name="Description" type="xs:string" />
+				<xs:element name="Ingredients" type="List" />
+				<xs:element name="Instructions" type="List" />
+				<xs:element name="Notes" minOccurs="0" type="List" />
+				<xs:element name="Modifications" minOccurs="0" type="List" />
+			</xs:sequence>
+			<xs:attribute name="name" />
+			<xs:attribute name="source" />
+			<xs:attribute name="yields" />
+		</xs:complexType>
+	</xs:element>
+
+	<!-- *************************************************************************** -->
+	<!-- ******************************** SubTypes ********************************* -->
+	<!-- *************************************************************************** -->
+
+	<!-- ===== LastModified ======================================================== -->
+	<xs:complexType name="LastModified">
+		<xs:attribute name="year" type="xs:integer" />
+		<xs:attribute name="month" type="xs:integer" />
+		<xs:attribute name="day" type="xs:integer" />
+	</xs:complexType>
+
+	<!-- ===== Instructions =============================================================== -->
+	<xs:complexType name="Instruction">
+		<xs:attribute name="time" type="xs:string" />
+	</xs:complexType>
+
+	<xs:complexType name="List">
+		<xs:sequence>
+			<xs:choice minOccurs="1" maxOccurs="unbounded">
+				<xs:element name="ContentItem" type="xs:string" />
+			</xs:choice>
+		</xs:sequence>
+		<xs:attribute name="type" default="Bullet">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Numeric" />
+					<xs:enumeration value="Upper" />
+					<xs:enumeration value="Lower" />
+					<xs:enumeration value="Bullet" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+
+</xs:schema>

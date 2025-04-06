@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Barley Stoup" yields="4 servings">
+	<Source>From the Kitchen of Orrilla VanOrman</Source>
+	<Note>Ransom's Mom</Note>
+
+	<Section>&section;</Section>
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025"
+		month="3"
+		day="29" />
+
+	<Description id="Description">
+		When Ransom was growing up, his mother used to make a simple dish that was chunky like a stew, but brothy like a soup, so, we decided to call it "stoup".
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Hamburger" amount="1 lb." />
+			<ingredient name="Water" amount="1-2 Quarts" />
+			<ingredient name="Potatoes" amount="3-5" />
+			<ingredient name="Carrots" amount="1-3" />
+			<ingredient name="Celery" amount="1 Stick" />
+			<ingredient name="Onions" amount="1" />
+			<ingredient name="Pearl Barley" amount="&frac14; Cup" />
+			<ingredient name="Frozen Petite Peas" amount="&frac12; 12oz. Bag" />
+			<ingredient name="Salt and Pepper" amount="to taste" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Peel Potatoes, Carrots and Onions.</instruction>
+			<instruction>Cut all vegetables into spoon-sized chunks.</instruction>
+			<instruction>In a large saucepan, brown the Hamburger.</instruction>
+			<instruction>Add Water, Potatoes, Carrots, Onions, Pearl Barley, Salt and Pepper.</instruction>
+			<instruction>Bring to a boil, then reduce heat and simmer until Potatoes and Carrots are tender.</instruction>
+			<instruction>Remove from heat then add Frozen Petite Peas.</instruction>
+		</section>
+	</Instructions>
+
+	<Modifications id="Modifications">
+		<modification>If you like a little more flavor, add 4 beef bouillon cubes with the Water.</modification>
+	</Modifications>
+</Recipe>

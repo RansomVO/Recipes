@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Salsa" yields="12 pints">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="2" />
+
+	<Description id="Description">After experimenting with a few batches, we found making salsa was a lot of messy work, so we decided we needed a recipe we could can. That way we could make one big mess, but then enjoy salsa whenever we wanted it.<br />So we read all about canning salsa. One thing we learned was that if the salsa is not acidic enough, then it spoils easily. Unfortunately, many of today's hybrid tomatoes are intentionally low in acid. To avoid problems, most recipes dump large amounts of lemon-juice or vinegar into the recipes which ends up making the recipe taste terrible. We did find one recipe that didn't seem to be over-doing it and based our recipe on it. <br /><span class="EMPHASIZE">It tasted wonderful!</span><br /> But we had one self-prolclaimed "expert" tell us there was no way it would pass FDA regulations for safety. By a fortunate coincidence, one of our neighbors worked at a cannery and had equipment to perform testing for FDA regulations. We tested our recipe and it passed! <div class="EMPHASIZE"><span class="SUPER_EMPHASIZE">Caution</span>: Follow the recipe exactly! Do not substitute <span class="NOTE">(except as noted below)</span>! Especially with the tomatoes! </div></Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Ripe Roma Tomatoes"
+				nameNote="Peeled, cored, and chopped"
+				amount="4 Quarts" />
+			<ingredient name="Tomato Paste" amount="4 6oz Cans" />
+			<ingredient name="Jalape&#xF1;o Peppers"
+				nameNote="Cored and chopped"
+				amount="&frac34; Cup"
+				amountNote="&aboutEquals; 6" />
+			<ingredient name="Anaheim Peppers"
+				nameNote="Cored and chopped"
+				amount="3 Cups" />
+			<ingredient name="Onions"
+				nameNote="Peeled and chopped"
+				amount="3 Cups" />
+		</section>
+		<section>
+			<ingredient name="Bottled Real Lime Juice" amount="1&frac14; Cups" />
+			<ingredient name="Cilantro Leaves"
+				nameNote="finely chopped"
+				amount="1&frac12; Cup" />
+			<ingredient name="Minced Garlic"
+				amount="8 Cloves"
+				amountNote="5-6 teaspons" />
+			<ingredient name="Salt" amount="1&frac12; teaspoons" />
+			<ingredient name="Ground Black Pepper" amount="&frac12;-1 Tablespoon" />
+		</section>
+	</Ingredients>
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Core the tomatoes by cutting out the white portion inside the tomato where the stem was attached.</instruction>
+			<instruction>Peel the tomatoes by cutting an X just through the skin on the bottom of the tomato.<br />Dip the tomato in a pot of boiling water for a few seconds until the skin begins to peel back around the X, then immediately remove the tomato and put it in ice water.<br />The tomato should now just slip out of its skin.</instruction>
+			<instruction>Chop tomatoes into chunks about the size of the end of your thumb, from the last knuckle to the tip.</instruction>
+			<instruction>Chop peppers and onions into pieces about &frac14;-inch square.</instruction>
+			<instruction>Make sure the lime juice is bottled <span class="NOTE">(not fresh)</span> and real <span class="NOTE">(not imitation)</span>.</instruction>
+			<instruction>Use fresh Cilantro. Remove the leaves and discard the stems. Finely chop the leaves and press into cup when measuring.</instruction>
+			<instruction>When all of the ingredients are prepared, put them into a pot and bring to a full boil for 5 minutes.</instruction>
+			<instruction>Immediately fill hot pint jars leaving &frac12;-1 inch at the top of the jar, then put on the lids.</instruction>
+			<instruction>Follow instructions in the <a href="BathCanningHowTo.xml">Bath Canning: How-To</a> section.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes" pageBreak="true">
+		<note> Cooking time in Bath Canner: <table border="1">
+				<tr>
+					<th>Altitude</th>
+					<th>Time</th>
+				</tr>
+				<tr>
+					<td>Below 1000 feet</td>
+					<td style="text-align:right;">15 minutes</td>
+				</tr>
+				<tr>
+					<td>1000-6000 feet</td>
+					<td style="text-align:right;">20 minutes</td>
+				</tr>
+				<tr>
+					<td>Above 6000 feet</td>
+					<td style="text-align:right;">25 minutes</td>
+				</tr>
+			</table>
+		</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>It is very important to follow the recipe exactly. The items that can be adjusted are listed below. This is CRITICAL to keep the salsa from spoiling.</modification>
+		<modification>You may adjust the amount of Cilantro, Garlic, Salt or Black Pepper to taste.</modification>
+		<modification>You may reduce the amount of Peppers or Onions, but do not increase.</modification>
+		<modification>You may substitute 1 cup of the Anaheim peppers with 1 cup of Jalape&#xF1;o peppers, for a spicier salsa.</modification>
+		<modification>You may substitute some or all of the bottled real lime juice with bottled real lemon juice. <span class="NOTE">(This is usually less expensive, but in my opinion, tastes nowhere near as good.)</span></modification>
+	</Modifications>
+</Recipe>

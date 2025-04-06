@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Stealth-Attack Chili" yields="10-12 servings">
+	<Source>A VanOrman Original</Source>
+	<Section>&section;</Section>
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025"
+		month="3"
+		day="25" />
+
+	<Description id="Description"> This is one of the first recipes invented by Ransom. He wanted a good recipe that could be made with ingredients primarily from food storage. We went through several attempts, but once we succeeded, we would make it over and over. Due to the spices, it takes 4-5 bites before you realized it is very spicy hot. <span class="NOTE">(Thus stealth-attack.)</span>
+		<br /> Unfortunately, when we moved to Washington, nobody could stand how hot it was. <span class="NOTE">(It's not <span class="HIGHLIGHT">that</span> hot to me.)</span> And when made for Boy Scout competitions, it didn't have a good "look" to it, so we invented <a href="../StoveTop/KlondikeChili.xml">Entrees / Stove Top: Klondike Chili</a>. But, we still make this one from time to time. </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Dried Kidney Beans" amount="2 Cups" />
+			<ingredient name="Dried Red Beans" amount="1 Cup" />
+			<ingredient name="Dried Pinto Beans" amount="1 Cup" />
+			<ingredient name="Water" amount="2 Quarts" />
+			<ingredient name="Hamburger" amount="1 lb." />
+			<ingredient name="Dried Minced Onion" amount="&frac12;-1 Cup" />
+			<ingredient name="Chili Powder" amount="1-2 Tablespoons" />
+			<ingredient name="Cayenne Pepper" amount="&frac12;-2 teaspoons" />
+			<ingredient name="Black Pepper" amount="&frac12;-2 teaspoons" />
+			<ingredient name="Garlic Powder" amount="1 teaspoon" />
+		</section>
+		<section>
+			<ingredient name="Celery Seed" amount="2 teaspoons" />
+			<ingredient name="Paprika" amount="&frac12; teaspoon" />
+			<ingredient name="Cumin" amount="2 teaspoons" />
+			<ingredient name="Salt" amount="2 Tablespoons" />
+			<ingredient name="Brown Sugar" amount="2 Tablespoons" />
+			<ingredient name="Tomato Sauce" amount="3 8-oz. Cans" />
+			<ingredient name="Tomato Paste" amount="2 6-oz. Cans" />
+			<ingredient name="Tomatoes" amount="6" />
+			<ingredient name="Water" amount="&frac12;-2 Cups" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Put water and beans in crock pot and cook them on Low overnight. <span class="NOTE">(4-8 hours)</span></instruction>
+			<instruction>Drain all of the excess water, leaving beans in crock pot.</instruction>
+			<instruction>Brown Hamburger, until there is no pink meat left, then add to crock pot.</instruction>
+			<instruction>Put all other ingredients into crock pot, except water, and mix well.</instruction>
+			<instruction>Add Water until Chili is at desired consistency.</instruction>
+			<instruction>Cook on High for 2-4 hours or Low for 4-8 hours.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>Dried beans are hard. They need to be softened before they can be eaten. That is why you have to start the recipe the night before.</note>
+		<note>People have different tastes for spiciness. Use the minimum if you like Mild. The max if you like Hot, or somewhere in between for a Medium.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>May substitute 2 Onions cut into &frac14;" disks, then disks cut into 4 wedges for Dried Minced Onion.</modification>
+		<modification>May substitute 1 teaspoon Minced Garlic for the Garlic Powder.</modification>
+		<modification>May substitute 2 Tablespoons Light Corn Syrup for the Brown Sugar.</modification>
+		<modification>May substitute 2 14.5-oz. cans Diced Tomatoes for the Tomatoes.</modification>
+		<modification>This can be cooked on the stove in a large pot by substituting 3-4 cans of beans for the dried beans, then simmer on medium low for 15-30 minutes.</modification>
+	</Modifications>
+</Recipe>

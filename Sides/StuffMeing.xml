@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="StuffMeing" yields="8-10 Servings">
+	<Source>Based on a Recipe from Karla Therriault</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="1" />
+
+	<Description id="Description">
+		Most Thanksgivings we have used boxes of Stove Top Stuffing, but one year we ate at our in-laws, the Therriault's, and fell in love with their stuffing.
+		She gave us her recipe and we made some modifications to make it completely on the stove instead of stuffing it into the Turkey.
+		That makes it StuffMeing instead of Stuffing. &smiley;
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Celery"
+				nameNote="With Leaves"
+				amount="1&frac12; Cups" />
+			<ingredient name="Fresh Sage Leaves" amount="1&frac12; teaspoons" />
+			<ingredient name="Fresh Thyme Leaves" amount="1 teaspoon" />
+			<ingredient name="Mushrooms" amount="1-2 Cups" />
+			<ingredient name="Salt" amount="2 teaspoons" />
+			<ingredient name="Pepper" amount="&frac12; teaspoon" />
+			<ingredient name="Butter"
+				amount="1 Cup"
+				amountNote="2 Sticks" />
+			<ingredient name="Turkey Broth" amount="2 Cups" />
+			<ingredient name="Bread"
+				nameNote="As heavy/dense as possible"
+				amount="1 Loaf" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Cut Onion into &frac14;-inch discs, then slice the discs into 8 wedges.</instruction>
+			<instruction>Cut Celery into thin slices. Slice the leaves into the same thickness.</instruction>
+			<instruction>Chop Sage Leaves until pieces are &frac18;-inch squares or smaller.</instruction>
+			<instruction>Remove Thyme Leaves from stems, but don't chop.</instruction>
+			<instruction>If using Mushrooms, cut into &frac14;-inch slices. <span class="NOTE">(If slices are more than 1&frac12; inch wide, cut in half.)</span></instruction>
+			<instruction>Using a bread knife, cut Bread slices into 1-inch x 1-inch squares.<br /><span class="NOTE">(This can be done with several slices at a time.)</span></instruction>
+			<instruction>In a saucepan, melt the butter then stir in the Onion, Celery, Sage, Thyme, Salt and Pepper. Reduce heat to low, and simmer with lid on, stirring occasionally, for 20 minutes.</instruction>
+			<instruction>Add Mushrooms and simmer for 5 minutes.</instruction>
+			<instruction>Add Turkey Broth, turn burner to high and bring to a boil.</instruction>
+			<instruction>Turn off burner, add Bread and gently stir until all bread has absorbed Broth.</instruction>
+			<instruction>Let sit for 5 minutes and gently stir again.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>The Turkey Broth should be obtained from the turkey's drippings when it is done cooking.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>If not being prepared as a side-dish for turkey, use chicken, vegetable, or some other flavor of broth.</modification>
+		<modification>Instead of Fresh Sage and Thyme, dried can be used.</modification>
+		<modification>Add 2-4 Oz. fully cooked Sausage, broken into pea-sized chunks, just before adding the bread.</modification>
+	</Modifications>
+</Recipe>

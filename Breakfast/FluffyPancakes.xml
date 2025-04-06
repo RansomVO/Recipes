@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Fluffy Pancakes" yields="4-6">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="31" />
+
+	<Description id="Description"> We ran out of pancake mix one day and decided to try to make our own recipe. This is what we came up with. <br /> They are light, fluffy and sweet, but extremely simple to make. </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Flour" amount="1 Cup" />
+			<ingredient name="Baking Soda" amount="1 teaspoon" />
+			<ingredient name="Baking Powder" amount="1&frac12; teaspoon" />
+			<ingredient name="Sugar" amount="1 Tablespoon" />
+			<ingredient name="Egg" amount="1" />
+			<ingredient name="Vegetable Oil" amount="&frac14; Cup" />
+			<ingredient name="Milk" amount="&frac34; Cup" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Put all ingredients in a bowl.</instruction>
+			<instruction>Mix well.</instruction>
+			<instruction>Cook on a preheated griddle.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note><span class="EMPHASIZE">Do not stir the batter too much!</span><br />For best results, it should have a bunch of small lumps that are a little smaller than peas.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>To make Buttermilk Pancakes, replace Milk with Buttermilk.</modification>
+	</Modifications>
+
+	<FinalNote id="FinalNote">See, I told you it was simple. &smiley;</FinalNote>
+</Recipe>

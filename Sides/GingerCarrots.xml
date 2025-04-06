@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Ginger Carrots" yields="3-4 Servings">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="1" />
+
+	<Description id="Description">
+		Nobody in Ransom's family likes sweet potatoes, or yams.
+		This slightly sweet recipe takes their place at Thanksgiving.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Carrots" amount="2-3" />
+			<ingredient name="Fresh Ginger"
+				nameNote="finely grated"
+				amount="1 Tablespoon" />
+			<ingredient name="Brown Sugar" amount="2 Tablespoons" />
+			<ingredient name="Minced Garlic" amount="&frac12; teaspoon" />
+			<ingredient name="Chicken Broth"
+				nameNote="Double-Strength"
+				amount="2 Cups" />
+			<ingredient name="Butter" amount="2 Tablespoons" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Peel Carrots and cut into 1" chunks.</instruction>
+			<instruction>Pull all ingredients into a saucepan.</instruction>
+			<instruction>Place on stove and heat on high until it is boiling.</instruction>
+			<instruction>Reduce heat to medium/medium low and simmer until carrots are soft.</instruction>
+			<instruction>Drain and serve hot.</instruction>
+		</section>
+	</Instructions>
+
+	<Modifications id="Modifications">
+		<modification>You can create the Double-Strength Chicken Broth by using 2 Cups Water + 4 Chicken Bouillon Cubes <span class="NOTE">(or the equivalent)</span>.</modification>
+		<modification>For a little kick, add &frac12; teaspoon White Pepper.</modification>
+	</Modifications>
+</Recipe>

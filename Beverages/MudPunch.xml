@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Mud Punch" yields="8 1-Cup servings">
+	<Source>A VanOrman Original</Source>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="27" />
+
+	<Description id="Description">
+		I have no idea why, but at a family gathering with cousins, my dad just decided to mix a couple of juices.
+		The results looked disgusting, but actually tasted really good.
+		Because of the brown color, we decided to call it "Mud Punch".
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Orange Juice Concentrate" amount="1 12-oz. Can" />
+			<ingredient name="Grape Juice Concentrate" amount="1 12-oz. Can" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a large pitcher, combine both cans of Juice Concentrate.</instruction>
+			<instruction>Add the appropriate amount of water. <span class="NOTE">(2 cans for each.)</span></instruction>
+			<instruction>Mix well.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>These days, the coloring of the Juice Concentrates is generally artificial, so it doesn't look like mud so much, but it still tastes good.</note>
+	</Notes>
+</Recipe>

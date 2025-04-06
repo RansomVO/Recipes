@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Root Beer" yields="4-4 gallons">
+	<Source>From the kitchen of David Beagley</Source>
+	<Note>Jennie's Dad</Note>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="25" />
+
+	<Description id="Description">
+		On a hot summer day, nothing is better than a big Cooler Jug of sweet Root Beer.
+		And this recipe is hands-down the best.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Water"
+				nameNote="Warm"
+				amount="3 Gallons" />
+			<ingredient name="Sugar" amount="10 Lbs." />
+			<ingredient name="Root Beer Extract" amount="1 2oz. Bottle" />
+		</section>
+		<section>
+			<ingredient name="Vanilla"
+				nameNote="Optional"
+				amount="2oz."
+				amountNote="Cheap" />
+			<ingredient name="Dry Ice" amount="8-10 Lbs." />
+			<ingredient name="Water"
+				nameNote="Cold"
+				amount="1-2 Gallons" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a 5-gallon Cooler Jug, combine 3 gallons Warm Water and Sugar and mix well until Sugar is dissolved.</instruction>
+			<instruction>Add Root Beer Extract and Vanilla.</instruction>
+			<instruction><span class="EMPHASIZE">Gently</span> and <span class="SUPER_EMPHASIZE">Carefully</span> add Dry Ice, taking care to keep it away from Cooler Jug's spout.</instruction>
+			<instruction>Put lid on the Cooler Jug but <span class="SUPER_EMPHASIZE">DO NOT</span> fasten it down.</instruction>
+			<instruction>Every 5-10 minutes, stir Dry Ice to break up Root Beer that will freeze to it, again taking care to keep it away from the Cooler Jug's spout.</instruction>
+			<instruction>Wait for 45-60 minutes until bubbling is mostly gone.</instruction>
+			<instruction>Add the desired amount of Cold Water. <span class="NOTE">(We usually add 1 Gallon because it tastes <span class="EMPHASIZE">really</span> good. But, if we have a lot of people, we fill the Cooler Jug to the top.)</span></instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note><span class="SUPER_EMPHASIZE">Do Not Touch Dry Ice With Bare Skin!!!</span> Make sure you are decently insulated! <br /> Dry Ice is so cold that touching it with bare skin for more than an instant will cause blisters and burns! <br /> We have found that if you fold a brown-paper bag over so that there are at least four layers of it between your hand and the dry ice, you can hold the dry ice just long enough to get it into the Root Beer. </note>
+		<note>The Warm Water temperature is fairly important. <ul>
+				<li>The Warm Water is, the more Dry Ice you'll need, but the faster the Root Beer will be carbonated.</li>
+				<li>If the Warm Water is cool to begin, the whole thing will freeze before it is carbonated. Water that is slightly warmer that luke-warm works best for me. <span class="NOTE">(For you perfectionists, I just measured the temperature We use and it is about the same as body temperature: 98° F / 37° C)</span></li>
+				<li>Only 3 gallons of Warm Water is used at first because the rapidly evaporating Dry Ice will create a lot of bubbling.<br /><span class="NOTE">If the full 5 gallons is used, sticky, Root Beer-flavored water splashes all over the place.</span></li>
+			</ul>
+		</note>
+		<note>The Vanilla should be the cheapest you can find. We used expensive Mexican Vanilla once and it tasted <span class="EMPHASIZE">terrible!</span></note>
+		<note>Use the empty Root Beer Extract bottle to measure the Vanilla.</note>
+		<note>If you use enough Dry Ice, some of the Root Beer will freeze into a slush which kids love to scoop out and eat with a spoon. <span class="NOTE">(or without &smiley;.)</span></note>
+	</Notes>
+
+	<Modifications id="Modifications" pageBreak="true">
+		<modification>Adding <a class="TODO qzxDisabled" href="QZX">Home-made Vanilla Ice Cream</a> makes a fantastic Root-Beer Float.</modification>
+	</Modifications>
+
+	<AdditionalNotes id="AdditionalNotes">
+		<note> We usually use a big 5-gallon cooler with a spigot. <span class="NOTE">(Like Coleman or Igloo brand.)</span>
+			<br />When adding the Dry Ice, make sure it doesn't end up near the inside of the spigot. Otherwise, the spigot will end up freezing shut, and we actually saw one break. <span class="NOTE">(5 gallons of nearly-finished Root Beer makes quite a mess.)</span>
+			<br />To prevent this, we actually have a long wooden stirring spoon that is dedicated to making Root Beer. It helps to get the Dry Ice into the cooler without splashing, and can be used to keep the Dry Ice away from the spigot. <br />The length of the spoon is intentionally not quite as tall as the inside of Cooler Jug so we leave the spoon in it while the Dry Ice is doing its thing. </note>
+		<note>Do not fasten lid completely on Cooler Jug. The pressure of the dissolving Dry Ice can destroy seals, and in some cases damage the Cooler Jug.</note>
+		<note> One final note: Don't make Root Beer in a Cooler Jug you want to use to serve water later. Juice, lemonade, etc. are just fine, but for some reason, if you try to serve water in the Cooler Jug, the water ends up with a Root Beer after-taste. <br />
+			<span class="NOTE">(We have two Cooler Jugs and the blue one is <span class="SUPER_EMPHASIZE">only</span> for water!)</span>
+		</note>
+	</AdditionalNotes>
+</Recipe>

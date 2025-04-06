@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Easy Enchiladas" yields="6 servings">
+	<Source>From the kitchen of Janey Nelson</Source>
+	<Note>A family friend</Note>
+
+	<Section>&section;</Section>
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025"
+		month="3"
+		day="27" />
+
+	<Description id="Description">Real enchiladas require a lot of effort. There is preparing filling, sauce, etc. Then there is a bunch of assembly required.<br />This recipe isn't really enchiladas, but it will fool just about anybody except a Mexican.</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Burritos" amount="6 Frozen" />
+			<ingredient name="Enchilada Sauce" amount="1 20oz. Can" />
+			<ingredient name="Cheddar Cheese"
+				nameNote="Grated"
+				amount="&frac12; lb." />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Preheat oven to 350&degrees;.</instruction>
+			<instruction>Pour a few Tablespoons of Enchilada Sauce in the bottom of a 9" &vector; 9" pan and spread it evenly.</instruction>
+			<instruction>Lay out the burritos evenly across the pan so that they are touching.</instruction>
+			<instruction>Pour the rest of the Enchilada Sauce evenly over the top of the burritos.</instruction>
+			<instruction>Grate the Cheese and spread evenly over the top.</instruction>
+			<instruction>Cover with foil.</instruction>
+			<instruction>Bake at 350&degrees; for 30 minutes.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>
+			Cheap frozen burritos work great for this recipe.
+			I always buy the cheap family packs that have about a dozen burritos.
+		</note>
+		<note>If the burritos are small, you may need to use more to get them to touch all the way across.</note>
+		<note>
+			It is no problem to have the burritos lean against each other, but it can increase the cooking time.
+			For example, 8 burritos in an 8" &vector; 8" pan can take a full hour to cook.
+		</note>
+	</Notes>
+</Recipe>

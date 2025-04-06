@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Pizza" yields="4-6">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025"
+		month="3"
+		day="27" />
+
+	<Description id="Description"> We have a family tradition of having home-made pizza every year on Halloween. This recipe is an adaptation of <a href="../../Camping/DO_DutchFathersPizza.xml">Dutch Oven and other Camping Recipes: Dutch Father's Pizza</a> that Grandpa John invented for Dutch ovens, but modified so we can cook it indoors. </Description>
+
+	<Ingredients id="Ingredients">
+		<section id="IngredientsCrust" title="Crust">
+			<ingredient name="Water"
+				nameNote="Warm"
+				amount="1 Cup" />
+			<ingredient name="Sugar" amount="1 Tablespoons" />
+			<ingredient name="Yeast" amount="1 Tablespoon" />
+			<ingredient name="Salt" amount="&frac12; Tablespoon" />
+			<ingredient name="Shortening" amount="&frac14; Cup" />
+			<ingredient name="Egg" amount="1" />
+			<ingredient name="Flour" amount="3 Cups" />
+		</section>
+		<section id="IngredientsToppingSuggestions" title="Topping Suggestions">
+			<ingredient name="Cheese" nameNote="&frac12; Mozzarella + &frac12; Cheddar" />
+			<ingredient name="Ground Sausage" nameNote="Pre-cooked" />
+			<ingredient name="Pepperoni" />
+			<ingredient name="Ham" />
+			<ingredient name="Canadian Bacon" />
+			<ingredient name="Onions" />
+			<ingredient name="Peppers" />
+			<ingredient name="Mushrooms" />
+			<ingredient name="Olives" />
+			<ingredient name="Tomatoes" nameNote="Sliced" />
+			<ingredient name="Pineapple" finePrint="Personally, Ransom thinks pineapple is a desecration on pizza, but his kids forced him to include it." />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section id="InstructionsCrust" title="Crust">
+			<instruction>Mix Sugar into Water, then add Yeast.</instruction>
+			<instruction>When Yeast begins to foam, add all other ingredients and knead for 10 minutes.</instruction>
+			<instruction>Put in greased bowl, cover and let rise until doubled. <span class="NOTE">(About 30 minutes.)</span></instruction>
+		</section>
+		<section id="InstructionsAssembling" title="Assembling">
+			<instruction>Preheat oven to 425&degrees;</instruction>
+			<instruction>Cut off a piece of dough about the size of your fist. <span class="NOTE">(Slightly larger if you like a softer crust, slightly smaller if you like a crisper crust.)</span></instruction>
+			<instruction>Roll dough out into a 12-inch circle.</instruction>
+			<instruction>Put dough onto a cookie sheet.</instruction>
+			<instruction>Cookie sheet should either be greased or sprinkled with corn meal.</instruction>
+			<instruction>You can use a pie tin instead of a cookie sheet if you make them a little smaller.</instruction>
+			<instruction>Cover crust with sauce <span class="Note">(See recipe for <a href="../../Sauces/MarinaraSauce.xml">Sauces: Marinara Sauce</a>.)</span></instruction>
+			<instruction>
+				Add the toppings desired.
+				It usually works best to do a little cheese, then other ingredients, then more cheese.
+				Pepperoni can go on the very top.
+			</instruction>
+			<instruction>Bake at 425&degrees; for 12-15 minutes.</instruction>
+			<instruction>Remove from oven, let sit for 2 minutes, then cut and serve.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>For Gluten Sensitive people, check out: <a href="GF_PizzaCrust.xml">Entrees / Oven: Gluten-Free Pizza Crust</a></note>
+		<note>If time is short, you can just buy a simple spaghetti sauce to use for the pizza sauce, but if you do, don't get chunky sauce because it is hard to spread evenly over the crust.</note>
+		<note>Use left-over sauce as a dipping sauce for the pizza crusts.</note>
+	</Notes>
+</Recipe>

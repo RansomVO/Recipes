@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Chile Colorado" yields="about ??">	<!--- QZX TODO: Figure this out. -->
+	<Source>Based on a Recipe found online.</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="31" />
+
+	<Description id="Description">
+		Di loves Chile Colorado, so we tried several Recipes.
+		Then we found a good starting recipe online and used that as a starting point.
+		We made some modifications and changed to using the InstaPot.
+		Now we love it.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Guajillo Chiles"
+				nameNote="Dried"
+				amount="8" />
+			<ingredient name="Ancho Chiles"
+				nameNote="Dried"
+				amount="2" />
+			<ingredient name="Onion" amount="&frac12; Large" />
+			<ingredient name="Water" amount="2 Cups" />
+			<ingredient name="Flour" amount="2 Tablespoons" />
+			<ingredient name="Salt" amount="1&frac12; teaspoons" />
+			<ingredient name="Pepper" amount="&frac12; teaspoon" />
+		</section>
+		<section>
+			<ingredient name="Oregano" amount="1 teaspoon" />
+			<ingredient name="Cumin" amount="&frac12; teaspoon" />
+			<ingredient name="Garlic" amount="1 Clove" />
+			<ingredient name="Oil" amount="2 Tablspoons" />
+			<ingredient name="Stew Meat" amount="2 lbs." />
+			<ingredient name="Beef Broth"
+				amountNote="1&frac12;-Strength"
+				amount="3 Cups" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Remove stems and seed from the Dried Chiles.</instruction>
+			<instruction>Cut Onion into 4-6 chunks, and break chunks apart.</instruction>
+			<instruction>In small pot, put Chiles, Onions and Water and place on stove with burner set to high until it comes to a boil.</instruction>
+			<instruction>Turn burner off and let pot sit for 20 minutes.</instruction>
+			<instruction>Cut Stew Meat into chunks that are about 1" square.</instruction>
+			<instruction>Place Oil in InstaPot and set it to Saute.</instruction>
+			<instruction>When hot, add Stew Meat and cook until it starts to look golden on the outside, then turn InstaPot off.</instruction>
+			<instruction>
+				Remove all of the Chiles and Onions from the pot of water and place in a blender, along with 1 cup of the now Red Water from the pot.
+				Add Flour, Salt, Pepper, Oregano, Cumin and Garlic and blend until evenly smooth.
+			</instruction>
+			<instruction>Pour the sauce from the blender into the InstaPot and stir.</instruction>
+			<instruction>Place the Beef Broth in the blender, and run it for a few seconds, then pour that into the InstaPot.</instruction>
+			<instruction>Set the InstaPot to Pressure Cook for 15 minutes.</instruction>
+			<instruction>After Pressure Cooking is complete, let it sit for 15 minutes, then release any pressure.</instruction>
+			<instruction>Stir gently and serve.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>This must <span class="SMALL_NOTE">(sarcasm)</span> be served with Mexican Fried Rice. If you start the recipe right when the Pressure Cooking is set, then both recipes should complete at about the same time.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>You can create the 1&frac12;-Strength Beef Broth by using 3 Cups of Water + 4&frac12; Bouillon Cubes <span class="NOTE">(or the equivalent)</span>.</modification>
+		<modification>To make it more spicy, add 1-3 Arbol Chiles <span class="NOTE">(Dried)</i> with the other Chiles <i>(Dried)</span>.</modification>
+	</Modifications>
+</Recipe>

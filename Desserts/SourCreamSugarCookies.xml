@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Sour Cream Sugar Cookies" yields="about ??">	<!--- QZX TODO: Figure this out. -->
+	<Source>From the Kitchen of Heather Johnson</Source>
+	<Note>From Issaquah 5th Ward</Note>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="3" />
+
+	<Description id="Description">
+		We have had many really good recipes for sugar cookies.
+		But this recipe is the best we have ever had.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section id="IngredientsCookies" title="Cookies">
+			<ingredient name="Sugar" amount="2 Cups" />
+			<ingredient name="Butter"
+				nameNote="Softened"
+				amount="1 Cup"
+				amountNote="2 sticks" />
+			<ingredient name="Eggs" amount="3" />
+			<ingredient name="Sour Cream" amount="1 Cup" />
+			<ingredient name="Vanilla" amount="1 teaspoon" />
+			<ingredient name="Baking Soda" amount="1 teaspoon" />
+			<ingredient name="Flour" amount="6&frac12; Cups" />
+			<ingredient name="Salt" amount="1 teaspoon" />
+		</section>
+		<section id="IngredientsFrosting" title="Frosting">
+			<ingredient name="Butter"
+				nameNote="Softened"
+				amount="&frac12; Cup"
+				amountNote="1 stick" />
+			<ingredient name="Cream Cheese" amount="1 8oz. Package" />
+			<ingredient name="Vanilla" amount="1 teaspoon" />
+			<ingredient name="Powdered Sugar" amount="4 Cups" />
+			<ingredient name="Food Coloring"
+				nameNote="Optional"
+				amount="A Few Drops" />
+			<ingredient name="Milk" amountNote="as needed" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section id="InstructionsCookies" title="Cookies">
+			<instruction>Preheat oven to 350&degrees;.</instruction>
+			<instruction>Cream butter and Sugar together.</instruction>
+			<instruction>Stir in Eggs.</instruction>
+			<instruction>Stir in Sour Cream and Vanilla.</instruction>
+			<instruction>Stir in the rest of the ingredients.</instruction>
+			<instruction>Flatten dough between plastic wrap and refrigerate several hours until cold/hard.</instruction>
+			<instruction>Roll dough to &frac14;" thick, cut with cookie cutters and place on a greased cookie sheet.</instruction>
+			<instruction>Bake at 350&degrees; for 10 minutes.</instruction>
+			<instruction>Let cool, then frost.</instruction>
+		</section>
+		<section id="InstructionsFrosting" title="Frosting">
+			<instruction>Combine Butter, Cream Cheese and Vanilla and beat until smooth.</instruction>
+			<instruction>Gradually add Powdered Sugar while beating.</instruction>
+			<instruction>If mixture is too thick to spread, add a small amount of Milk, &frac12; teaspoon at a time.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>When a recipe says <span class="EMPHASIZE">Softened</span> Butter, it means butter at room temperature. Do <span class="SUPER_EMPHASIZE">NOT</span> melt the Butter. It changes the consistency of the results to a sticky mess.</note>
+		<note>If you want to have plain white frosting, use colorless Vanilla.</note>
+	</Notes>
+</Recipe>

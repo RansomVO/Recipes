@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Tres Leches Cake" yields="12-15 servings">
+	<Source>From the kitchen of Rosey Tan Nelson</Source>
+	<Note>Di's Cuban friend</Note>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="21" />
+
+	<Description id="Description">
+		Tres Leches Cake is a treat common throughout Latin America.
+		There are tons of recipes out there, but this is one is authentic.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section id="IngredientsCake" title="Cake">
+			<ingredient name="Flour" amount="1 Cup" />
+			<ingredient name="Baking Powder" amount="1&frac12; teaspoons" />
+			<ingredient name="Salt" amount="&frac14; teaspoon" />
+			<ingredient name="Eggs" amount="5" />
+			<ingredient name="Sugar" amount="1 Cup" />
+			<ingredient name="Vanilla" amount="1 teaspoon" />
+			<ingredient name="Milk" amount="&frac13; Cup" />
+		</section>
+		<section id="IngredientsFilling" title="Filling">
+			<ingredient name="Evaporated Milk" amount="1 Can" />
+			<ingredient name="Sweetened Condensed Milk" amount="1 Can" />
+			<ingredient name="Heavy Cream" amount="&frac14; Cup" />
+		</section>
+		<section id="IngredientsIcing" title="Icing">
+			<ingredient name="Heavy Cream" amount="1 Pint" />
+			<ingredient name="Sugar" amount="3 Tablespoons" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section id="InstructionsCake" title="Cake">
+			<instruction>Spray 9 &vector; 13 pan liberally with no-stick spray <span class="NOTE">(such as Pam)</span> and set aside.</instruction>
+			<instruction>In a large bowl, combine Flour, Baking Powder and Salt.</instruction>
+			<instruction>Separate Egg Yolks from Egg Whites.</instruction>
+			<instruction>Beat Egg Yolks with &frac34; Cup Sugar on high speed until Yolks are a pale yellow.</instruction>
+			<instruction>Stir in Milk and Vanilla.</instruction>
+			<instruction>Pour Egg Yolk mixture over the Flour mixture and stir very gently until combined.</instruction>
+			<instruction>Beat egg whites on high speed until soft peaks form.</instruction>
+			<instruction>With mixer on, add remaining &frac14; cup Sugar and beat until egg whites are stiff but not dry.</instruction>
+			<instruction>Fold Egg White mixture into the batter very gently until just combined.</instruction>
+			<instruction>Pour mixture into greased pan and spread to even out the surface.</instruction>
+			<instruction>Bake at 350&degrees; for 35-45 or until an inserted toothpick comes out clean.</instruction>
+			<instruction>Turn cake upside-down onto a platter.</instruction>
+			<instruction>Let cake cool.</instruction>
+		</section>
+		<section id="InstructionsFilling" title="Filling">
+			<instruction>In a separate bowl, combine Filling ingredients and mix well.</instruction>
+			<instruction>Remove 1 Cup of mixture. <span class="NOTE">(It won't be used in this recipe.)</span></instruction>
+			<instruction>Punch holes in the cake with a fork, then drizzle remaining mixture all over the cake.</instruction>
+			<instruction>Let sit for 30 minutes.</instruction>
+			<instruction>Combine Topping ingredients and mix well.</instruction>
+			<instruction>Drizzle icing all over the cake.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>Be absolutely certain to remove 1 Cup of the Filling mixture before drizzling! Using all of it will ruin the cake. (On the other hand, you can use the leftover for whatever you want: Dipping sliced apples, pouring over sliced bananas, eating with a spoon, whatever.</note>
+	</Notes>
+</Recipe>

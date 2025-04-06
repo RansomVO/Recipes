@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Wonton Soup" yields="6-8 servings">
+	<Source>From the Kitchen of Mitsuko Barnhardt, Di's Mom</Source>
+
+	<Section>&section;</Section>
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025"
+		month="3"
+		day="29" />
+
+	<Description id="Description">
+		When Di looks back and remembers peaceful times at home, she remembers her mom making Wonton Soup.
+		When we were looking for a new recipe to create, Wonton Soup became a priority and we came up with this.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Vegetable Oil" amount="1 Tablespoon" />
+			<ingredient name="Garlic, Minced" amount="1 Tablespoon" />
+			<ingredient name="Chicken Broth"
+				nameNote="Regular Strength"
+				amount="10 Cups" />
+			<ingredient name="Carrots"
+				nameNote="Thinly sliced into strands."
+				amount="&frac14; Cup" />
+			<ingredient name="Grated Ginger"
+				nameNote="Unless Di is there."
+				amount="1 teaspoon" />
+			<ingredient name="Green Onion"
+				nameNote="Thinly Sliced"
+				amount="&frac14; Cup" />
+			<ingredient name="Bok Choy"
+				nameNote="Thinly Sliced"
+				amount="1&frac12; Cups" />
+			<ingredient name="Shiitake Mushrooms"
+				nameNote="Sliced"
+				amount="&frac12; Cup" />
+			<ingredient name="Wontons" amount="15-20" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>If desired, get the Wontons by using the <a href="Wontons.xml">Entrees / Stove Top: Wontons</a> Recipe. <span class="NOTE">(Use the Envelope Style folding.)</span></instruction>
+			<instruction>
+				Slice the Carrots into very thing discs.
+				Then lay the discs out flat and slice them into into strands.
+			</instruction>
+			<instruction>In a large pot Place Oil and Garlic. Heat on high until Garlic begins to sizzle.</instruction>
+			<instruction>Carefully add Broth, Carrots and Ginger, then bring to a boil.</instruction>
+			<instruction>Add Green Onions and Bok Choy.</instruction>
+			<instruction>Carefully add Wontons, 1-by-1, then boil for 5 minutes.</instruction>
+			<instruction>Add Mushrooms and boil for 1 minute.</instruction>
+			<instruction>Immediately remove from heat.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>If you have leftovers, fish out the wontons and store them in a dry container, separate from the soup. <span class="NOTE">(Otherwise they get all soggy.)</span></note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>Do <span class="SUPER_EMPHASIZE">NOT</span> use Grated Ginger if Di is eating with you!<br />Di doesn't like Ginger, so her mom set it in a bowl on the table and it was used as a condiment. </modification>
+		<modification>You can create the Chicken Broth by using 10 Cups Water + 10 Chicken Bouillon Cubes <span class="NOTE">(or the equivalent)</span>.</modification>
+		<modification>Many versions of this recipe include &frac14; Cup Sliced Bamboo Shoots in the soup.</modification>
+	</Modifications>
+</Recipe>

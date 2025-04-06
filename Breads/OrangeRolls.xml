@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Orange Rolls" yields="??">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="2" />
+
+	<Description></Description>
+
+	<Ingredients id="Ingredients">
+		<section id="IngredientsDough" title="Dough">
+			<ingredient name="Butter" amount="&frac12; Cup" />
+			<ingredient name="Buttermilk" amount="2 Cups" />
+			<ingredient name="Yeast" amount="2 Tablespoons" />
+			<ingredient name="Baking Soda" amount="&frac12; teaspoon" />
+			<ingredient name="Sugar" amount="&frac12; Cup" />
+			<ingredient name="Salt" amount="2 teaspoons" />
+			<ingredient name="Flour" amount="5 Cups" />
+		</section>
+		<section id="IngredientsFilling" title="Filling">
+			<ingredient name="Sugar" amount="&frac34; Cup" />
+			<ingredient name="Butter"
+				nameNote="softened"
+				amount="&frac12; Cup" />
+			<ingredient name="Package Cream Cheese"
+				nameNote="softened"
+				amount="1 8oz." />
+			<ingredient name="Zest from Rind of 1 Orange" />
+		</section>
+		<section id="IngredientsGlaze" title="Glaze">
+			<ingredient name="Juice from 1 Orange"
+				amountNote="&aboutEquals; &frac14; Cup" />
+			<ingredient name="Butter" amount="&frac14; Cup" />
+			<ingredient name="Powdered Sugar" amount="1 Cup" />
+			<ingredient name="Vanilla" amount="&frac12; teaspoon" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section id="InstructionsDough" title="Dough">
+			<instruction>In a sauce pan, melt the Butter.</instruction>
+			<instruction>Add Buttermilk and heat until luke warm.</instruction>
+			<instruction>Pour into large mixing bowl, and add Yeast.</instruction>
+			<instruction>Let sit until Yeast begins to foam. <span class="NOTE">(about 3 minutes)</span></instruction>
+			<instruction>Add in Baking Soda, Sugar and Salt, and mix well.</instruction>
+			<instruction>Mix in Flour, one cup at a time, until dough is not sticky</instruction>
+			<instruction>Knead Dough for 10 minutes, adding more flour if dough is sticky.</instruction>
+			<instruction>Put into buttered bowl, and turn once so entire ball of dough is buttered.</instruction>
+			<instruction>Cover, and let rise until Dough doubles in size <span class="NOTE">(about 45 minutes)</span>.</instruction>
+		</section>
+		<section id="InstructionsFilling" title="Filling">
+			<instruction>While dough is rising, combine all Filling Ingredients into a bowl.</instruction>
+			<instruction>Mix until smooth.</instruction>
+		</section>
+		<section id="InstructionsAssembling" title="Assembling">
+			<instruction>Punch dough down and divide into thirds.</instruction>
+			<instruction>Roll each third out into a 9" &vector; 12" rectangle.</instruction>
+			<instruction>Spread filling evenly across dough making sure it goes all the way to the edges.</instruction>
+			<instruction>Using a pizza cutter, cut the long way into 6 strips, each one about 1&frac12;" wide and 12" long.</instruction>
+			<instruction>Roll each strip up into a disk, and place, on its side, into a greased Texas Muffin Tin.</instruction>
+			<instruction>Let rise about 30 minutes.</instruction>
+		</section>
+		<section id="InstructionsGlaze" title="Glaze">
+			<instruction>While Orange Rolls are rising, combine all Glaze Ingredients into a bowl.</instruction>
+			<instruction>Mix until smooth.</instruction>
+		</section>
+		<section id="InstructionsFinishing" title="Finishing">
+			<instruction>Preheat Oven to 350&degrees;.</instruction>
+			<instruction>Bake at 350&degrees; for 14-16 minutes until golden brown.<br /><span class="EMPHASIZE">Be very careful to not over cook!</span></instruction>
+			<instruction>Brush Glaze on while Orange Rolls are still hot.</instruction>
+			<instruction>Let Orange Rolls cool about 15 minutes, then gently remove.</instruction>
+		</section>
+	</Instructions>
+</Recipe>

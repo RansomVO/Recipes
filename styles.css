@@ -1,0 +1,54 @@
+@import url("../styles.css");
+
+@counter-style decimal-paren {
+	system: extends decimal;
+	suffix: ") ";
+}
+
+
+
+.RECIPE_SOURCE {
+	font-weight: bold;
+}
+
+.RECIPE_YIELDS {
+	white-space: nowrap;
+}
+
+.RECIPE_INGREDIENT {
+	font-weight: bold;
+	padding-right: .25em;
+}
+
+.RECIPE_INGREDIENT_QUANTITY {}
+
+.RECIPE_INGREDIENT_QUANTITY_NOTE {
+	font-size: .75em;
+	font-style: italic;
+}
+
+.RECIPE_INGREDIENT_NOTE {
+	font-size: .75em;
+	font-style: italic;
+}
+
+.RECIPE_INGREDIENT_FINE_PRINT {
+	padding-left: 2em;
+	font-size: .75em;
+	font-style: italic;
+	white-space: normal;
+}
+
+.RECIPE_INSTRUCTIONS {
+	list-style: decimal-paren;
+}
+
+.RECIPE_INSTRUCTION_NOTE {
+	font-size: .9em;
+	font-style: italic;
+}
+
+.RECIPE_SUBSECTION {
+	vertical-align: top;
+	padding-right: 1em;
+}

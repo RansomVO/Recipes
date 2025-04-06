@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Cheap Soft Toffee" yields="about 100 1-inch squares">
+	<Source>A VanOrman Original</Source>
+	<Section>&section;</Section>
+	<LastModified year=" 2025"
+		month=" 3"
+		day=" 21" />
+
+	<Description id="Description">
+		When Ransom was growing up, his family used to visit Canada every few years.
+		One of Ransom's favorite treats up there was " MacIntosh's Creamy Toffee".
+		Ransom tried many recipes to duplicate it and came up with a really good one.
+		However, it requires some ingredients that we rarely have on hand.
+		So, this recipe is not quite as good, and you have to be a bit more careful, but it is good.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Brown Sugar" amount="&frac12; Cup" />
+			<ingredient name="Corn Syrup" amount="&frac12; Cup" />
+			<ingredient name="Sugar" amount="1 Cup" />
+			<ingredient name="Evaporated Milk" amount="1 Can" />
+			<ingredient name="Butter"
+				amount="&frac12; Cup"
+				amountNote="1 stick" />
+			<ingredient name="Vanilla" amount="1 teaspoon" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Lightly spray a 9" &vector; 13" pan with non-stick spray.</instruction>
+			<instruction>In a large, non-stick pot, combine all ingredients except Vanilla.</instruction>
+			<instruction>Heat mixture on medium, using a candy thermometer to monitor temperature.</instruction>
+			<instruction>Stirring very frequently, heat to 253&degrees; F. <span class="NOTE">(This will take half an hour or so.)</span><br /><span class="NOTE">(I know 253&degrees; sounds weird, but 250&degrees; leaves it runny, and 255&degrees; makes it brittle.)</span></instruction>
+			<instruction>When it reaches temperature, immediately remove the pot from the heat.</instruction>
+			<instruction>Stir in Vanilla.</instruction>
+			<instruction>Pour mixture onto the prepared pan and spread evenly.</instruction>
+			<instruction>Let the mixture cool completely.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note><span class="SUPER_EMPHASIZE">Warning!</span> Mixture will more than double while heating, then will reduce as it nears the correct temperature.</note>
+		<note>Although the original recipe is cooked on high, this one is intentionally cooked on medium. If you cook it higher, small flecks begin to form which makes it look bad.</note>
+		<note>Cutting it up is a challenge. I used a hot, large, sharp chopping knife, and was able to get it if I was patient.<br />Alternatively, you can cut it when it is <span class="NOTE">mostly</span> cool, but you need to place the cut pieces around so they don' t touch. </note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>About a minute after pouring the mixture into the prepared pan, sprinkle it with about 1 Cup Chocolate Chips. Let sit for another 2 minutes, then spread the now softened Chocolate Chips with a spatula. Then let cool normally.</modification>
+	</Modifications>
+</Recipe>

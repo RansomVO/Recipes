@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Easy Gravy" yields="2 Cups">
+	<Source>Basic</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="31" />
+
+	<Description id="Description">
+		There are many ways to make gravy.
+		Some take hours and tons of ingredients.
+		This recipe is the simplest we have found and is pretty much the only one Ransom uses.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Broth"
+				nameNote="Double-Strength"
+				amount="2 Cups" />
+			<ingredient name="Water"
+				nameNote="Cold"
+				amount="&frac14; Cup" />
+			<ingredient name="Corn Starch" amount="2 Tablespoons" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Pour Broth into a small saucepan and begin to bring to a boil.</instruction>
+			<instruction>In the meantime, combine Cold Water and Corn Starch in a small cup and mix until there are <span class="EMPHASIZE">absolutely no lumps</span> at all.</instruction>
+			<instruction>When Broth begins to boil, slowly pour in Cold Water/Corn Starch mix while stirring constantly.</instruction>
+			<instruction>Let entire mixture come to a boil, while stirring constantly.</instruction>
+			<instruction>Remove from heat, and it is ready to serve.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>Broth can be any flavor you want: Beef, Chicken, Onion, Vegetable, etc. <br /><span class="NOTE">(The only flavor we don't recommend is Pork.)</span></note>
+		<note><span class="EMPHASIZE">Always use <span class="SUPER_EMPHASIZE">Cold</span> Water!</span><br />Corn Starch will mix readily with Cold Water. However, if you use hot, or even warm water, it tends to clump <span class="HIGHLIGHT">terribly</span>.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>You can create the Double-Strength Beef Broth by using 2 Cups of Water + 4 Bouillon Cubes <span class="NOTE">(or the equivalent)</span>.</modification>
+		<modification>Instead of Double-Strength Broth, you can use dripping from a roast, chicken, etc. My favorite is to use the drippings from a turkey. <span class="NOTE">(You just have to make sure you have enough liquid.)</span></modification>
+		<modification>If you like your gravy thicker, you can use more Corn Starch, or if you like it thinner you can use less. <span class="NOTE">(Ransom once used so much the gravy could be sliced. &smiley;)</span></modification>
+		<modification>You can replace the Corn Starch with Flour but use <span class="HIGHLIGHT">Warm</span> Water. <!-- TODO QZX: Check measurement of Flour --> However, even though it tastes fine, it changes the color of the gravy so that it is much lighter and more opaque.</modification>
+	</Modifications>
+</Recipe>

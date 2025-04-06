@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Perfect Prime Rib" yields="about 2 servings per lb.">
+	<Source>From web site <a class="no-print" href="https://www.seriouseats.com/perfect-prime-rib-beef-recipe">http://www.seriouseats.com/</a><span class="no-screen">http://www.seriouseats.com/</span></Source>
+
+	<Section>&section;</Section>
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025"
+		month="3"
+		day="27" />
+
+	<Description id="Description">
+		Cutler worked in the meat department of a Fred Meyer store when he was a teenager.
+		While there, he was told about an article that explains how to cook a perfect prime rib correctly, and incorrectly.
+		This is a summary of the conclusion.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Rib Roast" amount="5-10 lb." />
+			<ingredient name="Kosher Salt" amount="&frac13; Cup" />
+			<ingredient name="Course Ground Black Pepper" amount="1 Tablespoon" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Preheat oven to 200&degrees;.</instruction>
+			<instruction> Mix Salt and Pepper, then sprinkle mixture on entire surface of roast and pat into place. <br />
+				<span class="NOTE">(You should have some leftover. Don't try to make it all stick.)</span>
+			</instruction>
+			<instruction>Set Roast, ribs at the bottom, in a pan with a raised baking rack.</instruction>
+			<instruction>Bake until meat thermometer says internal temperature is 125&degrees;. <span class="NOTE">(Approximately 3&frac12;-4 hours.)</span></instruction>
+			<instruction>Remove Roast from oven, place a tent made of foil over it and set aside.</instruction>
+			<instruction>Change oven temperature to 550&degrees;.<br />
+				<span class="NOTE">(If your oven doesn't go to 550&degrees;, go to the highest that it can.)</span>
+			</instruction>
+			<instruction>Let Roast rest while oven comes up to temperature. <span class="NOTE">(Approximately 20-30 minutes.)</span></instruction>
+			<instruction>Return Roast to oven for 8 minutes.</instruction>
+			<instruction>Remove and carve as soon as possible. <span class="NOTE">(No need for additional resting.)</span></instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>If necessary, you can let the Roast rest in step 6 for up to 45 minutes.</note>
+		<note>
+			"Prime" is actually a quality. So "Prime Rib" is a very high quality of Rib Roast.
+			As such, if you are price conscious, ask for a "Rib Roast" at the store.
+			It really doesn't matter much if it is "Prime", "Choice", "Select" or something else.
+		</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>For a little extra flavor, sprinkle 1 teaspoon of fresh Rosemary on the top of the Roast just before placing it in the oven the first time.</modification>
+	</Modifications>
+</Recipe>

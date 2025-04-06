@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Cream of Everything Soup" yields="6-8 Servings">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025"
+		month="3"
+		day="29" />
+
+	<Description id="Description"> In general, Di doesn't like to eat soup. It isn't that she doesn't like soup, it is just that she wants to eat something else. But, there is one exception: When it is cold, windy and rainy, she feels it is time to eat soup. <br /> One such day, Di and Ransom started debating what kind of soup to make. Di wanted a plain Cream of Broccoli soup. Ransom, on the other hand, was not in the mood for anything plain, so he made up this recipe. </Description>
+
+	<Ingredients id="Ingredients">
+		<section id="IngredientsSoup" title="Soup">
+			<ingredient name="Whole Milk" amount="4 Cups" />
+			<ingredient name="Flour" amount="3 Tablespoons" />
+			<ingredient name="Corn Starch" amount="1 Tablespoon" />
+			<ingredient name="Butter" amount="2 Tablespoons" />
+			<ingredient name="Minced Garlic" amount="1 teaspoon" />
+			<ingredient name="Onion" amount="1" />
+			<ingredient name="Carrots" amount="3" />
+		</section>
+		<section title="{BLANK}">
+			<ingredient name="Potatoes" amount="4" />
+			<ingredient name="Chicken Broth" amount="4 Cups" />
+			<ingredient name="Broccoli" amount="&frac12; Head" />
+			<ingredient name="Cream" amount="1 Cups" />
+			<ingredient name="Salt" amount="2 teaspoons" />
+			<ingredient name="Pepper" amount="1 teaspoon" />
+		</section>
+		<section id="IngredientsToppings" title="Toppings">
+			<ingredient name="Bacon" amount="1 lb." />
+			<ingredient name="Cheddar Cheese" amount="&frac12; lb." />
+			<ingredient name="Green Onions" amount="4" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section id="InstructionsSoup" title="Soup">
+			<instruction>Mix Flour and Corn Starch into cold Milk until it is completely dissolved, with no lumps, then set it aside.</instruction>
+			<instruction>Slice Onion into &frac12;" disks, then slice each disk into 4 wedges.</instruction>
+			<instruction>Peel Potatoes and cut into &frac12;" cubes.</instruction>
+			<instruction>Peel Carrots and slice into &frac14;" thick discs.</instruction>
+			<instruction>Slice Celery into &frac14;" thick pieces.</instruction>
+			<instruction> Cut Broccoli into marble sized segments. <span class="NOTE">(Use only florets, not pieces of stems.)</span></instruction>
+			<instruction>In a large pot, melt Butter, then add the Garlic and Onion and saut&#xE9; until Onion is nearly cooked.</instruction>
+			<instruction>Add Broth, Carrots and Celery, then bring to a boil.</instruction>
+			<instruction>Add Potatoes, and boil until Carrots, Celery and Potatoes are cooked, then reduce heat to medium.</instruction>
+			<instruction>Stir the Milk mixture again, then add Milk mixture, Cream and Broccoli.</instruction>
+			<instruction>Bring to a boil, stirring occasionally. This should cause soup to thicken. Then remove from heat.<br />Toppings:</instruction>
+		</section>
+		<section id="InstructionsToppings" title="Toppings">
+			<instruction> Cook Bacon until very crispy, then cut <span class="NOTE">(or break)</span> into &frac14;"- &frac12;" squares. I do this by cutting the cooked Bacon once the long way, then cut the skinny strips into squares. </instruction>
+			<instruction>Grate Cheese.</instruction>
+			<instruction>Cut Green Onions into &frac18;" thick discs.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>You can do work on Toppings while waiting for the soup to come to a boil.</note>
+	</Notes>
+
+	<Modifications id="Modifications" pageBreak="true">
+		<modification>You can create the Chicken Broth by using 4 Cups of Water + 4 Bouillon Cubes <span class="NOTE">(or the equivalent)</span>.</modification>
+		<modification>Do <span class="SUPER_EMPHASIZE">NOT</span> use Celery if Di is eating with you.</modification>
+		<modification>You can use gluten-free Flour if desired.</modification>
+		<modification>Add 1 teaspoon of minced fresh Parsley. <span class="EMPHASIZE">(Not dried!)</span></modification>
+		<modification>For a little zing, try &frac12; teaspoon Cayenne Pepper, or serve Hot Sause as a "topping".</modification>
+	</Modifications>
+</Recipe>

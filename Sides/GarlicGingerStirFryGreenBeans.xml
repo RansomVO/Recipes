@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Garlic-Ginger Stir-Fry Green Beans" yields="6-8 servings">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="1" />
+
+	<Description id="Description"> One day Di wanted some oriental style green beans. We tried a few recipes and each had some good and bad to them, so we started experimenting. Each time we found one thing that wasn't right, so we would adjust that, then something else would stand out. <br /> After <span class="EMPHASIZE">many</span> attempts we finally came up with this recipe that is just right for us. <br />
+		<br />
+		<div class="NOTE"> NOTE: Later on, Di decided she doesn't want Ginger in it, but the rest of us <span class="EMPHASIZE">Love</span> it </div>
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Crushed Red Chili Pepper Flakes" amount="1 teaspoon" />
+			<ingredient name="Ginger"
+				nameNote="Finely Grated"
+				amount="&frac12; Tablespoon"
+				amountNote="Unless Di says to not use it. &smiley;" />
+			<ingredient name="Chili Sauce"
+				nameNote="Tapatio is our favorite"
+				amount="&frac14; teaspoon" />
+			<ingredient name="Soy Sauce" amount="3 Tablespoons" />
+			<ingredient name="Rice Wine Vinegar" amount="&frac12; Tablespoon" />
+			<ingredient name="Sesame Oil" amount="&frac12; Tablespoon" />
+			<ingredient name="Water" amount="1 Tablespoon" />
+			<ingredient name="Vegetable Oil" amount="2 Tablespoon" />
+			<ingredient name="Minced Garlic" amount="1 Tablespoon" />
+			<ingredient name="Fresh Green Beans" amount="1 Pound" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a small cup combine Crushed Red Chili Pepper Flakes, Ginger, Chili Sauce, Soy Sauce, Rice Wine Vinegar, Sesame Oil and Water. Stir well and set aside.</instruction>
+			<instruction>Wash Green Beans and remove all stems from them.</instruction>
+			<instruction>In a wok, add Vegetable Oil and turn on medium heat, then use a metal spatula to spread the oil up the sides of the wok.</instruction>
+			<instruction>Add Minced Garlic and stir occasionally until it begins to change color.</instruction>
+			<instruction>Add sauce mix set aside earlier and bring it to a boil for 3 minutes.</instruction>
+			<instruction>Add Green Beans and stir until they are thinly covered in sauce.</instruction>
+			<instruction>Stir every few minutes, carefully scraping sauce and garlic from the wok and the Green Beans are freshly covered with sauce.</instruction>
+			<instruction>Continue until Green Beans are cooked to desired amount. <span class="NOTE">(20-30 minutes)</span></instruction>
+		</section>
+	</Instructions>
+
+	<Modifications id="Modifications">
+		<modification>If you do not have a wok, use a large pot.</modification>
+		<modification>When Green Beans are nearly finished cooking, add 2 freshly chopped Scallions.</modification>
+		<modification>When Green Beans are finished cooking, add 1 Tablespoon Sesame Seeds and stir well.</modification>
+		<modification>If Di is not going to be eating them, double the amount of Ginger.</modification>
+	</Modifications>
+</Recipe>

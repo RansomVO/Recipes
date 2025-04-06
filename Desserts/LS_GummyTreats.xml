@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Sugar-Free Gummy Treats" yields="??">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="2" />
+
+	<Description id="Description">This recipe is tasty, and very easy to make, but the best part is: it's <span class="EMPHASIZE">fat-free <span class="SUPER_EMPHASIZE">and</span> carbohydrate-free</span>!!!</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Water" amount="&frac12; Cup" />
+			<ingredient name="Sugar-free Flavored Gelatin"
+				nameNote="Such as Jello"
+				amount="2 Packages"
+				amountNote="0.6oz Each" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Bring Water to a boil.</instruction>
+			<instruction>Put Gelatin into a small mixing bowl.</instruction>
+			<instruction>Carefully, pour Boiling Water into the small mixing bowl.</instruction>
+			<instruction>Stir until powder is completely dissolved.</instruction>
+			<instruction>Pour mixture into molds.<br /><span class="NOTE">Hint: If you lightly spray the molds with non-stick spray (such as Pam) then the treats are easier to remove when done.</span></instruction>
+			<instruction>Refridgerate until firm. <span class="NOTE">(This only takes about an hour.)</span></instruction>
+			<instruction>Remove from the molds and enjoy!</instruction>
+		</section>
+	</Instructions>
+
+	<Notes>
+		<note>In Step 3, if you add the powder directly into the Boiling Water, it may "flash boil". <br />This will cause it to spray all over and somebody usually gets burned.<br /><span class="NOTE">(Believe me, I learned the hard way!)</span></note>
+		<note>In Step 5, we use molds for "Jello Jigglers" that are about the size of jelly beans. We have also seen some cool candy molds that would work well. <br /> If you don't have molds, you can pour the mixure into a 8" &vector; 8" pan, then cut it into strips after it sets. </note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification><span class="POINT_HIGHLIGHT">To make the treats less tart:</span><br />Replace one of the packages of Sugar-free flavored Gelatin with one envelope <span class="NOTE">(7g)</span> unflavored Gelatin <span class="NOTE">(Such as Knox)</span></modification>
+		<modification><span class="POINT_HIGHLIGHT">To make the treats extra tart:</span><br />Add 1 0.13oz. Envelope unsweetened Soft Drink Mix <span class="NOTE">(Such as Kool-Aid)</span></modification>
+		<modification><span class="POINT_HIGHLIGHT">To make the treats sweeter and more flavorful:</span><br />Add 1 1.7g. Package Sugar-free Soft Drink Mix <span class="NOTE">(Such as Crystal Light)</span></modification>
+	</Modifications>
+</Recipe>

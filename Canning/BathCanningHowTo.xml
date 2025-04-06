@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Bath Canning: How-To" yields="">
+	<Source />
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="2" />
+
+	<Description id="Description"> Usually, when you cook food, it needs to be consumed in short period of time, or it will get spoiled. However, some foods can be bottled and stored for a long time, <span class="HIGHLIGHT">years</span> in some cases. <br /> However, just putting the food in bottles is not sufficient. You have to do "canning". Basically, canning kills practically all of the bacteria, etc. and creates an air-tight seal. </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Canning Bottles of the appropriate size"
+				nameNote="For example: Mason, Kerr, Ball, etc." />
+			<ingredient name="Canning-appropriate Food"
+				nameNote="This may include sauces, jams, jellies, fruit in syrup, etc." />
+			<ingredient name="New Lids for the Bottles"
+				nameNote="Re-using old lids tends to cause a lot of failed seals." />
+			<ingredient name="Rings to fasten the Lids" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Fill Bath Canner with water to about the depth necessary to cover the bottles that will be used.</instruction>
+			<instruction>Place Bath Canner on stove burner set to high and bring water to a boil.</instruction>
+			<instruction>Place <span class="HIGHLIGHT">clean, empty</span> bottles into the boiling water so that they are completely covered for 5 minutes.<br /><span class="NOTE">(Bottles must be placed upright and side-by-side. For example, with a standard sized Bath Canner, this can be done with 7 quart-sized bottles at a time.)</span></instruction>
+			<instruction>Remove bottles from water and let dry for about 1 minute.</instruction>
+			<instruction>Place boiling-hot food into bottles, filling to about 1 inch from the top.</instruction>
+			<instruction>Put Lids and Rings onto the bottles and tighten securely.</instruction>
+			<instruction>Gently place filled Bottles into the Bath Canner and bring water back to a boil.<br /><span class="NOTE">(Again, Bottles must be placed upright and side-by-side. For example, with a standard sized Bath Canner, this can be done with 7 quart-sized bottles at a time.)</span></instruction>
+			<instruction>Boil for the appropriate amount of time for the recipe. <span class="NOTE">(Refer to the specific recipe.)</span></instruction>
+			<instruction>Remove the bottles from the Bath Canner and set on a towel on a flat surface.</instruction>
+			<instruction>Let cool for several hours. <span class="NOTE">(Overnight is good.)</span></instruction>
+			<instruction>Once cooled, make sure the lids have sealed by pressing down on the center of the lids. If they pop in, then pop back out, the bottle did not seal.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>
+			When filling the jars, use care not to get any food on the mouth of the jar.
+			If this does occur, carefully clean the mouth of the jar with a clean cloth.
+		</note>
+		<note>The easiest way to keep the mouths of the jars clean while filling is to use a wide-mouthed funnel built specifically for canning.</note>
+		<note> The food in bottles that don't seal is still edible, but <span class="EMPHASIZE">you cannot store it!</span>
+			<br /> The options are:<ul>
+				<li>Eat the contents of the bottle normally.</li>
+				<li>Follow the canning process starting over at Step 1.</li>
+			</ul>
+		</note>
+	</Notes>
+</Recipe>

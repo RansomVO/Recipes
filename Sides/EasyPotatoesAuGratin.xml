@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Easy Potatoes Au Gratin" yields="4-6 servings">
+	<Source>Classic</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="1" />
+
+	<Description id="Description"> In Utah, just about everybody has a variation of this recipe. We once had a Stake cookbook that had about 10 versions. <br /> Of course, it has lots of names too: Cheesy Potatoes, Cheesy Hash, Funeral Potatoes <span class="SMALL_NOTE">(Because it was a standard dish people brought for the family at the after funeral meal.)</span>. I like the name used here because it lends at least <span class="HIGHLIGHT">some</span> respect to the dish. </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Potatoes" amount="4-6" />
+			<ingredient name="Cream of Chicken Soup" amount="1 10.5oz. Can" />
+			<ingredient name="Sour Cream" amount="1 Cup" />
+			<ingredient name="Cheddar-Jack Cheese"
+				nameNote="Coarsely Grated"
+				amount="&frac12;-1 lb." />
+			<ingredient name="Green Onions, Chopped" amount="&frac12; Cup" />
+			<ingredient name="Salt and Pepper" amountNote="To Taste" />
+		</section>
+		<section>
+			<ingredient name="Ritz Crackers" amount="&frac12; Tube" />
+			<ingredient name="Butter"
+				amount="4 Tablespoons"
+				amountNote="&frac12; Stick" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Peel potatoes and coarsely shred them.</instruction>
+			<instruction>Mix Shredded Potatoes, Soup, Sour Cream, Grated Cheese, Green Onion, Salt and Pepper.</instruction>
+			<instruction>Press into a 9" &vector; 9" pan and cover with foil.</instruction>
+			<instruction>Place in oven at 400&degrees; for 45 minutes.</instruction>
+			<instruction>While it is baking:<ul>
+					<li>Crush Crackers into crumbs.</li>
+					<li>Melt butter.</li>
+				</ul></instruction>
+			<instruction>When time is up, remove pan from oven and remove foil.</instruction>
+			<instruction>Mix Crackers and Butter, then spread mixture evenly over top of Potatoes.</instruction>
+			<instruction>Replace in oven and cook for an additional 10 minutes.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>A cheese grater is ideal for "coarsely shredding" the Potatoes.</note>
+		<note>
+			It doesn't have to be "Ritz" Crackers, but Saltines do not taste very good.
+			In general, stick to round Crackers that come in 3-4 tubes to a box.
+		</note>
+		<note>Do <span class="SUPER_EMPHASIZE">not</span> mix the Crackers and Butter until <span class="EMPHASIZE">just before</span> you spread it over potatoes. Otherwise you will end up with a paste instead of a crumbly topping.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>Use Corn Flakes <span class="NOTE">(with or without butter)</span> instead of Crackers. <span class="NOTE">(Not my favorite.)</span></modification>
+		<modification>Use Cheddar Cheese instead of Cheddar-Jack Cheese. <span class="NOTE">(Good, but less tangy.)</span></modification>
+		<modification>Use regular Onions instead of Green Onions. <span class="NOTE">(Changes the taste significantly, but it is still good).</span></modification>
+		<modification>Instead of shredding the Potatoes, slice them thinly, or cut them into &frac14;"-&frac12;" cubes.<br /><span class="NOTE">(Add 10 minutes cooking time for cubes.)</span></modification>
+		<modification>Instead of fresh Potatoes, use frozen Hash Brown Potatoes. <span class="NOTE">(Changes consistency, but it's really easy.)</span></modification>
+	</Modifications>
+</Recipe>

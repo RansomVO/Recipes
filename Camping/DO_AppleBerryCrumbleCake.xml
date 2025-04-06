@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Dutch Oven Apple-Berry Crumble Cake" yields="4-6 Servings">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="2" />
+
+	<Description id="Description">
+		One morning, Ransom woke up a couple of hours early, so he went out and picked a bunch of fresh wild blackberries.
+		When he came home he started following one recipe, until he realized it took pie filling, which we didn't have.
+		Ransom quickly improvised, and came up with this recipe, which the entire family loved!
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Butter"
+				nameNote="Softened"
+				amount="2 Sticks"
+				amountNote="1 Cup" />
+			<ingredient name="Sugar" amount="3 Cups" />
+			<ingredient name="Eggs" amount="4" />
+			<ingredient name="Almond Extract" amount="&frac12; teaspoon" />
+			<ingredient name="Flour" amount="3 Cups" />
+			<ingredient name="Salt" amount="1&frac12; teaspoons" />
+			<ingredient name="Baking Powder" amount="1&frac12; teaspons" />
+			<ingredient name="Apple" amount="1" />
+			<ingredient name="Fresh Blackberries" amount="2 Cups" />
+			<ingredient name="Brown Sugar" amount="1 Cup" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Use a 12" Dutch Oven.</instruction>
+			<instruction>Cream together Butter and Sugar.</instruction>
+			<instruction>Add Eggs, and Almond Extract, then beat.</instruction>
+			<instruction>Add Flour, Salt and Baking Powder, then beat well.</instruction>
+			<instruction>Peel and core Apple, then cut apple into pieces approximately 1" &vector; &frac14;" &vector; &frac14;".</instruction>
+			<instruction>Add Apple pieces to batter and mix well.</instruction>
+			<instruction>Add Blackberries and gently mix.</instruction>
+			<instruction>Pour into Dutch Oven and smooth top.</instruction>
+			<instruction>Sprinkle Brown Sugar evenly over top.</instruction>
+			<instruction>Cook from top and bottom evenly until toothpick inserted comes away clean.</instruction>
+		</section>
+	</Instructions>
+</Recipe>

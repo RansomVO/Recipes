@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Mashed Potatoes" yields="about 4-6 servings">
+	<Source>Basic</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="1" />
+
+	<Description id="Description">
+		Mashed potatoes is one of the easiest side-dishes to prepare.
+		However, it is a little time consuming, so make sure to factor that in while preparing your meal.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Potatoes"
+				nameNote="Medium"
+				amount="4" />
+			<ingredient name="Water" amountNote="See Step 4 below" />
+			<ingredient name="Salt" amount="1 teaspoon" />
+			<ingredient name="Butter" amount="4 Tablespoons" />
+			<ingredient name="Milk" amount="&frac14; Cup" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Peel Potatoes.</instruction>
+			<instruction>Cut Potatoes into 1&frac12;-2" chunks.</instruction>
+			<instruction>Place Potatoes into a large saucepan or small pot.</instruction>
+			<instruction>Add enough Water to cover potatoes then add Salt.</instruction>
+			<instruction>Heat to a boil, and boil for 20 minutes, or until potatoes are soft.</instruction>
+			<instruction>Strain all water out, and place Potatoes and Butter into a bowl.</instruction>
+			<instruction>Using a potato masher, mash the potatoes until the Butter is melted and well mixed into the Potatoes.</instruction>
+			<instruction>Add Milk and stir until fluffy.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>When available, you may use a hand mixer instead of a potato masher.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>For thicker Mashed Potatoes, add less Milk. For less thick, add more.</modification>
+		<modification>The more you mash <span class="NOTE">(or mix)</span> the Potatoes, the smoother the Mashed Potatoes will be. The less, the chunkier.</modification>
+	</Modifications>
+</Recipe>

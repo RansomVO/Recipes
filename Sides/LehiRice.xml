@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Lehi Rice" yields="2 servings">
+	<Source>Adapted from the World-Wide Ward Cookbook</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="1" />
+
+	<Description id="Description">
+		While thumbing through the World-Wide Ward Cookbook we saw a recipe for a Rice side-dish that sounded pretty good.
+		We tried it and the kids went ga-ga.
+		And it is really easy.
+		It is just the basic recipe for Rice, with a few extra ingredients tossed in at the start.
+		So, when we do Rice as a side-dish, this is the one we almost always do.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Rice" amount="1 Cup" />
+			<ingredient name="Chicken Broth"
+				nameNote="Double-Strength"
+				amount="2 Cups" />
+			<ingredient name="Salt" amount="&frac12; teaspoon" />
+			<ingredient name="Vegetable Oil" amount="1 Tablespoon" />
+			<ingredient name="Chopped Onions" amount="&frac12; Cup" />
+			<ingredient name="Carrot" amount="1" />
+			<ingredient name="Celery" amount="1 Stalk" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Coarsely shred the Carrot.</instruction>
+			<instruction>Cut the Celery into thin slices.</instruction>
+			<instruction>In a saucepan with a lid, combine all ingredients.</instruction>
+			<instruction>Bring everything to a boil.</instruction>
+			<instruction>Reduce heat to medium low and let simmer for about 25 minutes.</instruction>
+			<instruction>Remove from heat, stir, and fluff up.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>At the start, it looks like way too much vegetables for the Rice, but once it cooks, and you stir it up, it ends up being just right.</note>
+		<note>The lid needs to stay in place to keep heat and moisture mostly contained.</note>
+		<note>The slower the Rice simmers, the better. If you do it too hot, the Rice at the bottom will burn.</note>
+		<note>Do not stir Rice while it is cooking.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>You can create the Double-Strength Chicken Broth by using 2 Cups Water + 4 Chicken Bouillon Cubes <span class="NOTE">(or the equivalent)</span>.</modification>
+		<modification>You can substitute 1 Tablespoon of Butter for the Vegetable Oil.</modification>
+		<modification>If you have a Rice Cooker, replace Steps 3-6 with: <ol start="3">
+				<li>Throw everything in Rice Cooker and turn it on.</li>
+				<li>When it says it is done, stir and fluff up.</li>
+			</ol>
+		</modification>
+	</Modifications>
+</Recipe>

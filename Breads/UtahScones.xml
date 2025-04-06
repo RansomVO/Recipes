@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Utah Scones" yields="12">
+	<Source>Traditional Utah Recipe</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="1" />
+
+	<Description id="Description"> Throughout the world, "Scones" are a type of quick bread similar to Biscuits.<br />Everywhere except <span class="EMPHASIZE">Utah</span>. In Utah "Scones" are a type of fluffy fry bread.<br />We have encountered a lot of versions of this recipe, but this is the one that gives the best results for us. </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Warm Water" amount="&frac12; Cup" />
+			<ingredient name="Sugar" amount="2 Tablespoons" />
+			<ingredient name="Yeast" amount="&frac12; Tablespoon" />
+			<ingredient name="Flour" amount="2&frac14; Cups" />
+			<ingredient name="Salt" amount="&frac12; teaspon" />
+			<ingredient name="Oil" amount="&frac14; Cup" />
+			<ingredient name="Egg" amount="1" />
+			<ingredient name="frying" amount="Oil, for" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a small bowl, combine Water, Sugar and Yeast and set aside.</instruction>
+			<instruction>In a mixing bowl, combine Flour and Salt.</instruction>
+			<instruction>When Yeast begins to foam, pour it into mixing bowl.</instruction>
+			<instruction>Add Oil and Egg, then knead for 5 minutes.</instruction>
+			<instruction>Let sit for 30 minutes to rise.</instruction>
+			<instruction>Roll out into a thin rectangle, about 9" &vector; 16".</instruction>
+			<instruction>Use a pizza cutter to cut into 12 pieces. <span class="NOTE">(About 3" &vector; 4" each)</span></instruction>
+			<instruction>Let rise for about 15 minutes.</instruction>
+			<instruction>Meanwhile start heating oil for frying.</instruction>
+			<instruction>Fry in hot oil, turning once, until golden brown on both sides.<br /><span class="NOTE">(In a deep fryer, at 350&degrees;, this is about 1&frac12; minutes on each side.)</span></instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>To eat a Utah Scone, you should make a slit on one end, then put in <a href="../Sauces/HoneyButter.xml">Sauces: Honey Butter</a>!<br /><span class="NOTE">(or Honey, Butter, Jam, or something similar.)</span></note>
+	</Notes>
+</Recipe>

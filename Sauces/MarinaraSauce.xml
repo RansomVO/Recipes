@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Marinara Sauce" yields="about 5 Cups">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="31" />
+
+	<Description id="Description"> These days, it is cheapest and easiest to buy an inexpensive can of spaghetti sauce. However, when you want something really good, you want to make it yourself. <br /> This recipe makes a very sweet marinara sauce. It is great with spaghetti, but it can also be used for Pizza, Lasagna, Chicken Parmesan, etc. </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Tomato Sauce" amount="4 8oz. Cans" />
+			<ingredient name="Tomato Paste" amount="1 6oz. Can" />
+			<ingredient name="Oregano" amount="1 teaspoon" />
+			<ingredient name="Basil" amount="1 teaspoon" />
+			<ingredient name="Garlic, Minced" amount="&frac12; teaspoon" />
+			<ingredient name="Celery Salt" amount="1 teaspoon" />
+			<ingredient name="Onion, Minced" amount="&frac12; teaspoon" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a saucepan, mix all ingredients together.</instruction>
+			<instruction>Heat on medium until it starts to boil, stirring occasionally.</instruction>
+			<instruction>Reduce heat and simmer for 15 minutes.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note> When used as a Pizza Sauce, the Garlic and Onion must be <span class="HIGHLIGHT">finely</span> minced to avoid making the Sauce chunky. <br /> Or: <ul>
+				<li>Instead of Garlic, you can use the same amount of Garlic Powder.</li>
+				<li>Instead of Onion, you can use the same amount of Onion Powder.</li>
+			</ul>
+		</note>
+		<note> The sauce can be made ahead of time and kept in the fridge for several days. <br /> This means you can make a large batch, then use it for Pizza one day, Spaghetti the next, etc. </note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>To make it a bit sweeter, add 2-3 Tablespoons Brown Sugar.</modification>
+	</Modifications>
+</Recipe>

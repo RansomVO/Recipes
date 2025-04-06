@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Oatmeal Peanut Butter Blocks" yields="18">
+	<Source>From the Kitchen of Mrs. Boat</Source>
+	<Note>Head Lunch Lady at Ransom's Elementary School</Note>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="21" />
+
+	<Description id="Description">
+		When Ransom was in Cherry Hill Elementary School, the head cook was an immigrant named Mrs.
+		Boat.
+		Her name was pronounced "Boot".
+		This recipe is for one of the favorite treats that she made.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section id="IngredientsDough" title="Dough">
+			<ingredient name="Butter" amount="&frac12; Cup" />
+			<ingredient name="White Sugar" amount="&frac12; Cup" />
+			<ingredient name="Brown Sugar" amount="&frac12; Cup" />
+			<ingredient name="Baking Soda" amount="&frac12; teaspoon" />
+			<ingredient name="Salt" amount="1 teaspoon" />
+			<ingredient name="Vanilla" amount="&frac12; teaspoon" />
+			<ingredient name="Egg" amount="1" />
+			<ingredient name="Butter" amount="&frac13; Peanut" />
+			<ingredient name="Flour" amount="1 Cup" />
+			<ingredient name="Quick Oats" amount="1 Cup" />
+		</section>
+		<section id="IngredientsTopping" title="Topping">
+			<ingredient name="Package Chocolate Chips" amount="&frac12; 12oz." />
+			<ingredient name="Powdered Sugar" amount="&frac12; Cup" />
+			<ingredient name="Peanut Butter" amount="&frac14; Cup" />
+			<ingredient name="Cream" amount="2-3 Tablespoons" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a large mixing bowl, cream together Butter, White Sugar and Brown Sugar.</instruction>
+			<instruction>Blend in Baking Soda, Salk, Vanilla, Egg and Peanut Butter.</instruction>
+			<instruction>Stir in Flour and Oats.</instruction>
+			<instruction>Press dough evenly into a 9" &vector; 13" pan.</instruction>
+			<instruction>Bake at 350&degrees; for 20 minutes.</instruction>
+			<instruction>Remove from oven and immediately sprinkle with Chocolate Chips.</instruction>
+			<instruction>Let stand for 5 minutes, then, using a spatula, spread the soft Chocolate Chips evenly across the top.</instruction>
+			<instruction>Mix Frosting ingredients together, then spread evenly across the top.</instruction>
+			<instruction>Let cool, then cut into rectangles about 2" &vector; 3".</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>Letting the Chocolate Chips sit for 5 minutes on the hot cookie makes them soften. It is pretty cool to see Chocolate Chips, then start spreading and see Chocolate</note>
+	</Notes>
+</Recipe>

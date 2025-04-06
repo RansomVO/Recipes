@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Daddyda&quote1;s Sauce (Ginger Orange Teriyaki Sauce)" yields="approximately 1 quart.">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="2" />
+
+	<Description id="Description"> We love eating Chinese food. We usually use bottle after bottle of Yoshida's sauce. But one night, we started making Teriyaki chicken and found we didn't have any!<br />So Ransom decided to try making his own. The first try was excellent, and the second was even better, but the third time topped them all! <br /> Since it is better than Yoshida's sauce, and since it was made by "Daddy," we decided to call it Daddyda's Sauce. </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Soy Sauce" amount="1 Cup" />
+			<ingredient name="Flour" amount="&frac14; Cup" />
+			<ingredient name="Corn Syrup" amount="3 Cups" />
+			<ingredient name="Brown Sugar" amount="1 Cup" />
+			<ingredient name="Minced Garlic" amount="1 Tablespoon" />
+			<ingredient name="Onion"
+				nameNoted="Very Finely Chopped"
+				amount="1 Tablespoon" />
+			<ingredient name="Fresh Ginger"
+				nameNOte="Finely Grated"
+				amount="2 Tablespoons" />
+			<ingredient name="Chinese Mustard" amount="1 Tablespoon" />
+			<ingredient name="1 Orange" amount="Zest from" />
+			<ingredient name="Hot Chili Sauce"
+				nameNote="Optional"
+				amount="1 Tablespoon" />
+			<ingredient name="Crushed Red Peppers"
+				nameNote="Optional"
+				amount="&frac12; Tablespoon" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Put the Soy Sauce and Flour into a pan.<br />Without heating, mix very well with a wisk until there are <span class="EMPHASIZE">absolutely no lumps left.</span></instruction>
+			<instruction>Add all of the other ingredients and stir well.</instruction>
+			<instruction>Over medium heat, bring to a simmering boil.</instruction>
+			<instruction>Remove from heat immediately.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>This sauce can be used immediately, or it can be placed into a bottle and saved for later. <span class="NOTE">(We usually end up using some and saving some for later.)</span></note>
+		<note>We use it in various ways: <ul>
+				<li>Put it over stir-fry vegetables for a wonderful Chinese food dish.</li>
+				<li>Pour it over rice or noodles.</li>
+				<li>Use it as a sauce for cooking Teriyaki Chicken.</li>
+			</ul>
+		</note>
+	</Notes>
+
+	<Modifications>
+		<modification>Substitute Very Finely Chopped Onion with &frac12; Tablespoon Onion Powder.</modification>
+	</Modifications>
+</Recipe>

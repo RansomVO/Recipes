@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Navajo Fry Bread" yields="8">
+	<Source>Traditional Recipe</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="1" />
+
+	<Description id="Description"> In the mid 1800's, the U.S. government was dealing with Navajo Indians by commandeering the women and children and marching them to a distant location. On the trip, they were given small allotments of flour, etc. From this, the mothers would mix up a dough and fry it in oil for their children. <br /> There are several versions of this recipe, but this is the one that has worked best for us. </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Flour" amount="4 Cups" />
+			<ingredient name="Baking Powder" amount="4 teaspoons" />
+			<ingredient name="Salt" amount="2 teaspoons" />
+			<ingredient name="Milk" amount="1&frac14; Cups" />
+			<ingredient name="Oil" amountNote="For Frying" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Mix together Flour, Baking Powder and Salt.</instruction>
+			<instruction>Add Milk and gently knead together.</instruction>
+			<instruction>Divide into 2" balls.</instruction>
+			<instruction>Flatten each ball into a thin circle.</instruction>
+			<instruction>Fry on each side until golden brown.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>Eating it plain isn't very pleasurable, so make sure to have Honey, Butter, <a href="../Sauces/HoneyButter.xml">Sauces: Honey Butter</a>, Jam or something similar on hand.</note>
+		<note>For "Navajo Tacos" make regular taco fillings, but substitute these for the tortillas.</note>
+	</Notes>
+</Recipe>

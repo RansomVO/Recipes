@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Stuffed Mushrooms" yields="about 24">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="31" />
+
+	<Description id="Description">
+		There are probably thousands of recipes for stuffed mushrooms.
+		One time, we decided we wanted some stuffed mushrooms and just threw together what we had on hand.
+		They turned out wonderful!
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Large Whole Mushrooms"
+				nameNote="Caps about 1&frac12;&quote2;-3&quote2; in diameter"
+				amount="12"
+				amountNote="about 1 lb." />
+			<ingredient name="Sausage" amount="&frac12; 1b." />
+			<ingredient name="Onion" amount="&frac12; Small" />
+			<ingredient name="Parmesan Cheese" amount="2 Tablespoons" />
+			<ingredient name="Mozzarella Cheese"
+				amount="1 Cup"
+				amountNote="about &frac14; lb." />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Carefully break the stems from the Mushroom caps so that you are left with a hollow to hold the rest of the ingredients, then place them, hollow up, onto a cookie sheet.</instruction>
+			<instruction>Chop Onion into &frac14;" square chunks.</instruction>
+			<instruction>Place Sausage and Onion into a skillet and cook until Sausage is browned and Onions are thoroughly cooked. Make sure Sausage is broken up into very small chunks.</instruction>
+			<instruction>Remove from heat and add Parmesan Cheese to Sausage mixture.</instruction>
+			<instruction>Using a spoon, place Sausage mixture into hollows of Mushrooms. Put as much Sausage mixture as you can without having it fall out onto the cookie sheet.</instruction>
+			<instruction>Carefully place about a teaspoon of Mozzarella Cheese on top of each stuffed Mushroom.</instruction>
+			<instruction>Just before serving, broil on low until Mozzarella Cheese melts. <span class="NOTE">(About 5 minutes)</span></instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>There are several flavors of Sausage besides "Regular": <ul>
+				<li>Spicy or Hot works well.</li>
+				<li>Sage works well if you like sage.</li>
+				<li>Maple flavor <span class="EMPHASIZE">does <span class="SUPER_EMPHASIZE">NOT</span></span> work well.</li>
+			</ul>
+		</note>
+		<note>The bigger the thickness <span class="Note">(not the length)</span> of the Mushroom stems, the easier they are to fill and the better they turn out.</note>
+		<note>
+			One secret is to not use the Mushrooms' stems because they just dilute the flavor.
+			There are lots of things that can be done with the Mushroom stems.
+			Try including them in some other recipe.
+			For example, slice them up to include in stuffing, mushrooms and onions as a topping for meat, etc.
+		</note>
+		<note>For best results, makes sure Sausage mixture is hot when you stuff the mushrooms, then broil and serve immediately.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>Add &frac12; teaspoon Garlic to Sausage mixture when browning Sausage.</modification>
+	</Modifications>
+</Recipe>

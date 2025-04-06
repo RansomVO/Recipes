@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Ranger Cookies" yields="about 3 dozen">
+	<Source>From the Kitchen of Orrilla VanOrman</Source>
+	<Note>Ransom’s Mom</Note>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="3" />
+
+	<Description id="Description">
+		This recipe originally came from forest rangers in Colorado, where Ransom's mom was young.
+		It was made in Ransom's home since before he can remember.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Shortening" amount="1 Cup" />
+			<ingredient name="Sugar" amount="1 Cup" />
+			<ingredient name="Brown Sugar" amount="1 Cup" />
+			<ingredient name="Eggs" amount="2" />
+			<ingredient name="Vanilla" amount="1 teaspoon" />
+			<ingredient name="Flour" amount="2 Cups" />
+			<ingredient name="Baking Soda" amount="1 teaspoon" />
+			<ingredient name="Baking Powder" amount="&frac12; teaspoon" />
+			<ingredient name="Salt" amount="&frac12; teaspoon" />
+			<ingredient name="Oats" amount="2 Cups" />
+			<ingredient name="Chocolate Chips" amount="1 Cup" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Preheat oven to 350&degrees;.</instruction>
+			<instruction>Combine Shortening, Sugar and Brown Sugar, then mix well.</instruction>
+			<instruction>Add Eggs and Vanilla, then mix well.</instruction>
+			<instruction>Add Flour, Baking Soda, Baking Powder and Salt, then mix well.</instruction>
+			<instruction>Fold in Oats.</instruction>
+			<instruction>Fold in Chocolate Chips.</instruction>
+			<instruction>Put 1&frac12;-inch balls of dough <span class="NOTE">(A little smaller than a golf ball.)</span> on a cookie sheet, about 3 inches apart.</instruction>
+			<instruction>Bake at 350&degrees; for 10-12 minutes.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>After cooling, they should still be a little soft. If they are crunchy, they are over-cooked.</note>
+		<note>After they are cool, they can be stored in Ziploc bags to keep them soft.</note>
+		<note>The dough can be stored in the fridge for several days before cooking if desired.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>If you are somewhere where you have difficulty finding Brown Sugar <span class="NOTE">(which missionaries frequently have to deal with)</span> substitute 1 Cup Sugar and 1 Tablespoon Molasses or Dark Corn Syrup. <span class="NOTE">(See <a href="../basics/substitutions.html">Basics: Conversions and Substitutions</a> page.)</span></modification>
+	</Modifications>
+</Recipe>

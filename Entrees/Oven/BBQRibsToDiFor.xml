@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="BBQ Ribs to Di For" yields="3-6 servings">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025"
+		month="3"
+		day="27" />
+
+	<Description id="Description">Before they were married Di and Ransom had a BBQ Rips bake-off with missionaries as the judges. Ransom did the Crock-pot BBQ Spare Ribs recipe. Di did one similar to this one. She won, but then <span class="NOTE">(a long time later)</span> Di told Ransom that her sauce recipe was something like: "Buy a bottle of Tony Roma BBQ Sauce". <br /> Ransom tried her method and found it did give the ribs a great consistency, so, after several attempts, we came up with this recipe to go with her cooking instructions.</Description>
+
+	<Ingredients id="Ingredients">
+		<section id="IngredientsRibs" title="Ribs">
+			<ingredient name="Spare Ribs"
+				nameNote="Bone-in is best"
+				amount="3-5 lbs." />
+			<ingredient name="Onion"
+				nameNote="Medium"
+				amount="&frac23;" />
+			<ingredient name="Water" amount="&frac12; Cup" />
+			<ingredient name="Onion Soup Mix" amount="1 Envelope" />
+		</section>
+		<section id="IngredientsSauce" title="Sauce">
+			<ingredient name="Tomato Paste" amount="1 6-oz. Can" />
+			<ingredient name="Tomato Sauce" amount="2 9-oz. Cans" />
+			<ingredient name="Brown Sugar" amount="&frac14; Cup" />
+			<ingredient name="Onion" nameNote="Medium" amount="&frac13;" />
+			<ingredient name="Garlic" amount="1 teaspoon" />
+			<ingredient name="Cinnamon" amount="&frac14; teaspoon" />
+			<ingredient name="Cayenne Pepper" amount="&frac14; teaspoon" />
+			<ingredient name="Cumin" amount="&frac14; teaspoon" />
+			<ingredient name="Salt" amount="&frac12; teaspoon" />
+			<ingredient name="Apple Cider Vinegar" amount="&frac12; Tablespoon" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section id="InstructionsRibs" title="Ribs">
+			<instruction>Preheat the oven to 400&degrees;</instruction>
+			<instruction>Cut &frac23; Onion into discs about &frac14;" thick, then separate the discs into rings.</instruction>
+			<instruction>Spread the Onions around on the bottom of 9" &vector; 13" baking pan.</instruction>
+			<instruction>Place Ribs over Onions, with the bones showing on top.<br />(You may need to squish them together to get them to fit.)</instruction>
+			<instruction>Sprinkle Water over the Ribs.</instruction>
+			<instruction>Sprinkle Onion Soup Mix over wet Ribs.</instruction>
+			<instruction>Cover with Foil.</instruction>
+			<instruction>Bake at 400&degrees; for 1 hour.</instruction>
+			<instruction>Gently, remove Ribs and Onions from pan and place them onto a platter or plate, pour out all the water, then replace the Onions.</instruction>
+			<instruction>One-by-one, coat each Rib with Sauce and replace it in baking pan.</instruction>
+			<instruction>Evenly spread any leftover Sauce over top of the ribs.</instruction>
+			<instruction>Without foil, bake at 425&degrees; for 20 minutes.</instruction>
+		</section>
+		<section id="InstructionsSauce" title="Sauce">
+			<instruction>Mince &frac13; Onion <span class="NOTE">(Chop it very finely.)</span></instruction>
+			<instruction>Put all ingredients into a saucepan.</instruction>
+			<instruction>Heat to a boil.</instruction>
+			<instruction>Reduce heat, cover with a lid and let simmer for 10 minutes, stirring occasionally.</instruction>
+			<instruction>Turn off burner and let Sauce sit.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>Do the first part of the Ribs <span class="NOTE">(steps 1-8)</span>, then, during the baking <span class="NOTE">(step 8)</span> make the Sauce and let it sit until it is time to use it.</note>
+		<note>
+			When serving, place the Ribs on a platter, then pour/scrape the leftover Sauce into a bowl with a gravy ladle.
+			It can be used by those that want extra Sauce, or it is great over a baked potato with sour cream.
+		</note>
+		<note>
+			In step 8 of the Ribs instructions, you can take the water, pour it into a bowl and refrigerate it.
+			The next day, it makes a great base for soup once you scoop the fat from the top.
+		</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>Instead of using the Sauce recipe, just use a bottle of store-bought BBQ Sauce, such as Tony Roma's or Sweet Baby Rays.</modification>
+	</Modifications>
+</Recipe>

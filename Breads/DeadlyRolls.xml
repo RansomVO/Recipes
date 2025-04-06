@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Deadly Rolls" titleNote="Formerly Known as Refrigerator Rolls" yields="12">
+	<Source>From the Kitchen of Sheryl VanOrman</Source>
+	<Note>Ransom's Aunt</Note>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="1" />
+
+	<Description id="Description"> I got this roll recipe from my aunt. They are the lightest, fluffiest rolls I have ever eaten. They are also easy to mix up as they are made of only basic ingredients. <br /> But the best thing about these rolls is the mixing can be done days ahead of the cooking. Since there is extra sugar, the yeast will stay alive, and partially dormant if you leave the dough in the refrigerator. That means one less thing you have to do on the day of a big meal, but you still get fresh rolls. </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Warm Water" amount="1 Cup" />
+			<ingredient name="Sugar" amount="&frac14; Cup" />
+			<ingredient name="Yeast"
+				amount="1 Package"
+				amountNote="2&frac14; teaspoons" />
+		</section>
+		<section>
+			<ingredient name="Oil" amount="2 Tablespoons" />
+			<ingredient name="Egg" amount="1" />
+			<ingredient name="Salt" amount="1 teaspoon" />
+			<ingredient name="Flour" amount="3-4 Cups" />
+		</section>
+		<section>
+			<ingredient name="Butter"
+				amount="&frac14; Cup"
+				amountNote="&frac12; Stick" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>
+				<subSection title="Preparing Dough" list-style="decimal">
+					<instruction>In a mixing bowl, mix Sugar, Water and Yeast.<br /><span class="NOTE">(Water must be about body temperature. To the touch, this will feel slightly warmer than room temperature, but <span class="SUPER_EMPHASIZE">not</span> hot.)</span></instruction>
+					<instruction>After a few minutes, when yeast begins to foam, add the rest of the ingredients, except for the butter, and knead for 10 minutes.</instruction>
+					<instruction>Put into a greased bowl, roll around and turn over once so top is greased. Then cover bowl with plastic wrap.</instruction>
+					<instruction>Refrigerate for at least 3 hours.</instruction>
+				</subSection>
+				<subSection title="Baking" list-style="decimal">
+					<instruction>Preheat oven to 400&degrees;.</instruction>
+					<instruction>Punch down Dough and shape into 12 pieces.</instruction>
+					<instruction>Melt butter in a small bowl.</instruction>
+					<instruction>Shape each piece of dough by flattening slightly, then folding the edges down and under until you have a ball with a smooth top. <span class="NOTE">(Bottom will not be smooth.)</span></instruction>
+					<instruction>Roll each ball in melted butter and place, bottom down, into a muffin tin.</instruction>
+					<instruction>Let rise 1&frac12;-2 hours.</instruction>
+					<instruction>Bake at 400&degrees; for 12-15 minutes.</instruction>
+				</subSection>
+			</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>It is easiest to mix this up the day before you need it and let it refrigerate overnight.</note>
+		<note>The Dough can be kept in fridge for up to 3 days if it is punched down two or three times a day until you use it.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>To make slightly fancier rolls: <ul>
+				<li>In Baking Step 2, shape into 24 pieces.</li>
+				<li>In Baking Step 5 place 2 in each pocket of the muffin tin.</li>
+			</ul>
+		</modification>
+		<modification>To make dinner rolls: <ul>
+				<li>In Baking Step 2, shape into 15 pieces.</li>
+				<li>In Baking Step 5 place them in 3 rows of 5 on a small cookie sheet with 1" spacing.</li>
+			</ul>
+		</modification>
+	</Modifications>
+</Recipe>

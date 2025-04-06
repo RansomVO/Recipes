@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Bread-Machine Sandwich Bread" yields="1 loaf">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="1" />
+
+	<Description id="Description"> Fresh bread-machine bread tastes wonderful! But it makes lousy sandwiches because it crumbles and falls apart. I once found out that Vital Wheat Gluten can be used to "fix" this. I added a bunch and ended up with a loaf of bread that looked and smelled good, but was the consistency of rubber. &smiley; <br /> After a bit of trial and error, I finally came up with this recipe which holds together well without having a nasty consistency. </Description>
+	<Ingredients id="Ingredients">
+		<section id="Ingredients2lbLoaf" title="2 lb. Loaf">
+			<ingredient name="Milk" amount="1&frac12; Cup" />
+			<ingredient name="Oil" amount="2 Tablespoons" />
+			<ingredient name="Bread Flour" amount="4 Cups" />
+			<ingredient name="Vital Wheat Gluten" amount="2 Tablespoons" />
+			<ingredient name="Sugar" amount="3 Tablespoons" />
+			<ingredient name="Salt" amount="1&frac12; teaspoons" />
+			<ingredient name="Yeast" amount="1 Tablespoon" />
+		</section>
+		<section id="Ingredient2l2lbloaf" title="1&frac12; lb. loaf">
+			<ingredient name="Milk" amount="1&frac18; Cup" />
+			<ingredient name="Oil" amount="1&grac12; Tablespoons" />
+			<ingredient name="Bread Flour" amount="3 Cups" />
+			<ingredient name="Vital Wheat Gluten" amount="1&frac12; Tablespoons" />
+			<ingredient name="Sugar" amount="2 Tablespoons" />
+			<ingredient name="Salt" amount="1 teaspoon" />
+			<ingredient name="Yeast" amount="&frac34; Tablespoon" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction> Add ingredients to bread machine, in this order, without mixing: <ul list-style="lower-alpha">
+					<li>Milk and Oil</li>
+					<li>All other dry ingredients, except Yeast </li>
+					<li>Yeast</li>
+				</ul>
+			</instruction>
+			<instruction>May set delay up to 8 hours.</instruction>
+			<instruction>Cook using Light Crust.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>For ease, you can pre-mix the dry ingredients and store them in a Ziplock Bag, or something similar.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification> If you are going to use a delay-time of longer than 8 hours: <ul>
+				<li>Use Water instead of Milk.</li>
+				<li>Add 2 Tablespoons Dry Milk to the Dry ingredients.</li>
+			</ul>
+		</modification>
+	</Modifications>
+</Recipe>

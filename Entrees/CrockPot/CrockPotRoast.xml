@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Crock Pot Roast">
+	<Note>Basic</Note>
+	<Section>&section;</Section>
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025"
+		month="3"
+		day="25" />
+
+	<Description id="Description"> Sometimes <span class="NOTE">(especially on Fast Sunday)</span> you just want to come home to a meal that is ready to eat. This recipe allows you to do the preparation before you leave, then come home to a meal that is cooked and a house that is filled with a tantalizing smell. </Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Onions" amount="1 Large" />
+			<ingredient name="Roast" amount="1 3-4 lb." />
+			<ingredient name="Onion Soup Mix"
+				nameNote="Such as Lipton's"
+				amount="1 Envelope" />
+			<ingredient name="Potatoes" amount="2-3 Medium" />
+			<ingredient name="Carrots" amount="4-6 Large" />
+			<ingredient name="Water" amount="&frac12; Cup" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Slice Onion into disks &frac14;"- &frac12;" thick, then cover the bottom of the crockpot with them.</instruction>
+			<instruction>Place the Roast in the middle of the crock pot so that it doesn't touch any of the edges. Place it so the side with the most fat is up.</instruction>
+			<instruction>Sprinkle a 1-2 Tablespoons of the Water on the top of the Roast, then sprinkle Onion Soup Mix on the top of the Roast.</instruction>
+			<instruction>Peel Potatoes and Carrots. Rinse them in clean water, then cut them into spoon-sized chunks.</instruction>
+			<instruction>Place Potatoes and Carrots in crock pot, between the Roast and the side of the crock, then over the top of the roast.</instruction>
+			<instruction>Sprinkle the rest of the Water over the entire contents of the crock pot.</instruction>
+			<instruction>Cook on High for 4-6 hours, or Low for 8-12 hours.</instruction>
+			<instruction>Remove the Roast and set it on a cutting board. Then remove each of the vegetables and place them in separate serving bowls. Pour the broth into a gravy boat to be poured on potatoes.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>
+			The amount of Carrots depends how much your family eats.
+			You may want more or less than what is listed.
+		</note>
+		<note>
+			You should use enough Potatoes to fill the crock pot, nearly touching the lid.
+			That depends upon the size of the Potatoes, the size of the Roast, the amount of Carrots, etc., so it may be quite a bit more than what is listed.
+		</note>
+		<note>
+			When placing Carrots and Potatoes in the crock pot, it works out best to keep the Carrots together on one side.
+			That makes it easier when you are separating them in serving bowls.
+		</note>
+		<note> Pretty much any kind of Roast will work. Usually we use Pork or Beef, but even I have seen things like Elk used. Also, it does not matter whether you use bone-in or boneless. <br />
+			<span class="NOTE">(In general, I just use whatever is cheapest.)</span>
+		</note>
+		<note>
+			Don't worry about cooking for too long.
+			As long as it is only a few hours too much, the worst that will happen is that the meat will shred a bit when you try to cut it.
+		</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>Instead of Lipton Onion Soup Mix, use Montreal Steak seasoning.</modification>
+		<modification>Use the broth to make <a href="../../SaucesAndDips/EasyGravy.xml">Sauces and Dips: Easy Gravy</a></modification>
+	</Modifications>
+</Recipe>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Shepherd's Pie" yields="4-6 servings">
+	<Source>Classic</Source>
+
+	<Section>&section;</Section>
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025"
+		month="3"
+		day="27" />
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Hamburger" amount="1 lb." />
+			<ingredient name="Golden Mushroom Soup" amount="1 10.5oz. Can" />
+			<ingredient name="Potatoes" amount="3-5" />
+			<ingredient name="Salt" amount="2 teaspoons" />
+			<ingredient name="Butter"
+				amount="4 Tablespoons"
+				amountNote="&frac12; Stick" />
+			<ingredient name="Milk" amount="&frac14; Cup" />
+			<ingredient name="Frozen Peas"
+				amount="1 Bag"
+				amountNote="12oz. or 16oz." />
+			<ingredient name="Cheddar Cheese" amount="&frac12; lb." />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Peel Potatoes, cut into chunks and place in a pot.</instruction>
+			<instruction>Add Salt, then add Water until Potatoes are covered.</instruction>
+			<instruction>Bring Potatoes to a boil, then reduce heat to medium.</instruction>
+			<instruction>While Potatoes are heating up:<ul>
+					<li>Place Peas in a 9" &vector; 9" glass pan, and heat in microwave</li>
+					<li>Brown Hamburger in yet another pan</li>
+					<li>Slice Cheese into thin slices</li>
+				</ul></instruction>
+			<instruction>When Hamburger is done browning, add Soup, stir well, then remove from heat.</instruction>
+			<instruction>When Potatoes are soft, drain water, add Butter and Milk, and mash well.</instruction>
+			<instruction>Place Hamburger on top of Peas and spread evenly.</instruction>
+			<instruction>Place mashed Potatoes on top of Hamburger and spread evenly.</instruction>
+			<instruction>Place Cheese evenly across top of mashed Potatoes.</instruction>
+			<instruction> Turn oven to broil, then put in Shepherd's Pie just until Cheese melts. <span class="NOTE">(Should be less than a couple of minutes.)</span>
+			</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>
+			Potatoes are usually mashed with a potato masher, but I find it easier to use a mixer.
+			If you don't have either, you can use a fork, but that is painful.
+		</note>
+		<note>
+			The goal is to finish mashing Potatoes, browning Hamburger and heating Peas at the same time.
+			That way, the Shepherd's Pie is already hot when it is assembled.
+		</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>
+			Instead of Golden Mushroom Soup, you can use simple Brown Gravy with Salt and Pepper.
+			Or better yet, Brown Gravy with Montreal Steak Seasoning.
+		</modification>
+		<modification>
+			Instead of Peas, you can use just about any vegetable:
+			Corn, Green Beans, even Mixed Vegetables.
+		</modification>
+		<modification>
+			If you do not have a microwave available, or if you don't have a microwave safe 9" &vector; 9" pan, heat the Peas in a separate pan with a little water.
+			Then drain and place in 9" &vector; 9" pan.
+		</modification>
+	</Modifications>
+</Recipe>

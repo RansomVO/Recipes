@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Biscuits" yields="about 12">
+	<Source>From an old cookbook</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="1" />
+
+	<Description id="Description">
+		These days, the easiest way to do biscuits is to buy a tube of them at the grocery story, pop them open and bake them.
+		However, if you want good biscuits, that just won't do.
+		This recipe is nothing special, but it does produce biscuits that are far superior to the junk you get out of a tube.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Flour" amount="1&frac34; Cups" />
+			<ingredient name="Salt" amount="&frac12; teaspoon" />
+			<ingredient name="Baking Powder" amount="1 Tablespoon" />
+			<ingredient name="Butter"
+				nameNote="COLD!"
+				amount="6 Tablespoons" />
+			<ingredient name="Milk" amount="&frac34; Cup" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Preheat oven to 400&degrees;.</instruction>
+			<instruction>In a bowl, combine Flour, Salt and Baking Powder.</instruction>
+			<instruction>Slice the butter into 1 Tablespoon slices and use a pastry blender to cut butter into flour until combination is consistency of coarse cornmeal.</instruction>
+			<instruction>Add milk all at once and stir until dough doesn't stick to sides of bowl. <span class="NOTE">(Less than 1 minute.)</span></instruction>
+			<instruction>Dust the countertop with flour and roll out the dough until it is it is about &frac12;" thick.</instruction>
+			<instruction>Fold in half, then in half again.</instruction>
+			<instruction>Repeat Steps 5 and 6 at least four times.</instruction>
+			<instruction>The final time, roll out dough 1" thick.</instruction>
+			<instruction>Cut out biscuits with a round cookie cutter approximately 2&frac12;" in diameter.</instruction>
+			<instruction>Place on greased cookie sheet.</instruction>
+			<instruction>Bake at 400&degrees; for 12-15 minutes, until just turning golden brown.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>A Pastry Blender is not an electrical appliance! It is a hand-held tool with a bunch of blades used to gently mix doughs of this sort. If you cannot find a pastry blender, use a fork.<br /><img src="PastryBlender.png" style="margin-left:5em;" /></note>
+		<note>If you do not have a round cookie cutter, use a cup or glass.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>To make the tops a little more tender, gently brush the tops with milk or butter just before baking.</modification>
+	</Modifications>
+</Recipe>

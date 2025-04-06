@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Crispy Peanut Butter Cookies" yields="about 36">
+	<Source>Adapted from the Cooking Channel web site</Source>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="21" />
+
+	<Description id="Description">
+		We have tried many different recipes for Peanut Butter Cookies.
+		Josh found this recipe and although he used the correct ingredients, he totally ignored the directions and did things his own way.
+		The results were quite different from anything else we have tried.
+		The cookies are a lot thinner than others, and they are a bit crispy on the bottom and edges.
+		They are now Di's all-time favorite.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Flour" amount="2 Cups" />
+			<ingredient name="Baking Soda" amount="&frac12; teaspoon" />
+			<ingredient name="Salt" amount="&frac14; teaspoon" />
+			<ingredient name="Browns Sugar" amount="1&frac14; Cups" />
+			<ingredient name="Sugar" amount="1&frac14; Cups" />
+			<ingredient name="Butter"
+				nameNote="Softened"
+				amount="1 Cup" />
+			<ingredient name="Eggs" amount="3" />
+			<ingredient name="Peanut Butter"
+				nameNote="Chunky or Creamy"
+				amount="1 Cup" />
+			<ingredient name="Vanilla" amount="2 teaspoons" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a large bowl, mix Flour, Baking Soda, Salt, Brown Sugar and Sugar.</instruction>
+			<instruction>Add Butter and mix with a rubber spatula until it is blended in.</instruction>
+			<instruction>Add Eggs, Peanut Butter and Vanilla, and mix well.</instruction>
+			<instruction>Place 1-inch balls of dough about 2 inches apart on a greased cookie sheet.</instruction>
+			<instruction>Bake at 300&degrees; for 18-20 minutes.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>The dough is really sticky, so making the balls can end up being a bit of a chore.</note>
+	</Notes>
+</Recipe>

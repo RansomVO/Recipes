@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY parentSection SYSTEM "../section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Pasta (Spaghetti)" yields="about 4 servings">
+	<Source>Basic</Source>
+
+	<Section>&section;</Section>
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025"
+		month="3"
+		day="27" />
+
+	<Description id="Description">Don't even think about doing pasta from scratch. <span class="NOTE">(Except egg noodles.)</span> Just buy a box at the store. It ends up being cheaper, and a lot less hassle. Here is how to prepare them.</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Pasta"
+				nameNote="Spaghetti, Linguini, Fettuccini, etc."
+				amount="1 16oz. Box" />
+			<ingredient name="Salt" amount="1 teaspoon" />
+			<ingredient name="Oil"
+				nameNote="Preferably Olive Oil"
+				amount="1 Tablespoon" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Fill a medium sized pot &frac34; full of water and add salt and 1 teaspoon of Oil.</instruction>
+			<instruction>Bring water to a boil.</instruction>
+			<instruction>Place Pasta into boiling water. This can be done in two ways:<br />- Shorter and easier: Break the lengths of Pasta in half. With small amounts at a time, place pasta into pot at different angles. <span class="NOTE">(If you place a whole handful in at a time, it will stick together and cook unevenly.)</span><br />- Longer: Place Pasta end down into the water. Half of it will stick up out of the water. As the Pasta begins to cook it will begin to soften. As it softens, gently press it down, until eventually all of the pasta is submerged.</instruction>
+			<instruction>After about 10 minutes, check to see if Pasta is cooked. The traditional way to do this is to fish out one strand of Pasta and toss it onto a wall or cupboard door. If it sticks, it is done, if not it needs to cook longer.</instruction>
+			<instruction>Strain the Water from the Pasta and return it to the pot.</instruction>
+			<instruction>Add the other 2 teaspoons of Oil and stir the Pasta so that the Oil is distributed evenly.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note> It is extremely important to not add the Pasta to the water until it is <span class="EMPHASIZE">boiling!</span> If you do, the Pasta will begin to break down before it cooks and either gets pasty, or completely falls apart.</note>
+		<note>The Oil added to the water will help keep the foaming down so it is easier to see the cooking Pasta.</note>
+		<note>Traditional Italian cooks will choke on step 6. However, it keeps the Pasta from sticking and becoming an unservable mass.<br />If you really don't want to this, then after straining the boiling water, half-fill the pot with hot <span class="NOTE">(not boiling)</span> water. This will keep the Pasta warm without over cooking it.</note>
+	</Notes>
+</Recipe>

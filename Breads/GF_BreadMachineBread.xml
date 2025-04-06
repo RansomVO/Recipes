@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Gluten-Free Bread Machine Bread" yields="1 Loaf">
+	<Source>A VanOrman Original</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="2" />
+
+	<Description>
+		<span class="TODO">This recipe is too liquidy. It boiled over and made a mess. Need to make another attempt.</span>
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Eggs" amount="3" />
+			<ingredient name="Milk" amount="2 Cups" />
+			<ingredient name="Oil" amount="&frac14; Cup" />
+			<ingredient name="Apple Cider Vinegar" amount="1 Tablespoon" />
+			<ingredient name="Gluten-Free All Purpose Baking Flour" amount="3 Cups" />
+			<ingredient name="Sugar" amount="3 Tablespoons" />
+			<ingredient name="Salt" amount="1&frac12; teaspoons" />
+			<ingredient name="Xanthan Gum" amount="1 Tablespoon" />
+			<ingredient name="Yeast" amount="1 Tablespoon" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Add ingredients to bread machine, in this order, without mixing: <ol>
+					<li>Eggs, Milk, Oil and Vinegar</li>
+					<li>All other dry ingredients, except Yeast</li>
+					<li>Yeast</li>
+				</ol>
+			</instruction>
+			<instruction>Cook using settings for Rapid and Light Crust.</instruction>
+		</section>
+	</Instructions>
+
+	<Modifications id="Modifications">
+		<modification>Instead of Gluten-Free All Purpose Baking Flour, you can use:</modification>
+		<modification>2 Cups Rice Flour.</modification>
+		<modification>&frac12; Cup Potato Starch.</modification>
+		<modification>&frac12; Cup Tapioca Flour or Soy Flour.</modification>
+		<modification>&frac13; Cup Corn Starch.</modification>
+	</Modifications>
+</Recipe>

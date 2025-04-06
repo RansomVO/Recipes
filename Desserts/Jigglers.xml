@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Jigglers" yields="">
+	<Source>From the back of a box of Jello</Source>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="2" />
+
+	<Description id="Description">There was a time when Jello Jigglers were included in commercials. Even though we haven't seen such a commercial in a long time, kids still love them!</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Water" amount="2&frac12; Cups" />
+			<ingredient name="Flavored Gelatin"
+				nameNote="Such as Jello"
+				amount="2 Packages"
+				amountNote="0.6oz" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Bring Water to a boil.</instruction>
+			<instruction>Put Gelatin into a small mixing bowl.</instruction>
+			<instruction>Carefully, pour Boiling Water into the small mixing bowl.</instruction>
+			<instruction>Stir until Gelatin is completely dissolved.</instruction>
+			<instruction>Pour mixture into 9" &vector; 13" pan.<br /><span class="NOTE">Hint: If you lightly spray the pan with non-stick spray <span class="NOTE">(such as Pam)</span> then the treats are easier to remove when done.</span></instruction>
+			<instruction>Refridgerate until firm. <span class="NOTE">(About three hours.)</span></instruction>
+			<instruction>After Jigglers have set, cut them into 1" &vector; 2" rectangles with a knife.</instruction>
+			<instruction>Remove from the pan and enjoy!</instruction>
+		</section>
+	</Instructions>
+
+	<Notes>
+		<note>In Step 3, if you add the powder directly into the Boiling Water, it may "flash boil". <br />This will cause it to spray all over and somebody usually gets burned.<br /><span class="NOTE">(Believe me, I learned the hard way!)</span></note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>Instead of cutting Jigglers into rectangles, use cookie cutters to cut into decorative shapes.</modification>
+		<modification><span class="POINT_HIGHLIGHT">To make the treats more nutritious <span class="NOTE">(and better tasting)</span></span>:<br />Use some sort of fruit Juice instead of water.</modification>
+		<modification>
+			<span class="POINT_HIGHLIGHT">Quick-set method:</span>
+			<ol>
+				<li>Only add 1 Cup Boiling Water.</li>
+				<li>When Gelatin is completely disolved, add 1&frac12; Cups Ice Water.</li>
+				<li>Stir until ice is completely melted before pouring into pan.</li>
+			</ol>
+		</modification>
+	</Modifications>
+
+	<FinalNote id="FinalNote">A similar recipe for Diabetics is <a href="LS_GummyTreats.xml">Desserts and Snacks: Sugar-Free Gummy Treats</a></FinalNote>
+</Recipe>

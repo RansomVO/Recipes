@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Pie Crust Pastry" yields="about 2 8-inch crusts">
+	<Section>&section;</Section>
+	<Source>Classic</Source>
+	<LastModified year="2025"
+		month="3"
+		day="21" />
+
+	<Description id="Description">
+		The first step to making a pie is to make its crust.
+		This recipe is good for an 8" pie with a lid, or two 8" pies without a lid.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Flour" amount="1&frac12; Cup" />
+			<ingredient name="Salt" amount="1 teaspoon" />
+			<ingredient name="Sugar" amount="&frac12; Tablespoon" />
+			<ingredient name="Baking Powder" amount="1 teaspoon" />
+			<ingredient name="Vanilla" amount="1 teaspoon" />
+			<ingredient name="Cold Butter"
+				amount="&frac14; Cup"
+				amountNote="&frac12; Stick" />
+			<ingredient name="Shortening" amount="&frac14; Cup" />
+			<ingredient name="8 teaspoons Cold Water" amount="Approximately" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>If the pie crust is to be baked before filling, preheat the oven to 425&degrees;.</instruction>
+			<instruction>In a mixing bowl, combine dry ingredients, and mix well.</instruction>
+			<instruction>Add Cold Butter and Shortening, and cut in with a pastry blender.</instruction>
+			<instruction>Add Cold Water and stir until dough is consistent.</instruction>
+			<instruction>Take half of the dough and make a round ball.</instruction>
+			<instruction>Place between two sheets of wax paper and use a rolling pin to roll into a 12" diameter circle.</instruction>
+			<instruction>Gently, remove top sheet of wax paper.</instruction>
+			<instruction>Carefully place, centered, on top of pie pan, with wax paper up.</instruction>
+			<instruction>Gently remove other sheet of wax paper.</instruction>
+			<instruction>Adjust so that dough evenly covers all of pie pan, and has extra dough hanging over outside edges.</instruction>
+			<instruction>On the outside of the pan, cut dough off about &frac12;" from top of the pan.</instruction>
+			<instruction>Go around the pan, rolling the dough up to the top of the pan, then gently pinch, side-by-side, so that it stays in place.</instruction>
+			<instruction> Baking Instructions:<ul>
+					<li>For pies that are baked in the crust, follow baking instruction for that pie.</li>
+					<li>For other pies bake at 425&degrees; for 15 minutes.</li>
+				</ul>
+			</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>A Pastry Blender is not an electrical appliance! It is a hand-held tool with a bunch of blades used to gently mix doughs of this sort. If you cannot find a pastry blender, use a fork.<br /><img src="PastryBlender.png" /></note>
+	</Notes>
+</Recipe>
