@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE invoice [
-	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
@@ -56,5 +56,6 @@
 
 	<Modifications id="Modifications">
 		<modification>To make the tops a little more tender, gently brush the tops with milk or butter just before baking.</modification>
+		<modification>If you want to have larger Biscuits for something like Biscuits &amp; Gravy, just use a larger cutter in step 9, but it will yield fewer Biscuits.</modification>
 	</Modifications>
 </Recipe>

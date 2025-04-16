@@ -1,0 +1,35 @@
+<Pages>
+	<CollapseSection folder="SpecialNeeds/Guidelines" />
+	<inline>
+		<div class="SECTION_HEADER">Recipes</div>
+		<p class="DESCRIPTION"> Many recipes lose a lot of flavor or consistency when using just simple substitutions. <br /> As such, recipes that can be used are scattered throughout the Recipe Sections! </p>
+		<blockquote>
+			<div class="SUBSUBSECTION_HEADER">Entrees</div>
+			<ul>
+				<li class="TODO qzxDisabled">
+					<a href=".../Entrees/Oven/GF_PizzaCrust.xml">Gluten-Free Pizza Crust <span class="SMALL_NOTE">(Gluten Sensitivity)</span></a>
+				</li>
+			</ul>
+
+			<div class="SUBSUBSECTION_HEADER">Breads</div>
+			<ul>
+				<li class="TODO qzxDisabled">
+					<a href=".../Breads/GF_Biscuits.xml">Gluten-Free Biscuits <span class="SMALL_NOTE">(Gluten Sensitivity)</span></a>
+				</li>
+				<li class="TODO">
+					<a href=".../Breads/GF_BreadMachineBread.xml">Gluten-Free Bread Machine Bread <span class="SMALL_NOTE">(Gluten Sensitivity)</span></a>
+				</li>
+			</ul>
+
+			<div class="SUBSUBSECTION_HEADER">Desserts and Snacks</div>
+			<ul>
+				<li>
+					<a href=".../Desserts/LS_GummyTreats.xml">Sugar-Free Gummy Treats <span class="SMALL_NOTE">(Diabetes)</span></a>
+				</li>
+				<li class="TODO qzxDisabled">
+					<a href=".../Desserts/GF_PieCrust.xml">Gluten-Free Pie Crust <span class="SMALL_NOTE">(Gluten Sensitivity)</span></a>
+				</li>
+			</ul>
+		</blockquote>
+	</inline>
+</Pages>

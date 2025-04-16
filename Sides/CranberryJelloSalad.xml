@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.xml">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Layered Cranberry Jello Salad" yields="12 Servings">
+	<Source>A VanOrman Original</Source>
+
+	<Description></Description>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="7" />
+
+	<Ingredients>
+		<section>
+			<ingredient name="Cranberries" amount="1 Lb." />
+			<ingredient name="Pineapple Tidbits" amount="1 20-oz. Can" />
+			<ingredient name="Cranberry Gelatin" amount="2 3-oz. Boxes" />
+			<ingredient name="Water"
+				amountNote="Boiling"
+				amount="1 Cup" />
+			<ingredient name="Lemon-Lime Soda"
+				nameNote="Cold"
+				amount="2 12oz. Cans" />
+		</section>
+		<section>
+			<ingredient name="Milk" amount="5 Cups" />
+			<ingredient name="Instant Pudding Mix" amount="2 ???-oz. Boxes" />
+			<ingredient name="Cool Whip" amount="1 ???-oz. Container" />
+			<ingredient name="Heavy Whipping Cream" amount="1 Pint" />
+			<ingredient name="Sugar" amount="1 Cup" />
+		</section>
+	</Ingredients>
+	<Instructions class="TODO">
+		<section>
+			<instruction>TODO QZX</instruction>
+		</section>
+	</Instructions>
+
+	<Modifications>
+		<modification>If you cannot find Pineapple Tidbits try:<ul>
+				<li>Chunk Pineapple, run through the food processor</li>
+				<li>Chunk Pineapple, Chop with a knife</li>
+			</ul>
+		</modification>
+	</Modifications>
+</Recipe>

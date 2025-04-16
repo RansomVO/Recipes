@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE invoice [
-	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
@@ -57,7 +57,7 @@
 
 	<Modifications id="Modifications">
 		<modification>
-			The original recipe had you use a frying pan instead of a deep fryer.
+			Thise original recipe had you use a frying pan instead of a deep fryer.
 			If you read the description, you can understand why this was changed. &smiley;
 			However, you can use a frying pan on medium high if you are more careful and don't leave the kitchen while waiting for it to heat up.
 		</modification>
