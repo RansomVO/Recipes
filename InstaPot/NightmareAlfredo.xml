@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.xml">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="InstaPot Nightmare Alfredo" yields="ToDo">
+	<Source>Based on an Instant Pot Recipe by "Karli" <span class="SMALL_NOTE">(Bitner)</span></Source>
+	<Note>Online</Note>
+
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="7" />
+
+	<Description id="Description">
+		A missionary with Italian heritage was trying out this recipe told us that when he was younger he broke some pasta in half to get it to fit in the pot.
+		His grandmother screamed and kicked him out of the kitchen for a week. &lol;
+		Pretty much any Italian would consider broken pasta to be a nightmare, and thus the name.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Chicken Broth"
+				nameNote="Double-Strength"
+				amount="1&frac12; Cups" />
+			<ingredient name="Milk" amount="3 Cups" />
+			<ingredient name="Evaporated Milk" amount="&frac12; 12-oz. Can" />
+			<ingredient name="Cream of Mushroom Soup" amount="1 10&frac12;-oz. Can" />
+			<ingredient name="Salt and Coarse Ground Pepper"
+				amount="To Taste"
+				amountNote="About &frac14;-&frac12; teaspoons" />
+			<ingredient name="Fettuccini" amount="1 1-lb. Package" />
+			<ingredient name="Chicken Thigh"
+				nameNote="Boneless"
+				amount="1" />
+			<ingredient name="Butter"
+				amount="4 Tablespoons"
+				amountNote="&frac12; Stick" />
+			<ingredient name="Minced Garlic" amount="1 teaspoon" />
+			<ingredient name="Parmesan Cheese" amount="&frac12;-1 cup" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a pot, combine Chicken Broth, Milk, Evaporated Milk and Cream of Mushroom Soup. Stir and set aside.</instruction>
+			<instruction>Slice the Chicken into very thin slices, then cut into segments about 1-2 inches long.</instruction>
+			<instruction>Set InstaPot to Saut&#xE9; and add Butter. Let it sit until Butter is melted.</instruction>
+			<instruction>Add Chicken and Garlic and saut&#xE9; until Chicken is cooked. <span class="NOTE">(About 5-10 minutes)</span></instruction>
+			<instruction>Turn off Saut&#xE9; on the InstaPot, add liquid and stir well.</instruction>
+			<instruction>Break Fettuccini in half so it fits in InstaPot.</instruction>
+			<instruction>Carefully stir the Pasta in the mixture until it is well covered.</instruction>
+			<instruction>Sprinkle Parmesan Cheese over the top. <span class="EMPHASIZE">Don't stir.</span></instruction>
+			<instruction>Set InstaPot to Pressure Cook for 6 minutes.</instruction>
+			<instruction>When done, turn off InstaPot and let sit for 6 minutes more.</instruction>
+			<instruction>Release pressure from InstaPot.</instruction>
+			<instruction>Gently stir the Pasta and serve.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>If Pasta is not broken in half and well covered in sauce, it will end up being uncooked or stuck together in yucky clumps.</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>Try topping with something like, Bacon Bits, fresh Italian Parsley, Green Onions, etc.</modification>
+		<modification>Try using some other kind of Pasta, such as Linguini, Penne or Rotini. <span class="NOTE">(If using short Pasta, such as Penne or Rotini, there is no need to break it in half.)</span></modification>
+		<modification>To make it extra creamy, replace the Water with Milk.</modification>
+	</Modifications>
+</Recipe>

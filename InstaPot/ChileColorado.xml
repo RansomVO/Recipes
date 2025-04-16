@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE invoice [
-	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
@@ -75,6 +75,6 @@
 
 	<Modifications id="Modifications">
 		<modification>You can create the 1&frac12;-Strength Beef Broth by using 3 Cups of Water + 4&frac12; Bouillon Cubes <span class="NOTE">(or the equivalent)</span>.</modification>
-		<modification>To make it more spicy, add 1-3 Arbol Chiles <span class="NOTE">(Dried)</i> with the other Chiles <i>(Dried)</span>.</modification>
+		<modification>To make it more spicy, add 1-3 Arbol Chiles <span class="NOTE">(Dried)</span> with the other Chiles <span class="NOTE">(Dried)</span>.</modification>
 	</Modifications>
 </Recipe>

@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE invoice [
-	<!ENTITY section SYSTEM "section.txt">
+	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
@@ -47,13 +47,7 @@
 
 	<Notes id="Notes">
 		<note>
-			<span class="SUPER_EMPHASIZE">Warning!
-			</b> Mixture will more than double while heating, then will reduce as it nears the correct temperature, so make sure you use a
-			<span class="SUPER_EMPHASIZE">Large</span> non-stick pot.
-		</note>
-		<note>Cutting it up is a challenge. At first, I used a hot, large, sharp, chopping knife, and was able to get it if I was patient.<br />Then I found if you waited until was nearly cool you can use a Pizza Cutter to do the primary cutting.<br /><i>
-				<b>NOTE
-				</span>: If you leave the edges touching, they will merge back together.
-			</i></note>
+			<span class="SUPER_EMPHASIZE">Warning!</span> Mixture will more than double while heating, then will reduce as it nears the correct temperature, so make sure you use a <span class="SUPER_EMPHASIZE">Large</span> non-stick pot. </note>
+		<note>Cutting it up is a challenge. At first, I used a hot, large, sharp, chopping knife, and was able to get it if I was patient.<br />Then I found if you waited until was nearly cool you can use a Pizza Cutter to do the primary cutting.<br /><span class="NOTE"><span class="EMPHASIZE">NOTE</span>: If you leave the edges touching, they will merge back together. </span></note>
 	</Notes>
 </Recipe>

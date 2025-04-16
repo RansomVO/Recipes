@@ -1,0 +1,15 @@
+<Pages>
+	<CollapseSection folder="CookingBasics" />
+	<CollapseSection folder="Beverages" />
+	<CollapseSection folder="Appetizers" />
+	<CollapseSection folder="Sauces" />
+	<CollapseSection folder="Breakfast" />
+	<CollapseSection folder="Entrees" />
+	<CollapseSection folder="InstaPot" />
+	<CollapseSection folder="Sides" />
+	<CollapseSection folder="Breads" />
+	<CollapseSection folder="Desserts" />
+	<CollapseSection folder="Camping" />
+	<CollapseSection folder="Canning" />
+	<CollapseSection folder="SpecialNeeds" />
+</Pages>

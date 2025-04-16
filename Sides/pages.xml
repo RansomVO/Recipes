@@ -1,0 +1,13 @@
+<Pages>
+	<page href="MashedPotatoes.xml" title="Mashed Potatoes" />
+	<page href="Rice.xml" title="Rice" />
+	<page href="LehiRice.xml" title="Lehi Rice" />
+	<page href="DutchSpanishRice.xml" title="Dutch Spanish Rice" />
+	<page href="FriedRice.xml" title="Fried Rice" />
+	<page href="StuffMeing.xml" title="StuffMeing" />
+	<page href="GreenBeanCasserole.xml" title="Green Bean Casserole" />
+	<page href="GarlicGingerStirFryGreenBeans.xml" title="Garlic-Ginger Stir-Fry Green Beans" />
+	<page href="EasyPotatoesAuGratin.xml" title="Easy Potatoes Au Gratin" />
+	<page href="GingerCarrots.xml" title="Ginger Carrots" />
+	<page class="TODO" href="CranberryJelloSalad.xml" title="Cranberry Jello Salad" />
+</Pages>

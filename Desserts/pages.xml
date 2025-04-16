@@ -1,0 +1,18 @@
+<Pages>
+	<page href="RangerCookies.xml" title="Ranger Cookies" />
+	<page href="SourCreamSugarCookies.xml" title="Sour Cream Sugar Cookies" />
+	<page href="CrispyPeanutButterCookies.xml" title="Crispy Peanut Butter Cookies" />
+	<page href="OatmealPeanutButterBlocks.xml" title="Oatmeal Peanut Butter Blocks" />
+	<page href="RiceKrispyTreats.xml" title="Rice Krispy Treats" />
+	<page href="PieCrustPastry.xml" title="Pie Crust Pastry" />
+	<page href="PumpkinPie.xml" title="Pumpkin Pie" />
+	<page href="CoconutAlmondPopcorn.xml" title="Coconut Almond Popcorn" />
+	<page href="MonkeyBread.xml" title="Monkey Bread" />
+	<page href="TresLechesCake.xml" title="Tres Leches Cake" />
+	<page href="CreamySoftToffee.xml" title="Creamy Soft Toffee" />
+	<page href="CheapSoftToffee.xml" title="Cheap Soft Toffee" />
+	<page href="RobertRedfordDessert.xml" title="Robert Redford Dessert" />
+	<page href="Jigglers.xml" title="Jigglers" />
+
+	<page href="LS_GummyTreats.xml" title="Sugar-Free Gummy Treats" />
+</Pages>
