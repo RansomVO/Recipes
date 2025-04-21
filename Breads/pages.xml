@@ -7,5 +7,5 @@
 	<page href="OrangeRolls.xml" title="Orange Rolls" />
 
 	<page class="TODO qzxDisabled" href="GF_Biscuits.xml" title="Gluten-Free Biscuits" />
-	<page class="TODO qzxDisabled" href="GF_BreadMachineBread.xml" title="Gluten-Free Bread Machine Bread" />
+	<page class="TODO" href="GF_BreadMachineBread.xml" title="Gluten-Free Bread Machine Bread" />
 </Pages>
