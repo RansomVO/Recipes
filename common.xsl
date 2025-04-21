@@ -56,6 +56,21 @@
 			<xsl:value-of select="$section" />
 		</span>
 	</xsl:template>
+	<xsl:template name="LinkPrefix">
+		<xsl:param name="depth" />
+
+		<xsl:choose>
+			<xsl:when test="$depth > 1">
+				<xsl:value-of select="'../'" />
+				<xsl:call-template name="LinkPrefix">
+					<xsl:with-param name="depth" select="$depth - 1" />
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="'.'" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
 
 	<xsl:template match="a">
 		<xsl:param name="linkPrefix" />
@@ -85,7 +100,14 @@
 		In order to let "<xsl:apply-templates />" work, it is necessary to use this to copy standard HTML nodes and address their contents.
 		As new HTML elements are used in the Recipes, make sure to add them to this template.
 		- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-	<xsl:template match="blockquote|details|summary|br|div|hr|img|li|ol|p|span|table|td|th|tr|ul|b|i|u">
+	<xsl:template match="details|summary|
+		head|title|link|body|
+		blockquote|div|p|span|
+		br|hr|
+		img|
+		table|td|th|tr|
+		ul|ol|li|
+		b|i|u">
 		<xsl:param name="linkPrefix" />
 
 		<xsl:element name="{name()}">

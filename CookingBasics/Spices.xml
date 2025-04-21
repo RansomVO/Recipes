@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../html.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.xml">
+	<!ENTITY page SYSTEM "Spices.html">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<HTML>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="8" />
+
+	<!-- -->&page;<!-- -->
+</HTML>

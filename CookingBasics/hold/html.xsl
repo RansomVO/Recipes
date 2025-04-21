@@ -4,12 +4,9 @@
 
 	<xsl:include href="common.xsl" />
 
-	<!-- QZX TODO: Figure out a way to apply templates to .html pages. E.G. Create .xml that loads the document(.html) and applys templates to it.-->
-
-	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
-	<!-- @@@@@@@@@@@@@@@@@@@@                        Main Template                       @@@@@@@@@@@@@@@@@@@@ -->
-	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
-	<xsl:template match="Recipe">
+	<xsl:template match="HTML">
+		<xsl:value-of select="name()" />
+		<!--
 		<xsl:variable name="depth">
 			<xsl:choose>
 				<xsl:when test="document(concat(Section/section/@folder, '/section.xml'))/section/@folder = '.'">1</xsl:when>
@@ -24,6 +21,78 @@
 			</xsl:call-template>
 		</xsl:variable>
 
+		<html>
+			<head>
+				<title>FOO</title>
+			</head>
+			<body>
+				<!- - - ->BAR<!- - - -><br />
+				 <xml:value-of select="$depth" /><br />
+				 <xml:value-of select="$linkPrefix" /><br />
+				 <xml:value-of select="name()" />
+			</body>
+		</html>
+
+
+		<!- - <xsl:apply-templates select="html">
+			<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+		</xsl:apply-templates> - ->
+		-->
+	</xsl:template>
+
+	<!--
+	<xsl:template match="html">
+		<html>
+			<head></head>
+
+			<body>
+				FOO
+			</body>
+		</html>
+	</xsl:template>
+	-->
+
+	<!-- QZX TODO: Figure out a way to apply templates to .html pages. E.G. Create .xml that loads the document(.html) and applys templates to it.-->
+
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+	<!-- @@@@@@@@@@@@@@@@@@@@                        Main Template                       @@@@@@@@@@@@@@@@@@@@ -->
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+	<!--
+	<xsl:template match="HTML/html">
+		<xsl:variable name="depth">
+			<xsl:choose>
+				<xsl:when test="document(concat(Section/section/@folder, '/section.xml'))/section/@folder = '.'">1</xsl:when>
+				<xsl:when test="document(concat(Section/section/@folder, '/../section.xml'))/section/@folder = '.'">2</xsl:when>
+				<xsl:when test="document(concat(Section/section/@folder, '/../../section.xml'))/section/@folder = '.'">3</xsl:when>
+				<xsl:otherwise>0</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<xsl:variable name="linkPrefix">
+			<xsl:call-template name="LinkPrefix">
+				<xsl:with-param name="depth" select="$depth" />
+			</xsl:call-template>
+		</xsl:variable>
+
+		<xsl:apply-templates>
+			<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+		</xsl:apply-templates>
+
+	</xsl:template>
+
+	<xsl:template match="head">
+		<xsl:param name="linkPrefix" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<xsl:apply-templates>
+			<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+		</xsl:apply-templates>
+
+	</xsl:template>
+	-->
+
+
+	<!--
 		<html lang="en">
 			<head>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -61,7 +130,7 @@
 								<td class="RECIPE_YIELDS" align="right">
 									<b>Yields</b>: <span>
 										<xsl:choose>
-											<!-- TODO QZX: Figure out how to <xsl:apply-templates ...> to the links below so that it doesn't look like a link when printing. -->
+											<!- - TODO QZX: Figure out how to <xsl:apply-templates ...> to the links below so that it doesn't look like a link when printing. - ->
 											<xsl:when test="@yields = 'See Ingredients'">
 												<xsl:attribute name="class">NOTE</xsl:attribute> (See <xsl:call-template name="section-link">
 													<xsl:with-param name="section" select="'Ingredients'" />
@@ -167,9 +236,9 @@
 
 	</xsl:template>
 
-	<!-- ************************************************************************************************************************ -->
-	<!--  Templates for sub-items                                                                                                 -->
-	<!-- ************************************************************************************************************************ -->
+	<!- - ************************************************************************************************************************ - ->
+	<!- -  Templates for sub-items                                                                                                 - ->
+	<!- - ************************************************************************************************************************ - ->
 	<xsl:template match="subSection">
 		<xsl:param name="linkPrefix" />
 
@@ -306,8 +375,8 @@
 					<div style="break-after:page;" />
 				</xsl:when>
 				<xsl:otherwise>
-					<!-- <span style="font-size:.25em;"> </span>
-				<br /> -->
+					<!- - <span style="font-size:.25em;"> </span>
+				<br /> - ->
 				</xsl:otherwise>
 			</xsl:choose>
 			<div class="SECTION_HEADER" id="Instructions">Instructions</div>
@@ -345,8 +414,8 @@
 						<div style="break-after:page;" />
 					</xsl:when>
 					<xsl:otherwise>
-						<!-- <span style="font-size:.25em;"> </span>
-					<br /> -->
+						<!- - <span style="font-size:.25em;"> </span>
+					<br /> - ->
 					</xsl:otherwise>
 				</xsl:choose>
 				<div class="SECTION_HEADER" id="Notes">Notes</div>
@@ -372,8 +441,8 @@
 						<div style="break-after:page;" />
 					</xsl:when>
 					<xsl:otherwise>
-						<!-- <span style="font-size:.25em;"> </span>
-					<br /> -->
+						<!- - <span style="font-size:.25em;"> </span>
+					<br /> - ->
 					</xsl:otherwise>
 				</xsl:choose>
 				<div class="SECTION_HEADER" id="AdditionalNotes">Additional Notes</div>
@@ -391,7 +460,7 @@
 
 		<xsl:if test="modification">
 			<div style="margin-top:.5em;">
-				<!-- <xsl:copy-of select="@*" /> -->
+				<!- - <xsl:copy-of select="@*" /> - ->
 				<xsl:choose>
 					<xsl:when test="@pageBreak">
 						<span class="no-screen">
@@ -400,8 +469,8 @@
 						<div style="break-after:page;" />
 					</xsl:when>
 					<xsl:otherwise>
-						<!-- <span style="font-size:.25em;"> </span>
-						<br /> -->
+						<!- - <span style="font-size:.25em;"> </span>
+						<br /> - ->
 					</xsl:otherwise>
 				</xsl:choose>
 				<div class="SECTION_HEADER" id="Modifications" style="">Modifications</div>
@@ -435,5 +504,5 @@
 			</xsl:apply-templates>
 		</li>
 	</xsl:template>
-
+	-->
 </xsl:stylesheet>

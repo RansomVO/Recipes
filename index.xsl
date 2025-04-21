@@ -52,20 +52,14 @@
 						<tr>
 							<td class="no-print">
 								<a href="/">Home</a>
-								<xsl:choose>
-									<xsl:when test="ParentSection">
-										<b> / </b>
-										<a href="../..">Recipes</a>
-										<b> / </b>
-										<a href="..">
-											<xsl:copy-of select="ParentSection/section/text()|ParentSection/section/*" />
-										</a>
-									</xsl:when>
-									<xsl:otherwise>
-										<b> / </b>
-										<a href="..">Recipes</a>
-									</xsl:otherwise>
-								</xsl:choose>
+								<b> / </b>
+								<a><xsl:attribute name="href" select="concat($linkPrefix, '/Recipes'" /> Recipes </a>
+								<xsl:if test="ParentSection">
+									<b> / </b>
+									<a href="..">
+										<xsl:copy-of select="ParentSection/section/text()|ParentSection/section/*" />
+									</a>
+								</xsl:if>
 							</td>
 							<td class="LAST_MODIFIED" style="text-align:right;"> Last updated: <xsl:apply-templates select="LastModified" />
 							</td>
@@ -78,22 +72,6 @@
 			</body>
 		</html>
 
-	</xsl:template>
-
-	<xsl:template name="LinkPrefix">
-		<xsl:param name="depth" />
-
-		<xsl:choose>
-			<xsl:when test="$depth > 1">
-				<xsl:value-of select="'../'" />
-				<xsl:call-template name="LinkPrefix">
-					<xsl:with-param name="depth" select="$depth - 1" />
-				</xsl:call-template>
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:value-of select="'.'" />
-			</xsl:otherwise>
-		</xsl:choose>
 	</xsl:template>
 
 	<!-- ************************************************************************************************************************ -->

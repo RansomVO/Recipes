@@ -38,7 +38,7 @@
 	</Instructions>
 
 	<Notes id="Notes">
-		<note>Eating it plain isn't very pleasurable, so make sure to have Honey, Butter, <a href="../Sauces/HoneyButter.xml">Sauces: Honey Butter</a>, Jam or something similar on hand.</note>
+		<note>Eating it plain isn't very pleasurable, so make sure to have <a href=".../Sauces/HoneyButter.xml">Sauces: Honey Butter</a>, Honey, Butter, Jam or something similar on hand.</note>
 		<note>For "Navajo Tacos" make regular taco fillings, but substitute these for the tortillas.</note>
 	</Notes>
 </Recipe>

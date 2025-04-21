@@ -57,5 +57,5 @@
 		</modification>
 	</Modifications>
 
-	<FinalNote id="FinalNote">A similar recipe for Diabetics is <a href="LS_GummyTreats.xml">Desserts and Snacks: Sugar-Free Gummy Treats</a></FinalNote>
+	<FinalNote id="FinalNote">A similar recipe for Diabetics is <a href=".../Desserts/LS_GummyTreats.xml">Desserts and Snacks: Sugar-Free Gummy Treats</a></FinalNote>
 </Recipe>
