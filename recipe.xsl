@@ -4,8 +4,6 @@
 
 	<xsl:include href="common.xsl" />
 
-	<!-- QZX TODO: Figure out a way to apply templates to .html pages. E.G. Create .xml that loads the document(.html) and applys templates to it.-->
-
 	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 	<!-- @@@@@@@@@@@@@@@@@@@@                        Main Template                       @@@@@@@@@@@@@@@@@@@@ -->
 	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
@@ -28,9 +26,9 @@
 			<head>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<link rel="stylesheet" type="text/css" href="styles.css" />
-				<title>
-					<xsl:value-of select="@title" />
-				</title>
+				<title> VanOrman Family Recipes: <xsl:if test="ParentSection">
+						<xsl:value-of select="ParentSection" /> / </xsl:if>
+					<xsl:value-of select="Section" />: <xsl:value-of select="@title" /></title>
 			</head>
 
 			<body>

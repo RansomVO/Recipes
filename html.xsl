@@ -20,9 +20,13 @@
 		</xsl:variable>
 
 		<html>
-			<xsl:apply-templates select="html/head">
-				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-			</xsl:apply-templates>
+			<head>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<link rel="stylesheet" type="text/css" href="styles.css" />
+				<xsl:apply-templates select="html/head/*">
+					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+				</xsl:apply-templates>
+			</head>
 
 			<body>
 				<div class="FLEX_CONTENT">
