@@ -32,6 +32,8 @@
 						VanOrman Family Recipes:
 					</xsl:if>
 					<!-- TODO QZX: Handle multiple levels of Sections in the title. E.G.: Entrees/StoveTop -->
+					<xsl:if test="ParentSection">
+						<xsl:value-of select="ParentSection" /> /</xsl:if>
 					<xsl:value-of select="Section" />
 				</title>
 			</head>
