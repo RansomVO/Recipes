@@ -19,11 +19,6 @@
 			</xsl:call-template>
 		</xsl:variable>
 
-		<!--
-		<xsl:apply-templates select="html">
-			<xsl:with-param name="linkPrefix" value="../boo" />
-		</xsl:apply-templates>
-		-->
 		<html>
 			<xsl:apply-templates select="html/head">
 				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
