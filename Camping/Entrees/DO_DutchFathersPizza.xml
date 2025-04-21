@@ -110,5 +110,5 @@
 		</note>
 	</Notes>
 
-	<FinalNote id="FinalNote">A similar recipe for use at home: <a href="../../Entrees/Oven/Pizza.xml">Entrees / Oven: Pizza</a></FinalNote>
+	<FinalNote id="FinalNote">A similar recipe for use at home: <a href=".../Entrees/Oven/Pizza.xml">Entrees / Oven: Pizza</a></FinalNote>
 </Recipe>

@@ -46,6 +46,6 @@
 	</Instructions>
 
 	<Notes id="Notes">
-		<note>To eat a Utah Scone, you should make a slit on one end, then put in <a href="../Sauces/HoneyButter.xml">Sauces: Honey Butter</a>!<br /><span class="NOTE">(or Honey, Butter, Jam, or something similar.)</span></note>
+		<note>To eat a Utah Scone, you should make a slit on one end, then put in <a href=".../Sauces/HoneyButter.xml">Sauces: Honey Butter</a>!<br /><span class="NOTE">(or Honey, Butter, Jam, or something similar.)</span></note>
 	</Notes>
 </Recipe>

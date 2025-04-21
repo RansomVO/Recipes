@@ -68,6 +68,6 @@
 
 	<Modifications id="Modifications">
 		<modification>Instead of Lipton Onion Soup Mix, use Montreal Steak seasoning.</modification>
-		<modification>Use the broth to make <a href="../../SaucesAndDips/EasyGravy.xml">Sauces and Dips: Easy Gravy</a></modification>
+		<modification>Use the broth to make <a href=".../SaucesAndDips/EasyGravy.xml">Sauces and Dips: Easy Gravy</a></modification>
 	</Modifications>
 </Recipe>

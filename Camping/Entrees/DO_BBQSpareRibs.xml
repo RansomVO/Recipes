@@ -57,5 +57,5 @@
 		<note>When serving the ribs, the extra sauce tastes wonderful over baked potatoes, with a dollop of sour cream.</note>
 	</Notes>
 
-	<FinalNote id="FinalNote">A similar recipe for use at home: <a href="../../Entrees/CrockPot/BBQSpareRibs.xml">Entrees / CrockPot: BBQ Spare Ribs</a></FinalNote>
+	<FinalNote id="FinalNote">A similar recipe for use at home: <a href=".../Entrees/CrockPot/BBQSpareRibs.xml">Entrees / CrockPot: BBQ Spare Ribs</a></FinalNote>
 </Recipe>

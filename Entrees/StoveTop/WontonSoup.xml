@@ -50,7 +50,7 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>If desired, get the Wontons by using the <a href="Wontons.xml">Entrees / Stove Top: Wontons</a> Recipe. <span class="NOTE">(Use the Envelope Style folding.)</span></instruction>
+			<instruction>If desired, get the Wontons by using the <a href=".../Entrees/StoveTop/Wontons.xml">Entrees / Stove Top: Wontons</a> Recipe. <span class="NOTE">(Use the Envelope Style folding.)</span></instruction>
 			<instruction>
 				Slice the Carrots into very thing discs.
 				Then lay the discs out flat and slice them into into strands.

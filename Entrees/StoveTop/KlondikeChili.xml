@@ -17,7 +17,7 @@
 		month="3"
 		day="29" />
 
-	<Description id="Description"> This is Ransom's second Chili recipe. The first one, <a href="../CrockPot/StealthAttackChili.xml">Entrees / CrockPot: Stealth-Attack Chili</a>, was really good, but it was complex and actually had to be started the day before you wanted to eat it. On top of that, when we moved to Washington, nobody could handle it. &smiley; <br /> This recipe is geared towards quick preparation, and 7 out of 8 times it actually won the first-place award at a Boy Scout district Dutch-Oven Chili cook-off at Klondike Derbies! </Description>
+	<Description id="Description"> This is Ransom's second Chili recipe. The first one, <a href=".../CrockPot/StealthAttackChili.xml">Entrees / CrockPot: Stealth-Attack Chili</a>, was really good, but it was complex and actually had to be started the day before you wanted to eat it. On top of that, when we moved to Washington, nobody could handle it. &smiley; <br /> This recipe is geared towards quick preparation, and 7 out of 8 times it actually won the first-place award at a Boy Scout district Dutch-Oven Chili cook-off at Klondike Derbies! </Description>
 
 	<Ingredients id="Ingredients">
 		<section>
@@ -116,5 +116,5 @@
 		</modification>
 	</Modifications>
 
-	<FinalNote id="FinalNote">A similar recipe for use at home: <a href="../../Camping/DO_KlondikeChili.xml">Dutch Oven and other Camping Recipes: Dutch Oven Klondike Chili</a></FinalNote>
+	<FinalNote id="FinalNote">A similar recipe for use at home: <a href=".../Camping/DO_KlondikeChili.xml">Dutch Oven and other Camping Recipes: Dutch Oven Klondike Chili</a></FinalNote>
 </Recipe>
