@@ -320,6 +320,13 @@
 							<xsl:value-of select="@title" />
 						</span>
 					</xsl:if>
+					<xsl:if test="description">
+						<div style="margin-left:1em;">
+							<xsl:apply-templates select="description">
+								<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+							</xsl:apply-templates>
+						</div>
+					</xsl:if>
 					<ol style="margin-top:0; margin-bottom:0;">
 						<xsl:apply-templates select="instruction">
 							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
