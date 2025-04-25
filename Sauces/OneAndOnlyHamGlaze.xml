@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.xml">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="One and Only Ham Glaze" yields="Enough for 1 Large Ham">
+	<Source> From the kitchen of Karla Therriault</Source>
+	<Note>G's Grandma</Note>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="24" />
+
+	<Description id="Description">
+		When you bake a ham, it turns out better if it has a glaze covering the outside.
+		When Di tasted this one, she decided it was the one and only that we will use at home.
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Butter"
+				nameNote="Melted"
+				amount="8 oz."
+				amountNote="1 Stick" />
+			<ingredient name="Brown Sugar" amount="2 Cups" />
+			<ingredient name="Garlic"
+				nameNote="Minced"
+				amount="3 Tablespoons" />
+			<ingredient name="Yellow Mustard"
+				amount="&frac14; Cup" />
+			<ingredient name="Orange Juice Concentrate" amount="&frac12; Can" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section id="GlazeSauce" title="Glaze Sauce">
+			<instruction>Place the Melted Butter and Brown Sugar in a bowl and mix well.</instruction>
+			<instruction>Add Garlic and Yello Mustard and mix well.</instruction>
+			<instruction>Add Orange Juice Concentrate and mix well.</instruction>
+			<instruction>Immediately pour the mixture on the Ham and use a brush to spread it over the Ham, the closer to the top of the Hame, the thicker.</instruction>
+			<instruction>Follow baking instructions for the Ham.</instruction>
+		</section>
+		<section id="BakingHam" title="Baking Ham">
+			<description>In our case, "<span class="NOTE">Follow baking instructions for the Ham.</span>" usually involves:</description>
+			<instruction>In a criss-cross pattern, lay several sheets of tinfoil that are long enough to completely wrap around the Ham.</instruction>
+			<instruction>Set the Ham in the middle and fold <span class="EMPHASIZE">up</span> 1 layer of tinfoil, but <span class="SUPER_EMPHASIZE">not</span> fold it <span class="EMPHASIZE">over</span>.</instruction>
+			<instruction>Apply the Glaze to the Ham and immediately fold each layer the tinfoil up and over securely.</instruction>
+			<instruction>Bake the Ham at the appropriate temperature for the appropriate amount of time until it is done.</instruction>
+		</section>
+	</Instructions>
+
+	<Modifications id="Modifications">
+		<modification> If your oven has a convection setting, at the end of cooking the ham, unwrap the tinfoil, change to convection and turn up the heat to 425&degrees;.<br /> This gives the glaze a flame-broiled appearance. </modification>
+	</Modifications>
+</Recipe>
