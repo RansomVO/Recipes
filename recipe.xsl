@@ -105,7 +105,9 @@
 						</tr>
 						<tr>
 							<td class="DESCRIPTION" colspan="2" style="padding-top:.5em;">
-								<xsl:copy-of select="Description" />
+								<xsl:apply-templates select="Description">
+									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+								</xsl:apply-templates>
 							</td>
 						</tr>
 					</table>
