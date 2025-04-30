@@ -150,6 +150,8 @@
 			<xsl:if test="starts-with(normalize-space(.), 'TODO')">
 				<xsl:attribute name="class">DESCRIPTION TODO</xsl:attribute>
 			</xsl:if>
+			<!-- ============================================================ -->
+
 			<xsl:apply-templates>
 				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 			</xsl:apply-templates>

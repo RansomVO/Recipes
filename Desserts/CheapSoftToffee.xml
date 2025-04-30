@@ -37,10 +37,10 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Lightly spray a 9" &vector; 13" pan with non-stick spray.</instruction>
+			<instruction>Lightly spray a 9" &times; 13" pan with non-stick spray.</instruction>
 			<instruction>In a large, non-stick pot, combine all ingredients except Vanilla.</instruction>
 			<instruction>Heat mixture on medium, using a candy thermometer to monitor temperature.</instruction>
-			<instruction>Stirring very frequently, heat to 253&degrees; F. <span class="NOTE">(This will take half an hour or so.)</span><br /><span class="NOTE">(I know 253&degrees; sounds weird, but 250&degrees; leaves it runny, and 255&degrees; makes it brittle.)</span></instruction>
+			<instruction>Stirring very frequently, heat to 253&deg; F. <span class="NOTE">(This will take half an hour or so.)</span><br /><span class="NOTE">(I know 253&deg; sounds weird, but 250&deg; leaves it runny, and 255&deg; makes it brittle.)</span></instruction>
 			<instruction>When it reaches temperature, immediately remove the pot from the heat.</instruction>
 			<instruction>Stir in Vanilla.</instruction>
 			<instruction>Pour mixture onto the prepared pan and spread evenly.</instruction>

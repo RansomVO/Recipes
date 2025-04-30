@@ -38,14 +38,14 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Preheat oven to 350&degrees;.</instruction>
+			<instruction>Preheat oven to 350&deg;.</instruction>
 			<instruction>Combine Shortening, Sugar and Brown Sugar, then mix well.</instruction>
 			<instruction>Add Eggs and Vanilla, then mix well.</instruction>
 			<instruction>Add Flour, Baking Soda, Baking Powder and Salt, then mix well.</instruction>
 			<instruction>Fold in Oats.</instruction>
 			<instruction>Fold in Chocolate Chips.</instruction>
 			<instruction>Put 1&frac12;-inch balls of dough <span class="NOTE">(A little smaller than a golf ball.)</span> on a cookie sheet, about 3 inches apart.</instruction>
-			<instruction>Bake at 350&degrees; for 10-12 minutes.</instruction>
+			<instruction>Bake at 350&deg; for 10-12 minutes.</instruction>
 		</section>
 	</Instructions>
 

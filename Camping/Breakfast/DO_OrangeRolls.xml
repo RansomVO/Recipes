@@ -40,7 +40,7 @@
 		</section>
 		<section id="Glaze" title="Glaze">
 			<ingredient name="Juice from 1 Orange"
-				amountNote="&aboutEquals; &frac14; Cup" />
+				amountNote="&&approx;; &frac14; Cup" />
 			<ingredient name="Butter"
 				nameNote="Melted"
 				amount="&frac14; Cup"
@@ -67,7 +67,7 @@
 	</Instructions>
 
 	<Notes>
-		<note>"Scald Milk" means to heat it to a temperature just below boiling. <span class="NOTE">(&aboutEquals; 180&degrees;)</span></note>
+		<note>"Scald Milk" means to heat it to a temperature just below boiling. <span class="NOTE">(&&approx;; 180&deg;)</span></note>
 	</Notes>
 
 	<Modifications>

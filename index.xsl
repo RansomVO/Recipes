@@ -133,6 +133,7 @@
 				</xsl:apply-templates>
 
 				<div class="SUBSECTION_DESCRIPTION">
+					<!-- TODO QZX: Figure out why the externalEntities.dtd causes this to fail. -->
 					<xsl:apply-templates select="document(concat(@folder, '/summary.xml'))">
 						<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 					</xsl:apply-templates>

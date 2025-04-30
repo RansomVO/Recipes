@@ -43,7 +43,7 @@
 
 	<Instructions id="Instructions">
 		<section id="InstructionsCake" title="Cake">
-			<instruction>Spray 9 &vector; 13 pan liberally with no-stick spray <span class="NOTE">(such as Pam)</span> and set aside.</instruction>
+			<instruction>Spray 9 &times; 13 pan liberally with no-stick spray <span class="NOTE">(such as Pam)</span> and set aside.</instruction>
 			<instruction>In a large bowl, combine Flour, Baking Powder and Salt.</instruction>
 			<instruction>Separate Egg Yolks from Egg Whites.</instruction>
 			<instruction>Beat Egg Yolks with &frac34; Cup Sugar on high speed until Yolks are a pale yellow.</instruction>
@@ -53,7 +53,7 @@
 			<instruction>With mixer on, add remaining &frac14; cup Sugar and beat until egg whites are stiff but not dry.</instruction>
 			<instruction>Fold Egg White mixture into the batter very gently until just combined.</instruction>
 			<instruction>Pour mixture into greased pan and spread to even out the surface.</instruction>
-			<instruction>Bake at 350&degrees; for 35-45 or until an inserted toothpick comes out clean.</instruction>
+			<instruction>Bake at 350&deg; for 35-45 or until an inserted toothpick comes out clean.</instruction>
 			<instruction>Turn cake upside-down onto a platter.</instruction>
 			<instruction>Let cake cool.</instruction>
 		</section>

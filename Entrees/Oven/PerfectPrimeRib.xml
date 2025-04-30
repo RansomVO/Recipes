@@ -33,15 +33,15 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Preheat oven to 200&degrees;.</instruction>
+			<instruction>Preheat oven to 200&deg;.</instruction>
 			<instruction> Mix Salt and Pepper, then sprinkle mixture on entire surface of roast and pat into place. <br />
 				<span class="NOTE">(You should have some leftover. Don't try to make it all stick.)</span>
 			</instruction>
 			<instruction>Set Roast, ribs at the bottom, in a pan with a raised baking rack.</instruction>
-			<instruction>Bake until meat thermometer says internal temperature is 125&degrees;. <span class="NOTE">(Approximately 3&frac12;-4 hours.)</span></instruction>
+			<instruction>Bake until meat thermometer says internal temperature is 125&deg;. <span class="NOTE">(Approximately 3&frac12;-4 hours.)</span></instruction>
 			<instruction>Remove Roast from oven, place a tent made of foil over it and set aside.</instruction>
-			<instruction>Change oven temperature to 550&degrees;.<br />
-				<span class="NOTE">(If your oven doesn't go to 550&degrees;, go to the highest that it can.)</span>
+			<instruction>Change oven temperature to 550&deg;.<br />
+				<span class="NOTE">(If your oven doesn't go to 550&deg;, go to the highest that it can.)</span>
 			</instruction>
 			<instruction>Let Roast rest while oven comes up to temperature. <span class="NOTE">(Approximately 20-30 minutes.)</span></instruction>
 			<instruction>Return Roast to oven for 8 minutes.</instruction>

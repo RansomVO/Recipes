@@ -38,7 +38,7 @@
 
 	<Instructions id="Instructions">
 		<section id="InstructionsToDo" title="ToDo">
-			<instruction>Preheat oven to <span class="TODO">ToDo</span>&degrees;</instruction>
+			<instruction>Preheat oven to <span class="TODO">ToDo</span>&deg;</instruction>
 		</section>
 		<section id="InstructionsToDo" title="ToDo">
 			<instruction>
