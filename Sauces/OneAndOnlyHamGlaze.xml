@@ -7,7 +7,7 @@
 	%externalEntities;
 ]>
 
-<Recipe title="One and Only Ham Glaze" yields="Enough for 1 Large Ham">
+<Recipe title="One and Only Ham Glaze" titleNote="Or &quot;Ransom's A Ham Glaze&quot; where &quot;Ransom's&quot; means &quot;Ransom is&quot;" yields="For 1 Large Ham">
 	<Source> From the kitchen of Karla Therriault</Source>
 	<Note>G's Grandma</Note>
 	<Section>&section;</Section>
@@ -54,6 +54,6 @@
 	</Instructions>
 
 	<Modifications id="Modifications">
-		<modification> If your oven has a convection setting, at the end of cooking the ham, unwrap the tinfoil, change to convection and turn up the heat to 425&degrees;.<br /> This gives the glaze a flame-broiled appearance. </modification>
+		<modification> If your oven has a convection setting, at the end of cooking the ham, unwrap the tinfoil, change to convection and turn up the heat to 425&deg;.<br /> This gives the glaze a flame-broiled appearance. </modification>
 	</Modifications>
 </Recipe>

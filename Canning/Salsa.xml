@@ -26,7 +26,7 @@
 			<ingredient name="Jalape&#xF1;o Peppers"
 				nameNote="Cored and chopped"
 				amount="&frac34; Cup"
-				amountNote="&aboutEquals; 6" />
+				amountNote="&&approx;; 6" />
 			<ingredient name="Anaheim Peppers"
 				nameNote="Cored and chopped"
 				amount="3 Cups" />

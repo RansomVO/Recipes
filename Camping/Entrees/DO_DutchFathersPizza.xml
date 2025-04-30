@@ -7,7 +7,7 @@
 	%externalEntities;
 ]>
 
-<Recipe title="Dutch Father&quote1;s Pizza" yields="See Notes">
+<Recipe title="Dutch Father&apos;s Pizza" yields="See Notes">
 	<Source>A VanOrman Original</Source>
 
 	<Section>&section;</Section>
@@ -16,7 +16,7 @@
 		day="3" />
 
 	<Description id="Description">
-		When I was young, my dad used to cook some wonderful recipes in the dutch oven.
+		When I was young, my dad used to cook some wonderful recipes in the Dutch oven.
 		We were constantly looking for recipes that could be adapted.
 		One year we decided to try pizza and it turned out wonderful.
 		At that time, our favorite was GodFather's Pizza.
@@ -70,10 +70,10 @@
 			<instruction>Put in greased bowl, cover and let rise until doubled. <span class="NOTE">(About 30 minutes.)</span></instruction>
 		</section>
 		<section id="InstructionsAssembling" title="Assembling">
-			<instruction>Line dutch oven with foil.</instruction>
+			<instruction>Line Dutch oven with foil.</instruction>
 			<instruction>Spread butter all over the bottom and up the edges about 2 inches.</instruction>
-			<instruction>Roll out crust to about &frac14; inch thick and about 2-4 inches larger around than dutch oven. <span class="NOTE">(There should be enough dough for 2-3 crusts.)</span></instruction>
-			<instruction>Place in dutch oven. Press the edges so they go up the side 1"-2".</instruction>
+			<instruction>Roll out crust to about &frac14; inch thick and about 2-4 inches larger around than Dutch oven. <span class="NOTE">(There should be enough dough for 2-3 crusts.)</span></instruction>
+			<instruction>Place in Dutch oven. Press the edges so they go up the side 1"-2".</instruction>
 			<instruction>Cover crust with sauce.</instruction>
 			<instruction>Add the toppings desired.</instruction>
 			<instruction>A small layer of Cheese.</instruction>
@@ -82,14 +82,14 @@
 			<instruction>Pepperoni on the very top.</instruction>
 		</section>
 		<section id="Cooking" title="Cooking">
-			<instruction>On top, put 2 charcol briquettes for each inch in diameter. <span class="NOTE">(For example, 24 briquettes for a 12 inch dutch oven.)</span></instruction>
-			<instruction>The bottom should just be warm. <span class="NOTE">(1 briquette for each 3 inches in diameter. For example, 4 briquettes for a 12 inch dutch oven.)</span></instruction>
+			<instruction>On top, put 2 charcol briquettes for each inch in diameter. <span class="NOTE">(For example, 24 briquettes for a 12 inch Dutch oven.)</span></instruction>
+			<instruction>The bottom should just be warm. <span class="NOTE">(1 briquette for each 3 inches in diameter. For example, 4 briquettes for a 12 inch Dutch oven.)</span></instruction>
 			<instruction>Cook until Cheese has melted then begins to turn golden brown. <span class="NOTE">(20-30 minutes)</span></instruction>
 			<instruction>Remove all briquettes from the top and place them in a circle just under the edges of the bottom.</instruction>
 			<instruction>Cook until bottom crust begins to brown. <span class="NOTE">(5-10 minutes)</span><br /><span class="NOTE">(Check this by pulling up on the foil to lift the edge of the pizza.)</span></instruction>
-			<instruction>Remove the HOT lid from the dutch oven and place it upside down on the table.</instruction>
+			<instruction>Remove the HOT lid from the Dutch oven and place it upside down on the table.</instruction>
 			<instruction>You will need to use something to keep the lid level and prevent it from burning the table. <span class="NOTE">(Ransom uses a couple of short pieces of firewood.)</span></instruction>
-			<instruction>Using the foil, carefully lift the pizza out of the dutch oven and set on the lid. <span class="NOTE">(The hot lid will to continue to brown the crust.)</span></instruction>
+			<instruction>Using the foil, carefully lift the pizza out of the Dutch oven and set on the lid. <span class="NOTE">(The hot lid will to continue to brown the crust.)</span></instruction>
 			<instruction>Peel back the foil to expose the edges of the crust.</instruction>
 			<instruction>Use care when serving to make sure all foil is off of the crust.</instruction>
 		</section>

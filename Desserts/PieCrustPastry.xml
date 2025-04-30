@@ -36,7 +36,7 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>If the pie crust is to be baked before filling, preheat the oven to 425&degrees;.</instruction>
+			<instruction>If the pie crust is to be baked before filling, preheat the oven to 425&deg;.</instruction>
 			<instruction>In a mixing bowl, combine dry ingredients, and mix well.</instruction>
 			<instruction>Add Cold Butter and Shortening, and cut in with a pastry blender.</instruction>
 			<instruction>Add Cold Water and stir until dough is consistent.</instruction>
@@ -50,7 +50,7 @@
 			<instruction>Go around the pan, rolling the dough up to the top of the pan, then gently pinch, side-by-side, so that it stays in place.</instruction>
 			<instruction> Baking Instructions:<ul>
 					<li>For pies that are baked in the crust, follow baking instruction for that pie.</li>
-					<li>For other pies bake at 425&degrees; for 15 minutes.</li>
+					<li>For other pies bake at 425&deg; for 15 minutes.</li>
 				</ul>
 			</instruction>
 		</section>

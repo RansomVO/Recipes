@@ -24,7 +24,7 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient name="Large Whole Mushrooms"
-				nameNote="Caps about 1&frac12;&quote2;-3&quote2; in diameter"
+				nameNote="Caps about 1&frac12;&quot;-3&quot; in diameter"
 				amount="12"
 				amountNote="about 1 lb." />
 			<ingredient name="Sausage" amount="&frac12; 1b." />

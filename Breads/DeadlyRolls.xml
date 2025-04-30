@@ -51,13 +51,13 @@
 			<instruction>Refrigerate for at least 3 hours.</instruction>
 		</section>
 		<section title="Baking" list-style="decimal">
-			<instruction>Preheat oven to 400&degrees;.</instruction>
+			<instruction>Preheat oven to 400&deg;.</instruction>
 			<instruction>Punch down Dough and shape into 12 pieces.</instruction>
 			<instruction>Melt butter in a small bowl.</instruction>
 			<instruction>Shape each piece of dough by flattening slightly, then folding the edges down and under until you have a ball with a smooth top. <span class="NOTE">(Bottom will not be smooth.)</span></instruction>
 			<instruction>Roll each ball in melted butter and place, bottom down, into a muffin tin.</instruction>
 			<instruction>Let rise 1&frac12;-2 hours.</instruction>
-			<instruction>Bake at 400&degrees; for 12-15 minutes.</instruction>
+			<instruction>Bake at 400&deg; for 12-15 minutes.</instruction>
 		</section>
 	</Instructions>
 

@@ -36,11 +36,11 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Chop Onions into small pieces. <span class="NOTE">(about &frac12;" &vector; 1")</span></instruction>
+			<instruction>Chop Onions into small pieces. <span class="NOTE">(about &frac12;" &times; 1")</span></instruction>
 			<instruction>In a large pot, combine Onions and Hamburger, and cook on high until hamburger is browned.</instruction>
 			<instruction>Add Rice, Tomatoes, Tomato Sauce, Salt, Pepper and Water, then mix well.</instruction>
 			<instruction>Put a lid on the pot and stirring frequently with a Spatula, heat mixture until it starts to boil.</instruction>
-			<instruction>While mixture is heating, cut Peppers into small pieces <span class="NOTE">(about &frac12;" &vector; 1")</span>, then stir them into the mixture.</instruction>
+			<instruction>While mixture is heating, cut Peppers into small pieces <span class="NOTE">(about &frac12;" &times; 1")</span>, then stir them into the mixture.</instruction>
 			<instruction>Once mixture starts to boil, reduce heat to medium.</instruction>
 			<instruction>Stirring occasionally, let simmer until rice is cooked. <span class="NOTE">(About 30-45 minutes.)</span></instruction>
 		</section>
