@@ -2,4 +2,13 @@
 	<page href="DO_DutchFathersPizza.xml" title="Dutch Father's Pizza" />
 	<page href="DO_BBQSpareRibs.xml" title="Dutch Oven BBQ Spare Ribs" />
 	<page href="DO_KlondikeChili.xml" title="Dutch Oven Klondike Chili" />
+	<page class="qzxDisabled TODO" href="DO_Fajitas.xml" title="Dutch Oven Fajitas" />
+	<page class="qzxDisabled TODO" href="DO_FriedRice.xml" title="Dutch Oven Fried Rice" />
+	<page class="qzxDisabled TODO" href="DO_SpanishRice.xml" title="Dutch Oven Spanish Rice" />
+	<page class="qzxDisabled TODO" href="DO_Stew.xml" title="Dutch Oven Stew and Dumplings" />
+	<page class="qzxDisabled TODO" href="DO_PepperSteak.xml" title="Dutch Oven Pepper Steak" />
+	<page class="qzxDisabled TODO" href="DO_BasqueSheepherdersBread.xml" title="Dutch Oven Basque Sheepherder’s Bread" />
+	<page class="qzxDisabled TODO" href="DO_BBQRibstoDiFor.xml" title="Dutch Oven BBQ Ribs to Di For" />
+	<page class="qzxDisabled TODO" href="DO_KlondikeChili.xml" title="Dutch Oven Klondike Chili" />
+	<page class="qzxDisabled TODO" href="MantiTurkey.xml" title="Manti Turkey" />
 </Pages>
