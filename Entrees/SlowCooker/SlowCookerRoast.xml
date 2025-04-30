@@ -8,7 +8,7 @@
 	%externalEntities;
 ]>
 
-<Recipe title="Crock Pot Roast">
+<Recipe title="Slow Cooker Roast">
 	<Note>Basic</Note>
 	<Section>&section;</Section>
 	<ParentSection>&parentSection;</ParentSection>
@@ -33,12 +33,12 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Slice Onion into disks &frac14;"- &frac12;" thick, then cover the bottom of the crockpot with them.</instruction>
-			<instruction>Place the Roast in the middle of the crock pot so that it doesn't touch any of the edges. Place it so the side with the most fat is up.</instruction>
+			<instruction>Slice Onion into disks &frac14;"- &frac12;" thick, then cover the bottom of the Slow Cooker with them.</instruction>
+			<instruction>Place the Roast in the middle of the Slow Cooker so that it doesn't touch any of the edges. Place it so the side with the most fat is up.</instruction>
 			<instruction>Sprinkle a 1-2 Tablespoons of the Water on the top of the Roast, then sprinkle Onion Soup Mix on the top of the Roast.</instruction>
 			<instruction>Peel Potatoes and Carrots. Rinse them in clean water, then cut them into spoon-sized chunks.</instruction>
-			<instruction>Place Potatoes and Carrots in crock pot, between the Roast and the side of the crock, then over the top of the roast.</instruction>
-			<instruction>Sprinkle the rest of the Water over the entire contents of the crock pot.</instruction>
+			<instruction>Place Potatoes and Carrots in Slow Cooker, between the Roast and the side of the crock, then over the top of the roast.</instruction>
+			<instruction>Sprinkle the rest of the Water over the entire contents of the Slow Cooker.</instruction>
 			<instruction>Cook on High for 4-6 hours, or Low for 8-12 hours.</instruction>
 			<instruction>Remove the Roast and set it on a cutting board. Then remove each of the vegetables and place them in separate serving bowls. Pour the broth into a gravy boat to be poured on potatoes.</instruction>
 		</section>
@@ -50,11 +50,11 @@
 			You may want more or less than what is listed.
 		</note>
 		<note>
-			You should use enough Potatoes to fill the crock pot, nearly touching the lid.
+			You should use enough Potatoes to fill the Slow Cooker, nearly touching the lid.
 			That depends upon the size of the Potatoes, the size of the Roast, the amount of Carrots, etc., so it may be quite a bit more than what is listed.
 		</note>
 		<note>
-			When placing Carrots and Potatoes in the crock pot, it works out best to keep the Carrots together on one side.
+			When placing Carrots and Potatoes in the Slow Cooker, it works out best to keep the Carrots together on one side.
 			That makes it easier when you are separating them in serving bowls.
 		</note>
 		<note> Pretty much any kind of Roast will work. Usually we use Pork or Beef, but even I have seen things like Elk used. Also, it does not matter whether you use bone-in or boneless. <br />

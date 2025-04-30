@@ -47,10 +47,10 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Put water and beans in crock pot and cook them on Low overnight. <span class="NOTE">(4-8 hours)</span></instruction>
-			<instruction>Drain all of the excess water, leaving beans in crock pot.</instruction>
-			<instruction>Brown Hamburger, until there is no pink meat left, then add to crock pot.</instruction>
-			<instruction>Put all other ingredients into crock pot, except water, and mix well.</instruction>
+			<instruction>Put water and beans in a Slow Cooker and cook them on Low overnight. <span class="NOTE">(4-8 hours)</span></instruction>
+			<instruction>Drain all of the excess water, leaving beans in the Slow Cooker.</instruction>
+			<instruction>Brown Hamburger, until there is no pink meat left, then add to the Slow Cooker.</instruction>
+			<instruction>Put all other ingredients into the Slow Cooker, except water, and mix well.</instruction>
 			<instruction>Add Water until Chili is at desired consistency.</instruction>
 			<instruction>Cook on High for 2-4 hours or Low for 4-8 hours.</instruction>
 		</section>

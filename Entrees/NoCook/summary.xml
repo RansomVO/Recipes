@@ -1,4 +1,4 @@
 <Summary> We really think this is a <b>
 		<u>HUGE</u>
-	</b> thing! <br /> We just haven't gotten anything here. <i>(Yet.)</i>
+	</b> thing!<br />We just haven't gotten anything here. <i>(Yet. &#x1F600;<!-- TODO QZX: Figure out why the externalEntities.dtd would cause this to fail. -->)</i>
 </Summary>

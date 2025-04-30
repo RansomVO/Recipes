@@ -17,7 +17,7 @@
 		month="3"
 		day="27" />
 
-	<Description id="Description">Before they were married Di and Ransom had a BBQ Rips bake-off with missionaries as the judges. Ransom did the Crock-pot BBQ Spare Ribs recipe. Di did one similar to this one. She won, but then <span class="NOTE">(a long time later)</span> Di told Ransom that her sauce recipe was something like: "Buy a bottle of Tony Roma BBQ Sauce". <br /> Ransom tried her method and found it did give the ribs a great consistency, so, after several attempts, we came up with this recipe to go with her cooking instructions.</Description>
+	<Description id="Description">Before they were married Di and Ransom had a BBQ Rips bake-off with missionaries as the judges. Ransom did the <a href=".../Entrees/SlowCooker/BBQSpareRibs.xml">Slow Cooker BBQ Spare Ribs recipe</a>. Di did one similar to this one. She won, but then <span class="NOTE">(a long time later)</span> Di told Ransom that her sauce recipe was something like: "Buy a bottle of Tony Roma BBQ Sauce". <br /> Ransom tried her method and found it did give the ribs a great consistency, so, after several attempts, we came up with this recipe to go with her cooking instructions.</Description>
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsRibs" title="Ribs">

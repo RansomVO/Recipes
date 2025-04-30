@@ -17,7 +17,7 @@
 		month="3"
 		day="29" />
 
-	<Description id="Description"> This is Ransom's second Chili recipe. The first one, <a href=".../CrockPot/StealthAttackChili.xml">Entrees / CrockPot: Stealth-Attack Chili</a>, was really good, but it was complex and actually had to be started the day before you wanted to eat it. On top of that, when we moved to Washington, nobody could handle it. &smiley; <br /> This recipe is geared towards quick preparation, and 7 out of 8 times it actually won the first-place award at a Boy Scout district Dutch-Oven Chili cook-off at Klondike Derbies! </Description>
+	<Description id="Description"> This is Ransom's second Chili recipe. The first one, <a href=".../SlowCooker/StealthAttackChili.xml">Entrees / Slow Cooker: Stealth-Attack Chili</a>, was really good, but it was complex and actually had to be started the day before you wanted to eat it. On top of that, when we moved to Washington, nobody could handle it. &smiley; <br /> This recipe is geared towards quick preparation, and 7 out of 8 times it actually won the first-place award at a Boy Scout district Dutch-Oven Chili cook-off at Klondike Derbies! </Description>
 
 	<Ingredients id="Ingredients">
 		<section>
@@ -101,11 +101,11 @@
 				</tr>
 			</table>
 		</modification>
-		<modification>To cook in a crock-pot:<ul>
+		<modification>To cook in a Slow Cooker:<ul>
 				<li>Brown Hamburger and Onions in a skillet.</li>
-				<li>Combine all ingredients <span class="NOTE">(including Hamburger and Onions)</span> in a 6-quart crock-pot.</li>
+				<li>Combine all ingredients <span class="NOTE">(including Hamburger and Onions)</span> in a 6-quart Slow Cooker.</li>
 				<li>Cook on high for 3 hours, or on low for 6 hours, stirring every 1-2 hours.</li>
-			</ul> For an 8-quart crock-pot add:<ul>
+			</ul> For an 8-quart Slow Cooker add:<ul>
 				<li>1 extra can of Pinto Beans</li>
 				<li>1 extra can of Stewed Tomatoes or Sliced Tomatoes</li>
 				<li>2 extra Poblano Peppers</li>

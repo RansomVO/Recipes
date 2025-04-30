@@ -15,4 +15,7 @@
 	<page href="Jigglers.xml" title="Jigglers" />
 
 	<page href="LS_GummyTreats.xml" title="Sugar-Free Gummy Treats" />
+
+	<page class="qzxDisabled TODO" href="IceCream.xml" title="Ice Cream" />
+
 </Pages>

@@ -15,7 +15,7 @@
 		month="4"
 		day="2" />
 
-	<Description id="Description">This is Ransom's second Chili recipe. The first one was really good, but it was complex and actually had to be started the day before you wanted to eat it. <span class="NOTE">(Additionally, most people found it to be too spicy.)</span> <span class="NOTE">(See <a href="../Entrees/CrockPot/StealthAttackChili.xml">Entrees / CrockPot: Stealth-Attack Chili</a>.)</span> <br /> This recipe is geared towards quick preparation, and has actually won the first-place award at multiple Boy Scout district Dutch-oven chili cook-offs! </Description>
+	<Description id="Description">This is Ransom's second Chili recipe. The first one was really good, but it was complex and actually had to be started the day before you wanted to eat it. <span class="NOTE">(Additionally, most people found it to be too spicy.)</span> <span class="NOTE">(See <a href="../Entrees/SlowCooker/StealthAttackChili.xml">Entrees / Slow Cooker: Stealth-Attack Chili</a>.)</span> <br /> This recipe is geared towards quick preparation, and has actually won the first-place award at multiple Boy Scout district Dutch-oven chili cook-offs! </Description>
 
 	<Ingredients id="Ingredients">
 		<section>
