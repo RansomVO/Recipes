@@ -1,0 +1,8 @@
+<Pages>
+	<page href="LegalPage.pdf" title="Legal Size Camping Sheet">Print this out with: <ul style="margin:0;">
+			<li><b>Paper Size</b>: Legal</li>
+			<li><b>Orientation</b>: Landscape</li>
+			<li><b>Print on Both Sides</b>: Flip on long edge</li>
+		</ul> Then fold on the lines between the columns to end up with a simple small folded flyer. </page>
+	<page class="qzxDisabled TODO" href="MultiPage.xml" title="Multiple Page Camping Sheets" />
+</Pages>

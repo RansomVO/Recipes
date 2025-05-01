@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.xml">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Dutch Oven Stew and Dumplings" yields="ToDo">
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="4"
+		day="30" />
+
+	<Description id="Description">
+		<span class="TODO">ToDo: Add a Description.</span>
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section id="IngredientsStew" title="Stew">
+			<ingredient name="Beef" nameNote="LEAN" amount="2 lbs." />
+			<ingredient name="Flour" amount="&frac12; Cup" />
+			<ingredient name="Pepper" amount="&frac12; teaspoon" />
+			<ingredient name="Oil" amount="3 Tablespoons" />
+			<ingredient name="Beef Broth" nameNote="Double-Strength" amount="6 Cups" />
+			<ingredient name="Worcestershire Sauce" amount="1 Dash" />
+			<ingredient name="Thyme" nameNote="Crushed" amount="1 teaspoon" />
+			<ingredient name="Bay Leaves" amount="2" />
+			<ingredient name="Garlic Powder" amount="1 Dash" />
+			<ingredient name="Salt" amount="1 teaspoon" />
+			<ingredient name="Carrots" amount="6" />
+			<ingredient name="Potatoes" amount="4-6" />
+			<ingredient name="Onions" amount="2-3" />
+			<ingredient name="Pearl Barley" amount="2 Tablespoons" />
+		</section>
+		<section id="IngredientsDumplings" title="Dumplings">
+			<ingredient name="Shortening" amount="3 teaspoons" />
+			<ingredient name="Flour" amount="1&frac12; Cups" />
+			<ingredient name="Baking Powder" amount="2 teaspoons" />
+			<ingredient name="Salt" amount="&frac34; teaspoon" />
+			<ingredient name="Milk" amount="&frac34; Cup" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section id="InstructionsStew" title="Stew">
+			<instruction>Slice LEAN Beef into 1&inch; cubes.</instruction>
+			<instruction>Combine Flour and Pepper, then pour over Beef cubes until they are well coated. </instruction>
+			<instruction>Peel Carrots and cut into 1&inch; pieces.</instruction>
+			<instruction>Peel Potatoes and cut into 1&inch; cubes.</instruction>
+			<instruction>Remove the Skins from the Onions, then slice in halves. Place each half flat-side down and into &frac14;</instruction>
+			<instruction>Follow instructions to prepare the Dumplings.</instruction>
+			<instruction>Place Oil in Dutch oven and heat from the bottom.</instruction>
+			<instruction>Add coated Beef cubes then scrape and stir occasionally until they are browned.</instruction>
+			<instruction>Add Double-Strength Beef Broth, Worcestershire Sauce, Crushed Thyme, Bay Leaves, Garlic Powder and Salt then mix well.</instruction>
+			<instruction>Heat mixture to a boil.</instruction>
+			<instruction>Add Carrots, Potatoes, Onions and Pearl Barley and stir well.</instruction>
+			<instruction>Drop large spoonfuls of Dumpling mix around top of Stew.</instruction>
+			<instruction>Reduce heat from bottom and simmer until Potatoes are beginning to fall apart. <span class="TODO no-print">(TODO: Determine about how long this takes.)</span></instruction>
+		</section>
+		<section id="InstructionsDumplings" title="Dumplings">
+			<instruction>In a bowl, combine Shortening, Flour, Baking Powder, and Salt, then mix well with a fork.</instruction>
+			<instruction>Stir in Milk.</instruction>
+		</section>
+	</Instructions>
+
+	<Modifications id="Modifications">
+		<modification>The Dumplings are not required, so feel free to omit them if you want.</modification>
+	</Modifications>
+</Recipe>
