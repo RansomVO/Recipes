@@ -2,6 +2,7 @@
 	<CollapseSection folder="Camping/Breakfast" />
 	<CollapseSection folder="Camping/Entrees" />
 	<CollapseSection folder="Camping/Desserts" />
+	<CollapseSection folder="Camping/CampingSheets" />
 </Pages>
 <!--
 	TODO QZX: Add links to recipes that are not in the Camping section

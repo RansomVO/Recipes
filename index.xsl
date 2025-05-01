@@ -167,6 +167,13 @@
 			<xsl:apply-templates select="exsl:node-set($a)">
 				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 			</xsl:apply-templates>
+			<xsl:if test="./*">
+				<div style="margin-left:2em;">
+					<xsl:apply-templates>
+						<xsl:copy-of select="./*" />
+					</xsl:apply-templates>
+				</div>
+			</xsl:if>
 		</li>
 	</xsl:template>
 
