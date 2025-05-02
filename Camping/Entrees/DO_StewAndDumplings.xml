@@ -45,7 +45,7 @@
 
 	<Instructions id="Instructions">
 		<section id="InstructionsStew" title="Stew">
-			<instruction>Slice LEAN Beef into 1&inch; cubes.</instruction>
+			<instruction>Slice <span class="EMPHASIZE">Lean</span> Beef into 1&inch; cubes.</instruction>
 			<instruction>Combine Flour and Pepper, then pour over Beef cubes until they are well coated. </instruction>
 			<instruction>Peel Carrots and cut into 1&inch; pieces.</instruction>
 			<instruction>Peel Potatoes and cut into 1&inch; cubes.</instruction>
