@@ -173,6 +173,7 @@
 							<xsl:with-param name="folder" select="'.'" />
 						</xsl:apply-templates>
 					</xsl:when>
+
 					<xsl:otherwise>
 						<xsl:apply-templates select="document(concat(@folder, '/pages.xml'))">
 							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
@@ -191,9 +192,9 @@
 		<li>
 			<xsl:variable name="a">
 				<a>
-					<xsl:copy-of select="@class" />
+					<xsl:copy-of select="@*[name() != 'href']" />
 					<xsl:attribute name="href">
-						<xsl:value-of select="concat($linkPrefix, '/', $folder, '/', @href)" />
+						<xsl:value-of select="concat($folder, '/', @href)" />
 					</xsl:attribute>
 
 					<xsl:value-of select="@title" />
