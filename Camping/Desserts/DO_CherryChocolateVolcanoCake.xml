@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE invoice [
 	<!ENTITY section SYSTEM "section.xml">
@@ -8,6 +8,7 @@
 ]>
 
 <Recipe title="TODO" titleNote="TODO" yields="ToDo">
+	<Size class="TODO">12&inch; Dutch Oven?</Size>
 	<Source> From the kitchen of <span class="TODO">ToDo</span></Source>
 	<Note>
 		<span class="TODO">ToDo</span>

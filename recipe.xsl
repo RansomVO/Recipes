@@ -54,8 +54,18 @@
 										</xsl:apply-templates>)</i>
 								</xsl:if>
 							</td>
+							<xsl:if test="Size">
+								<td class="RECIPE_SIZE">
+									<xsl:attribute name="class">
+										<xsl:value-of select="concat('RECIPE_SIZE ', Size/@class)" />
+									</xsl:attribute>
+									<b>Size</b>: <xsl:apply-templates select="Size">
+										<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+									</xsl:apply-templates>
+								</td>
+							</xsl:if>
 							<xsl:if test="@yields">
-								<td class="RECIPE_YIELDS" align="right">
+								<td class="RECIPE_YIELDS">
 									<b>Yields</b>: <span>
 										<xsl:choose>
 											<!-- TODO QZX: Figure out how to <xsl:apply-templates ...> to the links below so that it doesn't look like a link when printing. -->
@@ -104,7 +114,13 @@
 							</xsl:if>
 						</tr>
 						<tr>
-							<td class="DESCRIPTION" colspan="2" style="padding-top:.5em;">
+							<td class="DESCRIPTION" style="padding-top:.5em;">
+								<xsl:attribute name="colspan">
+									<xsl:choose>
+										<xsl:when test="Size">3</xsl:when>
+										<xsl:otherwise>2</xsl:otherwise>
+									</xsl:choose>
+								</xsl:attribute>
 								<xsl:apply-templates select="Description">
 									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 								</xsl:apply-templates>

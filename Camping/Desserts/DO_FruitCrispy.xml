@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE invoice [
 	<!ENTITY section SYSTEM "section.xml">
@@ -7,61 +7,31 @@
 	%externalEntities;
 ]>
 
-<Recipe title="Dutch Oven Fruit Crispy" yields="ToDo">
+<Recipe title="Dutch Oven Fruit Crispy" yields="6-8 Servings">
+	<Source>One of the simplest and most well known dessert recipes for Dutch ovens.</Source>
+	<Size class="TODO">12&inch; Dutch Oven?</Size>
 	<Section>&section;</Section>
 	<LastModified year="2025"
-		month="3"
-		day="3" />
+		month="5"
+		day="2" />
 
-	<Description id="Description">
-		<span class="TODO">ToDo: Add Description</span>
-	</Description>
+	<Description id="Description">A simple dessert that tastes good, but takes very little preparation.</Description>
 
 	<Ingredients id="Ingredients">
-		<section id="IngredientsToDo" title="ToDo">
-			<ingredient name="ToDo"
-				nameNote="ToDo"
-				amount="1 ToDo"
-				amountNote="ToDo" />
-		</section>
-		<section id="IngredientsToDo" title="ToDo">
-			<ingredient name="ToDo"
-				nameNote="ToDo"
-				amount="1 ToDo"
-				amountNote="ToDo" />
+		<section id="IngredientsFruitCrispy">
+			<ingredient name="Fruit" nameNote="Apples, Peaches, etc." amount="3-4 15oz. Cans" />
+			<ingredient name="Cake Mix" nameNote="Yellow or White" amount="1" />
+			<ingredient name="Butter" amount="&frac12;-Cup" amountNote="1 Stick" />
 		</section>
 	</Ingredients>
 
 	<Instructions id="Instructions">
-		<section id="InstructionsToDo" title="ToDo">
-			<instruction>Preheat oven to <span class="TODO">ToDo</span>&deg;</instruction>
-		</section>
-		<section id="InstructionsToDo" title="ToDo">
-			<instruction>
-				<span class="TODO">ToDo</span>
-			</instruction>
+		<section id="InstructionsFruitCrispy">
+			<instruction>Line Dutch Oven with tinfoil and grease bottom and sides.</instruction>
+			<instruction>Pour cans of Fruit, including juice and spread across bottom of Dutch oven.</instruction>
+			<instruction>Sprinkle Cake Mix evenly over the Fruit.</instruction>
+			<instruction>Slice the Butter as thinly as possible and place evenly over Cake Mix.</instruction>
+			<instruction>Bake very slowly, only from the top <span class="NOTE">(&approx;6-8 charcoal briquettes)</span>, until top is golden brown and the Fruit is starting to bubble. <span class="TODO">(Determine approximate time.)</span></instruction>
 		</section>
 	</Instructions>
-
-	<Notes id="Notes">
-		<note>
-			<span class="TODO">ToDo</span>
-		</note>
-	</Notes>
-
-	<Modifications id="Modifications">
-		<modification>
-			<span class="TODO">ToDo</span>
-		</modification>
-	</Modifications>
-
-	<AdditionalNotes id="AdditionalNotes">
-		<note>
-			<span class="TODO">ToDo</span>
-		</note>
-	</AdditionalNotes>
-
-	<FinalNote>
-		<span class="TODO">ToDo</span>
-	</FinalNote>
 </Recipe>
