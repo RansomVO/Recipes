@@ -9,7 +9,7 @@
 
 <Recipe title="Dutch Father&apos;s Pizza" yields="See Notes">
 	<Source>A VanOrman Original</Source>
-
+	<Size class="TODO">12&inch; Dutch Oven?</Size>
 	<Section>&section;</Section>
 	<LastModified year="2025"
 		month="4"
