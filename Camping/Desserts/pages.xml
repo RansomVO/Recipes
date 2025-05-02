@@ -2,7 +2,7 @@
 	<page href="DO_AppleBerryCrumble.xml" title="Dutch Oven Apple-Berry Crumble" />
 	<page href="DO_AppleBerryCrumbleCake.xml" title="Dutch Oven Apple-Berry Crumble Cake" />
 	<page class="TODO" href="DO_CherryChocolateVolcanoCake.xml" title="Dutch Oven Cherry-Chocolate Volcano Cake" />
-	<page class="TODO" href="DO_FruitCrispy.xml" title="Dutch Oven Fruit Crispy" />
+	<page href="DO_FruitCrispy.xml" title="Dutch Oven Fruit Crispy" />
 	<page href="BananaBoats.xml" title="Banana Boats" />
 	<page class="qzxDisabled TODO" href="Twisties.xml" title="Twisties" />
 </Pages>

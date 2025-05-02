@@ -124,27 +124,65 @@
 
 		<details class="DESCRIPTION" open="true">
 			<xsl:attribute name="section">
-				<xsl:value-of select="@folder" />
+				<xsl:choose>
+					<xsl:when test="@title">
+						<xsl:value-of select="@title" />
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="@folder" />
+					</xsl:otherwise>
+				</xsl:choose>
 			</xsl:attribute>
 
 			<summary>
-				<xsl:apply-templates select="document(concat(@folder, '/section.xml'))">
-					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-				</xsl:apply-templates>
+				<xsl:choose>
+					<xsl:when test="inline">
+						<div class="SUBSECTION_HEADER">
+							<xsl:apply-templates select="@title">
+								<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+							</xsl:apply-templates>
+						</div>
 
-				<div class="SUBSECTION_DESCRIPTION">
-					<!-- TODO QZX: Figure out why the externalEntities.dtd causes this to fail. -->
-					<xsl:apply-templates select="document(concat(@folder, '/summary.xml'))">
-						<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-					</xsl:apply-templates>
-				</div>
+						<div class="SUBSECTION_DESCRIPTION">
+							<!-- TODO QZX: Figure out why the externalEntities.dtd causes this to fail. -->
+							<xsl:apply-templates select="inline/description">
+								<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+							</xsl:apply-templates>
+						</div>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:apply-templates select="document(concat(@folder, '/section.xml'))">
+							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+						</xsl:apply-templates>
+
+						<div class="SUBSECTION_DESCRIPTION">
+							<!-- TODO QZX: Figure out why the externalEntities.dtd causes this to fail. -->
+							<xsl:apply-templates select="document(concat(@folder, '/summary.xml'))">
+								<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+							</xsl:apply-templates>
+						</div>
+					</xsl:otherwise>
+				</xsl:choose>
 			</summary>
 
 			<ul>
-				<xsl:apply-templates select="document(concat(@folder, '/pages.xml'))">
-					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-					<xsl:with-param name="folder" select="@folder" />
-				</xsl:apply-templates>
+				<xsl:choose>
+					<xsl:when test="inline">
+						<div class="SUBSECTION_DESCRIPTION">
+							<!-- TODO QZX: Figure out why the externalEntities.dtd causes this to fail. -->
+							<!-- <xsl:apply-templates select="inline/node() except description"> -->
+							<xsl:apply-templates select="inline/*[name() != 'description']">
+								<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+							</xsl:apply-templates>
+						</div>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:apply-templates select="document(concat(@folder, '/pages.xml'))">
+							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+							<xsl:with-param name="folder" select="@folder" />
+						</xsl:apply-templates>
+					</xsl:otherwise>
+				</xsl:choose>
 			</ul>
 		</details>
 		<br />
