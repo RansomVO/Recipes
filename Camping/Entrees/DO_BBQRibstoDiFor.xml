@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE invoice [
 	<!ENTITY section SYSTEM "section.xml">
@@ -7,65 +7,40 @@
 	%externalEntities;
 ]>
 
-<Recipe title="TODO" titleNote="TODO" yields="ToDo">
-	<Source> From the kitchen of <span class="TODO">ToDo</span></Source>
-	<Note>
-		<span class="TODO">ToDo</span>
-	</Note>
+<Recipe title="Dutch Oven BBQ Ribs to Di For" yields="4-6 Servings">
+	<Source>A VanOrman Original</Source>
 	<Section>&section;</Section>
 	<LastModified year="2025"
 		month="3"
 		day="3" />
 
-	<Description id="Description">
-		<span class="TODO">ToDo: Add Description</span>
+	<Description id="Description"> Before they were married Di and Ransom had a BBQ Rips bake-off with missionaries as the judges. Ransom did the <a href=".../Entrees/SlowCooker/BBQSpareRibs.xml">Slow Cooker BBQ Spare Ribs</a> recipe. Di won, but then <span class="NOTE">(a long time later)</span> Di told Ransom that her sauce recipe was something like: "Buy a bottle of Tony Roma BBQ Sauce".<br />Ransom tried her cooking method and found it did give the ribs a great consistency, so, after several attempts, we came up with <a href=".../Entrees/Oven/BBQRibsToDiFor.xml">BBQ Ribs to Di For</a>. <br />Then we modified it slightly to go in a Dutch oven and it turned out <span class="EMPHASIZE">great!</span>
 	</Description>
 
 	<Ingredients id="Ingredients">
-		<section id="IngredientsToDo" title="ToDo">
-			<ingredient name="ToDo"
-				nameNote="ToDo"
-				amount="1 ToDo"
-				amountNote="ToDo" />
-		</section>
-		<section id="IngredientsToDo" title="ToDo">
-			<ingredient name="ToDo"
-				nameNote="ToDo"
-				amount="1 ToDo"
-				amountNote="ToDo" />
+		<section id="IngredientsDOBBQRibsToDiFor">
+			<ingredient name="Onion" nameNote="Large" amount="1" />
+			<ingredient name="Water" amount="½ Cup" />
+			<ingredient name="Spare Ribs" amount="3-5 Lbs." />
+			<ingredient name="Tomato Paste" amount="1 6oz. Can" />
+			<ingredient name="Tomato Sauce" amount="2 9oz. Cans" />
+			<ingredient name="Brown Sugar" amount="&frac14; Cup" />
+			<ingredient name="Garlic" nameNote="Minced" amount="1 teaspoon" />
+			<ingredient name="Cinnamon" amount="&frac14; teaspoon" />
+			<ingredient name="Cayenne Pepper" amount="&frac14; teaspoon" />
+			<ingredient name="Cumin" amount="&frac14; teaspoon" />
+			<ingredient name="Salt" amount="&frac12; teaspoon" />
+			<ingredient name="Apple Cider Vinegar" amount="&frac12; Tablespoon" />
 		</section>
 	</Ingredients>
 
 	<Instructions id="Instructions">
-		<section id="InstructionsToDo" title="ToDo">
-			<instruction>Preheat oven to <span class="TODO">ToDo</span>&deg;</instruction>
-		</section>
-		<section id="InstructionsToDo" title="ToDo">
-			<instruction>
-				<span class="TODO">ToDo</span>
-			</instruction>
+		<section id="InstructionsTDOBBQRibsToDiFor">
+			<instruction>Place Dutch oven on coles to heat.</instruction>
+			<instruction>While it is heating, cut Onion into rings about &frac14;&inch; thick.</instruction>
+			<instruction>Place Onions, Water and Spare Ribs into Dutch oven and turn until browned.</instruction>
+			<instruction>Add all other ingredients and mix well.</instruction>
+			<instruction>Bring to a boil, then reduce heat and simmer, stirring occasionallly, until meat is thoroughly cooked.</instruction>
 		</section>
 	</Instructions>
-
-	<Notes id="Notes">
-		<note>
-			<span class="TODO">ToDo</span>
-		</note>
-	</Notes>
-
-	<Modifications id="Modifications">
-		<modification>
-			<span class="TODO">ToDo</span>
-		</modification>
-	</Modifications>
-
-	<AdditionalNotes id="AdditionalNotes">
-		<note>
-			<span class="TODO">ToDo</span>
-		</note>
-	</AdditionalNotes>
-
-	<FinalNote>
-		<span class="TODO">ToDo</span>
-	</FinalNote>
 </Recipe>
