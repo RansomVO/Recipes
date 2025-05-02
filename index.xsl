@@ -168,13 +168,10 @@
 			<ul>
 				<xsl:choose>
 					<xsl:when test="inline">
-						<div class="SUBSECTION_DESCRIPTION">
-							<!-- TODO QZX: Figure out why the externalEntities.dtd causes this to fail. -->
-							<!-- <xsl:apply-templates select="inline/node() except description"> -->
-							<xsl:apply-templates select="inline/*[name() != 'description']">
-								<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-							</xsl:apply-templates>
-						</div>
+						<xsl:apply-templates select="inline/*[name() != 'description']">
+							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+							<xsl:with-param name="folder" select="'.'" />
+						</xsl:apply-templates>
 					</xsl:when>
 					<xsl:otherwise>
 						<xsl:apply-templates select="document(concat(@folder, '/pages.xml'))">
