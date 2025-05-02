@@ -3,13 +3,16 @@
 	<CollapseSection folder="Camping/Entrees" />
 	<CollapseSection folder="Camping/Desserts" />
 	<CollapseSection folder="Camping/CampingSheets" />
+	<CollapseSection title="Additional Recipes">
+		<inline>
+			<description> There are also a number of Recipes that are throughout this site that may be of interest.</description>
+			<Pages>
+				<page href=".../Beverages/HotChocolate.xml" title="Beverages / Hot Chocolate" />
+				<page href=".../Beverages/RootBeer.xml" title="Beverages / Root Beer" />
+				<page href=".../Breakfast/FluffyPancakes.xml" title="Breakfast / Fluffy Pancakes" />
+				<page href=".../Breads/NavajoFryBread.xml" title="Breads / Navajo Fry Bread" />
+				<page class="qzxDisabled TODO" href=".../Desserts/IceCream.xml" title="Desserts / Ice Cream" />
+			</Pages>
+		</inline>
+	</CollapseSection>
 </Pages>
-<!--
-	TODO QZX: Add links to recipes that are not in the Camping section
-	- Hot Chocolate
-	- Fluffy Pancakes
-	- Navajo Fry Bread
-	- Root Beer
-	- Ice Cream
-	- ???
--->
