@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.xml">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Twisties" yields="Depends upon how much Dough you make. &smiley;">
+	<Source>A VanOrman Original</Source>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="5"
+		day="2" />
+
+	<Description id="Description">When ever you make Dutch Father&apos;s Pizza, make sure you make extra Crust dough.<br />A <span class="SUPER_EMPHASIZE">lot</span> so you can make these for dessert afterwards!</Description>
+
+	<Ingredients id="Ingredients">
+		<section id="IngredientsTwisties">
+			<ingredient name="Dutch Father&apos;s Pizza Dough" amount="a lot" />
+			<ingredient name="&quot;Fillings&quot;" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section id="InstructionsTwisties">
+			<instruction>Make Crust dough from <a href=".../Camping/Entrees/DO_DutchFathersPizza.xml#IngredientsCrust">Dutch Father&apos;s Pizza</a>.</instruction>
+			<instruction>Roll dough into 2&foot; long &by; &frac12;&inch; diameter &quot;snakes&quot;.</instruction>
+			<instruction>Wrap around a smooth, 1&inch; diameter stick.</instruction>
+			<instruction>Cook over a campfire, like you would a marshmallow, only slower, until golden brown.</instruction>
+			<instruction>Slide off stick, and drizzle something sweet down the middle: <ul>
+					<li>Jam</li>
+					<li>Honey</li>
+					<li>Chocolate Syrup</li>
+					<li>
+						<a href=".../Sauces/HoneyButter.xml">Honey Butter</a>
+					</li>
+					<li>etc.</li>
+				</ul>
+			</instruction>
+		</section>
+	</Instructions>
+
+	<FinalNote>Sometimes, one per person is nowhere near enough. &smiley;</FinalNote>
+</Recipe>

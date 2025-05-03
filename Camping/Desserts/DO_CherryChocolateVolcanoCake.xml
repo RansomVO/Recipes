@@ -15,8 +15,8 @@
 		month="5"
 		day="2" />
 
-	<Description id="Description">
-		<div class="TODO">The amounts need to be validated.</div> When there was a Dutch oven cook-off for desserts at a ward campout, Ransom tried doing a simple twist on upside-down cake. It was a huge hit! <br /> As we tried to serve it, the Pie Filling started to drip down the side of the cake, thus the name. </Description>
+	<Description id="Description"> When there was a Dutch oven cook-off for desserts at a ward campout, Ransom tried doing a simple twist on upside-down cake. It was a huge hit! <br /> As we tried to serve it, the Pie Filling started to drip down the side of the cake, thus the name. <!-- QZX --><div class="TODO">The Ingredient amounts need to be validated.</div><!-- QZX -->
+	</Description>
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsVolcanoCake">
