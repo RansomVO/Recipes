@@ -150,6 +150,7 @@
 							</xsl:apply-templates>
 						</div>
 					</xsl:when>
+
 					<xsl:otherwise>
 						<xsl:apply-templates select="document(concat(@folder, '/section.xml'))">
 							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
@@ -194,7 +195,7 @@
 				<a>
 					<xsl:copy-of select="@*[name() != 'href']" />
 					<xsl:attribute name="href">
-						<xsl:value-of select="concat($folder, '/', @href)" />
+						<xsl:value-of select="concat($linkPrefix, '/',$folder, '/', @href)" />
 					</xsl:attribute>
 
 					<xsl:value-of select="@title" />
