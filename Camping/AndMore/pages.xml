@@ -1,3 +1,9 @@
 <Pages>
-	<page href="DO_BasqueSheepherdersBread.xml" title="Dutch Oven Basque Sheepherder&apos;s Bread" />
+	<CollapseSection title="Dutch Oven">
+		<inline>
+			<Pages>
+				<page href="DO_BasqueSheepherdersBread.xml" title="Dutch Oven Basque Sheepherder&apos;s Bread" />
+			</Pages>
+		</inline>
+	</CollapseSection>
 </Pages>
