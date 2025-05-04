@@ -65,7 +65,7 @@
 	</Notes>
 
 	<Modifications id="Modifications" pageBreak="true">
-		<modification>Adding <a class="TODO qzxDisabled" href="QZX">Home-made Vanilla Ice Cream</a> makes a fantastic Root-Beer Float.</modification>
+		<modification>Adding <a href=".../Desserts/IceCream.xml">Home-made Vanilla Ice Cream</a> makes a fantastic Root-Beer Float.</modification>
 	</Modifications>
 
 	<AdditionalNotes id="AdditionalNotes">

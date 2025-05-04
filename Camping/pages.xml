@@ -12,7 +12,7 @@
 				<page href="Beverages/RootBeer.xml" title="Beverages / Root Beer" />
 				<page href="Breakfast/FluffyPancakes.xml" title="Breakfast / Fluffy Pancakes" />
 				<page href="Breads/NavajoFryBread.xml" title="Breads / Navajo Fry Bread" />
-				<page class="qzxDisabled TODO" href="Desserts/IceCream.xml" title="Desserts / Ice Cream" />
+				<page href="Desserts/IceCream.xml" title="Desserts / Ice Cream" />
 			</Pages>
 		</inline>
 	</CollapseSection>
