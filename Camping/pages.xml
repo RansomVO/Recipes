@@ -3,9 +3,10 @@
 	<CollapseSection folder="Camping/Entrees" />
 	<CollapseSection folder="Camping/Desserts" />
 	<CollapseSection folder="Camping/CampingSheets" />
+	<CollapseSection folder="Camping/AndMore" />
 	<CollapseSection title="Additional Recipes">
 		<inline>
-			<description> There are also a number of Recipes that are throughout this site that may be of interest.</description>
+			<description> There are also a number of Recipes throughout this <span class="no-print">site</span><span class="no-screen">book</span> that may be of interest.</description>
 			<Pages>
 				<page href="Beverages/HotChocolate.xml" title="Beverages / Hot Chocolate" />
 				<page href="Beverages/RootBeer.xml" title="Beverages / Root Beer" />

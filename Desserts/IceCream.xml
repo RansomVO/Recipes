@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.xml">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Ice Cream" yields="8-12 Servings">
+	<Note>Classic Recipe</Note>
+	<Requires>4-Quart Ice Cream Maker</Requires>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="3" />
+
+	<Description id="Description"> Fresh-made Ice Cream <span class="SMALL_NOTE">(if done correctly)</span> is <span class="EMPHASIZE">way</span> better than anything you will find in a store.</Description>
+
+	<Ingredients id="Ingredients">
+		<section id="IngredientsIceCream" title="Base">
+			<ingredient name="Egg Yolks" amount="6" />
+			<ingredient name="Sugar" amount="1 Cup" />
+			<ingredient name="Milk" amount="6 Cups" />
+			<ingredient name="more Sugar" amount="1&frac12; Cups" />
+			<ingredient name="Cream" amount="3 Cups" amountNote="1&frac12; Pints" />
+		</section>
+		<section id="IngredientsFlavorings" title="Flavoring Ideas">
+			<ingredient name="Vanilla" amount="1&frac12;-2 Tablespoons" />
+			<ingredient name="Hot Chocolate Mix" amount="&frac12; Cup">Makes a normal chocolate flavor</ingredient>
+			<ingredient name="Unsweetened Cocoa Powder" amount="&frac12; Cup">Makes a <span class="EMPHASIZE">rich</span> chocolate flavor</ingredient>
+			<ingredient name="Fruit" nameNote="Mashed" amount="2-4 Cups" />
+			<ingredient name="Peanut Butter" amount="2 Cups" />
+			<ingredient name="Peppermint Candy" nameNote="Crushed, &frac34; of it finely" amount="1&frac12;-2 Cups" amountNote="15-20 Candy Canes"></ingredient>
+			<ingredient name="Cookies, Oreos, etc." nameNote="Crushed" amount="2-4 Cups">Add and continue Ice Cream Maker for 5 minutes <span class="SUPER_EMPHASIZE">after</span> Ice Cream is desired thickness.</ingredient>
+			<ingredient name="Chocolate Chips, Raisins, etc." amount="2-4 Cups">Add and continue Ice Cream Maker for 5 minutes <span class="SUPER_EMPHASIZE">after</span> Ice Cream is desired thickness.</ingredient>
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>In a pot, combine Egg Yolks and 1 Cup Sugar then mix well.</instruction>
+			<instruction>Add Milk and mix well.</instruction>
+			<instruction>Stirring frequently, bring to a full boil, then remove from heat.</instruction>
+			<instruction>Add 1&frac12; Cups Sugar, Cream, and Flavoring. <span class="NOTE">(Make sure any chunks are very small.)</span></instruction>
+			<instruction>Chill in Ice Cream Maker until it is at desired thickness. <span class="TODO NOTE">(&approx;?? minutes)</span></instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note> When at home, the Ice Cream Maker can be electric so nobody has to do any work to chill it.<br />When outdoors <span class="NOTE">(like camping or picnics)</span>, there are also hand-crank Ice Cream Makers. But, you have to make sure they are constantly being cranked, so you'll want several people to take turns. &smiley; </note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>Chilling time is less if you let it sit and cool for a while before putting in the Ice Cream Maker.</modification>
+		<modification>If you double the recipe, you can fit it all into a 6-Quart Ice Cream Maker</modification>
+		<modification>It is great by itself, but is a big kick if you serve it next to a hot dessert or if you serve it with toppings like fruit, chocolate syrup, caramel, etc.</modification>
+	</Modifications>
+</Recipe>

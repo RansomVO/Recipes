@@ -17,14 +17,14 @@
 	<Description id="Description">When ever you make Dutch Father&apos;s Pizza, make sure you make extra Crust dough.<br />A <span class="SUPER_EMPHASIZE">lot</span> so you can make these for dessert afterwards!</Description>
 
 	<Ingredients id="Ingredients">
-		<section id="IngredientsTwisties">
+		<section>
 			<ingredient name="Dutch Father&apos;s Pizza Dough" amount="a lot" />
 			<ingredient name="&quot;Fillings&quot;" />
 		</section>
 	</Ingredients>
 
 	<Instructions id="Instructions">
-		<section id="InstructionsTwisties">
+		<section>
 			<instruction>Make Crust dough from <a href=".../Camping/Entrees/DO_DutchFathersPizza.xml#IngredientsCrust">Dutch Father&apos;s Pizza</a>.</instruction>
 			<instruction>Roll dough into 2&foot; long &by; &frac12;&inch; diameter &quot;snakes&quot;.</instruction>
 			<instruction>Wrap around a smooth, 1&inch; diameter stick.</instruction>

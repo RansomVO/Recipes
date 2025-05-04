@@ -8,7 +8,8 @@
 ]>
 
 <Recipe title="Dutch Oven Orange Rolls" yields="??">
-	<Size class="TODO">12&inch; Dutch Oven?</Size>
+	<Requires class="TODO">12&inch; Dutch Oven?
+	</Requires>
 	<Source>
 		<span class="TODO">ToDo</span>
 	</Source>

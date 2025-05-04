@@ -26,7 +26,7 @@
 			<ingredient name="Salt" amount="1&frac12; teaspoons" />
 			<ingredient name="Yeast" amount="1 Tablespoon" />
 		</section>
-		<section id="Ingredient2l2lbloaf" title="1&frac12; lb. loaf">
+		<section id="Ingredientsl2lbloaf" title="1&frac12; lb. loaf">
 			<ingredient name="Milk" amount="1&frac18; Cup" />
 			<ingredient name="Oil" amount="1&grac12; Tablespoons" />
 			<ingredient name="Bread Flour" amount="3 Cups" />

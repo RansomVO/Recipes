@@ -54,12 +54,12 @@
 										</xsl:apply-templates>)</i>
 								</xsl:if>
 							</td>
-							<xsl:if test="Size">
+							<xsl:if test="Requires">
 								<td class="RECIPE_SIZE">
 									<xsl:attribute name="class">
-										<xsl:value-of select="concat('RECIPE_SIZE ', Size/@class)" />
+										<xsl:value-of select="concat('RECIPE_SIZE ', Requires/@class)" />
 									</xsl:attribute>
-									<b>Size</b>: <xsl:apply-templates select="Size">
+									<b>Requires</b>: <xsl:apply-templates select="Requires">
 										<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 									</xsl:apply-templates>
 								</td>
@@ -117,7 +117,7 @@
 							<td class="DESCRIPTION" style="padding-top:.5em;">
 								<xsl:attribute name="colspan">
 									<xsl:choose>
-										<xsl:when test="Size">3</xsl:when>
+										<xsl:when test="Requires">3</xsl:when>
 										<xsl:otherwise>2</xsl:otherwise>
 									</xsl:choose>
 								</xsl:attribute>
@@ -216,6 +216,10 @@
 		</table>
 	</xsl:template>
 
+	<xsl:variable name="maxWidth">24</xsl:variable>
+	<xsl:variable name="noteRatio">.4</xsl:variable>
+	<xsl:variable name="widthRatio">.66</xsl:variable>
+
 	<xsl:template match="Ingredients">
 		<xsl:param name="linkPrefix" />
 
@@ -255,7 +259,7 @@
 										</xsl:otherwise>
 									</xsl:choose>
 									<xsl:apply-templates select="ingredient">
-										<xsl:with-param name="sectionCount" select="@sectionCount" />
+										<xsl:with-param name="sectionCount" select="$sectionCount" />
 										<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 									</xsl:apply-templates>
 								</table>
@@ -270,6 +274,43 @@
 		<xsl:param name="sectionCount" />
 		<xsl:param name="linkPrefix" />
 
+		<xsl:variable name="maxIngredientLength">
+			<xsl:for-each select="../ingredient">
+				<xsl:sort select="(string-length(@name) + ((string-length(@nameNote) + 2) * $noteRatio)) * $widthRatio" data-type="number" />
+				<xsl:if test="position()=last()">
+					<xsl:value-of select="string-length(@name) + ((string-length(@nameNote) + 2) * $noteRatio)" />
+				</xsl:if>
+			</xsl:for-each>
+		</xsl:variable>
+		<xsl:variable name="ingredientWidth">
+			<xsl:choose>
+				<xsl:when test="$maxWidth > $maxIngredientLength">
+					<xsl:value-of select="$maxIngredientLength" />
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="$maxWidth" />
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<xsl:variable name="maxAmountLength">
+			<xsl:for-each select="../ingredient">
+				<xsl:sort select="(string-length(@amount) + ((string-length(@amountNote) + 2) * $noteRatio)) * $widthRatio" data-type="number" />
+				<xsl:if test="position()=last()">
+					<xsl:value-of select="string-length(@amount) + ((string-length(@amountNote) + 2) * $noteRatio)" />
+				</xsl:if>
+			</xsl:for-each>
+		</xsl:variable>
+		<xsl:variable name="amountWidth">
+			<xsl:choose>
+				<xsl:when test="$maxWidth > $maxAmountLength">
+					<xsl:value-of select="$maxAmountLength" />
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="$maxWidth" />
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+
 		<tr>
 			<td class="RECIPE_INGREDIENT">
 				<xsl:if test="@nameNote = 'Optional'">
@@ -279,11 +320,30 @@
 					<xsl:with-param name="string" select="@name" />
 				</xsl:call-template>
 				<xsl:if test="@nameNote and (@nameNote != 'Optional')">
-					<xsl:if test="($sectionCount > 1) and ((string-length(@name) + string-length(@nameNote) + 2) > 32)">
-						<br />&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; </xsl:if>
-					<span class="SMALL_NOTE">&#xA0;(<xsl:call-template name="fix_text">
-							<xsl:with-param name="string" select="@nameNote" />
-						</xsl:call-template>)</span>
+					<xsl:choose>
+						<xsl:when test="($sectionCount > 1) and (string-length(@name) + ((string-length(@nameNote) + 2) * $noteRatio) > $maxWidth)">
+							<div class="SMALL_NOTE">
+								<xsl:attribute name="style">
+									<xsl:value-of select="concat('width:', $ingredientWidth * $widthRatio, 'em;', ' margin:0; text-align:right;')" />
+								</xsl:attribute> (<xsl:call-template name="fix_text">
+									<xsl:with-param name="string" select="@nameNote" />
+								</xsl:call-template>) </div>
+						</xsl:when>
+
+						<xsl:otherwise>
+							<span class="SMALL_NOTE">&#xA0;(<xsl:call-template name="fix_text">
+									<xsl:with-param name="string" select="@nameNote" />
+								</xsl:call-template>)</span>
+						</xsl:otherwise>
+					</xsl:choose>
+				</xsl:if>
+				<xsl:if test="./*|node()">
+					<xsl:call-template name="IngredientNote">
+						<xsl:with-param name="width" select="$ingredientWidth" />
+						<xsl:with-param name="content">
+							<xsl:copy-of select="./*|node()" />
+						</xsl:with-param>
+					</xsl:call-template>
 				</xsl:if>
 			</td>
 			<td class="RECIPE_INGREDIENT_QUANTITY">
@@ -291,11 +351,22 @@
 					<xsl:with-param name="string" select="@amount" />
 				</xsl:call-template>
 				<xsl:if test="@amountNote">
-					<xsl:if test="($sectionCount > 1) and ((string-length(@name) + string-length(@nameNote) + 2) > 32)">
-						<br />&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; </xsl:if>
-					<xpan class="SMALL_NOTE">&#xA0;(<xsl:call-template name="fix_text">
-							<xsl:with-param name="string" select="@amountNote" />
-						</xsl:call-template>)</xpan>
+					<xsl:choose>
+						<xsl:when test="($sectionCount > 1) and (string-length(@amount) + ((string-length(@amountNote) + 2) * $noteRatio) > $maxWidth)">
+							<div class="SMALL_NOTE">
+								<xsl:attribute name="style">
+									<xsl:value-of select="concat('width:', $amountWidth * $widthRatio, 'em;', ' margin:0; text-align:right;')" />
+								</xsl:attribute> (<xsl:call-template name="fix_text">
+									<xsl:with-param name="string" select="@amountNote" />
+								</xsl:call-template>) </div>
+						</xsl:when>
+
+						<xsl:otherwise>
+							<span class="SMALL_NOTE">&#xA0;(<xsl:call-template name="fix_text">
+									<xsl:with-param name="string" select="@amountNote" />
+								</xsl:call-template>)</span>
+						</xsl:otherwise>
+					</xsl:choose>
 				</xsl:if>
 			</td>
 		</tr>
@@ -307,7 +378,20 @@
 			</tr>
 		</xsl:if>
 	</xsl:template>
+	<xsl:template name="IngredientNote">
+		<xsl:param name="width" />
+		<xsl:param name="content" />
 
+		<div class="SMALL_NOTE">
+			<xsl:attribute name="style">
+				<xsl:value-of select="concat('width:', $width * $widthRatio, 'em; ',      'margin-left:2em; font-weight:normal; text-wrap:wrap;')" />
+			</xsl:attribute>
+
+			<xsl:apply-templates>
+				<xsl:copy-of select="$content" />
+			</xsl:apply-templates>
+		</div>
+	</xsl:template>
 	<xsl:template match="Instructions">
 		<xsl:param name="linkPrefix" />
 

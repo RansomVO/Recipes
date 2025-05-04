@@ -9,7 +9,7 @@
 
 <Recipe title="Cherry-Chocolate Volcano Cake" yields="ToDo">
 	<Source>A VanOrman Original</Source>
-	<Size>10&inch; Dutch Oven</Size>
+	<Requires>10&inch; Dutch Oven</Requires>
 	<Section>&section;</Section>
 	<LastModified year="2025"
 		month="5"
@@ -19,15 +19,15 @@
 	</Description>
 
 	<Ingredients id="Ingredients">
-		<section id="IngredientsVolcanoCake">
+		<section>
 			<ingredient name="Chocolate Cake Mix" amount="1" />
 			<ingredient name="Cherry Pie Filling" amount="1 21oz. Can" />
 		</section>
 	</Ingredients>
 
 	<Instructions id="Instructions">
-		<section id="InstructionsVolcanoCake">
-			<instruction>Line the Dutch oven with tinfoil and butter the bottom and sides.</instruction>
+		<section>
+			<instruction>Line the Dutch oven with foil and butter the bottom and sides.</instruction>
 			<instruction>In a bowl, prepare Chocolate Cake Mix.</instruction>
 			<instruction>Open the Cherry Pie Filling and quickly place the can upside-down in the middle of the Dutch oven so as much as possible of the Filling is trapped in the can.</instruction>
 			<instruction>Pour about &frac14;<superscript>th</superscript> of the Cake Mix evenly around the outter edge of the Dutch oven.</instruction>
@@ -36,7 +36,7 @@
 			<instruction>Slowly cook mostly from the top. <span class="TODO">Determine number of charcoal briquettes for top and bottom, and the approximate cook time.</span></instruction>
 			<instruction>Prepare a place to hold a hot Dutch oven lid so it will stay balanced but not damage the table it is on.<br /><span class="NOTE">We generally do this by finding a couple of sticks and placing them about 6&inches; apart.</span></instruction>
 			<instruction>When it is cooked, <span class="EMPHASIZE">carefully with very good pot-holder gloves</span>, very quickly flip the entire Dutch oven, with the lid on, completely upside down.</instruction>
-			<instruction>Set Dutch oven, lid down, onto the place prepared, carefully remove the Dutch oven from the lid, then peel off the tinfoil.</instruction>
+			<instruction>Set Dutch oven, lid down, onto the place prepared, carefully remove the Dutch oven from the lid, then peel off the foil.</instruction>
 		</section>
 	</Instructions>
 

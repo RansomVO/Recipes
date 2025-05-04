@@ -9,7 +9,8 @@
 
 <Recipe title="Dutch Oven BBQ Ribs to Di For" yields="4-6 Servings">
 	<Source>A VanOrman Original</Source>
-	<Size class="TODO">12&inch; Dutch Oven?</Size>
+	<Requires class="TODO">12&inch; Dutch Oven?
+	</Requires>
 	<Section>&section;</Section>
 	<LastModified year="2025"
 		month="3"
@@ -19,7 +20,7 @@
 	</Description>
 
 	<Ingredients id="Ingredients">
-		<section id="IngredientsDOBBQRibsToDiFor">
+		<section>
 			<ingredient name="Onion" nameNote="Large" amount="1" />
 			<ingredient name="Water" amount="½ Cup" />
 			<ingredient name="Spare Ribs" amount="3-5 Lbs." />
@@ -36,7 +37,7 @@
 	</Ingredients>
 
 	<Instructions id="Instructions">
-		<section id="InstructionsTDOBBQRibsToDiFor">
+		<section>
 			<instruction>Place Dutch oven on coles to heat.</instruction>
 			<instruction>While it is heating, cut Onion into rings about &frac14;&inch; thick.</instruction>
 			<instruction>Place Onions, Water and Spare Ribs into Dutch oven and turn until browned.</instruction>

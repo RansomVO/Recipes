@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE invoice [
+	<!ENTITY section SYSTEM "section.xml">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe title="Dutch Oven Fajitas" yields="ToDo">
+	<Source> From the kitchen of <span class="TODO">ToDo</span></Source>
+	<Note>
+		<span class="TODO">ToDo</span>
+	</Note>
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="3"
+		day="3" />
+
+	<Description id="Description">
+		<span class="TODO">ToDo: Add Description</span>
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section id="IngredientsToDo" title="ToDo">
+			<ingredient name="ToDo"
+				nameNote="ToDo"
+				amount="1 ToDo"
+				amountNote="ToDo" />
+			<ingredient name="ToDo" amount="ToDo" />
+		</section>
+		<section id="IngredientsToDo" title="ToDo">
+			<ingredient name="ToDo"
+				nameNote="ToDo"
+				amount="1 ToDo"
+				amountNote="ToDo" />
+			<ingredient name="ToDo" amount="ToDo" />
+		</section>
+	</Ingredients>
+
+	<Instructions id="Instructions">
+		<section id="InstructionsToDo" title="ToDo">
+			<instruction>Preheat oven to <span class="TODO">ToDo</span>&deg;</instruction>
+		</section>
+		<section id="InstructionsToDo" title="ToDo">
+			<instruction>
+				<span class="TODO">ToDo</span>
+			</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>
+			<span class="TODO">ToDo</span>
+		</note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>
+			<span class="TODO">ToDo</span>
+		</modification>
+	</Modifications>
+
+	<AdditionalNotes id="AdditionalNotes">
+		<note>
+			<span class="TODO">ToDo</span>
+		</note>
+	</AdditionalNotes>
+
+	<FinalNote>
+		<span class="TODO">ToDo</span>
+	</FinalNote>
+</Recipe>

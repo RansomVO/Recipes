@@ -9,7 +9,8 @@
 
 <Recipe title="Dutch Oven Apple-Berry Crumble Cake" yields="4-6 Servings">
 	<Source>A VanOrman Original</Source>
-	<Size class="TODO">12&inch; Dutch Oven?</Size>
+	<Requires class="TODO">12&inch; Dutch Oven?
+	</Requires>
 	<Section>&section;</Section>
 	<LastModified year="2025"
 		month="4"

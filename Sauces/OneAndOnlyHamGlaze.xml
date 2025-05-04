@@ -46,14 +46,14 @@
 		</section>
 		<section id="BakingHam" title="Baking Ham">
 			<description>In our case, "<span class="NOTE">Follow baking instructions for the Ham.</span>" usually involves:</description>
-			<instruction>In a criss-cross pattern, lay several sheets of tinfoil that are long enough to completely wrap around the Ham.</instruction>
-			<instruction>Set the Ham in the middle and fold <span class="EMPHASIZE">up</span> 1 layer of tinfoil, but <span class="SUPER_EMPHASIZE">not</span> fold it <span class="EMPHASIZE">over</span>.</instruction>
-			<instruction>Apply the Glaze to the Ham and immediately fold each layer the tinfoil up and over securely.</instruction>
+			<instruction>In a criss-cross pattern, lay several sheets of foil that are long enough to completely wrap around the Ham.</instruction>
+			<instruction>Set the Ham in the middle and fold <span class="EMPHASIZE">up</span> 1 layer of foil, but <span class="SUPER_EMPHASIZE">not</span> fold it <span class="EMPHASIZE">over</span>.</instruction>
+			<instruction>Apply the Glaze to the Ham and immediately fold each layer the foil up and over securely.</instruction>
 			<instruction>Bake the Ham at the appropriate temperature for the appropriate amount of time until it is done.</instruction>
 		</section>
 	</Instructions>
 
 	<Modifications id="Modifications">
-		<modification> If your oven has a convection setting, at the end of cooking the ham, unwrap the tinfoil, change to convection and turn up the heat to 425&deg;.<br /> This gives the glaze a flame-broiled appearance. </modification>
+		<modification> If your oven has a convection setting, at the end of cooking the ham, unwrap the foil, change to convection and turn up the heat to 425&deg;.<br /> This gives the glaze a flame-broiled appearance. </modification>
 	</Modifications>
 </Recipe>

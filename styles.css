@@ -8,6 +8,7 @@
 .RECIPE_SOURCE {
 	font-weight: bold;
 	width: 100%;
+	padding-right: 2em;
 }
 
 .RECIPE_SIZE {
@@ -19,6 +20,7 @@
 .RECIPE_YIELDS {
 	white-space: nowrap;
 	text-align: right;
+	vertical-align: top;
 }
 
 .RECIPE_INGREDIENT {

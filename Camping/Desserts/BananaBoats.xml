@@ -16,7 +16,7 @@
 	<Description id="Description"> When camping, you almost always have a campfire at night. And what is better than having a treat just before bedtime? <br />This is a recipe that leverages the coles from a campfire. </Description>
 
 	<Ingredients id="Ingredients">
-		<section id="IngredientsBananaBoat">
+		<section>
 			<ingredient name="Banana" nameNote="Not Peeled" amount="1" />
 			<ingredient name="Miniture Marshmallows" amount="1-2 Tablespoons" />
 			<ingredient name="Chocolate Chips" amount="1-2 Tablespoons" />
@@ -24,12 +24,12 @@
 	</Ingredients>
 
 	<Instructions id="Instructions">
-		<section id="Instructions">
+		<section>
 			<instruction>Build a campfire that will have lots of coles.</instruction>
 			<instruction>Hold the Banana flat and slice it half way deep, from end to end, making sure to not cut through bottom peel.<img src="SlicingBanana.png" style="width:10em; vertical-align:text-top;" /></instruction>
-			<instruction>Position the Banana in the middle of a sheet of tin foil that is big enough to wrap all the way around the Banana. <span class="NOTE">(about 12&inches; &by; 18&inches;)</span></instruction>
+			<instruction>Position the Banana in the middle of a sheet of foil that is big enough to wrap all the way around the Banana. <span class="NOTE">(about 12&inches; &by; 18&inches;)</span></instruction>
 			<instruction>Gently open the slice on the Banana and fill it with a mixture of the Miniture Marshmallows and Chocolate Chips.</instruction>
-			<instruction>Wrap the tin foil around the Banana, making sure that none of it is exposed at all.</instruction>
+			<instruction>Wrap the foil around the Banana, making sure that none of it is exposed at all.</instruction>
 			<instruction>When the campfire coles are ready, place the Banana Boat half-way deep in them, positioned with the fillings on the top.</instruction>
 			<instruction>Wait until the Miniture Marshmallows and Chocolate Chips have melted. <span class="NOTE">(about 5-10 minutes)</span></instruction>
 			<instruction>Carefully <span class="NOTE">(so you don't get burned)</span> remove the Banana Boat from the campfire coles, and gently open the foil so the contents are fully exposed.</instruction>

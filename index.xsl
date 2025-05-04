@@ -48,26 +48,30 @@
 					<xsl:with-param name="folder" select="Section/section/@folder" />
 				</xsl:apply-templates>
 
-				<div class="FOOTER">
-					<hr />
+				<footer class="FLEX_FOOTER">
 					<table class="DIVIDER">
 						<tr>
 							<td class="no-print">
-								<a href="/">Home</a>
-								<b> / </b>
-								<a><xsl:attribute name="href" select="concat($linkPrefix, '/Recipes'" /> Recipes </a>
-								<xsl:if test="ParentSection">
-									<b> / </b>
-									<a href="..">
-										<xsl:copy-of select="ParentSection/section/text()|ParentSection/section/*" />
-									</a>
-								</xsl:if>
+								<a href="/">Home</a> / <xsl:choose>
+									<xsl:when test="ParentSection">
+										<a href="../..">Recipes</a> / <a href="..">
+											<xsl:value-of select="ParentSection" />
+										</a> / <a href=".">
+											<xsl:value-of select="Section" />
+										</a>
+									</xsl:when>
+									<xsl:otherwise>
+										<a href="..">Recipes</a> / <a href=".">
+											<xsl:value-of select="Section" />
+										</a>
+									</xsl:otherwise>
+								</xsl:choose>
 							</td>
 							<td class="LAST_MODIFIED" style="text-align:right;"> Last updated: <xsl:apply-templates select="LastModified" />
 							</td>
 						</tr>
 					</table>
-				</div>
+				</footer>
 
 				<!-- This is placed here so it will run after the page is parsed but before it is actually displayed -->
 				<script src="/sections.js"></script>
