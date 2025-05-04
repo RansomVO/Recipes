@@ -2,7 +2,7 @@
 	<CollapseSection title="Dutch Oven">
 		<inline>
 			<Pages>
-				<page href="DO_OrangeRolls.xml" title="Dutch Oven Orange Rolls" />
+				<page href="Camping/Breakfast/DO_OrangeRolls.xml" title="Dutch Oven Orange Rolls" />
 			</Pages>
 		</inline>
 	</CollapseSection>

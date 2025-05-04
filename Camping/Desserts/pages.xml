@@ -2,18 +2,18 @@
 	<CollapseSection title="Dutch Oven">
 		<inline>
 			<Pages>
-				<page href="DO_AppleBerryCrumble.xml" title="Dutch Oven Apple-Berry Crumble" />
-				<page href="DO_AppleBerryCrumbleCake.xml" title="Dutch Oven Apple-Berry Crumble Cake" />
-				<page href="DO_CherryChocolateVolcanoCake.xml" title="Dutch Oven Cherry-Chocolate Volcano Cake" />
-				<page href="DO_FruitCrispy.xml" title="Dutch Oven Fruit Crispy" />
+				<page href="Camping/Desserts/DO_AppleBerryCrumble.xml" title="Dutch Oven Apple-Berry Crumble" />
+				<page href="Camping/Desserts/DO_AppleBerryCrumbleCake.xml" title="Dutch Oven Apple-Berry Crumble Cake" />
+				<page href="Camping/Desserts/DO_CherryChocolateVolcanoCake.xml" title="Dutch Oven Cherry-Chocolate Volcano Cake" />
+				<page href="Camping/Desserts/DO_FruitCrispy.xml" title="Dutch Oven Fruit Crispy" />
 			</Pages>
 		</inline>
 	</CollapseSection>
 	<CollapseSection title="Other">
 		<inline>
 			<Pages>
-				<page href="BananaBoats.xml" title="Banana Boats" />
-				<page href="Twisties.xml" title="Twisties" />
+				<page href="Camping/Desserts/BananaBoats.xml" title="Banana Boats" />
+				<page href="Camping/Desserts/Twisties.xml" title="Twisties" />
 			</Pages>
 		</inline>
 	</CollapseSection>
