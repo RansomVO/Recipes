@@ -17,7 +17,7 @@
 	</CollapseSection>
 	<CollapseSection title="Others">
 		<inline>
-			<page class="TODO" href="Camping/Entrees/MantiTurkey.xml" title="Manti Turkey" />
+			<page href="Camping/Entrees/MantiTurkey.xml" title="Manti Turkey" />
 		</inline>
 	</CollapseSection>
 </Pages>
