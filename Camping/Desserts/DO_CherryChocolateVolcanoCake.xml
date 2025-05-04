@@ -15,7 +15,7 @@
 		month="5"
 		day="2" />
 
-	<Description id="Description"> When there was a Dutch oven cook-off for desserts at a ward campout, Ransom tried doing a simple twist on upside-down cake. It was a huge hit! <br /> As we tried to serve it, the Pie Filling started to drip down the side of the cake, thus the name. <!-- QZX --><div class="TODO">The Ingredient amounts need to be validated.</div><!-- QZX -->
+	<Description id="Description"> When there was a Dutch Oven cook-off for desserts at a ward campout, Ransom tried doing a simple twist on upside-down cake. It was a huge hit! <br /> As we tried to serve it, the Pie Filling started to drip down the side of the cake, thus the name. <!-- QZX --><div class="TODO">The Ingredient amounts need to be validated.</div><!-- QZX -->
 	</Description>
 
 	<Ingredients id="Ingredients">
@@ -27,20 +27,20 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Line the Dutch oven with foil and butter the bottom and sides.</instruction>
+			<instruction>Line the Dutch Oven with foil and butter the bottom and sides.</instruction>
 			<instruction>In a bowl, prepare Chocolate Cake Mix.</instruction>
-			<instruction>Open the Cherry Pie Filling and quickly place the can upside-down in the middle of the Dutch oven so as much as possible of the Filling is trapped in the can.</instruction>
-			<instruction>Pour about &frac14;<superscript>th</superscript> of the Cake Mix evenly around the outter edge of the Dutch oven.</instruction>
+			<instruction>Open the Cherry Pie Filling and quickly place the can upside-down in the middle of the Dutch Oven so as much as possible of the Filling is trapped in the can.</instruction>
+			<instruction>Pour about &frac14;<superscript>th</superscript> of the Cake Mix evenly around the outter edge of the Dutch Oven.</instruction>
 			<instruction>Gently lift the Cherry Pie Filling can so the Filling stays piled as high as possible.</instruction>
 			<instruction>Pour the rest of the Cake Mix evenly around and over the top of the Pie Filling.</instruction>
 			<instruction>Slowly cook mostly from the top. <span class="TODO">Determine number of charcoal briquettes for top and bottom, and the approximate cook time.</span></instruction>
-			<instruction>Prepare a place to hold a hot Dutch oven lid so it will stay balanced but not damage the table it is on.<br /><span class="NOTE">We generally do this by finding a couple of sticks and placing them about 6&inches; apart.</span></instruction>
-			<instruction>When it is cooked, <span class="EMPHASIZE">carefully with very good pot-holder gloves</span>, very quickly flip the entire Dutch oven, with the lid on, completely upside down.</instruction>
-			<instruction>Set Dutch oven, lid down, onto the place prepared, carefully remove the Dutch oven from the lid, then peel off the foil.</instruction>
+			<instruction>Prepare a place to hold a hot Dutch Oven lid so it will stay balanced but not damage the table it is on.<br /><span class="NOTE">We generally do this by finding a couple of sticks and placing them about 6&inches; apart.</span></instruction>
+			<instruction>When it is cooked, <span class="EMPHASIZE">carefully with very good pot-holder gloves</span>, very quickly flip the entire Dutch Oven, with the lid on, completely upside down.</instruction>
+			<instruction>Set Dutch Oven, lid down, onto the place prepared, carefully remove the Dutch Oven from the lid, then peel off the foil.</instruction>
 		</section>
 	</Instructions>
 
 	<Modifications id="Modifications">
-		<modification>For a 12&inch; Dutch oven, it takes about 1&frac12; times this recipe, but we tend to just double it and use a deeper Dutch oven.</modification>
+		<modification>For a 12&inch; Dutch Oven, it takes about 1&frac12; times this recipe, but we tend to just double it and use a deeper Dutch Oven.</modification>
 	</Modifications>
 </Recipe>

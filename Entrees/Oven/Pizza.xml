@@ -17,7 +17,7 @@
 		month="3"
 		day="27" />
 
-	<Description id="Description"> We have a family tradition of having home-made pizza every year on Halloween. This recipe is an adaptation of <a href=".../Camping/DO_DutchFathersPizza.xml">Dutch Oven and other Camping Recipes: Dutch Father's Pizza</a> that Grandpa John invented for Dutch ovens, but modified so we can cook it indoors. </Description>
+	<Description id="Description"> We have a family tradition of having home-made pizza every year on Halloween. This recipe is an adaptation of <a href=".../Camping/DO_DutchFathersPizza.xml">Dutch Oven and other Camping Recipes: Dutch Father's Pizza</a> that Grandpa John invented for Dutch Ovens, but modified so we can cook it indoors. </Description>
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsCrust" title="Crust">

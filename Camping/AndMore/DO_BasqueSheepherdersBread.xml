@@ -10,7 +10,7 @@
 <Recipe title="Dutch Oven Basque Sheepherder&apos;s Bread" yields="8-16 Servings">
 	<Source>Not sure where this one came from, but Grandpa John used to make it when Ransom was a kid.<br /></Source>
 	<Note>Maybe a VanOrman Original?</Note>
-	<Requires>12&inch; Dutch oven</Requires>
+	<Requires>12&inch; Dutch Oven</Requires>
 	<Section>&section;</Section>
 	<LastModified year="2025"
 		month="5"
@@ -32,13 +32,13 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Line Dutch oven with foil, then grease it with Butter or Shortening.</instruction>
+			<instruction>Line Dutch Oven with foil, then grease it with Butter or Shortening.</instruction>
 			<instruction>Combine Hot Water, Melted Butter or Shortening, Sugar, Salt, Yeast, and Flour, then kneed well.</instruction>
 			<instruction>Let rise for &approx;15 minutes, then punch down.</instruction>
-			<instruction>Place in Dutch oven and mash down evenly across the bottom.</instruction>
+			<instruction>Place in Dutch Oven and mash down evenly across the bottom.</instruction>
 			<instruction>Let rise until it barely touches the lid.</instruction>
 			<instruction>Bake slowly, mostly from the top. <span class="NOTE">(&approx;45 minutes)</span></instruction>
-			<instruction>Gently remove from Dutch oven and place on cutting board while removing the foil.</instruction>
+			<instruction>Gently remove from Dutch Oven and place on cutting board while removing the foil.</instruction>
 			<instruction>Cut and eat.</instruction>
 		</section>
 	</Instructions>

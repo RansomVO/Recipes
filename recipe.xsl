@@ -55,9 +55,9 @@
 								</xsl:if>
 							</td>
 							<xsl:if test="Requires">
-								<td class="RECIPE_SIZE">
+								<td class="RECIPE_REQUIRES">
 									<xsl:attribute name="class">
-										<xsl:value-of select="concat('RECIPE_SIZE ', Requires/@class)" />
+										<xsl:value-of select="concat('RECIPE_REQUIRES ', Requires/@class)" />
 									</xsl:attribute>
 									<b>Requires</b>: <xsl:apply-templates select="Requires">
 										<xsl:with-param name="linkPrefix" select="$linkPrefix" />
