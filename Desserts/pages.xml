@@ -13,9 +13,6 @@
 	<page href="CheapSoftToffee.xml" title="Cheap Soft Toffee" />
 	<page href="RobertRedfordDessert.xml" title="Robert Redford Dessert" />
 	<page href="Jigglers.xml" title="Jigglers" />
-
 	<page href="LS_GummyTreats.xml" title="Sugar-Free Gummy Treats" />
-
-	<page class="qzxDisabled TODO" href="IceCream.xml" title="Ice Cream" />
-
+	<page href="IceCream.xml" title="Ice Cream" />
 </Pages>
