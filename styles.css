@@ -11,10 +11,11 @@
 	padding-right: 2em;
 }
 
-.RECIPE_SIZE {
+.RECIPE_REQUIRES {
 	white-space: nowrap;
 	padding-right: 2em;
 	text-align: right;
+	vertical-align: top;
 }
 
 .RECIPE_YIELDS {

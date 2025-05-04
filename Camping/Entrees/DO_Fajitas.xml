@@ -7,67 +7,72 @@
 	%externalEntities;
 ]>
 
-<Recipe title="Dutch Oven Fajitas" yields="ToDo">
-	<Source> From the kitchen of <span class="TODO">ToDo</span></Source>
-	<Note>
-		<span class="TODO">ToDo</span>
-	</Note>
+<Recipe title="Dutch Oven Fajitas" yields="8-10 Servinngs">
+	<Source>The Tortillas come from kitchen of Sandra Clawson</Source>
+	<Note>Family friend, Wife of Fireman</Note>
+	<Requires>12&inch; Dutch Oven</Requires>
 	<Section>&section;</Section>
 	<LastModified year="2025"
-		month="3"
-		day="3" />
+		month="5"
+		day="4" />
 
 	<Description id="Description">
 		<span class="TODO">ToDo: Add Description</span>
 	</Description>
 
 	<Ingredients id="Ingredients">
-		<section id="IngredientsToDo" title="ToDo">
-			<ingredient name="ToDo"
-				nameNote="ToDo"
-				amount="1 ToDo"
-				amountNote="ToDo" />
-			<ingredient name="ToDo" amount="ToDo" />
+		<section id="IngredientsTortillas" title="Tortillas">
+			<ingredient name="Flour" amount="4 Cups" />
+			<ingredient name="Salt" amount="2 teaspoons" />
+			<ingredient name="Shortening" amount="&frac12; Cup" amountNote="rounded" />
+			<ingredient name="Water" nameNote="Luke-Warm" amount="1 Cup" />
 		</section>
-		<section id="IngredientsToDo" title="ToDo">
-			<ingredient name="ToDo"
-				nameNote="ToDo"
-				amount="1 ToDo"
-				amountNote="ToDo" />
-			<ingredient name="ToDo" amount="ToDo" />
+		<section id="IngredientsFilling" title="Filling">
+			<ingredient name="Beef" amount="2 Lbs." />
+			<ingredient name="Onion" amount="1" amountNote="Large" />
+			<ingredient name="Chili Powder" amount="&frac12; teaspoon" />
+			<ingredient name="Black Pepper" nameNote="Ground" amount="&frac14; teaspoon" />
+			<ingredient name="Garlic Salt" amount="1 Dash" />
+			<ingredient name="Worcestershire Sauce" amount="1 teaspoon" />
+			<ingredient name="Corn Starch" amount="1 teaspoon" />
+			<ingredient name="Green Peppers" amount="2" />
+			<ingredient name="Red Pepper" amount="1" />
+			<ingredient name="Tomato" nameNote="Large" amount="1" />
+		</section>
+		<section id="IngredientsToppings" title="Toppings Suggestions">
+			<ingredient name="" />
+			<ingredient name="Lettuce" />
+			<ingredient name="Cheese" />
+			<ingredient name="Olives" />
+			<ingredient name="Salsa" />
+			<ingredient name="Guacamole" />
+			<ingredient name="Sour Cream" />
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
-		<section id="InstructionsToDo" title="ToDo">
-			<instruction>Preheat oven to <span class="TODO">ToDo</span>&deg;</instruction>
-		</section>
-		<section id="InstructionsToDo" title="ToDo">
-			<instruction>
-				<span class="TODO">ToDo</span>
+	<Instructions id=" Instructions">
+		<section id=" InstructionsTortillas" title=" Tortillas">
+			<instruction>Using a fork, mix Flour, Salt, and Shortening.</instruction>
+			<instruction>Add Luke-Warm Water and blend well.</instruction>
+			<instruction>On a lightly-floured flat surface, knead about 50 times.</instruction>
+			<instruction>Break into 1&inch;-2&inch; balls and let sit for 15 minutes.</instruction>
+			<instruction>Place Dutch Oven lid, upside down on enough charcoals to make moderately hot.</instruction>
+			<instruction>By hand, flatten each ball into a Tortilla shape. <span class="NOTE">(The thinner the better.)</span></instruction>
+			<instruction>Cook on Dutch Oven lid until each side is slightly golden in spots. <span class="EMPHASIZE">Don&apos;t break air bubbles!</span>
 			</instruction>
+		</section>
+		<section id="InstructionsFilling" title="Filling">
+			<instruction>Cut Beef into long thin strips.</instruction>
+			<instruction>Cut Onion, Green Peppers, and Red Pepper into long thin strips.</instruction>
+			<instruction>Cut Tomato into thin wedge sections.</instruction>
+			<instruction>Heat Dutch Oven on a moderate amount of charcoals.</instruction>
+			<instruction>With no lid, stirring occasionally, cook Beef strips until Lightly Brown.</instruction>
+			<instruction>Add Onion, Chili Powder, Black Pepper, Garlic Salt, Worcestershire Sauce and Corn Starch, then stir occastionally until Beef is fully cooked.</instruction>
+			<instruction>Add Green Peppers, Red Pepper and Tomato, and sauté until Peppers are fully cooked.</instruction>
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
-		<note>
-			<span class="TODO">ToDo</span>
-		</note>
-	</Notes>
-
-	<Modifications id="Modifications">
-		<modification>
-			<span class="TODO">ToDo</span>
-		</modification>
+	<Modifications id=" Modifications">
+		<modification>If <!--you are feeling lazy-->desired, you can use store-bought Tortillas.</modification>
 	</Modifications>
-
-	<AdditionalNotes id="AdditionalNotes">
-		<note>
-			<span class="TODO">ToDo</span>
-		</note>
-	</AdditionalNotes>
-
-	<FinalNote>
-		<span class="TODO">ToDo</span>
-	</FinalNote>
 </Recipe>

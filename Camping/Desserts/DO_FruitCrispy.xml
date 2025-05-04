@@ -8,7 +8,7 @@
 ]>
 
 <Recipe title="Dutch Oven Fruit Crispy" yields="6-8 Servings">
-	<Source>One of the simplest and most well known dessert recipes for Dutch ovens.</Source>
+	<Source>One of the simplest and most well known dessert recipes for Dutch Ovens.</Source>
 	<Requires class="TODO">12&inch; Dutch Oven?
 	</Requires>
 	<Section>&section;</Section>
@@ -29,7 +29,7 @@
 	<Instructions id="Instructions">
 		<section>
 			<instruction>Line Dutch Oven with foil and grease bottom and sides.</instruction>
-			<instruction>Pour cans of Fruit, including juice and spread across bottom of Dutch oven.</instruction>
+			<instruction>Pour cans of Fruit, including juice and spread across bottom of Dutch Oven.</instruction>
 			<instruction>Sprinkle Cake Mix evenly over the Fruit.</instruction>
 			<instruction>Slice the Butter as thinly as possible and place evenly over Cake Mix.</instruction>
 			<instruction>Bake very slowly, only from the top <span class="NOTE">(&approx;6-8 charcoal briquettes)</span>, until top is golden brown and the Fruit is starting to bubble. <span class="TODO">(Determine approximate time.)</span></instruction>

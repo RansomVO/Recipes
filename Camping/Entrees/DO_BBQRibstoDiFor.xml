@@ -16,7 +16,7 @@
 		month="3"
 		day="3" />
 
-	<Description id="Description"> Before they were married Di and Ransom had a BBQ Rips bake-off with missionaries as the judges. Ransom did the <a href=".../Entrees/SlowCooker/BBQSpareRibs.xml">Slow Cooker BBQ Spare Ribs</a> recipe. Di won, but then <span class="NOTE">(a long time later)</span> Di told Ransom that her sauce recipe was something like: "Buy a bottle of Tony Roma BBQ Sauce".<br />Ransom tried her cooking method and found it did give the ribs a great consistency, so, after several attempts, we came up with <a href=".../Entrees/Oven/BBQRibsToDiFor.xml">BBQ Ribs to Di For</a>. <br />Then we modified it slightly to go in a Dutch oven and it turned out <span class="EMPHASIZE">great!</span>
+	<Description id="Description"> Before they were married Di and Ransom had a BBQ Rips bake-off with missionaries as the judges. Ransom did the <a href=".../Entrees/SlowCooker/BBQSpareRibs.xml">Slow Cooker BBQ Spare Ribs</a> recipe. Di won, but then <span class="NOTE">(a long time later)</span> Di told Ransom that her sauce recipe was something like: "Buy a bottle of Tony Roma BBQ Sauce".<br />Ransom tried her cooking method and found it did give the ribs a great consistency, so, after several attempts, we came up with <a href=".../Entrees/Oven/BBQRibsToDiFor.xml">BBQ Ribs to Di For</a>. <br />Then we modified it slightly to go in a Dutch Oven and it turned out <span class="EMPHASIZE">great!</span>
 	</Description>
 
 	<Ingredients id="Ingredients">
@@ -38,9 +38,9 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Place Dutch oven on coles to heat.</instruction>
+			<instruction>Place Dutch Oven on coles to heat.</instruction>
 			<instruction>While it is heating, cut Onion into rings about &frac14;&inch; thick.</instruction>
-			<instruction>Place Onions, Water and Spare Ribs into Dutch oven and turn until browned.</instruction>
+			<instruction>Place Onions, Water and Spare Ribs into Dutch Oven and turn until browned.</instruction>
 			<instruction>Add all other ingredients and mix well.</instruction>
 			<instruction>Bring to a boil, then reduce heat and simmer, stirring occasionallly, until meat is thoroughly cooked.</instruction>
 		</section>
