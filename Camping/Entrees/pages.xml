@@ -1,12 +1,22 @@
 <Pages>
-	<page href="DO_DutchFathersPizza.xml" title="Dutch Father's Pizza" />
-	<page href="DO_BBQSpareRibs.xml" title="Dutch Oven BBQ Spare Ribs" />
-	<page href="DO_KlondikeChili.xml" title="Dutch Oven Klondike Chili" />
-	<page class="TODO" href="DO_Fajitas.xml" title="Dutch Oven Fajitas" />
-	<page class="TODO" href="DO_FriedRice.xml" title="Dutch Oven Fried Rice" />
-	<page class="TODO" href="DO_SpanishRice.xml" title="Dutch Oven Spanish Rice" />
-	<page href="DO_StewAndDumplings.xml" title="Dutch Oven Stew and Dumplings" />
-	<page class="TODO" href="DO_PepperSteak.xml" title="Dutch Oven Pepper Steak" />
-	<page href="DO_BBQRibstoDiFor.xml" title="Dutch Oven BBQ Ribs to Di For" />
-	<page class="TODO" href="MantiTurkey.xml" title="Manti Turkey" />
+	<CollapseSection title="Dutch Oven">
+		<inline>
+			<Pages>
+				<page href="DO_DutchFathersPizza.xml" title="Dutch Father's Pizza" />
+				<page href="DO_BBQSpareRibs.xml" title="Dutch Oven BBQ Spare Ribs" />
+				<page href="DO_KlondikeChili.xml" title="Dutch Oven Klondike Chili" />
+				<page class="TODO" href="DO_Fajitas.xml" title="Dutch Oven Fajitas" />
+				<page class="TODO" href="DO_FriedRice.xml" title="Dutch Oven Fried Rice" />
+				<page class="TODO" href="DO_SpanishRice.xml" title="Dutch Oven Spanish Rice" />
+				<page href="DO_StewAndDumplings.xml" title="Dutch Oven Stew and Dumplings" />
+				<page class="TODO" href="DO_PepperSteak.xml" title="Dutch Oven Pepper Steak" />
+				<page href="DO_BBQRibstoDiFor.xml" title="Dutch Oven BBQ Ribs to Di For" />
+			</Pages>
+		</inline>
+	</CollapseSection>
+	<CollapseSection title="Others">
+		<inline>
+			<page class="TODO" href="MantiTurkey.xml" title="Manti Turkey" />
+		</inline>
+	</CollapseSection>
 </Pages>

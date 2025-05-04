@@ -1,3 +1,9 @@
 <Pages>
-	<page href="DO_OrangeRolls.xml" title="Dutch Oven Orange Rolls" />
+	<CollapseSection title="Dutch Oven">
+		<inline>
+			<Pages>
+				<page href="DO_OrangeRolls.xml" title="Dutch Oven Orange Rolls" />
+			</Pages>
+		</inline>
+	</CollapseSection>
 </Pages>
