@@ -7,67 +7,39 @@
 	%externalEntities;
 ]>
 
-<Recipe title="Manti Turkey" yields="ToDo">
-	<Source> From the kitchen of <span class="TODO">ToDo</span></Source>
-	<Note>
-		<span class="TODO">ToDo</span>
-	</Note>
+<Recipe title="Manti Turkey" yields="4-6 Servings">
+	<Source>From turkey farmers in Manti, Utah</Source>
+	<Note>Thus the name</Note>
 	<Section>&section;</Section>
 	<LastModified year="2025"
-		month="3"
-		day="3" />
+		month="5"
+		day="4" />
 
-	<Description id="Description">
-		<span class="TODO">ToDo: Add Description</span>
-	</Description>
+	<Description id="Description">The youth in our ward did a service project where they went to Manti and helped do some spring cleaning at some turkey farms. When they were done, the farmers fed them this recipe and they <span class="EMPHASIZE">loved</span> it!<br />We were able to get the recipe and here it is. </Description>
 
 	<Ingredients id="Ingredients">
-		<section id="IngredientsToDo" title="ToDo">
-			<ingredient name="ToDo"
-				nameNote="ToDo"
-				amount="1 ToDo"
-				amountNote="ToDo" />
-			<ingredient name="ToDo" amount="ToDo" />
-		</section>
-		<section id="IngredientsToDo" title="ToDo">
-			<ingredient name="ToDo"
-				nameNote="ToDo"
-				amount="1 ToDo"
-				amountNote="ToDo" />
-			<ingredient name="ToDo" amount="ToDo" />
+		<section>
+			<ingredient name="Lemon-Lime Soda" amount="1 Cup" />
+			<ingredient name="Soy Sauce" amount="&frac12; Cup" />
+			<ingredient name="Vegetable Oil" amount="&frac14; Cup" />
+			<ingredient name="Garlic Powder" amount="1 teaspoons" />
+			<ingredient name="Horseradish" amount="1 teaspoons" />
+			<ingredient name="Turkey Tenders" amount="2-3 Lbs." />
 		</section>
 	</Ingredients>
 
 	<Instructions id="Instructions">
-		<section id="InstructionsToDo" title="ToDo">
-			<instruction>Preheat oven to <span class="TODO">ToDo</span>&deg;</instruction>
-		</section>
-		<section id="InstructionsToDo" title="ToDo">
-			<instruction>
-				<span class="TODO">ToDo</span>
-			</instruction>
+		<section>
+			<instruction>In a large bowl place Soda, Soy Sauce, Vegetable Oil, Garlic Powder, and Horseradish then mix well.</instruction>
+			<instruction>Add Turkey Tenders and make sure they are well covered with the Marinade.</instruction>
+			<instruction>Marinate for 4-24 hours.</instruction>
+			<instruction>Remove Turkey Tenders from Marinade and grill 1<superscript>st</superscript> side on BBQ for &approx;<span class="TODO">???</span> minutes.</instruction>
+			<instruction>Flip all Turkey Tenders, dipping them in the Marinade, then grill for &approx;<span class="TODO">???</span> minutes.</instruction>
+			<instruction>Serve immediately.</instruction>
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
-		<note>
-			<span class="TODO">ToDo</span>
-		</note>
-	</Notes>
-
 	<Modifications id="Modifications">
-		<modification>
-			<span class="TODO">ToDo</span>
-		</modification>
+		<modification>The original recipe called for Cola instead of Lemon-Lime Soda, but pretty much any flavor can be used. <span class="NOTE">(Ransom's favorite is Ginger Ale.)</span></modification>
 	</Modifications>
-
-	<AdditionalNotes id="AdditionalNotes">
-		<note>
-			<span class="TODO">ToDo</span>
-		</note>
-	</AdditionalNotes>
-
-	<FinalNote>
-		<span class="TODO">ToDo</span>
-	</FinalNote>
 </Recipe>
