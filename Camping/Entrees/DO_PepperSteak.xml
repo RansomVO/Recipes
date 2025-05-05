@@ -7,68 +7,64 @@
 	%externalEntities;
 ]>
 
-<Recipe title="Dutch Oven Pepper Steak" yields="ToDo">
-	<Source> From the kitchen of <span class="TODO">ToDo</span></Source>
-	<Requires>12&fracinch; Dutch Oven</Requires>
-	<Note>
-		<span class="TODO">ToDo</span>
-	</Note>
+<Recipe title="Dutch Oven Pepper Steak" yields="4-6 Servings">
+	<Source>Modification from the winner of a Lodge Dutch Oven cookoff.</Source>
+	<Requires>12&inch; Dutch Oven</Requires>
 	<Section>&section;</Section>
 	<LastModified year="2025"
-		month="3"
-		day="3" />
+		month="5"
+		day="5" />
 
-	<Description id="Description">
-		<span class="TODO">ToDo: Add Description</span>
-	</Description>
+	<Description id="Description"> Ransom is always looking for new Dutch Oven recipes. The Lodge company had annual Dutch Oven cookoffs in Utah, and one year the winner was a Pepper Steak recipe. <br /> Of course he had to try it with his wife and a couple of friends. He followed the recipe <span class="SUPER_EMPHASIZE">exactly</span> as it was published. One issue however was the large amount of &quot;Freshly Ground Black Pepper&quot;. Everybody took turns grinding and grinding. Finally Ransom and his friend hooked a drill up to the pepper grinder and were able to finish it off in only about 10 minutes. <br /> Guess what. The spiciness was <span class="EMPHASIZE">totally</span> out of control, to the point nobody could eat it. <span class="NOTE">(We still don't know if the recipe was published incorrectly, or the cook intentionally gave the wrong recipe, or what.)</span>
+		<br /> But Pepper Steak still sounded good, so we made some modifications and came up with this. </Description>
 
 	<Ingredients id="Ingredients">
-		<section id="IngredientsToDo" title="ToDo">
-			<ingredient name="ToDo"
-				nameNote="ToDo"
-				amount="1 ToDo"
-				amountNote="ToDo" />
-			<ingredient name="ToDo" amount="ToDo" />
+		<section id="IngredientsMarinade" title="Marinade">
+			<ingredient name="Beef Broth" nameNote="Double Strength" amount="2 Cups" />
+			<ingredient name="Ground Pepper" nameNote="Freshly ground is best" amount="1 teaspoon" />
+			<ingredient name="White Pepper" amount="&frac14; teaspoon" />
+			<ingredient name="Chili Pepper" amount="1 teaspoon" />
+			<ingredient name="Paprika" amount="1 teaspoon" />
+			<ingredient name="Worcestershire Sauce" amount="1&frac12; Tablespoons" />
+			<ingredient name="Tabasco Sauce" amount="To taste" amountNote="Several Dashes" />
+			<ingredient name="Lime" amount="1" />
+			<ingredient name="Lean Beef, Cut into long thin strips" amount="2-3 Lbs." />
 		</section>
-		<section id="IngredientsToDo" title="ToDo">
-			<ingredient name="ToDo"
-				nameNote="ToDo"
-				amount="1 ToDo"
-				amountNote="ToDo" />
-			<ingredient name="ToDo" amount="ToDo" />
+		<section id="IngredientsEssentials" title="Essentials">
+			<ingredient name="Flour" amount="&frac14; Cup" />
+			<ingredient name="Water" amount="1 Cup" />
+			<ingredient name="Onion" nameNote="Large" amount="1" />
+			<ingredient name="Green Bell Peppers" amount="2" />
+			<ingredient name="Red Bell Pepper" amount="1" />
+			<ingredient name="Mushrooms" amount="8 oz." amountNote="&frac12; lb." />
 		</section>
 	</Ingredients>
 
 	<Instructions id="Instructions">
-		<section id="InstructionsToDo" title="ToDo">
-			<instruction>Preheat oven to <span class="TODO">ToDo</span>&deg;</instruction>
+		<section id="InstructionsMarinade" title="Marinade">
+			<instruction>In a large bowl, combine Double Strength Beef Broth, Ground Pepper, White Pepper, Chili Pepper, Paprika, Worcestershire Sauce, Tabasco Sauce, and juice from the Lime then mix well.</instruction>
+			<instruction>Slice Lean Beef into long thin strips. <span class="NOTE">(&approx; 1&inch; wide and &frac18;&inch;-&frac14;&inch; thick.)</span></instruction>
+			<instruction>Stir sliced Beef into sauce and marinate for several hours <span class="NOTE">(or overnight)</span></instruction>
 		</section>
-		<section id="InstructionsToDo" title="ToDo">
-			<instruction>
-				<span class="TODO">ToDo</span>
-			</instruction>
+		<section id="InstructionsEssentials" title="Essentials">
+			<instruction>In a small bowl, combine Flour and Water, then mix <span class="EMPHASIZE">very</span> well until Flour is <span class="EMPHASIZE">completely</span> disolved.</instruction>
+			<instruction>Slice Onion and Bell Peppers into long strips approximately &frac14;&inch;-&frac12;&inch; wide.</instruction>
+			<instruction>Place Dutch Oven on medium amount of charcoals.</instruction>
+			<instruction>Remove Beef from Marinade sauce, place in Dutch Oven and brown lightly.</instruction>
+			<instruction>Add Marinade sauce and simmer until Beef is fully cooked.</instruction>
+			<instruction>Remove Beef and set aside, but leave Marinade Sauce.</instruction>
+			<instruction>Add Onion and Bell Peppers and Saut&accentedE; until barely tender.</instruction>
+			<instruction>Put Beef back into the Dutch Oven and bring to a simmer for 1 minute.</instruction>
+			<instruction>Mix Flour and Water again to ensure it is <span class="EMPHASIZE">completely</span> disolved.</instruction>
+			<instruction>While stirring contstantly, slowly add the Flour and water mixture.</instruction>
+			<instruction>Continue stirring occasionally until it comes to a boil then let simmer for 10 minutes.</instruction>
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
-		<note>
-			<span class="TODO">ToDo</span>
-		</note>
-	</Notes>
-
 	<Modifications id="Modifications">
 		<modification>
-			<span class="TODO">ToDo</span>
+			If you don't want it as spicy, reduce the Ground Black Pepper and/or Tabasco Sauce.
+			Or you can use a different hot sauce, such as Tapatio.
 		</modification>
 	</Modifications>
-
-	<AdditionalNotes id="AdditionalNotes">
-		<note>
-			<span class="TODO">ToDo</span>
-		</note>
-	</AdditionalNotes>
-
-	<FinalNote>
-		<span class="TODO">ToDo</span>
-	</FinalNote>
 </Recipe>
