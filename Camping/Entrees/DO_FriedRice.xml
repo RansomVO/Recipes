@@ -7,67 +7,47 @@
 	%externalEntities;
 ]>
 
-<Recipe title="Dutch Oven Fried Rice" yields="ToDo">
-	<Source> From the kitchen of <span class="TODO">ToDo</span></Source>
-	<Note>
-		<span class="TODO">ToDo</span>
-	</Note>
+<Recipe title="Dutch Oven Fried Rice" yields="8-10 Servings" yieldsNote="or 15-20 if just used as a side dish">
+	<Source>Based on a Recipe from <a href="https://en.wikipedia.org/wiki/Joy_of_Cooking">Joy of Cooking</a></Source>
+	<Requires>12&inch; Dutch Oven</Requires>
 	<Section>&section;</Section>
 	<LastModified year="2025"
-		month="3"
-		day="3" />
+		month="5"
+		day="4" />
 
-	<Description id="Description">
-		<span class="TODO">ToDo: Add Description</span>
-	</Description>
+	<Description id="Description"> Ransom used Joy of Cooking recipe book while on his mission. <span class="NOTE">(It is still his favorite.)</span> When he got home from his mission, he adapted the recipe to be an entree cooked in a Dutch Oven. </Description>
 
 	<Ingredients id="Ingredients">
-		<section id="IngredientsToDo" title="ToDo">
-			<ingredient name="ToDo"
-				nameNote="ToDo"
-				amount="1 ToDo"
-				amountNote="ToDo" />
-			<ingredient name="ToDo" amount="ToDo" />
-		</section>
-		<section id="IngredientsToDo" title="ToDo">
-			<ingredient name="ToDo"
-				nameNote="ToDo"
-				amount="1 ToDo"
-				amountNote="ToDo" />
-			<ingredient name="ToDo" amount="ToDo" />
+		<section>
+			<ingredient name="Vegetable Oil" amount="&frac12;-1 Cup" />
+			<ingredient name="Uncooked Rice" amount="4 Cups" />
+			<ingredient name="Water" amount="6 Cups" />
+			<ingredient name="Salt" amount="1 teaspoon" />
+			<ingredient name="Eggs" amount="4-6" />
+			<ingredient name="Ham" nameNote="cut into &frac14;&inch; chunks" amount="1-2 Cups" />
+			<ingredient name="Chinese Cabbage" nameNote="Shredded" amount="1-2 Cups" />
+			<ingredient name="Carrots" nameNote="Sliced Thinly" amount="&frac12; Cup" />
+			<ingredient name="Onions" nameNote="Cut into &frac12;&inch; &by; 1&inch;" amount="&frac12;-1 Cups" />
+			<ingredient name="Soy Sauce" amount="2-4 Tablespoons" />
 		</section>
 	</Ingredients>
 
 	<Instructions id="Instructions">
-		<section id="InstructionsToDo" title="ToDo">
-			<instruction>Preheat oven to <span class="TODO">ToDo</span>&deg;</instruction>
-		</section>
-		<section id="InstructionsToDo" title="ToDo">
-			<instruction>
-				<span class="TODO">ToDo</span>
-			</instruction>
+		<section>
+			<instruction>Place Dutch Oven on medium amount of charcoals.</instruction>
+			<instruction>Add Oil and Uncooked Rice and saut&accentE;, stirring/scraping frequently until Rice begins to brown.</instruction>
+			<instruction>Add Water and Salt and stir well.</instruction>
+			<instruction>Cook with the lid on, stirring occasionally until Rice is cooked. <span class="NOTE">(&approx;20-45 minutes)</span></instruction>
+			<instruction>Dig as large of a hole as possible in the center, all the way to the bottom. Then add Eggs and stir them <span class="NOTE">(not Rice)</span> until it is fully-cooked pieces.</instruction>
+			<instruction>Add Ham, Chineese Cabbage, Carrots, and Onion then stir and let steam for 5-10 minutes.</instruction>
+			<instruction>Add Soy Sauce and stir very well.</instruction>
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
-		<note>
-			<span class="TODO">ToDo</span>
-		</note>
-	</Notes>
-
 	<Modifications id="Modifications">
-		<modification>
-			<span class="TODO">ToDo</span>
-		</modification>
+		<modification>Instead of Chinese Cabbage, use Celery Greens</modification>
+		<modification>Replace some or all of the Onions with Scallions cut into &frac12;&inch; lengths.</modification>
+		<modification>If it just going to be a side dish, the amount of Ham can be reduced or left out completely.</modification>
+		<modification>Instead of Ham, use pre-cooked Chicken or Beef pieces.</modification>
 	</Modifications>
-
-	<AdditionalNotes id="AdditionalNotes">
-		<note>
-			<span class="TODO">ToDo</span>
-		</note>
-	</AdditionalNotes>
-
-	<FinalNote>
-		<span class="TODO">ToDo</span>
-	</FinalNote>
 </Recipe>
