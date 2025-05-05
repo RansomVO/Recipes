@@ -24,14 +24,14 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Hamburger" amount="1 lb." />
+			<ingredient name="Hamburger" amount="1 Lb." />
 			<ingredient name="Water" amount="1-2 Quarts" />
 			<ingredient name="Potatoes" amount="3-5" />
 			<ingredient name="Carrots" amount="1-3" />
 			<ingredient name="Celery" amount="1 Stick" />
 			<ingredient name="Onions" amount="1" />
 			<ingredient name="Pearl Barley" amount="&frac14; Cup" />
-			<ingredient name="Frozen Petite Peas" amount="&frac12; 12oz. Bag" />
+			<ingredient name="Frozen Petite Peas" amount="&frac12; 12-oz. Bag" />
 			<ingredient name="Salt and Pepper" amount="to taste" />
 		</section>
 	</Ingredients>

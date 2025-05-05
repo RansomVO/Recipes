@@ -20,9 +20,13 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Butter or Shortening" amount="&approx;2 Tablespoons" />
+			<ingredient name="Butter"
+				amount="&approx;2 Tablespoons" />
 			<ingredient name="Hot Water" amount="3 Cups" />
-			<ingredient name="Butter or Shortening" nameNote="Melted" amount="&frac12; Cup" />
+			<ingredient name="Butter"
+				nameNote="Melted"
+				amount="&frac12; Cup"
+				amountNote="1 Stick" />
 			<ingredient name="Sugar" amount="&frac12; Cup" />
 			<ingredient name="Salt" amount="2&frac12; teaspoons" />
 			<ingredient name="Yeast" amount="2 Tablespoons" />
@@ -32,8 +36,8 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Line Dutch Oven with foil, then grease it with Butter or Shortening.</instruction>
-			<instruction>Combine Hot Water, Melted Butter or Shortening, Sugar, Salt, Yeast, and Flour, then kneed well.</instruction>
+			<instruction>Line Dutch Oven with foil, then grease it with Butter.</instruction>
+			<instruction>Combine Hot Water, Melted Butter, Sugar, Salt, Yeast, and Flour, then kneed well.</instruction>
 			<instruction>Let rise for &approx;15 minutes, then punch down.</instruction>
 			<instruction>Place in Dutch Oven and mash down evenly across the bottom.</instruction>
 			<instruction>Let rise until it barely touches the lid.</instruction>
@@ -46,4 +50,8 @@
 	<Notes id="Notes">
 		<note> It is always good to have something to put on top of slices, like the <a href=".../Canning/WildBlackberryJam.xml">Black Berry Jam</a> Grandma &apos;Rilla used to make. </note>
 	</Notes>
+
+	<Modifications>
+		<modification>Sortening can be used instead of Butter.</modification>
+	</Modifications>
 </Recipe>

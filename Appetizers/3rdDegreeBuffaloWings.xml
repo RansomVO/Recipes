@@ -25,13 +25,15 @@
 			<ingredient name="Salt" amount="&frac12; teaspoon" />
 			<ingredient name="Chicken Wings"
 				amount="20 Pieces"
-				amountNote="About 3 lbs." />
+				amountNote="About 3 Lbs." />
 			<ingredient name="Oil" amountNote="for Deep Frying" />
 		</section>
 		<section id="IngredientsSauce" title="Sauce">
-			<ingredient name="Butter" amount="&frac12; Cup" />
+			<ingredient name="Butter"
+				amount="&frac14; Cup"
+				amountNote="&frac12; Stick" />
 			<ingredient name="Hot Sauce"
-				nameNote="Such as Tapat&#xED;o"
+				nameNote="Such as Tapat&accentedLowerI;o"
 				amount="&frac12; Cup" />
 			<ingredient name="Ground Black Pepper" amount="2 Dashes" />
 			<ingredient name="Garlic Powder" amount="2 Dashes" />

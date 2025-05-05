@@ -31,7 +31,8 @@
 			<ingredient name="Sugar" amount="1&frac14; Cups" />
 			<ingredient name="Butter"
 				nameNote="Softened"
-				amount="1 Cup" />
+				amount="1 Cup"
+				amountNote="2 Sticks" />
 			<ingredient name="Eggs" amount="3" />
 			<ingredient name="Peanut Butter"
 				nameNote="Chunky or Creamy"

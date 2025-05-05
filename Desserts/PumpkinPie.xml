@@ -24,8 +24,8 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Pumpkin" amount="1 29 oz. Can" />
-			<ingredient name="Evaporated Milk" amount="2 12 fl. oz. Cans" />
+			<ingredient name="Pumpkin" amount="1 29-oz. Can" />
+			<ingredient name="Evaporated Milk" amount="2 12-fl.oz. Cans" />
 			<ingredient name="Sugar" amount="2 Cups" />
 			<ingredient name="Eggs" amount="4" />
 			<ingredient name="Salt" amount="1 teaspoon" />

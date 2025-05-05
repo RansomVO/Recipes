@@ -27,7 +27,9 @@
 			<ingredient name="Light Corn Syrup" amount="1 Cup" />
 			<ingredient name="Evaporated milk" amount="1 Cup" />
 			<ingredient name="Heavy Whipping Cream" amount="1 Pint" />
-			<ingredient name="Butter" amount="1 Cup" />
+			<ingredient name="Butter"
+				amount="1 Cup"
+				amountNote="2 Sticks" />
 			<ingredient name="Vanilla" amount="1&frac14; teaspoons" />
 		</section>
 	</Ingredients>

@@ -28,7 +28,8 @@
 			<ingredient name="Baking Powder" amount="1 Tablespoon" />
 			<ingredient name="Butter"
 				nameNote="COLD!"
-				amount="6 Tablespoons" />
+				amount="6 Tablespoons"
+				amountNote="&frac34; Stick" />
 			<ingredient name="Milk" amount="&frac34; Cup" />
 		</section>
 	</Ingredients>
@@ -37,13 +38,13 @@
 		<section>
 			<instruction>Preheat oven to 400&deg;.</instruction>
 			<instruction>In a bowl, combine Flour, Salt and Baking Powder.</instruction>
-			<instruction>Slice the butter into 1 Tablespoon slices and use a pastry blender to cut butter into flour until combination is consistency of coarse cornmeal.</instruction>
-			<instruction>Add milk all at once and stir until dough doesn't stick to sides of bowl. <span class="NOTE">(Less than 1 minute.)</span></instruction>
-			<instruction>Dust the countertop with flour and roll out the dough until it is it is about &frac12;&inch; thick.</instruction>
+			<instruction>Slice the Butter into 1 Tablespoon slices and use a pastry blender to cut Butter into Flour until combination is consistency of coarse cornmeal.</instruction>
+			<instruction>Add Milk all at once and stir until dough doesn't stick to sides of bowl. <span class="NOTE">(Less than 1 minute.)</span></instruction>
+			<instruction>Dust the countertop with Flour and roll out the dough until it is it is about &frac12;&inch; thick.</instruction>
 			<instruction>Fold in half, then in half again.</instruction>
 			<instruction>Repeat Steps 5 and 6 at least four times.</instruction>
 			<instruction>The final time, roll out dough 1&inch; thick.</instruction>
-			<instruction>Cut out biscuits with a round cookie cutter approximately 2&frac12;&inch; in diameter.</instruction>
+			<instruction>Cut out Biscuits with a round cookie cutter approximately 2&frac12;&inch; in diameter.</instruction>
 			<instruction>Place on greased cookie sheet.</instruction>
 			<instruction>Bake at 400&deg; for 12-15 minutes, until just turning golden brown.</instruction>
 		</section>

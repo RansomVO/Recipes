@@ -42,7 +42,7 @@
 		</section>
 		<section id="Glaze" title="Glaze">
 			<ingredient name="Juice from 1 Orange"
-				amountNote="&&approx;; &frac14; Cup" />
+				amountNote="&approx; &frac14; Cup" />
 			<ingredient name="Butter"
 				nameNote="Melted"
 				amount="&frac14; Cup"

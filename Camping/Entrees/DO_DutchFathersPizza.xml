@@ -26,8 +26,8 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsSauce" title="Sauce">
-			<ingredient name="Cans Tomato Sauce" amount="4 8oz." />
-			<ingredient name="Can Tomato Paste" amount="1 6oz." />
+			<ingredient name="Cans Tomato Sauce" amount="4 8-oz." />
+			<ingredient name="Can Tomato Paste" amount="1 6-oz." />
 			<ingredient name="Oregano" amount="1 teaspoon" />
 			<ingredient name="Basil" amount="1 teaspoon" />
 			<ingredient name="Garlic Powder" amount="&frac12; teaspoon" />

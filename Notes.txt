@@ -1,0 +1,44 @@
+- Always use "side dish" instead of "side-dish"
+
+- "Marinade" (noun) is the sauce. "Marinate" (verb) is what you do with the sauce.
+
+- When specifying the the size of a container use the format of "<amount> <size>-<unit in all lower-case> <container type>". E.G.:
+	2 8-oz. Cans
+	1 1-lb. Bag
+
+- When specifying a quantity, use the format "<amount> <Unit with 1st char upper-case>". E.G.:
+	12 Oz.
+	1 Lb.
+
+- When working with the weight Pounds:
+	Use singular (lb.) when:
+		1 pound or less
+		For a single-item unit E.G. 2-3 lb. Roast
+	Use plural (Lbs.) when:
+		Specifying a measurable amount E.G. 10 Lbs. Potatoes
+
+- When specifying quantities of Butter:
+	If using 1/2 stick or more, use the unit Cups, unless it isn't pretty. E.G. 6 Tablespoons = 0.375 = 3/8 Cups
+	Otherwise, use the unit Tablespoons.
+	If using 1/2 stick or more, specify the number of Sticks in the amountNote.
+
+- Whenever an entity exists in entities.dtd, use it so it can be changed later if desired. E.G.
+	½″		-> &frac12;&inch;
+	about	-> &approx;
+	≈		-> &approx;
+
+- Make sure to leverage accents in the following words:
+	sauté		"Saut&accentedLowerE;"
+	Tapatío		"Tapat&accentedLowerI;o"
+	(Add more as encountered.)
+
+- When mentioning Recipes, or Ingredients in the Recipes, make first letter capital
+
+- When specifying units, alway make the first letter capital, except for "teaspoon"
+
+- When formatting XML, if there are 2 attributes or less, it can be on a single line. If more, use a separate line for each attribute. E.G.:
+	<ingredient name="Powdered Sugar" amount="1 Cup" />
+	<ingredient name="Butter"
+		nameNote="Melted"
+		amount="&frac14; Cup"
+		amountNote="&frac12; Stick" />

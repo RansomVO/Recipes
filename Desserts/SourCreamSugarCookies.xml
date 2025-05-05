@@ -26,7 +26,7 @@
 			<ingredient name="Butter"
 				nameNote="Softened"
 				amount="1 Cup"
-				amountNote="2 sticks" />
+				amountNote="2 Sticks" />
 			<ingredient name="Eggs" amount="3" />
 			<ingredient name="Sour Cream" amount="1 Cup" />
 			<ingredient name="Vanilla" amount="1 teaspoon" />
@@ -39,7 +39,7 @@
 				nameNote="Softened"
 				amount="&frac12; Cup"
 				amountNote="1 stick" />
-			<ingredient name="Cream Cheese" amount="1 8oz. Package" />
+			<ingredient name="Cream Cheese" amount="1 8-oz. Package" />
 			<ingredient name="Vanilla" amount="1 teaspoon" />
 			<ingredient name="Powdered Sugar" amount="4 Cups" />
 			<ingredient name="Food Coloring"

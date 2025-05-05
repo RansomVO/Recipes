@@ -24,7 +24,7 @@
 		<section>
 			<ingredient name="Butter"
 				nameNote="Melted"
-				amount="8 oz."
+				amount="&frac12; Cup"
 				amountNote="1 Stick" />
 			<ingredient name="Brown Sugar" amount="2 Cups" />
 			<ingredient name="Garlic"

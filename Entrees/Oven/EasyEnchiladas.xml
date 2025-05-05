@@ -23,7 +23,7 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient name="Burritos" amount="6 Frozen" />
-			<ingredient name="Enchilada Sauce" amount="1 20oz. Can" />
+			<ingredient name="Enchilada Sauce" amount="1 20-oz. Can" />
 			<ingredient name="Cheddar Cheese"
 				nameNote="Grated"
 				amount="&frac12; lb." />

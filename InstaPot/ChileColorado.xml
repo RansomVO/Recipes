@@ -41,7 +41,7 @@
 			<ingredient name="Cumin" amount="&frac12; teaspoon" />
 			<ingredient name="Garlic" amount="1 Clove" />
 			<ingredient name="Oil" amount="2 Tablspoons" />
-			<ingredient name="Stew Meat" amount="2 lbs." />
+			<ingredient name="Stew Meat" amount="2 Lbs." />
 			<ingredient name="Beef Broth"
 				amountNote="1&frac12;-Strength"
 				amount="3 Cups" />
@@ -55,7 +55,7 @@
 			<instruction>In small pot, put Chiles, Onions and Water and place on stove with burner set to high until it comes to a boil.</instruction>
 			<instruction>Turn burner off and let pot sit for 20 minutes.</instruction>
 			<instruction>Cut Stew Meat into chunks that are about 1&inch; square.</instruction>
-			<instruction>Place Oil in InstaPot and set it to Saut&accentE;.</instruction>
+			<instruction>Place Oil in InstaPot and set it to Saut&accentedLowerE;.</instruction>
 			<instruction>When hot, add Stew Meat and cook until it starts to look golden on the outside, then turn InstaPot off.</instruction>
 			<instruction>
 				Remove all of the Chiles and Onions from the pot of water and place in a blender, along with 1 cup of the now Red Water from the pot.

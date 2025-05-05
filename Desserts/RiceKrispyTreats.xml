@@ -21,10 +21,10 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Butter or Margarine" amount="3 Tablespoons" />
-			<ingredient name="Marshmallows"
-				nameNote="10 oz. Regular or 10.5 oz. Miniature; about 4 cups"
-				amount="1 Package" />
+			<ingredient name="Butter" amount="3 Tablespoons" />
+			<ingredient name="Miniature Marshmallows"
+				amount="1 10.5-oz. Package"
+				amountNote="About 4 cups" />
 			<ingredient name="Rice Krispies" amount="6 Cups" />
 		</section>
 	</Ingredients>
@@ -48,5 +48,6 @@
 	<Modifications id="Modifications">
 		<modification>Instead of Rice Krispies, use Cocoa Krispies or Fruity Pebbles</modification>
 		<modification>Add some M&amp;Ms and/or Reese's Pieces to the Rice Krispies <span class="NOTE">(or Cocoa Krispies)</span> just before adding the melted Marshmallow mixture.</modification>
+		<modification>Instead of Miniature Marshmallows, regular Marshmallows can be used, but extra care will need to be used when melting them.</modification>
 	</Modifications>
 </Recipe>

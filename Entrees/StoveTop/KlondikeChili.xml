@@ -22,18 +22,18 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient name="Onion" amount="1" />
-			<ingredient name="Hamburger" amount="1 lb." />
+			<ingredient name="Hamburger" amount="1 Lb." />
 			<ingredient name="Pinto Beans"
 				nameNote="Drained"
-				amount="1 15 oz. Can" />
+				amount="1 15-oz. Can" />
 			<ingredient name="Kidney Beans"
 				nameNote="Drained"
-				amount="1 15 oz. Can" />
+				amount="1 15-oz. Can" />
 			<ingredient name="Red Beans"
 				nameNote="Drained"
-				amount="1 15 oz. Can" />
-			<ingredient name="Stewed/Sliced Tomatoes" amount="3 14.5oz. Cans" />
-			<ingredient name="Stewed/Diced Tomatoes" amount="2 14.5oz. Cans" />
+				amount="1 15-oz. Can" />
+			<ingredient name="Stewed/Sliced Tomatoes" amount="3 14.5-oz. Cans" />
+			<ingredient name="Stewed/Diced Tomatoes" amount="2 14.5-oz. Cans" />
 			<ingredient name="Poblano Pepper"
 				nameNote="Large"
 				amount="1" />

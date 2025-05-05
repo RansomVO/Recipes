@@ -24,7 +24,9 @@
 	<Ingredients id="Ingredients">
 		<section id="IngredientsCrust" title="Crust">
 			<ingredient name="Flour" amount="1 Cup" />
-			<ingredient name="Butter" amount="&frac12; Cup" />
+			<ingredient name="Butter"
+				amount="&frac12; Cup"
+				amountNote="1 Stick" />
 			<ingredient name="Pecans"
 				nameNote="finely chopped"
 				amount="1 Cup" />
@@ -36,7 +38,7 @@
 			<ingredient name="Powdered Sugar" amount="1 Cup" />
 			<ingredient name="Whipped Topping"
 				nameNote="thawed"
-				amount="8 oz." />
+				amount="8 Oz." />
 		</section>
 		<section id="IngredientsTopLayer" title="Top Layer">
 			<ingredient name="Chocolate Instant Pudding Mix" amount="4 ounces" />
@@ -46,7 +48,7 @@
 		<section id="IngredientsTopLayer" title="Top Layer">
 			<ingredient name="Milk Chocolate Candy Bar"
 				nameNote="grated"
-				amount="1&frac12; oz." />
+				amount="1&frac12;-oz. Bar" />
 		</section>
 	</Ingredients>
 

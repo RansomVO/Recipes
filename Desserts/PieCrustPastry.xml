@@ -26,7 +26,8 @@
 			<ingredient name="Sugar" amount="&frac12; Tablespoon" />
 			<ingredient name="Baking Powder" amount="1 teaspoon" />
 			<ingredient name="Vanilla" amount="1 teaspoon" />
-			<ingredient name="Cold Butter"
+			<ingredient name="Butter"
+				nameNote="Cold"
 				amount="&frac14; Cup"
 				amountNote="&frac12; Stick" />
 			<ingredient name="Shortening" amount="&frac14; Cup" />

@@ -19,7 +19,9 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsDough" title="Dough">
-			<ingredient name="Butter" amount="&frac12; Cup" />
+			<ingredient name="Butter"
+				amount="&frac12; Cup"
+				amountNote="1 Stick" />
 			<ingredient name="Buttermilk" amount="2 Cups" />
 			<ingredient name="Yeast" amount="2 Tablespoons" />
 			<ingredient name="Baking Soda" amount="&frac12; teaspoon" />
@@ -31,16 +33,19 @@
 			<ingredient name="Sugar" amount="&frac34; Cup" />
 			<ingredient name="Butter"
 				nameNote="softened"
-				amount="&frac12; Cup" />
-			<ingredient name="Package Cream Cheese"
+				amount="&frac12; Cup"
+				amountNote="1 Stick" />
+			<ingredient name="Cream Cheese"
 				nameNote="softened"
-				amount="1 8oz." />
+				amount="1 8-oz. Package" />
 			<ingredient name="Zest from Rind of 1 Orange" />
 		</section>
 		<section id="IngredientsGlaze" title="Glaze">
 			<ingredient name="Juice from 1 Orange"
-				amountNote="&&approx;; &frac14; Cup" />
-			<ingredient name="Butter" amount="&frac14; Cup" />
+				amountNote="&approx;&frac14; Cup" />
+			<ingredient name="Butter"
+				amount="&frac14; Cup"
+				amountNote="&frac12; Stick" />
 			<ingredient name="Powdered Sugar" amount="1 Cup" />
 			<ingredient name="Vanilla" amount="&frac12; teaspoon" />
 		</section>

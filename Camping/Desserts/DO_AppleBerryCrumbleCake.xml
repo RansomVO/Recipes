@@ -25,8 +25,8 @@
 		<section>
 			<ingredient name="Butter"
 				nameNote="Softened"
-				amount="2 Sticks"
-				amountNote="1 Cup" />
+				amount="1 Cup"
+				amountNote="2 Sticks" />
 			<ingredient name="Sugar" amount="3 Cups" />
 			<ingredient name="Eggs" amount="4" />
 			<ingredient name="Almond Extract" amount="&frac12; teaspoon" />

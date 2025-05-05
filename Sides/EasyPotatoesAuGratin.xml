@@ -20,18 +20,18 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient name="Potatoes" amount="4-6" />
-			<ingredient name="Cream of Chicken Soup" amount="1 10.5oz. Can" />
+			<ingredient name="Cream of Chicken Soup" amount="1 10.5-oz. Can" />
 			<ingredient name="Sour Cream" amount="1 Cup" />
 			<ingredient name="Cheddar-Jack Cheese"
 				nameNote="Coarsely Grated"
-				amount="&frac12;-1 lb." />
+				amount="&frac12;-1 Lb." />
 			<ingredient name="Green Onions, Chopped" amount="&frac12; Cup" />
 			<ingredient name="Salt and Pepper" amountNote="To Taste" />
 		</section>
 		<section>
 			<ingredient name="Ritz Crackers" amount="&frac12; Tube" />
 			<ingredient name="Butter"
-				amount="4 Tablespoons"
+				amount="&frac14; Cup"
 				amountNote="&frac12; Stick" />
 		</section>
 	</Ingredients>

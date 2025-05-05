@@ -24,19 +24,21 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsDough" title="Dough">
-			<ingredient name="Butter" amount="&frac12; Cup" />
+			<ingredient name="Butter"
+				amount="&frac12; Cup"
+				amountNote="1 Stick" />
 			<ingredient name="White Sugar" amount="&frac12; Cup" />
 			<ingredient name="Brown Sugar" amount="&frac12; Cup" />
 			<ingredient name="Baking Soda" amount="&frac12; teaspoon" />
 			<ingredient name="Salt" amount="1 teaspoon" />
 			<ingredient name="Vanilla" amount="&frac12; teaspoon" />
 			<ingredient name="Egg" amount="1" />
-			<ingredient name="Butter" amount="&frac13; Peanut" />
+			<ingredient name="Peanut Butter" amount="&frac13; Cup" />
 			<ingredient name="Flour" amount="1 Cup" />
 			<ingredient name="Quick Oats" amount="1 Cup" />
 		</section>
 		<section id="IngredientsTopping" title="Topping">
-			<ingredient name="Package Chocolate Chips" amount="&frac12; 12oz." />
+			<ingredient name="Chocolate Chips" amount="&frac12; 12-oz. Package" />
 			<ingredient name="Powdered Sugar" amount="&frac12; Cup" />
 			<ingredient name="Peanut Butter" amount="&frac14; Cup" />
 			<ingredient name="Cream" amount="2-3 Tablespoons" />

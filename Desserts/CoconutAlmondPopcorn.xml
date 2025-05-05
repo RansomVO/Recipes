@@ -23,7 +23,7 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient name="Unpopped Popcorn" amount="&frac12; Cup" />
-			<ingredient name="Butter or Margarine"
+			<ingredient name="Butter"
 				amount="&frac12; Cup"
 				amountNote="1 stick" />
 			<ingredient name="Sugar" amount="1 Cups" />

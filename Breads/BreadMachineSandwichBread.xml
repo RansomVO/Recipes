@@ -17,7 +17,7 @@
 
 	<Description id="Description"> Fresh bread-machine bread tastes wonderful! But it makes lousy sandwiches because it crumbles and falls apart. I once found out that Vital Wheat Gluten can be used to "fix" this. I added a bunch and ended up with a loaf of bread that looked and smelled good, but was the consistency of rubber. &smiley; <br /> After a bit of trial and error, I finally came up with this recipe which holds together well without having a nasty consistency. </Description>
 	<Ingredients id="Ingredients">
-		<section id="Ingredients2lbLoaf" title="2 lb. Loaf">
+		<section id="Ingredients2lbLoaf" title="2 Lb. Loaf">
 			<ingredient name="Milk" amount="1&frac12; Cup" />
 			<ingredient name="Oil" amount="2 Tablespoons" />
 			<ingredient name="Bread Flour" amount="4 Cups" />
