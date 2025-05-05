@@ -9,12 +9,11 @@
 
 <Recipe title="Dutch Father&apos;s Pizza" yields="See Notes">
 	<Source>A VanOrman Original</Source>
-	<Requires class="TODO">12&inch; Dutch Oven?
-	</Requires>
+	<Requires class="TODO">12&inch;-20&inch; Dutch Oven</Requires>
 	<Section>&section;</Section>
 	<LastModified year="2025"
-		month="4"
-		day="3" />
+		month="5"
+		day="4" />
 
 	<Description id="Description">
 		When I was young, my dad used to cook some wonderful recipes in the Dutch Oven.
@@ -101,14 +100,7 @@
 		<note>A 2-inch-thick 12&inch; pizza will feed 4 adults <span class="NOTE">(or 2 Boy Scouts. <span class="EMPHASIZE">Not Kidding!</span>)</span>.</note>
 		<note>The thicker the pizza, the slower it must be cooked. I made one where each layer of toppings obscured the layer below. It was over 3 inches thick and took over an hour to cook. It sure was good though. &smiley;<br />CAUTION: The most common problem is over-cooking the <span class="EMPHASIZE">bottom</span>.</note>
 		<note>Use left-over sauce as a dipping sauce for the Pizza crusts.</note>
-		<note>Use the left-over dough to make "Twisties": <ol>
-				<li>Roll a piece of dough out like a long snake.</li>
-				<li>Wrap it around and around the end of stick about 1 inch in diameter.</li>
-				<li>Cook over a fire like you would a hot dog.</li>
-				<li>Carefully <span class="NOTE">(it's hot)</span> slide off the end of the stick.</li>
-				<li>Drizzle jam, honey or pie filling into the middle.</li>
-			</ol>
-		</note>
+		<note>Use the left-over dough to make <a href=".../Camping/Desserts/Twisties.xml">"Twisties"</a></note>
 	</Notes>
 
 	<FinalNote id="FinalNote">A similar recipe for use at home: <a href=".../Entrees/Oven/Pizza.xml">Entrees / Oven: Pizza</a></FinalNote>
