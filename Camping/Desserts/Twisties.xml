@@ -26,7 +26,7 @@
 	<Instructions id="Instructions">
 		<section>
 			<instruction>Make Crust dough from <a href=".../Camping/Entrees/DO_DutchFathersPizza.xml#IngredientsCrust">Dutch Father&apos;s Pizza</a>.</instruction>
-			<instruction>Roll dough into 2&foot; long &by; &frac12;&inch; diameter &quot;snakes&quot;.</instruction>
+			<instruction>Roll dough into 2&feet; long &by; &frac12;&inch; diameter &quot;snakes&quot;.</instruction>
 			<instruction>Wrap around a smooth, 1&inch; diameter stick.</instruction>
 			<instruction>Cook over a campfire, like you would a marshmallow, only slower, until golden brown.</instruction>
 			<instruction>Slide off stick, and drizzle something sweet down the middle: <ul>

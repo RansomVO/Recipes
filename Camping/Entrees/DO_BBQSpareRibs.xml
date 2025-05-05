@@ -10,8 +10,7 @@
 <Recipe title="Dutch Oven BBQ Spare Ribs" yields="6-8 Servings">
 	<Source>Adapted from the kitchen of Bobbi Beagley</Source>
 	<Note>Jennie's Mom</Note>
-	<Requires class="TODO">12&inch; Dutch Oven?
-	</Requires>
+	<Requires class="TODO">12&inch; Dutch Oven</Requires>
 	<Section>&section;</Section>
 	<LastModified year="2025"
 		month="4"
@@ -44,7 +43,6 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Use a 12" Dutch Oven.</instruction>
 			<instruction>Heat Dutch Oven with high heat from the bottom, then add the Spare Ribs and stir them occasionally.</instruction>
 			<instruction>Meanwhile, in a seaparate container, mix all the Sauce Ingredients.</instruction>
 			<instruction>When the Spare Ribs are brown, move the Dutch Oven to medium low heat, pour Sauce over the Spare Ribs, and gently stir until Spare Ribs are all coated in sauce.</instruction>
