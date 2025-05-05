@@ -110,6 +110,10 @@
 											</xsl:otherwise>
 										</xsl:choose>
 									</span>
+									<xsl:if test="@yieldsNote">
+										<br />
+										<span class="SMALL_NOTE">(<xsl:value-of select="@yieldsNote" />)</span>
+									</xsl:if>
 								</td>
 							</xsl:if>
 						</tr>
