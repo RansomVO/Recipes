@@ -20,9 +20,15 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Fruit" nameNote="Apples, Peaches, etc." amount="3-4 15oz. Cans" />
-			<ingredient name="Cake Mix" nameNote="Yellow or White" amount="1" />
-			<ingredient name="Butter" amount="&frac12;-Cup" amountNote="1 Stick" />
+			<ingredient name="Fruit"
+				nameNote="Apples, Peaches, etc."
+				amount="3-4 15-oz. Cans" />
+			<ingredient name="Cake Mix"
+				nameNote="Yellow or White"
+				amount="1" />
+			<ingredient name="Butter"
+				amount="&frac12; Cup"
+				amountNote="1 Stick" />
 		</section>
 	</Ingredients>
 

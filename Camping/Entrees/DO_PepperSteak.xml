@@ -36,7 +36,7 @@
 			<ingredient name="Onion" nameNote="Large" amount="1" />
 			<ingredient name="Green Bell Peppers" amount="2" />
 			<ingredient name="Red Bell Pepper" amount="1" />
-			<ingredient name="Mushrooms" amount="8 oz." amountNote="&frac12; lb." />
+			<ingredient name="Mushrooms" amount="8-oz." amountNote="&frac12; lb." />
 		</section>
 	</Ingredients>
 
@@ -53,7 +53,7 @@
 			<instruction>Remove Beef from Marinade sauce, place in Dutch Oven and brown lightly.</instruction>
 			<instruction>Add Marinade sauce and simmer until Beef is fully cooked.</instruction>
 			<instruction>Remove Beef and set aside, but leave Marinade Sauce.</instruction>
-			<instruction>Add Onion and Bell Peppers and Saut&accentedE; until barely tender.</instruction>
+			<instruction>Add Onion and Bell Peppers and saut&accentedLowerE; until barely tender.</instruction>
 			<instruction>Put Beef back into the Dutch Oven and bring to a simmer for 1 minute.</instruction>
 			<instruction>Mix Flour and Water again to ensure it is <span class="EMPHASIZE">completely</span> disolved.</instruction>
 			<instruction>While stirring contstantly, slowly add the Flour and water mixture.</instruction>
@@ -64,7 +64,7 @@
 	<Modifications id="Modifications">
 		<modification>
 			If you don't want it as spicy, reduce the Ground Black Pepper and/or Tabasco Sauce.
-			Or you can use a different hot sauce, such as Tapatio.
+			Or you can use a different hot sauce, such as Tapat&accentedLowerI;o.
 		</modification>
 	</Modifications>
 </Recipe>

@@ -21,7 +21,7 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsStew" title="Stew">
-			<ingredient name="Beef" nameNote="LEAN" amount="2 lbs." />
+			<ingredient name="Beef" nameNote="LEAN" amount="2 Lbs." />
 			<ingredient name="Flour" amount="&frac12; Cup" />
 			<ingredient name="Pepper" amount="&frac12; teaspoon" />
 			<ingredient name="Oil" amount="3 Tablespoons" />

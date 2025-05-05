@@ -26,12 +26,12 @@
 				nameNote="Warm"
 				amount="3 Gallons" />
 			<ingredient name="Sugar" amount="10 Lbs." />
-			<ingredient name="Root Beer Extract" amount="1 2oz. Bottle" />
+			<ingredient name="Root Beer Extract" amount="1 2-oz. Bottle" />
 		</section>
 		<section>
 			<ingredient name="Vanilla"
-				amount="2oz."
-				amountNote="Cheap" />
+				nameNote="Cheap"
+				amount="2 Oz." />
 			<ingredient name="Dry Ice" amount="8-10 Lbs." />
 			<ingredient name="Water"
 				nameNote="Cold"

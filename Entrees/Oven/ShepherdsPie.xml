@@ -19,8 +19,8 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Hamburger" amount="1 lb." />
-			<ingredient name="Golden Mushroom Soup" amount="1 10.5oz. Can" />
+			<ingredient name="Hamburger" amount="1 Lb." />
+			<ingredient name="Golden Mushroom Soup" amount="1 10.5-oz. Can" />
 			<ingredient name="Potatoes" amount="3-5" />
 			<ingredient name="Salt" amount="2 teaspoons" />
 			<ingredient name="Butter"
@@ -29,7 +29,7 @@
 			<ingredient name="Milk" amount="&frac14; Cup" />
 			<ingredient name="Frozen Peas"
 				amount="1 Bag"
-				amountNote="12oz. or 16oz." />
+				amountNote="12-oz. or 16-oz." />
 			<ingredient name="Cheddar Cheese" amount="&frac12; lb." />
 		</section>
 	</Ingredients>

@@ -15,7 +15,7 @@
 		month="5"
 		day="4" />
 
-	<Description id="Description"> When Ransom was a Scout Master for 11-year-olds, he wanted to make a special Dutch Oven meal for their first campout. He went through a bunch of cookbooks and came up with a recipe similar to this one, which he used as a main course. <br /> Later, after he was married, he was given a Wok, so he modified that recipe to this one for use as a side-dish. </Description>
+	<Description id="Description"> When Ransom was a Scout Master for 11-year-olds, he wanted to make a special Dutch Oven meal for their first campout. He went through a bunch of cookbooks and came up with a recipe similar to this one, which he used as a main course. <br /> Later, after he was married, he was given a Wok, so he modified that recipe to this one for use as a side dish. </Description>
 
 	<Ingredients id="Ingredients">
 		<section>
@@ -59,7 +59,7 @@
 
 	<Modifications id="Modifications">
 		<modification>Instead of Chicken, you can use other meats, such as Ham <span class="NOTE">(which doesn't need to be precooked)</span> or Beef. You could also use a mixture of several meats, or even leave the meat completely out.</modification>
-		<modification>If you add extra meat, this can be treated as a main course instead of just a side-dish. <span class="NOTE">(With only half as many servings.)</span></modification>
+		<modification>If you add extra meat, this can be treated as a main course instead of just a side dish. <span class="NOTE">(With only half as many servings.)</span></modification>
 		<modification>For a slightly milder flavor, you can substitute Onions for Scallions. If so, you should precook the Onions with the meat.</modification>
 		<modification>For a slightly different flavor, substitute the green leaves from Celery for the Chinese Cabbage.</modification>
 		<modification>If desired, you can add other vegetables, such as Corn or Baby Corn, Sliced Mushrooms, Water Chestnuts, Peas, etc.</modification>

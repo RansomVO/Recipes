@@ -23,7 +23,7 @@
 			<ingredient name="Sugar-free Flavored Gelatin"
 				nameNote="Such as Jello"
 				amount="2 Packages"
-				amountNote="0.6oz Each" />
+				amountNote="0.6-oz.Each" />
 		</section>
 	</Ingredients>
 
@@ -46,7 +46,7 @@
 
 	<Modifications id="Modifications">
 		<modification><span class="POINT_HIGHLIGHT">To make the treats less tart:</span><br />Replace one of the packages of Sugar-free flavored Gelatin with one envelope <span class="NOTE">(7g)</span> unflavored Gelatin <span class="NOTE">(Such as Knox)</span></modification>
-		<modification><span class="POINT_HIGHLIGHT">To make the treats extra tart:</span><br />Add 1 0.13oz. Envelope unsweetened Soft Drink Mix <span class="NOTE">(Such as Kool-Aid)</span></modification>
+		<modification><span class="POINT_HIGHLIGHT">To make the treats extra tart:</span><br />Add 1 0.13-oz. Envelope unsweetened Soft Drink Mix <span class="NOTE">(Such as Kool-Aid)</span></modification>
 		<modification><span class="POINT_HIGHLIGHT">To make the treats sweeter and more flavorful:</span><br />Add 1 1.7g. Package Sugar-free Soft Drink Mix <span class="NOTE">(Such as Crystal Light)</span></modification>
 	</Modifications>
 </Recipe>

@@ -15,7 +15,7 @@
 		month="5"
 		day="4" />
 
-	<Description id="Description"> Ransom's dad, Grandpa John, originally cooked a version of this recipe over a camp fire in a Dutch Oven. He would cook it with plenty of hamburger and homemade bottled tomatoes and serve it as a main course. <br /> This recipe is a little simpler and is intended as a side-dish. </Description>
+	<Description id="Description"> Ransom's dad, Grandpa John, originally cooked a version of this recipe over a camp fire in a Dutch Oven. He would cook it with plenty of hamburger and homemade bottled tomatoes and serve it as a main course. <br /> This recipe is a little simpler and is intended as a side dish. </Description>
 
 	<Ingredients id="Ingredients">
 		<section>
@@ -23,7 +23,7 @@
 				nameNote="Medium"
 				amount="2"
 				amountNote="or 1 Large" />
-			<ingredient name="Hamburger" amount="1 lb." />
+			<ingredient name="Hamburger" amount="1 Lb." />
 			<ingredient name="Rice" amount="3 Cups" />
 			<ingredient name="Diced Tomatoes" amount="2 14.5-oz. Cans" />
 			<ingredient name="Tomato Sauce" amount="2 15-oz. Cans" />
@@ -51,7 +51,7 @@
 	</Notes>
 
 	<Modifications id="Modifications">
-		<modification>Add an extra pound or two of Hamburger to turn this into a main course instead of a side dish. <span class="NOTE"><span class="HIGHLIGHT">NOTE</span>: Main course servings are about double side-dish servings, so it will serve only 5-6 people.</span></modification>
+		<modification>Add an extra pound or two of Hamburger to turn this into a main course instead of a side dish. <span class="NOTE"><span class="HIGHLIGHT">NOTE</span>: Main course servings are about double side dish servings, so it will serve only 5-6 people.</span></modification>
 		<modification>If you wish larger chunks of Tomato, you can use cans of Sliced or even Stewed Tomatoes.<br />If you do so, you may wish to use your Spatula to break up the bigger pieces.</modification>
 		<modification>For a little savorier taste, use 2 Poblano peppers instead of the Green Bell Pepper.<br />If you do this, add them when adding the Onions instead of later on.</modification>
 	</Modifications>

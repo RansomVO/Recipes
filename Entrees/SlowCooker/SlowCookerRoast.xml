@@ -21,7 +21,7 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient name="Onions" amount="1 Large" />
-			<ingredient name="Roast" amount="1 3-4 lb." />
+			<ingredient name="Roast" amount="1 3-4 Lb." />
 			<ingredient name="Onion Soup Mix"
 				nameNote="Such as Lipton's"
 				amount="1 Envelope" />

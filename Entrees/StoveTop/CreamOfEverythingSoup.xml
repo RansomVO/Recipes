@@ -38,7 +38,7 @@
 			<ingredient name="Pepper" amount="1 teaspoon" />
 		</section>
 		<section id="IngredientsToppings" title="Toppings">
-			<ingredient name="Bacon" amount="1 lb." />
+			<ingredient name="Bacon" amount="1 Lb." />
 			<ingredient name="Cheddar Cheese" amount="&frac12; lb." />
 			<ingredient name="Green Onions" amount="4" />
 		</section>

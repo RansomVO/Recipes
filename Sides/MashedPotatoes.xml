@@ -16,7 +16,7 @@
 		day="1" />
 
 	<Description id="Description">
-		Mashed potatoes is one of the easiest side-dishes to prepare.
+		Mashed potatoes is one of the easiest side dishes to prepare.
 		However, it is a little time consuming, so make sure to factor that in while preparing your meal.
 	</Description>
 
@@ -27,7 +27,9 @@
 				amount="4" />
 			<ingredient name="Water" amountNote="See Step 4 below" />
 			<ingredient name="Salt" amount="1 teaspoon" />
-			<ingredient name="Butter" amount="4 Tablespoons" />
+			<ingredient name="Butter"
+				amount="&frac14; Cup"
+				amountNote="&frac12; Stick" />
 			<ingredient name="Milk" amount="&frac14; Cup" />
 		</section>
 	</Ingredients>

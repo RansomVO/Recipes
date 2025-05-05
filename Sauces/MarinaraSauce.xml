@@ -19,8 +19,8 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Tomato Sauce" amount="4 8oz. Cans" />
-			<ingredient name="Tomato Paste" amount="1 6oz. Can" />
+			<ingredient name="Tomato Sauce" amount="4 8-oz. Cans" />
+			<ingredient name="Tomato Paste" amount="1 6-oz. Can" />
 			<ingredient name="Oregano" amount="1 teaspoon" />
 			<ingredient name="Basil" amount="1 teaspoon" />
 			<ingredient name="Garlic, Minced" amount="&frac12; teaspoon" />

@@ -20,9 +20,9 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Blue Cheese" amount="2 oz." />
-			<ingredient name="Cream Cheese" amount="2 8oz. Packages" />
-			<ingredient name="Kraft Old English Cheese" amount="1 bottle" />
+			<ingredient name="Blue Cheese" amount="2 Oz." />
+			<ingredient name="Cream Cheese" amount="2 8-oz. Packages" />
+			<ingredient name="Kraft Old English Cheese" amount="1 Bottle" />
 			<ingredient name="Chopped or Dried Chives" amount="1 Tablespoon" />
 			<ingredient name="Chopped or Dried Parsley" amount="&frac14; Cup" />
 			<ingredient name="Garlic Salt" amount="1 Dash" />
