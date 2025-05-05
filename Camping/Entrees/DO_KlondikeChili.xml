@@ -9,8 +9,7 @@
 
 <Recipe title="Dutch Oven Klondike Chili" yields="6-8 Servings">
 	<Source>A VanOrman Original</Source>
-	<Requires class="TODO">12&inch; Dutch Oven?
-	</Requires>
+	<Requires class="TODO">12&inch; Dutch Oven</Requires>
 	<Section>&section;</Section>
 	<LastModified year="2025"
 		month="4"
@@ -58,10 +57,9 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Use a 12" Dutch Oven. <span class="NOTE">(VanOrman's <span class="EMPHASIZE">deep</span> 14" Dutch Oven will easily hold a double batch.)</span></instruction>
-			<instruction>Peel Onion and slice into disks that are &frac12;" thick, then cut the disks into quarters.</instruction>
+			<instruction>Peel Onion and slice into disks that are &frac12;&inch; thick, then cut the disks into quarters.</instruction>
 			<instruction>Cut top off of each of the Peppers, slice them in half, then remove and discard the seeds.</instruction>
-			<instruction>Cut the Peppers into chunks that are &frac12;" &times; &frac12;".</instruction>
+			<instruction>Cut the Peppers into chunks that are &frac12;&inch; &by; &frac12;&inch;.</instruction>
 			<instruction>In the Dutch Oven, combine Onions and Hamburger and cook until Hamburger is browned.</instruction>
 			<instruction>Add all of the rest of ingredients.</instruction>
 			<instruction>Bring to a boil, reduce heat and simmer for 30 minutes.</instruction>
@@ -75,10 +73,10 @@
 			Then the leaves need to be chopped.
 		</note>
 		<note> The Onions and Peppers should be cut into chunks that are as large as possible, but still easy to get into a spoon. <ul>
-				<li>1" &times; 1" is too big.</li>
-				<li>&frac18;" &times; &frac18;" is too small.</li>
+				<li>1&inch; &by; 1&inch; is too big.</li>
+				<li>&frac18;&inch; &by; &frac18;&inch; is too small.</li>
 			</ul>
-			<span class="NOTE">(We generally use &frac12;" &times; &frac12;", but don't hesitate to make them bigger if you want.)</span>
+			<span class="NOTE">(We generally use &frac12;&inch; &by; &frac12;&inch;, but don't hesitate to make them bigger if you want.)</span>
 		</note>
 		<note> After chopping the Peppers, <span class="EMPHASIZE">be very careful to <span class="SUPER_EMPHASIZE">not</span> rub your eyes!</span> Even after washing your hands thoroughly, the spicy oils will still be there, and it will <span class="SUPER_EMPHASIZE">hurt!</span></note>
 		<note>To make cooking faster and easier, you can do some prep ahead a time: <span class="NOTE">(Do this for Scout outings.)</span><ul>
@@ -109,6 +107,7 @@
 				</tr>
 			</table>
 		</modification>
+		<modification>A <span class="EMPHASIZE">deep</span> 14&inch; Dutch Oven will easily hold a double batch.</modification>
 	</Modifications>
 
 	<FinalNote id="FinalNote">A similar recipe for use at home: <a href=".../Entrees/StoveTop/KlondikeChili.xml">Entrees / Stove Top: Klondike Chili</a></FinalNote>

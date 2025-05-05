@@ -9,8 +9,7 @@
 
 <Recipe title="Dutch Oven Apple-Berry Crumble" yields="6-8 Servings">
 	<Source>A VanOrman Original</Source>
-	<Requires class="TODO">12&inch; Dutch Oven?
-	</Requires>
+	<Requires class="TODO">14&inch; Dutch Oven</Requires>
 	<Section>&section;</Section>
 	<LastModified year="2025"
 		month="4"
@@ -40,7 +39,6 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Use a 14" Dutch Oven.</instruction>
 			<instruction>Empty cans of Apple Pie Filling into the Dutch Oven.</instruction>
 			<instruction>Add Blueberries and Orange Zest then gently mix.</instruction>
 			<instruction>Smooth Filling until it covers the bottom of the Dutch Oven evenly.</instruction>

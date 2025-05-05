@@ -47,10 +47,10 @@
 	<Instructions id="Instructions">
 		<section id="InstructionsSoup" title="Soup">
 			<instruction>Mix Flour and Corn Starch into cold Milk until it is completely dissolved, with no lumps, then set it aside.</instruction>
-			<instruction>Slice Onion into &frac12;" disks, then slice each disk into 4 wedges.</instruction>
-			<instruction>Peel Potatoes and cut into &frac12;" cubes.</instruction>
-			<instruction>Peel Carrots and slice into &frac14;" thick discs.</instruction>
-			<instruction>Slice Celery into &frac14;" thick pieces.</instruction>
+			<instruction>Slice Onion into &frac12;&inch; disks, then slice each disk into 4 wedges.</instruction>
+			<instruction>Peel Potatoes and cut into &frac12;&inch; cubes.</instruction>
+			<instruction>Peel Carrots and slice into &frac14;&inch; thick discs.</instruction>
+			<instruction>Slice Celery into &frac14;&inch; thick pieces.</instruction>
 			<instruction> Cut Broccoli into marble sized segments. <span class="NOTE">(Use only florets, not pieces of stems.)</span></instruction>
 			<instruction>In a large pot, melt Butter, then add the Garlic and Onion and saut&#xE9; until Onion is nearly cooked.</instruction>
 			<instruction>Add Broth, Carrots and Celery, then bring to a boil.</instruction>
@@ -59,9 +59,9 @@
 			<instruction>Bring to a boil, stirring occasionally. This should cause soup to thicken. Then remove from heat.<br />Toppings:</instruction>
 		</section>
 		<section id="InstructionsToppings" title="Toppings">
-			<instruction> Cook Bacon until very crispy, then cut <span class="NOTE">(or break)</span> into &frac14;"- &frac12;" squares. I do this by cutting the cooked Bacon once the long way, then cut the skinny strips into squares. </instruction>
+			<instruction> Cook Bacon until very crispy, then cut <span class="NOTE">(or break)</span> into &frac14;&inch;-&frac12;&inch; squares. I do this by cutting the cooked Bacon once the long way, then cut the skinny strips into squares. </instruction>
 			<instruction>Grate Cheese.</instruction>
-			<instruction>Cut Green Onions into &frac18;" thick discs.</instruction>
+			<instruction>Cut Green Onions into &frac18;&inch; thick discs.</instruction>
 		</section>
 	</Instructions>
 
