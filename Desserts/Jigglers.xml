@@ -8,22 +8,22 @@
 ]>
 
 <Recipe title="Jigglers" yields="">
-<Source>From the back of a box of Jello</Source>
+	<Source>From the back of a box of Jello</Source>
 
-<Section>&section;</Section>
-<LastModified year="2025"
-	month="5"
-	day="4" />
+	<Section>&section;</Section>
+	<LastModified year="2025"
+		month="5"
+		day="5" />
 
-<Description id="Description">There was a time when Jello Jigglers were included in commercials. Even though we haven't seen such a commercial in a long time, kids still love them!</Description>
+	<Description id="Description">There was a time when Jello Jigglers were included in commercials. Even though we haven't seen such a commercial in a long time, kids still love them!</Description>
 
-<Ingredients id="Ingredients">
-<section>
-<ingredient name="Water" amount="2&frac12; Cups" />
-<ingredient name="Flavored Gelatin"
-	nameNote="Such as Jello"
-	amount="2 Packages"
-	amountNote="0.6-oz. />
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Water" amount="2&frac12; Cups" />
+			<ingredient name="Flavored Gelatin"
+				nameNote="Such as Jello"
+				amount="2 Packages"
+				amountNote="0.6-oz." />
 		</section>
 	</Ingredients>
 
