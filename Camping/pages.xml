@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Pages>
 	<CollapseSection folder="Camping/Breakfast" />
 	<CollapseSection folder="Camping/Entrees" />
@@ -6,13 +8,18 @@
 	<CollapseSection folder="Camping/AndMore" />
 	<CollapseSection title="Additional Recipes">
 		<inline>
-			<description> There are also a number of Recipes throughout this <span class="no-print">site</span><span class="no-screen">book</span> that may be of interest.</description>
+			<description>
+				There are also a number of Recipes throughout this <span class="no-print">site</span>
+				<span class="no-screen">book</span>
+				that may be of interest.
+			</description>
+
 			<Pages>
-				<page href="Beverages/HotChocolate.xml" title="Beverages / Hot Chocolate" />
-				<page href="Beverages/RootBeer.xml" title="Beverages / Root Beer" />
-				<page href="Breakfast/FluffyPancakes.xml" title="Breakfast / Fluffy Pancakes" />
-				<page href="Breads/NavajoFryBread.xml" title="Breads / Navajo Fry Bread" />
-				<page href="Desserts/IceCream.xml" title="Desserts / Ice Cream" />
+				<page href="Beverages/HotChocolate.xml">Beverages / Hot Chocolate</page>
+				<page href="Beverages/RootBeer.xml">Beverages / Root Beer</page>
+				<page href="Breakfast/FluffyPancakes.xml">Breakfast / Fluffy Pancakes</page>
+				<page href="Breads/NavajoFryBread.xml">Breads / Navajo Fry Bread</page>
+				<page href="Desserts/IceCream.xml">Desserts / Ice Cream</page>
 			</Pages>
 		</inline>
 	</CollapseSection>

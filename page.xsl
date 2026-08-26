@@ -4,7 +4,7 @@
 
 	<xsl:include href="common.xsl" />
 
-	<xsl:template match="HTML">
+	<xsl:template match="Page">
 		<xsl:variable name="depth">
 			<xsl:choose>
 				<xsl:when test="document(concat(Section/section/@folder, '/section.xml'))/section/@folder = '.'">1</xsl:when>

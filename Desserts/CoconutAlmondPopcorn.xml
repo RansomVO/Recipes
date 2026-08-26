@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Coconut Almond Popcorn" yields="12 1-Cup Servings">
+<Recipe>
+	<Title>Coconut Almond Popcorn</Title>
+	<Yields>12 1-Cup Servings</Yields>
 	<Source>Not sure where we got this recipe.</Source>
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="6" day="6" />
 
 	<Description id="Description">
 		When settling down to watch a movie, popcorn is a great treat.
@@ -23,9 +24,7 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient name="Unpopped Popcorn" amount="&frac12; Cup" />
-			<ingredient name="Butter"
-				amount="&frac12; Cup"
-				amountNote="1 stick" />
+			<ingredient name="Butter" amount="&frac12; Cup" amountNote="1 Stick" />
 			<ingredient name="Sugar" amount="1 Cups" />
 			<ingredient name="White Corn Syrup" amount="&frac14; Cup" />
 			<ingredient name="Salt" amount="&frac12; teaspoon" />
@@ -39,15 +38,23 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Pop Popcorn and place in a large bowl. <span class="NOTE">(For best results, use a hot air-popper.)</span></instruction>
+			<instruction>
+				Pop Popcorn and place in a large bowl.
+				<span class="NOTE">(For best results, use a hot air-popper.)</span>
+			</instruction>
 			<instruction>In a heavy pan, on high heat, melt Butter or Margarine.</instruction>
 			<instruction>While it is melting, add White Corn Syrup.</instruction>
-			<instruction>After it has melted, add:<ul>
+			<instruction>
+				After it has melted, add:
+				<ul>
 					<li>Sugar</li>
 					<li>Salt</li>
-				</ul></instruction>
+				</ul>
+			</instruction>
 			<instruction>Stirring occasionally, bring to a boil and boil for 3-5 Minutes.</instruction>
-			<instruction>Remove from heat and stir in: <ul>
+			<instruction>
+				Remove from heat and stir in:
+				<ul>
 					<li>Baking Soda </li>
 					<li>Vanilla</li>
 					<li>Almond Extract</li>
@@ -60,7 +67,10 @@
 
 	<Notes id="Notes">
 		<note>Do <span class="SUPER_EMPHASIZE">not</span> use microwave popcorn.</note>
-		<note>In step 5, the longer you boil the mixture the harder the caramel will be in the end. The shorter you boil it, the more gooey it will be.</note>
+		<note>
+			In step 5, the longer you boil the mixture the harder the caramel will be in the end.
+			The shorter you boil it, the more gooey it will be.
+		</note>
 		<note>Be careful when stirring in the last step because the coating is VERY hot and can cause nasty burns!</note>
 	</Notes>
 

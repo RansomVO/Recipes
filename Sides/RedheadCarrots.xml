@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Ginger Carrots" yields="3-4 Servings">
+<Recipe>
+	<Title>Redhead Carrots</Title>
+	<Yields>3-4 Servings</Yields>
 	<Source>A VanOrman Original</Source>
 
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="6" day="6" />
 
 	<Description id="Description">
-		Nobody in Ransom's family likes sweet potatoes, or yams.
-		This slightly sweet recipe takes their place at Thanksgiving.
+		Almost nobody in Ransom's family likes sweet potatoes, or yams.
+		This slightly sweet recipe takes their place at Thanksgiving.<br />
+		Also, most of Ransom's family members have red hair, so we are considered "Gingers".
+		And, since Ginger is one of the primary ingredients, the name "Redhead Carrots" seemed appropriate.
 	</Description>
 
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient name="Carrots" amount="2-3" />
-			<ingredient name="Fresh Ginger"
-				nameNote="finely grated"
-				amount="1 Tablespoon" />
+			<ingredient name="Fresh Ginger" nameNote="finely grated" amount="1 Tablespoon" />
 			<ingredient name="Brown Sugar" amount="2 Tablespoons" />
 			<ingredient name="Minced Garlic" amount="&frac12; teaspoon" />
-			<ingredient name="Chicken Broth"
-				nameNote="Double-Strength"
-				amount="2 Cups" />
+			<ingredient name="Chicken Broth" nameNote="Double-Strength" amount="2 Cups" />
 			<ingredient name="Butter" amount="2 Tablespoons" />
 		</section>
 	</Ingredients>
@@ -40,7 +38,7 @@
 			<instruction>Peel Carrots and cut into 1&inch; chunks.</instruction>
 			<instruction>Pull all ingredients into a saucepan.</instruction>
 			<instruction>Place on stove and heat on high until it is boiling.</instruction>
-			<instruction>Reduce heat to medium/medium low and simmer until carrots are soft.</instruction>
+			<instruction>Reduce heat to medium/medium low and simmer until Carrots are soft.</instruction>
 			<instruction>Drain and serve hot.</instruction>
 		</section>
 	</Instructions>

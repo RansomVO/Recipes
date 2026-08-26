@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE Recipe [
+	<!ENTITY section SYSTEM "section.xml">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe>
+	<Title>Cran Mama Sauce</Title>
+	<Yields>12 Servings</Yields>
+	<Source>Karla Therriault <i>(G's "Mama")</i></Source>
+
+	<Description class="TODO">
+	</Description>
+
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="11" day="29" />
+
+	<Ingredients class="TODO">
+		<section>
+		</section>
+	</Ingredients>
+
+	<Instructions class="TODO">
+		<section>
+			<instruction>
+				QZX TODO
+			</instruction>
+		</section>
+	</Instructions>
+</Recipe>

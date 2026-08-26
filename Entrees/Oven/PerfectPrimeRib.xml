@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY parentSection SYSTEM "../section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Perfect Prime Rib" yields="about 2 servings per lb.">
-	<Source>From web site <a class="no-print" href="https://www.seriouseats.com/perfect-prime-rib-beef-recipe">http://www.seriouseats.com/</a><span class="no-screen">http://www.seriouseats.com/</span></Source>
+<Recipe>
+	<Title>Perfect Prime Rib</Title>
+	<Yields>about 2 servings per Lb.</Yields>
+	<Source> From web site <a class="no-print" href="https://www.seriouseats.com/perfect-prime-rib-beef-recipe">http://www.seriouseats.com/</a>
+		<span class="no-screen">http://www.seriouseats.com/</span>
+	</Source>
 
-	<Section>&section;</Section>
+	<!-- -->&section;<!-- -->
 	<ParentSection>&parentSection;</ParentSection>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+	<LastModified year="2025" month="5" day="5" />
 
 	<Description id="Description">
 		Cutler worked in the meat department of a Fred Meyer store when he was a teenager.
@@ -33,14 +35,47 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Preheat oven to 200&deg;.</instruction>
-			<instruction> Mix Salt and Pepper, then sprinkle mixture on entire surface of roast and pat into place. <br />
+			<instruction>
+				Preheat oven to 200&deg;.
+			</instruction>
+			<instruction>
+				Mix Salt and Pepper, then sprinkle mixture on entire surface of roast and pat into place.<br />
 				<span class="NOTE">(You should have some leftover. Don't try to make it all stick.)</span>
 			</instruction>
 			<instruction>Set Roast, ribs at the bottom, in a pan with a raised baking rack.</instruction>
-			<instruction>Bake until meat thermometer says internal temperature is 125&deg;. <span class="NOTE">(Approximately 3&frac12;-4 hours.)</span></instruction>
+			<instruction>
+				Bake until meat thermometer says internal temperature is correct for your desires:
+				<table>
+					<tr>
+						<td><b>Rare:</b></td>
+						<td>115&deg;-120&deg;</td>
+						<td class="NOTE">(About 30 to 40 minutes per pound. So a 5 lb. Roast will take roughly 2&frac12;-3&frac12; hours)</td>
+					</tr>
+					<tr>
+						<td><b>Medium-Rare:</b></td>
+						<td>120&deg;-125&deg;</td>
+						<td class="NOTE">(About 40 to 45 minutes per pound. So a 5 lb. Roast will take roughly 3-4 hours)</td>
+					</tr>
+					<tr>
+						<td><b>Medium:</b></td>
+						<td>130&deg;-135&deg;</td>
+						<td class="NOTE">(About 45 to 50 minutes per pound. So a 5 lb. Roast will take roughly 3&frac12;-4&frac12; hours)</td>
+					</tr>
+					<tr>
+						<td><b>Medium-Well:</b></td>
+						<td>140&deg;-145&deg;</td>
+						<td class="NOTE">(About 50 to 55 minutes per pound. So a 5 lb. Roast will roughly take 4-5 hours)</td>
+					</tr>
+					<tr>
+						<td><b>Well Done:</b></td>
+						<td>150&deg;-155&deg;</td>
+						<td class="NOTE">(About 55 to 60 minutes per pound. So a 5 lb. Roast will take roughly 4&frac12;-5 hours)</td>
+					</tr>
+				</table>
+			</instruction>
 			<instruction>Remove Roast from oven, place a tent made of foil over it and set aside.</instruction>
-			<instruction>Change oven temperature to 550&deg;.<br />
+			<instruction>
+				Change oven temperature to 550&deg;.<br />
 				<span class="NOTE">(If your oven doesn't go to 550&deg;, go to the highest that it can.)</span>
 			</instruction>
 			<instruction>Let Roast rest while oven comes up to temperature. <span class="NOTE">(Approximately 20-30 minutes.)</span></instruction>
@@ -50,9 +85,10 @@
 	</Instructions>
 
 	<Notes id="Notes">
-		<note>If necessary, you can let the Roast rest in step 6 for up to 45 minutes.</note>
+		<note>If necessary, you can let the Roast rest in step 7 for up to 45 minutes.</note>
 		<note>
-			"Prime" is actually a quality. So "Prime Rib" is a very high quality of Rib Roast.
+			"Prime" is actually a quality.
+			So "Prime Rib" is a very high quality of Rib Roast.
 			As such, if you are price conscious, ask for a "Rib Roast" at the store.
 			It really doesn't matter much if it is "Prime", "Choice", "Select" or something else.
 		</note>

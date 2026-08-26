@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY parentSection SYSTEM "../section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Shepherd's Pie" yields="4-6 servings">
+<Recipe>
+	<Title>Shepherd's Pie</Title>
+	<Yields>4-6 servings</Yields>
 	<Source>Classic</Source>
 
-	<Section>&section;</Section>
+	<!-- -->&section;<!-- -->
 	<ParentSection>&parentSection;</ParentSection>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+	<LastModified year="2025" month="6" day="6" />
 
 	<Ingredients id="Ingredients">
 		<section>
@@ -23,14 +23,10 @@
 			<ingredient name="Golden Mushroom Soup" amount="1 10.5-oz. Can" />
 			<ingredient name="Potatoes" amount="3-5" />
 			<ingredient name="Salt" amount="2 teaspoons" />
-			<ingredient name="Butter"
-				amount="4 Tablespoons"
-				amountNote="&frac12; Stick" />
+			<ingredient name="Butter" amount="&frac14; Cup" amountNote="&frac12; Stick" />
 			<ingredient name="Milk" amount="&frac14; Cup" />
-			<ingredient name="Frozen Peas"
-				amount="1 Bag"
-				amountNote="12-oz. or 16-oz." />
-			<ingredient name="Cheddar Cheese" amount="&frac12; lb." />
+			<ingredient name="Frozen Peas" amount="1 Bag" amountNote="12-oz. or 16-oz." />
+			<ingredient name="Cheddar Cheese" amount="&frac12; Lb." />
 		</section>
 	</Ingredients>
 
@@ -39,17 +35,22 @@
 			<instruction>Peel Potatoes, cut into chunks and place in a pot.</instruction>
 			<instruction>Add Salt, then add Water until Potatoes are covered.</instruction>
 			<instruction>Bring Potatoes to a boil, then reduce heat to medium.</instruction>
-			<instruction>While Potatoes are heating up:<ul>
-					<li>Place Peas in a 9&inch; &by; 9&inch; glass pan, and heat in microwave</li>
+			<instruction>
+				While Potatoes are heating up:
+				<ul>
+					<li>Slice Cheese into thin slices.</li>
 					<li>Brown Hamburger in yet another pan</li>
-					<li>Slice Cheese into thin slices</li>
-				</ul></instruction>
+					<li>Place Peas in a 9&inch; &by; 9&inch; glass pan, and heat in microwave.</li>
+				</ul>
+			</instruction>
 			<instruction>When Hamburger is done browning, add Soup, stir well, then remove from heat.</instruction>
 			<instruction>When Potatoes are soft, drain water, add Butter and Milk, and mash well.</instruction>
 			<instruction>Place Hamburger on top of Peas and spread evenly.</instruction>
 			<instruction>Place mashed Potatoes on top of Hamburger and spread evenly.</instruction>
 			<instruction>Place Cheese evenly across top of mashed Potatoes.</instruction>
-			<instruction> Turn oven to broil, then put in Shepherd's Pie just until Cheese melts. <span class="NOTE">(Should be less than a couple of minutes.)</span>
+			<instruction>
+				Turn oven to broil, then put in Shepherd's Pie just until Cheese melts.
+				<span class="NOTE">(Should be less than a couple of minutes.)</span>
 			</instruction>
 		</section>
 	</Instructions>

@@ -1,6 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Pages>
-	<page href="BathCanningHowTo.xml" title="Bath Canning: How-To" />
-	<page href="Salsa.xml" title="Salsa" />
-	<page href="WildBlackberryJam.xml" title="Wild Blackberry Jam" />
-	<page href="LS_WildBlackberryJam.xml" title="No-Sugar-Added Wild Blackberry Jam" />
+	<page href="BathCanningHowTo.xml">Bath Canning: How-To</page>
+	<page href="Salsa.xml">Salsa</page>
+	<page href="WildBlackberryJam.xml">Wild Blackberry Jam</page>
+	<page href="LS_WildBlackberryJam.xml">No-Sugar-Added Wild Blackberry Jam</page>
 </Pages>

@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY parentSection SYSTEM "../section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Cream of Everything Soup" yields="6-8 Servings">
+<Recipe>
+	<Title>Cream of Everything Soup</Title>
+	<Yields>6-8 Servings</Yields>
 	<Source>A VanOrman Original</Source>
 
-	<Section>&section;</Section>
+	<!-- -->&section;<!-- -->
 	<ParentSection>&parentSection;</ParentSection>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description"> In general, Di doesn't like to eat soup. It isn't that she doesn't like soup, it is just that she wants to eat something else. But, there is one exception: When it is cold, windy and rainy, she feels it is time to eat soup. <br /> One such day, Di and Ransom started debating what kind of soup to make. Di wanted a plain Cream of Broccoli soup. Ransom, on the other hand, was not in the mood for anything plain, so he made up this recipe. </Description>
+	<Description id="Description">
+		In general, Di doesn't like to eat soup.
+		It isn't that she doesn't like soup, it is just that she wants to eat something else.
+		But, there is one exception: When it is cold, windy and rainy, she feels it is time to eat soup.<br />
+		One such day, Di and Ransom started debating what kind of soup to make.
+		Di wanted a plain Cream of Broccoli soup.
+		Ransom, on the other hand, was not in the mood for anything plain, so he made up this recipe.
+	</Description>
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsSoup" title="Soup">
@@ -39,7 +46,7 @@
 		</section>
 		<section id="IngredientsToppings" title="Toppings">
 			<ingredient name="Bacon" amount="1 Lb." />
-			<ingredient name="Cheddar Cheese" amount="&frac12; lb." />
+			<ingredient name="Cheddar Cheese" amount="&frac12; Lb." />
 			<ingredient name="Green Onions" amount="4" />
 		</section>
 	</Ingredients>
@@ -51,15 +58,25 @@
 			<instruction>Peel Potatoes and cut into &frac12;&inch; cubes.</instruction>
 			<instruction>Peel Carrots and slice into &frac14;&inch; thick discs.</instruction>
 			<instruction>Slice Celery into &frac14;&inch; thick pieces.</instruction>
-			<instruction> Cut Broccoli into marble sized segments. <span class="NOTE">(Use only florets, not pieces of stems.)</span></instruction>
-			<instruction>In a large pot, melt Butter, then add the Garlic and Onion and saut&#xE9; until Onion is nearly cooked.</instruction>
+			<instruction>
+				Cut Broccoli into marble sized segments.
+				<span class="NOTE">(Use only florets, not pieces of stems.)</span>
+			</instruction>
+			<instruction>In a large pot, melt Butter, then add the Garlic and Onion and saut&eAcute; until Onion is nearly cooked.</instruction>
 			<instruction>Add Broth, Carrots and Celery, then bring to a boil.</instruction>
 			<instruction>Add Potatoes, and boil until Carrots, Celery and Potatoes are cooked, then reduce heat to medium.</instruction>
 			<instruction>Stir the Milk mixture again, then add Milk mixture, Cream and Broccoli.</instruction>
-			<instruction>Bring to a boil, stirring occasionally. This should cause soup to thicken. Then remove from heat.<br />Toppings:</instruction>
+			<instruction>
+				 Bring to a boil, stirring occasionally.
+				 This should cause soup to thicken.
+				 Then remove from heat.
+			</instruction>
 		</section>
 		<section id="InstructionsToppings" title="Toppings">
-			<instruction> Cook Bacon until very crispy, then cut <span class="NOTE">(or break)</span> into &frac14;&inch;-&frac12;&inch; squares. I do this by cutting the cooked Bacon once the long way, then cut the skinny strips into squares. </instruction>
+			<instruction>
+				Cook Bacon until very crispy, then cut (or break) into &frac14;&inch;-&frac12;&inch; squares.
+				I do this by cutting the cooked Bacon once the long way, then cut the skinny strips into squares.
+			</instruction>
 			<instruction>Grate Cheese.</instruction>
 			<instruction>Cut Green Onions into &frac18;&inch; thick discs.</instruction>
 		</section>

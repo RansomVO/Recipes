@@ -1,8 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Pages>
 	<CollapseSection title="Dutch Oven">
 		<inline>
+
 			<Pages>
-				<page href="Camping/AndMore/DO_BasqueSheepherdersBread.xml" title="Dutch Oven Basque Sheepherder&apos;s Bread" />
+				<page href="Camping/AndMore/DO_BasqueSheepherdersBread.xml">Dutch Oven Basque Sheepherder's Bread</page>
 			</Pages>
 		</inline>
 	</CollapseSection>

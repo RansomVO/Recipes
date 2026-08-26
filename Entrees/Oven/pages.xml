@@ -1,7 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Pages>
-	<page href="Pizza.xml" title="Pizza" />
-	<page href="ShepherdsPie.xml" title="Shepherd's Pie" />
-	<page href="EasyEnchiladas.xml" title="Easy Enchiladas" />
-	<page href="PerfectPrimeRib.xml" title="Perfect Prime Rib" />
-	<page href="BBQRibsToDiFor.xml" title="BBQ Ribs to Di For" />
+	<page href="Pizza.xml">Pizza</page>
+	<page href="ShepherdsPie.xml">Shepherd's Pie</page>
+	<page href="EasyEnchiladas.xml">Easy Enchiladas</page>
+	<page href="PerfectPrimeRib.xml">Perfect Prime Rib</page>
+	<page href="BBQRibsToDiFor.xml">BBQ Ribs to Di For</page>
 </Pages>

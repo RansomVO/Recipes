@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Dutch Oven BBQ Spare Ribs" yields="6-8 Servings">
+<Recipe>
+	<Title>Dutch Oven BBQ Spare Ribs</Title>
+	<Yields>6-8 Servings</Yields>
 	<Source>Adapted from the kitchen of Bobbi Beagley</Source>
 	<Note>Jennie's Mom</Note>
 	<Requires class="TODO">12&inch; Dutch Oven</Requires>
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="6" day="6" />
 
 	<Description id="Description">
 		When Jennie was growing up, her mom used to make a wonderful BBQ Spare Ribs recipe.
@@ -24,9 +25,7 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Boneless Country Style Spare Ribs"
-				nameNote="Pork or Beef"
-				amount="4 Lbs." />
+			<ingredient name="Boneless Country Style Spare Ribs" nameNote="Pork or Beef" amount="4 Lbs." />
 		</section>
 		<section title="Sauce">
 			<ingredient name="Tomato Paste" amount="3 6-oz. Cans" />
@@ -34,27 +33,45 @@
 			<ingredient name="Apple Cider Vinegar" amount="&frac14; Cup" />
 			<ingredient name="Prepared Mustard" amount="2 Tablespoons" />
 			<ingredient name="Brown Sugar" amount="&frac34; Cup" />
-			<ingredient name="Onion"
-				nameNote="Finely Diced"
-				amount="&frac12;" />
+			<ingredient name="Onion" nameNote="Finely Diced" amount="&frac12;" />
 			<ingredient name="Salt" amount="2 teaspoons" />
 		</section>
 	</Ingredients>
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Heat Dutch Oven with high heat from the bottom, then add the Spare Ribs and stir them occasionally.</instruction>
-			<instruction>Meanwhile, in a seaparate container, mix all the Sauce Ingredients.</instruction>
-			<instruction>When the Spare Ribs are brown, move the Dutch Oven to medium low heat, pour Sauce over the Spare Ribs, and gently stir until Spare Ribs are all coated in sauce.</instruction>
-			<instruction>Put the lid on the Dutch Oven and simmer, stirring occationally.</instruction>
-			<instruction>Simmer until the Spare Ribs are cooked. <span class="TODO">(ToDo: Need to verify this takes about 1 hour.)</span></instruction>
+			<instruction>
+				Heat Dutch Oven with high heat from the bottom, then add the Spare Ribs and stir them occasionally.
+			</instruction>
+			<instruction>
+				Meanwhile, in a seaparate container, mix all the Sauce Ingredients.
+			</instruction>
+			<instruction>
+				When the Spare Ribs are brown, move the Dutch Oven to medium low heat, pour Sauce over the Spare Ribs, and gently stir until Spare Ribs are all coated in sauce.
+			</instruction>
+			<instruction>
+				Put the lid on the Dutch Oven and simmer, stirring occationally.
+			</instruction>
+			<instruction>
+				Simmer until the Spare Ribs are cooked.
+				(ToDo:
+				Need to verify this takes &approx;1 hour.)
+			</instruction>
 		</section>
 	</Instructions>
 
 	<Notes id="Notes">
-		<note>CAUTION: If you over-cook the ribs they will begin to fall apart, and you end up with shredded BBQ pork or beef.</note>
-		<note>When serving the ribs, the extra sauce tastes wonderful over baked potatoes, with a dollop of sour cream.</note>
+		<note>
+			CAUTION:
+			If you over-cook the ribs they will begin to fall apart, and you end up with shredded BBQ pork or beef.
+		</note>
+		<note>
+			When serving the ribs, the extra sauce tastes wonderful over baked potatoes, with a dollop of sour cream.
+		</note>
 	</Notes>
 
-	<FinalNote id="FinalNote">A similar recipe for use at home: <a href=".../Entrees/SlowCooker/BBQSpareRibs.xml">Entrees / Slow Cooker: BBQ Spare Ribs</a></FinalNote>
+	<FinalNote id="FinalNote"> A similar recipe for use at home: <a href=".../Entrees/SlowCooker/BBQSpareRibs.xml">Entrees / Slow Cooker:
+			BBQ Spare Ribs
+		</a>
+	</FinalNote>
 </Recipe>

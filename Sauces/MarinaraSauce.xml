@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Marinara Sauce" yields="about 5 Cups">
+<Recipe>
+	<Title>Marinara Sauce</Title>
+	<Yields>about 5 Cups</Yields>
 	<Source>A VanOrman Original</Source>
 
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description"> These days, it is cheapest and easiest to buy an inexpensive can of spaghetti sauce. However, when you want something really good, you want to make it yourself. <br /> This recipe makes a very sweet marinara sauce. It is great with spaghetti, but it can also be used for Pizza, Lasagna, Chicken Parmesan, etc. </Description>
+	<Description id="Description">
+		These days, it is cheapest and easiest to buy an inexpensive can of spaghetti sauce.
+		However, when you want something really good, you want to make it yourself.<br />
+		This recipe makes a very sweet marinara sauce.
+		It is great with spaghetti, but it can also be used for Pizza, Lasagna, Chicken Parmesan, etc.
+	</Description>
 
 	<Ingredients id="Ingredients">
 		<section>
@@ -38,15 +43,32 @@
 	</Instructions>
 
 	<Notes id="Notes">
-		<note> When used as a Pizza Sauce, the Garlic and Onion must be <span class="HIGHLIGHT">finely</span> minced to avoid making the Sauce chunky. <br /> Or: <ul>
+		<note>
+			When used as a Pizza Sauce, the Garlic and Onion must be <span class="HIGHLIGHT">finely</span> minced to avoid making the Sauce chunky.<br />
+			Or:
+			<ul>
 				<li>Instead of Garlic, you can use the same amount of Garlic Powder.</li>
 				<li>Instead of Onion, you can use the same amount of Onion Powder.</li>
 			</ul>
 		</note>
-		<note> The sauce can be made ahead of time and kept in the fridge for several days. <br /> This means you can make a large batch, then use it for Pizza one day, Spaghetti the next, etc. </note>
+		<note>
+			The sauce can be made ahead of time and kept in the fridge for several days.<br />
+			This means you can make a large batch, then use it for Pizza one day, Spaghetti the next, etc.
+		</note>
 	</Notes>
 
 	<Modifications id="Modifications">
 		<modification>To make it a bit sweeter, add 2-3 Tablespoons Brown Sugar.</modification>
 	</Modifications>
+
+	<FinalNote id="FinalNote">
+		Ransom learned to make recipes from this.
+		He used to make it without measuring anything.
+		He would just prepare everything, mix it together, then taste it and modify it as needed.
+		Several times, people would ask him what the recipe was, but he had to respond that he didn't have one.
+		<br />
+		Eventually, he prepared large amounts of the ingredients and measured them into separate containers.
+		Then he made the sauce.
+		Then he measured the left-overs, did the math and came up with this recipe. &smiley;
+	</FinalNote>
 </Recipe>

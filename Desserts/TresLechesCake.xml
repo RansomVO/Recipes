@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Tres Leches Cake" yields="12-15 servings">
+<Recipe>
+	<Title>Tres Leches Cake</Title>
+	<Yields>12-15 servings</Yields>
 	<Source>From the kitchen of Rosey Tan Nelson</Source>
 	<Note>Di's Cuban friend</Note>
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="6" day="6" />
 
 	<Description id="Description">
 		Tres Leches Cake is a treat common throughout Latin America.
@@ -43,7 +44,7 @@
 
 	<Instructions id="Instructions">
 		<section id="InstructionsCake" title="Cake">
-			<instruction>Spray 9&inch; &by; 13&inch; pan liberally with no-stick spray <span class="NOTE">(such as Pam)</span> and set aside.</instruction>
+			<instruction>Spray 9&inch; &by; 13&inch; pan liberally with no-stick spray (such as Pam) and set aside.</instruction>
 			<instruction>In a large bowl, combine Flour, Baking Powder and Salt.</instruction>
 			<instruction>Separate Egg Yolks from Egg Whites.</instruction>
 			<instruction>Beat Egg Yolks with &frac34; Cup Sugar on high speed until Yolks are a pale yellow.</instruction>
@@ -59,7 +60,10 @@
 		</section>
 		<section id="InstructionsFilling" title="Filling">
 			<instruction>In a separate bowl, combine Filling ingredients and mix well.</instruction>
-			<instruction>Remove 1 Cup of mixture. <span class="NOTE">(It won't be used in this recipe.)</span></instruction>
+			<instruction>
+				Remove 1 Cup of mixture.
+				<span class="NOTE">(It won't be used in this recipe.)</span>
+			</instruction>
 			<instruction>Punch holes in the cake with a fork, then drizzle remaining mixture all over the cake.</instruction>
 			<instruction>Let sit for 30 minutes.</instruction>
 			<instruction>Combine Topping ingredients and mix well.</instruction>
@@ -68,6 +72,13 @@
 	</Instructions>
 
 	<Notes id="Notes">
-		<note>Be absolutely certain to remove 1 Cup of the Filling mixture before drizzling! Using all of it will ruin the cake. (On the other hand, you can use the leftover for whatever you want: Dipping sliced apples, pouring over sliced bananas, eating with a spoon, whatever.</note>
+		<note>
+			Be absolutely certain to remove 1 Cup of the Filling mixture before drizzling!
+			Using all of it will ruin the cake.
+			<span class="NOTE">
+				(On the other hand, you can use the leftover for whatever you want:
+				Dipping sliced apples, pouring over sliced bananas, eating with a spoon, whatever.)
+			</span>
+		</note>
 	</Notes>
 </Recipe>

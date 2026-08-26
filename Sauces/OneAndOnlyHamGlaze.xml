@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="One and Only Ham Glaze" titleNote="Or &quot;Ransom's A Ham Glaze&quot; where &quot;Ransom's&quot; means &quot;Ransom is&quot;" yields="For 1 Large Ham">
-	<Source> From the kitchen of Karla Therriault</Source>
-	<Note>G's Grandma</Note>
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+<Recipe>
+	<Title> One and Only Ham Glaze <Note>Or "Ransom's <span style="font-size:1.5em; text-decoration:underline;">A</span> Ham Glaze" where "Ransom's" means "Ransom is"</Note>
+	</Title>
+	<Yields>For 1 Large Ham</Yields>
+	<Source> From the kitchen of Karla Therriault <Note>G's Grandma</Note></Source>
+
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="5" day="5" />
 
 	<Description id="Description">
 		When you bake a ham, it turns out better if it has a glaze covering the outside.
@@ -22,16 +23,10 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Butter"
-				nameNote="Melted"
-				amount="&frac12; Cup"
-				amountNote="1 Stick" />
+			<ingredient name="Butter" nameNote="Melted" amount="&frac12; Cup" amountNote="1 Stick" />
 			<ingredient name="Brown Sugar" amount="2 Cups" />
-			<ingredient name="Garlic"
-				nameNote="Minced"
-				amount="3 Tablespoons" />
-			<ingredient name="Yellow Mustard"
-				amount="&frac14; Cup" />
+			<ingredient name="Garlic" nameNote="Minced" amount="3 Tablespoons" />
+			<ingredient name="Yellow Mustard" amount="&frac14; Cup" />
 			<ingredient name="Orange Juice Concentrate" amount="&frac12; Can" />
 		</section>
 	</Ingredients>
@@ -39,7 +34,7 @@
 	<Instructions id="Instructions">
 		<section id="GlazeSauce" title="Glaze Sauce">
 			<instruction>Place the Melted Butter and Brown Sugar in a bowl and mix well.</instruction>
-			<instruction>Add Garlic and Yello Mustard and mix well.</instruction>
+			<instruction>Add Garlic and Yellow Mustard and mix well.</instruction>
 			<instruction>Add Orange Juice Concentrate and mix well.</instruction>
 			<instruction>Immediately pour the mixture on the Ham and use a brush to spread it over the Ham, the closer to the top of the Hame, the thicker.</instruction>
 			<instruction>Follow baking instructions for the Ham.</instruction>
@@ -54,6 +49,9 @@
 	</Instructions>
 
 	<Modifications id="Modifications">
-		<modification> If your oven has a convection setting, at the end of cooking the ham, unwrap the foil, change to convection and turn up the heat to 425&deg;.<br /> This gives the glaze a flame-broiled appearance. </modification>
+		<modification>
+			If your oven has a convection setting, at the end of cooking the ham, unwrap the foil, change to convection and turn up the heat to 425&deg;.<br />
+			This gives the glaze a flame-broiled appearance.
+		</modification>
 	</Modifications>
 </Recipe>

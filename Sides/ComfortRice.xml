@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE Recipe [
+	<!ENTITY section SYSTEM "section.xml">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe>
+	<Title>Mexican Rice of Comfort</Title>
+	<Yields>8-10 servings</Yields>
+	<Source>A Mexican waitress friend named Consuelo</Source>
+
+	<!-- -->&section;<!-- -->
+	<LastModified year="2026" month="8" day="21" />
+
+	<Description id="Description">
+		At a Mexican restaurant that we love, we built up a relationship with one of the waitresses.
+		At one point she came over to our house and made us a Mexican meal from scratch.<br />
+		It was so AWESOME, that Ransom and Di had her come back over and make it again so he could write down what she did and create this recipe.
+		<br /><br />
+		<div class="RECIPE_INSTRUCTION_NOTE" style="margin-left:2em;">
+			<b>NOTE</b>:<br />
+			"Of Comfort" translated to Spanish is "de Consuelo".<br />
+			But when translating it back to English "De Consuelo" may mean "From Consuelo".<br />
+			And since this recipe <b><u>is</u></b> &nbsp;from Consuelo&hellip; &smiley;
+		</div>
+		<br />
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Olive Oil" amount="3 Tablespoons" />
+			<ingredient name="Water" nameNote="HOT" amount="4 Cups" />
+			<ingredient name="Chicken Bouillon" amount="1&frac12; Tablespoons" />
+			<ingredient name="Roma Tomato" amount="1" />
+			<ingredient name="Onion" amount="&frac12;" />
+			<ingredient name="Tomato Paste" amount="2 teaspoons" />
+			<ingredient name="Rice" amount="2 Cups" />
+			<ingredient name="Garlic" nameNote="Minced" amount="1 Tablespoon" />
+		</section>
+	</Ingredients>
+
+	<Preparation id="Preparation">
+		<section>
+			<prep>In a bowl, mix Water and Chicken Bouillon then set it aside.</prep>
+			<prep>Slice Roma Tomato into &frac14;-inch disks, then slice the disks into quarters.</prep>
+			<prep>Slice Onion into &frac14;-inch disks, then cut the disks into &frac18;ths.</prep>
+		</section>
+	</Preparation>
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Put Oil in a skillet and tip it around until bottom is covered.</instruction>
+			<instruction>Put Skillet on a burner at medium-high.</instruction>
+			<instruction>Add Onion and saut&eAcute; for 2 minutes.</instruction>
+			<instruction>Add Garlic <span class="RECIPE_INGREDIENT_NOTE">(minced)</span> and saut&eAcute; for another minute.</instruction>
+			<instruction>Add Rice and saut&eAcute; for another minute.</instruction>
+			<instruction>Add all other ingredients and stir well, then cover with skillet's lid. <b><i>DO NOT REMOVE LID OR STIR UNTIL DONE!!!</i></b></instruction>
+			<instruction>Turn burner to medium and simmer for 15-20 minutes. <b><i>DO NOT REMOVE LID OR STIR UNTIL DONE!!!</i></b></instruction>
+			<instruction>Remove skillet from burner then stir gently, scraping the bottom.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>While cooking, <b><i>DO NOT REMOVE LID OR STIR UNTIL DONE!!!</i></b></note>
+	</Notes>
+
+	<Modifications id="Modifications">
+		<modification>If doubling the recipe, it will generally take about 10 minutes longer to simmmer.</modification>
+	</Modifications>
+
+	<FinalNote id="FinalNote"><br /><b>Final Note</b>: While cooking, <b><i>DO NOT REMOVE LID OR STIR UNTIL DONE!!!</i></b></FinalNote>
+</Recipe>

@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY parentSection SYSTEM "../section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Stealth-Attack Chili" yields="10-12 servings">
+<Recipe>
+	<Title>Stealth-Attack Chili</Title>
+	<Yields>10-12 servings</Yields>
 	<Source>A VanOrman Original</Source>
-	<Section>&section;</Section>
-	<ParentSection>&parentSection;</ParentSection>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
 
-	<Description id="Description"> This is one of the first recipes invented by Ransom. He wanted a good recipe that could be made with ingredients primarily from food storage. We went through several attempts, but once we succeeded, we would make it over and over. Due to the spices, it takes 4-5 bites before you realized it is very spicy hot. <span class="NOTE">(Thus stealth-attack.)</span>
-		<br /> Unfortunately, when we moved to Washington, nobody could stand how hot it was. <span class="NOTE">(It's not <span class="HIGHLIGHT">that</span> hot to me.)</span> And when made for Boy Scout competitions, it didn't have a good "look" to it, so we invented <a href=".../StoveTop/KlondikeChili.xml">Entrees / Stove Top: Klondike Chili</a>. But, we still make this one from time to time. </Description>
+	<!-- -->&section;<!-- -->
+	<ParentSection>&parentSection;</ParentSection>
+	<LastModified year="2025" month="6" day="6" />
+
+	<Description id="Description">
+		This is one of the first recipes invented by Ransom.
+		He wanted a good recipe that could be made with ingredients primarily from food storage.
+		We went through several attempts, but once we succeeded, we would make it over and over.
+		Due to the spices, it takes 4-5 bites before you realized it is very spicy hot.
+		<span class="NOTE">(Thus stealth-attack.)</span><br />
+		Unfortunately, when we moved to Washington, nobody could stand how hot it was.
+		<span class="NOTE">(It's not <span class="HIGHLIGHT">that</span> hot to me.)</span>
+		And when made for Boy Scout competitions, it didn't have a good "look" to it, so we invented <a href=".../StoveTop/KlondikeChili.xml">Entrees / Stove Top: Klondike Chili</a>.
+		But, we still make this one from time to time.
+	</Description>
 
 	<Ingredients id="Ingredients">
 		<section>
@@ -47,18 +57,26 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Put water and beans in a Slow Cooker and cook them on Low overnight. <span class="NOTE">(4-8 hours)</span></instruction>
-			<instruction>Drain all of the excess water, leaving beans in the Slow Cooker.</instruction>
+			<instruction>Put Water and beans in a Slow Cooker and cook them on Low overnight. <span class="NOTE">(4-8 hours)</span></instruction>
+			<instruction>Drain all of the excess Water, leaving beans in the Slow Cooker.</instruction>
 			<instruction>Brown Hamburger, until there is no pink meat left, then add to the Slow Cooker.</instruction>
-			<instruction>Put all other ingredients into the Slow Cooker, except water, and mix well.</instruction>
+			<instruction>Put all other ingredients into the Slow Cooker, except Water, and mix well.</instruction>
 			<instruction>Add Water until Chili is at desired consistency.</instruction>
 			<instruction>Cook on High for 2-4 hours or Low for 4-8 hours.</instruction>
 		</section>
 	</Instructions>
 
 	<Notes id="Notes">
-		<note>Dried beans are hard. They need to be softened before they can be eaten. That is why you have to start the recipe the night before.</note>
-		<note>People have different tastes for spiciness. Use the minimum if you like Mild. The max if you like Hot, or somewhere in between for a Medium.</note>
+		<note>
+			Dried beans are hard.
+			They need to be softened before they can be eaten.
+			That is why you have to start the recipe the night before.
+		</note>
+		<note>
+			People have different tastes for spiciness.
+			Use the minimum if you like Mild.
+			The max if you like Hot, or somewhere in between for a Medium.
+		</note>
 	</Notes>
 
 	<Modifications id="Modifications">

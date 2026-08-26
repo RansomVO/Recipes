@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Gluten-Free Pizza Crust" yields="ToDo">
-	<Source> From the kitchen of <span class="TODO">ToDo</span></Source>
-	<Note>
-		<span class="TODO">ToDo</span>
-	</Note>
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="3"
-		day="3" />
+<Recipe>
+	<Title>Gluten-Free Pizza Crust</Title>
+	<Yields><span class="NOTE">ToDo</span></Yields>
+	<Source>From the kitchen of <span class="TODO">ToDo</span></Source>
+	<Note><span class="TODO">ToDo</span></Note>
+
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="3" day="3" />
 
 	<Description id="Description">
 		<span class="TODO">ToDo</span>
@@ -23,16 +22,10 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsToDo" title="ToDo">
-			<ingredient name="ToDo"
-				nameNote="ToDo"
-				amount="1 ToDo"
-				amountNote="ToDo" />
+			<ingredient name="ToDo" nameNote="ToDo" amount="1 ToDo" amountNote="ToDo" />
 		</section>
 		<section id="IngredientsToDo" title="ToDo">
-			<ingredient name="ToDo"
-				nameNote="ToDo"
-				amount="1 ToDo"
-				amountNote="ToDo" />
+			<ingredient name="ToDo" nameNote="ToDo" amount="1 ToDo" amountNote="ToDo" />
 		</section>
 	</Ingredients>
 
@@ -41,21 +34,15 @@
 			<instruction>Preheat oven to <span class="TODO">ToDo</span>&deg;</instruction>
 		</section>
 		<section id="InstructionsToDo" title="ToDo">
-			<instruction>
-				<span class="TODO">ToDo</span>
-			</instruction>
+			<instruction><span class="TODO">ToDo</span></instruction>
 		</section>
 	</Instructions>
 
 	<Notes id="Notes">
-		<note>
-			<span class="TODO">ToDo</span>
-		</note>
+		<note><span class="TODO">ToDo</span></note>
 	</Notes>
 
 	<Modifications id="Modifications">
-		<modification>
-			<span class="TODO">ToDo</span>
-		</modification>
+		<modification><span class="TODO">ToDo</span></modification>
 	</Modifications>
 </Recipe>

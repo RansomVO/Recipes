@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Pages>
-	<page class="TODO" href="Diabetes.xml" title="Diabetes" />
-	<page class="TODO" href="GlutenSensitivity.xml" title="Gluten Sensitivity / Celiac Disease" />
-	<page class="TODO" href="LactoseIntolerance.xml" title="Lactose Intolerance" />
+	<page class="TODO" href="Diabetes.xml">Diabetes</page>
+	<page class="TODO" href="GlutenSensitivity.xml">Gluten Sensitivity / Celiac Disease</page>
+	<page class="TODO" href="LactoseIntolerance.xml">Lactose Intolerance</page>
 </Pages>

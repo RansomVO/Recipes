@@ -1,35 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Wild Blackberry Jam" yields="4 pints">
+<Recipe>
+	<Title>Wild Blackberry Jam</Title>
+	<Yields>4 pints</Yields>
 	<Source>Basic</Source>
 
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="4"
-		day="2" />
-	<Description id="Description">In Washington, we have wild blackberries growing everywhere. One year, we decided to make jam, and it turned out wonderful! This recipe is pretty basic, but it is the one we use.</Description>
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="6" day="6" />
+
+	<Description id="Description">
+		In Washington, we have wild blackberries growing everywhere.
+		One year, we decided to make jam, and it turned out wonderful!
+		This recipe is pretty basic, but it is the one we use.
+	</Description>
+
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Wild Blackberries"
-				nameNote="Mashed"
-				amount="5 Cups"
-				amountNote="Requires about 7-8 Cups fresh berries" />
+			<ingredient name="Wild Blackberries" nameNote="Mashed" amount="5 Cups" amountNote="Requires &approx;7-8 Cups fresh berries" />
 			<ingredient name="Sugar" amount="4 Cups" />
 			<ingredient name="Lemon Juice" amount="&frac12; Cup" />
 			<ingredient name="Pectin" amount="1 1.75-oz. Package" />
 		</section>
 	</Ingredients>
+
 	<Instructions id="Instructions">
 		<section id="MakingMashedBerries" title="Making Mashed Berries">
 			<instruction>Remove any stems from berries</instruction>
-			<instruction>Let berries soak in a large bowl, and pick out grass, leaves, etc. that floats to the top.</instruction>
+			<instruction>
+				Let berries soak in a large bowl, and pick out grass, leaves, etc.
+				that floats to the top.
+			</instruction>
 			<instruction>Drain, then rinse berries in a strainer or colander.</instruction>
 			<instruction>Mash berries, using a potato masher or something similar.</instruction>
 		</section>
@@ -42,8 +49,11 @@
 			<instruction>Follow instructions in the <a href=".../Canning/BathCanningHowTo.xml">Bath Canning: How-To</a> section.</instruction>
 		</section>
 	</Instructions>
+
 	<Notes id="Description">
-		<note> Cooking time in Bath Canner: <table border="1" style="margin-left:2em;">
+		<note>
+			Cooking time in Bath Canner:
+			<table border="1" style="margin-left:2em;">
 				<tr>
 					<th>Altitude</th>
 					<th>Time</th>
@@ -63,11 +73,15 @@
 			</table>
 		</note>
 		<note>If you let the jam boil too long, it will not "set" and you end up with runny syrup instead of jam.</note>
-		<note>We do not recommend using liquid pectin. When we do, we have had problems getting it to set.</note>
+		<note>
+			We do not recommend using liquid pectin.
+			When we do, we have had problems getting it to set.
+		</note>
 		<note>Instead of mashing fruit, you can place fruit in a blender and blend it for a few seconds until it is just barely liquefied.</note>
 		<note>The Lemon Juice raises the acidity level of the jam so it will not spoil when stored.</note>
 		<note>If you have a big enough pot, there is no reason that you can't double the recipe.</note>
 	</Notes>
+
 	<Modifications id="Modifications">
 		<modification>If you are not going to can the Jam, the Lemon Juice can be omitted.</modification>
 	</Modifications>

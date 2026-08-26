@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Scrambled Eggs" yields="1 serving">
+<Recipe>
+	<Title>Scrambled Eggs</Title>
+	<Yields>1 serving</Yields>
 	<Source>Basic</Source>
 
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="3"
-		day="31" />
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="3" day="31" />
 
 	<Description id="Description">
 		Eggs for breakfast is a standard staple.
@@ -23,16 +23,17 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient name="Eggs" amount="1-2" />
-			<ingredient name="Milk"
-				amount="1 Tablespoon"
-				amountNote="per Egg" />
+			<ingredient name="Milk" amount="1 Tablespoon" amountNote="per Egg" />
 			<ingredient name="Salt and Pepper" amountNote="To Taste" />
 		</section>
 	</Ingredients>
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Break Eggs into a cup. <span class="NOTE">(Make sure any shell pieces are removed.)</span></instruction>
+			<instruction>
+				Break Eggs into a cup.
+				<span class="NOTE">(Make sure any shell pieces are removed.)</span>
+			</instruction>
 			<instruction>Using a fork, or small whisk, stir the Egg until it is thoroughly blended.</instruction>
 			<instruction>Add Milk and mix thoroughly.</instruction>
 			<instruction>Place a small skillet on the stove set to medium heat.</instruction>
@@ -47,6 +48,9 @@
 	</Notes>
 
 	<Modifications id="Modifications">
-		<modification>If you are not using a non-stick pan, consider using some non-stick spray. <span class="NOTE">(such as Pam)</span>.</modification>
+		<modification>
+			If you are not using a non-stick pan, consider using some non-stick spray.
+			<span class="NOTE">(such as Pam)</span>.
+		</modification>
 	</Modifications>
 </Recipe>

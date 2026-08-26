@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Rice Krispy Treats" yields="about 9 large pieces">
-	<Source>From the <a class="no-print" href="https://www.ricekrispies.us/recipes/the-original-treats-recipe">Rice Krispies web site</a><span class="no-screen">Rice Krispies web site</span></Source>
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+<Recipe>
+	<Title>Rice Krispy Treats</Title>
+	<Yields>about 9 large pieces</Yields>
+	<Source>From the <a class="no-print" href="https://www.ricekrispies.us/recipes/the-original-treats-recipe">Rice Krispies web site</a>
+	<span class="no-screen">Rice Krispies web site</span>
+	</Source>
+
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="6" day="6" />
 
 	<Description id="Description">
 		These are great for a change-up when you are tired of cookies and similar treats.
@@ -22,17 +25,18 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient name="Butter" amount="3 Tablespoons" />
-			<ingredient name="Miniature Marshmallows"
-				amount="1 10.5-oz. Package"
-				amountNote="About 4 cups" />
+			<ingredient name="Miniature Marshmallows" amount="1 10.5-oz. Package" amountNote="&approx;4 cups" />
 			<ingredient name="Rice Krispies" amount="6 Cups" />
 		</section>
 	</Ingredients>
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Prepare a 9&inch; &by; 9&inch; pan by greasing it.<br /><span class="NOTE">(The best way to do this is with cooking spray, such as Pam.)</span></instruction>
-			<instruction>In large saucepan melt butter over medium heat.</instruction>
+			<instruction>
+				Prepare a 9&inch; &by; 9&inch; pan by greasing it.
+				The best way to do this is with cooking spray, such as Pam.
+			</instruction>
+			<instruction>In large saucepan melt Butter over medium heat.</instruction>
 			<instruction>Add marshmallows and stir until completely melted, then remove from heat.</instruction>
 			<instruction>In a large bowl, combine Rice Krispies and melted Marshmallow mixture.</instruction>
 			<instruction>Using greased spatula, evenly press mixture into prepared 9&inch; &by; 9&inch; pan.</instruction>
@@ -42,12 +46,19 @@
 	</Instructions>
 
 	<Notes id="Notes">
-		<note>CAUTION!!! Melted marshmallow mixture is very hot and sticky. It will cause nasty burns if you are not careful!</note>
+		<note>
+			<span class="SUPER_EMPHASIZE">CAUTION!!!</span>
+			Melted marshmallow mixture is very hot and sticky.
+			It will cause nasty burns if you are not careful!
+		</note>
 	</Notes>
 
 	<Modifications id="Modifications">
 		<modification>Instead of Rice Krispies, use Cocoa Krispies or Fruity Pebbles</modification>
-		<modification>Add some M&amp;Ms and/or Reese's Pieces to the Rice Krispies <span class="NOTE">(or Cocoa Krispies)</span> just before adding the melted Marshmallow mixture.</modification>
+		<modification>
+			Add some M<span style="font-size:.75em;">&amp;</span>Ms and/or Reese's Pieces to the Rice Krispies <span class="NOTE">(or Cocoa Krispies)</span>
+			just before adding the melted Marshmallow mixture.
+		</modification>
 		<modification>Instead of Miniature Marshmallows, regular Marshmallows can be used, but extra care will need to be used when melting them.</modification>
 	</Modifications>
 </Recipe>

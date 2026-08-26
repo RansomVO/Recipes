@@ -1,46 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Dutch Oven Klondike Chili" yields="6-8 Servings">
+<Recipe>
+	<Title>Dutch Oven Klondike Chili</Title>
+	<Yields>6-8 Servings</Yields>
 	<Source>A VanOrman Original</Source>
 	<Requires class="TODO">12&inch; Dutch Oven</Requires>
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
 
-	<Description id="Description">This is Ransom's second Chili recipe. The first one was really good, but it was complex and actually had to be started the day before you wanted to eat it. <span class="NOTE">(Additionally, most people found it to be too spicy.)</span> <span class="NOTE">(See <a href="../Entrees/SlowCooker/StealthAttackChili.xml">Entrees / Slow Cooker: Stealth-Attack Chili</a>.)</span> <br /> This recipe is geared towards quick preparation, and has actually won the first-place award at multiple Boy Scout district Dutch-oven chili cook-offs! </Description>
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="6" day="6" />
+
+	<Description id="Description">
+		This is Ransom's second Chili recipe.
+		The first one was really good, but it was complex and actually had to be started the day before you wanted to eat it.
+		<span class="NOTE">(Additionally, most people found it to be too spicy.)</span>
+		<span class="NOTE">(See <a href="../Entrees/SlowCooker/StealthAttackChili.xml">Entrees / Slow Cooker: Stealth-Attack Chili</a>.)</span><br />
+		This recipe is geared towards quick preparation, and has actually won the first-place award at multiple Boy Scout district Dutch-oven chili cook-offs!
+	</Description>
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Onion"
-				amount="1"
-				amountNote="Medium" />
+			<ingredient name="Onion" amount="1" amountNote="Medium" />
 			<ingredient name="Hamburger" amount="1 Lb." />
-			<ingredient name="Pinto Beans"
-				nameNote="Drained"
-				amount="1 15-oz. Can" />
-			<ingredient name="Kidney Beans"
-				nameNote="Drained"
-				amount="1 15-oz. Can" />
-			<ingredient name="Red Beans"
-				nameNote="Drained"
-				amount="1 15-oz. Can" />
+			<ingredient name="Pinto Beans" nameNote="Drained" amount="1 15-oz. Can" />
+			<ingredient name="Kidney Beans" nameNote="Drained" amount="1 15-oz. Can" />
+			<ingredient name="Red Beans" nameNote="Drained" amount="1 15-oz. Can" />
 			<ingredient name="Sliced Tomatoes" amount="1 28-oz. Can" />
 			<ingredient name="Diced Tomatoes" amount="2 28-oz. Cans" />
-			<ingredient name="Poblano Peppers"
-				nameNote="Large"
-				amount="3" />
+			<ingredient name="Poblano Peppers" nameNote="Large" amount="3" />
 			<ingredient name="Anaheim Peppers" amount="3" />
-			<ingredient name="Bell Pepper"
-				amountNote="Red"
-				amount="1" />
+			<ingredient name="Bell Pepper" amountNote="Red" amount="1" />
 		</section>
 		<section>
 			<ingredient name="Fresh Chopped Cilantro" amount="&frac12; Cup" />
@@ -49,9 +44,7 @@
 			<ingredient name="Ground Black Pepper" amount="1 teaspoon" />
 			<ingredient name="Salt" amount="1 teaspoon" />
 			<ingredient name="Cumin" amount="1 teaspoon" />
-			<ingredient name="Garlic"
-				amountNote="Minced"
-				amount="1 teaspoon" />
+			<ingredient name="Garlic" nameNote="Minced" amount="1 teaspoon" />
 		</section>
 	</Ingredients>
 
@@ -72,31 +65,42 @@
 			The leaves need to be picked from the stems and the stems can be discarded.
 			Then the leaves need to be chopped.
 		</note>
-		<note> The Onions and Peppers should be cut into chunks that are as large as possible, but still easy to get into a spoon. <ul>
+		<note>
+			The Onions and Peppers should be cut into chunks that are as large as possible, but still easy to get into a spoon.
+			<ul>
 				<li>1&inch; &by; 1&inch; is too big.</li>
 				<li>&frac18;&inch; &by; &frac18;&inch; is too small.</li>
 			</ul>
 			<span class="NOTE">(We generally use &frac12;&inch; &by; &frac12;&inch;, but don't hesitate to make them bigger if you want.)</span>
 		</note>
-		<note> After chopping the Peppers, <span class="EMPHASIZE">be very careful to <span class="SUPER_EMPHASIZE">not</span> rub your eyes!</span> Even after washing your hands thoroughly, the spicy oils will still be there, and it will <span class="SUPER_EMPHASIZE">hurt!</span></note>
-		<note>To make cooking faster and easier, you can do some prep ahead a time: <span class="NOTE">(Do this for Scout outings.)</span><ul>
+		<note>
+			After chopping the Peppers, <span class="EMPHASIZE">be very careful to <span class="SUPER_EMPHASIZE">not</span> rub your eyes!</span>
+			Even after washing your hands thoroughly, the spicy oils will still be there, and it will <span class="SUPER_EMPHASIZE">hurt!</span>
+		</note>
+		<note>
+			To make cooking faster and easier, you can do some prep ahead a time: <span class="NOTE">(Do this for Scout outings.)</span>
+			<ul>
+				<li>Cut up Onions</li>
+				<li>Cook Hamburger and Onions, let cool, then put in a Ziplock bag.</li>
+				<li>Cut up Peppers, Prepare Cilantro, and put them all in a Ziplock bag.</li>
+				<li>Mix spices and put in a sealed container</li>
 			</ul>
-			<li>Cut up Onions</li>
-			<li>Cook Hamburger and Onions, let cool, then put in a Ziplock bag.</li>
-			<li>Cut up Peppers, Prepare Cilantro, and put them all in a Ziplock bag.</li>
-			<li>Mix spices and put in a sealed container</li>
 		</note>
 	</Notes>
 
 	<Modifications id="Modifications">
 		<modification>One or more of the cans of Sliced and/or Diced Tomatoes can be replaced with cans of Stewed Tomatoes of the same size, but cut them up with the spoon as you cook.</modification>
-		<modification> Serve with any combination of: <ul>
+		<modification>
+			Serve with any combination of:
+			<ul>
 				<li>A dollop of Sour Cream</li>
 				<li>Grated Cheddar or Pepper-Jack Cheese</li>
 				<li>Corn Chips</li>
 			</ul>
 		</modification>
-		<modification>For a spicier chili add: <table>
+		<modification>
+			For a spicier chili add:
+			<table>
 				<tr>
 					<td class="RECIPE_INGREDIENT">Chili Powder</td>
 					<td class="RECIPE_INGREDIENT_QUANTITY">&frac12;-2 Tablespoons</td>

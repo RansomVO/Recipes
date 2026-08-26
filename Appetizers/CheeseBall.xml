@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Cheese Ball" yields="1">
+<Recipe>
+	<Title>Cheese Ball</Title>
+	<Yields>1</Yields>
 	<Source>From the Kitchen of Bobbi Beagley</Source>
 	<Note>Jennie's Mom</Note>
 
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description"> Jennie's mom made this cheese ball every Christmas season and shared it with all of her friends. She wouldn't share the recipe with anybody because she wanted everybody to look forward to getting it. <br /> But, we talked her into sharing the recipe with us. &smiley;</Description>
+	<Description id="Description">
+		Jennie's mom made this cheese ball every Christmas season and shared it with all of her friends. She wouldn't share the recipe with anybody because she wanted everybody to look forward to getting it.<br />
+		But, we talked her into sharing the recipe with us. &smiley;
+	</Description>
 
 	<Ingredients id="Ingredients">
 		<section>
@@ -27,9 +30,7 @@
 			<ingredient name="Chopped or Dried Parsley" amount="&frac14; Cup" />
 			<ingredient name="Garlic Salt" amount="1 Dash" />
 			<ingredient name="Worcestershire Sauce" amount="1 Tablespoon" />
-			<ingredient name="Pecans"
-				nameNote="Chopped"
-				amount="1 Cup" />
+			<ingredient name="Pecans" nameNote="Chopped" amount="1 Cup" />
 		</section>
 	</Ingredients>
 

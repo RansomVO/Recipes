@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Dutch Oven Fajitas" yields="8-10 Servinngs">
-	<Source>The Tortillas come from kitchen of Sandra Clawson</Source>
-	<Note>Family friend, Wife of Fireman</Note>
+<Recipe>
+	<Title>Dutch Oven Fajitas</Title>
+	<Yields>8-10 Servinngs</Yields>
+	<Source>The Tortillas come from kitchen of Sandra Clawson <Note>Family friend, Wife of Fireman</Note>
+	</Source>
 	<Requires>12&inch; Dutch Oven</Requires>
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="6" day="6" />
 
 	<Description id="Description">
-		<span class="TODO">ToDo: Add Description</span>
+		<span class="TODO">
+			ToDo:
+			Add Description
+		</span>
 	</Description>
 
 	<Ingredients id="Ingredients">
@@ -40,7 +44,6 @@
 			<ingredient name="Tomato" nameNote="Large" amount="1" />
 		</section>
 		<section id="IngredientsToppings" title="Toppings Suggestions">
-			<ingredient name="" />
 			<ingredient name="Lettuce" />
 			<ingredient name="Cheese" />
 			<ingredient name="Olives" />
@@ -54,11 +57,16 @@
 		<section id=" InstructionsTortillas" title=" Tortillas">
 			<instruction>Using a fork, mix Flour, Salt, and Shortening.</instruction>
 			<instruction>Add Luke-Warm Water and blend well.</instruction>
-			<instruction>On a lightly-floured flat surface, knead about 50 times.</instruction>
+			<instruction>On a lightly-floured flat surface, knead &approx;50 times.</instruction>
 			<instruction>Break into 1&inch;-2&inch; balls and let sit for 15 minutes.</instruction>
 			<instruction>Place Dutch Oven lid, upside down on enough charcoals to make moderately hot.</instruction>
-			<instruction>By hand, flatten each ball into a Tortilla shape. <span class="NOTE">(The thinner the better.)</span></instruction>
-			<instruction>Cook on Dutch Oven lid until each side is slightly golden in spots. <span class="EMPHASIZE">Don&apos;t break air bubbles!</span>
+			<instruction>
+				By hand, flatten each ball into a Tortilla shape.
+				<span class="NOTE">(The thinner the better.)</span>
+			</instruction>
+			<instruction>
+				Cook on Dutch Oven lid until each side is slightly golden in spots.
+				<span class="EMPHASIZE">Don't break air bubbles!</span>
 			</instruction>
 		</section>
 		<section id="InstructionsFilling" title="Filling">
@@ -68,11 +76,11 @@
 			<instruction>Heat Dutch Oven on a moderate amount of charcoals.</instruction>
 			<instruction>With no lid, stirring occasionally, cook Beef strips until Lightly Brown.</instruction>
 			<instruction>Add Onion, Chili Powder, Black Pepper, Garlic Salt, Worcestershire Sauce and Corn Starch, then stir occastionally until Beef is fully cooked.</instruction>
-			<instruction>Add Green Peppers, Red Pepper and Tomato, and saut&accentedLowerE; until Peppers are fully cooked.</instruction>
+			<instruction>Add Green Peppers, Red Pepper and Tomato, and saut&eAcute; until Peppers are fully cooked.</instruction>
 		</section>
 	</Instructions>
 
 	<Modifications id=" Modifications">
-		<modification>If <!--you are feeling lazy-->desired, you can use store-bought Tortillas.</modification>
+		<modification>If <!-- you are feeling lazy -->desired, you can use store-bought Tortillas.</modification>
 	</Modifications>
 </Recipe>

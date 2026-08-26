@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Fry Sauce" yields="1 Cup">
+<Recipe>
+	<Title>Fry Sauce</Title>
+	<Yields>1 Cup</Yields>
 	<Source>Traditional Utah Recipe</Source>
 
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="3"
-		day="31" />
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="3" day="31" />
 
-	<Description id="Description"> One of the burger joints in Utah decided to create a special sauce into which you could dip French fries. It wasn't long until long until there were a lot of different versions. <br /> Here is the basic recipe. </Description>
+	<Description id="Description">
+		One of the burger joints in Utah decided to create a special sauce into which you could dip French fries.
+		It wasn't long until long until there were a lot of different versions.<br />
+		Here is the basic recipe.
+	</Description>
 
 	<Ingredients id="Ingredients">
 		<section>

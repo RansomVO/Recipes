@@ -107,7 +107,8 @@
 		img|
 		table|td|th|tr|
 		ul|ol|li|
-		b|i|u">
+		b|i|u|
+		sup|sub">
 		<xsl:param name="linkPrefix" />
 
 		<xsl:element name="{name()}">

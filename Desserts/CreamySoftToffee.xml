@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Creamy Soft Toffee" yields="150 1-inch squares">
+<Recipe>
+	<Title>Creamy Soft Toffee</Title>
+	<Yields>150 1-inch squares</Yields>
 	<Source>A VanOrman Original</Source>
-	<Section>&section;</Section>
-	<LastModified year=" 2025"
-		month="5"
-		day="5" />
+
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="6" day="6" />
 
 	<Description id="Description">
 		When Ransom was growing up, his family used to visit Canada every few years.
@@ -27,9 +28,7 @@
 			<ingredient name="Light Corn Syrup" amount="1 Cup" />
 			<ingredient name="Evaporated milk" amount="1 Cup" />
 			<ingredient name="Heavy Whipping Cream" amount="1 Pint" />
-			<ingredient name="Butter"
-				amount="1 Cup"
-				amountNote="2 Sticks" />
+			<ingredient name="Butter" amount="1 Cup" amountNote="2 Sticks" />
 			<ingredient name="Vanilla" amount="1&frac14; teaspoons" />
 		</section>
 	</Ingredients>
@@ -39,7 +38,10 @@
 			<instruction>Lightly spray a 10&inch; &by; 15&inch; cookie sheet with non-stick spray.</instruction>
 			<instruction>In a LARGE, non-stick pot, combine all ingredients except Vanilla.</instruction>
 			<instruction>Heat mixture on high, using a candy thermometer to monitor temperature.</instruction>
-			<instruction>Stirring very frequently, heat to 253&deg; F.<br /><span class="NOTE">(I know 253&deg; sounds weird, but 250&deg; leaves it runny, and 255&deg; makes it brittle.)</span></instruction>
+			<instruction>
+				Stirring very frequently, heat to 253&deg; F.<br />
+				<span class="NOTE">(I know 253&deg; sounds weird, but 250&deg; leaves it runny, and 255&deg; makes it brittle.)</span>
+			</instruction>
 			<instruction>When it reaches temperature, immediately remove the pot from the heat.</instruction>
 			<instruction>Stir in Vanilla.</instruction>
 			<instruction>Pour mixture onto the prepared cookie sheet and spread evenly.</instruction>
@@ -49,7 +51,14 @@
 
 	<Notes id="Notes">
 		<note>
-			<span class="SUPER_EMPHASIZE">Warning!</span> Mixture will more than double while heating, then will reduce as it nears the correct temperature, so make sure you use a <span class="SUPER_EMPHASIZE">Large</span> non-stick pot. </note>
-		<note>Cutting it up is a challenge. At first, I used a hot, large, sharp, chopping knife, and was able to get it if I was patient.<br />Then I found if you waited until was nearly cool you can use a Pizza Cutter to do the primary cutting.<br /><span class="NOTE"><span class="EMPHASIZE">NOTE</span>: If you leave the edges touching, they will merge back together. </span></note>
+			<span class="SUPER_EMPHASIZE">Warning!</span>
+			Mixture will more than double while heating, then will reduce as it nears the correct temperature, so make sure you use a <span class="SUPER_EMPHASIZE">Large</span> non-stick pot.
+		</note>
+		<note>
+			Cutting it up is a challenge.
+			At first, I used a hot, large, sharp, chopping knife, and was able to get it if I was patient.<br />
+			Then I found if you waited until was nearly cool you can use a Pizza Cutter to do the primary cutting.<br />
+			<span class="NOTE"><span class="EMPHASIZE">NOTE</span>: If you leave the edges touching, they will merge back together.</span>
+		</note>
 	</Notes>
 </Recipe>

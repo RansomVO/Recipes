@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Bread-Machine Sandwich Bread" yields="1 loaf">
+<Recipe>
+	<Title>Bread-Machine Sandwich Bread</Title>
+	<Yields>1 loaf</Yields>
 	<Source>A VanOrman Original</Source>
 
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description"> Fresh bread-machine bread tastes wonderful! But it makes lousy sandwiches because it crumbles and falls apart. I once found out that Vital Wheat Gluten can be used to "fix" this. I added a bunch and ended up with a loaf of bread that looked and smelled good, but was the consistency of rubber. &smiley; <br /> After a bit of trial and error, I finally came up with this recipe which holds together well without having a nasty consistency. </Description>
+	<Description id="Description">
+		Fresh bread-machine bread tastes wonderful! But it makes lousy sandwiches because it crumbles and falls apart.
+		I once found out that Vital Wheat Gluten can be used to "fix" this.
+		I added a bunch and ended up with a loaf of bread that looked and smelled good, but was the consistency of rubber. &smiley;<br />
+		After a bit of trial and error, I finally came up with this recipe which holds together well without having a nasty consistency.
+	</Description>
+
 	<Ingredients id="Ingredients">
 		<section id="Ingredients2lbLoaf" title="2 Lb. Loaf">
 			<ingredient name="Milk" amount="1&frac12; Cup" />
@@ -28,7 +34,7 @@
 		</section>
 		<section id="Ingredientsl2lbloaf" title="1&frac12; lb. loaf">
 			<ingredient name="Milk" amount="1&frac18; Cup" />
-			<ingredient name="Oil" amount="1&grac12; Tablespoons" />
+			<ingredient name="Oil" amount="1&frac12; Tablespoons" />
 			<ingredient name="Bread Flour" amount="3 Cups" />
 			<ingredient name="Vital Wheat Gluten" amount="1&frac12; Tablespoons" />
 			<ingredient name="Sugar" amount="2 Tablespoons" />
@@ -39,7 +45,9 @@
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction> Add ingredients to bread machine, in this order, without mixing: <ul list-style="lower-alpha">
+			<instruction>
+				Add ingredients to bread machine, in this order, without mixing:
+				<ul list-style="lower-alpha">
 					<li>Milk and Oil</li>
 					<li>All other dry ingredients, except Yeast </li>
 					<li>Yeast</li>
@@ -55,7 +63,9 @@
 	</Notes>
 
 	<Modifications id="Modifications">
-		<modification> If you are going to use a delay-time of longer than 8 hours: <ul>
+		<modification>
+			If you are going to use a delay-time of longer than 8 hours:
+			<ul>
 				<li>Use Water instead of Milk.</li>
 				<li>Add 2 Tablespoons Dry Milk to the Dry ingredients.</li>
 			</ul>

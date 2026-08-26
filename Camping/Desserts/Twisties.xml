@@ -1,41 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Twisties" yields="Depends upon how much Dough you make. &smiley;">
+<Recipe>
+	<Title>Twisties</Title>
+	<Yields>Depends upon how much Dough you make. &smiley;</Yields>
 	<Source>A VanOrman Original</Source>
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
 
-	<Description id="Description">When ever you make Dutch Father&apos;s Pizza, make sure you make extra Crust dough.<br />A <span class="SUPER_EMPHASIZE">lot</span> so you can make these for dessert afterwards!</Description>
+	<!-- -->&section;<!-- -->
+	<LastModified year="2025" month="6" day="6" />
+
+	<Description id="Description">
+		When ever you make Dutch Father's Pizza, make sure you make extra Crust dough.<br />
+		A <span class="SUPER_EMPHASIZE">lot</span> so you can make these for dessert afterwards!
+	</Description>
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Dutch Father&apos;s Pizza Dough" amount="a lot" />
+			<ingredient name="Dutch Father's Pizza Dough" amount="A Lot" />
 			<ingredient name="&quot;Fillings&quot;" />
 		</section>
 	</Ingredients>
 
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Make Crust dough from <a href=".../Camping/Entrees/DO_DutchFathersPizza.xml#IngredientsCrust">Dutch Father&apos;s Pizza</a>.</instruction>
-			<instruction>Roll dough into 2&feet; long &by; &frac12;&inch; diameter &quot;snakes&quot;.</instruction>
+			<instruction>Make Crust dough from <a href=".../Camping/Entrees/DO_DutchFathersPizza.xml#IngredientsCrust">Dutch Father's Pizza</a>.</instruction>
+			<instruction>Roll dough into 2&amp;foot; long &by; &frac12;&inch; diameter "snakes".</instruction>
 			<instruction>Wrap around a smooth, 1&inch; diameter stick.</instruction>
 			<instruction>Cook over a campfire, like you would a marshmallow, only slower, until golden brown.</instruction>
-			<instruction>Slide off stick, and drizzle something sweet down the middle: <ul>
+			<instruction>
+				Slide off stick, and drizzle something sweet down the middle:
+				<ul>
 					<li>Jam</li>
 					<li>Honey</li>
 					<li>Chocolate Syrup</li>
-					<li>
-						<a href=".../Sauces/HoneyButter.xml">Honey Butter</a>
-					</li>
+					<li><a href=".../Sauces/HoneyButter.xml">Honey Butter</a></li>
 					<li>etc.</li>
 				</ul>
 			</instruction>

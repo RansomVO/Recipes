@@ -1,19 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Pages>
 	<CollapseSection title="Dutch Oven">
 		<inline>
+
 			<Pages>
-				<page href="Camping/Desserts/DO_AppleBerryCrumble.xml" title="Dutch Oven Apple-Berry Crumble" />
-				<page href="Camping/Desserts/DO_AppleBerryCrumbleCake.xml" title="Dutch Oven Apple-Berry Crumble Cake" />
-				<page href="Camping/Desserts/DO_CherryChocolateVolcanoCake.xml" title="Dutch Oven Cherry-Chocolate Volcano Cake" />
-				<page href="Camping/Desserts/DO_FruitCrispy.xml" title="Dutch Oven Fruit Crispy" />
+				<page href="Camping/Desserts/DO_AppleBerryCrumble.xml">Dutch Oven Apple-Berry Crumble</page>
+				<page href="Camping/Desserts/DO_AppleBerryCrumbleCake.xml">Dutch Oven Apple-Berry Crumble Cake</page>
+				<page href="Camping/Desserts/DO_CherryChocolateVolcanoCake.xml">Dutch Oven Cherry-Chocolate Volcano Cake</page>
+				<page href="Camping/Desserts/DO_FruitCrispy.xml">Dutch Oven Fruit Crispy</page>
 			</Pages>
 		</inline>
 	</CollapseSection>
 	<CollapseSection title="Other">
 		<inline>
+
 			<Pages>
-				<page href="Camping/Desserts/BananaBoats.xml" title="Banana Boats" />
-				<page href="Camping/Desserts/Twisties.xml" title="Twisties" />
+				<page href="Camping/Desserts/BananaBoats.xml">Banana Boats</page>
+				<page href="Camping/Desserts/Twisties.xml">Twisties</page>
 			</Pages>
 		</inline>
 	</CollapseSection>

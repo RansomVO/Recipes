@@ -1,8 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Pages>
-	<page class="TODO qzxDisabled" href="Processes.xml" title="Terms and Processes" />
-	<page class="TODO qzxDisabled" href="Ingredients.xml" title="Ingredients" />
-	<page class="TODO qzxDisabled" href="Spices.xml" title="Spices" />
-	<page class="TODO qzxDisabled" href="Tools.xml" title="Tools" />
-	<page class="TODO qzxDisabled" href="MealPlanning.xml" title="Meal Planning" />
-	<page href="Substitutions.xml" title="Conversions and Substitutions" />
+	<page class="TODO qzxDisabled" href="Processes.xml">Terms and Processes</page>
+	<page class="TODO qzxDisabled" href="Ingredients.xml">Ingredients</page>
+	<page class="TODO qzxDisabled" href="Spices.xml">Spices</page>
+	<page class="TODO qzxDisabled" href="Tools.xml">Tools</page>
+	<page class="TODO qzxDisabled" href="MealPlanning.xml">Meal Planning</page>
+	<page href="Substitutions.xml">Conversions and Substitutions</page>
 </Pages>
