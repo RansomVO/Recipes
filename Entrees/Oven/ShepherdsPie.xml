@@ -13,7 +13,7 @@
 	<Yields>4-6 servings</Yields>
 	<Source>Classic</Source>
 
-	<!-- -->&section;<!-- -->
+	&section;
 	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="6" day="6" />
 

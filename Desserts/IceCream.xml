@@ -13,7 +13,7 @@
 	<Note>Classic Recipe</Note>
 	<Requires>4-Quart Ice Cream Maker</Requires>
 
-	<!-- -->&section;<!-- -->
+	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description id="Description">Fresh-made Ice Cream <span class="SMALL_NOTE">(if done correctly)</span> is <span class="EMPHASIZE">way</span> better than anything you will find in a store.</Description>

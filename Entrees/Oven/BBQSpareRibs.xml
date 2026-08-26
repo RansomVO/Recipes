@@ -14,7 +14,7 @@
 	<Source>From the kitchen of Bobbi Beagley</Source>
 	<Note>Jennie's Mom</Note>
 
-	<!-- -->&section;<!-- -->
+	&section;
 	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="5" day="5" />
 

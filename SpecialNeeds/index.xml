@@ -10,8 +10,8 @@
 ]>
 
 <Index>
-	<!-- -->&section;<!-- -->
-	<!-- -->&summary;<!-- -->
+	&section;
+	&summary;
 	<LastModified year="2025" month="4" day="15" />
-	<!-- -->&pages;<!-- -->
+	&pages;
 </Index>

@@ -14,7 +14,7 @@
 	<Source>From the kitchen of Janey Nelson</Source>
 	<Note>A family friend</Note>
 
-	<!-- -->&section;<!-- -->
+	&section;
 	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="6" day="6" />
 

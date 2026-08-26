@@ -14,7 +14,7 @@
 	<Source>From the Kitchen of Orrilla VanOrman <Note>Ransom's Mom</Note>
 	</Source>
 
-	<!-- -->&section;<!-- -->
+	&section;
 	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="6" day="6" />
 
