@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
@@ -11,6 +11,7 @@
 	<Title>Mexican Rice of Comfort</Title>
 	<Yields>8-10 servings</Yields>
 	<Source>A Mexican waitress friend named Consuelo</Source>
+	<Note>QZX This is just a test.</Note>
 
 	&section;
 	<LastModified year="2026" month="8" day="21" />
