@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
@@ -12,30 +12,35 @@
 	<Title>3<sup>rd</sup> Degree Buffalo Wings</Title>
 	<Yields>5 Servings</Yields>
 	<Source>A VanOrman Original</Source>
-	<Section>
-		<section folder="Appetizers">Appetizers</section>
-	</Section>
-
 	<LastModified year="2025" month="6" day="6" />
+
+	<!-- -->&section;<!-- -->
+
 	<Description id="Description">
-		When Ransom made his first attempt at this recipe, he left the room while the oil heated <span class="NOTE">(with the lid on)</span>. When he came back, the oil was smoking, so he lifted the lid to let it cool.<br />
-		Long story short, it burst into flames, splashed on his hand, arm and foot causing 1<sup>st</sup>, 2<sup>nd</sup> and near 3<sup>rd</sup> degree burns.<span class="NOTE"> (The doctors all said it was 3<sup>rd</sup> degree, but it healed without surgery, so they changed their mind. ) </span> And it melted the microwave oven above the stove, totally destroying it.<br />
-		With Joshua's help, they got the lid back on the pan, then used baking soda to put out the rest of the fire shortly before the firemen showed up.<br />
+		When Ransom made his first attempt at this recipe, he left the room while the oil heated <span class="NOTE">(with the lid on)</span>.
+		When he came back, the oil was smoking, so he lifted the lid to let it cool.
+		<br />
+		Long story short, it burst into flames, splashed on his hand, arm and foot causing 1<sup>st</sup>, 2<sup>nd</sup> and near 3<sup>rd</sup> degree burns.
+		<span class="NOTE">(The doctors all said it was 3<sup>rd</sup> degree, but it healed without surgery, so they changed their mind.)</span>
+		And it melted the microwave oven above the stove, totally destroying it.
+		<br />
+		With Joshua's help, they got the lid back on the pan, then used baking soda to put out the rest of the fire shortly before the firemen showed up.
+		<br />
 		Only a few days later, with his foot and arm bandaged up, Ransom managed to finish cooking these and they turned out great!
 	</Description>
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsWings" title="Wings">
 			<ingredient name="Flour" amount="1 Cup" />
-			<ingredient name="Paprika" amount="½ teaspoon" />
-			<ingredient name="Cayenne Pepper" amount="½ teaspoon" />
-			<ingredient name="Salt" amount="½ teaspoon" />
-			<ingredient name="Chicken Wings" amount="20 Pieces" amountNote="≈3 Lbs." />
+			<ingredient name="Paprika" amount="&frac12; teaspoon" />
+			<ingredient name="Cayenne Pepper" amount="&frac12; teaspoon" />
+			<ingredient name="Salt" amount="&frac12; teaspoon" />
+			<ingredient name="Chicken Wings" amount="20 Pieces" amountNote="&approx;3 Lbs." />
 			<ingredient name="Oil" amountNote="for Deep Frying" />
 		</section>
 		<section id="IngredientsSauce" title="Sauce">
-			<ingredient name="Butter" amount="¼ Cup" amountNote="½ Stick" />
-			<ingredient name="Hot Sauce" nameNote="Such as Tapatío" amount="½ Cup" />
+			<ingredient name="Butter" amount="&frac14; Cup" amountNote="&frac12; Stick" />
+			<ingredient name="Hot Sauce" nameNote="Such as Tapat&iAcute;o" amount="&frac12; Cup" />
 			<ingredient name="Ground Black Pepper" amount="2 Dashes" />
 			<ingredient name="Garlic Powder" amount="2 Dashes" />
 		</section>
@@ -46,10 +51,11 @@
 			<instruction>In a large bowl mix together the Flour, Paprika, Cayenne Pepper and Salt.</instruction>
 			<instruction>Place Chicken Wings in mixture and stir until they are well coated.</instruction>
 			<instruction>
-				Cover bowl and refrigerate for 60 to 90 minutes.<br />
+				Cover bowl and refrigerate for 60 to 90 minutes.
+				<br />
 				<span class="Note">(While waiting, make sauce)</span>
 			</instruction>
-			<instruction>Heat Oil in a deep fryer to 375°</instruction>
+			<instruction>Heat Oil in a deep fryer to 375&deg;</instruction>
 			<instruction>Fry Chicken Wings in hot Oil for 10 to 15 minutes, until they begin to turn brown.</instruction>
 			<instruction>Place cooked Chicken Wings into a large bowl or pan.</instruction>
 			<instruction>Coat Chicken Wings with sauce and stir until covered.</instruction>
@@ -65,7 +71,7 @@
 		<modification>
 			The original recipe had you use a frying pan instead of a deep fryer.
 			If you read the description, you can understand why this was changed.
-			😀 However, you can use a frying pan on medium high if you are more careful and don't leave the kitchen while waiting for it to heat up.
+			&smiley; However, you can use a frying pan on medium high if you are more careful and don't leave the kitchen while waiting for it to heat up.
 		</modification>
 	</Modifications>
 </Recipe>

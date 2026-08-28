@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
@@ -12,20 +13,24 @@
 	<Yields>8-10 servings</Yields>
 	<Source>A Mexican waitress friend named Consuelo</Source>
 	<Note>QZX This is just a test.</Note>
-
-	&section;
 	<LastModified year="2026" month="8" day="21" />
+
+	<!-- -->&section;<!-- -->
 
 	<Description id="Description">
 		At a Mexican restaurant that we love, we built up a relationship with one of the waitresses.
-		At one point she came over to our house and made us a Mexican meal from scratch.<br />
+		At one point she came over to our house and made us a Mexican meal from scratch.
+		<br />
 		It was so AWESOME, that Ransom and Di had her come back over and make it again so he could write down what she did and create this recipe.
 		<br /><br />
 		<div class="RECIPE_INSTRUCTION_NOTE" style="margin-left:2em;">
-			<b>NOTE</b>:<br />
-			"Of Comfort" translated to Spanish is "de Consuelo".<br />
-			But when translating it back to English "De Consuelo" may mean "From Consuelo".<br />
-			And since this recipe <b><u>is</u></b> &nbsp;from Consuelo&hellip; &smiley;
+			<b>NOTE</b>:
+			<br />
+			"Of Comfort" translated to Spanish is "de Consuelo".
+			<br />
+			But when translating it back to English "De Consuelo" may mean "From Consuelo".
+			<br />
+			And since this recipe <b><u>is</u></b> &nbsp;from Consuelo&hellip; &smiley; 
 		</div>
 		<br />
 	</Description>
@@ -57,8 +62,14 @@
 			<instruction>Add Onion and saut&eAcute; for 2 minutes.</instruction>
 			<instruction>Add Garlic <span class="RECIPE_INGREDIENT_NOTE">(minced)</span> and saut&eAcute; for another minute.</instruction>
 			<instruction>Add Rice and saut&eAcute; for another minute.</instruction>
-			<instruction>Add all other ingredients and stir well, then cover with skillet's lid. <b><i>DO NOT REMOVE LID OR STIR UNTIL DONE!!!</i></b></instruction>
-			<instruction>Turn burner to medium and simmer for 15-20 minutes. <b><i>DO NOT REMOVE LID OR STIR UNTIL DONE!!!</i></b></instruction>
+			<instruction>
+				Add all other ingredients and stir well, then cover with skillet's lid.
+				<b><i>DO NOT REMOVE LID OR STIR UNTIL DONE!!!</i></b>
+			</instruction>
+			<instruction>
+				Turn burner to medium and simmer for 15-20 minutes.
+				<b><i>DO NOT REMOVE LID OR STIR UNTIL DONE!!!</i></b>
+			</instruction>
 			<instruction>Remove skillet from burner then stir gently, scraping the bottom.</instruction>
 		</section>
 	</Instructions>
@@ -71,5 +82,9 @@
 		<modification>If doubling the recipe, it will generally take about 10 minutes longer to simmmer.</modification>
 	</Modifications>
 
-	<FinalNote id="FinalNote"><br /><b>Final Note</b>: While cooking, <b><i>DO NOT REMOVE LID OR STIR UNTIL DONE!!!</i></b></FinalNote>
+	<FinalNote id="FinalNote">
+		<br />
+		<b>Final Note</b>:
+		While cooking, <b><i>DO NOT REMOVE LID OR STIR UNTIL DONE!!!</i></b>
+	</FinalNote>
 </Recipe>
