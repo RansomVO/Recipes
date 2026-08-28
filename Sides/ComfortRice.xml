@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
@@ -30,7 +30,7 @@
 			<br />
 			But when translating it back to English "De Consuelo" may mean "From Consuelo".
 			<br />
-			And since this recipe <b><u>is</u></b> &nbsp;from Consuelo&hellip; &smiley; 
+			And since this recipe <b><u>is</u></b> &nbsp;from Consuelo&hellip; &smiley;
 		</div>
 		<br />
 	</Description>
@@ -79,7 +79,7 @@
 	</Notes>
 
 	<Modifications id="Modifications">
-		<modification>If doubling the recipe, it will generally take about 10 minutes longer to simmmer.</modification>
+		<modification>If doubling the recipe, it will generally take about 10 minutes longer to simmer.</modification>
 	</Modifications>
 
 	<FinalNote id="FinalNote">
