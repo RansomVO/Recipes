@@ -31,8 +31,8 @@
 			<ingredient name="Corn Syrup" amount="3 Cups" />
 			<ingredient name="Brown Sugar" amount="1 Cup" />
 			<ingredient name="Minced Garlic" amount="1 Tablespoon" />
-			<ingredient name="Onion" nameNoted="Very Finely Chopped" amount="1 Tablespoon" />
-			<ingredient name="Fresh Ginger" nameNOte="Finely Grated" amount="2 Tablespoons" />
+			<ingredient name="Onion" nameNote="Very Finely Chopped" amount="1 Tablespoon" />
+			<ingredient name="Fresh Ginger" nameNote="Finely Grated" amount="2 Tablespoons" />
 			<ingredient name="Chinese Mustard" amount="1 Tablespoon" />
 			<ingredient name="1 Orange" amount="Zest From" />
 			<ingredient name="Hot Chili Sauce" nameNote="Optional" amount="1 Tablespoon" />
