@@ -23,11 +23,17 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Large Whole Mushrooms" nameNote="Caps &approx;1&frac12;&quot;-3&quot; in diameter" amount="12" amountNote="&approx;1 Lb." />
-			<ingredient name="Sausage" amount="&frac12; 1b." />
-			<ingredient name="Onion" amount="&frac12; Small" />
-			<ingredient name="Parmesan Cheese" amount="2 Tablespoons" />
-			<ingredient name="Mozzarella Cheese" amount="1 Cup" amountNote="&approx;&frac14; lb." />
+			<ingredient>
+				<name>Large Whole Mushrooms<note>Caps &approx;1&frac12;&quot;-3&quot; in diameter</note></name>
+				<amount>12<note>&approx;1 Lb.</note></amount>
+			</ingredient>
+			<ingredient><name>Sausage</name><amount>&frac12; 1b.</amount></ingredient>
+			<ingredient><name>Onion</name><amount>&frac12; Small</amount></ingredient>
+			<ingredient><name>Parmesan Cheese</name><amount>2 Tablespoons</amount></ingredient>
+			<ingredient>
+				<name>Mozzarella Cheese</name>
+				<amount>1 Cup<note>&approx;&frac14; lb.</note></amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 

@@ -23,22 +23,34 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsCookies" title="Cookies">
-			<ingredient name="Sugar" amount="2 Cups" />
-			<ingredient name="Butter" nameNote="Softened" amount="1 Cup" amountNote="2 Sticks" />
-			<ingredient name="Eggs" amount="3" />
-			<ingredient name="Sour Cream" amount="1 Cup" />
-			<ingredient name="Vanilla" amount="1 teaspoon" />
-			<ingredient name="Baking Soda" amount="1 teaspoon" />
-			<ingredient name="Flour" amount="6&frac12; Cups" />
-			<ingredient name="Salt" amount="1 teaspoon" />
+			<ingredient><name>Sugar</name><amount>2 Cups</amount></ingredient>
+			<ingredient>
+				<name>Butter<note>Softened</note></name>
+				<amount>1 Cup<note>2 Sticks</note></amount>
+			</ingredient>
+			<ingredient><name>Eggs</name><amount>3</amount></ingredient>
+			<ingredient><name>Sour Cream</name><amount>1 Cup</amount></ingredient>
+			<ingredient><name>Vanilla</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Baking Soda</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Flour</name><amount>6&frac12; Cups</amount></ingredient>
+			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
 		</section>
 		<section id="IngredientsFrosting" title="Frosting">
-			<ingredient name="Butter" nameNote="Softened" amount="&frac12; Cup" amountNote="1 Stick" />
-			<ingredient name="Cream Cheese" amount="1 8-oz. Package" />
-			<ingredient name="Vanilla" amount="1 teaspoon" />
-			<ingredient name="Powdered Sugar" amount="4 Cups" />
-			<ingredient name="Food Coloring" nameNote="Optional" amount="A Few Drops" />
-			<ingredient name="Milk" amountNote="as needed" />
+			<ingredient>
+				<name>Butter<note>Softened</note></name>
+				<amount>&frac12; Cup<note>1 Stick</note></amount>
+			</ingredient>
+			<ingredient><name>Cream Cheese</name><amount>1 8-oz. Package</amount></ingredient>
+			<ingredient><name>Vanilla</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Powdered Sugar</name><amount>4 Cups</amount></ingredient>
+			<ingredient>
+				<name>Food Coloring<note>Optional</note></name>
+				<amount>A Few Drops</amount>
+			</ingredient>
+			<ingredient>
+				<name>Milk</name>
+				<amount><note>as needed</note></amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 

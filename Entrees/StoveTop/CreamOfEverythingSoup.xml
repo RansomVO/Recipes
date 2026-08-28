@@ -28,26 +28,26 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsSoup" title="Soup">
-			<ingredient name="Whole Milk" amount="4 Cups" />
-			<ingredient name="Flour" amount="3 Tablespoons" />
-			<ingredient name="Corn Starch" amount="1 Tablespoon" />
-			<ingredient name="Butter" amount="2 Tablespoons" />
-			<ingredient name="Minced Garlic" amount="1 teaspoon" />
-			<ingredient name="Onion" amount="1" />
-			<ingredient name="Carrots" amount="3" />
+			<ingredient><name>Whole Milk</name><amount>4 Cups</amount></ingredient>
+			<ingredient><name>Flour</name><amount>3 Tablespoons</amount></ingredient>
+			<ingredient><name>Corn Starch</name><amount>1 Tablespoon</amount></ingredient>
+			<ingredient><name>Butter</name><amount>2 Tablespoons</amount></ingredient>
+			<ingredient><name>Minced Garlic</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Onion</name><amount>1</amount></ingredient>
+			<ingredient><name>Carrots</name><amount>3</amount></ingredient>
 		</section>
 		<section title="{BLANK}">
-			<ingredient name="Potatoes" amount="4" />
-			<ingredient name="Chicken Broth" amount="4 Cups" />
-			<ingredient name="Broccoli" amount="&frac12; Head" />
-			<ingredient name="Cream" amount="1 Cups" />
-			<ingredient name="Salt" amount="2 teaspoons" />
-			<ingredient name="Pepper" amount="1 teaspoon" />
+			<ingredient><name>Potatoes</name><amount>4</amount></ingredient>
+			<ingredient><name>Chicken Broth</name><amount>4 Cups</amount></ingredient>
+			<ingredient><name>Broccoli</name><amount>&frac12; Head</amount></ingredient>
+			<ingredient><name>Cream</name><amount>1 Cups</amount></ingredient>
+			<ingredient><name>Salt</name><amount>2 teaspoons</amount></ingredient>
+			<ingredient><name>Pepper</name><amount>1 teaspoon</amount></ingredient>
 		</section>
 		<section id="IngredientsToppings" title="Toppings">
-			<ingredient name="Bacon" amount="1 Lb." />
-			<ingredient name="Cheddar Cheese" amount="&frac12; Lb." />
-			<ingredient name="Green Onions" amount="4" />
+			<ingredient><name>Bacon</name><amount>1 Lb.</amount></ingredient>
+			<ingredient><name>Cheddar Cheese</name><amount>&frac12; Lb.</amount></ingredient>
+			<ingredient><name>Green Onions</name><amount>4</amount></ingredient>
 		</section>
 	</Ingredients>
 

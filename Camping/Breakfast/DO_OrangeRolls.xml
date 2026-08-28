@@ -18,24 +18,36 @@
 
 	<Ingredients id="Ingredients">
 		<section id="Dough" title="Dough">
-			<ingredient name="Yeast" amount="1&frac12; Tablespoons" />
-			<ingredient name="Warm Water" amount="&frac12; Cup" />
-			<ingredient name="Milk" amount="1 Cup" />
-			<ingredient name="Sugar" amount="&frac12; Cup" />
-			<ingredient name="Butter" amount="&frac12; Cup" amountNote="1 Stick" />
-			<ingredient name="Eggs" amount="2" />
-			<ingredient name="Flour" amount="5 Cups" />
-			<ingredient name="Salt" amount="1 teaspoon" />
+			<ingredient><name>Yeast</name><amount>1&frac12; Tablespoons</amount></ingredient>
+			<ingredient><name>Warm Water</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient><name>Milk</name><amount>1 Cup</amount></ingredient>
+			<ingredient><name>Sugar</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient>
+				<name>Butter</name>
+				<amount>&frac12; Cup<note>1 Stick</note></amount>
+			</ingredient>
+			<ingredient><name>Eggs</name><amount>2</amount></ingredient>
+			<ingredient><name>Flour</name><amount>5 Cups</amount></ingredient>
+			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
 		</section>
 		<section id="Filling" title="Filling">
-			<ingredient name="Butter" nameNote="Softened" amount="&frac14; Cup" amountNote="&frac12; Stick" />
-			<ingredient name="Zest from 1 Orange" />
-			<ingredient name="Sugar" amount="2 teaspoons" />
+			<ingredient>
+				<name>Butter<note>Softened</note></name>
+				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
+			</ingredient>
+			<ingredient><name>Zest from 1 Orange</name></ingredient>
+			<ingredient><name>Sugar</name><amount>2 teaspoons</amount></ingredient>
 		</section>
 		<section id="Glaze" title="Glaze">
-			<ingredient name="Juice from 1 Orange" amountNote="&approx; &frac14; Cup" />
-			<ingredient name="Butter" nameNote="Melted" amount="&frac14; Cup" amountNote="&frac12; Stick" />
-			<ingredient name="Powdered Sugar" amount="1 Cup" />
+			<ingredient>
+				<name>Juice from 1 Orange</name>
+				<amount><note>&approx; &frac14; Cup</note></amount>
+			</ingredient>
+			<ingredient>
+				<name>Butter<note>Melted</note></name>
+				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
+			</ingredient>
+			<ingredient><name>Powdered Sugar</name><amount>1 Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

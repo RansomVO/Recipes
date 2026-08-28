@@ -22,8 +22,11 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Water" amount="&frac12; Cup" />
-			<ingredient name="Sugar-free Flavored Gelatin" nameNote="Such as Jello" amount="2 Packages" amountNote="0.6-oz.Each" />
+			<ingredient><name>Water</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient>
+				<name>Sugar-free Flavored Gelatin<note>Such as Jello</note></name>
+				<amount>2 Packages<note>0.6-oz.Each</note></amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 

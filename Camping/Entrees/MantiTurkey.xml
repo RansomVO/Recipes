@@ -24,12 +24,12 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Lemon-Lime Soda" amount="1 Cup" />
-			<ingredient name="Soy Sauce" amount="&frac12; Cup" />
-			<ingredient name="Vegetable Oil" amount="&frac14; Cup" />
-			<ingredient name="Garlic Powder" amount="1 teaspoons" />
-			<ingredient name="Horseradish" amount="1 teaspoons" />
-			<ingredient name="Turkey Tenders" amount="2-3 Lbs." />
+			<ingredient><name>Lemon-Lime Soda</name><amount>1 Cup</amount></ingredient>
+			<ingredient><name>Soy Sauce</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient><name>Vegetable Oil</name><amount>&frac14; Cup</amount></ingredient>
+			<ingredient><name>Garlic Powder</name><amount>1 teaspoons</amount></ingredient>
+			<ingredient><name>Horseradish</name><amount>1 teaspoons</amount></ingredient>
+			<ingredient><name>Turkey Tenders</name><amount>2-3 Lbs.</amount></ingredient>
 		</section>
 	</Ingredients>
 

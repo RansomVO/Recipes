@@ -25,14 +25,32 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Velveeta Cheese" nameNote="ToDo" amount="&frac12; Lb." amountNote="1 Cup" />
-			<ingredient name="Onion" nameNote="Fresh" amount="&frac14;" />
-			<ingredient name="Pickled Jalapenos" nameNote="Canned" amount="2&frac12; Tablespoons" />
-			<ingredient name="Diced Tomatoes" nameNote="Canned" amount="1&frac12; Tablespoons" />
-			<ingredient name="Cumin" amount="&frac14; teaspoon" />
-			<ingredient name="Pepper" amount="&frac18; teaspoon" />
-			<ingredient name="Milk" nameNote="Whole" amount="&frac12; Cup" amountNote="or &frac13;" />
-			<ingredient name="Jalapeno Juice" nameNote="From Pickled Jalapenos Can" amount="1-3 teaspoons" />
+			<ingredient>
+				<name>Velveeta Cheese</name>
+				<amount>&frac12; Lb.<note>1 Cup</note></amount>
+			</ingredient>
+			<ingredient>
+				<name>Onion<note>Fresh</note></name>
+				<amount>&frac14;</amount>
+			</ingredient>
+			<ingredient>
+				<name>Pickled Jalapenos<note>Canned</note></name>
+				<amount>2&frac12; Tablespoons</amount>
+			</ingredient>
+			<ingredient>
+				<name>Diced Tomatoes<note>Canned</note></name>
+				<amount>1&frac12; Tablespoons</amount>
+			</ingredient>
+			<ingredient><name>Cumin</name><amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient><name>Pepper</name><amount>&frac18; teaspoon</amount></ingredient>
+			<ingredient>
+				<name>Milk<note>Whole</note></name>
+				<amount>&frac12; Cup<note>or &frac13;</note></amount>
+			</ingredient>
+			<ingredient>
+				<name>Jalapeno Juice<note>From Pickled Jalapenos Can</note></name>
+				<amount>1-3 teaspoons</amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 

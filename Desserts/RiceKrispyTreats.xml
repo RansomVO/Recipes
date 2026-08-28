@@ -24,9 +24,12 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Butter" amount="3 Tablespoons" />
-			<ingredient name="Miniature Marshmallows" amount="1 10.5-oz. Package" amountNote="&approx;4 cups" />
-			<ingredient name="Rice Krispies" amount="6 Cups" />
+			<ingredient><name>Butter</name><amount>3 Tablespoons</amount></ingredient>
+			<ingredient>
+				<name>Miniature Marshmallows</name>
+				<amount>1 10.5-oz. Package<note>&approx;4 cups</note></amount>
+			</ingredient>
+			<ingredient><name>Rice Krispies</name><amount>6 Cups</amount></ingredient>
 		</section>
 	</Ingredients>
 

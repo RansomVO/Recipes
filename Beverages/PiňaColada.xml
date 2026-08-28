@@ -24,10 +24,16 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Coconut Cream" amount="&frac12; Cup" />
-			<ingredient name="Pineapple Juice" nameNote="Refrigerated" amount="&frac12; Cup" />
-			<ingredient name="Crushed Ice" amount="&approx;1 Cup" />
-			<ingredient name="Maraschino Cherries" nameNote="Optional" amount="2" />
+			<ingredient><name>Coconut Cream</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient>
+				<name>Pineapple Juice<note>Refrigerated</note></name>
+				<amount>&frac12; Cup</amount>
+			</ingredient>
+			<ingredient><name>Crushed Ice</name><amount>&approx;1 Cup</amount></ingredient>
+			<ingredient>
+				<name>Maraschino Cherries<note>Optional</note></name>
+				<amount>2</amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 

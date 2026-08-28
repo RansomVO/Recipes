@@ -23,8 +23,11 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Butter" nameNote="Softened" amount="&frac12; Cup" amountNote="1 Stick" />
-			<ingredient name="Honey" amount="&frac14; Cup" />
+			<ingredient>
+				<name>Butter<note>Softened</note></name>
+				<amount>&frac12; Cup<note>1 Stick</note></amount>
+			</ingredient>
+			<ingredient><name>Honey</name><amount>&frac14; Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

@@ -23,10 +23,13 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Wild Blackberries" nameNote="Mashed" amount="5 Cups" amountNote="Requires &approx;7-8 Cups fresh berries" />
-			<ingredient name="Sugar" amount="4 Cups" />
-			<ingredient name="Lemon Juice" amount="&frac12; Cup" />
-			<ingredient name="Pectin" amount="1 1.75-oz. Package" />
+			<ingredient>
+				<name>Wild Blackberries<note>Mashed</note></name>
+				<amount>5 Cups<note>Requires &approx;7-8 Cups fresh berries</note></amount>
+			</ingredient>
+			<ingredient><name>Sugar</name><amount>4 Cups</amount></ingredient>
+			<ingredient><name>Lemon Juice</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient><name>Pectin</name><amount>1 1.75-oz. Package</amount></ingredient>
 		</section>
 	</Ingredients>
 

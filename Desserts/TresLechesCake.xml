@@ -23,22 +23,22 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsCake" title="Cake">
-			<ingredient name="Flour" amount="1 Cup" />
-			<ingredient name="Baking Powder" amount="1&frac12; teaspoons" />
-			<ingredient name="Salt" amount="&frac14; teaspoon" />
-			<ingredient name="Eggs" amount="5" />
-			<ingredient name="Sugar" amount="1 Cup" />
-			<ingredient name="Vanilla" amount="1 teaspoon" />
-			<ingredient name="Milk" amount="&frac13; Cup" />
+			<ingredient><name>Flour</name><amount>1 Cup</amount></ingredient>
+			<ingredient><name>Baking Powder</name><amount>1&frac12; teaspoons</amount></ingredient>
+			<ingredient><name>Salt</name><amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient><name>Eggs</name><amount>5</amount></ingredient>
+			<ingredient><name>Sugar</name><amount>1 Cup</amount></ingredient>
+			<ingredient><name>Vanilla</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Milk</name><amount>&frac13; Cup</amount></ingredient>
 		</section>
 		<section id="IngredientsFilling" title="Filling">
-			<ingredient name="Evaporated Milk" amount="1 Can" />
-			<ingredient name="Sweetened Condensed Milk" amount="1 Can" />
-			<ingredient name="Heavy Cream" amount="&frac14; Cup" />
+			<ingredient><name>Evaporated Milk</name><amount>1 Can</amount></ingredient>
+			<ingredient><name>Sweetened Condensed Milk</name><amount>1 Can</amount></ingredient>
+			<ingredient><name>Heavy Cream</name><amount>&frac14; Cup</amount></ingredient>
 		</section>
 		<section id="IngredientsIcing" title="Icing">
-			<ingredient name="Heavy Cream" amount="1 Pint" />
-			<ingredient name="Sugar" amount="3 Tablespoons" />
+			<ingredient><name>Heavy Cream</name><amount>1 Pint</amount></ingredient>
+			<ingredient><name>Sugar</name><amount>3 Tablespoons</amount></ingredient>
 		</section>
 	</Ingredients>
 

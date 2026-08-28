@@ -24,14 +24,14 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Warm Water" amount="&frac12; Cup" />
-			<ingredient name="Sugar" amount="2 Tablespoons" />
-			<ingredient name="Yeast" amount="&frac12; Tablespoon" />
-			<ingredient name="Flour" amount="2&frac14; Cups" />
-			<ingredient name="Salt" amount="&frac12; Teaspon" />
-			<ingredient name="Oil" amount="&frac14; Cup" />
-			<ingredient name="Egg" amount="1" />
-			<ingredient name="Frying" amount="Oil, For" />
+			<ingredient><name>Warm Water</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient><name>Sugar</name><amount>2 Tablespoons</amount></ingredient>
+			<ingredient><name>Yeast</name><amount>&frac12; Tablespoon</amount></ingredient>
+			<ingredient><name>Flour</name><amount>2&frac14; Cups</amount></ingredient>
+			<ingredient><name>Salt</name><amount>&frac12; Teaspon</amount></ingredient>
+			<ingredient><name>Oil</name><amount>&frac14; Cup</amount></ingredient>
+			<ingredient><name>Egg</name><amount>1</amount></ingredient>
+			<ingredient><name>Frying</name><amount>Oil, For</amount></ingredient>
 		</section>
 	</Ingredients>
 

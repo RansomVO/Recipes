@@ -22,14 +22,17 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Flour" amount="1&frac12; Cup" />
-			<ingredient name="Salt" amount="1 teaspoon" />
-			<ingredient name="Sugar" amount="&frac12; Tablespoon" />
-			<ingredient name="Baking Powder" amount="1 teaspoon" />
-			<ingredient name="Vanilla" amount="1 teaspoon" />
-			<ingredient name="Butter" nameNote="Cold" amount="&frac14; Cup" amountNote="&frac12; Stick" />
-			<ingredient name="Shortening" amount="&frac14; Cup" />
-			<ingredient name="8 teaspoons Cold Water" amount="Approximately" />
+			<ingredient><name>Flour</name><amount>1&frac12; Cup</amount></ingredient>
+			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Sugar</name><amount>&frac12; Tablespoon</amount></ingredient>
+			<ingredient><name>Baking Powder</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Vanilla</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient>
+				<name>Butter<note>Cold</note></name>
+				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
+			</ingredient>
+			<ingredient><name>Shortening</name><amount>&frac14; Cup</amount></ingredient>
+			<ingredient><name>8 teaspoons Cold Water</name><amount>Approximately</amount></ingredient>
 		</section>
 	</Ingredients>
 

@@ -23,16 +23,19 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Unpopped Popcorn" amount="&frac12; Cup" />
-			<ingredient name="Butter" amount="&frac12; Cup" amountNote="1 Stick" />
-			<ingredient name="Sugar" amount="1 Cups" />
-			<ingredient name="White Corn Syrup" amount="&frac14; Cup" />
-			<ingredient name="Salt" amount="&frac12; teaspoon" />
-			<ingredient name="Baking Soda" amount="&frac12; teaspoon" />
-			<ingredient name="Vanilla" amount="&frac12; teaspoon" />
-			<ingredient name="Almond Extract" amount="&frac14; teaspoon" />
-			<ingredient name="Shredded Coconut" amount="&frac12; Cup" />
-			<ingredient name="Sliced Almonds" amount="&frac12; Cup" />
+			<ingredient><name>Unpopped Popcorn</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient>
+				<name>Butter</name>
+				<amount>&frac12; Cup<note>1 Stick</note></amount>
+			</ingredient>
+			<ingredient><name>Sugar</name><amount>1 Cups</amount></ingredient>
+			<ingredient><name>White Corn Syrup</name><amount>&frac14; Cup</amount></ingredient>
+			<ingredient><name>Salt</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient><name>Baking Soda</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient><name>Vanilla</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient><name>Almond Extract</name><amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient><name>Shredded Coconut</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient><name>Sliced Almonds</name><amount>&frac12; Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

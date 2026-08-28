@@ -22,8 +22,11 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Water" amount="2&frac12; Cups" />
-			<ingredient name="Flavored Gelatin" nameNote="Such as Jello" amount="2 0.6-oz. Packages" />
+			<ingredient><name>Water</name><amount>2&frac12; Cups</amount></ingredient>
+			<ingredient>
+				<name>Flavored Gelatin<note>Such as Jello</note></name>
+				<amount>2 0.6-oz. Packages</amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 

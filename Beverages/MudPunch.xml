@@ -22,8 +22,8 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Orange Juice Concentrate" amount="1 12-oz. Can" />
-			<ingredient name="Grape Juice Concentrate" amount="1 12-oz. Can" />
+			<ingredient><name>Orange Juice Concentrate</name><amount>1 12-oz. Can</amount></ingredient>
+			<ingredient><name>Grape Juice Concentrate</name><amount>1 12-oz. Can</amount></ingredient>
 		</section>
 	</Ingredients>
 

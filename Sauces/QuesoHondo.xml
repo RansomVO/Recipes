@@ -28,8 +28,11 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Processed Cheese Spread" nameNote="Such as Velveeta" amount="1 Cup" />
-			<ingredient name="Salsa" amount="1 Cup" />
+			<ingredient>
+				<name>Processed Cheese Spread<note>Such as Velveeta</note></name>
+				<amount>1 Cup</amount>
+			</ingredient>
+			<ingredient><name>Salsa</name><amount>1 Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

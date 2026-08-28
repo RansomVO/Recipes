@@ -22,11 +22,20 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Potatoes" nameNote="Medium" amount="4" />
-			<ingredient name="Water" amountNote="See Step 4 below" />
-			<ingredient name="Salt" amount="1 teaspoon" />
-			<ingredient name="Butter" amount="&frac14; Cup" amountNote="&frac12; Stick" />
-			<ingredient name="Milk" amount="&frac14; Cup" />
+			<ingredient>
+				<name>Potatoes<note>Medium</note></name>
+				<amount>4</amount>
+			</ingredient>
+			<ingredient>
+				<name>Water</name>
+				<amount><note>See Step 4 below</note></amount>
+			</ingredient>
+			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient>
+				<name>Butter</name>
+				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
+			</ingredient>
+			<ingredient><name>Milk</name><amount>&frac14; Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

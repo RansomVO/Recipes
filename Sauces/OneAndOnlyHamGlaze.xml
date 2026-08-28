@@ -23,11 +23,17 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Butter" nameNote="Melted" amount="&frac12; Cup" amountNote="1 Stick" />
-			<ingredient name="Brown Sugar" amount="2 Cups" />
-			<ingredient name="Garlic" nameNote="Minced" amount="3 Tablespoons" />
-			<ingredient name="Yellow Mustard" amount="&frac14; Cup" />
-			<ingredient name="Orange Juice Concentrate" amount="&frac12; Can" />
+			<ingredient>
+				<name>Butter<note>Melted</note></name>
+				<amount>&frac12; Cup<note>1 Stick</note></amount>
+			</ingredient>
+			<ingredient><name>Brown Sugar</name><amount>2 Cups</amount></ingredient>
+			<ingredient>
+				<name>Garlic<note>Minced</note></name>
+				<amount>3 Tablespoons</amount>
+			</ingredient>
+			<ingredient><name>Yellow Mustard</name><amount>&frac14; Cup</amount></ingredient>
+			<ingredient><name>Orange Juice Concentrate</name><amount>&frac12; Can</amount></ingredient>
 		</section>
 	</Ingredients>
 

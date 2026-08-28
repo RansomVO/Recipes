@@ -24,16 +24,19 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Butter" nameNote="Softened" amount="1 Cup" amountNote="2 Sticks" />
-			<ingredient name="Sugar" amount="3 Cups" />
-			<ingredient name="Eggs" amount="4" />
-			<ingredient name="Almond Extract" amount="&frac12; teaspoon" />
-			<ingredient name="Flour" amount="3 Cups" />
-			<ingredient name="Salt" amount="1&frac12; teaspoons" />
-			<ingredient name="Baking Powder" amount="1&frac12; Teaspons" />
-			<ingredient name="Apple" amount="1" />
-			<ingredient name="Fresh Blackberries" amount="2 Cups" />
-			<ingredient name="Brown Sugar" amount="1 Cup" />
+			<ingredient>
+				<name>Butter<note>Softened</note></name>
+				<amount>1 Cup<note>2 Sticks</note></amount>
+			</ingredient>
+			<ingredient><name>Sugar</name><amount>3 Cups</amount></ingredient>
+			<ingredient><name>Eggs</name><amount>4</amount></ingredient>
+			<ingredient><name>Almond Extract</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient><name>Flour</name><amount>3 Cups</amount></ingredient>
+			<ingredient><name>Salt</name><amount>1&frac12; teaspoons</amount></ingredient>
+			<ingredient><name>Baking Powder</name><amount>1&frac12; Teaspons</amount></ingredient>
+			<ingredient><name>Apple</name><amount>1</amount></ingredient>
+			<ingredient><name>Fresh Blackberries</name><amount>2 Cups</amount></ingredient>
+			<ingredient><name>Brown Sugar</name><amount>1 Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

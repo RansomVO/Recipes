@@ -25,11 +25,14 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Flour" amount="4 Cups" />
-			<ingredient name="Baking Powder" amount="4 teaspoons" />
-			<ingredient name="Salt" amount="2 teaspoons" />
-			<ingredient name="Milk" amount="1&frac14; Cups" />
-			<ingredient name="Oil" amountNote="For Frying" />
+			<ingredient><name>Flour</name><amount>4 Cups</amount></ingredient>
+			<ingredient><name>Baking Powder</name><amount>4 teaspoons</amount></ingredient>
+			<ingredient><name>Salt</name><amount>2 teaspoons</amount></ingredient>
+			<ingredient><name>Milk</name><amount>1&frac14; Cups</amount></ingredient>
+			<ingredient>
+				<name>Oil</name>
+				<amount><note>For Frying</note></amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 

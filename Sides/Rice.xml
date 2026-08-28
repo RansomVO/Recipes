@@ -23,10 +23,10 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Rice" amount="1 Cup" />
-			<ingredient name="Water" amount="2 Cups" />
-			<ingredient name="Salt" amount="&frac12; teaspoon" />
-			<ingredient name="Vegetable Oil" amount="1 Tablespoon" />
+			<ingredient><name>Rice</name><amount>1 Cup</amount></ingredient>
+			<ingredient><name>Water</name><amount>2 Cups</amount></ingredient>
+			<ingredient><name>Salt</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient><name>Vegetable Oil</name><amount>1 Tablespoon</amount></ingredient>
 		</section>
 	</Ingredients>
 

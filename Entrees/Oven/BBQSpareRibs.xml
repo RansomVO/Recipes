@@ -26,14 +26,20 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Boneless Country Style Spare Ribs" nameNote="Pork or Beef" amount="4 Lbs." />
-			<ingredient name="Tomato Paste" amount="3 6-oz. Cans" />
-			<ingredient name="Ketchup" amount="1 Cup" />
-			<ingredient name="Apple Cider Vinegar" amount="&frac14; Cup" />
-			<ingredient name="Prepared Mustard" amount="2 Tablespoons" />
-			<ingredient name="Brown Sugar" amount="&frac34; Cup" />
-			<ingredient name="Onion" nameNote="Diced" amount="&frac12;" />
-			<ingredient name="Salt" amount="2 teaspoons" />
+			<ingredient>
+				<name>Boneless Country Style Spare Ribs<note>Pork or Beef</note></name>
+				<amount>4 Lbs.</amount>
+			</ingredient>
+			<ingredient><name>Tomato Paste</name><amount>3 6-oz. Cans</amount></ingredient>
+			<ingredient><name>Ketchup</name><amount>1 Cup</amount></ingredient>
+			<ingredient><name>Apple Cider Vinegar</name><amount>&frac14; Cup</amount></ingredient>
+			<ingredient><name>Prepared Mustard</name><amount>2 Tablespoons</amount></ingredient>
+			<ingredient><name>Brown Sugar</name><amount>&frac34; Cup</amount></ingredient>
+			<ingredient>
+				<name>Onion<note>Diced</note></name>
+				<amount>&frac12;</amount>
+			</ingredient>
+			<ingredient><name>Salt</name><amount>2 teaspoons</amount></ingredient>
 		</section>
 	</Ingredients>
 

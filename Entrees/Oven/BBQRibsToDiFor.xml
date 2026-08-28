@@ -27,22 +27,31 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsRibs" title="Ribs">
-			<ingredient name="Spare Ribs" nameNote="Bone-in is best" amount="3-5 Lbs." />
-			<ingredient name="Onion" nameNote="Medium" amount="&frac23;" />
-			<ingredient name="Water" amount="&frac12; Cup" />
-			<ingredient name="Onion Soup Mix" amount="1 Envelope" />
+			<ingredient>
+				<name>Spare Ribs<note>Bone-in is best</note></name>
+				<amount>3-5 Lbs.</amount>
+			</ingredient>
+			<ingredient>
+				<name>Onion<note>Medium</note></name>
+				<amount>&frac23;</amount>
+			</ingredient>
+			<ingredient><name>Water</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient><name>Onion Soup Mix</name><amount>1 Envelope</amount></ingredient>
 		</section>
 		<section id="IngredientsSauce" title="Sauce">
-			<ingredient name="Tomato Paste" amount="1 6-oz. Can" />
-			<ingredient name="Tomato Sauce" amount="2 9-oz. Cans" />
-			<ingredient name="Brown Sugar" amount="&frac14; Cup" />
-			<ingredient name="Onion" nameNote="Medium" amount="&frac13;" />
-			<ingredient name="Garlic" amount="1 teaspoon" />
-			<ingredient name="Cinnamon" amount="&frac14; teaspoon" />
-			<ingredient name="Cayenne Pepper" amount="&frac14; teaspoon" />
-			<ingredient name="Cumin" amount="&frac14; teaspoon" />
-			<ingredient name="Salt" amount="&frac12; teaspoon" />
-			<ingredient name="Apple Cider Vinegar" amount="&frac12; Tablespoon" />
+			<ingredient><name>Tomato Paste</name><amount>1 6-oz. Can</amount></ingredient>
+			<ingredient><name>Tomato Sauce</name><amount>2 9-oz. Cans</amount></ingredient>
+			<ingredient><name>Brown Sugar</name><amount>&frac14; Cup</amount></ingredient>
+			<ingredient>
+				<name>Onion<note>Medium</note></name>
+				<amount>&frac13;</amount>
+			</ingredient>
+			<ingredient><name>Garlic</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Cinnamon</name><amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient><name>Cayenne Pepper</name><amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient><name>Cumin</name><amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient><name>Salt</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient><name>Apple Cider Vinegar</name><amount>&frac12; Tablespoon</amount></ingredient>
 		</section>
 	</Ingredients>
 

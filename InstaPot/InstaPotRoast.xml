@@ -23,20 +23,38 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsGravy">
-			<ingredient name="Beef Broth" nameNote="1&frac12;-Strength" amount="4 Cups" />
-			<ingredient name="Worcestershire Sauce" amount="&frac12; Tablespoon" />
-			<ingredient name="Tomato Sauce" amount="1 8-oz. Can" />
-			<ingredient name="&nbsp;" comment="Spacer" />
-			<ingredient name="Onion" amount="1" />
-			<ingredient name="Butter" amount="&frac12; Cup" amountNote="1 Stick" />
-			<ingredient name="Beef Roast" nameNote="Fresh or Frozen" amount="1" />
-			<ingredient name="Minced Garlic" amount="&frac12; Tablespoon" />
+			<ingredient>
+				<name>Beef Broth<note>1&frac12;-Strength</note></name>
+				<amount>4 Cups</amount>
+			</ingredient>
+			<ingredient><name>Worcestershire Sauce</name><amount>&frac12; Tablespoon</amount></ingredient>
+			<ingredient><name>Tomato Sauce</name><amount>1 8-oz. Can</amount></ingredient>
+			<ingredient comment="Spacer"><name>&nbsp;</name></ingredient>
+			<ingredient><name>Onion</name><amount>1</amount></ingredient>
+			<ingredient>
+				<name>Butter</name>
+				<amount>&frac12; Cup<note>1 Stick</note></amount>
+			</ingredient>
+			<ingredient>
+				<name>Beef Roast<note>Fresh or Frozen</note></name>
+				<amount>1</amount>
+			</ingredient>
+			<ingredient><name>Minced Garlic</name><amount>&frac12; Tablespoon</amount></ingredient>
 		</section>
 		<section id="IngredientsVegetables">
-			<ingredient name="Carrots" amount="3-10" amountNote="Whatever amount you feel like." />
-			<ingredient name="Potatoes" amount="3-10" amountNote="Whatever amount you feel like." />
-			<ingredient name="Corn Starch" amount="5 Tablespoons" />
-			<ingredient name="Water" nameNote="Cool" amount="&frac12; Cup" />
+			<ingredient>
+				<name>Carrots</name>
+				<amount>3-10<note>Whatever amount you feel like.</note></amount>
+			</ingredient>
+			<ingredient>
+				<name>Potatoes</name>
+				<amount>3-10<note>Whatever amount you feel like.</note></amount>
+			</ingredient>
+			<ingredient><name>Corn Starch</name><amount>5 Tablespoons</amount></ingredient>
+			<ingredient>
+				<name>Water<note>Cool</note></name>
+				<amount>&frac12; Cup</amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 

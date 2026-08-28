@@ -23,15 +23,33 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Celery" nameNote="With Leaves" amount="1&frac12; Cups" />
-			<ingredient name="Sage Leaves" nameNote="Fresh" amount="1&frac12; teaspoons" />
-			<ingredient name="Thyme Leaves" nameNote="Fresh" amount="1 teaspoon" />
-			<ingredient name="Mushrooms" nameNote="May be Sliced" amount="1-2 Cups" />
-			<ingredient name="Salt" amount="2 teaspoons" />
-			<ingredient name="Pepper" amount="&frac12; teaspoon" />
-			<ingredient name="Butter" amount="1 Cup" amountNote="2 Sticks" />
-			<ingredient name="Turkey Broth" amount="2 Cups" />
-			<ingredient name="Bread" nameNote="As heavy/dense as possible" amount="1 Loaf" />
+			<ingredient>
+				<name>Celery<note>With Leaves</note></name>
+				<amount>1&frac12; Cups</amount>
+			</ingredient>
+			<ingredient>
+				<name>Sage Leaves<note>Fresh</note></name>
+				<amount>1&frac12; teaspoons</amount>
+			</ingredient>
+			<ingredient>
+				<name>Thyme Leaves<note>Fresh</note></name>
+				<amount>1 teaspoon</amount>
+			</ingredient>
+			<ingredient>
+				<name>Mushrooms<note>May be Sliced</note></name>
+				<amount>1-2 Cups</amount>
+			</ingredient>
+			<ingredient><name>Salt</name><amount>2 teaspoons</amount></ingredient>
+			<ingredient><name>Pepper</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>
+				<name>Butter</name>
+				<amount>1 Cup<note>2 Sticks</note></amount>
+			</ingredient>
+			<ingredient><name>Turkey Broth</name><amount>2 Cups</amount></ingredient>
+			<ingredient>
+				<name>Bread<note>As heavy/dense as possible</note></name>
+				<amount>1 Loaf</amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 

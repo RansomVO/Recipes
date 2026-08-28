@@ -25,15 +25,21 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Flour" amount="2 Cups" />
-			<ingredient name="Baking Soda" amount="&frac12; teaspoon" />
-			<ingredient name="Salt" amount="&frac14; teaspoon" />
-			<ingredient name="Browns Sugar" amount="1&frac14; Cups" />
-			<ingredient name="Sugar" amount="1&frac14; Cups" />
-			<ingredient name="Butter" nameNote="Softened" amount="1 Cup" amountNote="2 Sticks" />
-			<ingredient name="Eggs" amount="3" />
-			<ingredient name="Peanut Butter" nameNote="Chunky or Creamy" amount="1 Cup" amountNote="2 Sticks" />
-			<ingredient name="Vanilla" amount="2 teaspoons" />
+			<ingredient><name>Flour</name><amount>2 Cups</amount></ingredient>
+			<ingredient><name>Baking Soda</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient><name>Salt</name><amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient><name>Browns Sugar</name><amount>1&frac14; Cups</amount></ingredient>
+			<ingredient><name>Sugar</name><amount>1&frac14; Cups</amount></ingredient>
+			<ingredient>
+				<name>Butter<note>Softened</note></name>
+				<amount>1 Cup<note>2 Sticks</note></amount>
+			</ingredient>
+			<ingredient><name>Eggs</name><amount>3</amount></ingredient>
+			<ingredient>
+				<name>Peanut Butter<note>Chunky or Creamy</note></name>
+				<amount>1 Cup<note>2 Sticks</note></amount>
+			</ingredient>
+			<ingredient><name>Vanilla</name><amount>2 teaspoons</amount></ingredient>
 		</section>
 	</Ingredients>
 

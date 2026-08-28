@@ -25,10 +25,16 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Canning Bottles of the appropriate size" nameNote="For example: Mason, Kerr, Ball, etc." />
-			<ingredient name="Canning-appropriate Food" nameNote="This may include sauces, jams, jellies, fruit in syrup, etc." />
-			<ingredient name="New Lids for the Bottles" nameNote="Re-using old lids tends to cause a lot of failed seals." />
-			<ingredient name="Rings to fasten the Lids" />
+			<ingredient>
+				<name>Canning Bottles of the appropriate size<note>For example: Mason, Kerr, Ball, etc.</note></name>
+			</ingredient>
+			<ingredient>
+				<name>Canning-appropriate Food<note>This may include sauces, jams, jellies, fruit in syrup, etc.</note></name>
+			</ingredient>
+			<ingredient>
+				<name>New Lids for the Bottles<note>Re-using old lids tends to cause a lot of failed seals.</note></name>
+			</ingredient>
+			<ingredient><name>Rings to fasten the Lids</name></ingredient>
 		</section>
 	</Ingredients>
 

@@ -32,23 +32,38 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsMarinade" title="Marinade">
-			<ingredient name="Beef Broth" nameNote="Double Strength" amount="2 Cups" />
-			<ingredient name="Ground Pepper" nameNote="Freshly ground is best" amount="1 teaspoon" />
-			<ingredient name="White Pepper" amount="&frac14; teaspoon" />
-			<ingredient name="Chili Pepper" amount="1 teaspoon" />
-			<ingredient name="Paprika" amount="1 teaspoon" />
-			<ingredient name="Worcestershire Sauce" amount="1&frac12; Tablespoons" />
-			<ingredient name="Tabasco Sauce" amount="To Taste" amountNote="Several Dashes" />
-			<ingredient name="Lime" amount="1" />
-			<ingredient name="Lean Beef, Cut into long thin strips" amount="2-3 Lbs." />
+			<ingredient>
+				<name>Beef Broth<note>Double Strength</note></name>
+				<amount>2 Cups</amount>
+			</ingredient>
+			<ingredient>
+				<name>Ground Pepper<note>Freshly ground is best</note></name>
+				<amount>1 teaspoon</amount>
+			</ingredient>
+			<ingredient><name>White Pepper</name><amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient><name>Chili Pepper</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Paprika</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Worcestershire Sauce</name><amount>1&frac12; Tablespoons</amount></ingredient>
+			<ingredient>
+				<name>Tabasco Sauce</name>
+				<amount>To Taste<note>Several Dashes</note></amount>
+			</ingredient>
+			<ingredient><name>Lime</name><amount>1</amount></ingredient>
+			<ingredient><name>Lean Beef, Cut into long thin strips</name><amount>2-3 Lbs.</amount></ingredient>
 		</section>
 		<section id="IngredientsEssentials" title="Essentials">
-			<ingredient name="Flour" amount="&frac14; Cup" />
-			<ingredient name="Water" amount="1 Cup" />
-			<ingredient name="Onion" nameNote="Large" amount="1" />
-			<ingredient name="Green Bell Peppers" amount="2" />
-			<ingredient name="Red Bell Pepper" amount="1" />
-			<ingredient name="Mushrooms" amount="8-oz." amountNote="&frac12; lb." />
+			<ingredient><name>Flour</name><amount>&frac14; Cup</amount></ingredient>
+			<ingredient><name>Water</name><amount>1 Cup</amount></ingredient>
+			<ingredient>
+				<name>Onion<note>Large</note></name>
+				<amount>1</amount>
+			</ingredient>
+			<ingredient><name>Green Bell Peppers</name><amount>2</amount></ingredient>
+			<ingredient><name>Red Bell Pepper</name><amount>1</amount></ingredient>
+			<ingredient>
+				<name>Mushrooms</name>
+				<amount>8-oz.<note>&frac12; lb.</note></amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 

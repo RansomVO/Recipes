@@ -66,16 +66,7 @@
 			<xs:element name="section" minOccurs="1" maxOccurs="unbounded">
 				<xs:complexType>
 					<xs:sequence>
-						<xs:element name="ingredient" minOccurs="1" maxOccurs="unbounded">
-							<xs:complexType>
-								<xs:attribute name="name" type="xs:string" use="required" />
-								<xs:attribute name="amount" type="xs:string" />
-								<xs:attribute name="amountNote" type="xs:string" />
-								<xs:attribute name="nameNote" type="xs:string" />
-								<xs:attribute name="finePrint" type="xs:string" />
-								<xs:attribute name="comment" type="xs:string" />
-							</xs:complexType>
-						</xs:element>
+						<xs:element name="ingredient" type="Ingredient" minOccurs="1" maxOccurs="unbounded" />
 					</xs:sequence>
 					<xs:attribute name="id" type="xs:string" />
 					<xs:attribute name="title" type="xs:string" />
@@ -86,6 +77,21 @@
 		<xs:attribute name="id" type="xs:string" />
 		<xs:attribute name="class" type="xs:string" />
 		<xs:attribute name="pageBreak" type="xs:string" />
+	</xs:complexType>
+
+	<xs:complexType name="IngredientPart" mixed="true">
+		<xs:sequence>
+			<xs:element name="note" type="xs:string" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Ingredient">
+		<xs:sequence>
+			<xs:element name="name" type="IngredientPart" />
+			<xs:element name="amount" type="IngredientPart" minOccurs="0" />
+			<xs:element name="finePrint" type="xs:string" minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute name="comment" type="xs:string" />
 	</xs:complexType>
 
 	<!-- ===== Preparation ========================================================== -->

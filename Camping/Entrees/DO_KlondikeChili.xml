@@ -26,25 +26,46 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Onion" amount="1" amountNote="Medium" />
-			<ingredient name="Hamburger" amount="1 Lb." />
-			<ingredient name="Pinto Beans" nameNote="Drained" amount="1 15-oz. Can" />
-			<ingredient name="Kidney Beans" nameNote="Drained" amount="1 15-oz. Can" />
-			<ingredient name="Red Beans" nameNote="Drained" amount="1 15-oz. Can" />
-			<ingredient name="Sliced Tomatoes" amount="1 28-oz. Can" />
-			<ingredient name="Diced Tomatoes" amount="2 28-oz. Cans" />
-			<ingredient name="Poblano Peppers" nameNote="Large" amount="3" />
-			<ingredient name="Anaheim Peppers" amount="3" />
-			<ingredient name="Bell Pepper" amountNote="Red" amount="1" />
+			<ingredient>
+				<name>Onion</name>
+				<amount>1<note>Medium</note></amount>
+			</ingredient>
+			<ingredient><name>Hamburger</name><amount>1 Lb.</amount></ingredient>
+			<ingredient>
+				<name>Pinto Beans<note>Drained</note></name>
+				<amount>1 15-oz. Can</amount>
+			</ingredient>
+			<ingredient>
+				<name>Kidney Beans<note>Drained</note></name>
+				<amount>1 15-oz. Can</amount>
+			</ingredient>
+			<ingredient>
+				<name>Red Beans<note>Drained</note></name>
+				<amount>1 15-oz. Can</amount>
+			</ingredient>
+			<ingredient><name>Sliced Tomatoes</name><amount>1 28-oz. Can</amount></ingredient>
+			<ingredient><name>Diced Tomatoes</name><amount>2 28-oz. Cans</amount></ingredient>
+			<ingredient>
+				<name>Poblano Peppers<note>Large</note></name>
+				<amount>3</amount>
+			</ingredient>
+			<ingredient><name>Anaheim Peppers</name><amount>3</amount></ingredient>
+			<ingredient>
+				<name>Bell Pepper</name>
+				<amount>1<note>Red</note></amount>
+			</ingredient>
 		</section>
 		<section>
-			<ingredient name="Fresh Chopped Cilantro" amount="&frac12; Cup" />
-			<ingredient name="Brown Sugar" amount="1 Tablespoon" />
-			<ingredient name="Apple Cider Vinegar" amount="1 Tablespoon" />
-			<ingredient name="Ground Black Pepper" amount="1 teaspoon" />
-			<ingredient name="Salt" amount="1 teaspoon" />
-			<ingredient name="Cumin" amount="1 teaspoon" />
-			<ingredient name="Garlic" nameNote="Minced" amount="1 teaspoon" />
+			<ingredient><name>Fresh Chopped Cilantro</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient><name>Brown Sugar</name><amount>1 Tablespoon</amount></ingredient>
+			<ingredient><name>Apple Cider Vinegar</name><amount>1 Tablespoon</amount></ingredient>
+			<ingredient><name>Ground Black Pepper</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Cumin</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient>
+				<name>Garlic<note>Minced</note></name>
+				<amount>1 teaspoon</amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 

@@ -24,13 +24,13 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Tomato Sauce" amount="4 8-oz. Cans" />
-			<ingredient name="Tomato Paste" amount="1 6-oz. Can" />
-			<ingredient name="Oregano" amount="1 teaspoon" />
-			<ingredient name="Basil" amount="1 teaspoon" />
-			<ingredient name="Garlic, Minced" amount="&frac12; teaspoon" />
-			<ingredient name="Celery Salt" amount="1 teaspoon" />
-			<ingredient name="Onion, Minced" amount="&frac12; teaspoon" />
+			<ingredient><name>Tomato Sauce</name><amount>4 8-oz. Cans</amount></ingredient>
+			<ingredient><name>Tomato Paste</name><amount>1 6-oz. Can</amount></ingredient>
+			<ingredient><name>Oregano</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Basil</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Garlic, Minced</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient><name>Celery Salt</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Onion, Minced</name><amount>&frac12; teaspoon</amount></ingredient>
 		</section>
 	</Ingredients>
 

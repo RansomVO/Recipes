@@ -23,11 +23,14 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Flour" amount="1&frac34; Cups" />
-			<ingredient name="Salt" amount="&frac12; teaspoon" />
-			<ingredient name="Baking Powder" amount="1 Tablespoon" />
-			<ingredient name="Butter" nameNote="COLD!" amount="&frac14; Cup" amountNote="&frac12; Stick" />
-			<ingredient name="Milk" amount="&frac34; Cup" />
+			<ingredient><name>Flour</name><amount>1&frac34; Cups</amount></ingredient>
+			<ingredient><name>Salt</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient><name>Baking Powder</name><amount>1 Tablespoon</amount></ingredient>
+			<ingredient>
+				<name>Butter<note>COLD!</note></name>
+				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
+			</ingredient>
+			<ingredient><name>Milk</name><amount>&frac34; Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

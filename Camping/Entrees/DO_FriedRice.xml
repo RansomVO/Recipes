@@ -26,16 +26,28 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Vegetable Oil" amount="&frac12;-1 Cup" />
-			<ingredient name="Uncooked Rice" amount="4 Cups" />
-			<ingredient name="Water" amount="6 Cups" />
-			<ingredient name="Salt" amount="1 teaspoon" />
-			<ingredient name="Eggs" amount="4-6" />
-			<ingredient name="Ham" nameNote="cut into &frac14;&inch; chunks" amount="1-2 Cups" />
-			<ingredient name="Chinese Cabbage" nameNote="Shredded" amount="1-2 Cups" />
-			<ingredient name="Carrots" nameNote="Sliced Thinly" amount="&frac12; Cup" />
-			<ingredient name="Onions" nameNote="Cut into &frac12;&inch; &by; 1&inch;" amount="&frac12;-1 Cup" />
-			<ingredient name="Soy Sauce" amount="2-4 Tablespoons" />
+			<ingredient><name>Vegetable Oil</name><amount>&frac12;-1 Cup</amount></ingredient>
+			<ingredient><name>Uncooked Rice</name><amount>4 Cups</amount></ingredient>
+			<ingredient><name>Water</name><amount>6 Cups</amount></ingredient>
+			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Eggs</name><amount>4-6</amount></ingredient>
+			<ingredient>
+				<name>Ham<note>cut into &frac14;&inch; chunks</note></name>
+				<amount>1-2 Cups</amount>
+			</ingredient>
+			<ingredient>
+				<name>Chinese Cabbage<note>Shredded</note></name>
+				<amount>1-2 Cups</amount>
+			</ingredient>
+			<ingredient>
+				<name>Carrots<note>Sliced Thinly</note></name>
+				<amount>&frac12; Cup</amount>
+			</ingredient>
+			<ingredient>
+				<name>Onions<note>Cut into &frac12;&inch; &by; 1&inch;</note></name>
+				<amount>&frac12;-1 Cup</amount>
+			</ingredient>
+			<ingredient><name>Soy Sauce</name><amount>2-4 Tablespoons</amount></ingredient>
 		</section>
 	</Ingredients>
 

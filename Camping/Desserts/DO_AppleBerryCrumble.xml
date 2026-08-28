@@ -23,16 +23,19 @@
 
 	<Ingredients id="Ingredients">
 		<section id="Filling" title="Filling">
-			<ingredient name="Apple Pie Filling" amount="2 Cans" />
-			<ingredient name="Fresh Blueberries" amount="1-2 Cups" />
-			<ingredient name="Zest from 3 Oranges" />
+			<ingredient><name>Apple Pie Filling</name><amount>2 Cans</amount></ingredient>
+			<ingredient><name>Fresh Blueberries</name><amount>1-2 Cups</amount></ingredient>
+			<ingredient><name>Zest from 3 Oranges</name></ingredient>
 		</section>
 		<section id="Topping" title="Topping">
-			<ingredient name="Rolled Oats" amount="2 Cups" />
-			<ingredient name="Flour" amount="&frac12; Cup" />
-			<ingredient name="Brown Sugar" amount="&frac12; Cup" />
-			<ingredient name="Cinnamon" amount="1 Tablespooon" />
-			<ingredient name="Butter" amount="1 Cup" amountNote="2 Sticks" />
+			<ingredient><name>Rolled Oats</name><amount>2 Cups</amount></ingredient>
+			<ingredient><name>Flour</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient><name>Brown Sugar</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient><name>Cinnamon</name><amount>1 Tablespooon</amount></ingredient>
+			<ingredient>
+				<name>Butter</name>
+				<amount>1 Cup<note>2 Sticks</note></amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 

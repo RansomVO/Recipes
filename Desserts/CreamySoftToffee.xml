@@ -23,13 +23,16 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="White Sugar" amount="2 Cups" />
-			<ingredient name="Brown Sugar" amount="1 Cup" />
-			<ingredient name="Light Corn Syrup" amount="1 Cup" />
-			<ingredient name="Evaporated milk" amount="1 Cup" />
-			<ingredient name="Heavy Whipping Cream" amount="1 Pint" />
-			<ingredient name="Butter" amount="1 Cup" amountNote="2 Sticks" />
-			<ingredient name="Vanilla" amount="1&frac14; teaspoons" />
+			<ingredient><name>White Sugar</name><amount>2 Cups</amount></ingredient>
+			<ingredient><name>Brown Sugar</name><amount>1 Cup</amount></ingredient>
+			<ingredient><name>Light Corn Syrup</name><amount>1 Cup</amount></ingredient>
+			<ingredient><name>Evaporated milk</name><amount>1 Cup</amount></ingredient>
+			<ingredient><name>Heavy Whipping Cream</name><amount>1 Pint</amount></ingredient>
+			<ingredient>
+				<name>Butter</name>
+				<amount>1 Cup<note>2 Sticks</note></amount>
+			</ingredient>
+			<ingredient><name>Vanilla</name><amount>1&frac14; teaspoons</amount></ingredient>
 		</section>
 	</Ingredients>
 

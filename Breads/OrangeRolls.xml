@@ -19,25 +19,40 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsDough" title="Dough">
-			<ingredient name="Butter" amount="&frac12; Cup" amountNote="1 Stick" />
-			<ingredient name="Buttermilk" amount="2 Cups" />
-			<ingredient name="Yeast" amount="2 Tablespoons" />
-			<ingredient name="Baking Soda" amount="&frac12; teaspoon" />
-			<ingredient name="Sugar" amount="&frac12; Cup" />
-			<ingredient name="Salt" amount="2 teaspoons" />
-			<ingredient name="Flour" amount="5 Cups" />
+			<ingredient>
+				<name>Butter</name>
+				<amount>&frac12; Cup<note>1 Stick</note></amount>
+			</ingredient>
+			<ingredient><name>Buttermilk</name><amount>2 Cups</amount></ingredient>
+			<ingredient><name>Yeast</name><amount>2 Tablespoons</amount></ingredient>
+			<ingredient><name>Baking Soda</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient><name>Sugar</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient><name>Salt</name><amount>2 teaspoons</amount></ingredient>
+			<ingredient><name>Flour</name><amount>5 Cups</amount></ingredient>
 		</section>
 		<section id="IngredientsFilling" title="Filling">
-			<ingredient name="Sugar" amount="&frac34; Cup" />
-			<ingredient name="Butter" nameNote="softened" amount="&frac12; Cup" amountNote="1 Stick" />
-			<ingredient name="Cream Cheese" nameNote="softened" amount="1 8-oz. Package" />
-			<ingredient name="Zest from Rind of 1 Orange" />
+			<ingredient><name>Sugar</name><amount>&frac34; Cup</amount></ingredient>
+			<ingredient>
+				<name>Butter<note>softened</note></name>
+				<amount>&frac12; Cup<note>1 Stick</note></amount>
+			</ingredient>
+			<ingredient>
+				<name>Cream Cheese<note>softened</note></name>
+				<amount>1 8-oz. Package</amount>
+			</ingredient>
+			<ingredient><name>Zest from Rind of 1 Orange</name></ingredient>
 		</section>
 		<section id="IngredientsGlaze" title="Glaze">
-			<ingredient name="Juice from 1 Orange" amountNote="&approx;&frac14; Cup" />
-			<ingredient name="Butter" amount="&frac14; Cup" amountNote="&frac12; Stick" />
-			<ingredient name="Powdered Sugar" amount="1 Cup" />
-			<ingredient name="Vanilla" amount="&frac12; teaspoon" />
+			<ingredient>
+				<name>Juice from 1 Orange</name>
+				<amount><note>&approx;&frac14; Cup</note></amount>
+			</ingredient>
+			<ingredient>
+				<name>Butter</name>
+				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
+			</ingredient>
+			<ingredient><name>Powdered Sugar</name><amount>1 Cup</amount></ingredient>
+			<ingredient><name>Vanilla</name><amount>&frac12; teaspoon</amount></ingredient>
 		</section>
 	</Ingredients>
 

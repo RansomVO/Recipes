@@ -23,26 +23,38 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsCrust" title="Crust">
-			<ingredient name="Water" nameNote="Warm" amount="1 Cup" />
-			<ingredient name="Sugar" amount="1 Tablespoons" />
-			<ingredient name="Yeast" amount="1 Tablespoon" />
-			<ingredient name="Salt" amount="&frac12; Tablespoon" />
-			<ingredient name="Shortening" amount="&frac14; Cup" />
-			<ingredient name="Egg" amount="1" />
-			<ingredient name="Flour" amount="3 Cups" />
+			<ingredient>
+				<name>Water<note>Warm</note></name>
+				<amount>1 Cup</amount>
+			</ingredient>
+			<ingredient><name>Sugar</name><amount>1 Tablespoons</amount></ingredient>
+			<ingredient><name>Yeast</name><amount>1 Tablespoon</amount></ingredient>
+			<ingredient><name>Salt</name><amount>&frac12; Tablespoon</amount></ingredient>
+			<ingredient><name>Shortening</name><amount>&frac14; Cup</amount></ingredient>
+			<ingredient><name>Egg</name><amount>1</amount></ingredient>
+			<ingredient><name>Flour</name><amount>3 Cups</amount></ingredient>
 		</section>
 		<section id="IngredientsToppingSuggestions" title="Topping Suggestions">
-			<ingredient name="Cheese" nameNote="&frac12; Mozzarella + &frac12; Cheddar" />
-			<ingredient name="Ground Sausage" nameNote="Pre-cooked" />
-			<ingredient name="Pepperoni" />
-			<ingredient name="Ham" />
-			<ingredient name="Canadian Bacon" />
-			<ingredient name="Onions" />
-			<ingredient name="Peppers" />
-			<ingredient name="Mushrooms" />
-			<ingredient name="Olives" />
-			<ingredient name="Tomatoes" nameNote="Sliced" />
-			<ingredient name="Pineapple" finePrint="Ransom thinks pineapple is a desecration on pizza, but his kids forced him to include it." />
+			<ingredient>
+				<name>Cheese<note>&frac12; Mozzarella + &frac12; Cheddar</note></name>
+			</ingredient>
+			<ingredient>
+				<name>Ground Sausage<note>Pre-cooked</note></name>
+			</ingredient>
+			<ingredient><name>Pepperoni</name></ingredient>
+			<ingredient><name>Ham</name></ingredient>
+			<ingredient><name>Canadian Bacon</name></ingredient>
+			<ingredient><name>Onions</name></ingredient>
+			<ingredient><name>Peppers</name></ingredient>
+			<ingredient><name>Mushrooms</name></ingredient>
+			<ingredient><name>Olives</name></ingredient>
+			<ingredient>
+				<name>Tomatoes<note>Sliced</note></name>
+			</ingredient>
+			<ingredient>
+				<name>Pineapple</name>
+				<finePrint>Ransom thinks pineapple is a desecration on pizza, but his kids forced him to include it.</finePrint>
+			</ingredient>
 		</section>
 	</Ingredients>
 

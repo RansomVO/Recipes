@@ -23,9 +23,15 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Broth" nameNote="Double-Strength" amount="2 Cups" />
-			<ingredient name="Water" nameNote="Cold" amount="&frac14; Cup" />
-			<ingredient name="Corn Starch" amount="2 Tablespoons" />
+			<ingredient>
+				<name>Broth<note>Double-Strength</note></name>
+				<amount>2 Cups</amount>
+			</ingredient>
+			<ingredient>
+				<name>Water<note>Cold</note></name>
+				<amount>&frac14; Cup</amount>
+			</ingredient>
+			<ingredient><name>Corn Starch</name><amount>2 Tablespoons</amount></ingredient>
 		</section>
 	</Ingredients>
 

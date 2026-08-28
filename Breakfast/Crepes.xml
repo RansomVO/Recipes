@@ -21,14 +21,14 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Eggs" amount="2" />
-			<ingredient name="Milk" amount="&frac23; Cup" />
-			<ingredient name="Water" amount="&frac13; Cup" />
-			<ingredient name="Vanilla" amount="&frac12; teaspoon" />
-			<ingredient name="Sugar" amount="2 Tablespoons" />
-			<ingredient name="Salt" amount="&frac12; teaspoon" />
-			<ingredient name="Baking Powder" amount="1 teaspoon" />
-			<ingredient name="Flour" amount="&frac34; Cup" />
+			<ingredient><name>Eggs</name><amount>2</amount></ingredient>
+			<ingredient><name>Milk</name><amount>&frac23; Cup</amount></ingredient>
+			<ingredient><name>Water</name><amount>&frac13; Cup</amount></ingredient>
+			<ingredient><name>Vanilla</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient><name>Sugar</name><amount>2 Tablespoons</amount></ingredient>
+			<ingredient><name>Salt</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient><name>Baking Powder</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Flour</name><amount>&frac34; Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

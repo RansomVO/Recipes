@@ -26,13 +26,16 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Butter" amount="2 Tablespoons" />
-			<ingredient name="Hot Water" amount="3 Cups" />
-			<ingredient name="Butter" nameNote="Melted" amount="&frac12; Cup" amountNote="1 Stick" />
-			<ingredient name="Sugar" amount="&frac12; Cup" />
-			<ingredient name="Salt" amount="2&frac12; teaspoons" />
-			<ingredient name="Yeast" amount="2 Tablespoons" />
-			<ingredient name="Flour" amount="9&frac12; Cups" />
+			<ingredient><name>Butter</name><amount>2 Tablespoons</amount></ingredient>
+			<ingredient><name>Hot Water</name><amount>3 Cups</amount></ingredient>
+			<ingredient>
+				<name>Butter<note>Melted</note></name>
+				<amount>&frac12; Cup<note>1 Stick</note></amount>
+			</ingredient>
+			<ingredient><name>Sugar</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient><name>Salt</name><amount>2&frac12; teaspoons</amount></ingredient>
+			<ingredient><name>Yeast</name><amount>2 Tablespoons</amount></ingredient>
+			<ingredient><name>Flour</name><amount>9&frac12; Cups</amount></ingredient>
 		</section>
 	</Ingredients>
 

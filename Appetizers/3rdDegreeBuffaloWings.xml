@@ -31,18 +31,30 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsWings" title="Wings">
-			<ingredient name="Flour" amount="1 Cup" />
-			<ingredient name="Paprika" amount="&frac12; teaspoon" />
-			<ingredient name="Cayenne Pepper" amount="&frac12; teaspoon" />
-			<ingredient name="Salt" amount="&frac12; teaspoon" />
-			<ingredient name="Chicken Wings" amount="20 Pieces" amountNote="&approx;3 Lbs." />
-			<ingredient name="Oil" amountNote="for Deep Frying" />
+			<ingredient><name>Flour</name><amount>1 Cup</amount></ingredient>
+			<ingredient><name>Paprika</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient><name>Cayenne Pepper</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient><name>Salt</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>
+				<name>Chicken Wings</name>
+				<amount>20 Pieces<note>&approx;3 Lbs.</note></amount>
+			</ingredient>
+			<ingredient>
+				<name>Oil</name>
+				<amount><note>for Deep Frying</note></amount>
+			</ingredient>
 		</section>
 		<section id="IngredientsSauce" title="Sauce">
-			<ingredient name="Butter" amount="&frac14; Cup" amountNote="&frac12; Stick" />
-			<ingredient name="Hot Sauce" nameNote="Such as Tapat&iAcute;o" amount="&frac12; Cup" />
-			<ingredient name="Ground Black Pepper" amount="2 Dashes" />
-			<ingredient name="Garlic Powder" amount="2 Dashes" />
+			<ingredient>
+				<name>Butter</name>
+				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
+			</ingredient>
+			<ingredient>
+				<name>Hot Sauce<note>Such as Tapat&iAcute;o</note></name>
+				<amount>&frac12; Cup</amount>
+			</ingredient>
+			<ingredient><name>Ground Black Pepper</name><amount>2 Dashes</amount></ingredient>
+			<ingredient><name>Garlic Powder</name><amount>2 Dashes</amount></ingredient>
 		</section>
 	</Ingredients>
 

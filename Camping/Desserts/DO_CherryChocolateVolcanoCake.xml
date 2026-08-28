@@ -25,8 +25,8 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Chocolate Cake Mix" amount="1" />
-			<ingredient name="Cherry Pie Filling" amount="1 21-oz. Can" />
+			<ingredient><name>Chocolate Cake Mix</name><amount>1</amount></ingredient>
+			<ingredient><name>Cherry Pie Filling</name><amount>1 21-oz. Can</amount></ingredient>
 		</section>
 	</Ingredients>
 

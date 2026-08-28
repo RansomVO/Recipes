@@ -27,9 +27,15 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Pasta" nameNote="Spaghetti, Linguini, Fettuccini, etc." amount="1 16-oz. Box" />
-			<ingredient name="Salt" amount="1 teaspoon" />
-			<ingredient name="Oil" nameNote="Preferably Olive Oil" amount="1 Tablespoon" />
+			<ingredient>
+				<name>Pasta<note>Spaghetti, Linguini, Fettuccini, etc.</note></name>
+				<amount>1 16-oz. Box</amount>
+			</ingredient>
+			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient>
+				<name>Oil<note>Preferably Olive Oil</note></name>
+				<amount>1 Tablespoon</amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 

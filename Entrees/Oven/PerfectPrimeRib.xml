@@ -27,9 +27,9 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Rib Roast" amount="5-10 Lbs." />
-			<ingredient name="Kosher Salt" amount="&frac13; Cup" />
-			<ingredient name="Course Ground Black Pepper" amount="1 Tablespoon" />
+			<ingredient><name>Rib Roast</name><amount>5-10 Lbs.</amount></ingredient>
+			<ingredient><name>Kosher Salt</name><amount>&frac13; Cup</amount></ingredient>
+			<ingredient><name>Course Ground Black Pepper</name><amount>1 Tablespoon</amount></ingredient>
 		</section>
 	</Ingredients>
 

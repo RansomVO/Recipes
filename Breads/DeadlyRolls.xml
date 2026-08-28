@@ -25,18 +25,27 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient name="Water" nameNote="Warm" amount="1 Cup" />
-			<ingredient name="Sugar" amount="&frac14; Cup" />
-			<ingredient name="Yeast" amount="1 Package" amountNote="2&frac14; teaspoons" />
+			<ingredient>
+				<name>Water<note>Warm</note></name>
+				<amount>1 Cup</amount>
+			</ingredient>
+			<ingredient><name>Sugar</name><amount>&frac14; Cup</amount></ingredient>
+			<ingredient>
+				<name>Yeast</name>
+				<amount>1 Package<note>2&frac14; teaspoons</note></amount>
+			</ingredient>
 		</section>
 		<section>
-			<ingredient name="Oil" amount="2 Tablespoons" />
-			<ingredient name="Egg" amount="1" />
-			<ingredient name="Salt" amount="1 teaspoon" />
-			<ingredient name="Flour" amount="3-4 Cups" />
+			<ingredient><name>Oil</name><amount>2 Tablespoons</amount></ingredient>
+			<ingredient><name>Egg</name><amount>1</amount></ingredient>
+			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient><name>Flour</name><amount>3-4 Cups</amount></ingredient>
 		</section>
 		<section>
-			<ingredient name="Butter" amount="&frac14; Cup" amountNote="&frac12; Stick" />
+			<ingredient>
+				<name>Butter</name>
+				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 
