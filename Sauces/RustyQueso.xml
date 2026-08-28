@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE Recipe [
+	<!ENTITY section SYSTEM "section.xml">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe>
+	<Title>Rusty Queso</Title>
+	<Yields>&approx;2 Cups</Yields>
+	<Source>From the kitchen of Rusty Taco</Source>
+	<Note>Via Josh VanOrman</Note>
+	<LastModified year="2026" month="8" day="28" />
+
+	<!-- -->&section;<!-- -->
+
+	<Description id="Description">
+		Want to have yummy Nachos?
+		That will require yummy Cheese Sauce!
+		<br />
+		This recipe is based on one from a restaurant named Rusty Taco, and it is <span class="EMPHASIZE">AWESOME!!!</span>
+	</Description>
+
+	<Ingredients id="Ingredients">
+		<section>
+			<ingredient name="Velveeta Cheese" nameNote="ToDo" amount="&frac12; Lb." amountNote="1 Cup" />
+			<ingredient name="Onion" nameNote="Fresh" amount="&frac14;" />
+			<ingredient name="Pickled Jalapenos" nameNote="Canned" amount="2&frac12; Tablespoons" />
+			<ingredient name="Diced Tomatoes" nameNote="Canned" amount="1&frac12; Tablespoons" />
+			<ingredient name="Cumin" amount="&frac14; teaspoon" />
+			<ingredient name="Pepper" amount="&frac18; teaspoon" />
+			<ingredient name="Milk" nameNote="Whole" amount="&frac12; Cup" amountNote="or &frac13;" />
+			<ingredient name="Jalapeno Juice" nameNote="From Pickled Jalapenos Can" amount="1-3 teaspoons" />
+		</section>
+	</Ingredients>
+
+	<Preparation>
+		<section>
+			<prep>Cut the Velveeta Cheese into 4 chunks.</prep>
+			<prep>Dice the Onion into &approx;&frac14;&inch; chunks.</prep>
+		</section>
+	</Preparation>
+
+	<Instructions id="Instructions">
+		<section>
+			<instruction>Throw all ingredients into a double boiler.</instruction>
+			<instruction>Stir with a whisk for about 15 minutes, until the sauce is thick but pourable and all ingredients are visible.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes id="Notes">
+		<note>
+			A double boiler is a tool for melting things without over cooking or burning them.
+			If you don't have a double boiler, you can work-around it by:
+			<ol>
+				<li>
+					Get a skillet that is 3&inch;-4&inch; deep.
+					<br />
+					<span class="NOTE">(Or a shallow pot with a large diameter)</span>
+				</li>
+				<li>Get a small pot that will fit into the skillet without touching the sides.</li>
+			</ol>
+			<!--
+			<ol>
+				<li>Get a pot that has a large diameter. <span class="NOTE">(12&inch; or larger is best.)</span></li>
+				<li>Get a smaller pot with handle(s) at the top.</li>
+				<li>Fill the larger pot with water and place it on a burner at high and bring it to a boil.</li>
+				<li>
+					Put the ingredients in the smaller pot, then
+					<span class="EMPHASIZE">carefully</span>
+					dip the smaller pot into the water, without letting any water get into the smaller pot.
+				</li>
+				<li></li>
+			</ol>
+			-->
+		</note>
+		<note>The Jalapenos and Tomatoes come from a can, but you won't use the entire can of either.</note>
+	</Notes>
+</Recipe>
