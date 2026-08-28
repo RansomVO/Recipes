@@ -29,8 +29,11 @@
 			<head>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<link rel="stylesheet" type="text/css" href="styles.css" />
-				<title> VanOrman Family Recipes - <xsl:if test="ParentSection">
-						<xsl:value-of select="ParentSection" /> / </xsl:if><xsl:value-of select="normalize-space(Section)" />: <xsl:value-of select="Title" /></title>
+				<title>
+					VanOrman Family Recipes -
+					<xsl:if test="ParentSection"><xsl:value-of select="ParentSection" /> / </xsl:if>
+					<xsl:value-of select="normalize-space(Section)" />: <xsl:value-of select="Title" />
+				</title>
 			</head>
 
 			<body>
@@ -429,6 +432,20 @@
 			</tr>
 		</xsl:if>
 	</xsl:template>
+	<xsl:template name="IngredientNote">
+		<xsl:param name="width" />
+		<xsl:param name="content" />
+
+		<div class="SMALL_NOTE">
+			<xsl:attribute name="style">
+				<xsl:value-of select="concat('width:', $width * $widthRatio, 'em; ',      'margin-left:2em; font-weight:normal; text-wrap:wrap;')" />
+			</xsl:attribute>
+
+			<xsl:apply-templates>
+				<xsl:copy-of select="$content" />
+			</xsl:apply-templates>
+		</div>
+	</xsl:template>
 
 	<xsl:template name="PrepNote">
 		<xsl:param name="width" />
@@ -489,20 +506,6 @@
 		</div>
 	</xsl:template>
 
-	<xsl:template name="IngredientNote">
-		<xsl:param name="width" />
-		<xsl:param name="content" />
-
-		<div class="SMALL_NOTE">
-			<xsl:attribute name="style">
-				<xsl:value-of select="concat('width:', $width * $widthRatio, 'em; ',      'margin-left:2em; font-weight:normal; text-wrap:wrap;')" />
-			</xsl:attribute>
-
-			<xsl:apply-templates>
-				<xsl:copy-of select="$content" />
-			</xsl:apply-templates>
-		</div>
-	</xsl:template>
 	<xsl:template match="Instructions">
 		<xsl:param name="linkPrefix" />
 

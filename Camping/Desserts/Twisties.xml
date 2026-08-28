@@ -21,28 +21,26 @@
 	</Description>
 
 	<Ingredients id="Ingredients">
-		<section>
-			<ingredient name="Dutch Father's Pizza Dough" amount="A Lot" />
-			<ingredient name="&quot;Fillings&quot;" />
+		<section id="Dough" title="Dough">
+			<ingredient amount="A Lot">Dutch Father's Pizza Dough</ingredient>
+			<ingredient amount="A Lot">Fillings</ingredient>
+		</section>
+		<section id="Fillings" title="&quot;Fillings&quot; Suggestions">
+			<ingredient>Jam</ingredient>
+			<ingredient>Honey</ingredient>
+			<ingredient>Chocolate Syrup</ingredient>
+			<ingredient><a href=".../ Sauces/HoneyButter.xml">Honey Butter</a></ingredient>
+			<ingredient>etc.</ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions id="Instructions">
 		<section>
 			<instruction>Make Crust dough from <a href=".../Camping/Entrees/DO_DutchFathersPizza.xml#IngredientsCrust">Dutch Father's Pizza</a>.</instruction>
-			<instruction>Roll dough into 2&amp;foot; long &by; &frac12;&inch; diameter "snakes".</instruction>
+			<instruction>Roll dough into 2&foot; long &by; &frac12;&inch; diameter "snakes".</instruction>
 			<instruction>Wrap around a smooth, 1&inch; diameter stick.</instruction>
 			<instruction>Cook over a campfire, like you would a marshmallow, only slower, until golden brown.</instruction>
-			<instruction>
-				Slide off stick, and drizzle something sweet down the middle:
-				<ul>
-					<li>Jam</li>
-					<li>Honey</li>
-					<li>Chocolate Syrup</li>
-					<li><a href=".../Sauces/HoneyButter.xml">Honey Butter</a></li>
-					<li>etc.</li>
-				</ul>
-			</instruction>
+			<instruction>Slide off stick, and drizzle desired Fillings down the middle.</instruction>
 		</section>
 	</Instructions>
 
