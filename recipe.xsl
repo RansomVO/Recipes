@@ -122,8 +122,7 @@
 									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 								</xsl:call-template>
 							</td>
-							<td class="LAST_MODIFIED" style="text-align:right;"> Last updated: <xsl:apply-templates select="LastModified" />
-							</td>
+							<td class="LAST_MODIFIED" style="text-align:right;"> Last updated: <xsl:apply-templates select="LastModified" /></td>
 						</tr>
 					</table>
 				</footer>
