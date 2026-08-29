@@ -29,7 +29,7 @@
 			<ingredient>Jam</ingredient>
 			<ingredient>Honey</ingredient>
 			<ingredient>Chocolate Syrup</ingredient>
-			<ingredient><a href=".../ Sauces/HoneyButter.xml">Honey Butter</a></ingredient>
+			<ingredient>Honey Butter<note>See recipe for <a href=".../Sauces/HoneyButter.xml">Honey Butter</a></note></ingredient>
 			<ingredient>etc.</ingredient>
 		</section>
 	</Ingredients>

@@ -103,20 +103,24 @@
 					<table class="DIVIDER">
 						<tr>
 							<td class="no-print">
-								<a href="/">Home</a> / <xsl:choose>
-									<xsl:when test="ParentSection">
-										<a href="../..">Recipes</a> / <a href="..">
-											<xsl:value-of select="ParentSection" />
-										</a> / <a href=".">
-											<xsl:value-of select="Section" />
-										</a>
-									</xsl:when>
-									<xsl:otherwise>
-										<a href="..">Recipes</a> / <a href=".">
-											<xsl:value-of select="Section" />
-										</a>
-									</xsl:otherwise>
-								</xsl:choose>
+								<xsl:call-template name="RecipeLink">
+									<xsl:with-param name="href" select="'/'" />
+									<xsl:with-param name="text" select="'Home'" />
+									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+								</xsl:call-template> / <xsl:call-template name="RecipeLink">
+									<xsl:with-param name="href" select="'.../'" />
+									<xsl:with-param name="text" select="'Recipes'" />
+									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+								</xsl:call-template> / <xsl:if test="ParentSection">
+									<xsl:call-template name="RecipeLink">
+										<xsl:with-param name="href" select="'..'" />
+										<xsl:with-param name="text" select="ParentSection" />
+										<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+									</xsl:call-template> / </xsl:if><xsl:call-template name="RecipeLink">
+									<xsl:with-param name="href" select="'.'" />
+									<xsl:with-param name="text" select="Section" />
+									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+								</xsl:call-template>
 							</td>
 							<td class="LAST_MODIFIED" style="text-align:right;"> Last updated: <xsl:apply-templates select="LastModified" />
 							</td>
@@ -192,6 +196,13 @@
 
 			<!-- -->&#xA0;&#xA0;&#xA0;&#xA0;<!-- -->
 		</span>
+	</xsl:template>
+	<xsl:template match="Description">
+		<xsl:param name="linkPrefix" />
+
+		<xsl:apply-templates>
+			<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+		</xsl:apply-templates>
 	</xsl:template>
 	<xsl:template match="Title">
 		<xsl:param name="linkPrefix" />

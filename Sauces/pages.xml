@@ -10,4 +10,6 @@
 	<page href="FrySauce.xml">Fry Sauce</page>
 	<page href="DaddydasSauce.xml">Daddyda's Sauce</page>
 	<page href="OneAndOnlyHamGlaze.xml">One and Only Ham Glaze</page>
+	<page class="TODO" href="RustyQueso.xml">Rusty Queso</page>
+	<page class="TODO qzxDisabled" href="RustyGuacamole.xml">Rusty Guacamole</page>
 </Pages>

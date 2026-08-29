@@ -11,10 +11,10 @@
 	<xsl:template match="Index">
 		<xsl:variable name="depth">
 			<xsl:choose>
-				<xsl:when test="document(concat(Section/section/@folder, '/section.xml'))/section/@folder = '.'">1</xsl:when>
-				<xsl:when test="document(concat(Section/section/@folder, '/../section.xml'))/section/@folder = '.'">2</xsl:when>
-				<xsl:when test="document(concat(Section/section/@folder, '/../../section.xml'))/section/@folder = '.'">3</xsl:when>
-				<xsl:otherwise>0</xsl:otherwise>
+				<xsl:when test="Section/@folder = '.'">0</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="string-length(Section/@folder) - string-length(translate(Section/@folder, '/', '')) + 1" />
+				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
 		<xsl:variable name="linkPrefix">
@@ -47,7 +47,7 @@
 				<hr />
 				<xsl:apply-templates select="Pages">
 					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-					<xsl:with-param name="folder" select="Section/section/@folder" />
+					<xsl:with-param name="folder" select="Section/@folder" />
 				</xsl:apply-templates>
 
 				<footer class="FLEX_FOOTER">
