@@ -34,14 +34,14 @@
 			<ingredient>
 				<name>
 					Hot Chocolate Mix
-					<fineprint>Makes a normal chocolate flavor</fineprint>
+					<finePrint>Makes a normal chocolate flavor</finePrint>
 				</name>
 				<amount>&frac12; Cup</amount>
 			</ingredient>
 			<ingredient>
 				<name>
 					Unsweetened Cocoa Powder
-					<fineprint> Makes a <span class="EMPHASIZE">rich</span> chocolate flavor </fineprint>
+					<finePrint> Makes a <span class="EMPHASIZE">rich</span> chocolate flavor </finePrint>
 				</name>
 				<amount>&frac12; Cup</amount>
 			</ingredient>
@@ -61,18 +61,18 @@
 				<name>
 					Cookies, Oreos, etc.
 					<note>Crushed</note>
-					<fineprint>Add and continue Ice Cream Maker for 5 minutes<span class="SUPER_EMPHASIZE">after</span> Ice Cream is desired thickness.</fineprint>
+					<finePrint>Add and continue Ice Cream Maker for 5 minutes<span class="SUPER_EMPHASIZE">after</span> Ice Cream is desired thickness.</finePrint>
 				</name>
 				<amount>2-4 Cups</amount>
 			</ingredient>
 			<ingredient>
 				<name>
 					Chocolate Chips, Raisins, etc.
-					<fineprint>
+					<finePrint>
 						Add and continue Ice Cream Maker for 5 minutes
 						<span class="SUPER_EMPHASIZE">after</span>
 						Ice Cream is desired thickness.
-					</fineprint>
+					</finePrint>
 				</name>
 				<amount>2-4 Cups</amount>
 			</ingredient>
