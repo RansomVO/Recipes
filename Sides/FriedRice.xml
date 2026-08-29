@@ -24,22 +24,22 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Cooked Rice<note>Cold or Cool</note></name>
+				Cooked Rice<note>Cold or Cool</note>
 				<amount>6-8 Cups</amount>
 			</ingredient>
-			<ingredient><name>Vegetable Oil</name><amount>1 Cup</amount></ingredient>
-			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Chicken</name><amount>&frac14;-1 Lbs.</amount></ingredient>
-			<ingredient><name>Chinese Cabbage</name><amount>&frac12;-1 Head</amount></ingredient>
+			<ingredient>Vegetable Oil<amount>1 Cup</amount></ingredient>
+			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Chicken<amount>&frac14;-1 Lbs.</amount></ingredient>
+			<ingredient>Chinese Cabbage<amount>&frac12;-1 Head</amount></ingredient>
 		</section>
 		<section>
-			<ingredient><name>Carrots</name><amount>1-2</amount></ingredient>
+			<ingredient>Carrots<amount>1-2</amount></ingredient>
 			<ingredient>
-				<name>Scallions<note>Green Onions</note></name>
+				Scallions<note>Green Onions</note>
 				<amount>3-4</amount>
 			</ingredient>
-			<ingredient><name>Eggs</name><amount>3-4</amount></ingredient>
-			<ingredient><name>Soy Sauce</name><amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Eggs<amount>3-4</amount></ingredient>
+			<ingredient>Soy Sauce<amount>&frac14; Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

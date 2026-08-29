@@ -23,35 +23,35 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsCrust" title="Crust">
-			<ingredient><name>Flour</name><amount>1 Cup</amount></ingredient>
+			<ingredient>Flour<amount>1 Cup</amount></ingredient>
 			<ingredient>
-				<name>Butter</name>
+				Butter
 				<amount>&frac12; Cup<note>1 Stick</note></amount>
 			</ingredient>
 			<ingredient>
-				<name>Pecans<note>finely chopped</note></name>
+				Pecans<note>finely chopped</note>
 				<amount>1 Cup</amount>
 			</ingredient>
 		</section>
 		<section id="IngredientsBottomLayer" title="Bottom Layer">
 			<ingredient>
-				<name>Cream Cheese<note>softened</note></name>
+				Cream Cheese<note>softened</note>
 				<amount>1 8-oz. Package</amount>
 			</ingredient>
-			<ingredient><name>Powdered Sugar</name><amount>1 Cup</amount></ingredient>
+			<ingredient>Powdered Sugar<amount>1 Cup</amount></ingredient>
 			<ingredient>
-				<name>Whipped Topping<note>thawed</note></name>
+				Whipped Topping<note>thawed</note>
 				<amount>8 Oz.</amount>
 			</ingredient>
 		</section>
 		<section id="IngredientsTopLayer" title="Top Layer">
-			<ingredient><name>Chocolate Instant Pudding Mix</name><amount>4 Ounces</amount></ingredient>
-			<ingredient><name>Vanilla Instant Pudding Mix</name><amount>4 Ounces</amount></ingredient>
-			<ingredient><name>Milk</name><amount>3 Cups</amount></ingredient>
+			<ingredient>Chocolate Instant Pudding Mix<amount>4 Ounces</amount></ingredient>
+			<ingredient>Vanilla Instant Pudding Mix<amount>4 Ounces</amount></ingredient>
+			<ingredient>Milk<amount>3 Cups</amount></ingredient>
 		</section>
 		<section id="IngredientsTopLayer" title="Top Layer">
 			<ingredient>
-				<name>Milk Chocolate Candy Bar<note>grated</note></name>
+				Milk Chocolate Candy Bar<note>grated</note>
 				<amount>1&frac12;-oz. Bar</amount>
 			</ingredient>
 		</section>

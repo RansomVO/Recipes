@@ -23,15 +23,15 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Blue Cheese</name><amount>2 Oz.</amount></ingredient>
-			<ingredient><name>Cream Cheese</name><amount>2 8-oz. Packages</amount></ingredient>
-			<ingredient><name>Kraft Old English Cheese</name><amount>1 Bottle</amount></ingredient>
-			<ingredient><name>Chopped or Dried Chives</name><amount>1 Tablespoon</amount></ingredient>
-			<ingredient><name>Chopped or Dried Parsley</name><amount>&frac14; Cup</amount></ingredient>
-			<ingredient><name>Garlic Salt</name><amount>1 Dash</amount></ingredient>
-			<ingredient><name>Worcestershire Sauce</name><amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Blue Cheese<amount>2 Oz.</amount></ingredient>
+			<ingredient>Cream Cheese<amount>2 8-oz. Packages</amount></ingredient>
+			<ingredient>Kraft Old English Cheese<amount>1 Bottle</amount></ingredient>
+			<ingredient>Chopped or Dried Chives<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Chopped or Dried Parsley<amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Garlic Salt<amount>1 Dash</amount></ingredient>
+			<ingredient>Worcestershire Sauce<amount>1 Tablespoon</amount></ingredient>
 			<ingredient>
-				<name>Pecans<note>Chopped</note></name>
+				Pecans<note>Chopped</note>
 				<amount>1 Cup</amount>
 			</ingredient>
 		</section>

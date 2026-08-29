@@ -23,19 +23,19 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Potatoes<note>Medium</note></name>
+				Potatoes<note>Medium</note>
 				<amount>4</amount>
 			</ingredient>
 			<ingredient>
-				<name>Water</name>
+				Water
 				<amount><note>See Step 4 below</note></amount>
 			</ingredient>
-			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
 			<ingredient>
-				<name>Butter</name>
+				Butter
 				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
 			</ingredient>
-			<ingredient><name>Milk</name><amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Milk<amount>&frac14; Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

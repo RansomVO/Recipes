@@ -24,22 +24,22 @@
 
 	<Ingredients id="Ingredients">
 		<section id="Ingredients2lbLoaf" title="2 Lb. Loaf">
-			<ingredient><name>Milk</name><amount>1&frac12; Cup</amount></ingredient>
-			<ingredient><name>Oil</name><amount>2 Tablespoons</amount></ingredient>
-			<ingredient><name>Bread Flour</name><amount>4 Cups</amount></ingredient>
-			<ingredient><name>Vital Wheat Gluten</name><amount>2 Tablespoons</amount></ingredient>
-			<ingredient><name>Sugar</name><amount>3 Tablespoons</amount></ingredient>
-			<ingredient><name>Salt</name><amount>1&frac12; teaspoons</amount></ingredient>
-			<ingredient><name>Yeast</name><amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Milk<amount>1&frac12; Cup</amount></ingredient>
+			<ingredient>Oil<amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Bread Flour<amount>4 Cups</amount></ingredient>
+			<ingredient>Vital Wheat Gluten<amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Sugar<amount>3 Tablespoons</amount></ingredient>
+			<ingredient>Salt<amount>1&frac12; teaspoons</amount></ingredient>
+			<ingredient>Yeast<amount>1 Tablespoon</amount></ingredient>
 		</section>
 		<section id="Ingredientsl2lbloaf" title="1&frac12; lb. loaf">
-			<ingredient><name>Milk</name><amount>1&frac18; Cup</amount></ingredient>
-			<ingredient><name>Oil</name><amount>1&frac12; Tablespoons</amount></ingredient>
-			<ingredient><name>Bread Flour</name><amount>3 Cups</amount></ingredient>
-			<ingredient><name>Vital Wheat Gluten</name><amount>1&frac12; Tablespoons</amount></ingredient>
-			<ingredient><name>Sugar</name><amount>2 Tablespoons</amount></ingredient>
-			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Yeast</name><amount>&frac34; Tablespoon</amount></ingredient>
+			<ingredient>Milk<amount>1&frac18; Cup</amount></ingredient>
+			<ingredient>Oil<amount>1&frac12; Tablespoons</amount></ingredient>
+			<ingredient>Bread Flour<amount>3 Cups</amount></ingredient>
+			<ingredient>Vital Wheat Gluten<amount>1&frac12; Tablespoons</amount></ingredient>
+			<ingredient>Sugar<amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Yeast<amount>&frac34; Tablespoon</amount></ingredient>
 		</section>
 	</Ingredients>
 

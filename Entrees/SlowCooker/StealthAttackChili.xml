@@ -31,27 +31,27 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Dried Kidney Beans</name><amount>2 Cups</amount></ingredient>
-			<ingredient><name>Dried Red Beans</name><amount>1 Cup</amount></ingredient>
-			<ingredient><name>Dried Pinto Beans</name><amount>1 Cup</amount></ingredient>
-			<ingredient><name>Water</name><amount>2 Quarts</amount></ingredient>
-			<ingredient><name>Hamburger</name><amount>1 Lb.</amount></ingredient>
-			<ingredient><name>Dried Minced Onion</name><amount>&frac12;-1 Cup</amount></ingredient>
-			<ingredient><name>Chili Powder</name><amount>1-2 Tablespoons</amount></ingredient>
-			<ingredient><name>Cayenne Pepper</name><amount>&frac12;-2 teaspoons</amount></ingredient>
-			<ingredient><name>Black Pepper</name><amount>&frac12;-2 teaspoons</amount></ingredient>
-			<ingredient><name>Garlic Powder</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient>Dried Kidney Beans<amount>2 Cups</amount></ingredient>
+			<ingredient>Dried Red Beans<amount>1 Cup</amount></ingredient>
+			<ingredient>Dried Pinto Beans<amount>1 Cup</amount></ingredient>
+			<ingredient>Water<amount>2 Quarts</amount></ingredient>
+			<ingredient>Hamburger<amount>1 Lb.</amount></ingredient>
+			<ingredient>Dried Minced Onion<amount>&frac12;-1 Cup</amount></ingredient>
+			<ingredient>Chili Powder<amount>1-2 Tablespoons</amount></ingredient>
+			<ingredient>Cayenne Pepper<amount>&frac12;-2 teaspoons</amount></ingredient>
+			<ingredient>Black Pepper<amount>&frac12;-2 teaspoons</amount></ingredient>
+			<ingredient>Garlic Powder<amount>1 teaspoon</amount></ingredient>
 		</section>
 		<section>
-			<ingredient><name>Celery Seed</name><amount>2 teaspoons</amount></ingredient>
-			<ingredient><name>Paprika</name><amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient><name>Cumin</name><amount>2 teaspoons</amount></ingredient>
-			<ingredient><name>Salt</name><amount>2 Tablespoons</amount></ingredient>
-			<ingredient><name>Brown Sugar</name><amount>2 Tablespoons</amount></ingredient>
-			<ingredient><name>Tomato Sauce</name><amount>3 8-oz. Cans</amount></ingredient>
-			<ingredient><name>Tomato Paste</name><amount>2 6-oz. Cans</amount></ingredient>
-			<ingredient><name>Tomatoes</name><amount>6</amount></ingredient>
-			<ingredient><name>Water</name><amount>&frac12;-2 Cups</amount></ingredient>
+			<ingredient>Celery Seed<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Paprika<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Cumin<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Salt<amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Brown Sugar<amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Tomato Sauce<amount>3 8-oz. Cans</amount></ingredient>
+			<ingredient>Tomato Paste<amount>2 6-oz. Cans</amount></ingredient>
+			<ingredient>Tomatoes<amount>6</amount></ingredient>
+			<ingredient>Water<amount>&frac12;-2 Cups</amount></ingredient>
 		</section>
 	</Ingredients>
 

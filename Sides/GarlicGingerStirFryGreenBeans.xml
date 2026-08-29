@@ -26,22 +26,22 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Crushed Red Chili Pepper Flakes</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient>Crushed Red Chili Pepper Flakes<amount>1 teaspoon</amount></ingredient>
 			<ingredient>
-				<name>Ginger<note>Finely Grated</note></name>
+				Ginger<note>Finely Grated</note>
 				<amount>&frac12; Tablespoon<note>Unless Di says to not use it. &smiley;</note></amount>
 			</ingredient>
 			<ingredient>
-				<name>Chili Sauce<note>Tapat&iAcute;o is our favorite</note></name>
+				Chili Sauce<note>Tapat&iAcute;o is our favorite</note>
 				<amount>&frac14; teaspoon</amount>
 			</ingredient>
-			<ingredient><name>Soy Sauce</name><amount>3 Tablespoons</amount></ingredient>
-			<ingredient><name>Rice Wine Vinegar</name><amount>&frac12; Tablespoon</amount></ingredient>
-			<ingredient><name>Sesame Oil</name><amount>&frac12; Tablespoon</amount></ingredient>
-			<ingredient><name>Water</name><amount>1 Tablespoon</amount></ingredient>
-			<ingredient><name>Vegetable Oil</name><amount>2 Tablespoon</amount></ingredient>
-			<ingredient><name>Minced Garlic</name><amount>1 Tablespoon</amount></ingredient>
-			<ingredient><name>Fresh Green Beans</name><amount>1 Pound</amount></ingredient>
+			<ingredient>Soy Sauce<amount>3 Tablespoons</amount></ingredient>
+			<ingredient>Rice Wine Vinegar<amount>&frac12; Tablespoon</amount></ingredient>
+			<ingredient>Sesame Oil<amount>&frac12; Tablespoon</amount></ingredient>
+			<ingredient>Water<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Vegetable Oil<amount>2 Tablespoon</amount></ingredient>
+			<ingredient>Minced Garlic<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Fresh Green Beans<amount>1 Pound</amount></ingredient>
 		</section>
 	</Ingredients>
 

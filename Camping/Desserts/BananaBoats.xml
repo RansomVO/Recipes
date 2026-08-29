@@ -23,11 +23,11 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Banana<note>Not Peeled</note></name>
+				Banana<note>Not Peeled</note>
 				<amount>1</amount>
 			</ingredient>
-			<ingredient><name>Miniture Marshmallows</name><amount>1-2 Tablespoons</amount></ingredient>
-			<ingredient><name>Chocolate Chips</name><amount>1-2 Tablespoons</amount></ingredient>
+			<ingredient>Miniture Marshmallows<amount>1-2 Tablespoons</amount></ingredient>
+			<ingredient>Chocolate Chips<amount>1-2 Tablespoons</amount></ingredient>
 		</section>
 	</Ingredients>
 

@@ -23,9 +23,9 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Ketchup</name><amount>&frac12; Cup</amount></ingredient>
-			<ingredient><name>Mayonnaise</name><amount>&frac12; Cup</amount></ingredient>
-			<ingredient><name>Pickle Relish</name><amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Ketchup<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Mayonnaise<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Pickle Relish<amount>1 Tablespoon</amount></ingredient>
 		</section>
 	</Ingredients>
 

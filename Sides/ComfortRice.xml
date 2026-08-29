@@ -36,18 +36,18 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Olive Oil</name><amount>3 Tablespoons</amount></ingredient>
+			<ingredient>Olive Oil<amount>3 Tablespoons</amount></ingredient>
 			<ingredient>
-				<name>Water<note>HOT</note></name>
+				Water<note>HOT</note>
 				<amount>4 Cups</amount>
 			</ingredient>
-			<ingredient><name>Chicken Bouillon</name><amount>1&frac12; Tablespoons</amount></ingredient>
-			<ingredient><name>Roma Tomato</name><amount>1</amount></ingredient>
-			<ingredient><name>Onion</name><amount>&frac12;</amount></ingredient>
-			<ingredient><name>Tomato Paste</name><amount>2 teaspoons</amount></ingredient>
-			<ingredient><name>Rice</name><amount>2 Cups</amount></ingredient>
+			<ingredient>Chicken Bouillon<amount>1&frac12; Tablespoons</amount></ingredient>
+			<ingredient>Roma Tomato<amount>1</amount></ingredient>
+			<ingredient>Onion<amount>&frac12;</amount></ingredient>
+			<ingredient>Tomato Paste<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Rice<amount>2 Cups</amount></ingredient>
 			<ingredient>
-				<name>Garlic<note>Minced</note></name>
+				Garlic<note>Minced</note>
 				<amount>1 Tablespoon</amount>
 			</ingredient>
 		</section>

@@ -22,14 +22,14 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Sugar</name><amount>&frac12; Cup</amount></ingredient>
-			<ingredient><name>Cinnamon</name><amount>2 teaspoons</amount></ingredient>
-			<ingredient><name>Biscuit Dough</name><amount>3 7.5-oz. Tubes</amount></ingredient>
+			<ingredient>Sugar<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Cinnamon<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Biscuit Dough<amount>3 7.5-oz. Tubes</amount></ingredient>
 			<ingredient>
-				<name>Butter</name>
+				Butter
 				<amount>&frac12; Cup<note>1 Stick</note></amount>
 			</ingredient>
-			<ingredient><name>Brown Sugar</name><amount>1 Cup</amount></ingredient>
+			<ingredient>Brown Sugar<amount>1 Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

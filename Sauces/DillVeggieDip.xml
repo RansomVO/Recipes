@@ -19,12 +19,12 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Sour Cream</name><amount>1 Cup</amount></ingredient>
-			<ingredient><name>Mayonnaise</name><amount>1 Cup</amount></ingredient>
-			<ingredient><name>Dill Weed</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Bon Ap&eAcute;tite</name><amount>2 teaspoons</amount></ingredient>
+			<ingredient>Sour Cream<amount>1 Cup</amount></ingredient>
+			<ingredient>Mayonnaise<amount>1 Cup</amount></ingredient>
+			<ingredient>Dill Weed<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Bon Ap&eAcute;tite<amount>2 teaspoons</amount></ingredient>
 			<ingredient>
-				<name>Scallions<note>Green Onions</note></name>
+				Scallions<note>Green Onions</note>
 				<amount>5</amount>
 			</ingredient>
 		</section>

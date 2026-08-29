@@ -28,13 +28,13 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Pork Chops</name><amount>2</amount></ingredient>
-			<ingredient><name>Onion</name><amount>1</amount></ingredient>
-			<ingredient><name>Potatoes</name><amount>2-4</amount></ingredient>
-			<ingredient><name>Carrots</name><amount>2-4</amount></ingredient>
-			<ingredient><name>Water</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Pork Chops<amount>2</amount></ingredient>
+			<ingredient>Onion<amount>1</amount></ingredient>
+			<ingredient>Potatoes<amount>2-4</amount></ingredient>
+			<ingredient>Carrots<amount>2-4</amount></ingredient>
+			<ingredient>Water<amount>&frac12; Cup</amount></ingredient>
 			<ingredient>
-				<name>Salt and Pepper</name>
+				Salt and Pepper
 				<amount><note>To taste</note></amount>
 			</ingredient>
 		</section>

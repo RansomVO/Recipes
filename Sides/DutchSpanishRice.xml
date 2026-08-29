@@ -24,17 +24,17 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Onions<note>Medium</note></name>
+				Onions<note>Medium</note>
 				<amount>2<note>or 1 Large</note></amount>
 			</ingredient>
-			<ingredient><name>Hamburger</name><amount>1 Lb.</amount></ingredient>
-			<ingredient><name>Rice</name><amount>3 Cups</amount></ingredient>
-			<ingredient><name>Diced Tomatoes</name><amount>2 14.5-oz. Cans</amount></ingredient>
-			<ingredient><name>Tomato Sauce</name><amount>2 15-oz. Cans</amount></ingredient>
-			<ingredient><name>Salt</name><amount>1 Tablespoon</amount></ingredient>
-			<ingredient><name>Pepper</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Water</name><amount>1 Quart</amount></ingredient>
-			<ingredient><name>Green Bell Pepper</name><amount>1</amount></ingredient>
+			<ingredient>Hamburger<amount>1 Lb.</amount></ingredient>
+			<ingredient>Rice<amount>3 Cups</amount></ingredient>
+			<ingredient>Diced Tomatoes<amount>2 14.5-oz. Cans</amount></ingredient>
+			<ingredient>Tomato Sauce<amount>2 15-oz. Cans</amount></ingredient>
+			<ingredient>Salt<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Pepper<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Water<amount>1 Quart</amount></ingredient>
+			<ingredient>Green Bell Pepper<amount>1</amount></ingredient>
 		</section>
 	</Ingredients>
 

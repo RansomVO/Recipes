@@ -24,38 +24,36 @@
 	<Ingredients id="Ingredients">
 		<section id="IngredientsCrust" title="Crust">
 			<ingredient>
-				<name>Water<note>Warm</note></name>
+				Water<note>Warm</note>
 				<amount>1 Cup</amount>
 			</ingredient>
-			<ingredient><name>Sugar</name><amount>1 Tablespoons</amount></ingredient>
-			<ingredient><name>Yeast</name><amount>1 Tablespoon</amount></ingredient>
-			<ingredient><name>Salt</name><amount>&frac12; Tablespoon</amount></ingredient>
-			<ingredient><name>Shortening</name><amount>&frac14; Cup</amount></ingredient>
-			<ingredient><name>Egg</name><amount>1</amount></ingredient>
-			<ingredient><name>Flour</name><amount>3 Cups</amount></ingredient>
+			<ingredient>Sugar<amount>1 Tablespoons</amount></ingredient>
+			<ingredient>Yeast<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Salt<amount>&frac12; Tablespoon</amount></ingredient>
+			<ingredient>Shortening<amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Egg<amount>1</amount></ingredient>
+			<ingredient>Flour<amount>3 Cups</amount></ingredient>
 		</section>
 		<section id="IngredientsToppingSuggestions" title="Topping Suggestions">
 			<ingredient>
-				<name>Cheese<note>&frac12; Mozzarella + &frac12; Cheddar</note></name>
+				Cheese<note>&frac12; Mozzarella + &frac12; Cheddar</note>
 			</ingredient>
 			<ingredient>
-				<name>Ground Sausage<note>Pre-cooked</note></name>
+				Ground Sausage<note>Pre-cooked</note>
 			</ingredient>
-			<ingredient><name>Pepperoni</name></ingredient>
-			<ingredient><name>Ham</name></ingredient>
-			<ingredient><name>Canadian Bacon</name></ingredient>
-			<ingredient><name>Onions</name></ingredient>
-			<ingredient><name>Peppers</name></ingredient>
-			<ingredient><name>Mushrooms</name></ingredient>
-			<ingredient><name>Olives</name></ingredient>
+			<ingredient>Pepperoni</ingredient>
+			<ingredient>Ham</ingredient>
+			<ingredient>Canadian Bacon</ingredient>
+			<ingredient>Onions</ingredient>
+			<ingredient>Peppers</ingredient>
+			<ingredient>Mushrooms</ingredient>
+			<ingredient>Olives</ingredient>
 			<ingredient>
-				<name>Tomatoes<note>Sliced</note></name>
+				Tomatoes<note>Sliced</note>
 			</ingredient>
 			<ingredient>
-				<name>
-					Pineapple
-					<finePrint>Ransom thinks pineapple is a desecration on pizza, but his kids forced him to include it.</finePrint>
-				</name>
+				Pineapple
+				<finePrint>Ransom thinks pineapple is a desecration on pizza, but his kids forced him to include it.</finePrint>
 			</ingredient>
 		</section>
 	</Ingredients>

@@ -23,32 +23,32 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsCookies" title="Cookies">
-			<ingredient><name>Sugar</name><amount>2 Cups</amount></ingredient>
+			<ingredient>Sugar<amount>2 Cups</amount></ingredient>
 			<ingredient>
-				<name>Butter<note>Softened</note></name>
+				Butter<note>Softened</note>
 				<amount>1 Cup<note>2 Sticks</note></amount>
 			</ingredient>
-			<ingredient><name>Eggs</name><amount>3</amount></ingredient>
-			<ingredient><name>Sour Cream</name><amount>1 Cup</amount></ingredient>
-			<ingredient><name>Vanilla</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Baking Soda</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Flour</name><amount>6&frac12; Cups</amount></ingredient>
-			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient>Eggs<amount>3</amount></ingredient>
+			<ingredient>Sour Cream<amount>1 Cup</amount></ingredient>
+			<ingredient>Vanilla<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Baking Soda<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Flour<amount>6&frac12; Cups</amount></ingredient>
+			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
 		</section>
 		<section id="IngredientsFrosting" title="Frosting">
 			<ingredient>
-				<name>Butter<note>Softened</note></name>
+				Butter<note>Softened</note>
 				<amount>&frac12; Cup<note>1 Stick</note></amount>
 			</ingredient>
-			<ingredient><name>Cream Cheese</name><amount>1 8-oz. Package</amount></ingredient>
-			<ingredient><name>Vanilla</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Powdered Sugar</name><amount>4 Cups</amount></ingredient>
+			<ingredient>Cream Cheese<amount>1 8-oz. Package</amount></ingredient>
+			<ingredient>Vanilla<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Powdered Sugar<amount>4 Cups</amount></ingredient>
 			<ingredient>
-				<name>Food Coloring<note>Optional</note></name>
+				Food Coloring<note>Optional</note>
 				<amount>A Few Drops</amount>
 			</ingredient>
 			<ingredient>
-				<name>Milk</name>
+				Milk
 				<amount><note>as needed</note></amount>
 			</ingredient>
 		</section>

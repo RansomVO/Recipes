@@ -26,45 +26,45 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsTortillas" title="Tortillas">
-			<ingredient><name>Flour</name><amount>4 Cups</amount></ingredient>
-			<ingredient><name>Salt</name><amount>2 teaspoons</amount></ingredient>
+			<ingredient>Flour<amount>4 Cups</amount></ingredient>
+			<ingredient>Salt<amount>2 teaspoons</amount></ingredient>
 			<ingredient>
-				<name>Shortening</name>
+				Shortening
 				<amount>&frac12; Cup<note>rounded</note></amount>
 			</ingredient>
 			<ingredient>
-				<name>Water<note>Luke-Warm</note></name>
+				Water<note>Luke-Warm</note>
 				<amount>1 Cup</amount>
 			</ingredient>
 		</section>
 		<section id="IngredientsFilling" title="Filling">
-			<ingredient><name>Beef</name><amount>2 Lbs.</amount></ingredient>
+			<ingredient>Beef<amount>2 Lbs.</amount></ingredient>
 			<ingredient>
-				<name>Onion</name>
+				Onion
 				<amount>1<note>Large</note></amount>
 			</ingredient>
-			<ingredient><name>Chili Powder</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Chili Powder<amount>&frac12; teaspoon</amount></ingredient>
 			<ingredient>
-				<name>Black Pepper<note>Ground</note></name>
+				Black Pepper<note>Ground</note>
 				<amount>&frac14; teaspoon</amount>
 			</ingredient>
-			<ingredient><name>Garlic Salt</name><amount>1 Dash</amount></ingredient>
-			<ingredient><name>Worcestershire Sauce</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Corn Starch</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Green Peppers</name><amount>2</amount></ingredient>
-			<ingredient><name>Red Pepper</name><amount>1</amount></ingredient>
+			<ingredient>Garlic Salt<amount>1 Dash</amount></ingredient>
+			<ingredient>Worcestershire Sauce<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Corn Starch<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Green Peppers<amount>2</amount></ingredient>
+			<ingredient>Red Pepper<amount>1</amount></ingredient>
 			<ingredient>
-				<name>Tomato<note>Large</note></name>
+				Tomato<note>Large</note>
 				<amount>1</amount>
 			</ingredient>
 		</section>
 		<section id="IngredientsToppings" title="Toppings Suggestions">
-			<ingredient><name>Lettuce</name></ingredient>
-			<ingredient><name>Cheese</name></ingredient>
-			<ingredient><name>Olives</name></ingredient>
-			<ingredient><name>Salsa</name></ingredient>
-			<ingredient><name>Guacamole</name></ingredient>
-			<ingredient><name>Sour Cream</name></ingredient>
+			<ingredient>Lettuce</ingredient>
+			<ingredient>Cheese</ingredient>
+			<ingredient>Olives</ingredient>
+			<ingredient>Salsa</ingredient>
+			<ingredient>Guacamole</ingredient>
+			<ingredient>Sour Cream</ingredient>
 		</section>
 	</Ingredients>
 

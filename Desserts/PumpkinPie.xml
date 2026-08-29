@@ -25,29 +25,29 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Pumpkin</name><amount>1 29-oz. Can</amount></ingredient>
-			<ingredient><name>Evaporated Milk</name><amount>2 12-fl.Oz. Cans</amount></ingredient>
-			<ingredient><name>Sugar</name><amount>2 Cups</amount></ingredient>
-			<ingredient><name>Eggs</name><amount>4</amount></ingredient>
-			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient>Pumpkin<amount>1 29-oz. Can</amount></ingredient>
+			<ingredient>Evaporated Milk<amount>2 12-fl.Oz. Cans</amount></ingredient>
+			<ingredient>Sugar<amount>2 Cups</amount></ingredient>
+			<ingredient>Eggs<amount>4</amount></ingredient>
+			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
 			<ingredient>
-				<name>Cinnamon<note>ground</note></name>
+				Cinnamon<note>ground</note>
 				<amount>3 teaspoons</amount>
 			</ingredient>
 			<ingredient>
-				<name>Nutmeg<note>ground</note></name>
+				Nutmeg<note>ground</note>
 				<amount>1 teaspoon</amount>
 			</ingredient>
 			<ingredient>
-				<name>Ginger<note>ground</note></name>
+				Ginger<note>ground</note>
 				<amount>1 teaspoon</amount>
 			</ingredient>
 			<ingredient>
-				<name>Allspice<note>ground</note></name>
+				Allspice<note>ground</note>
 				<amount>1 teaspoon</amount>
 			</ingredient>
 			<ingredient>
-				<name>Cloves<note>ground</note></name>
+				Cloves<note>ground</note>
 				<amount>1 teaspoon</amount>
 			</ingredient>
 		</section>

@@ -21,15 +21,15 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Fruit<note>Apples, Peaches, etc.</note></name>
+				Fruit<note>Apples, Peaches, etc.</note>
 				<amount>3-4 15-oz. Cans</amount>
 			</ingredient>
 			<ingredient>
-				<name>Cake Mix<note>Yellow or White</note></name>
+				Cake Mix<note>Yellow or White</note>
 				<amount>1</amount>
 			</ingredient>
 			<ingredient>
-				<name>Butter</name>
+				Butter
 				<amount>&frac12; Cup<note>1 Stick</note></amount>
 			</ingredient>
 		</section>

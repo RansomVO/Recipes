@@ -86,9 +86,10 @@
 		</xs:sequence>
 	</xs:complexType>
 
-	<xs:complexType name="Ingredient">
+	<xs:complexType name="Ingredient" mixed="true">
 		<xs:sequence>
-			<xs:element name="name" type="IngredientPart" />
+			<xs:element name="note" type="xs:string" minOccurs="0" />
+			<xs:element name="finePrint" type="xs:string" minOccurs="0" />
 			<xs:element name="amount" type="IngredientPart" minOccurs="0" />
 		</xs:sequence>
 		<xs:attribute name="comment" type="xs:string" />

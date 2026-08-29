@@ -24,20 +24,20 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Water<note>Warm</note></name>
+				Water<note>Warm</note>
 				<amount>3 Gallons</amount>
 			</ingredient>
-			<ingredient><name>Sugar</name><amount>10 Lbs.</amount></ingredient>
-			<ingredient><name>Root Beer Extract</name><amount>1 2-oz. Bottle</amount></ingredient>
+			<ingredient>Sugar<amount>10 Lbs.</amount></ingredient>
+			<ingredient>Root Beer Extract<amount>1 2-oz. Bottle</amount></ingredient>
 		</section>
 		<section>
 			<ingredient>
-				<name>Vanilla<note>Cheap</note></name>
+				Vanilla<note>Cheap</note>
 				<amount>2 Oz.</amount>
 			</ingredient>
-			<ingredient><name>Dry Ice</name><amount>8-10 Lbs.</amount></ingredient>
+			<ingredient>Dry Ice<amount>8-10 Lbs.</amount></ingredient>
 			<ingredient>
-				<name>Water<note>Cold</note></name>
+				Water<note>Cold</note>
 				<amount>1-2 Gallons</amount>
 			</ingredient>
 		</section>

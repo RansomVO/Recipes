@@ -330,9 +330,9 @@
 
 		<xsl:variable name="maxIngredientLength">
 			<xsl:for-each select="../ingredient">
-				<xsl:sort select="(string-length(name/node()[not(self::note or self::finePrint)]) + ((string-length(name/note) + 2) * $noteRatio)) * $widthRatio" data-type="number" />
+				<xsl:sort select="(string-length(node()[not(self::note or self::finePrint or self::amount)]) + ((string-length(note) + 2) * $noteRatio)) * $widthRatio" data-type="number" />
 				<xsl:if test="position()=last()">
-					<xsl:value-of select="string-length(name/node()[not(self::note or self::finePrint)]) + ((string-length(name/note) + 2) * $noteRatio)" />
+					<xsl:value-of select="string-length(node()[not(self::note or self::finePrint or self::amount)]) + ((string-length(note) + 2) * $noteRatio)" />
 				</xsl:if>
 			</xsl:for-each>
 		</xsl:variable>
@@ -367,42 +367,36 @@
 
 		<tr>
 			<td class="RECIPE_INGREDIENT">
-				<xsl:if test="name/note = 'Optional'">
+				<xsl:if test="note = 'Optional'">
 					<i style="font-weight:normal;">(Optional)&#xA0;</i>
 				</xsl:if>
-				<xsl:apply-templates select="name/node()[not(self::note or self::finePrint)]">
+				<xsl:apply-templates select="node()[not(self::note or self::finePrint or self::amount)]">
 					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 				</xsl:apply-templates>
-				<xsl:if test="name/note and (name/note != 'Optional')">
+				<xsl:if test="note and (note != 'Optional')">
 					<xsl:choose>
-						<xsl:when test="($sectionCount > 1) and (string-length(name/node()[not(self::note or self::finePrint)]) + ((string-length(name/note) + 2) * $noteRatio) > $maxWidth)">
+						<xsl:when test="($sectionCount > 1) and (string-length(node()[not(self::note or self::finePrint or self::amount)]) + ((string-length(note) + 2) * $noteRatio) > $maxWidth)">
 							<div class="SMALL_NOTE">
 								<xsl:attribute name="style">
 									<xsl:value-of select="concat('width:', $ingredientWidth * $widthRatio, 'em;', ' margin:0; text-align:right;')" />
-								</xsl:attribute> (<xsl:apply-templates select="name/note/node()">
+								</xsl:attribute> (<xsl:apply-templates select="note/node()">
 									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 								</xsl:apply-templates>) </div>
 						</xsl:when>
 
 						<xsl:otherwise>
-							<span class="SMALL_NOTE">&#xA0;(<xsl:apply-templates select="name/note/node()">
+							<span class="SMALL_NOTE">&#xA0;(<xsl:apply-templates select="note/node()">
 									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 								</xsl:apply-templates>)</span>
 						</xsl:otherwise>
 					</xsl:choose>
 				</xsl:if>
-				<xsl:if test="node()[not(self::name or self::amount or self::finePrint)]">
-					<xsl:call-template name="IngredientNote">
-						<xsl:with-param name="width" select="$ingredientWidth" />
-						<xsl:with-param name="content" select="node()[not(self::name or self::amount or self::finePrint)]" />
-					</xsl:call-template>
-				</xsl:if>
-				<xsl:if test="name/finePrint">
+				<xsl:if test="finePrint">
 					<div class="RECIPE_INGREDIENT_FINE_PRINT">
 						<xsl:attribute name="style">
 							<xsl:value-of select="concat('width:', $ingredientWidth * $widthRatio, 'em;')" />
 						</xsl:attribute>
-						<xsl:apply-templates select="name/finePrint">
+						<xsl:apply-templates select="finePrint">
 							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 						</xsl:apply-templates>
 					</div>
@@ -432,18 +426,6 @@
 				</xsl:if>
 			</td>
 		</tr>
-	</xsl:template>
-	<xsl:template name="IngredientNote">
-		<xsl:param name="width" />
-		<xsl:param name="content" />
-
-		<div class="SMALL_NOTE">
-			<xsl:attribute name="style">
-				<xsl:value-of select="concat('width:', $width * $widthRatio, 'em; ',      'margin-left:2em; font-weight:normal; text-wrap:wrap;')" />
-			</xsl:attribute>
-
-			<xsl:apply-templates select="$content" />
-		</div>
 	</xsl:template>
 
 	<xsl:template name="PrepNote">

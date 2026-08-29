@@ -24,30 +24,30 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Celery<note>With Leaves</note></name>
+				Celery<note>With Leaves</note>
 				<amount>1&frac12; Cups</amount>
 			</ingredient>
 			<ingredient>
-				<name>Sage Leaves<note>Fresh</note></name>
+				Sage Leaves<note>Fresh</note>
 				<amount>1&frac12; teaspoons</amount>
 			</ingredient>
 			<ingredient>
-				<name>Thyme Leaves<note>Fresh</note></name>
+				Thyme Leaves<note>Fresh</note>
 				<amount>1 teaspoon</amount>
 			</ingredient>
 			<ingredient>
-				<name>Mushrooms<note>May be Sliced</note></name>
+				Mushrooms<note>May be Sliced</note>
 				<amount>1-2 Cups</amount>
 			</ingredient>
-			<ingredient><name>Salt</name><amount>2 teaspoons</amount></ingredient>
-			<ingredient><name>Pepper</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Salt<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Pepper<amount>&frac12; teaspoon</amount></ingredient>
 			<ingredient>
-				<name>Butter</name>
+				Butter
 				<amount>1 Cup<note>2 Sticks</note></amount>
 			</ingredient>
-			<ingredient><name>Turkey Broth</name><amount>2 Cups</amount></ingredient>
+			<ingredient>Turkey Broth<amount>2 Cups</amount></ingredient>
 			<ingredient>
-				<name>Bread<note>As heavy/dense as possible</note></name>
+				Bread<note>As heavy/dense as possible</note>
 				<amount>1 Loaf</amount>
 			</ingredient>
 		</section>

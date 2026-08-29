@@ -24,14 +24,14 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Large Whole Mushrooms<note>Caps &approx;1&frac12;&quot;-3&quot; in diameter</note></name>
+				Large Whole Mushrooms<note>Caps &approx;1&frac12;&quot;-3&quot; in diameter</note>
 				<amount>12<note>&approx;1 Lb.</note></amount>
 			</ingredient>
-			<ingredient><name>Sausage</name><amount>&frac12; 1b.</amount></ingredient>
-			<ingredient><name>Onion</name><amount>&frac12; Small</amount></ingredient>
-			<ingredient><name>Parmesan Cheese</name><amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Sausage<amount>&frac12; 1b.</amount></ingredient>
+			<ingredient>Onion<amount>&frac12; Small</amount></ingredient>
+			<ingredient>Parmesan Cheese<amount>2 Tablespoons</amount></ingredient>
 			<ingredient>
-				<name>Mozzarella Cheese</name>
+				Mozzarella Cheese
 				<amount>1 Cup<note>&approx;&frac14; lb.</note></amount>
 			</ingredient>
 		</section>

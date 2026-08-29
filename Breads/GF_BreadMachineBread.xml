@@ -25,15 +25,15 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Eggs</name><amount>3</amount></ingredient>
-			<ingredient><name>Milk</name><amount>2 Cups</amount></ingredient>
-			<ingredient><name>Oil</name><amount>&frac14; Cup</amount></ingredient>
-			<ingredient><name>Apple Cider Vinegar</name><amount>1 Tablespoon</amount></ingredient>
-			<ingredient><name>Gluten-Free All Purpose Baking Flour</name><amount>3 Cups</amount></ingredient>
-			<ingredient><name>Sugar</name><amount>3 Tablespoons</amount></ingredient>
-			<ingredient><name>Salt</name><amount>1&frac12; teaspoons</amount></ingredient>
-			<ingredient><name>Xanthan Gum</name><amount>1 Tablespoon</amount></ingredient>
-			<ingredient><name>Yeast</name><amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Eggs<amount>3</amount></ingredient>
+			<ingredient>Milk<amount>2 Cups</amount></ingredient>
+			<ingredient>Oil<amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Apple Cider Vinegar<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Gluten-Free All Purpose Baking Flour<amount>3 Cups</amount></ingredient>
+			<ingredient>Sugar<amount>3 Tablespoons</amount></ingredient>
+			<ingredient>Salt<amount>1&frac12; teaspoons</amount></ingredient>
+			<ingredient>Xanthan Gum<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Yeast<amount>1 Tablespoon</amount></ingredient>
 		</section>
 	</Ingredients>
 

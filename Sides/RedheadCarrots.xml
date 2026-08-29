@@ -24,18 +24,18 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Carrots</name><amount>2-3</amount></ingredient>
+			<ingredient>Carrots<amount>2-3</amount></ingredient>
 			<ingredient>
-				<name>Fresh Ginger<note>finely grated</note></name>
+				Fresh Ginger<note>finely grated</note>
 				<amount>1 Tablespoon</amount>
 			</ingredient>
-			<ingredient><name>Brown Sugar</name><amount>2 Tablespoons</amount></ingredient>
-			<ingredient><name>Minced Garlic</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Brown Sugar<amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Minced Garlic<amount>&frac12; teaspoon</amount></ingredient>
 			<ingredient>
-				<name>Chicken Broth<note>Double-Strength</note></name>
+				Chicken Broth<note>Double-Strength</note>
 				<amount>2 Cups</amount>
 			</ingredient>
-			<ingredient><name>Butter</name><amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Butter<amount>2 Tablespoons</amount></ingredient>
 		</section>
 	</Ingredients>
 

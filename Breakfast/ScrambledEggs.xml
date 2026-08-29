@@ -22,13 +22,13 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Eggs</name><amount>1-2</amount></ingredient>
+			<ingredient>Eggs<amount>1-2</amount></ingredient>
 			<ingredient>
-				<name>Milk</name>
+				Milk
 				<amount>1 Tablespoon<note>per Egg</note></amount>
 			</ingredient>
 			<ingredient>
-				<name>Salt and Pepper</name>
+				Salt and Pepper
 				<amount><note>To Taste</note></amount>
 			</ingredient>
 		</section>

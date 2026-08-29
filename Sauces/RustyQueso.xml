@@ -26,29 +26,29 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Velveeta Cheese</name>
+				Velveeta Cheese
 				<amount>&frac12; Lb.<note>1 Cup</note></amount>
 			</ingredient>
 			<ingredient>
-				<name>Onion<note>Fresh</note></name>
+				Onion<note>Fresh</note>
 				<amount>&frac14;</amount>
 			</ingredient>
 			<ingredient>
-				<name>Pickled Jalapenos<note>Canned</note></name>
+				Pickled Jalapenos<note>Canned</note>
 				<amount>2&frac12; Tablespoons</amount>
 			</ingredient>
 			<ingredient>
-				<name>Diced Tomatoes<note>Canned</note></name>
+				Diced Tomatoes<note>Canned</note>
 				<amount>1&frac12; Tablespoons</amount>
 			</ingredient>
-			<ingredient><name>Cumin</name><amount>&frac14; teaspoon</amount></ingredient>
-			<ingredient><name>Pepper</name><amount>&frac18; teaspoon</amount></ingredient>
+			<ingredient>Cumin<amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient>Pepper<amount>&frac18; teaspoon</amount></ingredient>
 			<ingredient>
-				<name>Milk<note>Whole</note></name>
+				Milk<note>Whole</note>
 				<amount>&frac12; Cup<note>or &frac13;</note></amount>
 			</ingredient>
 			<ingredient>
-				<name>Jalapeno Juice<note>From Pickled Jalapenos Can</note></name>
+				Jalapeno Juice<note>From Pickled Jalapenos Can</note>
 				<amount>1-3 teaspoons</amount>
 			</ingredient>
 		</section>

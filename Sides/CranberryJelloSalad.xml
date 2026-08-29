@@ -20,24 +20,24 @@
 
 	<Ingredients>
 		<section>
-			<ingredient><name>Cranberries</name><amount>1 Lb.</amount></ingredient>
-			<ingredient><name>Pineapple Tidbits</name><amount>1 20-oz. Can</amount></ingredient>
-			<ingredient><name>Cranberry Gelatin</name><amount>2 3-oz. Boxes</amount></ingredient>
+			<ingredient>Cranberries<amount>1 Lb.</amount></ingredient>
+			<ingredient>Pineapple Tidbits<amount>1 20-oz. Can</amount></ingredient>
+			<ingredient>Cranberry Gelatin<amount>2 3-oz. Boxes</amount></ingredient>
 			<ingredient>
-				<name>Water</name>
+				Water
 				<amount>1 Cup<note>Boiling</note></amount>
 			</ingredient>
 			<ingredient>
-				<name>Lemon-Lime Soda<note>Cold</note></name>
+				Lemon-Lime Soda<note>Cold</note>
 				<amount>2 12-oz. Cans</amount>
 			</ingredient>
 		</section>
 		<section>
-			<ingredient><name>Milk</name><amount>5 Cups</amount></ingredient>
-			<ingredient><name>Instant Pudding Mix</name><amount>2-???-oz. Boxes</amount></ingredient>
-			<ingredient><name>Cool Whip</name><amount>1-???-oz. Container</amount></ingredient>
-			<ingredient><name>Heavy Whipping Cream</name><amount>1 Pint</amount></ingredient>
-			<ingredient><name>Sugar</name><amount>1 Cup</amount></ingredient>
+			<ingredient>Milk<amount>5 Cups</amount></ingredient>
+			<ingredient>Instant Pudding Mix<amount>2-???-oz. Boxes</amount></ingredient>
+			<ingredient>Cool Whip<amount>1-???-oz. Container</amount></ingredient>
+			<ingredient>Heavy Whipping Cream<amount>1 Pint</amount></ingredient>
+			<ingredient>Sugar<amount>1 Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

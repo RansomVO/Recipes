@@ -25,15 +25,15 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Brown Sugar</name><amount>&frac12; Cup</amount></ingredient>
-			<ingredient><name>Corn Syrup</name><amount>&frac12; Cup</amount></ingredient>
-			<ingredient><name>Sugar</name><amount>1 Cup</amount></ingredient>
-			<ingredient><name>Evaporated Milk</name><amount>1 Can</amount></ingredient>
+			<ingredient>Brown Sugar<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Corn Syrup<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Sugar<amount>1 Cup</amount></ingredient>
+			<ingredient>Evaporated Milk<amount>1 Can</amount></ingredient>
 			<ingredient>
-				<name>Butter</name>
+				Butter
 				<amount>&frac12; Cup<note>1 Stick</note></amount>
 			</ingredient>
-			<ingredient><name>Vanilla</name><amount>1 teaspoon</amount></ingredient>
+			<ingredient>Vanilla<amount>1 teaspoon</amount></ingredient>
 		</section>
 	</Ingredients>
 

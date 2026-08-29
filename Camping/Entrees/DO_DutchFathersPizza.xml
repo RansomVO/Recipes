@@ -28,48 +28,46 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsSauce" title="Sauce">
-			<ingredient><name>Cans Tomato Sauce</name><amount>4 8-oz.</amount></ingredient>
-			<ingredient><name>Can Tomato Paste</name><amount>1 6-oz.</amount></ingredient>
-			<ingredient><name>Oregano</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Basil</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Garlic Powder</name><amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient><name>Celery Salt</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Onion Powder</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Cans Tomato Sauce<amount>4 8-oz.</amount></ingredient>
+			<ingredient>Can Tomato Paste<amount>1 6-oz.</amount></ingredient>
+			<ingredient>Oregano<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Basil<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Garlic Powder<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Celery Salt<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Onion Powder<amount>&frac12; teaspoon</amount></ingredient>
 		</section>
 		<section id="IngredientsCrust" title="Crust">
 			<ingredient>
-				<name>Water<note>Warm</note></name>
+				Water<note>Warm</note>
 				<amount>2 Cups</amount>
 			</ingredient>
-			<ingredient><name>Sugar</name><amount>&frac14; Cup</amount></ingredient>
-			<ingredient><name>Yeast</name><amount>1 Package</amount></ingredient>
-			<ingredient><name>Salt</name><amount>1 Tablespoon</amount></ingredient>
-			<ingredient><name>Shortening</name><amount>&frac12; Cup</amount></ingredient>
-			<ingredient><name>Eggs</name><amount>2</amount></ingredient>
-			<ingredient><name>Flour</name><amount>6 Cups</amount></ingredient>
+			<ingredient>Sugar<amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Yeast<amount>1 Package</amount></ingredient>
+			<ingredient>Salt<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Shortening<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Eggs<amount>2</amount></ingredient>
+			<ingredient>Flour<amount>6 Cups</amount></ingredient>
 		</section>
 		<section id="IngredientsToppingSuggestions" title="Topping Suggestions">
 			<ingredient>
-				<name>Cheese<note>&frac12; Mozzarella + &frac12; Cheddar</note></name>
+				Cheese<note>&frac12; Mozzarella + &frac12; Cheddar</note>
 			</ingredient>
 			<ingredient>
-				<name>Ground Sausage<note>Pre-cooked</note></name>
+				Ground Sausage<note>Pre-cooked</note>
 			</ingredient>
-			<ingredient><name>Pepperoni</name></ingredient>
-			<ingredient><name>Ham</name></ingredient>
-			<ingredient><name>Canadian Bacon</name></ingredient>
-			<ingredient><name>Onions</name></ingredient>
-			<ingredient><name>Peppers</name></ingredient>
-			<ingredient><name>Mushrooms</name></ingredient>
-			<ingredient><name>Olives</name></ingredient>
+			<ingredient>Pepperoni</ingredient>
+			<ingredient>Ham</ingredient>
+			<ingredient>Canadian Bacon</ingredient>
+			<ingredient>Onions</ingredient>
+			<ingredient>Peppers</ingredient>
+			<ingredient>Mushrooms</ingredient>
+			<ingredient>Olives</ingredient>
 			<ingredient>
-				<name>Tomatoes<note>Sliced</note></name>
+				Tomatoes<note>Sliced</note>
 			</ingredient>
 			<ingredient>
-				<name>
-					Pineapple
-					<finePrint>Personally, Ransom thinks pineapple is a desecration on pizza, but his kids forced him to include it.</finePrint>
-				</name>
+				Pineapple
+				<finePrint>Personally, Ransom thinks pineapple is a desecration on pizza, but his kids forced him to include it.</finePrint>
 			</ingredient>
 		</section>
 	</Ingredients>

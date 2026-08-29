@@ -25,22 +25,22 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Onions</name><amount>2</amount></ingredient>
-			<ingredient><name>Hamburger</name><amount>2-3 Lbs.</amount></ingredient>
-			<ingredient><name>Rice</name><amount>3 Cups</amount></ingredient>
+			<ingredient>Onions<amount>2</amount></ingredient>
+			<ingredient>Hamburger<amount>2-3 Lbs.</amount></ingredient>
+			<ingredient>Rice<amount>3 Cups</amount></ingredient>
 			<ingredient>
-				<name>Water</name>
+				Water
 				<amount>1 Quart<note>Add more if necessary</note></amount>
 			</ingredient>
-			<ingredient><name>Green Bell Pepper</name><amount>1</amount></ingredient>
-			<ingredient><name>Tomato Soup</name><amount>1 10.75-oz. Can</amount></ingredient>
-			<ingredient><name>Tomato Sauce</name><amount>2 8-oz. Cans</amount></ingredient>
+			<ingredient>Green Bell Pepper<amount>1</amount></ingredient>
+			<ingredient>Tomato Soup<amount>1 10.75-oz. Can</amount></ingredient>
+			<ingredient>Tomato Sauce<amount>2 8-oz. Cans</amount></ingredient>
 			<ingredient>
-				<name>Stewed Tomatoes</name>
+				Stewed Tomatoes
 				<amount>1 28-oz. Can<note>or 2 14.5-oz. Cans</note></amount>
 			</ingredient>
-			<ingredient><name>Salt</name><amount>1 Tablespoon</amount></ingredient>
-			<ingredient><name>Pepper</name><amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient>Salt<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Pepper<amount>&frac14; teaspoon</amount></ingredient>
 		</section>
 	</Ingredients>
 

@@ -29,10 +29,10 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Processed Cheese Spread<note>Such as Velveeta</note></name>
+				Processed Cheese Spread<note>Such as Velveeta</note>
 				<amount>1 Cup</amount>
 			</ingredient>
-			<ingredient><name>Salsa</name><amount>1 Cup</amount></ingredient>
+			<ingredient>Salsa<amount>1 Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

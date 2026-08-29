@@ -37,35 +37,35 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Ripe Roma Tomatoes<note>Peeled, cored, and chopped</note></name>
+				Ripe Roma Tomatoes<note>Peeled, cored, and chopped</note>
 				<amount>4 Quarts</amount>
 			</ingredient>
-			<ingredient><name>Tomato Paste</name><amount>4 6-oz.Cans</amount></ingredient>
+			<ingredient>Tomato Paste<amount>4 6-oz.Cans</amount></ingredient>
 			<ingredient>
-				<name>Jalapeño Peppers<note>Cored and chopped</note></name>
+				Jalapeño Peppers<note>Cored and chopped</note>
 				<amount>&frac34; Cup<note>&approx; 6</note></amount>
 			</ingredient>
 			<ingredient>
-				<name>Anaheim Peppers<note>Cored and chopped</note></name>
+				Anaheim Peppers<note>Cored and chopped</note>
 				<amount>3 Cups</amount>
 			</ingredient>
 			<ingredient>
-				<name>Onions<note>Peeled and chopped</note></name>
+				Onions<note>Peeled and chopped</note>
 				<amount>3 Cups</amount>
 			</ingredient>
 		</section>
 		<section>
-			<ingredient><name>Bottled Real Lime Juice</name><amount>1&frac14; Cups</amount></ingredient>
+			<ingredient>Bottled Real Lime Juice<amount>1&frac14; Cups</amount></ingredient>
 			<ingredient>
-				<name>Cilantro Leaves<note>finely chopped</note></name>
+				Cilantro Leaves<note>finely chopped</note>
 				<amount>1&frac12; Cup</amount>
 			</ingredient>
 			<ingredient>
-				<name>Minced Garlic</name>
+				Minced Garlic
 				<amount>8 Cloves<note>5-6 teaspons</note></amount>
 			</ingredient>
-			<ingredient><name>Salt</name><amount>1&frac12; teaspoons</amount></ingredient>
-			<ingredient><name>Ground Black Pepper</name><amount>&frac12;-1 Tablespoon</amount></ingredient>
+			<ingredient>Salt<amount>1&frac12; teaspoons</amount></ingredient>
+			<ingredient>Ground Black Pepper<amount>&frac12;-1 Tablespoon</amount></ingredient>
 		</section>
 	</Ingredients>
 

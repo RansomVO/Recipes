@@ -25,30 +25,30 @@
 	<Ingredients id="Ingredients">
 		<section id="IngredientsDough" title="Dough">
 			<ingredient>
-				<name>Butter</name>
+				Butter
 				<amount>&frac12; Cup<note>1 Stick</note></amount>
 			</ingredient>
-			<ingredient><name>White Sugar</name><amount>&frac12; Cup</amount></ingredient>
-			<ingredient><name>Brown Sugar</name><amount>&frac12; Cup</amount></ingredient>
-			<ingredient><name>Baking Soda</name><amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Vanilla</name><amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient><name>Egg</name><amount>1</amount></ingredient>
+			<ingredient>White Sugar<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Brown Sugar<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Baking Soda<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Vanilla<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Egg<amount>1</amount></ingredient>
 			<ingredient>
-				<name>Peanut Butter</name>
+				Peanut Butter
 				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
 			</ingredient>
-			<ingredient><name>Flour</name><amount>1 Cup</amount></ingredient>
-			<ingredient><name>Quick Oats</name><amount>1 Cup</amount></ingredient>
+			<ingredient>Flour<amount>1 Cup</amount></ingredient>
+			<ingredient>Quick Oats<amount>1 Cup</amount></ingredient>
 		</section>
 		<section id="IngredientsTopping" title="Topping">
-			<ingredient><name>Chocolate Chips</name><amount>&frac12; 12-oz. Package</amount></ingredient>
-			<ingredient><name>Powdered Sugar</name><amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Chocolate Chips<amount>&frac12; 12-oz. Package</amount></ingredient>
+			<ingredient>Powdered Sugar<amount>&frac12; Cup</amount></ingredient>
 			<ingredient>
-				<name>Peanut Butter</name>
+				Peanut Butter
 				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
 			</ingredient>
-			<ingredient><name>Cream</name><amount>2-3 Tablespoons</amount></ingredient>
+			<ingredient>Cream<amount>2-3 Tablespoons</amount></ingredient>
 		</section>
 	</Ingredients>
 

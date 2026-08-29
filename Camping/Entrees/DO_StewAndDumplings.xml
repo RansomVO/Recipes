@@ -22,35 +22,35 @@
 	<Ingredients id="Ingredients">
 		<section id="IngredientsStew" title="Stew">
 			<ingredient>
-				<name>Beef<note>LEAN</note></name>
+				Beef<note>LEAN</note>
 				<amount>2 Lbs.</amount>
 			</ingredient>
-			<ingredient><name>Flour</name><amount>&frac12; Cup</amount></ingredient>
-			<ingredient><name>Pepper</name><amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient><name>Oil</name><amount>3 Tablespoons</amount></ingredient>
+			<ingredient>Flour<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Pepper<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Oil<amount>3 Tablespoons</amount></ingredient>
 			<ingredient>
-				<name>Beef Broth<note>Double-Strength</note></name>
+				Beef Broth<note>Double-Strength</note>
 				<amount>6 Cups</amount>
 			</ingredient>
-			<ingredient><name>Worcestershire Sauce</name><amount>1 Dash</amount></ingredient>
+			<ingredient>Worcestershire Sauce<amount>1 Dash</amount></ingredient>
 			<ingredient>
-				<name>Thyme<note>Crushed</note></name>
+				Thyme<note>Crushed</note>
 				<amount>1 teaspoon</amount>
 			</ingredient>
-			<ingredient><name>Bay Leaves</name><amount>2</amount></ingredient>
-			<ingredient><name>Garlic Powder</name><amount>1 Dash</amount></ingredient>
-			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Carrots</name><amount>6</amount></ingredient>
-			<ingredient><name>Potatoes</name><amount>4-6</amount></ingredient>
-			<ingredient><name>Onions</name><amount>2-3</amount></ingredient>
-			<ingredient><name>Pearl Barley</name><amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Bay Leaves<amount>2</amount></ingredient>
+			<ingredient>Garlic Powder<amount>1 Dash</amount></ingredient>
+			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Carrots<amount>6</amount></ingredient>
+			<ingredient>Potatoes<amount>4-6</amount></ingredient>
+			<ingredient>Onions<amount>2-3</amount></ingredient>
+			<ingredient>Pearl Barley<amount>2 Tablespoons</amount></ingredient>
 		</section>
 		<section id="IngredientsDumplings" title="Dumplings">
-			<ingredient><name>Shortening</name><amount>3 teaspoons</amount></ingredient>
-			<ingredient><name>Flour</name><amount>1&frac12; Cups</amount></ingredient>
-			<ingredient><name>Baking Powder</name><amount>2 teaspoons</amount></ingredient>
-			<ingredient><name>Salt</name><amount>&frac34; teaspoon</amount></ingredient>
-			<ingredient><name>Milk</name><amount>&frac34; Cup</amount></ingredient>
+			<ingredient>Shortening<amount>3 teaspoons</amount></ingredient>
+			<ingredient>Flour<amount>1&frac12; Cups</amount></ingredient>
+			<ingredient>Baking Powder<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Salt<amount>&frac34; teaspoon</amount></ingredient>
+			<ingredient>Milk<amount>&frac34; Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

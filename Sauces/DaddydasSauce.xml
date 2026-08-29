@@ -26,27 +26,27 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Soy Sauce</name><amount>1 Cup</amount></ingredient>
-			<ingredient><name>Flour</name><amount>&frac14; Cup</amount></ingredient>
-			<ingredient><name>Corn Syrup</name><amount>3 Cups</amount></ingredient>
-			<ingredient><name>Brown Sugar</name><amount>1 Cup</amount></ingredient>
-			<ingredient><name>Minced Garlic</name><amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Soy Sauce<amount>1 Cup</amount></ingredient>
+			<ingredient>Flour<amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Corn Syrup<amount>3 Cups</amount></ingredient>
+			<ingredient>Brown Sugar<amount>1 Cup</amount></ingredient>
+			<ingredient>Minced Garlic<amount>1 Tablespoon</amount></ingredient>
 			<ingredient>
-				<name>Onion<note>Very Finely Chopped</note></name>
+				Onion<note>Very Finely Chopped</note>
 				<amount>1 Tablespoon</amount>
 			</ingredient>
 			<ingredient>
-				<name>Fresh Ginger<note>Finely Grated</note></name>
+				Fresh Ginger<note>Finely Grated</note>
 				<amount>2 Tablespoons</amount>
 			</ingredient>
-			<ingredient><name>Chinese Mustard</name><amount>1 Tablespoon</amount></ingredient>
-			<ingredient><name>1 Orange</name><amount>Zest From</amount></ingredient>
+			<ingredient>Chinese Mustard<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>1 Orange<amount>Zest From</amount></ingredient>
 			<ingredient>
-				<name>Hot Chili Sauce<note>Optional</note></name>
+				Hot Chili Sauce<note>Optional</note>
 				<amount>1 Tablespoon</amount>
 			</ingredient>
 			<ingredient>
-				<name>Crushed Red Peppers<note>Optional</note></name>
+				Crushed Red Peppers<note>Optional</note>
 				<amount>&frac12; Tablespoon</amount>
 			</ingredient>
 		</section>

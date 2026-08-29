@@ -25,16 +25,16 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Rice</name><amount>1 Cup</amount></ingredient>
+			<ingredient>Rice<amount>1 Cup</amount></ingredient>
 			<ingredient>
-				<name>Chicken Broth<note>Double-Strength</note></name>
+				Chicken Broth<note>Double-Strength</note>
 				<amount>2 Cups</amount>
 			</ingredient>
-			<ingredient><name>Salt</name><amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient><name>Vegetable Oil</name><amount>1 Tablespoon</amount></ingredient>
-			<ingredient><name>Chopped Onions</name><amount>&frac12; Cup</amount></ingredient>
-			<ingredient><name>Carrot</name><amount>1</amount></ingredient>
-			<ingredient><name>Celery</name><amount>1 Stalk</amount></ingredient>
+			<ingredient>Salt<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Vegetable Oil<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Chopped Onions<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Carrot<amount>1</amount></ingredient>
+			<ingredient>Celery<amount>1 Stalk</amount></ingredient>
 		</section>
 	</Ingredients>
 

@@ -26,27 +26,27 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Chicken Broth<note>Double-Strength</note></name>
+				Chicken Broth<note>Double-Strength</note>
 				<amount>1&frac12; Cups</amount>
 			</ingredient>
-			<ingredient><name>Milk</name><amount>3 Cups</amount></ingredient>
-			<ingredient><name>Evaporated Milk</name><amount>&frac12; 12-oz. Can</amount></ingredient>
-			<ingredient><name>Cream of Mushroom Soup</name><amount>1 10&frac12;-oz. Can</amount></ingredient>
+			<ingredient>Milk<amount>3 Cups</amount></ingredient>
+			<ingredient>Evaporated Milk<amount>&frac12; 12-oz. Can</amount></ingredient>
+			<ingredient>Cream of Mushroom Soup<amount>1 10&frac12;-oz. Can</amount></ingredient>
 			<ingredient>
-				<name>Salt and Coarse Ground Pepper</name>
+				Salt and Coarse Ground Pepper
 				<amount>To Taste<note>&approx;&frac14;-&frac12; teaspoons</note></amount>
 			</ingredient>
-			<ingredient><name>Fettuccini</name><amount>1 1-lb. Package</amount></ingredient>
+			<ingredient>Fettuccini<amount>1 1-lb. Package</amount></ingredient>
 			<ingredient>
-				<name>Chicken Thigh<note>Boneless</note></name>
+				Chicken Thigh<note>Boneless</note>
 				<amount>1</amount>
 			</ingredient>
 			<ingredient>
-				<name>Butter</name>
+				Butter
 				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
 			</ingredient>
-			<ingredient><name>Minced Garlic</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Parmesan Cheese</name><amount>&frac12;-1 Cup</amount></ingredient>
+			<ingredient>Minced Garlic<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Parmesan Cheese<amount>&frac12;-1 Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

@@ -24,15 +24,15 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Wild Blackberries<note>Mashed</note></name>
+				Wild Blackberries<note>Mashed</note>
 				<amount>5 Cups<note>Requires &approx;7-8 Cups fresh berries</note></amount>
 			</ingredient>
 			<ingredient>
-				<name>Sucralose<note>Such as Splenda</note></name>
+				Sucralose<note>Such as Splenda</note>
 				<amount>2&frac12; Cups</amount>
 			</ingredient>
-			<ingredient><name>Lemon Juice</name><amount>&frac14; Cup</amount></ingredient>
-			<ingredient><name>No-Sugar-Needed Pectin</name><amount>1 1.75-oz. Package</amount></ingredient>
+			<ingredient>Lemon Juice<amount>&frac14; Cup</amount></ingredient>
+			<ingredient>No-Sugar-Needed Pectin<amount>1 1.75-oz. Package</amount></ingredient>
 		</section>
 	</Ingredients>
 

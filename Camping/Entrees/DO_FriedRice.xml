@@ -26,28 +26,28 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Vegetable Oil</name><amount>&frac12;-1 Cup</amount></ingredient>
-			<ingredient><name>Uncooked Rice</name><amount>4 Cups</amount></ingredient>
-			<ingredient><name>Water</name><amount>6 Cups</amount></ingredient>
-			<ingredient><name>Salt</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Eggs</name><amount>4-6</amount></ingredient>
+			<ingredient>Vegetable Oil<amount>&frac12;-1 Cup</amount></ingredient>
+			<ingredient>Uncooked Rice<amount>4 Cups</amount></ingredient>
+			<ingredient>Water<amount>6 Cups</amount></ingredient>
+			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Eggs<amount>4-6</amount></ingredient>
 			<ingredient>
-				<name>Ham<note>cut into &frac14;&inch; chunks</note></name>
+				Ham<note>cut into &frac14;&inch; chunks</note>
 				<amount>1-2 Cups</amount>
 			</ingredient>
 			<ingredient>
-				<name>Chinese Cabbage<note>Shredded</note></name>
+				Chinese Cabbage<note>Shredded</note>
 				<amount>1-2 Cups</amount>
 			</ingredient>
 			<ingredient>
-				<name>Carrots<note>Sliced Thinly</note></name>
+				Carrots<note>Sliced Thinly</note>
 				<amount>&frac12; Cup</amount>
 			</ingredient>
 			<ingredient>
-				<name>Onions<note>Cut into &frac12;&inch; &by; 1&inch;</note></name>
+				Onions<note>Cut into &frac12;&inch; &by; 1&inch;</note>
 				<amount>&frac12;-1 Cup</amount>
 			</ingredient>
-			<ingredient><name>Soy Sauce</name><amount>2-4 Tablespoons</amount></ingredient>
+			<ingredient>Soy Sauce<amount>2-4 Tablespoons</amount></ingredient>
 		</section>
 	</Ingredients>
 

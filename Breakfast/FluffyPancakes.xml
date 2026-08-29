@@ -23,13 +23,13 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Flour</name><amount>1 Cup</amount></ingredient>
-			<ingredient><name>Baking Soda</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Baking Powder</name><amount>1&frac12; teaspoon</amount></ingredient>
-			<ingredient><name>Sugar</name><amount>1 Tablespoon</amount></ingredient>
-			<ingredient><name>Egg</name><amount>1</amount></ingredient>
-			<ingredient><name>Vegetable Oil</name><amount>&frac14; Cup</amount></ingredient>
-			<ingredient><name>Milk</name><amount>&frac34; Cup</amount></ingredient>
+			<ingredient>Flour<amount>1 Cup</amount></ingredient>
+			<ingredient>Baking Soda<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Baking Powder<amount>1&frac12; teaspoon</amount></ingredient>
+			<ingredient>Sugar<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Egg<amount>1</amount></ingredient>
+			<ingredient>Vegetable Oil<amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Milk<amount>&frac34; Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

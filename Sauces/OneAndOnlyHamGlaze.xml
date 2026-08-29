@@ -24,16 +24,16 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Butter<note>Melted</note></name>
+				Butter<note>Melted</note>
 				<amount>&frac12; Cup<note>1 Stick</note></amount>
 			</ingredient>
-			<ingredient><name>Brown Sugar</name><amount>2 Cups</amount></ingredient>
+			<ingredient>Brown Sugar<amount>2 Cups</amount></ingredient>
 			<ingredient>
-				<name>Garlic<note>Minced</note></name>
+				Garlic<note>Minced</note>
 				<amount>3 Tablespoons</amount>
 			</ingredient>
-			<ingredient><name>Yellow Mustard</name><amount>&frac14; Cup</amount></ingredient>
-			<ingredient><name>Orange Juice Concentrate</name><amount>&frac12; Can</amount></ingredient>
+			<ingredient>Yellow Mustard<amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Orange Juice Concentrate<amount>&frac12; Can</amount></ingredient>
 		</section>
 	</Ingredients>
 

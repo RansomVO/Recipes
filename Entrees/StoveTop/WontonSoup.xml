@@ -24,33 +24,33 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Vegetable Oil</name><amount>1 Tablespoon</amount></ingredient>
-			<ingredient><name>Garlic, Minced</name><amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Vegetable Oil<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Garlic, Minced<amount>1 Tablespoon</amount></ingredient>
 			<ingredient>
-				<name>Chicken Broth<note>Regular Strength</note></name>
+				Chicken Broth<note>Regular Strength</note>
 				<amount>10 Cups</amount>
 			</ingredient>
 			<ingredient>
-				<name>Carrots<note>Thinly sliced into strands.</note></name>
+				Carrots<note>Thinly sliced into strands.</note>
 				<amount>&frac14; Cup</amount>
 			</ingredient>
 			<ingredient>
-				<name>Grated Ginger<note>Unless Di is there.</note></name>
+				Grated Ginger<note>Unless Di is there.</note>
 				<amount>1 teaspoon</amount>
 			</ingredient>
 			<ingredient>
-				<name>Green Onion<note>Thinly Sliced</note></name>
+				Green Onion<note>Thinly Sliced</note>
 				<amount>&frac14; Cup</amount>
 			</ingredient>
 			<ingredient>
-				<name>Bok Choy<note>Thinly Sliced</note></name>
+				Bok Choy<note>Thinly Sliced</note>
 				<amount>1&frac12; Cups</amount>
 			</ingredient>
 			<ingredient>
-				<name>Shiitake Mushrooms<note>Sliced</note></name>
+				Shiitake Mushrooms<note>Sliced</note>
 				<amount>&frac12; Cup</amount>
 			</ingredient>
-			<ingredient><name>Wontons</name><amount>15-20</amount></ingredient>
+			<ingredient>Wontons<amount>15-20</amount></ingredient>
 		</section>
 	</Ingredients>
 

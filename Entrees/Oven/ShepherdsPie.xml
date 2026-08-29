@@ -19,20 +19,20 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Hamburger</name><amount>1 Lb.</amount></ingredient>
-			<ingredient><name>Golden Mushroom Soup</name><amount>1 10.5-oz. Can</amount></ingredient>
-			<ingredient><name>Potatoes</name><amount>3-5</amount></ingredient>
-			<ingredient><name>Salt</name><amount>2 teaspoons</amount></ingredient>
+			<ingredient>Hamburger<amount>1 Lb.</amount></ingredient>
+			<ingredient>Golden Mushroom Soup<amount>1 10.5-oz. Can</amount></ingredient>
+			<ingredient>Potatoes<amount>3-5</amount></ingredient>
+			<ingredient>Salt<amount>2 teaspoons</amount></ingredient>
 			<ingredient>
-				<name>Butter</name>
+				Butter
 				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
 			</ingredient>
-			<ingredient><name>Milk</name><amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Milk<amount>&frac14; Cup</amount></ingredient>
 			<ingredient>
-				<name>Frozen Peas</name>
+				Frozen Peas
 				<amount>1 Bag<note>12-oz. or 16-oz.</note></amount>
 			</ingredient>
-			<ingredient><name>Cheddar Cheese</name><amount>&frac12; Lb.</amount></ingredient>
+			<ingredient>Cheddar Cheese<amount>&frac12; Lb.</amount></ingredient>
 		</section>
 	</Ingredients>
 

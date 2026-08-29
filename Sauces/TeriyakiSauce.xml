@@ -22,16 +22,16 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Brown Sugar</name><amount>&frac12; Cup</amount></ingredient>
-			<ingredient><name>Soy Sauce</name><amount>&frac12; Cup</amount></ingredient>
-			<ingredient><name>Rice Vinegar</name><amount>2 Tablespoons</amount></ingredient>
-			<ingredient><name>Sesame Oil</name><amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Brown Sugar<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Soy Sauce<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Rice Vinegar<amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Sesame Oil<amount>1 Tablespoon</amount></ingredient>
 			<ingredient>
-				<name>Ginger<note>Fresh, Grated</note></name>
+				Ginger<note>Fresh, Grated</note>
 				<amount>&frac12; teaspoon</amount>
 			</ingredient>
 			<ingredient>
-				<name>Garlic<note>Minced</note></name>
+				Garlic<note>Minced</note>
 				<amount>&frac12; teaspoon</amount>
 			</ingredient>
 		</section>

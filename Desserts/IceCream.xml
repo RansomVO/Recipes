@@ -20,60 +20,52 @@
 
 	<Ingredients id="Ingredients">
 		<section id="IngredientsIceCream" title="Base">
-			<ingredient><name>Egg Yolks</name><amount>6</amount></ingredient>
-			<ingredient><name>Sugar</name><amount>1 Cup</amount></ingredient>
-			<ingredient><name>Milk</name><amount>6 Cups</amount></ingredient>
-			<ingredient><name>More Sugar</name><amount>1&frac12; Cups</amount></ingredient>
+			<ingredient>Egg Yolks<amount>6</amount></ingredient>
+			<ingredient>Sugar<amount>1 Cup</amount></ingredient>
+			<ingredient>Milk<amount>6 Cups</amount></ingredient>
+			<ingredient>More Sugar<amount>1&frac12; Cups</amount></ingredient>
 			<ingredient>
-				<name>Cream</name>
+				Cream
 				<amount>3 Cups<note>1&frac12; Pints</note></amount>
 			</ingredient>
 		</section>
 		<section id="IngredientsFlavorings" title="Flavoring Ideas">
-			<ingredient><name>Vanilla</name><amount>1&frac12;-2 Tablespoons</amount></ingredient>
+			<ingredient>Vanilla<amount>1&frac12;-2 Tablespoons</amount></ingredient>
 			<ingredient>
-				<name>
-					Hot Chocolate Mix
-					<finePrint>Makes a normal chocolate flavor</finePrint>
-				</name>
+				Hot Chocolate Mix
+				<finePrint>Makes a normal chocolate flavor</finePrint>
 				<amount>&frac12; Cup</amount>
 			</ingredient>
 			<ingredient>
-				<name>
-					Unsweetened Cocoa Powder
-					<finePrint>Makes a <span class="EMPHASIZE">rich</span> chocolate flavor</finePrint>
-				</name>
+				Unsweetened Cocoa Powder
+				<finePrint>Makes a <span class="EMPHASIZE">rich</span> chocolate flavor</finePrint>
 				<amount>&frac12; Cup</amount>
 			</ingredient>
 			<ingredient>
-				<name>Fruit<note>Mashed</note></name>
+				Fruit<note>Mashed</note>
 				<amount>2-4 Cups</amount>
 			</ingredient>
 			<ingredient>
-				<name>Peanut Butter</name>
+				Peanut Butter
 				<amount>2 Cups<note>4 Sticks</note></amount>
 			</ingredient>
 			<ingredient>
-				<name>Peppermint Candy<note>Crushed, &frac34; of it finely</note></name>
+				Peppermint Candy<note>Crushed, &frac34; of it finely</note>
 				<amount>1&frac12;-2 Cups<note>15-20 Candy Canes</note></amount>
 			</ingredient>
 			<ingredient>
-				<name>
-					Cookies, Oreos, etc.
-					<note>Crushed</note>
-					<finePrint>Add and continue Ice Cream Maker for 5 minutes <span class="SUPER_EMPHASIZE">after</span> Ice Cream is desired thickness.</finePrint>
-				</name>
+				Cookies, Oreos, etc.
+				<note>Crushed</note>
+				<finePrint>Add and continue Ice Cream Maker for 5 minutes <span class="SUPER_EMPHASIZE">after</span> Ice Cream is desired thickness.</finePrint>
 				<amount>2-4 Cups</amount>
 			</ingredient>
 			<ingredient>
-				<name>
-					Chocolate Chips, Raisins, etc.
-					<finePrint>
-						Add and continue Ice Cream Maker for 5 minutes
-						<span class="SUPER_EMPHASIZE">after</span>
-						Ice Cream is desired thickness.
-					</finePrint>
-				</name>
+				Chocolate Chips, Raisins, etc.
+				<finePrint>
+					Add and continue Ice Cream Maker for 5 minutes
+					<span class="SUPER_EMPHASIZE">after</span>
+					Ice Cream is desired thickness.
+				</finePrint>
 				<amount>2-4 Cups</amount>
 			</ingredient>
 		</section>

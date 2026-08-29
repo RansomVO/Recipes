@@ -25,27 +25,27 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Guajillo Chiles<note>Dried</note></name>
+				Guajillo Chiles<note>Dried</note>
 				<amount>8</amount>
 			</ingredient>
 			<ingredient>
-				<name>Ancho Chiles<note>Dried</note></name>
+				Ancho Chiles<note>Dried</note>
 				<amount>2</amount>
 			</ingredient>
-			<ingredient><name>Onion</name><amount>&frac12; Large</amount></ingredient>
-			<ingredient><name>Water</name><amount>2 Cups</amount></ingredient>
-			<ingredient><name>Flour</name><amount>2 Tablespoons</amount></ingredient>
-			<ingredient><name>Salt</name><amount>1&frac12; teaspoons</amount></ingredient>
-			<ingredient><name>Pepper</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Onion<amount>&frac12; Large</amount></ingredient>
+			<ingredient>Water<amount>2 Cups</amount></ingredient>
+			<ingredient>Flour<amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Salt<amount>1&frac12; teaspoons</amount></ingredient>
+			<ingredient>Pepper<amount>&frac12; teaspoon</amount></ingredient>
 		</section>
 		<section>
-			<ingredient><name>Oregano</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Cumin</name><amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient><name>Garlic</name><amount>1 Clove</amount></ingredient>
-			<ingredient><name>Oil</name><amount>2 Tablspoons</amount></ingredient>
-			<ingredient><name>Stew Meat</name><amount>2 Lbs.</amount></ingredient>
+			<ingredient>Oregano<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Cumin<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Garlic<amount>1 Clove</amount></ingredient>
+			<ingredient>Oil<amount>2 Tablspoons</amount></ingredient>
+			<ingredient>Stew Meat<amount>2 Lbs.</amount></ingredient>
 			<ingredient>
-				<name>Beef Broth</name>
+				Beef Broth
 				<amount>3 Cups<note>1&frac12;-Strength</note></amount>
 			</ingredient>
 		</section>

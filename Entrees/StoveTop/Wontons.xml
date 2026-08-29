@@ -24,19 +24,19 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Ground Pork</name><amount>&frac12; Lb.</amount></ingredient>
-			<ingredient><name>Minced Garlic</name><amount>1 teaspoon</amount></ingredient>
-			<ingredient><name>Green Onion, Finely Chopped</name><amount>3 Tablespoons</amount></ingredient>
-			<ingredient><name>Yolk</name><amount>1 Egg</amount></ingredient>
-			<ingredient><name>Soy Sauce</name><amount>2 teaspoons</amount></ingredient>
-			<ingredient><name>Rice Vinegar</name><amount>1&frac12; teaspoons</amount></ingredient>
-			<ingredient><name>Sesame Oil</name><amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient><name>Crushed Red Pepper</name><amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient>Ground Pork<amount>&frac12; Lb.</amount></ingredient>
+			<ingredient>Minced Garlic<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Green Onion, Finely Chopped<amount>3 Tablespoons</amount></ingredient>
+			<ingredient>Yolk<amount>1 Egg</amount></ingredient>
+			<ingredient>Soy Sauce<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Rice Vinegar<amount>1&frac12; teaspoons</amount></ingredient>
+			<ingredient>Sesame Oil<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Crushed Red Pepper<amount>&frac14; teaspoon</amount></ingredient>
 			<ingredient>
-				<name>Grated Ginger<note>Unless Di is there.</note></name>
+				Grated Ginger<note>Unless Di is there.</note>
 				<amount>1 teaspoon</amount>
 			</ingredient>
-			<ingredient><name>Wonton Wrappers</name><amount>25-30</amount></ingredient>
+			<ingredient>Wonton Wrappers<amount>25-30</amount></ingredient>
 		</section>
 	</Ingredients>
 

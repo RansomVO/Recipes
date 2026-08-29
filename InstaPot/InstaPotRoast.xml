@@ -24,35 +24,35 @@
 	<Ingredients id="Ingredients">
 		<section id="IngredientsGravy">
 			<ingredient>
-				<name>Beef Broth<note>1&frac12;-Strength</note></name>
+				Beef Broth<note>1&frac12;-Strength</note>
 				<amount>4 Cups</amount>
 			</ingredient>
-			<ingredient><name>Worcestershire Sauce</name><amount>&frac12; Tablespoon</amount></ingredient>
-			<ingredient><name>Tomato Sauce</name><amount>1 8-oz. Can</amount></ingredient>
-			<ingredient comment="Spacer"><name>&nbsp;</name></ingredient>
-			<ingredient><name>Onion</name><amount>1</amount></ingredient>
+			<ingredient>Worcestershire Sauce<amount>&frac12; Tablespoon</amount></ingredient>
+			<ingredient>Tomato Sauce<amount>1 8-oz. Can</amount></ingredient>
+			<ingredient comment="Spacer">&nbsp;</ingredient>
+			<ingredient>Onion<amount>1</amount></ingredient>
 			<ingredient>
-				<name>Butter</name>
+				Butter
 				<amount>&frac12; Cup<note>1 Stick</note></amount>
 			</ingredient>
 			<ingredient>
-				<name>Beef Roast<note>Fresh or Frozen</note></name>
+				Beef Roast<note>Fresh or Frozen</note>
 				<amount>1</amount>
 			</ingredient>
-			<ingredient><name>Minced Garlic</name><amount>&frac12; Tablespoon</amount></ingredient>
+			<ingredient>Minced Garlic<amount>&frac12; Tablespoon</amount></ingredient>
 		</section>
 		<section id="IngredientsVegetables">
 			<ingredient>
-				<name>Carrots</name>
+				Carrots
 				<amount>3-10<note>Whatever amount you feel like.</note></amount>
 			</ingredient>
 			<ingredient>
-				<name>Potatoes</name>
+				Potatoes
 				<amount>3-10<note>Whatever amount you feel like.</note></amount>
 			</ingredient>
-			<ingredient><name>Corn Starch</name><amount>5 Tablespoons</amount></ingredient>
+			<ingredient>Corn Starch<amount>5 Tablespoons</amount></ingredient>
 			<ingredient>
-				<name>Water<note>Cool</note></name>
+				Water<note>Cool</note>
 				<amount>&frac12; Cup</amount>
 			</ingredient>
 		</section>

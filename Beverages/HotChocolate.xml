@@ -23,19 +23,19 @@
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient><name>Evaporated Milk</name><amount>1 Can</amount></ingredient>
-			<ingredient><name>Water</name><amount>1&frac12; Cups</amount></ingredient>
+			<ingredient>Evaporated Milk<amount>1 Can</amount></ingredient>
+			<ingredient>Water<amount>1&frac12; Cups</amount></ingredient>
 			<ingredient>
-				<name>Chocolate Drink Mix<note>such as Quik</note></name>
+				Chocolate Drink Mix<note>such as Quik</note>
 				<amount>6 teaspoons</amount>
 			</ingredient>
-			<ingredient><name>Sugar</name><amount>6 teaspoons</amount></ingredient>
-			<ingredient><name>Vanilla</name><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Sugar<amount>6 teaspoons</amount></ingredient>
+			<ingredient>Vanilla<amount>&frac12; teaspoon</amount></ingredient>
 			<ingredient>
-				<name>Cinnamon<note>Optional</note></name>
+				Cinnamon<note>Optional</note>
 				<amount>&frac14; teaspoon</amount>
 			</ingredient>
-			<ingredient><name>Salt</name><amount>A Shake</amount></ingredient>
+			<ingredient>Salt<amount>A Shake</amount></ingredient>
 		</section>
 	</Ingredients>
 

@@ -23,13 +23,13 @@
 	<Ingredients id="Ingredients">
 		<section id="IngredientsToDo" title="ToDo">
 			<ingredient>
-				<name>ToDo<note>ToDo</note></name>
+				ToDo<note>ToDo</note>
 				<amount>1 ToDo<note>ToDo</note></amount>
 			</ingredient>
 		</section>
 		<section id="IngredientsToDo" title="ToDo">
 			<ingredient>
-				<name>ToDo<note>ToDo</note></name>
+				ToDo<note>ToDo</note>
 				<amount>1 ToDo<note>ToDo</note></amount>
 			</ingredient>
 		</section>

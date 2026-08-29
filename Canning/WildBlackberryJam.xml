@@ -24,12 +24,12 @@
 	<Ingredients id="Ingredients">
 		<section>
 			<ingredient>
-				<name>Wild Blackberries<note>Mashed</note></name>
+				Wild Blackberries<note>Mashed</note>
 				<amount>5 Cups<note>Requires &approx;7-8 Cups fresh berries</note></amount>
 			</ingredient>
-			<ingredient><name>Sugar</name><amount>4 Cups</amount></ingredient>
-			<ingredient><name>Lemon Juice</name><amount>&frac12; Cup</amount></ingredient>
-			<ingredient><name>Pectin</name><amount>1 1.75-oz. Package</amount></ingredient>
+			<ingredient>Sugar<amount>4 Cups</amount></ingredient>
+			<ingredient>Lemon Juice<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Pectin<amount>1 1.75-oz. Package</amount></ingredient>
 		</section>
 	</Ingredients>
 
