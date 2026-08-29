@@ -42,10 +42,11 @@
 }
 
 .RECIPE_INGREDIENT_FINE_PRINT {
-	padding-left: 2em;
+	margin-left: 2em;
 	font-size: .75em;
 	font-style: italic;
-	white-space: normal;
+	font-weight: normal;
+	text-wrap: wrap;
 }
 
 .RECIPE_INSTRUCTIONS {

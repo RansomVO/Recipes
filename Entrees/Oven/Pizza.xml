@@ -52,8 +52,10 @@
 				<name>Tomatoes<note>Sliced</note></name>
 			</ingredient>
 			<ingredient>
-				<name>Pineapple</name>
-				<finePrint>Ransom thinks pineapple is a desecration on pizza, but his kids forced him to include it.</finePrint>
+				<name>
+					Pineapple
+					<finePrint>Ransom thinks pineapple is a desecration on pizza, but his kids forced him to include it.</finePrint>
+				</name>
 			</ingredient>
 		</section>
 	</Ingredients>
