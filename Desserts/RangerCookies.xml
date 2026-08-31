@@ -16,12 +16,12 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		This recipe originally came from forest rangers in Colorado, where Ransom's mom was young.
 		It was made in Ransom's home since before he can remember.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Shortening<amount>1 Cup</amount></ingredient>
 			<ingredient>Sugar<amount>1 Cup</amount></ingredient>
@@ -37,7 +37,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				Preheat oven to 350&deg;.
@@ -67,7 +67,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			After cooling, they should still be a little soft.
 			If they are crunchy, they are over-cooked.
@@ -80,7 +80,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			If you are somewhere where you have difficulty finding Brown Sugar <span class="NOTE">(which missionaries frequently have to deal with)</span> substitute 1 Cup Sugar and 1 Tablespoon Molasses or Dark Corn Syrup.
 			<span class="NOTE">(See <a href=".../CookingBasics/Substitutions.xml">Cooking Basics: Conversions and Substitutions</a> page.) </span>

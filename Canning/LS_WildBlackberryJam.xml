@@ -15,13 +15,13 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		In Washington, we have wild blackberries growing everywhere.
 		One year, we decided to make jam, and since Ransom is diabetic, we tried making some without sugar for him to enjoy.
 		It has a more solid texture than the regular jam, but it tastes great!
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Wild Blackberries<note>Mashed</note>
@@ -36,7 +36,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section id="MakingMashedBerries" title="Making Mashed Berries">
 			<instruction>Remove any stems from berries</instruction>
 			<instruction>Let berries soak in a large bowl, and pick out grass, leaves, etc. that floats to the top.</instruction>
@@ -53,7 +53,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Description">
+	<Notes>
 		<note>
 			Cooking time in Bath Canner:
 			<table border="1" style="margin-left:2em;">
@@ -85,7 +85,7 @@
 		<note>If you have a big enough pot, there is no reason that you can't double the recipe.</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>If you are not going to can the jam, the Lemon Juice can be left out.</modification>
 	</Modifications>
 </Recipe>

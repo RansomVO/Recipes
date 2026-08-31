@@ -15,12 +15,12 @@
 	&section;
 	<LastModified year="2025" month="3" day="31" />
 
-	<Description id="Description">
+	<Description>
 		One night, we started making Teriyaki chicken, then we found we didn't have any Teriyaki sauce.
 		So, Ransom did a little research, tried a few things and we came up with this.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Brown Sugar<amount>&frac12; Cup</amount></ingredient>
 			<ingredient>Soy Sauce<amount>&frac12; Cup</amount></ingredient>
@@ -37,7 +37,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				Place all ingredients in a small pot and mix.
@@ -51,7 +51,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			Due to the high sugar content, this recipe will easily overflow if you let it boil for very long at all.
 		</note>

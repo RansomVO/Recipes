@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
@@ -16,7 +16,7 @@
 
 	<!-- -->&section;<!-- -->
 
-	<Description id="Description">
+	<Description>
 		When Ransom made his first attempt at this recipe, he left the room while the oil heated <span class="NOTE">(with the lid on)</span>.
 		When he came back, the oil was smoking, so he lifted the lid to let it cool.
 		<br />
@@ -29,7 +29,7 @@
 		Only a few days later, with his foot and arm bandaged up, Ransom managed to finish cooking these and they turned out great!
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section id="IngredientsWings" title="Wings">
 			<ingredient>Flour<amount>1 Cup</amount></ingredient>
 			<ingredient>Paprika<amount>&frac12; teaspoon</amount></ingredient>
@@ -50,7 +50,7 @@
 				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
 			</ingredient>
 			<ingredient>
-				Hot Sauce<note>Such as Tapat&iAcute;o</note>
+				Hot Sauce<note>Such as Tapat&iacute;o</note>
 				<amount>&frac12; Cup</amount>
 			</ingredient>
 			<ingredient>Ground Black Pepper<amount>2 Dashes</amount></ingredient>
@@ -58,7 +58,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section id="InstructionsWings" title="Wings">
 			<instruction>In a large bowl mix together the Flour, Paprika, Cayenne Pepper and Salt.</instruction>
 			<instruction>Place Chicken Wings in mixture and stir until they are well coated.</instruction>
@@ -79,7 +79,7 @@
 		</section>
 	</Instructions>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			The original recipe had you use a frying pan instead of a deep fryer.
 			If you read the description, you can understand why this was changed.

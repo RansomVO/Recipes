@@ -15,14 +15,14 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		In Utah, just about everybody has a variation of this recipe.
 		We once had a Stake cookbook that had about 10 versions.<br />
 		Of course, it has lots of names too: Cheesy Potatoes, Cheesy Hash, Funeral Potatoes <span class="SMALL_NOTE">(Because it was a standard dish people brought for the family at the after funeral meal.)</span>.
 		I like the name used here because it lends at least <span class="HIGHLIGHT">some</span> respect to the dish.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Potatoes<amount>4-6</amount></ingredient>
 			<ingredient>Cream of Chicken Soup<amount>1 10.5-oz. Can</amount></ingredient>
@@ -46,7 +46,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Peel Potatoes and coarsely shred them.</instruction>
 			<instruction>Mix Shredded Potatoes, Soup, Sour Cream, Grated Cheese, Green Onion, Salt and Pepper.</instruction>
@@ -65,7 +65,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>A cheese grater is ideal for "coarsely shredding" the Potatoes.</note>
 		<note>
 			It doesn't have to be "Ritz" Crackers, but Saltines do not taste very good.
@@ -77,7 +77,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			Use Corn Flakes <span class="NOTE">(with or without butter)</span> instead of Crackers.
 			<span class="NOTE">(Not my favorite.)</span>

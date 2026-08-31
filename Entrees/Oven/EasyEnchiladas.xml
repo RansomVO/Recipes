@@ -18,13 +18,13 @@
 	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		Real enchiladas require a lot of effort.
 		There is preparing filling, sauce, etc. Then there is a bunch of assembly required.<br />
 		This recipe isn't really enchiladas, but it will fool just about anybody except a Mexican.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Burritos<amount>6 Frozen</amount></ingredient>
 			<ingredient>Enchilada Sauce<amount>1 20-oz. Can</amount></ingredient>
@@ -35,7 +35,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Preheat oven to 350&deg;.</instruction>
 			<instruction>Pour a few Tablespoons of Enchilada Sauce in the bottom of a 9&inch; &by; 9&inch; pan and spread it evenly.</instruction>
@@ -47,7 +47,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			Cheap frozen burritos work great for this recipe.
 			I always buy the cheap family packs that have about a dozen burritos.

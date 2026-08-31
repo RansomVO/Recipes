@@ -15,7 +15,7 @@
 	&section;
 	<LastModified year="2025" month="3" day="31" />
 
-	<Description id="Description">
+	<Description>
 		We have purchased all sorts of dips, such as nacho cheese, for corn chips, but nothing really had that <span class="HIGHLIGHT">wow</span> we wanted.
 		Then, at a party, we tried a dip that really impressed us.
 		We asked around and found out it was "homemade" and we coaxed the recipe out of them.<br />
@@ -26,7 +26,7 @@
 		The word for "cheese" is "queso" (pronounced "KAY-so"), so ever since, we have called this dish Queso Hondo.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Processed Cheese Spread<note>Such as Velveeta</note>
@@ -36,7 +36,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Cut Cheese Spread into, &frac12;&inch; cubes</instruction>
 			<instruction>Heat the Cheese in the microwave oven for 30 seconds.</instruction>
@@ -49,7 +49,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			Do not use Plain Cheese, such as Cheddar.
 			It turns into a glob instead of a spread.

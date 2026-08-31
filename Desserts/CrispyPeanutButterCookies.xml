@@ -15,7 +15,7 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		We have tried many different recipes for Peanut Butter Cookies.
 		Josh found this recipe and although he used the correct ingredients, he totally ignored the directions and did things his own way.
 		The results were quite different from anything else we have tried.
@@ -23,7 +23,7 @@
 		They are now Di's all-time favorite.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Flour<amount>2 Cups</amount></ingredient>
 			<ingredient>Baking Soda<amount>&frac12; teaspoon</amount></ingredient>
@@ -43,7 +43,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				In a large bowl, mix Flour, Baking Soda, Salt, Brown Sugar and Sugar.
@@ -63,7 +63,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			The dough is really sticky, so making the balls can end up being a bit of a chore.
 		</note>

@@ -16,12 +16,12 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		Tres Leches Cake is a treat common throughout Latin America.
 		There are tons of recipes out there, but this is one is authentic.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section id="IngredientsCake" title="Cake">
 			<ingredient>Flour<amount>1 Cup</amount></ingredient>
 			<ingredient>Baking Powder<amount>1&frac12; teaspoons</amount></ingredient>
@@ -42,7 +42,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section id="InstructionsCake" title="Cake">
 			<instruction>Spray 9&inch; &by; 13&inch; pan liberally with no-stick spray (such as Pam) and set aside.</instruction>
 			<instruction>In a large bowl, combine Flour, Baking Powder and Salt.</instruction>
@@ -71,7 +71,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			Be absolutely certain to remove 1 Cup of the Filling mixture before drizzling!
 			Using all of it will ruin the cake.

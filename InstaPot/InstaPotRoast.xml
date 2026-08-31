@@ -15,13 +15,13 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		We love having Roasts for dinner on Sundays.
 		Of course, several burners and the oven really heat up the kitchen.
 		Until we got an InstaPot and <span class="NOTE">(after a bunch of attempts)</span> came up with this.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section id="IngredientsGravy">
 			<ingredient>
 				Beef Broth<note>1&frac12;-Strength</note>
@@ -58,12 +58,12 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>In a large container, mix Beef Broth, Worcestershire Sauce, and Tomato Sauce.</instruction>
 			<instruction>Slice Onion into 5-6 disks.</instruction>
 			<instruction>
-				Put InstaPot in Saut&eAcute; mode, put in the Butter then, using a spatula, move it around so that all of the bottom surface is covered.
+				Put InstaPot in Saut&eacute; mode, put in the Butter then, using a spatula, move it around so that all of the bottom surface is covered.
 				Continue until it is melted.
 			</instruction>
 			<instruction>Place the roast in the InstaPot, and using tongs to turn it, let it sit on every side and edge in the Butter until browns spots begin to be seen on that side.</instruction>
@@ -102,11 +102,11 @@
 		<note>When slicing the Roast, make sure to use a very sharp knife and cut very carefully, otherwise, the meat may end up shredding and falling apart.</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>For large InstaPots, double the broth mixture.</modification>
 	</Modifications>
 
-	<AdditionalNotes id="AdditionalNotes">
+	<AdditionalNotes>
 		<note>
 			With leftovers you can make a yummy soup:
 			<ol>

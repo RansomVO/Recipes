@@ -15,7 +15,7 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		We love eating Chinese food.
 		We usually use bottle after bottle of Yoshida's sauce.
 		But one night, we started making Teriyaki chicken and found we didn't have any!<br />
@@ -24,7 +24,7 @@
 		Since it is better than Yoshida's sauce, and since it was made by "Daddy," we decided to call it Daddyda's Sauce.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Soy Sauce<amount>1 Cup</amount></ingredient>
 			<ingredient>Flour<amount>&frac14; Cup</amount></ingredient>
@@ -52,7 +52,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				Put the Soy Sauce and Flour into a pan.<br />
@@ -64,7 +64,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			This sauce can be used immediately, or it can be placed into a bottle and saved for later.
 			<span class="NOTE">(We usually end up using some and saving some for later.)</span>

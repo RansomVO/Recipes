@@ -16,14 +16,14 @@
 
 	<!-- -->&section;<!-- -->
 
-	<Description id="Description">
+	<Description>
 		Want to have yummy Nachos?
 		That will require yummy Cheese Sauce!
 		<br />
 		This recipe is based on one from a restaurant named Rusty Taco, and it is <span class="EMPHASIZE">AWESOME!!!</span>
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Velveeta Cheese
@@ -34,7 +34,7 @@
 				<amount>&frac14;</amount>
 			</ingredient>
 			<ingredient>
-				Pickled Jalapenos<note>Canned</note>
+				Pickled Jalape&ntilde;os<note>Canned</note>
 				<amount>2&frac12; Tablespoons</amount>
 			</ingredient>
 			<ingredient>
@@ -48,7 +48,7 @@
 				<amount>&frac12; Cup<note>or &frac13;</note></amount>
 			</ingredient>
 			<ingredient>
-				Jalapeno Juice<note>From Pickled Jalapenos Can</note>
+				Jalapeno Juice<note>From Pickled Jalape&ntilde;os Can</note>
 				<amount>1-3 teaspoons</amount>
 			</ingredient>
 		</section>
@@ -61,39 +61,31 @@
 		</section>
 	</Preparation>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Throw all ingredients into a double boiler.</instruction>
 			<instruction>Stir with a whisk for about 15 minutes, until the sauce is thick but pourable and all ingredients are visible.</instruction>
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
-			A double boiler is a tool for melting things without over cooking or burning them.
+			A double boiler is a tool for melting things without overcooking or burning them.
 			If you don't have a double boiler, you can work-around it by:
 			<ol>
 				<li>
-					Get a skillet that is 3&inch;-4&inch; deep.
-					<br />
+					Get a skillet that is &approx;3&inch;-4&inch; deep.
 					<span class="NOTE">(Or a shallow pot with a large diameter)</span>
 				</li>
-				<li>Get a small pot that will fit into the skillet without touching the sides.</li>
+				<li>Get a small pot or pan with a handle that will hold the ingredients, and will fit into the skillet without touching the sides.</li>
+				<li>Fill the skillet with water, to the point that the small pot can be placed inside, not touching the bottom, without overflowing out of the skillet or into the pot.</li>
+				<li>Bring the water to a boil.</li>
+				<li>Put ingredients in the small pot and carefully set it in the skillet, not touching the bottom or sides, and cook for the appropriate amount of time.</li>
 			</ol>
-			<!--
-			<ol>
-				<li>Get a pot that has a large diameter. <span class="NOTE">(12&inch; or larger is best.)</span></li>
-				<li>Get a smaller pot with handle(s) at the top.</li>
-				<li>Fill the larger pot with water and place it on a burner at high and bring it to a boil.</li>
-				<li>
-					Put the ingredients in the smaller pot, then
-					<span class="EMPHASIZE">carefully</span>
-					dip the smaller pot into the water, without letting any water get into the smaller pot.
-				</li>
-				<li></li>
-			</ol>
-			-->
 		</note>
-		<note>The Jalapenos and Tomatoes come from a can, but you won't use the entire can of either.</note>
+		<note>
+			The Jalape&ntilde;os and Tomatoes come from a can, but you won't use the entire can of either,
+			so you might want to consider also doing another recipe to use them up.
+		</note>
 	</Notes>
 </Recipe>

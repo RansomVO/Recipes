@@ -15,7 +15,7 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		Usually, when you cook food, it needs to be consumed in short period of time, or it will get spoiled.
 		However, some foods can be bottled and stored for a long time, <span class="HIGHLIGHT">years</span> in some cases.<br />
 		However, just putting the food in bottles is not sufficient.
@@ -23,7 +23,7 @@
 		Basically, canning kills practically all of the bacteria, etc. and creates an air-tight seal.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Canning Bottles of the appropriate size<note>For example: Mason, Kerr, Ball, etc.</note>
@@ -38,7 +38,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Fill Bath Canner with water to about the depth necessary to cover the bottles that will be used.</instruction>
 			<instruction>Place Bath Canner on stove burner set to high and bring water to a boil.</instruction>
@@ -69,7 +69,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			When filling the jars, use care not to get any food on the mouth of the jar.
 			If this does occur, carefully clean the mouth of the jar with a clean cloth.

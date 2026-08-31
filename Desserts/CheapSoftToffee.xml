@@ -15,7 +15,7 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		When Ransom was growing up, his family used to visit Canada every few years.
 		One of Ransom's favorite treats up there was " MacIntosh's Creamy Toffee".
 		Ransom tried many recipes to duplicate it and came up with a really good one.
@@ -23,7 +23,7 @@
 		So, this recipe is not quite as good, and you have to be a bit more careful, but it is good.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Brown Sugar<amount>&frac12; Cup</amount></ingredient>
 			<ingredient>Corn Syrup<amount>&frac12; Cup</amount></ingredient>
@@ -37,7 +37,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Lightly spray a 9&inch; &by; 13&inch; pan with non-stick spray.</instruction>
 			<instruction>In a large, non-stick pot, combine all ingredients except Vanilla.</instruction>
@@ -55,7 +55,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			<span class="SUPER_EMPHASIZE">Warning!</span>
 			Mixture will more than double while heating, then will reduce as it nears the correct temperature.
@@ -71,7 +71,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			About a minute after pouring the mixture into the prepared pan, sprinkle it with about 1 Cup Chocolate Chips.
 			Let sit for another 2 minutes, then spread the now softened Chocolate Chips with a spatula.

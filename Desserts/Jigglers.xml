@@ -15,12 +15,12 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		There was a time when Jello Jigglers were included in commercials.
 		Even though we haven't seen such a commercial in a long time, kids still love them!
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Water<amount>2&frac12; Cups</amount></ingredient>
 			<ingredient>
@@ -30,7 +30,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Bring Water to a boil.</instruction>
 			<instruction>Put Gelatin into a small mixing bowl.</instruction>
@@ -40,7 +40,7 @@
 				Pour mixture into 9&inch; &by; 13&inch; pan.
 				Hint:If you lightly spray the pan with non-stick spray (such as Pam) then the treats are easier to remove when done.
 			</instruction>
-			<instruction>Refridgerate until firm. <span class=" NOTE">(About three hours.)</span></instruction>
+			<instruction>Refridgerate until firm. <span class="NOTE">(About three hours.)</span></instruction>
 			<instruction>After Jigglers have set, cut them into 1&inch; &by; 2&inch; rectangles with a knife.</instruction>
 			<instruction>Remove from the pan and enjoy!</instruction>
 		</section>
@@ -50,18 +50,18 @@
 		<note>
 			In Step 3, if you add the powder directly into the Boiling Water, it may " flash boil".<br />
 			This will cause it to spray all over and somebody usually gets burned.<br />
-			<span class=" NOTE">(Believe me, I learned the hard way!)</span>
+			<span class="NOTE">(Believe me, I learned the hard way!)</span>
 		</note>
 	</Notes>
 
-	<Modifications id=" Modifications">
+	<Modifications>
 		<modification>Instead of cutting Jigglers into rectangles, use cookie cutters to cut into decorative shapes.</modification>
 		<modification>
-			<span class=" POINT_HIGHLIGHT">To make the treats more nutritious <span class=" NOTE">(and better tasting)</span></span>:<br />
+			<span class="POINT_HIGHLIGHT">To make the treats more nutritious <span class="NOTE">(and better tasting)</span></span>:<br />
 			Use some sort of fruit Juice instead of water.
 		</modification>
 		<modification>
-			<span class=" POINT_HIGHLIGHT">Quick-set method:</span>
+			<span class="POINT_HIGHLIGHT">Quick-set method:</span>
 			<ol>
 				<li>Only add 1 Cup Boiling Water.</li>
 				<li>When Gelatin is completely disolved, add 1&frac12; Cups Ice Water.</li>
@@ -70,5 +70,5 @@
 		</modification>
 	</Modifications>
 
-	<FinalNote id=" FinalNote">A similar recipe for Diabetics is <a href=" .../ Desserts/ LS_GummyTreats.xml">Desserts and Snacks: Sugar-Free Gummy Treats</a></FinalNote>
+	<FinalNote>A similar recipe for Diabetics is <a href=".../Desserts/LS_GummyTreats.xml">Desserts and Snacks: Sugar-Free Gummy Treats</a></FinalNote>
 </Recipe>

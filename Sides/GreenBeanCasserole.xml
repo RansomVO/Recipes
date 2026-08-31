@@ -15,13 +15,13 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		Ransom doesn't care much for this dish, but he can eat it to avoid getting in trouble.
 		&smiley;
 		However, most other people do like this dish.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Cream of Mushroom Soup<amount>2 Cans</amount></ingredient>
 			<ingredient>Milk<amount>1 Cup</amount></ingredient>
@@ -35,7 +35,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Preheat the oven to 350&deg;.</instruction>
 			<instruction>Mix Soup, Milk, Soy Sauce, Pepper and half of the of French's Fried Onions <span class="NOTE">(approximately 1&frac13; Cups)</span>.</instruction>
@@ -46,14 +46,14 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			You can make just an 8&inch; &by; 8&inch; by doing &frac12; a batch.
 			<span class="NOTE">(But you'll probably want more than just &frac12; of the French's Fried Onions for the top.)</span>
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>Add &frac12; Cup Chopped Red Bell Pepper in Step 2.</modification>
 		<modification>
 			Add &frac12; Cup Shredded Cheese in Step 2.<br />

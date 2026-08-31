@@ -16,12 +16,12 @@
 	&section;
 	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description">
+	<Description>
 		We had been trying to find something that is as easy to make as the traditional "Crispy" but tastes a little better.
 		After surprisingly few attempts, we came up with this dish.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section id="Filling" title="Filling">
 			<ingredient>Apple Pie Filling<amount>2 Cans</amount></ingredient>
 			<ingredient>Fresh Blueberries<amount>1-2 Cups</amount></ingredient>
@@ -39,7 +39,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				Empty cans of Apple Pie Filling into the Dutch Oven.
@@ -72,7 +72,7 @@
 		</section>
 	</Instructions>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			For people with Diabetes, the Apple Pie Filling can be a No-Sugar-Added variety.
 		</modification>

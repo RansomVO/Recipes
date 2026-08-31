@@ -16,21 +16,21 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		When there was a Dutch Oven cook-off for desserts at a ward campout, Ransom tried doing a simple twist on upside-down cake.
 		It was a huge hit!<br />
 		As we tried to serve it, the Pie Filling started to drip down the side of the cake, thus the name.
 		<!-- QZX --><div class="TODO">The Ingredient amounts need to be validated.</div><!-- QZX -->
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Chocolate Cake Mix<amount>1</amount></ingredient>
 			<ingredient>Cherry Pie Filling<amount>1 21-oz. Can</amount></ingredient>
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Line the Dutch Oven with foil and butter the bottom and sides.</instruction>
 			<instruction>In a bowl, prepare Chocolate Cake Mix.</instruction>
@@ -51,7 +51,7 @@
 		</section>
 	</Instructions>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>For a 12&inch; Dutch Oven, it takes about 1&frac12; times this recipe, but we tend to just double it and use a deeper Dutch Oven.</modification>
 	</Modifications>
 </Recipe>

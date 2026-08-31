@@ -17,7 +17,7 @@
 	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		Don't even think about doing pasta from scratch.
 		<span class="NOTE">(Except egg noodles.)</span>
 		Just buy a box at the store.
@@ -25,7 +25,7 @@
 		Here is how to prepare them.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Pasta<note>Spaghetti, Linguini, Fettuccini, etc.</note>
@@ -39,7 +39,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Fill a medium sized pot &frac34; full of water and add Salt and 1 teaspoon of Oil.</instruction>
 			<instruction>Bring water to a boil.</instruction>
@@ -72,7 +72,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			It is extremely important to not add the Pasta to the water until it is <span class="EMPHASIZE">boiling!</span>
 			If you do, the Pasta will begin to break down before it cooks and either gets pasty, or completely falls apart.

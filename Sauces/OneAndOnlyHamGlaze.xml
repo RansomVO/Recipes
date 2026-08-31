@@ -16,12 +16,12 @@
 	&section;
 	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description">
+	<Description>
 		When you bake a ham, it turns out better if it has a glaze covering the outside.
 		When Di tasted this one, she decided it was the one and only that we will use at home.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Butter<note>Melted</note>
@@ -37,7 +37,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section id="GlazeSauce" title="Glaze Sauce">
 			<instruction>Place the Melted Butter and Brown Sugar in a bowl and mix well.</instruction>
 			<instruction>Add Garlic and Yellow Mustard and mix well.</instruction>
@@ -54,7 +54,7 @@
 		</section>
 	</Instructions>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			If your oven has a convection setting, at the end of cooking the ham, unwrap the foil, change to convection and turn up the heat to 425&deg;.<br />
 			This gives the glaze a flame-broiled appearance.

@@ -16,14 +16,14 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		A missionary with Italian heritage was trying out this recipe told us that when he was younger he broke some pasta in half to get it to fit in the pot.
 		His grandmother screamed and kicked him out of the kitchen for a week.
 		&lol;
 		Pretty much any Italian would consider broken pasta to be a nightmare, and thus the name.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Chicken Broth<note>Double-Strength</note>
@@ -50,7 +50,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				In a pot, combine Chicken Broth, Milk, Evaporated Milk and Cream of Mushroom Soup.
@@ -58,11 +58,11 @@
 			</instruction>
 			<instruction>Slice the Chicken into very thin slices, then cut into segments &approx;1&inch;-2&inch; long.</instruction>
 			<instruction>
-				Set InstaPot to Saut&eAcute; and add Butter.
+				Set InstaPot to Saut&eacute; and add Butter.
 				Let it sit until Butter is melted.
 			</instruction>
-			<instruction>Add Chicken and Garlic and saut&eAcute; until Chicken is cooked. (&approx;5-10 minutes)</instruction>
-			<instruction>Turn off Saut&eAcute; on the InstaPot, add liquid and stir well.</instruction>
+			<instruction>Add Chicken and Garlic and saut&eacute; until Chicken is cooked. (&approx;5-10 minutes)</instruction>
+			<instruction>Turn off Saut&eacute; on the InstaPot, add liquid and stir well.</instruction>
 			<instruction>Break Fettuccini in half so it fits in InstaPot.</instruction>
 			<instruction>Carefully stir the Pasta in the mixture until it is well covered.</instruction>
 			<instruction>
@@ -76,11 +76,11 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>If Pasta is not broken in half and well covered in sauce, it will end up being uncooked or stuck together in yucky clumps.</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>Try topping with something like, Bacon Bits, fresh Italian Parsley, Green Onions, etc.</modification>
 		<modification>
 			Try using some other kind of Pasta, such as Linguini, Penne or Rotini.

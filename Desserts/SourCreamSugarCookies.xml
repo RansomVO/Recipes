@@ -16,12 +16,12 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		We have had many really good recipes for sugar cookies.
 		But this recipe is the best we have ever had.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section id="IngredientsCookies" title="Cookies">
 			<ingredient>Sugar<amount>2 Cups</amount></ingredient>
 			<ingredient>
@@ -54,7 +54,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section id="InstructionsCookies" title="Cookies">
 			<instruction>Preheat oven to 350&deg;.</instruction>
 			<instruction>Cream Butter and Sugar together.</instruction>
@@ -73,7 +73,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			When a recipe says <span class="EMPHASIZE">Softened</span> Butter, it means butter at room temperature.
 			Do <span class="SUPER_EMPHASIZE">NOT</span> melt the Butter.

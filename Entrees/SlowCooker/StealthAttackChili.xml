@@ -17,7 +17,7 @@
 	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		This is one of the first recipes invented by Ransom.
 		He wanted a good recipe that could be made with ingredients primarily from food storage.
 		We went through several attempts, but once we succeeded, we would make it over and over.
@@ -29,7 +29,7 @@
 		But, we still make this one from time to time.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Dried Kidney Beans<amount>2 Cups</amount></ingredient>
 			<ingredient>Dried Red Beans<amount>1 Cup</amount></ingredient>
@@ -55,7 +55,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Put Water and beans in a Slow Cooker and cook them on Low overnight. <span class="NOTE">(4-8 hours)</span></instruction>
 			<instruction>Drain all of the excess Water, leaving beans in the Slow Cooker.</instruction>
@@ -66,7 +66,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			Dried beans are hard.
 			They need to be softened before they can be eaten.
@@ -79,7 +79,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>May substitute 2 Onions cut into &frac14;&inch; disks, then disks cut into 4 wedges for Dried Minced Onion.</modification>
 		<modification>May substitute 1 teaspoon Minced Garlic for the Garlic Powder.</modification>
 		<modification>May substitute 2 Tablespoons Light Corn Syrup for the Brown Sugar.</modification>

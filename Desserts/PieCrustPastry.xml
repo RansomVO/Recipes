@@ -15,12 +15,12 @@
 	<Source>Classic</Source>
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		The first step to making a pie is to make its crust.
 		This recipe is good for an 8&inch; pie with a top crust, or two 8&inch; pies without a top crust.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Flour<amount>1&frac12; Cup</amount></ingredient>
 			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
@@ -36,7 +36,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>If the pie crust is to be baked before filling, preheat the oven to 425&deg;.</instruction>
 			<instruction>In a mixing bowl, combine dry ingredients, and mix well.</instruction>
@@ -60,7 +60,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			A Pastry Blender is not an electrical appliance!
 			It is a hand-held tool with a bunch of blades used to gently mix doughs of this sort.<br />

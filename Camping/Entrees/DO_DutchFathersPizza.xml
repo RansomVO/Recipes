@@ -16,7 +16,7 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		When I was young, my dad used to cook some wonderful recipes in the Dutch Oven.
 		We were constantly looking for recipes that could be adapted.
 		One year we decided to try pizza and it turned out wonderful.
@@ -26,7 +26,7 @@
 		It's Dutch Father's Pizza," and the name stuck.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section id="IngredientsSauce" title="Sauce">
 			<ingredient>Cans Tomato Sauce<amount>4 8-oz.</amount></ingredient>
 			<ingredient>Can Tomato Paste<amount>1 6-oz.</amount></ingredient>
@@ -72,7 +72,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions" pageBreak="true">
+	<Instructions pageBreak="true">
 		<section id="InstructionsSauce" title="Sauce">
 			<instruction>In pot, combine all Sauce Ingredients and simmer for 15 minutes, stirring occationally.</instruction>
 		</section>
@@ -128,7 +128,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>It is best to make the sauce the night before you use it.</note>
 		<note>
 			A 2&inch;-thick 12&inch; pizza will feed 4 adults
@@ -145,5 +145,5 @@
 		<note>Use the left-over dough to make <a href=".../Camping/Desserts/Twisties.xml">"Twisties"</a></note>
 	</Notes>
 
-	<FinalNote id="FinalNote">A similar recipe for use at home: <a href=".../Entrees/Oven/Pizza.xml">Entrees / Oven: Pizza</a></FinalNote>
+	<FinalNote>A similar recipe for use at home: <a href=".../Entrees/Oven/Pizza.xml">Entrees / Oven: Pizza</a></FinalNote>
 </Recipe>

@@ -17,14 +17,14 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		Grandpa John used to take the family on a long trip up and through Canada, then down the western coast.
 		While in Washington or Oregon, they would stop and pick a bunch of wild blackberries then find a camping spot.<br />
 		There, Gramma 'Rilla would make jam, while Grandpa John would make Basque Sheepherder's Bread.
 		It made a <span class="EMPHASIZE">wonderful</span> treat the kids all loved!
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Butter<amount>2 Tablespoons</amount></ingredient>
 			<ingredient>Hot Water<amount>3 Cups</amount></ingredient>
@@ -39,7 +39,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Line Dutch Oven with foil, then grease it with Butter.</instruction>
 			<instruction>Combine Hot Water, Melted Butter, Sugar, Salt, Yeast, and Flour, then kneed well.</instruction>
@@ -52,7 +52,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>It is always good to have something to put on top of slices, like the <a href=".../Canning/WildBlackberryJam.xml">Black Berry Jam</a> Grandma 'Rilla used to make.</note>
 	</Notes>
 

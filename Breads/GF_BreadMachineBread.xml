@@ -23,7 +23,7 @@
 		</span>
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Eggs<amount>3</amount></ingredient>
 			<ingredient>Milk<amount>2 Cups</amount></ingredient>
@@ -37,7 +37,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				Add ingredients to bread machine, in this order, without mixing:
@@ -53,7 +53,7 @@
 		</section>
 	</Instructions>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			Instead of Gluten-Free All Purpose Baking Flour, you can use:
 		</modification>

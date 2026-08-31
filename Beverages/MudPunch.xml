@@ -15,19 +15,19 @@
 	&section;
 	<LastModified year="2025" month="3" day="27" />
 
-	<Description id="Description">
+	<Description>
 		We have no idea why, but at a family gathering with nephews and nieces, Grandpa John just decided to mix a couple of juices. The results looked <span class="EMPHASIZE">disgusting</span> , but actually tasted really good.<br />
 		Because of the brown color, we decided to call it "Mud Punch".
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Orange Juice Concentrate<amount>1 12-oz. Can</amount></ingredient>
 			<ingredient>Grape Juice Concentrate<amount>1 12-oz. Can</amount></ingredient>
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				In a large pitcher, combine both cans of Juice Concentrate.
@@ -40,7 +40,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			These days, the coloring of the Juice Concentrates is generally artificial, so it doesn't look like mud so much, but it still tastes good.
 		</note>

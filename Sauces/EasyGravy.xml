@@ -15,13 +15,13 @@
 	&section;
 	<LastModified year="2025" month="3" day="31" />
 
-	<Description id="Description">
+	<Description>
 		There are many ways to make gravy.
 		Some take hours and tons of ingredients.
 		This recipe is the simplest we have found and is pretty much the only one Ransom uses.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Broth<note>Double-Strength</note>
@@ -35,7 +35,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Pour Broth into a small saucepan and begin to bring to a boil.</instruction>
 			<instruction>In the meantime, combine Cold Water and Corn Starch in a small cup and mix until there are <span class="EMPHASIZE">absolutely no lumps</span> at all.</instruction>
@@ -45,7 +45,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			Broth can be any flavor you want: Beef, Chicken, Onion, Vegetable, etc.<br />
 			<span class="NOTE">(The only flavor we don't recommend is Pork.)</span>
@@ -57,7 +57,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>You can create the Double-Strength Beef Broth by using 2 Cups of Water + 4 Bouillon Cubes <span class="NOTE">(or the equivalent)</span>.</modification>
 		<modification>
 			Instead of Double-Strength Broth, you can use dripping from a roast, chicken, etc.

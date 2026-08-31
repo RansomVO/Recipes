@@ -15,13 +15,13 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		There are many dishes that taste good with butter, that also taste good with honey.
 		<span class="NOTE">(Corn Bread, Navajo Fry Bread, etc.)</span>
 		In Utah, it is very common to serve Honey Butter with these.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Butter<note>Softened</note>
@@ -31,14 +31,14 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>In a small bowl, mix ingredients.</instruction>
 			<instruction>That's all. Enjoy!</instruction>
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			Make sure Butter is softened before starting this recipe.
 			This is best done by leaving a stick on the counter for an hour or so.<br />
@@ -48,7 +48,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>Feel free to increase or decrease the amount of honey to your own taste.</modification>
 	</Modifications>
 </Recipe>

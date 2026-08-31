@@ -15,13 +15,13 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		When Ransom was growing up, his family used to visit Canada every few years.
 		One of Ransom's favorite treats up there was " MacIntosh's Creamy Toffee".
 		Ransom tried many recipes to duplicate it and finally came up with this.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>White Sugar<amount>2 Cups</amount></ingredient>
 			<ingredient>Brown Sugar<amount>1 Cup</amount></ingredient>
@@ -36,7 +36,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Lightly spray a 10&inch; &by; 15&inch; cookie sheet with non-stick spray.</instruction>
 			<instruction>In a LARGE, non-stick pot, combine all ingredients except Vanilla.</instruction>
@@ -52,7 +52,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			<span class="SUPER_EMPHASIZE">Warning!</span>
 			Mixture will more than double while heating, then will reduce as it nears the correct temperature, so make sure you use a <span class="SUPER_EMPHASIZE">Large</span> non-stick pot.

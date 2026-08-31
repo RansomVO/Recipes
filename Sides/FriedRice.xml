@@ -15,13 +15,13 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		When Ransom was a Scout Master for 11-year-olds, he wanted to make a special Dutch Oven meal for their first campout.
 		He went through a bunch of cookbooks and came up with a recipe similar to this one, which he used as a main course.<br />
 		Later, after he was married, he was given a Wok, so he modified that recipe to this one for use as a side dish.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Cooked Rice<note>Cold or Cool</note>
@@ -43,7 +43,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				Slice the Chinese Cabbage as thinly as possible.
@@ -61,7 +61,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			For best results, cook the Rice the day before, then let it sit in the refrigerator overnight.<br />
 			If that is not possible, cook the Rice then spread it out to cool on a cookie sheet or butcher paper.
@@ -69,7 +69,7 @@
 		<note>A cheese grater is ideal for "coarsely shredding" the Carrots.</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			Instead of Chicken, you can use other meats, such as Ham <span class="NOTE">(which doesn't need to be precooked)</span> or Beef.
 			You could also use a mixture of several meats, or even leave the meat completely out.

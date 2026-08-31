@@ -16,12 +16,12 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		Originally, this was called "Next Best Thing To Robert Redford".
 		However, that is a mouthful, so everybody just started calling it "Robert Redford", which is just as well because our kids have no idea who Robert Redford was.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section id="IngredientsCrust" title="Crust">
 			<ingredient>Flour<amount>1 Cup</amount></ingredient>
 			<ingredient>
@@ -57,7 +57,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section id="InstructionsCrust" title="Crust">
 			<instruction>Mix Flour, Butter and Pecans until crumbly.</instruction>
 			<instruction>Press into 9&inch; &by; 13&inch; pan and bake at 350&deg; for 20 minutes.</instruction>

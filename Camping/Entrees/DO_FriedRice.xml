@@ -18,13 +18,13 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		Ransom used the recipe book Joy of Cooking while on his mission.
 		<span class="NOTE">(It is still his favorite hard-copy recipe book.)</span>
 		When he got home from his mission, he adapted the recipe to be an entree cooked in a Dutch Oven.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Vegetable Oil<amount>&frac12;-1 Cup</amount></ingredient>
 			<ingredient>Uncooked Rice<amount>4 Cups</amount></ingredient>
@@ -51,10 +51,10 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Place Dutch Oven on medium amount of charcoals.</instruction>
-			<instruction>Add Oil and Uncooked Rice and saut&eAcute;, stirring/scraping frequently until Rice begins to brown.</instruction>
+			<instruction>Add Oil and Uncooked Rice and saut&eacute;, stirring/scraping frequently until Rice begins to brown.</instruction>
 			<instruction>Add Water and Salt and stir well.</instruction>
 			<instruction>Cook with the lid on, stirring occasionally until Rice is cooked. <span class="NOTE">(&approx;20-45 minutes)</span></instruction>
 			<instruction>
@@ -66,7 +66,7 @@
 		</section>
 	</Instructions>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>Instead of Chinese Cabbage, use Celery Greens</modification>
 		<modification>Replace some or all of the Onions with Scallions cut into &frac12;&inch; lengths.</modification>
 		<modification>If it just going to be a side dish, the amount of Ham can be reduced or left out completely.</modification>

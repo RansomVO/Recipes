@@ -16,12 +16,12 @@
 	&section;
 	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description">
+	<Description>
 		On a hot summer day, nothing is better than a big Cooler Jug of sweet Root Beer.
 		And this recipe is hands-down the best.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Water<note>Warm</note>
@@ -43,7 +43,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>In a 5-gallon Cooler Jug, combine 3 gallons Warm Water and Sugar and mix well until Sugar is dissolved.</instruction>
 			<instruction>Add Root Beer Extract and Vanilla.</instruction>
@@ -61,7 +61,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			<span class="SUPER_EMPHASIZE">Do Not Touch Dry Ice With Bare Skin!!!</span>
 			Make sure you are decently insulated!<br />
@@ -93,11 +93,11 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications" pageBreak="true">
+	<Modifications pageBreak="true">
 		<modification>Adding <a href=".../Desserts/IceCream.xml">Home-made Vanilla Ice Cream</a> makes a fantastic Root-Beer Float.</modification>
 	</Modifications>
 
-	<AdditionalNotes id="AdditionalNotes">
+	<AdditionalNotes>
 		<note>
 			We usually use a big 5-gallon cooler with a spigot.
 			<span class="NOTE">(Like Coleman or Igloo brand.)</span><br />

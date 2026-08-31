@@ -15,12 +15,12 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		This dish is fairly easy to make and is a lot of fun to eat.
 		Basically, kids end up acting like monkeys taking small handfuls and eating it.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Sugar<amount>&frac12; Cup</amount></ingredient>
 			<ingredient>Cinnamon<amount>2 teaspoons</amount></ingredient>
@@ -33,7 +33,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				Preheat oven to 350&deg;.
@@ -51,7 +51,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			When it first comes out of the oven, the sugar has caramelized and is very hot.
 			It will cause burns if you touch it at this point!
@@ -59,7 +59,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>If you don't have a Tube Pan, reduce Biscuit Dough to only 2 Tubes, and use a bread loaf pan.</modification>
 		<modification>Do not use a cake pan, or anything similar as it will leave the center doughy and the edges overdone.</modification>
 	</Modifications>

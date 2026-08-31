@@ -15,7 +15,7 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		While thumbing through the World-Wide Ward Cookbook we saw a recipe for a Rice side dish that sounded pretty good.
 		We tried it and the kids went ga-ga.
 		And it is really easy.
@@ -23,7 +23,7 @@
 		So, when we do Rice as a side dish, this is the one we almost always do.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Rice<amount>1 Cup</amount></ingredient>
 			<ingredient>
@@ -38,7 +38,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				Coarsely shred the Carrot.
@@ -61,7 +61,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			At the start, it looks like way too much vegetables for the Rice, but once it cooks, and you stir it up, it ends up being just right.
 		</note>
@@ -77,7 +77,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>You can create the Double-Strength Chicken Broth by using 2 Cups Water + 4 Chicken Bouillon Cubes <span class="NOTE">(or the equivalent)</span>.</modification>
 		<modification>You can substitute 1 Tablespoon of Butter for the Vegetable Oil.</modification>
 		<modification>

@@ -60,6 +60,9 @@
 		<xsl:param name="depth" />
 
 		<xsl:choose>
+			<xsl:when test="$depth = 0">
+				<xsl:value-of select="'.'" />
+			</xsl:when>
 			<xsl:when test="$depth > 1">
 				<xsl:value-of select="'../'" />
 				<xsl:call-template name="LinkPrefix">

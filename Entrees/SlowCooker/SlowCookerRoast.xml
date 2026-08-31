@@ -16,12 +16,12 @@
 	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2026" month="8" day="26" />
 
-	<Description id="Description">
+	<Description>
 		Sometimes <span class="NOTE">(especially on Fast Sundays)</span> you just want to come home to a meal that is ready to eat.
 		This recipe allows you to do the preparation before you leave, then come home to a meal that is cooked and a house that is filled with a tantalizing smell.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Onions<amount>1 Large</amount></ingredient>
 			<ingredient>Roast<amount>1 3-4 Lb.</amount></ingredient>
@@ -35,7 +35,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Slice Onion into disks &frac14;&inch;-&frac12;&inch; thick, then cover the bottom of the Slow Cooker with them.</instruction>
 			<instruction>
@@ -58,7 +58,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			The amount of Carrots depends how much your family eats.
 			You may want more or less than what is listed.
@@ -83,7 +83,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>Instead of Lipton Onion Soup Mix, use Montreal Steak seasoning.</modification>
 		<modification>Use the broth to make <a href=".../SaucesAndDips/EasyGravy.xml">Sauces and Dips: Easy Gravy</a>.</modification>
 	</Modifications>

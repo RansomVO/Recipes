@@ -16,13 +16,13 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		The youth in our ward did a service project where they went to Manti and helped do some spring cleaning at some turkey farms.
 		When they were done, the farmers fed them this recipe and they <span class="EMPHASIZE">loved</span> it!<br />
 		We were able to get the recipe and here it is.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Lemon-Lime Soda<amount>1 Cup</amount></ingredient>
 			<ingredient>Soy Sauce<amount>&frac12; Cup</amount></ingredient>
@@ -33,7 +33,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>In a large bowl place Soda, Soy Sauce, Vegetable Oil, Garlic Powder, and Horseradish then mix well.</instruction>
 			<instruction>Add Turkey Tenders and make sure they are well covered with the Marinade.</instruction>
@@ -44,7 +44,7 @@
 		</section>
 	</Instructions>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			The original recipe called for Cola instead of Lemon-Lime Soda, but pretty much any flavor can be used.
 			<span class="NOTE">(Ransom's favorite is Ginger Ale.)</span>

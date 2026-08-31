@@ -15,14 +15,14 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description"> Ransom served as a missionary in Puerto Rico. A bar/restaurant in Old San Juan invented a drink known as the Piňa Colada. It is still served all over the world.<br />
+	<Description> Ransom served as a missionary in Puerto Rico. A bar/restaurant in Old San Juan invented a drink known as the Piňa Colada. It is still served all over the world.<br />
 		Traditionally served with Rum, it is fantastic without.
 		<span class="NOTE">(Ransom can attest to that because of the one he got there. &smiley;)</span><br />
 		Piňa Colada translates to "Strained Pineapple".
 		It refers to the fact that it is made with Pineapple juice, and a coconut cream which is made by grating and <span class="HIGHLIGHT">straining</span> coconut.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Coconut Cream<amount>&frac12; Cup</amount></ingredient>
 			<ingredient>
@@ -37,7 +37,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>In a blender, combine the Coconut Cream and Pineapple Juice.</instruction>
 			<instruction>Turn blender on and begin to add Crushed Ice a little at a time.</instruction>
@@ -46,7 +46,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			When adding the ice, add it until the blender can barely handle it.
 			If the blender suddenly starts going very fast, but the drink isn't moving on the top, you have added too much.
@@ -68,7 +68,7 @@
 			Since this is a long and painful process, it is best to just purchase a can of it. It is usually found by the "mixers", such as margarita mix, etc.
 		</note>
 		<note>
-			<span class="SUPER_EMPHASIZE">DO NOT</span> &nbsp;get the cheap Coconut Cream. Unfortunately, there is a huge difference. The very best is Coco Lopez, but Coco Re&aAcute;l is also good.
+			<span class="SUPER_EMPHASIZE">DO NOT</span> &nbsp;get the cheap Coconut Cream. Unfortunately, there is a huge difference. The very best is Coco Lopez, but Coco Re&aacute;l is also good.
 		</note>
 	</Notes>
 </Recipe>

@@ -15,14 +15,14 @@
 	&section;
 	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description">
+	<Description>
 		These days, it is cheapest and easiest to buy an inexpensive can of spaghetti sauce.
 		However, when you want something really good, you want to make it yourself.<br />
 		This recipe makes a very sweet marinara sauce.
 		It is great with spaghetti, but it can also be used for Pizza, Lasagna, Chicken Parmesan, etc.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Tomato Sauce<amount>4 8-oz. Cans</amount></ingredient>
 			<ingredient>Tomato Paste<amount>1 6-oz. Can</amount></ingredient>
@@ -34,7 +34,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>In a saucepan, mix all ingredients together.</instruction>
 			<instruction>Heat on medium until it starts to boil, stirring occasionally.</instruction>
@@ -42,7 +42,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			When used as a Pizza Sauce, the Garlic and Onion must be <span class="HIGHLIGHT">finely</span> minced to avoid making the Sauce chunky.<br />
 			Or:
@@ -57,11 +57,11 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>To make it a bit sweeter, add 2-3 Tablespoons Brown Sugar.</modification>
 	</Modifications>
 
-	<FinalNote id="FinalNote">
+	<FinalNote>
 		Ransom learned to make recipes from this.
 		He used to make it without measuring anything.
 		He would just prepare everything, mix it together, then taste it and modify it as needed.

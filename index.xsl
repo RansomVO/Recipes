@@ -150,7 +150,6 @@
 						</div>
 
 						<div class="SUBSECTION_DESCRIPTION">
-							<!-- QZX TODO: Figure out why the externalEntities.dtd causes this to fail. -->
 							<xsl:apply-templates select="inline/description">
 								<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 							</xsl:apply-templates>
@@ -163,7 +162,11 @@
 						</xsl:apply-templates>
 
 						<div class="SUBSECTION_DESCRIPTION">
-							<!-- QZX TODO: Figure out why the externalEntities.dtd causes this to fail. -->
+							<!-- document() parses summary.xml standalone, with no DOCTYPE (it can't have one;
+								see FilenameDocumentTypes in RecipeFixer/XmlFixer.cs), so entities.dtd's named
+								entities (e.g. &eacute;, &smiley;) are undefined here and fail the parse,
+								silently emptying this apply-templates. Use numeric character references
+								(&#xE9;, &#x1F600;) in section.xml/summary.xml/pages.xml instead. -->
 							<xsl:apply-templates select="document(concat(@folder, '/summary.xml'))">
 								<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 							</xsl:apply-templates>

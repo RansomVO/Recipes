@@ -15,13 +15,13 @@
 	&section;
 	<LastModified year="2025" month="3" day="31" />
 
-	<Description id="Description">
+	<Description>
 		One of the burger joints in Utah decided to create a special sauce into which you could dip French fries.
 		It wasn't long until long until there were a lot of different versions.<br />
 		Here is the basic recipe.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Ketchup<amount>&frac12; Cup</amount></ingredient>
 			<ingredient>Mayonnaise<amount>&frac12; Cup</amount></ingredient>
@@ -29,18 +29,18 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>In a small bowl, mix all ingredients.</instruction>
 			<instruction>That's it. Enjoy!</instruction>
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>In Washington, very few joints have Fry Sauce, so when we are eating at a sit-down burger joint there, Ransom will ask for the ingredients and an empty soup cup then mix up a batch right there. &smiley;</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>Add 1 teaspoon Horseradish Sauce to give it extra zing.</modification>
 	</Modifications>
 </Recipe>

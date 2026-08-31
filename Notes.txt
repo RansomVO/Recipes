@@ -28,8 +28,8 @@
 	≈		-> &approx;
 
 - Make sure to leverage accents in the following words:
-	sauté		"Saut&eAcute;"
-	Tapatío		"Tapat&iAcute;o"
+	sauté		"Saut&eacute;"
+	Tapatío		"Tapat&iacute;o"
 	(Add more as encountered.)
 
 - When mentioning Recipes, or Ingredients in the Recipes, make first letter capital

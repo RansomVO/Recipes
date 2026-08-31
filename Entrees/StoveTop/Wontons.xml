@@ -16,13 +16,13 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		When Di looks back and remembers peaceful times at home, she remembers her mom making Wonton Soup.
 		We came up with this recipe to be able to make Wonton Soup.
 		Then we used leftovers to make Fried Wontons.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Ground Pork<amount>&frac12; Lb.</amount></ingredient>
 			<ingredient>Minced Garlic<amount>1 teaspoon</amount></ingredient>
@@ -40,7 +40,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>In a bowl combine all of the ingredients, except for the Wrappers, and mix well.</instruction>
 			<instruction>Get out a cup or small bowl and fill with &approx;1 Cup Water.</instruction>
@@ -69,14 +69,14 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes" pageBreak="true">
+	<Notes pageBreak="true">
 		<note>
 			You can buy Wonton Wrappers at most grocery stores.
 			A 14-oz. package contains about 44 skins.
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			Do <span class="SUPER_EMPHASIZE">NOT</span> use Grated Ginger if Di is eating with you!<br />
 			Di doesn't like Ginger, so her mom set it in a bowl on the table and it was used as a condiment.

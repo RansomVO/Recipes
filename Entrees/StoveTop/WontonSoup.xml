@@ -17,12 +17,12 @@
 	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="3" day="29" />
 
-	<Description id="Description">
+	<Description>
 		When Di looks back and remembers peaceful times at home, she remembers her mom making Wonton Soup.
 		When we were looking for a new recipe to create, Wonton Soup became a priority and we came up with this.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Vegetable Oil<amount>1 Tablespoon</amount></ingredient>
 			<ingredient>Garlic, Minced<amount>1 Tablespoon</amount></ingredient>
@@ -54,7 +54,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				If desired, get the Wontons by using the <a href=".../Entrees/StoveTop/Wontons.xml">Entrees / Stove Top: Wontons</a> Recipe.
@@ -76,14 +76,14 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			If you have leftovers, fish out the wontons and store them in a dry container, separate from the soup.
 			<span class="NOTE">(Otherwise they get all soggy.)</span>
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			Do <span class="SUPER_EMPHASIZE">NOT</span> use Grated Ginger if Di is eating with you!<br />
 			Di doesn't like Ginger, so her mom set it in a bowl on the table and it was used as a condiment.

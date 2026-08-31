@@ -16,13 +16,13 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		One morning, Ransom woke up a couple of hours early, so he went out and picked a bunch of fresh wild blackberries.
 		When he came home he started following one recipe, until he realized it took pie filling, which we didn't have.
 		Ransom quickly improvised, and came up with this recipe, which the entire family loved!
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Butter<note>Softened</note>
@@ -40,7 +40,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Cream together Butter and Sugar.</instruction>
 			<instruction>Add Eggs, and Almond Extract, then beat.</instruction>

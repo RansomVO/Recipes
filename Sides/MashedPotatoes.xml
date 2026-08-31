@@ -15,12 +15,12 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		Mashed potatoes is one of the easiest side dishes to prepare.
 		However, it is a little time consuming, so make sure to factor that in while preparing your meal.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Potatoes<note>Medium</note>
@@ -39,7 +39,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				Peel Potatoes.
@@ -68,13 +68,13 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			When available, you may use a hand mixer instead of a potato masher.
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			For thicker Mashed Potatoes, add less Milk.
 			For less thick, add more.

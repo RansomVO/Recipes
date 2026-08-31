@@ -8,18 +8,18 @@
 ]>
 
 <Recipe>
-	<Title>Cr&eCirc;pes</Title>
+	<Title>Cr&ecirc;pes</Title>
 	<Yields>6-8</Yields>
 	<Source>Modified from Classic French Recipe</Source>
 
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		After trying a few recipes, we found this one to be the easiest to make and it tastes great.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Eggs<amount>2</amount></ingredient>
 			<ingredient>Milk<amount>&frac23; Cup</amount></ingredient>
@@ -32,7 +32,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Put Eggs, Milk, Water and Vanilla in a blender and mix on lowest setting.</instruction>
 			<instruction>While mixing, add Sugar, Salt and Baking Powder.</instruction>
@@ -46,16 +46,16 @@
 				Cook until slight bubbles form.
 				The bottom should turn a light golden brown.
 			</instruction>
-			<instruction>Turn Cr&eCirc;pe over and cook until other side is a light golden brown.</instruction>
+			<instruction>Turn Cr&ecirc;pe over and cook until other side is a light golden brown.</instruction>
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>We like to spread syrup or jam on one side, then roll up into a loose tube before eating.</note>
 		<note>
 			For a real treat:
 			<ol>
-				<li>Put a few spoonfuls of fruit pie filling on flat Cr&eCirc;pe.</li>
+				<li>Put a few spoonfuls of fruit pie filling on flat Cr&ecirc;pe.</li>
 				<li>Roll it up.</li>
 				<li>Cover with syrup.</li>
 				<li>Top it with whipped cream.</li>

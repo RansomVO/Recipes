@@ -15,7 +15,7 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		In the mid 1800's, the U.S. government was dealing with Navajo Indians by commandeering the women and children and marching them to a distant location.
 		On the trip, they were given small allotments of flour, etc.
 		From this, the mothers would mix up a dough and fry it in oil for their children.
@@ -23,7 +23,7 @@
 		There are several versions of this recipe, but this is the one that has worked best for us.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Flour<amount>4 Cups</amount></ingredient>
 			<ingredient>Baking Powder<amount>4 teaspoons</amount></ingredient>
@@ -36,7 +36,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Mix together Flour, Baking Powder and Salt.</instruction>
 			<instruction>Add Milk and gently knead together.</instruction>
@@ -46,7 +46,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>Eating it plain isn't very pleasurable, so make sure to have <a href=".../Sauces/HoneyButter.xml">Sauces: Honey Butter</a>, Honey, Butter, Jam or something similar on hand.</note>
 		<note>For "Navajo Tacos" make regular taco fillings, but substitute these for the tortillas.</note>
 	</Notes>

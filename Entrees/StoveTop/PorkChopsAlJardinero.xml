@@ -17,7 +17,7 @@
 	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		"Jardinero" is the Spanish word for gardener.
 		It is pronounced "Har-dee-neh-row".<br />
 		Ransom prepared this recipe once when he had been out on his mission in Puerto Rico for only a couple of months.
@@ -26,7 +26,7 @@
 		Later, some members told Ransom what the name of the dish is in Spanish.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Pork Chops<amount>2</amount></ingredient>
 			<ingredient>Onion<amount>1</amount></ingredient>
@@ -40,7 +40,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Peel Onion, then cut into chunks, then place across the bottom of a large saucepan.</instruction>
 			<instruction>Peel the Potatoes and cut into chunks slightly bigger than the head of a spoon.</instruction>
@@ -56,7 +56,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>Sprinkling the Water on top washes the Salt and Pepper down into everything.</note>
 		<note>
 			When serving, you can make it look nice if you:

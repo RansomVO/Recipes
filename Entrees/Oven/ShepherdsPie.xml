@@ -17,7 +17,7 @@
 	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="6" day="6" />
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Hamburger<amount>1 Lb.</amount></ingredient>
 			<ingredient>Golden Mushroom Soup<amount>1 10.5-oz. Can</amount></ingredient>
@@ -36,7 +36,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Peel Potatoes, cut into chunks and place in a pot.</instruction>
 			<instruction>Add Salt, then add Water until Potatoes are covered.</instruction>
@@ -61,7 +61,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			Potatoes are usually mashed with a potato masher, but I find it easier to use a mixer.
 			If you don't have either, you can use a fork, but that is painful.
@@ -72,7 +72,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			Instead of Golden Mushroom Soup, you can use simple Brown Gravy with Salt and Pepper.
 			Or better yet, Brown Gravy with Montreal Steak Seasoning.

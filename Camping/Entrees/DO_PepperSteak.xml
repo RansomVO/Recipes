@@ -16,7 +16,7 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		Ransom is always looking for new Dutch Oven recipes.
 		The Lodge company had annual Dutch Oven cookoffs in Utah, and one year the winner was a Pepper Steak recipe.<br />
 		Of course he had to try it with his wife and a couple of friends.
@@ -30,7 +30,7 @@
 		But Pepper Steak still sounded good, so we made some modifications and came up with this.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section id="IngredientsMarinade" title="Marinade">
 			<ingredient>
 				Beef Broth<note>Double Strength</note>
@@ -67,7 +67,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section id="InstructionsMarinade" title="Marinade">
 			<instruction>In a large bowl, combine Double Strength Beef Broth, Ground Pepper, White Pepper, Chili Pepper, Paprika, Worcestershire Sauce, Tabasco Sauce, and juice from the Lime then mix well.</instruction>
 			<instruction>
@@ -83,7 +83,7 @@
 			<instruction>Remove Beef from Marinade sauce, place in Dutch Oven and brown lightly.</instruction>
 			<instruction>Add Marinade sauce and simmer until Beef is fully cooked.</instruction>
 			<instruction>Remove Beef and set aside, but leave Marinade Sauce.</instruction>
-			<instruction>Add Onion and Bell Peppers and saut&eAcute; until barely tender.</instruction>
+			<instruction>Add Onion and Bell Peppers and saut&eacute; until barely tender.</instruction>
 			<instruction>Put Beef back into the Dutch Oven and bring to a simmer for 1 minute.</instruction>
 			<instruction>Mix Flour and Water again to ensure it is <span class="EMPHASIZE">completely</span> disolved.</instruction>
 			<instruction>While stirring contstantly, slowly add the Flour and Water mixture.</instruction>
@@ -91,10 +91,10 @@
 		</section>
 	</Instructions>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			If you don't want it as spicy, reduce the Ground Black Pepper and/or Tabasco Sauce.
-			Or you can use a different hot sauce, such as Tapat&iAcute;o.
+			Or you can use a different hot sauce, such as Tapat&iacute;o.
 		</modification>
 	</Modifications>
 </Recipe>

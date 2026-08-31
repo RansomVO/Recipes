@@ -15,11 +15,11 @@
 	&section;
 	<LastModified year="2025" month="TODO" day="TODO" />
 
-	<Description id="Description">
+	<Description>
 		<span class="TODO">ToDo: Add Description</span>
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section id="IngredientsToDo" title="ToDo">
 			<ingredient>
 				ToDo<note>ToDo</note>
@@ -36,7 +36,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section id="InstructionsToDo" title="ToDo">
 			<instruction>Preheat oven to <span class="TODO">ToDo</span> &deg;</instruction>
 		</section>
@@ -45,15 +45,15 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note><span class="TODO">ToDo</span></note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification><span class="TODO">ToDo</span></modification>
 	</Modifications>
 
-	<AdditionalNotes id="AdditionalNotes">
+	<AdditionalNotes>
 		<note><span class="TODO">ToDo</span></note>
 	</AdditionalNotes>
 

@@ -15,13 +15,13 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		Most Thanksgivings we have used boxes of Stove Top Stuffing, but one year we ate at our in-laws, the Therriault's, and fell in love with their stuffing.
 		Karla gave us her recipe and we made some modifications to make it completely on the stove instead of stuffing it into the Turkey.
 		That makes it Stuff<span class="LARGE_EMPHASIZE">(Me)</span>ing instead of Stuffing. &smiley;
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Celery<note>With Leaves</note>
@@ -53,7 +53,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Cut Onion into &frac14;&inch; discs, then slice the discs into 8 wedges.</instruction>
 			<instruction>
@@ -82,7 +82,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			If a Thanksgiving Turkey is being prepared:
 			<ul>
@@ -95,7 +95,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			Instead of using fresh Bread, use dried Bread cubes or pieces. <i>(Di's favorite is from Haggens!)</i><br />
 			Then increase the Turkey Broth to 1 Cup per 8 Oz. bag or package of dried Bread.

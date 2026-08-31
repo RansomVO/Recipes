@@ -15,12 +15,12 @@
 	&section;
 	<LastModified year="2025" month="3" day="31" />
 
-	<Description id="Description">
+	<Description>
 		Eggs for breakfast is a standard staple.
 		But if they are not done right, they end up a rubbery or burnt mess.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Eggs<amount>1-2</amount></ingredient>
 			<ingredient>
@@ -34,7 +34,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				Break Eggs into a cup.
@@ -49,11 +49,11 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>The Milk adds something to the Eggs which will boil, which causes the Eggs to be fluffy.</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			If you are not using a non-stick pan, consider using some non-stick spray.
 			<span class="NOTE">(such as Pam)</span>.

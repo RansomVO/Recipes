@@ -17,7 +17,7 @@
 	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		Before they were married Di and Ransom had a BBQ Rips bake-off with missionaries as the judges.
 		Ransom did the <a href=".../Entrees/SlowCooker/BBQSpareRibs.xml">Slow Cooker: BBQ Spare Ribs recipe</a>.
 		Di did one similar to this one.
@@ -25,7 +25,7 @@
 		Ransom tried her <span class="EMPHASIZE">method</span> and found it did give the ribs a great consistency, so, after several attempts, we came up with this recipe to go with her cooking instructions.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section id="IngredientsRibs" title="Ribs">
 			<ingredient>
 				Spare Ribs<note>Bone-in is best</note>
@@ -55,7 +55,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section id="InstructionsRibs" title="Ribs">
 			<instruction>Preheat the oven to 400&deg;</instruction>
 			<instruction>Cut &frac23; Onion into discs &approx;&frac14;&inch; thick, then separate the discs into rings.</instruction>
@@ -82,7 +82,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>Do the first part of the Ribs <span class="NOTE">(steps 1-8)</span>, then, during the baking <span class="NOTE">(step 8)</span> make the Sauce and let it sit until it is time to use it.</note>
 		<note>
 			When serving, place the Ribs on a platter, then pour/scrape the leftover Sauce into a bowl with a gravy ladle.
@@ -94,7 +94,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>Instead of using the Sauce recipe, just use a bottle of store-bought BBQ Sauce, such as Tony Roma's or Sweet Baby Rays.</modification>
 	</Modifications>
 </Recipe>

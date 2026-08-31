@@ -19,13 +19,13 @@
 	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description">
+	<Description>
 		Cutler worked in the meat department of a Fred Meyer store when he was a teenager.
 		While there, he was told about an article that explains how to cook a perfect prime rib correctly, and incorrectly.
 		This is a summary of the conclusion.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Rib Roast<amount>5-10 Lbs.</amount></ingredient>
 			<ingredient>Kosher Salt<amount>&frac13; Cup</amount></ingredient>
@@ -33,7 +33,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				Preheat oven to 200&deg;.
@@ -84,7 +84,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>If necessary, you can let the Roast rest in step 7 for up to 45 minutes.</note>
 		<note>
 			"Prime" is actually a quality.
@@ -94,7 +94,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>For a little extra flavor, sprinkle 1 teaspoon of fresh Rosemary on the top of the Roast just before placing it in the oven the first time.</modification>
 	</Modifications>
 </Recipe>

@@ -16,12 +16,12 @@
 	&section;
 	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description">
+	<Description>
 		Jennie's mom made this cheese ball every Christmas season and shared it with all of her friends. She wouldn't share the recipe with anybody because she wanted everybody to look forward to getting it.<br />
 		But, we talked her into sharing the recipe with us. &smiley;
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Blue Cheese<amount>2 Oz.</amount></ingredient>
 			<ingredient>Cream Cheese<amount>2 8-oz. Packages</amount></ingredient>
@@ -37,7 +37,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Let Cream Cheese come to room temperature.</instruction>
 			<instruction>Place all ingredients, except Pecans, into a large bowl and knead together until well mixed.</instruction>
@@ -47,11 +47,11 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>For smaller servings, the mixture can be divided into two Cheese Balls.</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>For people with nut allergies, substitute finely shredded Cheese for the Pecans.</modification>
 	</Modifications>
 </Recipe>

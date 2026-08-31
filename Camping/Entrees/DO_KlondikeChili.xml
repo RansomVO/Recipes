@@ -16,7 +16,7 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		This is Ransom's second Chili recipe.
 		The first one was really good, but it was complex and actually had to be started the day before you wanted to eat it.
 		<span class="NOTE">(Additionally, most people found it to be too spicy.)</span>
@@ -24,7 +24,7 @@
 		This recipe is geared towards quick preparation, and has actually won the first-place award at multiple Boy Scout district Dutch-oven chili cook-offs!
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Onion
@@ -69,7 +69,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Peel Onion and slice into disks that are &frac12;&inch; thick, then cut the disks into quarters.</instruction>
 			<instruction>Cut top off of each of the Peppers, slice them in half, then remove and discard the seeds.</instruction>
@@ -80,7 +80,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			Cilantro purchased from the grocery store comes in a bunch of stems.
 			The leaves need to be picked from the stems and the stems can be discarded.
@@ -109,7 +109,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>One or more of the cans of Sliced and/or Diced Tomatoes can be replaced with cans of Stewed Tomatoes of the same size, but cut them up with the spoon as you cook.</modification>
 		<modification>
 			Serve with any combination of:
@@ -135,5 +135,5 @@
 		<modification>A <span class="EMPHASIZE">deep</span> 14&inch; Dutch Oven will easily hold a double batch.</modification>
 	</Modifications>
 
-	<FinalNote id="FinalNote">A similar recipe for use at home: <a href=".../Entrees/StoveTop/KlondikeChili.xml">Entrees / Stove Top: Klondike Chili</a></FinalNote>
+	<FinalNote>A similar recipe for use at home: <a href=".../Entrees/StoveTop/KlondikeChili.xml">Entrees / Stove Top: Klondike Chili</a></FinalNote>
 </Recipe>

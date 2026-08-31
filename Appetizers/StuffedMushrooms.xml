@@ -15,13 +15,13 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		There are probably thousands of recipes for stuffed mushrooms.
 		One time, we decided we wanted some stuffed mushrooms and just threw together what we had on hand.
 		They turned out wonderful!
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Large Whole Mushrooms<note>Caps &approx;1&frac12;&quot;-3&quot; in diameter</note>
@@ -37,7 +37,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				Carefully break the stems from the Mushroom caps so that you are left with a hollow to hold the rest of the ingredients, then place them, hollow up, onto a cookie sheet.
@@ -66,7 +66,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			There are several flavors of Sausage besides "Regular":
 			<ul>
@@ -87,7 +87,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			Add &frac12; teaspoon Garlic to Sausage mixture when browning Sausage.
 		</modification>

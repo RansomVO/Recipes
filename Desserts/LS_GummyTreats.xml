@@ -15,12 +15,12 @@
 	&section;
 	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description">
+	<Description>
 		This recipe is tasty, and very easy to make, but the best part is:
 		it's <span class="EMPHASIZE">fat-free <span class="SUPER_EMPHASIZE">and</span> carbohydrate-free</span>!!!
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Water<amount>&frac12; Cup</amount></ingredient>
 			<ingredient>
@@ -30,7 +30,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Bring Water to a boil.</instruction>
 			<instruction>Put Gelatin into a small mixing bowl.</instruction>
@@ -61,7 +61,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			<span class="POINT_HIGHLIGHT">To make the treats less tart:</span><br />
 			Replace one of the packages of Sugar-free flavored Gelatin with one envelope <span class="NOTE">(7g)</span> unflavored Gelatin <span class="NOTE">(Such as Knox)</span>

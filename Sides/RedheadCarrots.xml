@@ -15,14 +15,14 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		Almost nobody in Ransom's family likes sweet potatoes, or yams.
 		This slightly sweet recipe takes their place at Thanksgiving.<br />
 		Also, most of Ransom's family members have red hair, so we are considered "Gingers".
 		And, since Ginger is one of the primary ingredients, the name "Redhead Carrots" seemed appropriate.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Carrots<amount>2-3</amount></ingredient>
 			<ingredient>
@@ -39,7 +39,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Peel Carrots and cut into 1&inch; chunks.</instruction>
 			<instruction>Pull all ingredients into a saucepan.</instruction>
@@ -49,7 +49,7 @@
 		</section>
 	</Instructions>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>You can create the Double-Strength Chicken Broth by using 2 Cups Water + 4 Chicken Bouillon Cubes <span class="NOTE">(or the equivalent)</span>.</modification>
 		<modification>For a little kick, add &frac12; teaspoon White Pepper.</modification>
 	</Modifications>

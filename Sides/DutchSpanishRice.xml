@@ -15,13 +15,13 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		Ransom's dad, Grandpa John, originally cooked a version of this recipe over a camp fire in a Dutch Oven.
 		He would cook it with plenty of hamburger and homemade bottled tomatoes and serve it as a main course.<br />
 		This recipe is a little simpler and is intended as a side dish.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Onions<note>Medium</note>
@@ -38,7 +38,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Chop Onions into small pieces. <span class="NOTE">(&approx;&frac12;&inch; &by; 1&inch;)</span></instruction>
 			<instruction>In a large pot, combine Onions and Hamburger, and cook on high until Hamburger is browned.</instruction>
@@ -53,14 +53,14 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			<span class="EMPHASIZE">It is <span class="SUPER_EMPHASIZE">crucial</span> to scrape the bottom well when stirring!</span><br />
 			Otherwise, everything will end up tasting burned.
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>
 			Add an extra pound or two of Hamburger to turn this into a main course instead of a side dish.
 			<span class="NOTE"><span class="HIGHLIGHT">NOTE</span>: Main course servings are about double side dish servings, so it will serve only 5-6 people.</span>

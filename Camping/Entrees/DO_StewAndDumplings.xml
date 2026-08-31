@@ -15,11 +15,11 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		<span class="TODO">ToDo: Add a Description.</span>
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section id="IngredientsStew" title="Stew">
 			<ingredient>
 				Beef<note>LEAN</note>
@@ -54,7 +54,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section id="InstructionsStew" title="Stew">
 			<instruction>Slice Lean Beef into 1&inch; cubes.</instruction>
 			<instruction>Combine Flour and Pepper, then pour over Beef cubes until they are well coated.</instruction>
@@ -83,7 +83,7 @@
 		</section>
 	</Instructions>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>The Dumplings are not required, so feel free to omit them if you want.</modification>
 	</Modifications>
 </Recipe>

@@ -16,7 +16,7 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section id="Dough" title="Dough">
 			<ingredient>Yeast<amount>1&frac12; Tablespoons</amount></ingredient>
 			<ingredient>Warm Water<amount>&frac12; Cup</amount></ingredient>
@@ -51,7 +51,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Use a <span class="TODO">???</span>&inch; Dutch Oven lined with foil.</instruction>
 			<instruction>Dissolve Yeast in Warm Water with 1 teaspoon of the Sugar and let sit until it foams.</instruction>

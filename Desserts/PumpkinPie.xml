@@ -16,14 +16,14 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		When Jennie and Ransom were first married, they each felt that their mother's pumpkin pie recipe was the best.
 		So, we had a bake-off.
 		In the end, it was decided that Ransom's mom's recipe looked the best, but that Jennie's mom's tasted the best.
 		So, Jennie's mom's is the one we make each year.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Pumpkin<amount>1 29-oz. Can</amount></ingredient>
 			<ingredient>Evaporated Milk<amount>2 12-fl.Oz. Cans</amount></ingredient>
@@ -53,7 +53,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				Preheat oven to 425&deg;.
@@ -73,7 +73,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			You <span class="SUPER_EMPHASIZE">cannot</span> serve pumpkin pie without whipped cream, or vanilla ice cream.<br />
 			<span class="HIGHLIGHT">(Or both &smiley;)</span>

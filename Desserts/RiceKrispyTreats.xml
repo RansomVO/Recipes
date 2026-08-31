@@ -17,12 +17,12 @@
 	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		These are great for a change-up when you are tired of cookies and similar treats.
 		And all of the cooking is done in a pan, so you don't even have to heat up the oven.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Butter<amount>3 Tablespoons</amount></ingredient>
 			<ingredient>
@@ -33,7 +33,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				Prepare a 9&inch; &by; 9&inch; pan by greasing it.
@@ -48,7 +48,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			<span class="SUPER_EMPHASIZE">CAUTION!!!</span>
 			Melted marshmallow mixture is very hot and sticky.
@@ -56,7 +56,7 @@
 		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>Instead of Rice Krispies, use Cocoa Krispies or Fruity Pebbles</modification>
 		<modification>
 			Add some M<span style="font-size:.75em;">&amp;</span>Ms and/or Reese's Pieces to the Rice Krispies <span class="NOTE">(or Cocoa Krispies)</span>

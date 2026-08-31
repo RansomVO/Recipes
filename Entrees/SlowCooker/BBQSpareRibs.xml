@@ -18,13 +18,13 @@
 	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description">
+	<Description>
 		When Jennie was growing up, her mom used to make a wonderful BBQ Spare Ribs recipe.
 		After we were married, she shared the recipe with us, but when we made it, it turned out totally different.
 		It turns out that instead of using Tomato Paste, like the recipe calls for, she always used Tomato Sauce, so it was runny and didn't taste as good.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Boneless Country Style Spare Ribs<note>Pork or Beef</note>
@@ -43,7 +43,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>
 				In a skillet, brown Ribs over high heat.
@@ -60,7 +60,7 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			CAUTION:
 			If you over-cook the ribs they will begin to fall apart, and you end up with shredded BBQ pork or beef.
@@ -70,7 +70,7 @@
 		</note>
 	</Notes>
 
-	<FinalNote id="FinalNote"> A similar recipe for Dutch Ovens: <a href=".../Camping/Entrees/DO_BBQSpareRibs.xml">Dutch Oven and other Camping Recipes:
+	<FinalNote> A similar recipe for Dutch Ovens: <a href=".../Camping/Entrees/DO_BBQSpareRibs.xml">Dutch Oven and other Camping Recipes:
 			Dutch Oven BBQ Spare Ribs
 		</a>
 	</FinalNote>

@@ -16,9 +16,9 @@
 	&section;
 	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description">A simple dessert that tastes good, but takes very little preparation.</Description>
+	<Description>A simple dessert that tastes good, but takes very little preparation.</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>
 				Fruit<note>Apples, Peaches, etc.</note>
@@ -35,7 +35,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Line Dutch Oven with foil and grease bottom and sides.</instruction>
 			<instruction>Pour cans of Fruit, including juice and spread across bottom of Dutch Oven.</instruction>

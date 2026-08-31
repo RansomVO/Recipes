@@ -18,12 +18,12 @@
 	&section;
 	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description">
+	<Description>
 		Grandpa John created this recipe to be eaten as an Entree.
 		It also makes a great side dish.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
 			<ingredient>Onions<amount>2</amount></ingredient>
 			<ingredient>Hamburger<amount>2-3 Lbs.</amount></ingredient>
@@ -44,7 +44,7 @@
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Cut Onion into &approx;&frac14;&inch; square pieces.</instruction>
 			<instruction>Cut Green Bell Pepper into &approx;&frac14;&inch; square pieces.</instruction>
@@ -55,7 +55,7 @@
 		</section>
 	</Instructions>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>For a richer taste, substitute a Poblano Pepper for the Green Bell Pepper.</modification>
 	</Modifications>
 </Recipe>
