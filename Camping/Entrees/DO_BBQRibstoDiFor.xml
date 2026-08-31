@@ -1,45 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Dutch Oven BBQ Ribs to Di For" yields="4-6 Servings">
+<Recipe>
+	<Title>Dutch Oven BBQ Ribs to Di For</Title>
+	<Yields>4-6 Servings</Yields>
 	<Source>A VanOrman Original</Source>
-	<Requires class="TODO">12&inch; Dutch Oven?
-	</Requires>
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+	<Requires class="TODO">12&inch; Dutch Oven?</Requires>
 
-	<Description id="Description"> Before they were married Di and Ransom had a BBQ Rips bake-off with missionaries as the judges. Ransom did the <a href=".../Entrees/SlowCooker/BBQSpareRibs.xml">Slow Cooker BBQ Spare Ribs</a> recipe. Di won, but then <span class="NOTE">(a long time later)</span> Di told Ransom that her sauce recipe was something like: "Buy a bottle of Tony Roma BBQ Sauce".<br />Ransom tried her cooking method and found it did give the ribs a great consistency, so, after several attempts, we came up with <a href=".../Entrees/Oven/BBQRibsToDiFor.xml">BBQ Ribs to Di For</a>. <br />Then we modified it slightly to go in a Dutch Oven and it turned out <span class="EMPHASIZE">great!</span>
+	&section;
+	<LastModified year="2025" month="6" day="6" />
+
+	<Description>
+		Before they were married Di and Ransom had a BBQ Rips bake-off with missionaries as the judges.
+		Ransom did the <a href=".../Entrees/SlowCooker/BBQSpareRibs.xml">Slow Cooker BBQ Spare Ribs</a> recipe.
+		Di won, but then <span class="NOTE">(a long time later)</span> Di told Ransom that her sauce recipe was something like: "Buy a bottle of Tony Roma BBQ Sauce".<br />
+		Ransom tried her cooking method and found it did give the ribs a great consistency, so, after several attempts, we came up with <a href=".../Entrees/Oven/BBQRibsToDiFor.xml">BBQ Ribs to Di For</a>.<br />
+		Then we modified it slightly to go in a Dutch Oven and it turned out <span class="EMPHASIZE">great!</span>
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
-			<ingredient name="Onion" nameNote="Large" amount="1" />
-			<ingredient name="Water" amount="½ Cup" />
-			<ingredient name="Spare Ribs" amount="3-5 Lbs." />
-			<ingredient name="Tomato Paste" amount="1 6-oz. Can" />
-			<ingredient name="Tomato Sauce" amount="2 9-oz. Cans" />
-			<ingredient name="Brown Sugar" amount="&frac14; Cup" />
-			<ingredient name="Garlic" nameNote="Minced" amount="1 teaspoon" />
-			<ingredient name="Cinnamon" amount="&frac14; teaspoon" />
-			<ingredient name="Cayenne Pepper" amount="&frac14; teaspoon" />
-			<ingredient name="Cumin" amount="&frac14; teaspoon" />
-			<ingredient name="Salt" amount="&frac12; teaspoon" />
-			<ingredient name="Apple Cider Vinegar" amount="&frac12; Tablespoon" />
+			<ingredient>
+				Onion<note>Large</note>
+				<amount>1</amount>
+			</ingredient>
+			<ingredient>Water<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Spare Ribs<amount>3-5 Lbs.</amount></ingredient>
+			<ingredient>Tomato Paste<amount>1 6-oz. Can</amount></ingredient>
+			<ingredient>Tomato Sauce<amount>2 9-oz. Cans</amount></ingredient>
+			<ingredient>Brown Sugar<amount>&frac14; Cup</amount></ingredient>
+			<ingredient>
+				Garlic<note>Minced</note>
+				<amount>1 teaspoon</amount>
+			</ingredient>
+			<ingredient>Cinnamon<amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient>Cayenne Pepper<amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient>Cumin<amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient>Salt<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Apple Cider Vinegar<amount>&frac12; Tablespoon</amount></ingredient>
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Place Dutch Oven on coles to heat.</instruction>
-			<instruction>While it is heating, cut Onion into rings about &frac14;&inch; thick.</instruction>
+			<instruction>While it is heating, cut Onion into rings &approx;&frac14;&inch; thick.</instruction>
 			<instruction>Place Onions, Water and Spare Ribs into Dutch Oven and turn until browned.</instruction>
 			<instruction>Add all other ingredients and mix well.</instruction>
 			<instruction>Bring to a boil, then reduce heat and simmer, stirring occasionallly, until meat is thoroughly cooked.</instruction>

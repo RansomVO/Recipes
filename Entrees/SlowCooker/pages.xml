@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Pages>
-	<page href="SlowCookerRoast.xml" title="Slow Cooker Roast" />
-	<page href="BBQSpareRibs.xml" title="BBQ Spare Ribs" />
-	<page href="StealthAttackChili.xml" title="Stealth-Attack Chili" />
+	<page href="SlowCookerRoast.xml">Slow Cooker Roast</page>
+	<page href="BBQSpareRibs.xml">BBQ Spare Ribs</page>
+	<page href="StealthAttackChili.xml">Stealth-Attack Chili</page>
 </Pages>

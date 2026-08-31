@@ -1,8 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Pages>
 	<CollapseSection title="Dutch Oven">
 		<inline>
+
 			<Pages>
-				<page href="Camping/Breakfast/DO_OrangeRolls.xml" title="Dutch Oven Orange Rolls" />
+				<page href="Camping/Breakfast/DO_OrangeRolls.xml">Dutch Oven Orange Rolls</page>
 			</Pages>
 		</inline>
 	</CollapseSection>

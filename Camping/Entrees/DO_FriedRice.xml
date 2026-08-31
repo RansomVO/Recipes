@@ -1,50 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Dutch Oven Fried Rice" yields="8-10 Servings" yieldsNote="or 15-20 if just used as a side dish">
-	<Source>Based on a Recipe from <a href="https://en.wikipedia.org/wiki/Joy_of_Cooking">Joy of Cooking</a></Source>
+<Recipe>
+	<Title>Dutch Oven Fried Rice</Title>
+	<Yields>8-10 Servings <span class="Note">(or 15-20 if just used as a side dish)</span>
+	</Yields>
+	<Source>Based on a Recipe from <a href="https://en.wikipedia.org/wiki/Joy_of_Cooking">Joy of Cooking</a>
+	</Source>
 	<Requires>12&inch; Dutch Oven</Requires>
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
 
-	<Description id="Description"> Ransom used Joy of Cooking recipe book while on his mission. <span class="NOTE">(It is still his favorite.)</span> When he got home from his mission, he adapted the recipe to be an entree cooked in a Dutch Oven. </Description>
+	&section;
+	<LastModified year="2025" month="6" day="6" />
 
-	<Ingredients id="Ingredients">
+	<Description>
+		Ransom used the recipe book Joy of Cooking while on his mission.
+		<span class="NOTE">(It is still his favorite hard-copy recipe book.)</span>
+		When he got home from his mission, he adapted the recipe to be an entree cooked in a Dutch Oven.
+	</Description>
+
+	<Ingredients>
 		<section>
-			<ingredient name="Vegetable Oil" amount="&frac12;-1 Cup" />
-			<ingredient name="Uncooked Rice" amount="4 Cups" />
-			<ingredient name="Water" amount="6 Cups" />
-			<ingredient name="Salt" amount="1 teaspoon" />
-			<ingredient name="Eggs" amount="4-6" />
-			<ingredient name="Ham" nameNote="cut into &frac14;&inch; chunks" amount="1-2 Cups" />
-			<ingredient name="Chinese Cabbage" nameNote="Shredded" amount="1-2 Cups" />
-			<ingredient name="Carrots" nameNote="Sliced Thinly" amount="&frac12; Cup" />
-			<ingredient name="Onions" nameNote="Cut into &frac12;&inch; &by; 1&inch;" amount="&frac12;-1 Cups" />
-			<ingredient name="Soy Sauce" amount="2-4 Tablespoons" />
+			<ingredient>Vegetable Oil<amount>&frac12;-1 Cup</amount></ingredient>
+			<ingredient>Uncooked Rice<amount>4 Cups</amount></ingredient>
+			<ingredient>Water<amount>6 Cups</amount></ingredient>
+			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Eggs<amount>4-6</amount></ingredient>
+			<ingredient>
+				Ham<note>cut into &frac14;&inch; chunks</note>
+				<amount>1-2 Cups</amount>
+			</ingredient>
+			<ingredient>
+				Chinese Cabbage<note>Shredded</note>
+				<amount>1-2 Cups</amount>
+			</ingredient>
+			<ingredient>
+				Carrots<note>Sliced Thinly</note>
+				<amount>&frac12; Cup</amount>
+			</ingredient>
+			<ingredient>
+				Onions<note>Cut into &frac12;&inch; &by; 1&inch;</note>
+				<amount>&frac12;-1 Cup</amount>
+			</ingredient>
+			<ingredient>Soy Sauce<amount>2-4 Tablespoons</amount></ingredient>
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Place Dutch Oven on medium amount of charcoals.</instruction>
-			<instruction>Add Oil and Uncooked Rice and saut&accentedLowerE;, stirring/scraping frequently until Rice begins to brown.</instruction>
+			<instruction>Add Oil and Uncooked Rice and saut&eacute;, stirring/scraping frequently until Rice begins to brown.</instruction>
 			<instruction>Add Water and Salt and stir well.</instruction>
 			<instruction>Cook with the lid on, stirring occasionally until Rice is cooked. <span class="NOTE">(&approx;20-45 minutes)</span></instruction>
-			<instruction>Dig as large of a hole as possible in the center, all the way to the bottom. Then add Eggs and stir them <span class="NOTE">(not Rice)</span> until it is fully-cooked pieces.</instruction>
+			<instruction>
+				Dig as large of a hole as possible in the center, all the way to the bottom.
+				Then add Eggs and stir them <span class="NOTE">(not Rice)</span> until they are small fully-cooked pieces.
+			</instruction>
 			<instruction>Add Ham, Chineese Cabbage, Carrots, and Onion then stir and let steam for 5-10 minutes.</instruction>
 			<instruction>Add Soy Sauce and stir very well.</instruction>
 		</section>
 	</Instructions>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>Instead of Chinese Cabbage, use Celery Greens</modification>
 		<modification>Replace some or all of the Onions with Scallions cut into &frac12;&inch; lengths.</modification>
 		<modification>If it just going to be a side dish, the amount of Ham can be reduced or left out completely.</modification>

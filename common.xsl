@@ -60,6 +60,9 @@
 		<xsl:param name="depth" />
 
 		<xsl:choose>
+			<xsl:when test="$depth = 0">
+				<xsl:value-of select="'.'" />
+			</xsl:when>
 			<xsl:when test="$depth > 1">
 				<xsl:value-of select="'../'" />
 				<xsl:call-template name="LinkPrefix">
@@ -67,9 +70,23 @@
 				</xsl:call-template>
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:value-of select="'.'" />
+				<xsl:value-of select="'..'" />
 			</xsl:otherwise>
 		</xsl:choose>
+	</xsl:template>
+
+	<!-- Resolves a ".../" prefix (meaning "the root of the Recipes section") against $linkPrefix,
+		leaving any other href untouched. Shared by the "a" content-link template below and by
+		RecipeLink, so hand-written links (e.g. the footer breadcrumb) resolve the same way. -->
+	<xsl:template name="ResolveLink">
+		<xsl:param name="href" />
+		<xsl:param name="linkPrefix" />
+
+		<xsl:call-template name="replace_all">
+			<xsl:with-param name="string" select="$href" />
+			<xsl:with-param name="oldValue" select="'.../'" />
+			<xsl:with-param name="newValue" select="concat($linkPrefix, '/')" />
+		</xsl:call-template>
 	</xsl:template>
 
 	<xsl:template match="a">
@@ -81,10 +98,9 @@
 			</xsl:attribute>
 			<xsl:copy-of select="@*[name() != 'href' and name() != 'class']" />
 			<xsl:attribute name="href">
-				<xsl:call-template name="replace_all">
-					<xsl:with-param name="string" select="@href" />
-					<xsl:with-param name="oldValue" select="'.../'" />
-					<xsl:with-param name="newValue" select="concat($linkPrefix, '/')" />
+				<xsl:call-template name="ResolveLink">
+					<xsl:with-param name="href" select="@href" />
+					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 				</xsl:call-template>
 			</xsl:attribute>
 			<xsl:apply-templates>
@@ -93,6 +109,28 @@
 		</a>
 		<span class="no-screen">
 			<xsl:value-of select="text()" />
+		</span>
+	</xsl:template>
+
+	<!-- For hand-written links built directly in a stylesheet (not sourced from recipe XML content),
+		where apply-templates isn't available. Shares ResolveLink's ".../" substitution and the
+		no-print/no-screen convention with the "a" template above; $text must be plain text. -->
+	<xsl:template name="RecipeLink">
+		<xsl:param name="href" />
+		<xsl:param name="text" />
+		<xsl:param name="linkPrefix" />
+
+		<a class="no-print">
+			<xsl:attribute name="href">
+				<xsl:call-template name="ResolveLink">
+					<xsl:with-param name="href" select="$href" />
+					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+				</xsl:call-template>
+			</xsl:attribute>
+			<xsl:value-of select="$text" />
+		</a>
+		<span class="no-screen">
+			<xsl:value-of select="$text" />
 		</span>
 	</xsl:template>
 
@@ -107,7 +145,8 @@
 		img|
 		table|td|th|tr|
 		ul|ol|li|
-		b|i|u">
+		b|i|u|
+		sup|sub">
 		<xsl:param name="linkPrefix" />
 
 		<xsl:element name="{name()}">

@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Pages>
-	<page href="ScrambledEggs.xml" title="Scrambled Eggs" />
-	<page href="FluffyPancakes.xml" title="Fluffy Pancakes" />
-	<page href="Crepes.xml" title="Cr&#xEA;pes" />
+	<page href="ScrambledEggs.xml">Scrambled Eggs</page>
+	<page href="FluffyPancakes.xml">Fluffy Pancakes</page>
+	<page href="Crepes.xml">Cr&#xEA;pes</page>
 </Pages>

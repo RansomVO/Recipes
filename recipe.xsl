@@ -4,15 +4,18 @@
 
 	<xsl:include href="common.xsl" />
 
+	<!-- QZX TODO: Make it so ingredients that are in Modifications are show in the Ingredients section, but marked as optional -->
+	<!-- QZX TODO: -->
+
 	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 	<!-- @@@@@@@@@@@@@@@@@@@@                        Main Template                       @@@@@@@@@@@@@@@@@@@@ -->
 	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 	<xsl:template match="Recipe">
 		<xsl:variable name="depth">
 			<xsl:choose>
-				<xsl:when test="document(concat(Section/section/@folder, '/section.xml'))/section/@folder = '.'">1</xsl:when>
-				<xsl:when test="document(concat(Section/section/@folder, '/../section.xml'))/section/@folder = '.'">2</xsl:when>
-				<xsl:when test="document(concat(Section/section/@folder, '/../../section.xml'))/section/@folder = '.'">3</xsl:when>
+				<xsl:when test="document('../section.xml', .)/Section/@folder = '.'">1</xsl:when>
+				<xsl:when test="document('../../section.xml', .)/Section/@folder = '.'">2</xsl:when>
+				<xsl:when test="document('../../../section.xml', .)/Section/@folder = '.'">3</xsl:when>
 				<xsl:otherwise>0</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
@@ -26,96 +29,31 @@
 			<head>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<link rel="stylesheet" type="text/css" href="styles.css" />
-				<title> VanOrman Family Recipes - <xsl:if test="ParentSection">
-						<xsl:value-of select="ParentSection" /> / </xsl:if><xsl:value-of select="normalize-space(Section)" />: <xsl:value-of select="@title" /></title>
+				<title>
+					VanOrman Family Recipes -
+					<xsl:if test="ParentSection"><xsl:value-of select="ParentSection" /> / </xsl:if>
+					<xsl:value-of select="normalize-space(Section)" />: <xsl:value-of select="Title" />
+				</title>
 			</head>
 
 			<body>
 				<div class="FLEX_CONTENT">
 					<div style="margin-bottom: .25em;">
-						<span class="TITLE">
-							<xsl:value-of select="@title" />
-						</span>
-						<xsl:if test="@titleNote"> &#xA0;&#xA0;&#xA0;&#xA0;<span class="TITLE_NOTE">(<xsl:value-of select="@titleNote" />)</span>
-						</xsl:if>
+						<xsl:apply-templates select="Title" />
 					</div>
 
 					<table class="DIVIDER">
 						<tr>
-							<td class="RECIPE_SOURCE">
-								<xsl:if test="Source">
-									<xsl:apply-templates select="Source">
-										<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-									</xsl:apply-templates>
-								</xsl:if>
-								<xsl:if test="Note">
-									<i>&#xA0;(<xsl:apply-templates select="Note">
-											<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-										</xsl:apply-templates>)</i>
-								</xsl:if>
-							</td>
+							<xsl:apply-templates select="Source">
+								<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+							</xsl:apply-templates>
+
 							<xsl:if test="Requires">
-								<td class="RECIPE_REQUIRES">
-									<xsl:attribute name="class">
-										<xsl:value-of select="concat('RECIPE_REQUIRES ', Requires/@class)" />
-									</xsl:attribute>
-									<b>Requires</b>: <xsl:apply-templates select="Requires">
-										<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-									</xsl:apply-templates>
-								</td>
 							</xsl:if>
-							<xsl:if test="@yields">
-								<td class="RECIPE_YIELDS">
-									<b>Yields</b>: <span>
-										<xsl:choose>
-											<!-- TODO QZX: Figure out how to <xsl:apply-templates ...> to the links below so that it doesn't look like a link when printing. -->
-											<xsl:when test="@yields = 'See Ingredients'">
-												<xsl:attribute name="class">NOTE</xsl:attribute> (See <xsl:call-template name="section-link">
-													<xsl:with-param name="section" select="'Ingredients'" />
-												</xsl:call-template> below) </xsl:when>
-											<xsl:when test="@yields = 'See Instructions'">
-												<xsl:attribute name="class">NOTE</xsl:attribute> (See <xsl:call-template name="section-link">
-													<xsl:with-param name="section" select="'Instructions'" />
-												</xsl:call-template> below)</xsl:when>
-											<xsl:when test="@yields = 'See Notes'">
-												<xsl:attribute name="class">NOTE</xsl:attribute> (See <xsl:call-template name="section-link">
-													<xsl:with-param name="section" select="'Notes'" />
-												</xsl:call-template> below) </xsl:when>
-											<xsl:when test="@yields = 'See Modifications'">
-												<xsl:attribute name="class">NOTE</xsl:attribute> (See <xsl:call-template name="section-link">
-													<xsl:with-param name="section" select="'Modifications'" />
-												</xsl:call-template> below)</xsl:when>
-											<xsl:when test="@yields = 'See Additional Notes'">
-												<xsl:attribute name="class">NOTE</xsl:attribute> (See <xsl:call-template name="section-link">
-													<xsl:with-param name="section" select="'Additional Notes'" />
-												</xsl:call-template> below)</xsl:when>
-											<xsl:when test="@yields = 'See Final Note'">
-												<xsl:attribute name="class">NOTE</xsl:attribute> (See <xsl:call-template name="section-link">
-													<xsl:with-param name="section" select="'Final Note'" />
-												</xsl:call-template> below)</xsl:when>
-											<xsl:when test="@yields = 'ToDo'">
-												<xsl:attribute name="class">TODO</xsl:attribute>
-												<xsl:value-of select="@yields" />
-											</xsl:when>
-											<xsl:when test="@yields = '???'">
-												<xsl:attribute name="class">TODO</xsl:attribute>
-												<xsl:value-of select="@yields" />
-											</xsl:when>
-											<xsl:when test="starts-with(@yields, '(')">
-												<xsl:attribute name="class">NOTE</xsl:attribute>
-												<xsl:value-of select="@yields" />
-											</xsl:when>
-											<xsl:otherwise>
-												<xsl:value-of select="@yields" />
-											</xsl:otherwise>
-										</xsl:choose>
-									</span>
-									<xsl:if test="@yieldsNote">
-										<br />
-										<span class="SMALL_NOTE">(<xsl:value-of select="@yieldsNote" />)</span>
-									</xsl:if>
-								</td>
-							</xsl:if>
+
+							<xsl:apply-templates select="Yields">
+								<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+							</xsl:apply-templates>
 						</tr>
 						<tr>
 							<td class="DESCRIPTION" style="padding-top:.5em;">
@@ -133,6 +71,10 @@
 					</table>
 
 					<xsl:apply-templates select="Ingredients">
+						<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+					</xsl:apply-templates>
+
+					<xsl:apply-templates select="Preparation">
 						<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 					</xsl:apply-templates>
 
@@ -161,23 +103,26 @@
 					<table class="DIVIDER">
 						<tr>
 							<td class="no-print">
-								<a href="/">Home</a> / <xsl:choose>
-									<xsl:when test="ParentSection">
-										<a href="../..">Recipes</a> / <a href="..">
-											<xsl:value-of select="ParentSection" />
-										</a> / <a href=".">
-											<xsl:value-of select="Section" />
-										</a>
-									</xsl:when>
-									<xsl:otherwise>
-										<a href="..">Recipes</a> / <a href=".">
-											<xsl:value-of select="Section" />
-										</a>
-									</xsl:otherwise>
-								</xsl:choose>
+								<xsl:call-template name="RecipeLink">
+									<xsl:with-param name="href" select="'/'" />
+									<xsl:with-param name="text" select="'Home'" />
+									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+								</xsl:call-template> / <xsl:call-template name="RecipeLink">
+									<xsl:with-param name="href" select="'.../'" />
+									<xsl:with-param name="text" select="'Recipes'" />
+									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+								</xsl:call-template> / <xsl:if test="ParentSection">
+									<xsl:call-template name="RecipeLink">
+										<xsl:with-param name="href" select="'..'" />
+										<xsl:with-param name="text" select="ParentSection" />
+										<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+									</xsl:call-template> / </xsl:if><xsl:call-template name="RecipeLink">
+									<xsl:with-param name="href" select="'.'" />
+									<xsl:with-param name="text" select="Section" />
+									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+								</xsl:call-template>
 							</td>
-							<td class="LAST_MODIFIED" style="text-align:right;"> Last updated: <xsl:apply-templates select="LastModified" />
-							</td>
+							<td class="LAST_MODIFIED" style="text-align:right;"> Last updated: <xsl:apply-templates select="LastModified" /></td>
 						</tr>
 					</table>
 				</footer>
@@ -210,7 +155,7 @@
 						</img>
 					</xsl:if>
 					<ol>
-						<xsl:attribute name="style"> clear:right; padding-left:1em; list-style:<xsl:value-of select="@list-style" />; </xsl:attribute>
+						<xsl:attribute name="style">clear:right; padding-left:3em; list-style:<xsl:value-of select="@list-style" />;</xsl:attribute>
 						<xsl:apply-templates>
 							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 						</xsl:apply-templates>
@@ -223,6 +168,121 @@
 	<xsl:variable name="maxWidth">24</xsl:variable>
 	<xsl:variable name="noteRatio">.4</xsl:variable>
 	<xsl:variable name="widthRatio">.66</xsl:variable>
+
+	<xsl:template match="Note">
+		<xsl:param name="linkPrefix" />
+		<xsl:param name="mode" />
+
+		<span>
+			<xsl:attribute name="class">
+				<xsl:choose>
+					<xsl:when test="$mode = 'TITLE'">TITLE_NOTE</xsl:when>
+					<xsl:otherwise>SMALL_NOTE</xsl:otherwise>
+				</xsl:choose>
+			</xsl:attribute>
+			<xsl:attribute name="style">
+				display: inline-block;
+			</xsl:attribute>
+
+			<xsl:choose>
+				<xsl:when test="$mode = 'TITLE'">&#xA0;&#xA0;&#xA0;&#xA0;</xsl:when>
+				<xsl:otherwise>&#xA0;&#xA0;</xsl:otherwise>
+			</xsl:choose>
+
+			<!-- -->(<xsl:apply-templates select="./text()|*">
+				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+			</xsl:apply-templates>)<!-- -->
+
+			<!-- -->&#xA0;&#xA0;&#xA0;&#xA0;<!-- -->
+		</span>
+	</xsl:template>
+	<xsl:template match="Description">
+		<xsl:param name="linkPrefix" />
+
+		<xsl:apply-templates>
+			<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+		</xsl:apply-templates>
+	</xsl:template>
+	<xsl:template match="Title">
+		<xsl:param name="linkPrefix" />
+
+		<span class="TITLE">
+			<xsl:apply-templates select="./text()|*">
+				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+				<xsl:with-param name="mode" select="'TITLE'" />
+			</xsl:apply-templates>
+		</span>
+
+
+	</xsl:template>
+	<xsl:template match="Source">
+		<xsl:param name="linkPrefix" />
+
+		<td class="RECIPE_SOURCE">
+			<xsl:apply-templates select="./text()|*">
+				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+				<xsl:with-param name="mode" select="'SOURCE'" />
+			</xsl:apply-templates>
+		</td>
+	</xsl:template>
+	<xsl:template match="Requires">
+		<xsl:param name="linkPrefix" />
+
+		<td class="RECIPE_REQUIRES">
+			<xsl:attribute name="class">
+				<xsl:value-of select="concat('RECIPE_REQUIRES ', Requires/@class)" />
+			</xsl:attribute>
+			<b>Requires</b>: <!-- -->
+			<xsl:apply-templates select="./text()|*">
+				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+				<xsl:with-param name="mode" select="'REQUIRES'" />
+			</xsl:apply-templates>
+		</td>
+	</xsl:template>
+	<xsl:template match="Yields">
+		<xsl:param name="linkPrefix" />
+		<td class="RECIPE_YIELDS">
+			<b>Yields</b>: <span>
+				<xsl:choose>
+					<!-- QZX TODO: Figure out how to <xsl:apply-templates ...> to the links below so that it doesn't look like a link when printing. -->
+					<xsl:when test="text() = 'See Ingredients'">
+						<xsl:attribute name="class">NOTE</xsl:attribute> (See <xsl:call-template name="section-link"><xsl:with-param name="section" select="'Ingredients'" /></xsl:call-template> below)
+					</xsl:when>
+					<xsl:when test="text() = 'See Preparation'">
+						<xsl:attribute name="class">NOTE</xsl:attribute> (See <xsl:call-template name="section-link"> <xsl:with-param name="section" select="'Preparation'" /> </xsl:call-template> below)
+					</xsl:when>
+					<xsl:when test="text() = 'See Instructions'">
+						<xsl:attribute name="class">NOTE</xsl:attribute> (See <xsl:call-template name="section-link"><xsl:with-param name="section" select="'Instructions'" /></xsl:call-template> below)
+					</xsl:when>
+					<xsl:when test="text() = 'See Notes'">
+						<xsl:attribute name="class">NOTE</xsl:attribute> (See <xsl:call-template name="section-link"><xsl:with-param name="section" select="'Notes'" /></xsl:call-template> below)
+					</xsl:when>
+					<xsl:when test="text() = 'See Modifications'">
+						<xsl:attribute name="class">NOTE</xsl:attribute>(See <xsl:call-template name="section-link"><xsl:with-param name="section" select="'Modifications'" /></xsl:call-template> below)
+					</xsl:when>
+					<xsl:when test="text() = 'See Additional Notes'">
+						<xsl:attribute name="class">NOTE</xsl:attribute> (See <xsl:call-template name="section-link"><xsl:with-param name="section" select="'Additional Notes'" /></xsl:call-template> below)
+					</xsl:when>
+					<xsl:when test="text() = 'See Final Note'">
+						<xsl:attribute name="class">NOTE</xsl:attribute> (See <xsl:call-template name="section-link"><xsl:with-param name="section" select="'Final Note'" /></xsl:call-template> below)
+					</xsl:when>
+
+					<xsl:when test="text() = 'ToDo'"><xsl:attribute name="class">TODO</xsl:attribute><xsl:value-of select="Yields" /></xsl:when>
+					<xsl:when test="text() = '???'"><xsl:attribute name="class">TODO</xsl:attribute><xsl:apply-templates select="Yields"><xsl:with-param name="linkPrefix" select="$linkPrefix" /></xsl:apply-templates></xsl:when>
+					<xsl:when test="starts-with(text(), '(')">
+						<xsl:attribute name="class">NOTE</xsl:attribute> <xsl:apply-templates select="Yields"><xsl:with-param name="linkPrefix" select="$linkPrefix" /></xsl:apply-templates>
+					</xsl:when>
+
+					<xsl:otherwise>
+						<xsl:apply-templates select="./text()|*">
+							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+							<xsl:with-param name="mode" select="'YIELDS'" />
+						</xsl:apply-templates>
+					</xsl:otherwise>
+				</xsl:choose>
+			</span>
+		</td>
+	</xsl:template>
 
 	<xsl:template match="Ingredients">
 		<xsl:param name="linkPrefix" />
@@ -280,9 +340,9 @@
 
 		<xsl:variable name="maxIngredientLength">
 			<xsl:for-each select="../ingredient">
-				<xsl:sort select="(string-length(@name) + ((string-length(@nameNote) + 2) * $noteRatio)) * $widthRatio" data-type="number" />
+				<xsl:sort select="(string-length(node()[not(self::note or self::finePrint or self::amount)]) + ((string-length(note) + 2) * $noteRatio)) * $widthRatio" data-type="number" />
 				<xsl:if test="position()=last()">
-					<xsl:value-of select="string-length(@name) + ((string-length(@nameNote) + 2) * $noteRatio)" />
+					<xsl:value-of select="string-length(node()[not(self::note or self::finePrint or self::amount)]) + ((string-length(note) + 2) * $noteRatio)" />
 				</xsl:if>
 			</xsl:for-each>
 		</xsl:variable>
@@ -298,9 +358,9 @@
 		</xsl:variable>
 		<xsl:variable name="maxAmountLength">
 			<xsl:for-each select="../ingredient">
-				<xsl:sort select="(string-length(@amount) + ((string-length(@amountNote) + 2) * $noteRatio)) * $widthRatio" data-type="number" />
+				<xsl:sort select="(string-length(amount/node()[not(self::note or self::finePrint)]) + ((string-length(amount/note) + 2) * $noteRatio)) * $widthRatio" data-type="number" />
 				<xsl:if test="position()=last()">
-					<xsl:value-of select="string-length(@amount) + ((string-length(@amountNote) + 2) * $noteRatio)" />
+					<xsl:value-of select="string-length(amount/node()[not(self::note or self::finePrint)]) + ((string-length(amount/note) + 2) * $noteRatio)" />
 				</xsl:if>
 			</xsl:for-each>
 		</xsl:variable>
@@ -317,85 +377,124 @@
 
 		<tr>
 			<td class="RECIPE_INGREDIENT">
-				<xsl:if test="@nameNote = 'Optional'">
+				<xsl:if test="note = 'Optional'">
 					<i style="font-weight:normal;">(Optional)&#xA0;</i>
 				</xsl:if>
-				<xsl:call-template name="fix_text">
-					<xsl:with-param name="string" select="@name" />
-				</xsl:call-template>
-				<xsl:if test="@nameNote and (@nameNote != 'Optional')">
+				<xsl:apply-templates select="node()[not(self::note or self::finePrint or self::amount)]">
+					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+				</xsl:apply-templates>
+				<xsl:if test="note and (note != 'Optional')">
 					<xsl:choose>
-						<xsl:when test="($sectionCount > 1) and (string-length(@name) + ((string-length(@nameNote) + 2) * $noteRatio) > $maxWidth)">
+						<xsl:when test="($sectionCount > 1) and (string-length(node()[not(self::note or self::finePrint or self::amount)]) + ((string-length(note) + 2) * $noteRatio) > $maxWidth)">
 							<div class="SMALL_NOTE">
 								<xsl:attribute name="style">
 									<xsl:value-of select="concat('width:', $ingredientWidth * $widthRatio, 'em;', ' margin:0; text-align:right;')" />
-								</xsl:attribute> (<xsl:call-template name="fix_text">
-									<xsl:with-param name="string" select="@nameNote" />
-								</xsl:call-template>) </div>
+								</xsl:attribute> (<xsl:apply-templates select="note/node()">
+									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+								</xsl:apply-templates>) </div>
 						</xsl:when>
 
 						<xsl:otherwise>
-							<span class="SMALL_NOTE">&#xA0;(<xsl:call-template name="fix_text">
-									<xsl:with-param name="string" select="@nameNote" />
-								</xsl:call-template>)</span>
+							<span class="SMALL_NOTE">&#xA0;(<xsl:apply-templates select="note/node()">
+									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+								</xsl:apply-templates>)</span>
 						</xsl:otherwise>
 					</xsl:choose>
 				</xsl:if>
-				<xsl:if test="./*|node()">
-					<xsl:call-template name="IngredientNote">
-						<xsl:with-param name="width" select="$ingredientWidth" />
-						<xsl:with-param name="content">
-							<xsl:copy-of select="./*|node()" />
-						</xsl:with-param>
-					</xsl:call-template>
+				<xsl:if test="finePrint">
+					<div class="RECIPE_INGREDIENT_FINE_PRINT">
+						<xsl:attribute name="style">
+							<xsl:value-of select="concat('width:', $ingredientWidth * $widthRatio, 'em;')" />
+						</xsl:attribute>
+						<xsl:apply-templates select="finePrint">
+							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+						</xsl:apply-templates>
+					</div>
 				</xsl:if>
 			</td>
 			<td class="RECIPE_INGREDIENT_QUANTITY">
-				<xsl:call-template name="fix_text">
-					<xsl:with-param name="string" select="@amount" />
-				</xsl:call-template>
-				<xsl:if test="@amountNote">
+				<xsl:apply-templates select="amount/node()[not(self::note or self::finePrint)]">
+					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+				</xsl:apply-templates>
+				<xsl:if test="amount/note">
 					<xsl:choose>
-						<xsl:when test="($sectionCount > 1) and (string-length(@amount) + ((string-length(@amountNote) + 2) * $noteRatio) > $maxWidth)">
+						<xsl:when test="($sectionCount > 1) and (string-length(amount/node()[not(self::note or self::finePrint)]) + ((string-length(amount/note) + 2) * $noteRatio) > $maxWidth)">
 							<div class="SMALL_NOTE">
 								<xsl:attribute name="style">
 									<xsl:value-of select="concat('width:', $amountWidth * $widthRatio, 'em;', ' margin:0; text-align:right;')" />
-								</xsl:attribute> (<xsl:call-template name="fix_text">
-									<xsl:with-param name="string" select="@amountNote" />
-								</xsl:call-template>) </div>
+								</xsl:attribute> (<xsl:apply-templates select="amount/note/node()">
+									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+								</xsl:apply-templates>) </div>
 						</xsl:when>
 
 						<xsl:otherwise>
-							<span class="SMALL_NOTE">&#xA0;(<xsl:call-template name="fix_text">
-									<xsl:with-param name="string" select="@amountNote" />
-								</xsl:call-template>)</span>
+							<span class="SMALL_NOTE">&#xA0;(<xsl:apply-templates select="amount/note/node()">
+									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+								</xsl:apply-templates>)</span>
 						</xsl:otherwise>
 					</xsl:choose>
 				</xsl:if>
 			</td>
 		</tr>
-		<xsl:if test="@finePrint">
-			<tr>
-				<td class="RECIPE_INGREDIENT_FINE_PRINT" colspan="2">(<xsl:call-template name="fix_text">
-						<xsl:with-param name="string" select="@finePrint" />
-					</xsl:call-template>)</td>
-			</tr>
-		</xsl:if>
 	</xsl:template>
-	<xsl:template name="IngredientNote">
+
+	<xsl:template name="PrepNote">
 		<xsl:param name="width" />
 		<xsl:param name="content" />
 
 		<div class="SMALL_NOTE">
 			<xsl:attribute name="style">
-				<xsl:value-of select="concat('width:', $width * $widthRatio, 'em; ',      'margin-left:2em; font-weight:normal; text-wrap:wrap;')" />
+				<xsl:value-of select="concat('width:', $width * $widthRatio, 'em; ', 'margin-left:2em; font-weight:normal; text-wrap:wrap;')" />
 			</xsl:attribute>
 
-			<xsl:apply-templates>
-				<xsl:copy-of select="$content" />
-			</xsl:apply-templates>
+			<xsl:apply-templates select="$content" />
 		</div>
 	</xsl:template>
+	<xsl:template match="Preparation">
+		<xsl:param name="linkPrefix" />
+
+		<div style="margin-top:.5em;">
+			<xsl:copy-of select="@*" />
+			<xsl:choose>
+				<xsl:when test="@pageBreak">
+					<span class="no-screen">
+						<i>(Continued on next page)</i>
+					</span>
+					<div style="break-after:page;" />
+				</xsl:when>
+				<xsl:otherwise>
+					<!-- <span style="font-size:.25em;"></span><br /> -->
+				</xsl:otherwise>
+			</xsl:choose>
+			<div class="SECTION_HEADER" id="Preparation">Preparation</div>
+			<xsl:for-each select="section">
+				<div>
+					<xsl:if test="@title = 'ToDo'">
+						<xsl:attribute name="class">TODO</xsl:attribute>
+					</xsl:if>
+					<xsl:if test="@title">
+						<xsl:attribute name="style">margin-left:2em;</xsl:attribute>
+						<span class="SUBSECTION_HEADER">
+							<xsl:value-of select="@title" />
+						</span>
+					</xsl:if>
+					<xsl:if test="description">
+						<div style="margin-left:1em;">
+							<xsl:apply-templates select="description">
+								<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+							</xsl:apply-templates>
+						</div>
+					</xsl:if>
+					<ol style="margin-top:0; margin-bottom:0;">
+						<xsl:apply-templates select="prep">
+							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+						</xsl:apply-templates>
+					</ol>
+				</div>
+			</xsl:for-each>
+		</div>
+	</xsl:template>
+
 	<xsl:template match="Instructions">
 		<xsl:param name="linkPrefix" />
 
@@ -409,8 +508,7 @@
 					<div style="break-after:page;" />
 				</xsl:when>
 				<xsl:otherwise>
-					<!-- <span style="font-size:.25em;"> </span>
-				<br /> -->
+					<!-- <span style="font-size:.25em;"> </span><br /> -->
 				</xsl:otherwise>
 			</xsl:choose>
 			<div class="SECTION_HEADER" id="Instructions">Instructions</div>
@@ -455,8 +553,7 @@
 						<div style="break-after:page;" />
 					</xsl:when>
 					<xsl:otherwise>
-						<!-- <span style="font-size:.25em;"> </span>
-					<br /> -->
+						<!-- <span style="font-size:.25em;"> </span><br /> -->
 					</xsl:otherwise>
 				</xsl:choose>
 				<div class="SECTION_HEADER" id="Notes">Notes</div>
@@ -482,8 +579,7 @@
 						<div style="break-after:page;" />
 					</xsl:when>
 					<xsl:otherwise>
-						<!-- <span style="font-size:.25em;"> </span>
-					<br /> -->
+						<!-- <span style="font-size:.25em;"> </span><br /> -->
 					</xsl:otherwise>
 				</xsl:choose>
 				<div class="SECTION_HEADER" id="AdditionalNotes">Additional Notes</div>
@@ -510,8 +606,7 @@
 						<div style="break-after:page;" />
 					</xsl:when>
 					<xsl:otherwise>
-						<!-- <span style="font-size:.25em;"> </span>
-						<br /> -->
+						<!-- <span style="font-size:.25em;"> </span><br /> -->
 					</xsl:otherwise>
 				</xsl:choose>
 				<div class="SECTION_HEADER" id="Modifications" style="">Modifications</div>
@@ -535,7 +630,7 @@
 		</div>
 	</xsl:template>
 
-	<xsl:template match="instruction|note|modification">
+	<xsl:template match="prep|instruction|note|modification">
 		<xsl:param name="linkPrefix" />
 
 		<li>

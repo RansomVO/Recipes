@@ -1,55 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Stuffed Mushrooms" yields="about 24">
+<Recipe>
+	<Title>Stuffed Mushrooms</Title>
+	<Yields>about 12</Yields>
 	<Source>A VanOrman Original</Source>
 
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+	&section;
+	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">
+	<Description>
 		There are probably thousands of recipes for stuffed mushrooms.
 		One time, we decided we wanted some stuffed mushrooms and just threw together what we had on hand.
 		They turned out wonderful!
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
-			<ingredient name="Large Whole Mushrooms"
-				nameNote="Caps about 1&frac12;&quot;-3&quot; in diameter"
-				amount="12"
-				amountNote="&approx;1 Lb." />
-			<ingredient name="Sausage" amount="&frac12; 1b." />
-			<ingredient name="Onion" amount="&frac12; Small" />
-			<ingredient name="Parmesan Cheese" amount="2 Tablespoons" />
-			<ingredient name="Mozzarella Cheese"
-				amount="1 Cup"
-				amountNote="about &frac14; lb." />
+			<ingredient>
+				Large Whole Mushrooms<note>Caps &approx;1&frac12;&quot;-3&quot; in diameter</note>
+				<amount>12<note>&approx;1 Lb.</note></amount>
+			</ingredient>
+			<ingredient>Sausage<amount>&frac12; 1b.</amount></ingredient>
+			<ingredient>Onion<amount>&frac12; Small</amount></ingredient>
+			<ingredient>Parmesan Cheese<amount>2 Tablespoons</amount></ingredient>
+			<ingredient>
+				Mozzarella Cheese
+				<amount>1 Cup<note>&approx;&frac14; lb.</note></amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
-			<instruction>Carefully break the stems from the Mushroom caps so that you are left with a hollow to hold the rest of the ingredients, then place them, hollow up, onto a cookie sheet.</instruction>
-			<instruction>Chop Onion into &frac14;&inch; square chunks.</instruction>
-			<instruction>Place Sausage and Onion into a skillet and cook until Sausage is browned and Onions are thoroughly cooked. Make sure Sausage is broken up into very small chunks.</instruction>
-			<instruction>Remove from heat and add Parmesan Cheese to Sausage mixture.</instruction>
-			<instruction>Using a spoon, place Sausage mixture into hollows of Mushrooms. Put as much Sausage mixture as you can without having it fall out onto the cookie sheet.</instruction>
-			<instruction>Carefully place about a teaspoon of Mozzarella Cheese on top of each stuffed Mushroom.</instruction>
-			<instruction>Just before serving, broil on low until Mozzarella Cheese melts. <span class="NOTE">(About 5 minutes)</span></instruction>
+			<instruction>
+				Carefully break the stems from the Mushroom caps so that you are left with a hollow to hold the rest of the ingredients, then place them, hollow up, onto a cookie sheet.
+			</instruction>
+			<instruction>
+				Chop Onion into &frac14;&inch; square chunks.
+			</instruction>
+			<instruction>
+				Place Sausage and Onion into a skillet and cook until Sausage is browned and Onions are thoroughly cooked.
+				Make sure Sausage is broken up into very small chunks.
+			</instruction>
+			<instruction>
+				Remove from heat and add Parmesan Cheese to Sausage mixture.
+			</instruction>
+			<instruction>
+				Using a spoon, place Sausage mixture into hollows of Mushrooms.
+				Put as much Sausage mixture as you can without having it fall out onto the cookie sheet.
+			</instruction>
+			<instruction>
+				Carefully place about a teaspoon of Mozzarella Cheese on top of each stuffed Mushroom.
+			</instruction>
+			<instruction>
+				Just before serving, broil on low until Mozzarella Cheese melts.
+				(&approx;5 minutes)
+			</instruction>
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
-		<note>There are several flavors of Sausage besides "Regular": <ul>
+	<Notes>
+		<note>
+			There are several flavors of Sausage besides "Regular":
+			<ul>
 				<li>Spicy or Hot works well.</li>
 				<li>Sage works well if you like sage.</li>
 				<li>Maple flavor <span class="EMPHASIZE">does <span class="SUPER_EMPHASIZE">NOT</span></span> work well.</li>
@@ -62,10 +82,14 @@
 			Try including them in some other recipe.
 			For example, slice them up to include in stuffing, mushrooms and onions as a topping for meat, etc.
 		</note>
-		<note>For best results, makes sure Sausage mixture is hot when you stuff the mushrooms, then broil and serve immediately.</note>
+		<note>
+			For best results, makes sure Sausage mixture is hot when you stuff the mushrooms, then broil and serve immediately.
+		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
-		<modification>Add &frac12; teaspoon Garlic to Sausage mixture when browning Sausage.</modification>
+	<Modifications>
+		<modification>
+			Add &frac12; teaspoon Garlic to Sausage mixture when browning Sausage.
+		</modification>
 	</Modifications>
 </Recipe>

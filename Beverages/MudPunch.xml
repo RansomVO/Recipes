@@ -1,37 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Mud Punch" yields="8 1-Cup servings">
+<Recipe>
+	<Title>Mud Punch</Title>
+	<Yields>8 1-Cup servings</Yields>
 	<Source>A VanOrman Original</Source>
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="3"
-		day="27" />
 
-	<Description id="Description"> We have no idea why, but at a family gathering with nephews and nieces, Grandpa John just decided to mix a couple of juices. The results looked <span class="EMPHASIZE">disgusting</span>, but actually tasted really good.<br />Because of the brown color, we decided to call it "Mud Punch". </Description>
+	&section;
+	<LastModified year="2025" month="3" day="27" />
 
-	<Ingredients id="Ingredients">
+	<Description>
+		We have no idea why, but at a family gathering with nephews and nieces, Grandpa John just decided to mix a couple of juices. The results looked <span class="EMPHASIZE">disgusting</span> , but actually tasted really good.<br />
+		Because of the brown color, we decided to call it "Mud Punch".
+	</Description>
+
+	<Ingredients>
 		<section>
-			<ingredient name="Orange Juice Concentrate" amount="1 12-oz. Can" />
-			<ingredient name="Grape Juice Concentrate" amount="1 12-oz. Can" />
+			<ingredient>Orange Juice Concentrate<amount>1 12-oz. Can</amount></ingredient>
+			<ingredient>Grape Juice Concentrate<amount>1 12-oz. Can</amount></ingredient>
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
-			<instruction>In a large pitcher, combine both cans of Juice Concentrate.</instruction>
-			<instruction>Add the appropriate amount of water. <span class="NOTE">(2 cans for each.)</span></instruction>
+			<instruction>
+				In a large pitcher, combine both cans of Juice Concentrate.
+			</instruction>
+			<instruction>
+				Add the appropriate amount of water.
+				<span class="NOTE">(2 cans for each.)</span>
+			</instruction>
 			<instruction>Mix well.</instruction>
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
-		<note>These days, the coloring of the Juice Concentrates is generally artificial, so it doesn't look like mud so much, but it still tastes good.</note>
+	<Notes>
+		<note>
+			These days, the coloring of the Juice Concentrates is generally artificial, so it doesn't look like mud so much, but it still tastes good.
+		</note>
 	</Notes>
 </Recipe>

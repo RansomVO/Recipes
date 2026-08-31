@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE Recipe [
+	<!ENTITY section SYSTEM "section.xml">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe>
+	<Title>Stuff<span class="SMALL_NOTE">(Me)</span>ing</Title>
+	<Yields>8-10 Servings</Yields>
+	<Source>Based on a Recipe from Karla Therriault</Source>
+
+	&section;
+	<LastModified year="2025" month="6" day="6" />
+
+	<Description>
+		Most Thanksgivings we have used boxes of Stove Top Stuffing, but one year we ate at our in-laws, the Therriault's, and fell in love with their stuffing.
+		Karla gave us her recipe and we made some modifications to make it completely on the stove instead of stuffing it into the Turkey.
+		That makes it Stuff<span class="LARGE_EMPHASIZE">(Me)</span>ing instead of Stuffing. &smiley;
+	</Description>
+
+	<Ingredients>
+		<section>
+			<ingredient>
+				Celery<note>With Leaves</note>
+				<amount>1&frac12; Cups</amount>
+			</ingredient>
+			<ingredient>
+				Sage Leaves<note>Fresh</note>
+				<amount>1&frac12; teaspoons</amount>
+			</ingredient>
+			<ingredient>
+				Thyme Leaves<note>Fresh</note>
+				<amount>1 teaspoon</amount>
+			</ingredient>
+			<ingredient>
+				Mushrooms<note>May be Sliced</note>
+				<amount>1-2 Cups</amount>
+			</ingredient>
+			<ingredient>Salt<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Pepper<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>
+				Butter
+				<amount>1 Cup<note>2 Sticks</note></amount>
+			</ingredient>
+			<ingredient>Turkey Broth<amount>2 Cups</amount></ingredient>
+			<ingredient>
+				Bread<note>As heavy/dense as possible</note>
+				<amount>1 Loaf</amount>
+			</ingredient>
+		</section>
+	</Ingredients>
+
+	<Instructions>
+		<section>
+			<instruction>Cut Onion into &frac14;&inch; discs, then slice the discs into 8 wedges.</instruction>
+			<instruction>
+				Cut Celery into thin slices.
+				Slice the leaves into the same thickness.
+			</instruction>
+			<instruction>Chop Sage Leaves until pieces are &frac18;&inch; squares or smaller.</instruction>
+			<instruction>Remove Thyme Leaves from stems, but don't chop.</instruction>
+			<instruction>
+				If Mushrooms are not already sliced, cut into &frac14;&inch; thick slices.
+				<span class="NOTE">(If slices are more than 1&frac12;&inch; wide, cut in half from top to bottom.)</span>
+			</instruction>
+			<instruction>
+				Using a Bread knife, cut Bread slices into 1&inch; x 1&inch; squares.
+				(This can be done with several slices at a time.)<br />
+				Then place Bread cubes into a large bowl.
+			</instruction>
+			<instruction>
+				In a saucepan, melt the Butter then stir in the Onion, Celery, Sage, Thyme, Salt and Pepper.<br />
+				Reduce heat to low, and simmer with lid on, stirring occasionally, for 20 minutes.
+			</instruction>
+			<instruction>Add Mushrooms and simmer for 5 minutes.</instruction>
+			<instruction>Add Turkey Broth, turn burner to high and bring to a boil.</instruction>
+			<instruction>Pour Turkey Broth mixture over the Bread cubes and gently stir until all of the Bread has absorbed some Broth.</instruction>
+			<instruction>Let sit for 5 minutes and gently stir again.</instruction>
+		</section>
+	</Instructions>
+
+	<Notes>
+		<note>
+			If a Thanksgiving Turkey is being prepared:
+			<ul>
+				<li>Take the Giblets <span class="NOTE">(neck, gizzard, liver, and heart)</span> from inside the Turkey.</li>
+				<li>Put them in a small pot with an amount of Water matching the amount of Turkey Broth needed, plus &frac12; Cup.</li>
+				<li>Bring to a boil, then turn to low and let simmer for 1-2 hours.</li>
+				<li>Filter out the Giblets and use the remaining liquid as the Turkey Broth.</li>
+			</ul>
+			Alternatively, the Turkey Broth can be obtained from the Turkey's drippings when it is done cooking.
+		</note>
+	</Notes>
+
+	<Modifications>
+		<modification>
+			Instead of using fresh Bread, use dried Bread cubes or pieces. <i>(Di's favorite is from Haggens!)</i><br />
+			Then increase the Turkey Broth to 1 Cup per 8 Oz. bag or package of dried Bread.
+		</modification>
+		<modification>If not being prepared as a side dish for turkey, use chicken, vegetable, or some other flavor of broth.</modification>
+		<modification>
+			Instead of Fresh Sage and Thyme, dried can be used.
+			If you gently crush them before adding, it helps release more flavor.
+		</modification>
+		<modification>Add 2-4 Oz. fully cooked Sausage, broken into pea-sized chunks, just before adding the bread.</modification>
+	</Modifications>
+</Recipe>

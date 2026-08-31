@@ -1,48 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY parentSection SYSTEM "../section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Easy Enchiladas" yields="6 servings">
+<Recipe>
+	<Title>Easy Enchiladas</Title>
+	<Yields>6 servings</Yields>
 	<Source>From the kitchen of Janey Nelson</Source>
 	<Note>A family friend</Note>
 
-	<Section>&section;</Section>
+	&section;
 	<ParentSection>&parentSection;</ParentSection>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description">Real enchiladas require a lot of effort. There is preparing filling, sauce, etc. Then there is a bunch of assembly required.<br />This recipe isn't really enchiladas, but it will fool just about anybody except a Mexican.</Description>
+	<Description>
+		Real enchiladas require a lot of effort.
+		There is preparing filling, sauce, etc. Then there is a bunch of assembly required.<br />
+		This recipe isn't really enchiladas, but it will fool just about anybody except a Mexican.
+	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
-			<ingredient name="Burritos" amount="6 Frozen" />
-			<ingredient name="Enchilada Sauce" amount="1 20-oz. Can" />
-			<ingredient name="Cheddar Cheese"
-				nameNote="Grated"
-				amount="&frac12; lb." />
+			<ingredient>Burritos<amount>6 Frozen</amount></ingredient>
+			<ingredient>Enchilada Sauce<amount>1 20-oz. Can</amount></ingredient>
+			<ingredient>
+				Cheddar Cheese<note>Grated</note>
+				<amount>&frac12; Lb.</amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Preheat oven to 350&deg;.</instruction>
 			<instruction>Pour a few Tablespoons of Enchilada Sauce in the bottom of a 9&inch; &by; 9&inch; pan and spread it evenly.</instruction>
-			<instruction>Lay out the burritos evenly across the pan so that they are touching.</instruction>
-			<instruction>Pour the rest of the Enchilada Sauce evenly over the top of the burritos.</instruction>
+			<instruction>Lay out the Burritos evenly across the pan so that they are touching.</instruction>
+			<instruction>Pour the rest of the Enchilada Sauce evenly over the top of the Burritos.</instruction>
 			<instruction>Grate the Cheese and spread evenly over the top.</instruction>
 			<instruction>Cover with foil.</instruction>
 			<instruction>Bake at 350&deg; for 30 minutes.</instruction>
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>
 			Cheap frozen burritos work great for this recipe.
 			I always buy the cheap family packs that have about a dozen burritos.

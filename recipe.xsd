@@ -7,16 +7,35 @@
 	<xs:element name="Recipe">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element name="Title" type="MixedContent" />
+				<xs:element name="Yields" type="MixedContent" minOccurs="0" />
+				<xs:element name="Source" type="MixedContent" minOccurs="0" />
+				<xs:element name="Note" type="MixedContent" minOccurs="0" />
+				<xs:element name="Requires" type="MixedContent" minOccurs="0" />
 				<xs:element name="LastModified" type="LastModified" />
-				<xs:element name="Description" type="xs:string" />
-				<xs:element name="Ingredients" type="List" />
-				<xs:element name="Instructions" type="List" />
-				<xs:element name="Notes" minOccurs="0" type="List" />
-				<xs:element name="Modifications" minOccurs="0" type="List" />
+
+				<!-- Usually the "&section;" file ENTITY (declared in the <!DOCTYPE), which a validating
+					processor resolves into this literal form before validation ever sees it. -->
+				<xs:element name="Section" type="Section" minOccurs="0" />
+				<!-- Usually the "&parentSection;" file ENTITY, likewise resolving to a <Section>. Only
+					present for recipes nested two folders deep. -->
+				<xs:element name="ParentSection" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Section" type="Section" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="Description" type="MixedContent" minOccurs="0" />
+				<xs:element name="Ingredients" type="Ingredients" />
+				<xs:element name="Preparation" type="Preparation" minOccurs="0" />
+				<xs:element name="Instructions" type="Instructions" />
+				<xs:element name="Notes" type="NoteList" minOccurs="0" />
+				<xs:element name="Modifications" type="ModificationList" minOccurs="0" />
+				<xs:element name="AdditionalNotes" type="NoteList" minOccurs="0" />
+				<xs:element name="FinalNote" type="MixedContent" minOccurs="0" />
 			</xs:sequence>
-			<xs:attribute name="name" />
-			<xs:attribute name="source" />
-			<xs:attribute name="yields" />
 		</xs:complexType>
 	</xs:element>
 
@@ -26,32 +45,230 @@
 
 	<!-- ===== LastModified ======================================================== -->
 	<xs:complexType name="LastModified">
-		<xs:attribute name="year" type="xs:integer" />
-		<xs:attribute name="month" type="xs:integer" />
-		<xs:attribute name="day" type="xs:integer" />
+		<xs:attribute name="year" type="xs:integer" use="required" />
+		<xs:attribute name="month" type="xs:integer" use="required" />
+		<xs:attribute name="day" type="xs:integer" use="required" />
 	</xs:complexType>
 
-	<!-- ===== Instructions =============================================================== -->
-	<xs:complexType name="Instruction">
-		<xs:attribute name="time" type="xs:string" />
+	<!-- ===== Section / ParentSection ============================================= -->
+	<!-- <Section folder="X">Y</Section>: what the "&section;"/"&parentSection;" file ENTITY resolves to. -->
+	<xs:complexType name="Section">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="folder" type="xs:string" use="required" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<!-- ===== Ingredients ========================================================== -->
+	<xs:complexType name="Ingredients">
+		<xs:sequence>
+			<xs:element name="section" minOccurs="1" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="ingredient" type="Ingredient" minOccurs="1" maxOccurs="unbounded" />
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:string" />
+					<xs:attribute name="title" type="xs:string" />
+					<xs:attribute name="list-style" type="xs:string" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" />
+		<xs:attribute name="class" type="xs:string" />
+		<xs:attribute name="pageBreak" type="xs:string" />
+	</xs:complexType>
+
+	<xs:complexType name="IngredientPart" mixed="true">
+		<xs:sequence>
+			<xs:element name="note" type="xs:string" minOccurs="0" />
+			<xs:element name="finePrint" type="xs:string" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Ingredient" mixed="true">
+		<xs:sequence>
+			<xs:element name="note" type="xs:string" minOccurs="0" />
+			<xs:element name="finePrint" type="xs:string" minOccurs="0" />
+			<xs:element name="amount" type="IngredientPart" minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute name="comment" type="xs:string" />
+	</xs:complexType>
+
+	<!-- ===== Preparation ========================================================== -->
+	<xs:complexType name="Preparation">
+		<xs:sequence>
+			<xs:element name="section" minOccurs="1" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="prep" type="MixedContent" minOccurs="1" maxOccurs="unbounded" />
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:string" />
+					<xs:attribute name="title" type="xs:string" />
+					<xs:attribute name="list-style" type="xs:string" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" />
+		<xs:attribute name="class" type="xs:string" />
+		<xs:attribute name="pageBreak" type="xs:string" />
+	</xs:complexType>
+
+	<!-- ===== Instructions ========================================================= -->
+	<xs:complexType name="Instructions">
+		<xs:sequence>
+			<xs:element name="section" minOccurs="1" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<!-- An optional descriptive blurb before the section's instructions begin. -->
+						<xs:element name="description" type="MixedContent" minOccurs="0" />
+						<xs:element name="instruction" type="Instruction" minOccurs="1" maxOccurs="unbounded" />
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:string" />
+					<xs:attribute name="title" type="xs:string" />
+					<xs:attribute name="list-style" type="xs:string" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" />
+		<xs:attribute name="class" type="xs:string" />
+		<xs:attribute name="pageBreak" type="xs:string" />
+	</xs:complexType>
+
+	<!-- An <instruction>'s content is MixedContent, plus it may also contain a <subSection>:
+		a nested sub-list of its own <instruction>s (e.g. alternate ways to complete this one step). -->
+	<xs:complexType name="Instruction" mixed="true">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:group ref="InlineContent" />
+			<xs:element name="subSection" type="SubSection" />
+		</xs:choice>
+	</xs:complexType>
+
+	<xs:complexType name="SubSection">
+		<xs:sequence>
+			<xs:element name="instruction" type="Instruction" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+		<xs:attribute name="title" type="xs:string" />
+		<xs:attribute name="list-style" type="xs:string" />
+		<xs:attribute name="font-size" type="xs:string" />
+		<xs:attribute name="image" type="xs:string" />
+	</xs:complexType>
+
+	<!-- ===== Notes / AdditionalNotes / Modifications ============================= -->
+	<xs:complexType name="NoteList">
+		<xs:sequence>
+			<xs:element name="note" type="MixedContent" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" />
+		<xs:attribute name="pageBreak" type="xs:string" />
+	</xs:complexType>
+
+	<xs:complexType name="ModificationList">
+		<xs:sequence>
+			<xs:element name="modification" type="MixedContent" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" />
+		<xs:attribute name="pageBreak" type="xs:string" />
+		<xs:attribute name="class" type="xs:string" />
+	</xs:complexType>
+
+	<!-- *************************************************************************** -->
+	<!-- ***************************** Inline formatting **************************** -->
+	<!-- *************************************************************************** -->
+
+	<!-- Reused everywhere rich, HTML-like inline content can appear: Title/Yields/Source/Note/Requires,
+		Description, prep, note, modification, FinalNote, the lowercase per-section description, etc.
+		id/class/style are declared here (rather than only on the specific types that are known to use
+		them) since they show up ad hoc on many of these elements without a consistent pattern. -->
+	<xs:complexType name="MixedContent" mixed="true">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:group ref="InlineContent" />
+		</xs:choice>
+		<xs:attribute name="id" type="xs:string" />
+		<xs:attribute name="class" type="xs:string" />
+		<xs:attribute name="style" type="xs:string" />
+	</xs:complexType>
+
+	<xs:group name="InlineContent">
+		<xs:choice>
+			<xs:element name="span" type="Span" />
+			<!-- A literal <Note> used as inline parenthetical/annotation text (distinct from the
+				top-level <Note> Ribbon element), e.g. Source's "...<Note>G's Grandma</Note>". -->
+			<xs:element name="Note" type="Span" />
+			<xs:element name="b" type="MixedContent" />
+			<xs:element name="i" type="MixedContent" />
+			<xs:element name="u" type="MixedContent" />
+			<xs:element name="sup" type="MixedContent" />
+			<xs:element name="sub" type="MixedContent" />
+			<xs:element name="a" type="Anchor" />
+			<xs:element name="br" type="Empty" />
+			<xs:element name="div" type="Div" />
+			<xs:element name="ul" type="List" />
+			<xs:element name="ol" type="OrderedList" />
+			<xs:element name="table" type="Table" />
+			<xs:element name="img" type="Image" />
+		</xs:choice>
+	</xs:group>
+
+	<xs:complexType name="Empty" />
+
+	<xs:complexType name="Span" mixed="true">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:group ref="InlineContent" />
+		</xs:choice>
+		<xs:attribute name="class" type="xs:string" />
+		<xs:attribute name="style" type="xs:string" />
+	</xs:complexType>
+
+	<xs:complexType name="Div" mixed="true">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:group ref="InlineContent" />
+		</xs:choice>
+		<xs:attribute name="class" type="xs:string" />
+		<xs:attribute name="style" type="xs:string" />
+	</xs:complexType>
+
+	<xs:complexType name="Anchor" mixed="true">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:group ref="InlineContent" />
+		</xs:choice>
+		<xs:attribute name="href" type="xs:string" use="required" />
+		<xs:attribute name="class" type="xs:string" />
+	</xs:complexType>
+
+	<xs:complexType name="Image">
+		<xs:attribute name="src" type="xs:string" use="required" />
+		<xs:attribute name="style" type="xs:string" />
 	</xs:complexType>
 
 	<xs:complexType name="List">
 		<xs:sequence>
-			<xs:choice minOccurs="1" maxOccurs="unbounded">
-				<xs:element name="ContentItem" type="xs:string" />
-			</xs:choice>
+			<xs:element name="li" type="MixedContent" minOccurs="1" maxOccurs="unbounded" />
 		</xs:sequence>
-		<xs:attribute name="type" default="Bullet">
-			<xs:simpleType>
-				<xs:restriction base="xs:string">
-					<xs:enumeration value="Numeric" />
-					<xs:enumeration value="Upper" />
-					<xs:enumeration value="Lower" />
-					<xs:enumeration value="Bullet" />
-				</xs:restriction>
-			</xs:simpleType>
-		</xs:attribute>
+		<xs:attribute name="list-style" type="xs:string" />
+	</xs:complexType>
+
+	<xs:complexType name="OrderedList">
+		<xs:sequence>
+			<xs:element name="li" type="MixedContent" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+		<xs:attribute name="start" type="xs:integer" />
+		<xs:attribute name="list-style" type="xs:string" />
+	</xs:complexType>
+
+	<xs:complexType name="Table">
+		<xs:sequence>
+			<xs:element name="tr" minOccurs="1" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:choice minOccurs="1" maxOccurs="unbounded">
+						<xs:element name="td" type="MixedContent" />
+						<xs:element name="th" type="MixedContent" />
+					</xs:choice>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="border" type="xs:string" />
+		<xs:attribute name="style" type="xs:string" />
 	</xs:complexType>
 
 </xs:schema>

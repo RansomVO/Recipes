@@ -1,42 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Monkey Bread" yields="6-8 servings">
+<Recipe>
+	<Title>Monkey Bread</Title>
+	<Yields>6-8 servings</Yields>
 	<Source>Not sure where we got this.</Source>
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
 
-	<Description id="Description">
+	&section;
+	<LastModified year="2025" month="6" day="6" />
+
+	<Description>
 		This dish is fairly easy to make and is a lot of fun to eat.
 		Basically, kids end up acting like monkeys taking small handfuls and eating it.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
-			<ingredient name="Sugar" amount="&frac12; Cup" />
-			<ingredient name="Cinnamon" amount="2 teaspoons" />
-			<ingredient name="Biscuit Dough" amount="3 7.5-oz. Tubes" />
-			<ingredient name="Butter"
-				amount="&frac12; Cup"
-				amountNote="1 Stick" />
-			<ingredient name="Brown Sugar" amount="1 Cup" />
+			<ingredient>Sugar<amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Cinnamon<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Biscuit Dough<amount>3 7.5-oz. Tubes</amount></ingredient>
+			<ingredient>
+				Butter
+				<amount>&frac12; Cup<note>1 Stick</note></amount>
+			</ingredient>
+			<ingredient>Brown Sugar<amount>1 Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
-			<instruction>Preheat oven to 350&deg;.</instruction>
+			<instruction>
+				Preheat oven to 350&deg;.
+			</instruction>
 			<instruction>In a large bag <span class="NOTE">(such as a 1-gallon Ziploc)</span> combine Sugar and Cinnamon.</instruction>
 			<instruction>Remove each Biscuit from the tube and cut them into 4 pieces each.</instruction>
-			<instruction>Place about 10 Biscuit pieces into the bag of Cinnamon Sugar and shake until they are completely covered.</instruction>
+			<instruction>Place &approx;10 Biscuit pieces into the bag of Cinnamon Sugar and shake until they are completely covered.</instruction>
 			<instruction>Place coated pieces into a Tube Pan <span class="NOTE">(such as a Bundt Pan)</span>.</instruction>
 			<instruction>Repeat steps 3-4 until all pieces are placed into the pan.</instruction>
 			<instruction>In a separate pan, melt the Butter, and stir in the Brown Sugar.</instruction>
@@ -47,11 +51,15 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
-		<note>When it first comes out of the oven, the sugar has caramelized and is very hot. It will cause burns if you touch it at this point! Make sure to let it cool.</note>
+	<Notes>
+		<note>
+			When it first comes out of the oven, the sugar has caramelized and is very hot.
+			It will cause burns if you touch it at this point!
+			Make sure to let it cool.
+		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>If you don't have a Tube Pan, reduce Biscuit Dough to only 2 Tubes, and use a bread loaf pan.</modification>
 		<modification>Do not use a cake pan, or anything similar as it will leave the center doughy and the edges overdone.</modification>
 	</Modifications>

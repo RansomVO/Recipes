@@ -1,6 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Pages>
-	<page href="HotChocolate.xml" title="Hot Chocolate" />
-	<page href="RootBeer.xml" title="Root Beer" />
-	<page href="Pi&#x148;aColada.xml" title="Pi&#x148;a Colada" />
-	<page href="MudPunch.xml" title="Mud Punch" />
+	<page href="HotChocolate.xml">Hot Chocolate</page>
+	<page href="RootBeer.xml">Root Beer</page>
+	<page href="PiňaColada.xml">Piňa Colada</page>
+	<page href="MudPunch.xml">Mud Punch</page>
 </Pages>

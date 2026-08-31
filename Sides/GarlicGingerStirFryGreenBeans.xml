@@ -1,48 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Garlic-Ginger Stir-Fry Green Beans" yields="6-8 servings">
+<Recipe>
+	<Title>Garlic-Ginger Stir-Fry Green Beans</Title>
+	<Yields>6-8 servings</Yields>
 	<Source>A VanOrman Original</Source>
 
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+	&section;
+	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description"> One day Di wanted some oriental style green beans. We tried a few recipes and each had some good and bad to them, so we started experimenting. Each time we found one thing that wasn't right, so we would adjust that, then something else would stand out. <br /> After <span class="EMPHASIZE">many</span> attempts we finally came up with this recipe that is just right for us. <br />
-		<br />
-		<div class="NOTE"> NOTE: Later on, Di decided she doesn't want Ginger in it, but the rest of us <span class="EMPHASIZE">Love</span> it </div>
+	<Description>
+		One day Di wanted some oriental style green beans.
+		We tried a few recipes and each had some good and bad to them, so we started experimenting.
+		Each time we found one thing that wasn't right, so we would adjust that, then something else would stand out.<br />
+		After <span class="EMPHASIZE">many</span> attempts we finally came up with this recipe that is just right for us.
+		<br /><br />
+		<div class="NOTE">NOTE: Later on, Di decided she doesn't want Ginger in it, but the rest of us <span class="EMPHASIZE">Love</span> it</div>
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
-			<ingredient name="Crushed Red Chili Pepper Flakes" amount="1 teaspoon" />
-			<ingredient name="Ginger"
-				nameNote="Finely Grated"
-				amount="&frac12; Tablespoon"
-				amountNote="Unless Di says to not use it. &smiley;" />
-			<ingredient name="Chili Sauce"
-				nameNote="Tapat&accentedLowerI;o is our favorite"
-				amount="&frac14; teaspoon" />
-			<ingredient name="Soy Sauce" amount="3 Tablespoons" />
-			<ingredient name="Rice Wine Vinegar" amount="&frac12; Tablespoon" />
-			<ingredient name="Sesame Oil" amount="&frac12; Tablespoon" />
-			<ingredient name="Water" amount="1 Tablespoon" />
-			<ingredient name="Vegetable Oil" amount="2 Tablespoon" />
-			<ingredient name="Minced Garlic" amount="1 Tablespoon" />
-			<ingredient name="Fresh Green Beans" amount="1 Pound" />
+			<ingredient>Crushed Red Chili Pepper Flakes<amount>1 teaspoon</amount></ingredient>
+			<ingredient>
+				Ginger<note>Finely Grated</note>
+				<amount>&frac12; Tablespoon<note>Unless Di says to not use it. &smiley;</note></amount>
+			</ingredient>
+			<ingredient>
+				Chili Sauce<note>Tapat&iacute;o is our favorite</note>
+				<amount>&frac14; teaspoon</amount>
+			</ingredient>
+			<ingredient>Soy Sauce<amount>3 Tablespoons</amount></ingredient>
+			<ingredient>Rice Wine Vinegar<amount>&frac12; Tablespoon</amount></ingredient>
+			<ingredient>Sesame Oil<amount>&frac12; Tablespoon</amount></ingredient>
+			<ingredient>Water<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Vegetable Oil<amount>2 Tablespoon</amount></ingredient>
+			<ingredient>Minced Garlic<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Fresh Green Beans<amount>1 Pound</amount></ingredient>
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
-			<instruction>In a small cup combine Crushed Red Chili Pepper Flakes, Ginger, Chili Sauce, Soy Sauce, Rice Wine Vinegar, Sesame Oil and Water. Stir well and set aside.</instruction>
+			<instruction>
+				In a small cup combine Crushed Red Chili Pepper Flakes, Ginger, Chili Sauce, Soy Sauce, Rice Wine Vinegar, Sesame Oil and Water.
+				Stir well and set aside.
+			</instruction>
 			<instruction>Wash Green Beans and remove all stems from them.</instruction>
 			<instruction>In a wok, add Vegetable Oil and turn on medium heat, then use a metal spatula to spread the oil up the sides of the wok.</instruction>
 			<instruction>Add Minced Garlic and stir occasionally until it begins to change color.</instruction>
@@ -53,7 +61,7 @@
 		</section>
 	</Instructions>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>If you do not have a wok, use a large pot.</modification>
 		<modification>When Green Beans are nearly finished cooking, add 2 freshly chopped Scallions.</modification>
 		<modification>When Green Beans are finished cooking, add 1 Tablespoon Sesame Seeds and stir well.</modification>

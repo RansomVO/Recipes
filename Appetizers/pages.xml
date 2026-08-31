@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Pages>
-	<page href="CheeseBall.xml" title="Cheese Ball" />
-	<page href="3rdDegreeBuffaloWings.xml" title="3rd Degree Buffalo Wings" />
-	<page href="StuffedMushrooms.xml" title="Stuffed Mushrooms" />
+	<page href="CheeseBall.xml">Cheese Ball</page>
+	<page href="3rdDegreeBuffaloWings.xml">3rd Degree Buffalo Wings</page>
+	<page href="StuffedMushrooms.xml">Stuffed Mushrooms</page>
 </Pages>

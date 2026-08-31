@@ -1,67 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY parentSection SYSTEM "../section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Stealth-Attack Chili" yields="10-12 servings">
+<Recipe>
+	<Title>Stealth-Attack Chili</Title>
+	<Yields>10-12 servings</Yields>
 	<Source>A VanOrman Original</Source>
-	<Section>&section;</Section>
+
+	&section;
 	<ParentSection>&parentSection;</ParentSection>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+	<LastModified year="2025" month="6" day="6" />
 
-	<Description id="Description"> This is one of the first recipes invented by Ransom. He wanted a good recipe that could be made with ingredients primarily from food storage. We went through several attempts, but once we succeeded, we would make it over and over. Due to the spices, it takes 4-5 bites before you realized it is very spicy hot. <span class="NOTE">(Thus stealth-attack.)</span>
-		<br /> Unfortunately, when we moved to Washington, nobody could stand how hot it was. <span class="NOTE">(It's not <span class="HIGHLIGHT">that</span> hot to me.)</span> And when made for Boy Scout competitions, it didn't have a good "look" to it, so we invented <a href=".../StoveTop/KlondikeChili.xml">Entrees / Stove Top: Klondike Chili</a>. But, we still make this one from time to time. </Description>
+	<Description>
+		This is one of the first recipes invented by Ransom.
+		He wanted a good recipe that could be made with ingredients primarily from food storage.
+		We went through several attempts, but once we succeeded, we would make it over and over.
+		Due to the spices, it takes 4-5 bites before you realized it is very spicy hot.
+		<span class="NOTE">(Thus stealth-attack.)</span><br />
+		Unfortunately, when we moved to Washington, nobody could stand how hot it was.
+		<span class="NOTE">(It's not <span class="HIGHLIGHT">that</span> hot to me.)</span>
+		And when made for Boy Scout competitions, it didn't have a good "look" to it, so we invented <a href=".../StoveTop/KlondikeChili.xml">Entrees / Stove Top: Klondike Chili</a>.
+		But, we still make this one from time to time.
+	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
-			<ingredient name="Dried Kidney Beans" amount="2 Cups" />
-			<ingredient name="Dried Red Beans" amount="1 Cup" />
-			<ingredient name="Dried Pinto Beans" amount="1 Cup" />
-			<ingredient name="Water" amount="2 Quarts" />
-			<ingredient name="Hamburger" amount="1 Lb." />
-			<ingredient name="Dried Minced Onion" amount="&frac12;-1 Cup" />
-			<ingredient name="Chili Powder" amount="1-2 Tablespoons" />
-			<ingredient name="Cayenne Pepper" amount="&frac12;-2 teaspoons" />
-			<ingredient name="Black Pepper" amount="&frac12;-2 teaspoons" />
-			<ingredient name="Garlic Powder" amount="1 teaspoon" />
+			<ingredient>Dried Kidney Beans<amount>2 Cups</amount></ingredient>
+			<ingredient>Dried Red Beans<amount>1 Cup</amount></ingredient>
+			<ingredient>Dried Pinto Beans<amount>1 Cup</amount></ingredient>
+			<ingredient>Water<amount>2 Quarts</amount></ingredient>
+			<ingredient>Hamburger<amount>1 Lb.</amount></ingredient>
+			<ingredient>Dried Minced Onion<amount>&frac12;-1 Cup</amount></ingredient>
+			<ingredient>Chili Powder<amount>1-2 Tablespoons</amount></ingredient>
+			<ingredient>Cayenne Pepper<amount>&frac12;-2 teaspoons</amount></ingredient>
+			<ingredient>Black Pepper<amount>&frac12;-2 teaspoons</amount></ingredient>
+			<ingredient>Garlic Powder<amount>1 teaspoon</amount></ingredient>
 		</section>
 		<section>
-			<ingredient name="Celery Seed" amount="2 teaspoons" />
-			<ingredient name="Paprika" amount="&frac12; teaspoon" />
-			<ingredient name="Cumin" amount="2 teaspoons" />
-			<ingredient name="Salt" amount="2 Tablespoons" />
-			<ingredient name="Brown Sugar" amount="2 Tablespoons" />
-			<ingredient name="Tomato Sauce" amount="3 8-oz. Cans" />
-			<ingredient name="Tomato Paste" amount="2 6-oz. Cans" />
-			<ingredient name="Tomatoes" amount="6" />
-			<ingredient name="Water" amount="&frac12;-2 Cups" />
+			<ingredient>Celery Seed<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Paprika<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Cumin<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Salt<amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Brown Sugar<amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Tomato Sauce<amount>3 8-oz. Cans</amount></ingredient>
+			<ingredient>Tomato Paste<amount>2 6-oz. Cans</amount></ingredient>
+			<ingredient>Tomatoes<amount>6</amount></ingredient>
+			<ingredient>Water<amount>&frac12;-2 Cups</amount></ingredient>
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
-			<instruction>Put water and beans in a Slow Cooker and cook them on Low overnight. <span class="NOTE">(4-8 hours)</span></instruction>
-			<instruction>Drain all of the excess water, leaving beans in the Slow Cooker.</instruction>
+			<instruction>Put Water and beans in a Slow Cooker and cook them on Low overnight. <span class="NOTE">(4-8 hours)</span></instruction>
+			<instruction>Drain all of the excess Water, leaving beans in the Slow Cooker.</instruction>
 			<instruction>Brown Hamburger, until there is no pink meat left, then add to the Slow Cooker.</instruction>
-			<instruction>Put all other ingredients into the Slow Cooker, except water, and mix well.</instruction>
+			<instruction>Put all other ingredients into the Slow Cooker, except Water, and mix well.</instruction>
 			<instruction>Add Water until Chili is at desired consistency.</instruction>
 			<instruction>Cook on High for 2-4 hours or Low for 4-8 hours.</instruction>
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
-		<note>Dried beans are hard. They need to be softened before they can be eaten. That is why you have to start the recipe the night before.</note>
-		<note>People have different tastes for spiciness. Use the minimum if you like Mild. The max if you like Hot, or somewhere in between for a Medium.</note>
+	<Notes>
+		<note>
+			Dried beans are hard.
+			They need to be softened before they can be eaten.
+			That is why you have to start the recipe the night before.
+		</note>
+		<note>
+			People have different tastes for spiciness.
+			Use the minimum if you like Mild.
+			The max if you like Hot, or somewhere in between for a Medium.
+		</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>May substitute 2 Onions cut into &frac14;&inch; disks, then disks cut into 4 wedges for Dried Minced Onion.</modification>
 		<modification>May substitute 1 teaspoon Minced Garlic for the Garlic Powder.</modification>
 		<modification>May substitute 2 Tablespoons Light Corn Syrup for the Brown Sugar.</modification>

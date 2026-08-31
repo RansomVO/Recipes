@@ -1,13 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Pages>
-	<page href="MashedPotatoes.xml" title="Mashed Potatoes" />
-	<page href="Rice.xml" title="Rice" />
-	<page href="LehiRice.xml" title="Lehi Rice" />
-	<page href="DutchSpanishRice.xml" title="Dutch Spanish Rice" />
-	<page href="FriedRice.xml" title="Fried Rice" />
-	<page href="StuffMeing.xml" title="StuffMeing" />
-	<page href="GreenBeanCasserole.xml" title="Green Bean Casserole" />
-	<page href="GarlicGingerStirFryGreenBeans.xml" title="Garlic-Ginger Stir-Fry Green Beans" />
-	<page href="EasyPotatoesAuGratin.xml" title="Easy Potatoes Au Gratin" />
-	<page href="GingerCarrots.xml" title="Ginger Carrots" />
-	<page class="TODO" href="CranberryJelloSalad.xml" title="Cranberry Jello Salad" />
+	<page href="MashedPotatoes.xml">Mashed Potatoes</page>
+	<page href="Rice.xml">Rice</page>
+	<page href="LehiRice.xml">Lehi Rice</page>
+	<page href="DutchSpanishRice.xml">Dutch Spanish Rice</page>
+	<page href="FriedRice.xml">Fried Rice</page>
+	<page href="Stuff(Me)ing.xml">Stuff<span class="SMALL_NOTE">(Me)</span>ing</page>
+	<page href="GreenBeanCasserole.xml">Green Bean Casserole</page>
+	<page href="GarlicGingerStirFryGreenBeans.xml">Garlic-Ginger Stir-Fry Green Beans</page>
+	<page href="EasyPotatoesAuGratin.xml">Easy Potatoes Au Gratin</page>
+	<page href="RedheadCarrots.xml">Redhead Carrots</page>
+	<page href="ComfortRice.xml">Mexican Rice of Comfort</page>
+	<page class="TODO" href="CranberryJelloSalad.xml">Cranberry Jello Salad</page>
+	<page class="TODO" href="SheetPanVeggies.xml">Sheet Pan Veggies</page>
 </Pages>

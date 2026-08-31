@@ -11,10 +11,10 @@
 	<xsl:template match="Index">
 		<xsl:variable name="depth">
 			<xsl:choose>
-				<xsl:when test="document(concat(Section/section/@folder, '/section.xml'))/section/@folder = '.'">1</xsl:when>
-				<xsl:when test="document(concat(Section/section/@folder, '/../section.xml'))/section/@folder = '.'">2</xsl:when>
-				<xsl:when test="document(concat(Section/section/@folder, '/../../section.xml'))/section/@folder = '.'">3</xsl:when>
-				<xsl:otherwise>0</xsl:otherwise>
+				<xsl:when test="Section/@folder = '.'">0</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="string-length(Section/@folder) - string-length(translate(Section/@folder, '/', '')) + 1" />
+				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
 		<xsl:variable name="linkPrefix">
@@ -31,21 +31,23 @@
 					<xsl:if test="Section != 'VanOrman Family Recipes'">
 						VanOrman Family Recipes:
 					</xsl:if>
-					<!-- TODO QZX: Handle multiple levels of Sections in the title. E.G.: Entrees/StoveTop -->
-					<xsl:if test="ParentSection">
-						<xsl:value-of select="ParentSection" /> /</xsl:if>
+					<!-- QZX TODO: Handle multiple levels of Sections in the title. E.G.: Entrees/StoveTop -->
+					<xsl:if test="ParentSection"><xsl:value-of select="ParentSection" /> /</xsl:if>
 					<xsl:value-of select="Section" />
 				</title>
 			</head>
 
 			<body>
-				<xsl:apply-templates select="Section" />
+				<xsl:apply-templates select="Section">
+					<xsl:with-param name="linkPrefix" select="''" />
+				</xsl:apply-templates>
+
 				<xsl:apply-templates select="Summary" />
 
 				<hr />
 				<xsl:apply-templates select="Pages">
 					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-					<xsl:with-param name="folder" select="Section/section/@folder" />
+					<xsl:with-param name="folder" select="Section/@folder" />
 				</xsl:apply-templates>
 
 				<footer class="FLEX_FOOTER">
@@ -83,33 +85,33 @@
 	<!-- ************************************************************************************************************************ -->
 	<!--  Templates for sub-items                                                                                                 -->
 	<!-- ************************************************************************************************************************ -->
-	<xsl:template match="Section">
-		<div class="TITLE">
-			<xsl:copy-of select="*" />
-		</div>
-	</xsl:template>
-
 	<!-- Handles stuff from section.xml files. -->
-	<xsl:template match="section">
+	<xsl:template match="Section">
 		<xsl:param name="linkPrefix" />
 
 		<div>
 			<xsl:attribute name="class">
 				<xsl:choose>
+					<xsl:when test="$linkPrefix = ''">TITLE</xsl:when>
 					<xsl:when test="starts-with($linkPrefix, '../..')">SUBSUBSECTION_HEADER</xsl:when>
 					<xsl:when test="starts-with($linkPrefix, '..')">SUBSECTION_HEADER</xsl:when>
 					<xsl:otherwise>SECTION_HEADER</xsl:otherwise>
 				</xsl:choose>
 			</xsl:attribute>
-			<a class="no-print">
-				<xsl:attribute name="href">
-					<xsl:value-of select="concat($linkPrefix, '/',  @folder, '/index.xml')" />
-				</xsl:attribute>
-				<xsl:copy-of select="." />
-			</a>
-			<span class="no-screen">
-				<xsl:copy-of select="." />
-			</span>
+			<xsl:choose>
+				<xsl:when test="$linkPrefix = ''"><xsl:copy-of select="." /></xsl:when>
+				<xsl:otherwise>
+					<a class="no-print">
+						<xsl:attribute name="href">
+							<xsl:value-of select="concat($linkPrefix, '/',  @folder, '/index.xml')" />
+						</xsl:attribute>
+						<xsl:copy-of select="." />
+					</a>
+					<span class="no-screen">
+						<xsl:copy-of select="." />
+					</span>
+				</xsl:otherwise>
+			</xsl:choose>
 		</div>
 	</xsl:template>
 
@@ -148,7 +150,6 @@
 						</div>
 
 						<div class="SUBSECTION_DESCRIPTION">
-							<!-- TODO QZX: Figure out why the externalEntities.dtd causes this to fail. -->
 							<xsl:apply-templates select="inline/description">
 								<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 							</xsl:apply-templates>
@@ -161,7 +162,11 @@
 						</xsl:apply-templates>
 
 						<div class="SUBSECTION_DESCRIPTION">
-							<!-- TODO QZX: Figure out why the externalEntities.dtd causes this to fail. -->
+							<!-- document() parses summary.xml standalone, with no DOCTYPE (it can't have one;
+								see FilenameDocumentTypes in RecipeFixer/XmlFixer.cs), so entities.dtd's named
+								entities (e.g. &eacute;, &smiley;) are undefined here and fail the parse,
+								silently emptying this apply-templates. Use numeric character references
+								(&#xE9;, &#x1F600;) in section.xml/summary.xml/pages.xml instead. -->
 							<xsl:apply-templates select="document(concat(@folder, '/summary.xml'))">
 								<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 							</xsl:apply-templates>
@@ -194,28 +199,7 @@
 	<xsl:template match="page">
 		<xsl:param name="linkPrefix" />
 		<xsl:param name="folder" />
-		<li>
-			<xsl:variable name="a">
-				<a>
-					<xsl:copy-of select="@*[name() != 'href']" />
-					<xsl:attribute name="href">
-						<xsl:value-of select="concat($linkPrefix, '/',$folder, '/', @href)" />
-					</xsl:attribute>
-
-					<xsl:value-of select="@title" />
-				</a>
-			</xsl:variable>
-			<xsl:apply-templates select="exsl:node-set($a)">
-				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-			</xsl:apply-templates>
-			<xsl:if test="./*">
-				<div style="margin-left:2em;">
-					<xsl:apply-templates>
-						<xsl:copy-of select="./*" />
-					</xsl:apply-templates>
-				</div>
-			</xsl:if>
-		</li>
+		<li><a href="{concat($linkPrefix, '/',$folder, '/', @href)}"><xsl:copy-of select="." /></a></li>
 	</xsl:template>
 
 	<xsl:template match="inline">

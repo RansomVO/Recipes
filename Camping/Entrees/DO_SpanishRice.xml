@@ -1,41 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Dutch Oven Spanish Rice" yields="6-8 Servings" yieldsNote="or 10-15 if just used as a side dish">
+<Recipe>
+	<Title>Dutch Oven Spanish Rice</Title>
+	<Yields>6-8 Servings <Note>or 10-15 if just used as a side dish</Note>
+	</Yields>
 	<Source>A VanOrman Original</Source>
 	<Requires>12&inch; Dutch Oven</Requires>
 	<Note>From Grandpa John</Note>
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
 
-	<Description id="Description">
-		Grandpa John created this recipe to be eaten as an Entree. It also makes a great side dish.
+	&section;
+	<LastModified year="2025" month="5" day="5" />
+
+	<Description>
+		Grandpa John created this recipe to be eaten as an Entree.
+		It also makes a great side dish.
 	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
-			<ingredient name="Onions" amount="2" />
-			<ingredient name="Hamburger" amount="2-3 Lbs." />
-			<ingredient name="Rice" amount="3 Cups" />
-			<ingredient name="Water" amountNote="Add more if necessary" amount="1 Quart" />
-			<ingredient name="Green Bell Pepper" amount="1" />
-			<ingredient name="Tomato Soup" amount="1 10.75-oz. Can" />
-			<ingredient name="Tomato Sauce" amount="2 8-oz. Cans" />
-			<ingredient name="Stewed Tomatoes" amount="1 28-oz. Can" amountNote="or 2 14.5-oz. Cans" />
-			<ingredient name="Salt" amount="1 Tablespoon" />
-			<ingredient name="Pepper" amount="&frac14; teaspoon" />
+			<ingredient>Onions<amount>2</amount></ingredient>
+			<ingredient>Hamburger<amount>2-3 Lbs.</amount></ingredient>
+			<ingredient>Rice<amount>3 Cups</amount></ingredient>
+			<ingredient>
+				Water
+				<amount>1 Quart<note>Add more if necessary</note></amount>
+			</ingredient>
+			<ingredient>Green Bell Pepper<amount>1</amount></ingredient>
+			<ingredient>Tomato Soup<amount>1 10.75-oz. Can</amount></ingredient>
+			<ingredient>Tomato Sauce<amount>2 8-oz. Cans</amount></ingredient>
+			<ingredient>
+				Stewed Tomatoes
+				<amount>1 28-oz. Can<note>or 2 14.5-oz. Cans</note></amount>
+			</ingredient>
+			<ingredient>Salt<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Pepper<amount>&frac14; teaspoon</amount></ingredient>
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Cut Onion into &approx;&frac14;&inch; square pieces.</instruction>
 			<instruction>Cut Green Bell Pepper into &approx;&frac14;&inch; square pieces.</instruction>
@@ -46,7 +55,7 @@
 		</section>
 	</Instructions>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>For a richer taste, substitute a Poblano Pepper for the Green Bell Pepper.</modification>
 	</Modifications>
 </Recipe>

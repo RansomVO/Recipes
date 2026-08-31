@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE Recipe [
+	<!ENTITY section SYSTEM "section.xml">
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe>
+	<Title>Sheet Pan Veggies</Title>
+	<Yields>QZX Servings</Yields>
+	<Source>A VanOrman Original</Source>
+
+	<Description class="TODO">
+		QZX TODO: Need to come up with a better name.
+	</Description>
+
+	&section;
+	<LastModified year="2025" month="11" day="29" />
+
+	<Ingredients>
+	</Ingredients>
+
+	<Instructions class="TODO">
+		<section>
+			<instruction>
+				QZX TODO
+			</instruction>
+		</section>
+	</Instructions>
+
+	<Modifications class="TODO">
+		<modification>
+			QZX TODO
+		</modification>
+	</Modifications>
+</Recipe>

@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE invoice [
+<!DOCTYPE Recipe [
 	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe title="Cheese Ball" yields="1">
+<Recipe>
+	<Title>Cheese Ball</Title>
+	<Yields>1</Yields>
 	<Source>From the Kitchen of Bobbi Beagley</Source>
 	<Note>Jennie's Mom</Note>
 
-	<Section>&section;</Section>
-	<LastModified year="2025"
-		month="5"
-		day="5" />
+	&section;
+	<LastModified year="2025" month="5" day="5" />
 
-	<Description id="Description"> Jennie's mom made this cheese ball every Christmas season and shared it with all of her friends. She wouldn't share the recipe with anybody because she wanted everybody to look forward to getting it. <br /> But, we talked her into sharing the recipe with us. &smiley;</Description>
+	<Description>
+		Jennie's mom made this cheese ball every Christmas season and shared it with all of her friends. She wouldn't share the recipe with anybody because she wanted everybody to look forward to getting it.<br />
+		But, we talked her into sharing the recipe with us. &smiley;
+	</Description>
 
-	<Ingredients id="Ingredients">
+	<Ingredients>
 		<section>
-			<ingredient name="Blue Cheese" amount="2 Oz." />
-			<ingredient name="Cream Cheese" amount="2 8-oz. Packages" />
-			<ingredient name="Kraft Old English Cheese" amount="1 Bottle" />
-			<ingredient name="Chopped or Dried Chives" amount="1 Tablespoon" />
-			<ingredient name="Chopped or Dried Parsley" amount="&frac14; Cup" />
-			<ingredient name="Garlic Salt" amount="1 Dash" />
-			<ingredient name="Worcestershire Sauce" amount="1 Tablespoon" />
-			<ingredient name="Pecans"
-				nameNote="Chopped"
-				amount="1 Cup" />
+			<ingredient>Blue Cheese<amount>2 Oz.</amount></ingredient>
+			<ingredient>Cream Cheese<amount>2 8-oz. Packages</amount></ingredient>
+			<ingredient>Kraft Old English Cheese<amount>1 Bottle</amount></ingredient>
+			<ingredient>Chopped or Dried Chives<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Chopped or Dried Parsley<amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Garlic Salt<amount>1 Dash</amount></ingredient>
+			<ingredient>Worcestershire Sauce<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>
+				Pecans<note>Chopped</note>
+				<amount>1 Cup</amount>
+			</ingredient>
 		</section>
 	</Ingredients>
 
-	<Instructions id="Instructions">
+	<Instructions>
 		<section>
 			<instruction>Let Cream Cheese come to room temperature.</instruction>
 			<instruction>Place all ingredients, except Pecans, into a large bowl and knead together until well mixed.</instruction>
@@ -43,11 +47,11 @@
 		</section>
 	</Instructions>
 
-	<Notes id="Notes">
+	<Notes>
 		<note>For smaller servings, the mixture can be divided into two Cheese Balls.</note>
 	</Notes>
 
-	<Modifications id="Modifications">
+	<Modifications>
 		<modification>For people with nut allergies, substitute finely shredded Cheese for the Pecans.</modification>
 	</Modifications>
 </Recipe>
