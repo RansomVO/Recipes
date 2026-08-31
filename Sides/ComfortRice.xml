@@ -11,13 +11,12 @@
 	<Title>Mexican Rice of Comfort</Title>
 	<Yields>8-10 servings</Yields>
 	<Source>A Mexican waitress friend named Consuelo</Source>
-	<Note>QZX This is just a test.</Note>
-	<LastModified year="2026" month="8" day="21" />
+	<LastModified year="2026" month="8" day="30" />
 
 	<!-- -->&section;<!-- -->
 
 	<Description id="Description">
-		At a Mexican restaurant that we love, we built up a relationship with one of the waitresses.
+		At a Mexican restaurant that we love, we built up a relationship with one of the waitresses named Consuelo.
 		At one point she came over to our house and made us a Mexican meal from scratch.
 		<br />
 		It was so AWESOME, that Ransom and Di had her come back over and make it again so he could write down what she did and create this recipe.
@@ -25,71 +24,78 @@
 		<div class="RECIPE_INSTRUCTION_NOTE" style="margin-left:2em;">
 			<b>NOTE</b>:
 			<br />
-			"Of Comfort" translated to Spanish is "de Consuelo".
+			"Mexican Rice of Comfort" translated to Spanish is "Arroz Mexicano de Consuelo"
 			<br />
-			But when translating it back to English "De Consuelo" may mean "From Consuelo".
+			"Mexican Rice from Consuelo" translated to Spanish is "Arroz Mexicano de Consuelo"
 			<br />
-			And since this recipe <b><u>is</u></b> &nbsp;from Consuelo&hellip; &smiley;
+			Since they are both the same, and since this recipe <b><u>is</u></b> &nbsp;from Consuelo&hellip; &smiley;
 		</div>
 		<br />
 	</Description>
 
 	<Ingredients id="Ingredients">
 		<section>
-			<ingredient>Olive Oil<amount>3 Tablespoons</amount></ingredient>
-			<ingredient>
-				Water<note>HOT</note>
-				<amount>4 Cups</amount>
-			</ingredient>
+			<ingredient>Water<note>HOT from tap.</note><amount>4 Cups</amount></ingredient>
 			<ingredient>Chicken Bouillon<amount>1&frac12; Tablespoons</amount></ingredient>
-			<ingredient>Roma Tomato<amount>1</amount></ingredient>
-			<ingredient>Onion<amount>&frac12;</amount></ingredient>
 			<ingredient>Tomato Paste<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Cilantro <note>Fresh</note><amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Roma Tomato<amount>1</amount></ingredient>
+		</section>
+		<section>
+			<ingredient>Olive Oil<amount>3 Tablespoons</amount></ingredient>
+			<ingredient>Onion<amount>&frac12;</amount></ingredient>
+			<ingredient>Garlic<note>Minced</note><amount>1 Tablespoon</amount></ingredient>
 			<ingredient>Rice<amount>2 Cups</amount></ingredient>
-			<ingredient>
-				Garlic<note>Minced</note>
-				<amount>1 Tablespoon</amount>
-			</ingredient>
 		</section>
 	</Ingredients>
 
 	<Preparation id="Preparation">
 		<section>
-			<prep>In a bowl, mix Water and Chicken Bouillon then set it aside.</prep>
-			<prep>Slice Roma Tomato into &frac14;&inch; disks, then slice the disks into quarters.</prep>
-			<prep>Slice Onion into &frac14;&inch; disks, then cut the disks into &frac18;ths.</prep>
+			<prep>In a bowl, mix Water, Chicken Bouillon, and Tomato Paste.</prep>
+			<prep>Finely chop the Cilantro and add it to the bowl.</prep>
+			<prep>
+				Slice Roma Tomato into &frac14;&inch; disks, then slice the disks into quarters.
+				Then add it to the bowl and set the bowl aside.
+			</prep>
+			<prep>
+				Slice Onion into &frac14;&inch; disks, then cut the disks into &frac18;ths.
+				Separate the Onion pieces and set aside.
+			</prep>
 		</section>
 	</Preparation>
 	<Instructions id="Instructions">
 		<section>
-			<instruction>Put Oil in a skillet and tip it around until bottom is covered.</instruction>
-			<instruction>Put Skillet on a burner at medium-high.</instruction>
-			<instruction>Add Onion and saut&eAcute; for 2 minutes.</instruction>
-			<instruction>Add Garlic <span class="RECIPE_INGREDIENT_NOTE">(minced)</span> and saut&eAcute; for another minute.</instruction>
+			<instruction>Put Olive Oil in a skillet and tip it around until bottom is covered.</instruction>
+			<instruction>Put skillet on a burner at medium-high and give it a minute to heat up.</instruction>
+			<instruction>Add Onions and saut&eAcute; for 2 minutes.</instruction>
+			<instruction>Add Garlic <span class="RECIPE_INGREDIENT_NOTE">(Minced)</span> and saut&eAcute; for another minute.</instruction>
 			<instruction>Add Rice and saut&eAcute; for another minute.</instruction>
 			<instruction>
 				Add all other ingredients and stir well, then cover with skillet's lid.
-				<b><i>DO NOT REMOVE LID OR STIR UNTIL DONE!!!</i></b>
+				<b><i>DO NOT REMOVE LID OR STIR AGAIN UNTIL COOKING IS COMPLETED!!!</i></b>
 			</instruction>
 			<instruction>
 				Turn burner to medium and simmer for 15-20 minutes.
-				<b><i>DO NOT REMOVE LID OR STIR UNTIL DONE!!!</i></b>
+				<b><i>DO NOT REMOVE LID OR STIR AGAIN UNTIL COOKING IS COMPLETED!!!</i></b>
 			</instruction>
-			<instruction>Remove skillet from burner then stir gently, scraping the bottom.</instruction>
+			<instruction>
+				Remove skillet from burner then scrape the bottom of the skillet to ensure no rice is stuck to it.
+				Then stir gently to ensure Tomatoes, Onions, etc are evenly distrubuted
+			</instruction>
 		</section>
 	</Instructions>
 
 	<Notes id="Notes">
-		<note>While cooking, <b><i>DO NOT REMOVE LID OR STIR UNTIL DONE!!!</i></b></note>
+		<note>While cooking, <b><i>DO NOT REMOVE LID OR STIR AGAIN UNTIL COOKING IS COMPLETED!!!</i></b></note>
 	</Notes>
 
 	<Modifications id="Modifications">
-		<modification>If doubling the recipe, it will generally take about 10 minutes longer to simmmer.</modification>
+		<modification>If doubling the recipe, it will generally take about 10 minutes longer to simmer.</modification>
 	</Modifications>
 
 	<FinalNote id="FinalNote">
 		<br />
 		<b>Final Note</b>:
-		While cooking, <b><i>DO NOT REMOVE LID OR STIR UNTIL DONE!!!</i></b>
+		While cooking, <b><i>DO NOT REMOVE LID OR STIR AGAIN UNTIL COOKING IS COMPLETED!!!</i></b>
 	</FinalNote>
 </Recipe>
