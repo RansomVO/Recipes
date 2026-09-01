@@ -2,18 +2,17 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Robert Redford Dessert</Title>
 	<Yields>12-16 servings</Yields>
-	<Source>From the kitchen of Bobbi Beagley</Source>
-	<Note>Jennie's Mom</Note>
-
-	&section;
+	<Source>
+		From the kitchen of Bobbi Beagley
+		<Note>Jennie's Mom</Note>
+	</Source>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -23,44 +22,27 @@
 
 	<Ingredients>
 		<section id="IngredientsCrust" title="Crust">
-			<ingredient>Flour<amount>1 Cup</amount></ingredient>
-			<ingredient>
-				Butter
-				<amount>&frac12; Cup<note>1 Stick</note></amount>
-			</ingredient>
-			<ingredient>
-				Pecans<note>finely chopped</note>
-				<amount>1 Cup</amount>
-			</ingredient>
+			<ingredient>Flour <amount>1 Cup</amount></ingredient>
+			<ingredient>Butter <amount>&frac12; Cup <note>1 Stick</note></amount></ingredient>
+			<ingredient>Pecans <note>finely chopped</note><amount>1 Cup</amount></ingredient>
 		</section>
 		<section id="IngredientsBottomLayer" title="Bottom Layer">
-			<ingredient>
-				Cream Cheese<note>softened</note>
-				<amount>1 8-oz. Package</amount>
-			</ingredient>
-			<ingredient>Powdered Sugar<amount>1 Cup</amount></ingredient>
-			<ingredient>
-				Whipped Topping<note>thawed</note>
-				<amount>8 Oz.</amount>
-			</ingredient>
+			<ingredient>Cream Cheese <note>softened</note><amount>1 8-oz. Package </amount></ingredient>
+			<ingredient>Powdered Sugar <amount>1 Cup</amount></ingredient>
+			<ingredient>Whipped Topping <note>thawed</note><amount>8 Oz.</amount></ingredient>
 		</section>
 		<section id="IngredientsTopLayer" title="Top Layer">
-			<ingredient>Chocolate Instant Pudding Mix<amount>4 Ounces</amount></ingredient>
-			<ingredient>Vanilla Instant Pudding Mix<amount>4 Ounces</amount></ingredient>
-			<ingredient>Milk<amount>3 Cups</amount></ingredient>
+			<ingredient>Chocolate Instant Pudding Mix <amount>4 Ounces</amount></ingredient>
+			<ingredient>Vanilla Instant Pudding Mix <amount>4 Ounces</amount></ingredient>
+			<ingredient>Milk <amount>3 Cups</amount></ingredient>
 		</section>
-		<section id="IngredientsTopLayer" title="Top Layer">
-			<ingredient>
-				Milk Chocolate Candy Bar<note>grated</note>
-				<amount>1&frac12;-oz. Bar</amount>
-			</ingredient>
-		</section>
+		<section id="IngredientsTopLayer" title="Top Layer"><ingredient>Milk Chocolate Candy Bar <note>grated</note><amount>1&frac12;-oz. Bar </amount></ingredient></section>
 	</Ingredients>
 
 	<Instructions>
 		<section id="InstructionsCrust" title="Crust">
 			<instruction>Mix Flour, Butter and Pecans until crumbly.</instruction>
-			<instruction>Press into 9&inch; &by; 13&inch; pan and bake at 350&deg; for 20 minutes.</instruction>
+			<instruction>Press into 9&inches; &by; 13&inches; pan and bake at 350&deg; for 20 minutes.</instruction>
 			<instruction>Cool completely.</instruction>
 		</section>
 		<section id="InstructionsBottomLayer" title="Bottom Layer">

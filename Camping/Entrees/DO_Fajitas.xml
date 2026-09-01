@@ -2,61 +2,43 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Dutch Oven Fajitas</Title>
 	<Yields>8-10 Servinngs</Yields>
-	<Source>The Tortillas come from kitchen of Sandra Clawson <Note>Family friend, Wife of Fireman</Note>
+	<Source>
+		The Tortillas come from kitchen of Sandra Clawson
+		<Note>Family friend, Wife of Fireman</Note>
 	</Source>
-	<Requires>12&inch; Dutch Oven</Requires>
-
-	&section;
+	<Requires>12&inches; Dutch Oven</Requires>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
-		<span class="TODO">
-			ToDo:
-			Add Description
-		</span>
+		<span class="TODO">ToDo:
+		Add Description </span>
 	</Description>
 
 	<Ingredients>
 		<section id="IngredientsTortillas" title="Tortillas">
-			<ingredient>Flour<amount>4 Cups</amount></ingredient>
-			<ingredient>Salt<amount>2 teaspoons</amount></ingredient>
-			<ingredient>
-				Shortening
-				<amount>&frac12; Cup<note>rounded</note></amount>
-			</ingredient>
-			<ingredient>
-				Water<note>Luke-Warm</note>
-				<amount>1 Cup</amount>
-			</ingredient>
+			<ingredient>Flour <amount>4 Cups</amount></ingredient>
+			<ingredient>Salt <amount>2 teaspoons</amount></ingredient>
+			<ingredient>Shortening <amount>&frac12; Cup <note>rounded</note></amount></ingredient>
+			<ingredient>Water <note>Luke-Warm</note><amount>1 Cup</amount></ingredient>
 		</section>
 		<section id="IngredientsFilling" title="Filling">
-			<ingredient>Beef<amount>2 Lbs.</amount></ingredient>
-			<ingredient>
-				Onion
-				<amount>1<note>Large</note></amount>
-			</ingredient>
-			<ingredient>Chili Powder<amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient>
-				Black Pepper<note>Ground</note>
-				<amount>&frac14; teaspoon</amount>
-			</ingredient>
-			<ingredient>Garlic Salt<amount>1 Dash</amount></ingredient>
-			<ingredient>Worcestershire Sauce<amount>1 teaspoon</amount></ingredient>
-			<ingredient>Corn Starch<amount>1 teaspoon</amount></ingredient>
-			<ingredient>Green Peppers<amount>2</amount></ingredient>
-			<ingredient>Red Pepper<amount>1</amount></ingredient>
-			<ingredient>
-				Tomato<note>Large</note>
-				<amount>1</amount>
-			</ingredient>
+			<ingredient>Beef <amount>2 Lbs.</amount></ingredient>
+			<ingredient>Onion <amount>1 <note>Large</note></amount></ingredient>
+			<ingredient>Chili Powder <amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Black Pepper <note>Ground</note><amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient>Garlic Salt <amount>1 Dash</amount></ingredient>
+			<ingredient>Worcestershire Sauce <amount>1 teaspoon</amount></ingredient>
+			<ingredient>Corn Starch <amount>1 teaspoon</amount></ingredient>
+			<ingredient>Green Peppers <amount>2</amount></ingredient>
+			<ingredient>Red Pepper <amount>1</amount></ingredient>
+			<ingredient>Tomato <note>Large</note><amount>1</amount></ingredient>
 		</section>
 		<section id="IngredientsToppings" title="Toppings Suggestions">
 			<ingredient>Lettuce</ingredient>
@@ -73,7 +55,7 @@
 			<instruction>Using a fork, mix Flour, Salt, and Shortening.</instruction>
 			<instruction>Add Luke-Warm Water and blend well.</instruction>
 			<instruction>On a lightly-floured flat surface, knead &approx;50 times.</instruction>
-			<instruction>Break into 1&inch;-2&inch; balls and let sit for 15 minutes.</instruction>
+			<instruction>Break into 1&inches;-2&inches; balls and let sit for 15 minutes.</instruction>
 			<instruction>Place Dutch Oven lid, upside down on enough charcoals to make moderately hot.</instruction>
 			<instruction>
 				By hand, flatten each ball into a Tortilla shape.
@@ -96,6 +78,8 @@
 	</Instructions>
 
 	<Modifications>
-		<modification>If <!-- you are feeling lazy -->desired, you can use store-bought Tortillas.</modification>
+		<modification>
+			If<!-- you are feeling lazy -->desired, you can use store-bought Tortillas.
+		</modification>
 	</Modifications>
 </Recipe>

@@ -2,51 +2,40 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>InstaPot Nightmare Alfredo</Title>
 	<Yields><span class="TODO">???</span></Yields>
-	<Source>Based on an Instant Pot Recipe by "Karli" <span class="SMALL_NOTE">(Bitner)</span></Source>
-	<Note>Online</Note>
-
-	&section;
+	<Source>
+		Based on an Instant Pot Recipe by "Karli" <span class="SMALL_NOTE">(Bitner)</span>
+		<Note>Online</Note>
+	</Source>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		A missionary with Italian heritage was trying out this recipe told us that when he was younger he broke some pasta in half to get it to fit in the pot.
 		His grandmother screamed and kicked him out of the kitchen for a week.
-		&lol;
-		Pretty much any Italian would consider broken pasta to be a nightmare, and thus the name.
+		&lol; Pretty much any Italian would consider broken pasta to be a nightmare, and thus the name.
 	</Description>
 
 	<Ingredients>
 		<section>
-			<ingredient>
-				Chicken Broth<note>Double-Strength</note>
-				<amount>1&frac12; Cups</amount>
-			</ingredient>
-			<ingredient>Milk<amount>3 Cups</amount></ingredient>
-			<ingredient>Evaporated Milk<amount>&frac12; 12-oz. Can</amount></ingredient>
-			<ingredient>Cream of Mushroom Soup<amount>1 10&frac12;-oz. Can</amount></ingredient>
+			<ingredient>Chicken Broth <note>Double-Strength</note><amount>1&frac12; Cups</amount></ingredient>
+			<ingredient>Milk <amount>3 Cups</amount></ingredient>
+			<ingredient>Evaporated Milk <amount>&frac12; 12-oz. Can </amount></ingredient>
+			<ingredient>Cream of Mushroom Soup <amount>1 10&frac12;-oz. Can </amount></ingredient>
 			<ingredient>
 				Salt and Coarse Ground Pepper
-				<amount>To Taste<note>&approx;&frac14;-&frac12; teaspoons</note></amount>
+				<amount>To Taste <note>&approx;&frac14;-&frac12; teaspoons</note></amount>
 			</ingredient>
-			<ingredient>Fettuccini<amount>1 1-lb. Package</amount></ingredient>
-			<ingredient>
-				Chicken Thigh<note>Boneless</note>
-				<amount>1</amount>
-			</ingredient>
-			<ingredient>
-				Butter
-				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
-			</ingredient>
-			<ingredient>Minced Garlic<amount>1 teaspoon</amount></ingredient>
-			<ingredient>Parmesan Cheese<amount>&frac12;-1 Cup</amount></ingredient>
+			<ingredient>Fettuccini <amount>1 1-lb. Package </amount></ingredient>
+			<ingredient>Chicken Thigh <note>Boneless</note><amount>1</amount></ingredient>
+			<ingredient>Butter <amount>&frac14; Cup <note>&frac12; Stick</note></amount></ingredient>
+			<ingredient>Minced Garlic <amount>1 teaspoon</amount></ingredient>
+			<ingredient>Parmesan Cheese <amount>&frac12;-1 Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 
@@ -56,12 +45,15 @@
 				In a pot, combine Chicken Broth, Milk, Evaporated Milk and Cream of Mushroom Soup.
 				Stir and set aside.
 			</instruction>
-			<instruction>Slice the Chicken into very thin slices, then cut into segments &approx;1&inch;-2&inch; long.</instruction>
+			<instruction>Slice the Chicken into very thin slices, then cut into segments &approx;1&inches;-2&inches; long.</instruction>
 			<instruction>
 				Set InstaPot to Saut&eacute; and add Butter.
 				Let it sit until Butter is melted.
 			</instruction>
-			<instruction>Add Chicken and Garlic and saut&eacute; until Chicken is cooked. (&approx;5-10 minutes)</instruction>
+			<instruction>
+				Add Chicken and Garlic and saut&eacute; until Chicken is cooked.
+				(&approx;5-10 minutes)
+			</instruction>
 			<instruction>Turn off Saut&eacute; on the InstaPot, add liquid and stir well.</instruction>
 			<instruction>Break Fettuccini in half so it fits in InstaPot.</instruction>
 			<instruction>Carefully stir the Pasta in the mixture until it is well covered.</instruction>

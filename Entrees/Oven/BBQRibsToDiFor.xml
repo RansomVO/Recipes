@@ -2,39 +2,35 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
-	<!ENTITY parentSection SYSTEM "../section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>BBQ Ribs to Di For</Title>
 	<Yields>3-6 servings</Yields>
 	<Source>A VanOrman Original</Source>
-
-	&section;
-	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		Before they were married Di and Ransom had a BBQ Rips bake-off with missionaries as the judges.
-		Ransom did the <a href=".../Entrees/SlowCooker/BBQSpareRibs.xml">Slow Cooker: BBQ Spare Ribs recipe</a>.
+		Ransom did the <a href="&hellip;/Entrees/SlowCooker/BBQSpareRibs.xml">Slow Cooker:
+		BBQ Spare Ribs recipe</a>.
 		Di did one similar to this one.
-		She won, but then <span class="NOTE">(a long time later)</span> Di told Ransom that her sauce recipe was something like: "Buy a bottle of Tony Roma BBQ Sauce".<br />
-		Ransom tried her <span class="EMPHASIZE">method</span> and found it did give the ribs a great consistency, so, after several attempts, we came up with this recipe to go with her cooking instructions.
+		She won, but then
+		<span class="NOTE">(a long time later)</span>
+		Di told Ransom that her sauce recipe was something like:
+		"Buy a bottle of Tony Roma BBQ Sauce".
+		<br />
+		Ransom tried her
+		<span class="EMPHASIZE">method</span>
+		and found it did give the ribs a great consistency, so, after several attempts, we came up with this recipe to go with her cooking instructions.
 	</Description>
 
 	<Ingredients>
 		<section id="IngredientsRibs" title="Ribs">
-			<ingredient>
-				Spare Ribs<note>Bone-in is best</note>
-				<amount>3-5 Lbs.</amount>
-			</ingredient>
-			<ingredient>
-				Onion<note>Medium</note>
-				<amount>&frac23;</amount>
-			</ingredient>
+			<ingredient>Spare Ribs<note>Bone-in is best</note><amount>3-5 Lbs.</amount></ingredient>
+			<ingredient>Onion<note>Medium</note><amount>&frac23;</amount></ingredient>
 			<ingredient>Water<amount>&frac12; Cup</amount></ingredient>
 			<ingredient>Onion Soup Mix<amount>1 Envelope</amount></ingredient>
 		</section>
@@ -42,10 +38,7 @@
 			<ingredient>Tomato Paste<amount>1 6-oz. Can</amount></ingredient>
 			<ingredient>Tomato Sauce<amount>2 9-oz. Cans</amount></ingredient>
 			<ingredient>Brown Sugar<amount>&frac14; Cup</amount></ingredient>
-			<ingredient>
-				Onion<note>Medium</note>
-				<amount>&frac13;</amount>
-			</ingredient>
+			<ingredient>Onion<note>Medium</note><amount>&frac13;</amount></ingredient>
 			<ingredient>Garlic<amount>1 teaspoon</amount></ingredient>
 			<ingredient>Cinnamon<amount>&frac14; teaspoon</amount></ingredient>
 			<ingredient>Cayenne Pepper<amount>&frac14; teaspoon</amount></ingredient>
@@ -58,10 +51,11 @@
 	<Instructions>
 		<section id="InstructionsRibs" title="Ribs">
 			<instruction>Preheat the oven to 400&deg;</instruction>
-			<instruction>Cut &frac23; Onion into discs &approx;&frac14;&inch; thick, then separate the discs into rings.</instruction>
-			<instruction>Spread the Onions around on the bottom of a 9&inch; &by; 13&inch; baking pan.</instruction>
+			<instruction>Cut &frac23; Onion into discs &approx;&frac14;&inches; thick, then separate the discs into rings.</instruction>
+			<instruction>Spread the Onions around on the bottom of a 9&inches; &by; 13&inches; baking pan.</instruction>
 			<instruction>
-				Place Ribs over Onions, with the bones showing on top.<br />
+				Place Ribs over Onions, with the bones showing on top.
+				<br />
 				(You may need to squish them together to get them to fit.)
 			</instruction>
 			<instruction>Sprinkle Water over the Ribs.</instruction>
@@ -83,7 +77,13 @@
 	</Instructions>
 
 	<Notes>
-		<note>Do the first part of the Ribs <span class="NOTE">(steps 1-8)</span>, then, during the baking <span class="NOTE">(step 8)</span> make the Sauce and let it sit until it is time to use it.</note>
+		<note>
+			Do the first part of the Ribs
+			<span class="NOTE">(steps 1-8)</span>,
+			then, during the baking
+			<span class="NOTE">(step 8)</span>
+			make the Sauce and let it sit until it is time to use it.
+		</note>
 		<note>
 			When serving, place the Ribs on a platter, then pour/scrape the leftover Sauce into a bowl with a gravy ladle.
 			It can be used by those that want extra Sauce, or it is great over a baked potato with sour cream.

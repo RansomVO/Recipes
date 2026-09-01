@@ -2,23 +2,23 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Bread-Machine Sandwich Bread</Title>
 	<Yields>1 loaf</Yields>
 	<Source>A VanOrman Original</Source>
-
-	&section;
 	<LastModified year="2025" month="5" day="5" />
 
 	<Description>
-		Fresh bread-machine bread tastes wonderful! But it makes lousy sandwiches because it crumbles and falls apart.
+		Fresh bread-machine bread tastes wonderful!
+		But it makes lousy sandwiches because it crumbles and falls apart.
 		I once found out that Vital Wheat Gluten can be used to "fix" this.
-		I added a bunch and ended up with a loaf of bread that looked and smelled good, but was the consistency of rubber. &smiley;<br />
+		I added a bunch and ended up with a loaf of bread that looked and smelled good, but was the consistency of rubber.
+		&smiley;
+		<br />
 		After a bit of trial and error, I finally came up with this recipe which holds together well without having a nasty consistency.
 	</Description>
 
@@ -49,7 +49,7 @@
 				Add ingredients to bread machine, in this order, without mixing:
 				<ul list-style="lower-alpha">
 					<li>Milk and Oil</li>
-					<li>All other dry ingredients, except Yeast </li>
+					<li>All other dry ingredients, except Yeast</li>
 					<li>Yeast</li>
 				</ul>
 			</instruction>

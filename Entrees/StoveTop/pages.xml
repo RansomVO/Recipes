@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pages [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
 <Pages>
 	<page href="Pasta.xml">Pasta (Spaghetti)</page>
 	<page href="BarleyStoup.xml">Barley Stoup</page>
 	<page href="CreamOfEverythingSoup.xml">Cream of Everything Soup</page>
+	<page class="TODO qzxDisabled" href="HickOnionSoup.xml">Hick Onion Soup</page>
+	<page class="TODO qzxDisabled" href="CreamOfPizzaSoup.xml">Cream of Pizza Soup</page>
 	<page href="Wontons.xml">Wontons</page>
 	<page href="WontonSoup.xml">Wonton Soup</page>
 	<page href="KlondikeChili.xml">Klondike Chili</page>

@@ -2,17 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Honey Butter</Title>
 	<Yields>&frac34; Cup</Yields>
 	<Source>Traditional Utah Recipe</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -23,10 +20,7 @@
 
 	<Ingredients>
 		<section>
-			<ingredient>
-				Butter<note>Softened</note>
-				<amount>&frac12; Cup<note>1 Stick</note></amount>
-			</ingredient>
+			<ingredient>Butter<note>Softened</note><amount>&frac12; Cup<note>1 Stick</note></amount></ingredient>
 			<ingredient>Honey<amount>&frac14; Cup</amount></ingredient>
 		</section>
 	</Ingredients>
@@ -34,14 +28,18 @@
 	<Instructions>
 		<section>
 			<instruction>In a small bowl, mix ingredients.</instruction>
-			<instruction>That's all. Enjoy!</instruction>
+			<instruction>
+				That's all.
+				Enjoy!
+			</instruction>
 		</section>
 	</Instructions>
 
 	<Notes>
 		<note>
 			Make sure Butter is softened before starting this recipe.
-			This is best done by leaving a stick on the counter for an hour or so.<br />
+			This is best done by leaving a stick on the counter for an hour or so.
+			<br />
 			Use caution if you choose to soften in a microwave.
 			<span class="SUPER_EMPHASIZE">Do not melt the Butter!</span>
 			This will just make everything a coagulated ugly mess.

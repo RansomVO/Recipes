@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pages [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
 <Pages>
 	<page href="MashedPotatoes.xml">Mashed Potatoes</page>
@@ -12,6 +16,7 @@
 	<page href="EasyPotatoesAuGratin.xml">Easy Potatoes Au Gratin</page>
 	<page href="RedheadCarrots.xml">Redhead Carrots</page>
 	<page href="ComfortRice.xml">Mexican Rice of Comfort</page>
+	<page class="TODO" href="ComfortBeans.xml">Mexican Beans of Comfort</page>
 	<page class="TODO" href="CranberryJelloSalad.xml">Cranberry Jello Salad</page>
-	<page class="TODO" href="SheetPanVeggies.xml">Sheet Pan Veggies</page>
+	<page class="TODO qzxDisabled" href="SheetPanVeggies.xml">Sheet Pan Veggies</page>
 </Pages>

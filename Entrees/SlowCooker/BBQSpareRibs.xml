@@ -2,20 +2,17 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
-	<!ENTITY parentSection SYSTEM "../section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>BBQ Spare Ribs</Title>
 	<Yields>6-8 Servings</Yields>
-	<Source>From the kitchen of Bobbi Beagley</Source>
-	<Note>Jennie's Mom</Note>
-
-	&section;
-	<ParentSection>&parentSection;</ParentSection>
+	<Source>
+		From the kitchen of Bobbi Beagley
+		<Note>Jennie's Mom</Note>
+	</Source>
 	<LastModified year="2025" month="5" day="5" />
 
 	<Description>
@@ -26,37 +23,23 @@
 
 	<Ingredients>
 		<section>
-			<ingredient>
-				Boneless Country Style Spare Ribs<note>Pork or Beef</note>
-				<amount>4 Lbs.</amount>
-			</ingredient>
-			<ingredient>Tomato Paste<amount>3 6-oz. Cans</amount></ingredient>
-			<ingredient>Ketchup<amount>1 Cup</amount></ingredient>
-			<ingredient>Apple Cider Vinegar<amount>&frac14; Cup</amount></ingredient>
-			<ingredient>Prepared Mustard<amount>2 Tablespoons</amount></ingredient>
-			<ingredient>Brown Sugar<amount>&frac34; Cup</amount></ingredient>
-			<ingredient>
-				Onion<note>Diced</note>
-				<amount>&frac12;</amount>
-			</ingredient>
-			<ingredient>Salt<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Boneless Country Style Spare Ribs <note>Pork or Beef</note><amount>4 Lbs.</amount></ingredient>
+			<ingredient>Tomato Paste <amount>3 6-oz. Cans </amount></ingredient>
+			<ingredient>Ketchup <amount>1 Cup</amount></ingredient>
+			<ingredient>Apple Cider Vinegar <amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Prepared Mustard <amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Brown Sugar <amount>&frac34; Cup</amount></ingredient>
+			<ingredient>Onion <note>Diced</note><amount>&frac12;</amount></ingredient>
+			<ingredient>Salt <amount>2 teaspoons</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
-			<instruction>
-				In a skillet, brown Ribs over high heat.
-			</instruction>
-			<instruction>
-				In slow cooker, mix all other ingredients to create sauce.
-			</instruction>
-			<instruction>
-				Remove ribs from skillet and place in slow cooker, gently rolling ribs until they are coated in sauce.
-			</instruction>
-			<instruction>
-				Cook on high for 2-3 hours, or on low for 4-6 hours.
-			</instruction>
+			<instruction>In a skillet, brown Ribs over high heat.</instruction>
+			<instruction>In slow cooker, mix all other ingredients to create sauce.</instruction>
+			<instruction>Remove ribs from skillet and place in slow cooker, gently rolling ribs until they are coated in sauce.</instruction>
+			<instruction>Cook on high for 2-3 hours, or on low for 4-6 hours.</instruction>
 		</section>
 	</Instructions>
 
@@ -65,13 +48,12 @@
 			CAUTION:
 			If you over-cook the ribs they will begin to fall apart, and you end up with shredded BBQ pork or beef.
 		</note>
-		<note>
-			When serving the ribs, the extra sauce tastes wonderful over baked potatoes, with a dollop of sour cream.
-		</note>
+		<note>When serving the ribs, the extra sauce tastes wonderful over baked potatoes, with a dollop of sour cream.</note>
 	</Notes>
 
-	<FinalNote> A similar recipe for Dutch Ovens: <a href=".../Camping/Entrees/DO_BBQSpareRibs.xml">Dutch Oven and other Camping Recipes:
-			Dutch Oven BBQ Spare Ribs
-		</a>
+	<FinalNote>
+		A similar recipe for Dutch Ovens:
+		<a href="&hellip;/Camping/Entrees/DO_BBQSpareRibs.xml">Dutch Oven and other Camping Recipes:
+		Dutch Oven BBQ Spare Ribs </a>
 	</FinalNote>
 </Recipe>

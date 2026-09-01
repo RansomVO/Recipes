@@ -2,14 +2,13 @@
 <?xml-stylesheet type="text/xsl" href="../../page.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Page [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY page SYSTEM "LactoseIntolerance.html">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
 <Page>
-	&section;
 	<LastModified year="2025" month="4" day="8" />
-	&page;
+
+	<!-- -->&page;<!-- -->
 </Page>

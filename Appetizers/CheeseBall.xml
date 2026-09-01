@@ -2,38 +2,37 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Cheese Ball</Title>
 	<Yields>1</Yields>
-	<Source>From the Kitchen of Bobbi Beagley</Source>
-	<Note>Jennie's Mom</Note>
-
-	&section;
+	<Source>
+		From the Kitchen of Bobbi Beagley
+		<Note>Jennie's Mom</Note>
+	</Source>
 	<LastModified year="2025" month="5" day="5" />
 
 	<Description>
-		Jennie's mom made this cheese ball every Christmas season and shared it with all of her friends. She wouldn't share the recipe with anybody because she wanted everybody to look forward to getting it.<br />
-		But, we talked her into sharing the recipe with us. &smiley;
+		Jennie's mom made this cheese ball every Christmas season and shared it with all of her friends.
+		She wouldn't share the recipe with anybody because she wanted everybody to look forward to getting it.
+		<br />
+		But, we talked her into sharing the recipe with us.
+		&smiley;
 	</Description>
 
 	<Ingredients>
 		<section>
-			<ingredient>Blue Cheese<amount>2 Oz.</amount></ingredient>
-			<ingredient>Cream Cheese<amount>2 8-oz. Packages</amount></ingredient>
-			<ingredient>Kraft Old English Cheese<amount>1 Bottle</amount></ingredient>
-			<ingredient>Chopped or Dried Chives<amount>1 Tablespoon</amount></ingredient>
-			<ingredient>Chopped or Dried Parsley<amount>&frac14; Cup</amount></ingredient>
-			<ingredient>Garlic Salt<amount>1 Dash</amount></ingredient>
-			<ingredient>Worcestershire Sauce<amount>1 Tablespoon</amount></ingredient>
-			<ingredient>
-				Pecans<note>Chopped</note>
-				<amount>1 Cup</amount>
-			</ingredient>
+			<ingredient>Blue Cheese <amount>2 Oz.</amount></ingredient>
+			<ingredient>Cream Cheese <amount>2 8-oz. Packages </amount></ingredient>
+			<ingredient>Kraft Old English Cheese <amount>1 Bottle</amount></ingredient>
+			<ingredient>Chopped or Dried Chives <amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Chopped or Dried Parsley <amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Garlic Salt <amount>1 Dash</amount></ingredient>
+			<ingredient>Worcestershire Sauce <amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Pecans <note>Chopped</note><amount>1 Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 

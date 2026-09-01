@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pages [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
 <Pages>
-	<page class="TODO" href="CranMamaSauce.xml">Cran Mama Sauce</page>
+	<page class="TODO qzxDisabled" href="CranMamaSauce.xml">Cran Mama Sauce</page>
 	<page href="MarinaraSauce.xml">Marinara Sauce</page>
 	<page href="EasyGravy.xml">Easy Gravy</page>
 	<page href="DillVeggieDip.xml">Dill Veggie Dip</page>

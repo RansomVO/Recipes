@@ -2,17 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Crispy Peanut Butter Cookies</Title>
 	<Yields>about 36</Yields>
 	<Source>Adapted from the Cooking Channel web site</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -30,13 +27,11 @@
 			<ingredient>Salt<amount>&frac14; teaspoon</amount></ingredient>
 			<ingredient>Browns Sugar<amount>1&frac14; Cups</amount></ingredient>
 			<ingredient>Sugar<amount>1&frac14; Cups</amount></ingredient>
-			<ingredient>
-				Butter<note>Softened</note>
-				<amount>1 Cup<note>2 Sticks</note></amount>
-			</ingredient>
+			<ingredient>Butter<note>Softened</note><amount>1 Cup<note>2 Sticks</note></amount></ingredient>
 			<ingredient>Eggs<amount>3</amount></ingredient>
 			<ingredient>
-				Peanut Butter<note>Chunky or Creamy</note>
+				Peanut Butter
+				<note>Chunky or Creamy</note>
 				<amount>1 Cup<note>2 Sticks</note></amount>
 			</ingredient>
 			<ingredient>Vanilla<amount>2 teaspoons</amount></ingredient>
@@ -45,27 +40,15 @@
 
 	<Instructions>
 		<section>
-			<instruction>
-				In a large bowl, mix Flour, Baking Soda, Salt, Brown Sugar and Sugar.
-			</instruction>
-			<instruction>
-				Add Butter and mix with a rubber spatula until it is blended in.
-			</instruction>
-			<instruction>
-				Add Eggs, Peanut Butter and Vanilla, and mix well.
-			</instruction>
-			<instruction>
-				Place 1&inch; balls of dough &approx;2&inch; apart on a greased cookie sheet.
-			</instruction>
-			<instruction>
-				Bake at 300&deg; for 18-20 minutes.
-			</instruction>
+			<instruction>In a large bowl, mix Flour, Baking Soda, Salt, Brown Sugar and Sugar.</instruction>
+			<instruction>Add Butter and mix with a rubber spatula until it is blended in.</instruction>
+			<instruction>Add Eggs, Peanut Butter and Vanilla, and mix well.</instruction>
+			<instruction>Place 1&inches; balls of dough &approx;2&inches; apart on a greased cookie sheet.</instruction>
+			<instruction>Bake at 300&deg; for 18-20 minutes.</instruction>
 		</section>
 	</Instructions>
 
 	<Notes>
-		<note>
-			The dough is really sticky, so making the balls can end up being a bit of a chore.
-		</note>
+		<note>The dough is really sticky, so making the balls can end up being a bit of a chore.</note>
 	</Notes>
 </Recipe>

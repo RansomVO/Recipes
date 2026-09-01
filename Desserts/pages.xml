@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pages [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
 <Pages>
 	<page href="RangerCookies.xml">Ranger Cookies</page>
@@ -8,6 +12,7 @@
 	<page href="RiceKrispyTreats.xml">Rice Krispy Treats</page>
 	<page href="PieCrustPastry.xml">Pie Crust Pastry</page>
 	<page href="PumpkinPie.xml">Pumpkin Pie</page>
+	<page class="TODO qzxDisabled" href="CreamLimePie.xml">Cream Lime Pie</page>
 	<page href="CoconutAlmondPopcorn.xml">Coconut Almond Popcorn</page>
 	<page href="MonkeyBread.xml">Monkey Bread</page>
 	<page href="TresLechesCake.xml">Tres Leches Cake</page>

@@ -2,23 +2,23 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Queso Hondo</Title>
 	<Yields>2 cups</Yields>
 	<Source>From the kitchen of a random friend at a party</Source>
-
-	&section;
 	<LastModified year="2025" month="3" day="31" />
 
 	<Description>
-		We have purchased all sorts of dips, such as nacho cheese, for corn chips, but nothing really had that <span class="HIGHLIGHT">wow</span> we wanted.
+		We have purchased all sorts of dips, such as nacho cheese, for corn chips, but nothing really had that
+		<span class="HIGHLIGHT">wow</span>
+		we wanted.
 		Then, at a party, we tried a dip that really impressed us.
-		We asked around and found out it was "homemade" and we coaxed the recipe out of them.<br />
+		We asked around and found out it was "homemade" and we coaxed the recipe out of them.
+		<br />
 		First, you need to know that in Spanish, the letter "i" is pronounced "ee".
 		While eating in a Mexican restaurant, Ransom and Jennie were served a tasty cheese dip.
 		Ransom learned Spanish on his mission, but didn't know the word for "dip", so, in Spanish, he asked the waiter who replied "hondo".
@@ -28,17 +28,14 @@
 
 	<Ingredients>
 		<section>
-			<ingredient>
-				Processed Cheese Spread<note>Such as Velveeta</note>
-				<amount>1 Cup</amount>
-			</ingredient>
+			<ingredient>Processed Cheese Spread<note>Such as Velveeta</note><amount>1 Cup</amount></ingredient>
 			<ingredient>Salsa<amount>1 Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
-			<instruction>Cut Cheese Spread into, &frac12;&inch; cubes</instruction>
+			<instruction>Cut Cheese Spread into, &frac12;&inches; cubes</instruction>
 			<instruction>Heat the Cheese in the microwave oven for 30 seconds.</instruction>
 			<instruction>Stir the Cheese.</instruction>
 			<instruction>Repeat steps 2 and 3 until the Cheese is melted.</instruction>

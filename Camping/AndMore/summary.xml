@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE summary [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
 <Summary>
 	There are a few other recipes that don't fit into the other Camping categories, and you'll find them here.

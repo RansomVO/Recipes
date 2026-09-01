@@ -2,19 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
-	<!ENTITY parentSection SYSTEM "../section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Stealth-Attack Chili</Title>
 	<Yields>10-12 servings</Yields>
 	<Source>A VanOrman Original</Source>
-
-	&section;
-	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -22,10 +17,12 @@
 		He wanted a good recipe that could be made with ingredients primarily from food storage.
 		We went through several attempts, but once we succeeded, we would make it over and over.
 		Due to the spices, it takes 4-5 bites before you realized it is very spicy hot.
-		<span class="NOTE">(Thus stealth-attack.)</span><br />
+		<span class="NOTE">(Thus stealth-attack.)</span>
+		<br />
 		Unfortunately, when we moved to Washington, nobody could stand how hot it was.
 		<span class="NOTE">(It's not <span class="HIGHLIGHT">that</span> hot to me.)</span>
-		And when made for Boy Scout competitions, it didn't have a good "look" to it, so we invented <a href=".../StoveTop/KlondikeChili.xml">Entrees / Stove Top: Klondike Chili</a>.
+		And when made for Boy Scout competitions, it didn't have a good "look" to it, so we invented <a href="&hellip;/StoveTop/KlondikeChili.xml">Entrees / Stove Top:
+		Klondike Chili</a>.
 		But, we still make this one from time to time.
 	</Description>
 
@@ -57,7 +54,10 @@
 
 	<Instructions>
 		<section>
-			<instruction>Put Water and beans in a Slow Cooker and cook them on Low overnight. <span class="NOTE">(4-8 hours)</span></instruction>
+			<instruction>
+				Put Water and beans in a Slow Cooker and cook them on Low overnight.
+				<span class="NOTE">(4-8 hours)</span>
+			</instruction>
 			<instruction>Drain all of the excess Water, leaving beans in the Slow Cooker.</instruction>
 			<instruction>Brown Hamburger, until there is no pink meat left, then add to the Slow Cooker.</instruction>
 			<instruction>Put all other ingredients into the Slow Cooker, except Water, and mix well.</instruction>
@@ -80,10 +80,14 @@
 	</Notes>
 
 	<Modifications>
-		<modification>May substitute 2 Onions cut into &frac14;&inch; disks, then disks cut into 4 wedges for Dried Minced Onion.</modification>
+		<modification>May substitute 2 Onions cut into &frac14;&inches; disks, then disks cut into 4 wedges for Dried Minced Onion.</modification>
 		<modification>May substitute 1 teaspoon Minced Garlic for the Garlic Powder.</modification>
 		<modification>May substitute 2 Tablespoons Light Corn Syrup for the Brown Sugar.</modification>
-		<modification>May substitute 2 14.5-oz. cans Diced Tomatoes for the Tomatoes.</modification>
+		<modification>
+			May substitute 2 14.
+			5-oz.
+			cans Diced Tomatoes for the Tomatoes.
+		</modification>
 		<modification>This can be cooked on the stove in a large pot by substituting 3-4 cans of beans for the dried beans, then simmer on medium low for 15-30 minutes.</modification>
 	</Modifications>
 </Recipe>

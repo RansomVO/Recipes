@@ -11,13 +11,28 @@
 	<!-- @@@@@@@@@@@@@@@@@@@@                        Main Template                       @@@@@@@@@@@@@@@@@@@@ -->
 	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 	<xsl:template match="Recipe">
+		<!-- section.xml/summary.xml/pages.xml can never carry their own <!DOCTYPE (they're also loaded
+			standalone via document() from OTHER pages' CollapseSection listings, and per the XML spec an
+			external general entity's replacement text can't contain a doctypedecl); so, uniformly, this
+			recipe's own Section/ParentSection are fetched via document() too, rather than via the
+			&section;/&parentSection; entities this file used to declare. That lets section.xml keep its own
+			<!DOCTYPE with entities.dtd, so named entities like &eacute; work there like anywhere else. -->
+		<xsl:variable name="section" select="document('section.xml', .)/Section" />
 		<xsl:variable name="depth">
 			<xsl:choose>
-				<xsl:when test="document('../section.xml', .)/Section/@folder = '.'">1</xsl:when>
-				<xsl:when test="document('../../section.xml', .)/Section/@folder = '.'">2</xsl:when>
-				<xsl:when test="document('../../../section.xml', .)/Section/@folder = '.'">3</xsl:when>
-				<xsl:otherwise>0</xsl:otherwise>
+				<xsl:when test="$section/@folder = '.'">0</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="string-length($section/@folder) - string-length(translate($section/@folder, '/', '')) + 1" />
+				</xsl:otherwise>
 			</xsl:choose>
+		</xsl:variable>
+		<!-- Only fetched when needed: at depth <= 1, "../section.xml" is either the site root's own
+			section.xml (Recipes/section.xml, not a meaningful "parent") or, at depth 0, outside Recipes/
+			entirely and likely missing; so the document() call itself is gated, not just its display. -->
+		<xsl:variable name="parentSectionName">
+			<xsl:if test="$depth > 1">
+				<xsl:value-of select="document('../section.xml', .)/Section" />
+			</xsl:if>
 		</xsl:variable>
 		<xsl:variable name="linkPrefix">
 			<xsl:call-template name="LinkPrefix">
@@ -31,14 +46,14 @@
 				<link rel="stylesheet" type="text/css" href="styles.css" />
 				<title>
 					VanOrman Family Recipes -
-					<xsl:if test="ParentSection"><xsl:value-of select="ParentSection" /> / </xsl:if>
-					<xsl:value-of select="normalize-space(Section)" />: <xsl:value-of select="Title" />
+					<xsl:if test="$depth > 1"><xsl:value-of select="$parentSectionName" /> / </xsl:if>
+					<xsl:value-of select="normalize-space($section)" />: <xsl:value-of select="Title" />
 				</title>
 			</head>
 
 			<body>
 				<div class="FLEX_CONTENT">
-					<div style="margin-bottom: .25em;">
+					<div style="margin-bottom:.25em;">
 						<xsl:apply-templates select="Title" />
 					</div>
 
@@ -49,6 +64,7 @@
 							</xsl:apply-templates>
 
 							<xsl:if test="Requires">
+								<!-- QZX TODO -->
 							</xsl:if>
 
 							<xsl:apply-templates select="Yields">
@@ -111,14 +127,14 @@
 									<xsl:with-param name="href" select="'.../'" />
 									<xsl:with-param name="text" select="'Recipes'" />
 									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-								</xsl:call-template> / <xsl:if test="ParentSection">
+								</xsl:call-template> / <xsl:if test="$depth > 1">
 									<xsl:call-template name="RecipeLink">
 										<xsl:with-param name="href" select="'..'" />
-										<xsl:with-param name="text" select="ParentSection" />
+										<xsl:with-param name="text" select="$parentSectionName" />
 										<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 									</xsl:call-template> / </xsl:if><xsl:call-template name="RecipeLink">
 									<xsl:with-param name="href" select="'.'" />
-									<xsl:with-param name="text" select="Section" />
+									<xsl:with-param name="text" select="$section" />
 									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 								</xsl:call-template>
 							</td>
@@ -177,11 +193,12 @@
 			<xsl:attribute name="class">
 				<xsl:choose>
 					<xsl:when test="$mode = 'TITLE'">TITLE_NOTE</xsl:when>
+					<xsl:when test="$mode = 'SOURCE'">RECIPE_SOURCE_NOTE</xsl:when>
 					<xsl:otherwise>SMALL_NOTE</xsl:otherwise>
 				</xsl:choose>
 			</xsl:attribute>
 			<xsl:attribute name="style">
-				display: inline-block;
+				display: inline-block; font-weight: normal;
 			</xsl:attribute>
 
 			<xsl:choose>
@@ -189,11 +206,15 @@
 				<xsl:otherwise>&#xA0;&#xA0;</xsl:otherwise>
 			</xsl:choose>
 
-			<!-- -->(<xsl:apply-templates select="./text()|*">
+			<!-- -->
+			(<xsl:apply-templates select="./text()|*">
 				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-			</xsl:apply-templates>)<!-- -->
+			</xsl:apply-templates>)
+			<!-- -->
 
-			<!-- -->&#xA0;&#xA0;&#xA0;&#xA0;<!-- -->
+			<!-- -->
+			&#xA0;&#xA0;&#xA0;&#xA0;
+			<!-- -->
 		</span>
 	</xsl:template>
 	<xsl:template match="Description">

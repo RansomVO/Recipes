@@ -2,18 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Dutch Oven Apple-Berry Crumble Cake</Title>
 	<Yields>4-6 Servings</Yields>
 	<Source>A VanOrman Original</Source>
-	<Requires class="TODO">12&inch; Dutch Oven</Requires>
-
-	&section;
+	<Requires class="TODO">12&inches; Dutch Oven</Requires>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -24,10 +21,7 @@
 
 	<Ingredients>
 		<section>
-			<ingredient>
-				Butter<note>Softened</note>
-				<amount>1 Cup<note>2 Sticks</note></amount>
-			</ingredient>
+			<ingredient>Butter<note>Softened</note><amount>1 Cup<note>2 Sticks</note></amount></ingredient>
 			<ingredient>Sugar<amount>3 Cups</amount></ingredient>
 			<ingredient>Eggs<amount>4</amount></ingredient>
 			<ingredient>Almond Extract<amount>&frac12; teaspoon</amount></ingredient>
@@ -45,7 +39,7 @@
 			<instruction>Cream together Butter and Sugar.</instruction>
 			<instruction>Add Eggs, and Almond Extract, then beat.</instruction>
 			<instruction>Add Flour, Salt and Baking Powder, then beat well.</instruction>
-			<instruction>Peel and core Apple, then cut Apple into pieces approximately 1&inch; &by; &frac14;&inch; &by; &frac14;&inch;.</instruction>
+			<instruction>Peel and core Apple, then cut Apple into pieces approximately 1&inches; &by; &frac14;&inches; &by; &frac14;&inches;.</instruction>
 			<instruction>Add Apple pieces to batter and mix well.</instruction>
 			<instruction>Add Blackberries and gently mix.</instruction>
 			<instruction>Pour into Dutch Oven and smooth top.</instruction>

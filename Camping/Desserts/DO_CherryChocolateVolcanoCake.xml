@@ -2,25 +2,25 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Cherry-Chocolate Volcano Cake</Title>
 	<Yields><span class="TODO">???</span></Yields>
 	<Source>A VanOrman Original</Source>
-	<Requires>10&inch; Dutch Oven</Requires>
-
-	&section;
+	<Requires>10&inches; Dutch Oven</Requires>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		When there was a Dutch Oven cook-off for desserts at a ward campout, Ransom tried doing a simple twist on upside-down cake.
-		It was a huge hit!<br />
+		It was a huge hit!
+		<br />
 		As we tried to serve it, the Pie Filling started to drip down the side of the cake, thus the name.
-		<!-- QZX --><div class="TODO">The Ingredient amounts need to be validated.</div><!-- QZX -->
+		<!-- QZX -->
+		<div class="TODO">The Ingredient amounts need to be validated.</div>
+		<!-- QZX -->
 	</Description>
 
 	<Ingredients>
@@ -44,14 +44,18 @@
 			</instruction>
 			<instruction>
 				Prepare a place to hold a hot Dutch Oven lid so it will stay balanced but not damage the table it is on.
-				We generally do this by finding a couple of sticks and placing them &approx;6&inch; apart.
+				We generally do this by finding a couple of sticks and placing them &approx;6&inches; apart.
 			</instruction>
-			<instruction>When it is cooked, <span class="EMPHASIZE">carefully with very good pot-holder gloves</span>, very quickly flip the entire Dutch Oven, with the lid on, completely upside down.</instruction>
+			<instruction>
+				When it is cooked,
+				<span class="EMPHASIZE">carefully with very good pot-holder gloves</span>,
+				very quickly flip the entire Dutch Oven, with the lid on, completely upside down.
+			</instruction>
 			<instruction>Set Dutch Oven, lid down, onto the place prepared, carefully remove the Dutch Oven from the lid, then peel off the foil.</instruction>
 		</section>
 	</Instructions>
 
 	<Modifications>
-		<modification>For a 12&inch; Dutch Oven, it takes about 1&frac12; times this recipe, but we tend to just double it and use a deeper Dutch Oven.</modification>
+		<modification>For a 12&inches; Dutch Oven, it takes about 1&frac12; times this recipe, but we tend to just double it and use a deeper Dutch Oven.</modification>
 	</Modifications>
 </Recipe>

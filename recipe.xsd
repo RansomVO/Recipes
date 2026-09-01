@@ -14,19 +14,6 @@
 				<xs:element name="Requires" type="MixedContent" minOccurs="0" />
 				<xs:element name="LastModified" type="LastModified" />
 
-				<!-- Usually the "&section;" file ENTITY (declared in the <!DOCTYPE), which a validating
-					processor resolves into this literal form before validation ever sees it. -->
-				<xs:element name="Section" type="Section" minOccurs="0" />
-				<!-- Usually the "&parentSection;" file ENTITY, likewise resolving to a <Section>. Only
-					present for recipes nested two folders deep. -->
-				<xs:element name="ParentSection" minOccurs="0">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element name="Section" type="Section" />
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-
 				<xs:element name="Description" type="MixedContent" minOccurs="0" />
 				<xs:element name="Ingredients" type="Ingredients" />
 				<xs:element name="Preparation" type="Preparation" minOccurs="0" />
@@ -50,16 +37,6 @@
 		<xs:attribute name="day" type="xs:integer" use="required" />
 	</xs:complexType>
 
-	<!-- ===== Section / ParentSection ============================================= -->
-	<!-- <Section folder="X">Y</Section>: what the "&section;"/"&parentSection;" file ENTITY resolves to. -->
-	<xs:complexType name="Section">
-		<xs:simpleContent>
-			<xs:extension base="xs:string">
-				<xs:attribute name="folder" type="xs:string" use="required" />
-			</xs:extension>
-		</xs:simpleContent>
-	</xs:complexType>
-
 	<!-- ===== Ingredients ========================================================== -->
 	<xs:complexType name="Ingredients">
 		<xs:sequence>
@@ -81,15 +58,15 @@
 
 	<xs:complexType name="IngredientPart" mixed="true">
 		<xs:sequence>
-			<xs:element name="note" type="xs:string" minOccurs="0" />
-			<xs:element name="finePrint" type="xs:string" minOccurs="0" />
+			<xs:element name="note" type="MixedContent" minOccurs="0" />
+			<xs:element name="finePrint" type="MixedContent" minOccurs="0" />
 		</xs:sequence>
 	</xs:complexType>
 
 	<xs:complexType name="Ingredient" mixed="true">
 		<xs:sequence>
-			<xs:element name="note" type="xs:string" minOccurs="0" />
-			<xs:element name="finePrint" type="xs:string" minOccurs="0" />
+			<xs:element name="note" type="MixedContent" minOccurs="0" />
+			<xs:element name="finePrint" type="MixedContent" minOccurs="0" />
 			<xs:element name="amount" type="IngredientPart" minOccurs="0" />
 		</xs:sequence>
 		<xs:attribute name="comment" type="xs:string" />

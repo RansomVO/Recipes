@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE section [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
-<Section folder="SpecialNeeds">Special Needs <span style="font-size:.66em;">(Diabetes - Gluten Sensitivity/Celiac Disease - Lactose Intolerance)</span></Section>
+<Section folder="SpecialNeeds">
+	Special Needs
+	<span style="font-size:.66em;">(Diabetes - Gluten Sensitivity/Celiac Disease - Lactose Intolerance)</span>
+</Section>

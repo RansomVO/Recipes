@@ -2,25 +2,23 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
-	<!ENTITY parentSection SYSTEM "../section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Klondike Chili</Title>
 	<Yields>8-10 servings</Yields>
 	<Source>A VanOrman Original</Source>
-
-	&section;
-	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		This is Ransom's second Chili recipe.
-		The first one, <a href=".../SlowCooker/StealthAttackChili.xml">Entrees / Slow Cooker: Stealth-Attack Chili</a>, was really good, but it was complex and actually had to be started the day before you wanted to eat it.
-		On top of that, when we moved to Washington, nobody could handle it. &smiley;<br />
+		The first one, <a href="&hellip;/SlowCooker/StealthAttackChili.xml">Entrees / Slow Cooker:
+		Stealth-Attack Chili</a>, was really good, but it was complex and actually had to be started the day before you wanted to eat it.
+		On top of that, when we moved to Washington, nobody could handle it.
+		&smiley;
+		<br />
 		This recipe is geared towards quick preparation, and 7 out of 8 times it actually won the first-place award at a Boy Scout district Dutch-Oven Chili cook-off at Klondike Derbies!
 	</Description>
 
@@ -28,29 +26,14 @@
 		<section>
 			<ingredient>Onion<amount>1</amount></ingredient>
 			<ingredient>Hamburger<amount>1 Lb.</amount></ingredient>
-			<ingredient>
-				Pinto Beans<note>Drained</note>
-				<amount>1 15-oz. Can</amount>
-			</ingredient>
-			<ingredient>
-				Kidney Beans<note>Drained</note>
-				<amount>1 15-oz. Can</amount>
-			</ingredient>
-			<ingredient>
-				Red Beans<note>Drained</note>
-				<amount>1 15-oz. Can</amount>
-			</ingredient>
+			<ingredient>Pinto Beans<note>Drained</note><amount>1 15-oz. Can</amount></ingredient>
+			<ingredient>Kidney Beans<note>Drained</note><amount>1 15-oz. Can</amount></ingredient>
+			<ingredient>Red Beans<note>Drained</note><amount>1 15-oz. Can</amount></ingredient>
 			<ingredient>Stewed/Sliced Tomatoes<amount>3 14.5-oz. Cans</amount></ingredient>
 			<ingredient>Stewed/Diced Tomatoes<amount>2 14.5-oz. Cans</amount></ingredient>
-			<ingredient>
-				Poblano Pepper<note>Large</note>
-				<amount>1</amount>
-			</ingredient>
+			<ingredient>Poblano Pepper<note>Large</note><amount>1</amount></ingredient>
 			<ingredient>AnaheimPeppers<amount>2</amount></ingredient>
-			<ingredient>
-				Bell Pepper
-				<amount>1<note>Red</note></amount>
-			</ingredient>
+			<ingredient>Bell Pepper <amount>1<note>Red</note></amount></ingredient>
 		</section>
 		<section>
 			<ingredient>Fresh Chopped Cilantro<amount>&frac12; Cup</amount></ingredient>
@@ -59,18 +42,15 @@
 			<ingredient>Ground Black Pepper<amount>&frac12; teaspoon</amount></ingredient>
 			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
 			<ingredient>Cumin<amount>1 teaspoon</amount></ingredient>
-			<ingredient>
-				Garlic<note>Minced</note>
-				<amount>1 teaspoon</amount>
-			</ingredient>
+			<ingredient>Garlic<note>Minced</note><amount>1 teaspoon</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
-			<instruction>Peel Onion and slice into &frac12;&inch; discs, then cut the disks into quarters.</instruction>
+			<instruction>Peel Onion and slice into &frac12;&inches; discs, then cut the disks into quarters.</instruction>
 			<instruction>Cut the top off of each of the Peppers, slice them in half, then remove and discard the seeds.</instruction>
-			<instruction>Cut the Peppers into chunks that are &frac12;&inch; &by; &frac12;&inch;.</instruction>
+			<instruction>Cut the Peppers into chunks that are &frac12;&inches; &by; &frac12;&inches;.</instruction>
 			<instruction>In a large pot, combine Onions and Hamburger and cook until Hamburger is browned.</instruction>
 			<instruction>Add all of the rest of ingredients into the pot and stir well.</instruction>
 			<instruction>Bring to a boil, reduce heat and simmer for 30 minutes.</instruction>
@@ -84,16 +64,20 @@
 			Then the leaves need to be chopped.
 		</note>
 		<note>
-			The Onions and Peppers should be cut into chunks that are as large as possible, but still easy to get into a spoon.
-			<ul>
-				<li>1&inch; &by; 1&inch; is too big.</li>
-				<li>&frac18;&inch; &by; &frac18;&inch; is too small.</li>
+			The Onions and Peppers should be cut into chunks that are as large as possible, but still easy to get into a spoon.<ul>
+			<li>1&inches; &by; 1&inches; is too big.
+			</li>
+			<li>&frac18;&inches; &by; &frac18;&inches; is too small.
+			</li>
 			</ul>
-			<span class="NOTE">(We generally use &frac12;&inch; &by; &frac12;&inch;, but don't hesitate to make them bigger if you want.)</span>
+			<span class="NOTE">(We generally use &frac12;&inches; &by; &frac12;&inches;, but don't hesitate to make them bigger if you want.)</span>
 		</note>
 		<note>
-			After chopping the Peppers, <span class="EMPHASIZE">be very careful to <span class="SUPER_EMPHASIZE">not</span> rub your eyes!</span>
-			Even after washing your hands thoroughly, the spicy oils will still be there, and it will <span class="SUPER_EMPHASIZE">hurt!</span>
+			After chopping the Peppers,
+			<span class="EMPHASIZE">be very careful to <span class="SUPER_EMPHASIZE">not</span>
+			rub your eyes!</span>
+			Even after washing your hands thoroughly, the spicy oils will still be there, and it will
+			<span class="SUPER_EMPHASIZE">hurt!</span>
 		</note>
 	</Notes>
 
@@ -122,13 +106,17 @@
 			</table>
 		</modification>
 		<modification>
-			To cook in a Slow Cooker:
-			<ul>
-				<li>Brown Hamburger and Onions in a skillet.</li>
-				<li>Combine all ingredients <span class="NOTE">(including Hamburger and Onions)</span> in a 6-quart Slow Cooker.</li>
-				<li>Cook on high for 3 hours, or on low for 6 hours, stirring every 1-2 hours.</li>
-			</ul>
-			For an 8-quart Slow Cooker add:
+			To cook in a Slow Cooker:<ul>
+			<li>Brown Hamburger and Onions in a skillet.
+			</li>
+			<li>
+			Combine all ingredients
+			<span class="NOTE">(including Hamburger and Onions)</span>
+			in a 6-quart Slow Cooker.
+			</li>
+			<li>Cook on high for 3 hours, or on low for 6 hours, stirring every 1-2 hours.
+			</li>
+			</ul> For an 8-quart Slow Cooker add:
 			<ul>
 				<li>1 extra can of Pinto Beans</li>
 				<li>1 extra can of Stewed Tomatoes or Sliced Tomatoes</li>
@@ -140,5 +128,9 @@
 		</modification>
 	</Modifications>
 
-	<FinalNote>A similar recipe for use at home: <a href=".../Camping/DO_KlondikeChili.xml">Dutch Oven and other Camping Recipes: Dutch Oven Klondike Chili</a></FinalNote>
+	<FinalNote>
+		A similar recipe for use at home:
+		<a href="&hellip;/Camping/DO_KlondikeChili.xml">Dutch Oven and other Camping Recipes:
+		Dutch Oven Klondike Chili</a>
+	</FinalNote>
 </Recipe>

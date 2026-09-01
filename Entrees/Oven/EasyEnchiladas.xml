@@ -2,43 +2,39 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
-	<!ENTITY parentSection SYSTEM "../section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Easy Enchiladas</Title>
 	<Yields>6 servings</Yields>
-	<Source>From the kitchen of Janey Nelson</Source>
-	<Note>A family friend</Note>
-
-	&section;
-	<ParentSection>&parentSection;</ParentSection>
+	<Source>
+		From the kitchen of Janey Nelson
+		<Note>A family friend</Note>
+	</Source>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		Real enchiladas require a lot of effort.
-		There is preparing filling, sauce, etc. Then there is a bunch of assembly required.<br />
+		There is preparing filling, sauce, etc.
+		Then there is a bunch of assembly required.
+		<br />
 		This recipe isn't really enchiladas, but it will fool just about anybody except a Mexican.
 	</Description>
 
 	<Ingredients>
 		<section>
-			<ingredient>Burritos<amount>6 Frozen</amount></ingredient>
-			<ingredient>Enchilada Sauce<amount>1 20-oz. Can</amount></ingredient>
-			<ingredient>
-				Cheddar Cheese<note>Grated</note>
-				<amount>&frac12; Lb.</amount>
-			</ingredient>
+			<ingredient>Burritos <amount>6 Frozen</amount></ingredient>
+			<ingredient>Enchilada Sauce <amount>1 20-oz. Can </amount></ingredient>
+			<ingredient>Cheddar Cheese <note>Grated</note><amount>&frac12; Lb.</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
 			<instruction>Preheat oven to 350&deg;.</instruction>
-			<instruction>Pour a few Tablespoons of Enchilada Sauce in the bottom of a 9&inch; &by; 9&inch; pan and spread it evenly.</instruction>
+			<instruction>Pour a few Tablespoons of Enchilada Sauce in the bottom of a 9&inches; &by; 9&inches; pan and spread it evenly.</instruction>
 			<instruction>Lay out the Burritos evenly across the pan so that they are touching.</instruction>
 			<instruction>Pour the rest of the Enchilada Sauce evenly over the top of the Burritos.</instruction>
 			<instruction>Grate the Cheese and spread evenly over the top.</instruction>
@@ -55,7 +51,7 @@
 		<note>If the burritos are small, you may need to use more to get them to touch all the way across.</note>
 		<note>
 			It is no problem to have the burritos lean against each other, but it can increase the cooking time.
-			For example, 8 burritos in an 8&inch; &by; 8&inch; pan can take a full hour to cook.
+			For example, 8 burritos in an 8&inches; &by; 8&inches; pan can take a full hour to cook.
 		</note>
 	</Notes>
 </Recipe>

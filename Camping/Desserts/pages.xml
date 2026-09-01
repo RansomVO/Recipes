@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pages [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
 <Pages>
 	<CollapseSection title="Dutch Oven">
 		<inline>
-
 			<Pages>
 				<page href="Camping/Desserts/DO_AppleBerryCrumble.xml">Dutch Oven Apple-Berry Crumble</page>
 				<page href="Camping/Desserts/DO_AppleBerryCrumbleCake.xml">Dutch Oven Apple-Berry Crumble Cake</page>
@@ -14,7 +17,6 @@
 	</CollapseSection>
 	<CollapseSection title="Other">
 		<inline>
-
 			<Pages>
 				<page href="Camping/Desserts/BananaBoats.xml">Banana Boats</page>
 				<page href="Camping/Desserts/Twisties.xml">Twisties</page>

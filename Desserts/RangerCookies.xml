@@ -2,18 +2,17 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Ranger Cookies</Title>
 	<Yields>about 3 dozen</Yields>
-	<Source>From the Kitchen of Orrilla VanOrman</Source>
-	<Note>Ransom’s Mom</Note>
-
-	&section;
+	<Source>
+		From the Kitchen of Orrilla VanOrman
+		<Note>Ransom’s Mom</Note>
+	</Source>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -23,47 +22,33 @@
 
 	<Ingredients>
 		<section>
-			<ingredient>Shortening<amount>1 Cup</amount></ingredient>
-			<ingredient>Sugar<amount>1 Cup</amount></ingredient>
-			<ingredient>Brown Sugar<amount>1 Cup</amount></ingredient>
-			<ingredient>Eggs<amount>2</amount></ingredient>
-			<ingredient>Vanilla<amount>1 teaspoon</amount></ingredient>
-			<ingredient>Flour<amount>2 Cups</amount></ingredient>
-			<ingredient>Baking Soda<amount>1 teaspoon</amount></ingredient>
-			<ingredient>Baking Powder<amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient>Salt<amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient>Oats<amount>2 Cups</amount></ingredient>
-			<ingredient>Chocolate Chips<amount>1 Cup</amount></ingredient>
+			<ingredient>Shortening <amount>1 Cup</amount></ingredient>
+			<ingredient>Sugar <amount>1 Cup</amount></ingredient>
+			<ingredient>Brown Sugar <amount>1 Cup</amount></ingredient>
+			<ingredient>Eggs <amount>2</amount></ingredient>
+			<ingredient>Vanilla <amount>1 teaspoon</amount></ingredient>
+			<ingredient>Flour <amount>2 Cups</amount></ingredient>
+			<ingredient>Baking Soda <amount>1 teaspoon</amount></ingredient>
+			<ingredient>Baking Powder <amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Salt <amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Oats <amount>2 Cups</amount></ingredient>
+			<ingredient>Chocolate Chips <amount>1 Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
+			<instruction>Preheat oven to 350&deg;.</instruction>
+			<instruction>Combine Shortening, Sugar and Brown Sugar, then mix well.</instruction>
+			<instruction>Add Eggs and Vanilla, then mix well.</instruction>
+			<instruction>Add Flour, Baking Soda, Baking Powder and Salt, then mix well.</instruction>
+			<instruction>Fold in Oats.</instruction>
+			<instruction>Fold in Chocolate Chips.</instruction>
 			<instruction>
-				Preheat oven to 350&deg;.
+				Put 1&frac12;&inches; balls of dough (A little smaller than a golf ball.)
+				on a cookie sheet, &approx;3&inches; apart.
 			</instruction>
-			<instruction>
-				Combine Shortening, Sugar and Brown Sugar, then mix well.
-			</instruction>
-			<instruction>
-				Add Eggs and Vanilla, then mix well.
-			</instruction>
-			<instruction>
-				Add Flour, Baking Soda, Baking Powder and Salt, then mix well.
-			</instruction>
-			<instruction>
-				Fold in Oats.
-			</instruction>
-			<instruction>
-				Fold in Chocolate Chips.
-			</instruction>
-			<instruction>
-				Put 1&frac12;&inch; balls of dough (A little smaller than a golf ball.)
-				on a cookie sheet, &approx;3&inch; apart.
-			</instruction>
-			<instruction>
-				Bake at 350&deg; for 10-12 minutes.
-			</instruction>
+			<instruction>Bake at 350&deg; for 10-12 minutes.</instruction>
 		</section>
 	</Instructions>
 
@@ -72,18 +57,17 @@
 			After cooling, they should still be a little soft.
 			If they are crunchy, they are over-cooked.
 		</note>
-		<note>
-			After they are cool, they can be stored in Ziploc bags to keep them soft.
-		</note>
-		<note>
-			The dough can be stored in the fridge for several days before cooking if desired.
-		</note>
+		<note>After they are cool, they can be stored in Ziploc bags to keep them soft.</note>
+		<note>The dough can be stored in the fridge for several days before cooking if desired.</note>
 	</Notes>
 
 	<Modifications>
 		<modification>
-			If you are somewhere where you have difficulty finding Brown Sugar <span class="NOTE">(which missionaries frequently have to deal with)</span> substitute 1 Cup Sugar and 1 Tablespoon Molasses or Dark Corn Syrup.
-			<span class="NOTE">(See <a href=".../CookingBasics/Substitutions.xml">Cooking Basics: Conversions and Substitutions</a> page.) </span>
+			If you are somewhere where you have difficulty finding Brown Sugar
+			<span class="NOTE">(which missionaries frequently have to deal with)</span>
+			substitute 1 Cup Sugar and 1 Tablespoon Molasses or Dark Corn Syrup.
+			<span class="NOTE">(See <a href="&hellip;/CookingBasics/Substitutions.xml">Cooking Basics:
+			Conversions and Substitutions</a> page.)</span>
 		</modification>
 	</Modifications>
 </Recipe>

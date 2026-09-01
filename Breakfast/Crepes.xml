@@ -2,22 +2,17 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Cr&ecirc;pes</Title>
 	<Yields>6-8</Yields>
 	<Source>Modified from Classic French Recipe</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description>
-		After trying a few recipes, we found this one to be the easiest to make and it tastes great.
-	</Description>
+	<Description>After trying a few recipes, we found this one to be the easiest to make and it tastes great.</Description>
 
 	<Ingredients>
 		<section>
@@ -38,7 +33,8 @@
 			<instruction>While mixing, add Sugar, Salt and Baking Powder.</instruction>
 			<instruction>While still mixing, slowly add Flour.</instruction>
 			<instruction>
-				Preheat a non-stick, 6&inch; frying pan on medium heat.<br />
+				Preheat a non-stick, 6&inches; frying pan on medium heat.
+				<br />
 				<span class="NOTE">(You may want to spray with some non-stick spray.)</span>
 			</instruction>
 			<instruction>Pour &approx;2 Tablespoons of batter into pan, then tip and turn the pan until bottom is coated.</instruction>

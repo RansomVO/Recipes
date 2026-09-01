@@ -2,58 +2,39 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Dutch Oven Klondike Chili</Title>
 	<Yields>6-8 Servings</Yields>
 	<Source>A VanOrman Original</Source>
-	<Requires class="TODO">12&inch; Dutch Oven</Requires>
-
-	&section;
+	<Requires class="TODO">12&inches; Dutch Oven</Requires>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		This is Ransom's second Chili recipe.
 		The first one was really good, but it was complex and actually had to be started the day before you wanted to eat it.
 		<span class="NOTE">(Additionally, most people found it to be too spicy.)</span>
-		<span class="NOTE">(See <a href="../Entrees/SlowCooker/StealthAttackChili.xml">Entrees / Slow Cooker: Stealth-Attack Chili</a>.)</span><br />
+		<span class="NOTE">(See <a href="../Entrees/SlowCooker/StealthAttackChili.xml">Entrees / Slow Cooker:
+		Stealth-Attack Chili</a>.)</span>
+		<br />
 		This recipe is geared towards quick preparation, and has actually won the first-place award at multiple Boy Scout district Dutch-oven chili cook-offs!
 	</Description>
 
 	<Ingredients>
 		<section>
-			<ingredient>
-				Onion
-				<amount>1<note>Medium</note></amount>
-			</ingredient>
+			<ingredient>Onion <amount>1<note>Medium</note></amount></ingredient>
 			<ingredient>Hamburger<amount>1 Lb.</amount></ingredient>
-			<ingredient>
-				Pinto Beans<note>Drained</note>
-				<amount>1 15-oz. Can</amount>
-			</ingredient>
-			<ingredient>
-				Kidney Beans<note>Drained</note>
-				<amount>1 15-oz. Can</amount>
-			</ingredient>
-			<ingredient>
-				Red Beans<note>Drained</note>
-				<amount>1 15-oz. Can</amount>
-			</ingredient>
+			<ingredient>Pinto Beans<note>Drained</note><amount>1 15-oz. Can</amount></ingredient>
+			<ingredient>Kidney Beans<note>Drained</note><amount>1 15-oz. Can</amount></ingredient>
+			<ingredient>Red Beans<note>Drained</note><amount>1 15-oz. Can</amount></ingredient>
 			<ingredient>Sliced Tomatoes<amount>1 28-oz. Can</amount></ingredient>
 			<ingredient>Diced Tomatoes<amount>2 28-oz. Cans</amount></ingredient>
-			<ingredient>
-				Poblano Peppers<note>Large</note>
-				<amount>3</amount>
-			</ingredient>
+			<ingredient>Poblano Peppers<note>Large</note><amount>3</amount></ingredient>
 			<ingredient>Anaheim Peppers<amount>3</amount></ingredient>
-			<ingredient>
-				Bell Pepper
-				<amount>1<note>Red</note></amount>
-			</ingredient>
+			<ingredient>Bell Pepper <amount>1<note>Red</note></amount></ingredient>
 		</section>
 		<section>
 			<ingredient>Fresh Chopped Cilantro<amount>&frac12; Cup</amount></ingredient>
@@ -62,18 +43,15 @@
 			<ingredient>Ground Black Pepper<amount>1 teaspoon</amount></ingredient>
 			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
 			<ingredient>Cumin<amount>1 teaspoon</amount></ingredient>
-			<ingredient>
-				Garlic<note>Minced</note>
-				<amount>1 teaspoon</amount>
-			</ingredient>
+			<ingredient>Garlic<note>Minced</note><amount>1 teaspoon</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
-			<instruction>Peel Onion and slice into disks that are &frac12;&inch; thick, then cut the disks into quarters.</instruction>
+			<instruction>Peel Onion and slice into disks that are &frac12;&inches; thick, then cut the disks into quarters.</instruction>
 			<instruction>Cut top off of each of the Peppers, slice them in half, then remove and discard the seeds.</instruction>
-			<instruction>Cut the Peppers into chunks that are &frac12;&inch; &by; &frac12;&inch;.</instruction>
+			<instruction>Cut the Peppers into chunks that are &frac12;&inches; &by; &frac12;&inches;.</instruction>
 			<instruction>In the Dutch Oven, combine Onions and Hamburger and cook until Hamburger is browned.</instruction>
 			<instruction>Add all of the rest of ingredients.</instruction>
 			<instruction>Bring to a boil, reduce heat and simmer for 30 minutes.</instruction>
@@ -87,19 +65,24 @@
 			Then the leaves need to be chopped.
 		</note>
 		<note>
-			The Onions and Peppers should be cut into chunks that are as large as possible, but still easy to get into a spoon.
-			<ul>
-				<li>1&inch; &by; 1&inch; is too big.</li>
-				<li>&frac18;&inch; &by; &frac18;&inch; is too small.</li>
+			The Onions and Peppers should be cut into chunks that are as large as possible, but still easy to get into a spoon.<ul>
+			<li>1&inches; &by; 1&inches; is too big.
+			</li>
+			<li>&frac18;&inches; &by; &frac18;&inches; is too small.
+			</li>
 			</ul>
-			<span class="NOTE">(We generally use &frac12;&inch; &by; &frac12;&inch;, but don't hesitate to make them bigger if you want.)</span>
+			<span class="NOTE">(We generally use &frac12;&inches; &by; &frac12;&inches;, but don't hesitate to make them bigger if you want.)</span>
 		</note>
 		<note>
-			After chopping the Peppers, <span class="EMPHASIZE">be very careful to <span class="SUPER_EMPHASIZE">not</span> rub your eyes!</span>
-			Even after washing your hands thoroughly, the spicy oils will still be there, and it will <span class="SUPER_EMPHASIZE">hurt!</span>
+			After chopping the Peppers,
+			<span class="EMPHASIZE">be very careful to <span class="SUPER_EMPHASIZE">not</span>
+			rub your eyes!</span>
+			Even after washing your hands thoroughly, the spicy oils will still be there, and it will
+			<span class="SUPER_EMPHASIZE">hurt!</span>
 		</note>
 		<note>
-			To make cooking faster and easier, you can do some prep ahead a time: <span class="NOTE">(Do this for Scout outings.)</span>
+			To make cooking faster and easier, you can do some prep ahead a time:
+			<span class="NOTE">(Do this for Scout outings.)</span>
 			<ul>
 				<li>Cut up Onions</li>
 				<li>Cook Hamburger and Onions, let cool, then put in a Ziplock bag.</li>
@@ -132,8 +115,12 @@
 				</tr>
 			</table>
 		</modification>
-		<modification>A <span class="EMPHASIZE">deep</span> 14&inch; Dutch Oven will easily hold a double batch.</modification>
+		<modification>A <span class="EMPHASIZE">deep</span> 14&inches; Dutch Oven will easily hold a double batch.</modification>
 	</Modifications>
 
-	<FinalNote>A similar recipe for use at home: <a href=".../Entrees/StoveTop/KlondikeChili.xml">Entrees / Stove Top: Klondike Chili</a></FinalNote>
+	<FinalNote>
+		A similar recipe for use at home:
+		<a href="&hellip;/Entrees/StoveTop/KlondikeChili.xml">Entrees / Stove Top:
+		Klondike Chili</a>
+	</FinalNote>
 </Recipe>

@@ -9,13 +9,31 @@
 	<!-- @@@@@@@@@@@@@@@@@@@@                        Main Template                       @@@@@@@@@@@@@@@@@@@@ -->
 	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 	<xsl:template match="Index">
+		<!-- section.xml/summary.xml/pages.xml can never carry their own <!DOCTYPE (they're also loaded
+			standalone via document() below, from CollapseSection, when a DIFFERENT page needs them; and per
+			the XML spec an external general entity's replacement text can't contain a doctypedecl); so,
+			uniformly, this folder's own Section/Summary/Pages/ParentSection are fetched via document() too,
+			rather than via the &section;/&summary;/&pages;/&parentSection; entities this file used to
+			declare. That lets section.xml etc. keep their own <!DOCTYPE with entities.dtd, so named entities
+			like &eacute; work there like anywhere else. -->
+		<xsl:variable name="section" select="document('section.xml', .)/Section" />
+		<xsl:variable name="summary" select="document('summary.xml', .)/Summary" />
+		<xsl:variable name="pages" select="document('pages.xml', .)/Pages" />
 		<xsl:variable name="depth">
 			<xsl:choose>
-				<xsl:when test="Section/@folder = '.'">0</xsl:when>
+				<xsl:when test="$section/@folder = '.'">0</xsl:when>
 				<xsl:otherwise>
-					<xsl:value-of select="string-length(Section/@folder) - string-length(translate(Section/@folder, '/', '')) + 1" />
+					<xsl:value-of select="string-length($section/@folder) - string-length(translate($section/@folder, '/', '')) + 1" />
 				</xsl:otherwise>
 			</xsl:choose>
+		</xsl:variable>
+		<!-- Only fetched when needed: at depth <= 1, "../section.xml" is either the site root's own
+			section.xml (Recipes/section.xml, not a meaningful "parent") or, at depth 0, outside Recipes/
+			entirely and likely missing; so the document() call itself is gated, not just its display. -->
+		<xsl:variable name="parentSectionName">
+			<xsl:if test="$depth > 1">
+				<xsl:value-of select="document('../section.xml', .)/Section" />
+			</xsl:if>
 		</xsl:variable>
 		<xsl:variable name="linkPrefix">
 			<xsl:call-template name="LinkPrefix">
@@ -28,26 +46,26 @@
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<link rel="stylesheet" type="text/css" href="styles.css" />
 				<title>
-					<xsl:if test="Section != 'VanOrman Family Recipes'">
+					<xsl:if test="$section != 'VanOrman Family Recipes'">
 						VanOrman Family Recipes:
 					</xsl:if>
 					<!-- QZX TODO: Handle multiple levels of Sections in the title. E.G.: Entrees/StoveTop -->
-					<xsl:if test="ParentSection"><xsl:value-of select="ParentSection" /> /</xsl:if>
-					<xsl:value-of select="Section" />
+					<xsl:if test="$depth > 1"><xsl:value-of select="$parentSectionName" /> /</xsl:if>
+					<xsl:value-of select="$section" />
 				</title>
 			</head>
 
 			<body>
-				<xsl:apply-templates select="Section">
+				<xsl:apply-templates select="$section">
 					<xsl:with-param name="linkPrefix" select="''" />
 				</xsl:apply-templates>
 
-				<xsl:apply-templates select="Summary" />
+				<xsl:apply-templates select="$summary" />
 
 				<hr />
-				<xsl:apply-templates select="Pages">
+				<xsl:apply-templates select="$pages">
 					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-					<xsl:with-param name="folder" select="Section/@folder" />
+					<xsl:with-param name="folder" select="$section/@folder" />
 				</xsl:apply-templates>
 
 				<footer class="FLEX_FOOTER">
@@ -55,16 +73,23 @@
 						<tr>
 							<td class="no-print">
 								<a href="/">Home</a> / <xsl:choose>
-									<xsl:when test="ParentSection">
+									<!-- At the Recipes root itself, "current section" IS the recipes root; so unlike
+										the other two cases, there's no separate ancestor level to link to. Show one
+										"Recipes" crumb (self-linked, matching how the last crumb in the other cases
+										also links to its own page) instead of an extra, redundant $section crumb. -->
+									<xsl:when test="$depth = 0">
+										<a href=".">Recipes</a>
+									</xsl:when>
+									<xsl:when test="$depth > 1">
 										<a href="../..">Recipes</a> / <a href="..">
-											<xsl:value-of select="ParentSection" />
+											<xsl:value-of select="$parentSectionName" />
 										</a> / <a href=".">
-											<xsl:value-of select="Section" />
+											<xsl:value-of select="$section" />
 										</a>
 									</xsl:when>
 									<xsl:otherwise>
 										<a href="..">Recipes</a> / <a href=".">
-											<xsl:value-of select="Section" />
+											<xsl:value-of select="$section" />
 										</a>
 									</xsl:otherwise>
 								</xsl:choose>

@@ -2,17 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Jigglers</Title>
 	<Yields><span class="TODO">???</span></Yields>
 	<Source>From the back of a box of Jello</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -23,10 +20,7 @@
 	<Ingredients>
 		<section>
 			<ingredient>Water<amount>2&frac12; Cups</amount></ingredient>
-			<ingredient>
-				Flavored Gelatin<note>Such as Jello</note>
-				<amount>2 0.6-oz. Packages</amount>
-			</ingredient>
+			<ingredient>Flavored Gelatin<note>Such as Jello</note><amount>2 0.6-oz. Packages</amount></ingredient>
 		</section>
 	</Ingredients>
 
@@ -37,19 +31,25 @@
 			<instruction>Carefully, pour Boiling Water into the small mixing bowl.</instruction>
 			<instruction>Stir until Gelatin is completely dissolved.</instruction>
 			<instruction>
-				Pour mixture into 9&inch; &by; 13&inch; pan.
-				Hint:If you lightly spray the pan with non-stick spray (such as Pam) then the treats are easier to remove when done.
+				Pour mixture into 9&inches; &by; 13&inches; pan.
+				Hint:
+				If you lightly spray the pan with non-stick spray (such as Pam) then the treats are easier to remove when done.
 			</instruction>
-			<instruction>Refridgerate until firm. <span class="NOTE">(About three hours.)</span></instruction>
-			<instruction>After Jigglers have set, cut them into 1&inch; &by; 2&inch; rectangles with a knife.</instruction>
+			<instruction>
+				Refridgerate until firm.
+				<span class="NOTE">(About three hours.)</span>
+			</instruction>
+			<instruction>After Jigglers have set, cut them into 1&inches; &by; 2&inches; rectangles with a knife.</instruction>
 			<instruction>Remove from the pan and enjoy!</instruction>
 		</section>
 	</Instructions>
 
 	<Notes>
 		<note>
-			In Step 3, if you add the powder directly into the Boiling Water, it may " flash boil".<br />
-			This will cause it to spray all over and somebody usually gets burned.<br />
+			In Step 3, if you add the powder directly into the Boiling Water, it may " flash boil".
+			<br />
+			This will cause it to spray all over and somebody usually gets burned.
+			<br />
 			<span class="NOTE">(Believe me, I learned the hard way!)</span>
 		</note>
 	</Notes>
@@ -57,7 +57,9 @@
 	<Modifications>
 		<modification>Instead of cutting Jigglers into rectangles, use cookie cutters to cut into decorative shapes.</modification>
 		<modification>
-			<span class="POINT_HIGHLIGHT">To make the treats more nutritious <span class="NOTE">(and better tasting)</span></span>:<br />
+			<span class="POINT_HIGHLIGHT">To make the treats more nutritious <span class="NOTE">(and better tasting)</span>
+			</span>:
+			<br />
 			Use some sort of fruit Juice instead of water.
 		</modification>
 		<modification>
@@ -70,5 +72,8 @@
 		</modification>
 	</Modifications>
 
-	<FinalNote>A similar recipe for Diabetics is <a href=".../Desserts/LS_GummyTreats.xml">Desserts and Snacks: Sugar-Free Gummy Treats</a></FinalNote>
+	<FinalNote>
+		A similar recipe for Diabetics is <a href="&hellip;/Desserts/LS_GummyTreats.xml">Desserts and Snacks:
+		Sugar-Free Gummy Treats</a>
+	</FinalNote>
 </Recipe>

@@ -2,19 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
-	<!ENTITY parentSection SYSTEM "../section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Wonton Soup</Title>
 	<Yields>6-8 servings</Yields>
 	<Source>From the Kitchen of Mitsuko Barnhardt, Di's Mom</Source>
-
-	&section;
-	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="3" day="29" />
 
 	<Description>
@@ -26,30 +21,12 @@
 		<section>
 			<ingredient>Vegetable Oil<amount>1 Tablespoon</amount></ingredient>
 			<ingredient>Garlic, Minced<amount>1 Tablespoon</amount></ingredient>
-			<ingredient>
-				Chicken Broth<note>Regular Strength</note>
-				<amount>10 Cups</amount>
-			</ingredient>
-			<ingredient>
-				Carrots<note>Thinly sliced into strands.</note>
-				<amount>&frac14; Cup</amount>
-			</ingredient>
-			<ingredient>
-				Grated Ginger<note>Unless Di is there.</note>
-				<amount>1 teaspoon</amount>
-			</ingredient>
-			<ingredient>
-				Green Onion<note>Thinly Sliced</note>
-				<amount>&frac14; Cup</amount>
-			</ingredient>
-			<ingredient>
-				Bok Choy<note>Thinly Sliced</note>
-				<amount>1&frac12; Cups</amount>
-			</ingredient>
-			<ingredient>
-				Shiitake Mushrooms<note>Sliced</note>
-				<amount>&frac12; Cup</amount>
-			</ingredient>
+			<ingredient>Chicken Broth<note>Regular Strength</note><amount>10 Cups</amount></ingredient>
+			<ingredient>Carrots<note>Thinly sliced into strands.</note><amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Grated Ginger<note>Unless Di is there.</note><amount>1 teaspoon</amount></ingredient>
+			<ingredient>Green Onion<note>Thinly Sliced</note><amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Bok Choy<note>Thinly Sliced</note><amount>1&frac12; Cups</amount></ingredient>
+			<ingredient>Shiitake Mushrooms<note>Sliced</note><amount>&frac12; Cup</amount></ingredient>
 			<ingredient>Wontons<amount>15-20</amount></ingredient>
 		</section>
 	</Ingredients>
@@ -57,7 +34,8 @@
 	<Instructions>
 		<section>
 			<instruction>
-				If desired, get the Wontons by using the <a href=".../Entrees/StoveTop/Wontons.xml">Entrees / Stove Top: Wontons</a> Recipe.
+				If desired, get the Wontons by using the <a href="&hellip;/Entrees/StoveTop/Wontons.xml">Entrees / Stove Top:
+				Wontons</a> Recipe.
 				<span class="NOTE">(Use the Envelope Style folding.)</span>
 			</instruction>
 			<instruction>
@@ -85,10 +63,14 @@
 
 	<Modifications>
 		<modification>
-			Do <span class="SUPER_EMPHASIZE">NOT</span> use Grated Ginger if Di is eating with you!<br />
+			Do <span class="SUPER_EMPHASIZE">NOT</span> use Grated Ginger if Di is eating with you!
+			<br />
 			Di doesn't like Ginger, so her mom set it in a bowl on the table and it was used as a condiment.
 		</modification>
-		<modification>You can create the Chicken Broth by using 10 Cups Water + 10 Chicken Bouillon Cubes <span class="NOTE">(or the equivalent)</span>.</modification>
+		<modification>
+			You can create the Chicken Broth by using 10 Cups Water + 10 Chicken Bouillon Cubes
+			<span class="NOTE">(or the equivalent)</span>.
+		</modification>
 		<modification>Many versions of this recipe include &frac14; Cup Sliced Bamboo Shoots in the soup.</modification>
 	</Modifications>
 </Recipe>

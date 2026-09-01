@@ -2,17 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Mashed Potatoes</Title>
 	<Yields>about 4-6 servings</Yields>
 	<Source>Basic</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -22,56 +19,29 @@
 
 	<Ingredients>
 		<section>
-			<ingredient>
-				Potatoes<note>Medium</note>
-				<amount>4</amount>
-			</ingredient>
-			<ingredient>
-				Water
-				<amount><note>See Step 4 below</note></amount>
-			</ingredient>
+			<ingredient>Potatoes<note>Medium</note><amount>4</amount></ingredient>
+			<ingredient>Water <amount><note>See Step 4 below</note></amount></ingredient>
 			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
-			<ingredient>
-				Butter
-				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
-			</ingredient>
+			<ingredient>Butter <amount>&frac14; Cup<note>&frac12; Stick</note></amount></ingredient>
 			<ingredient>Milk<amount>&frac14; Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
-			<instruction>
-				Peel Potatoes.
-			</instruction>
-			<instruction>
-				Cut Potatoes into 1&frac12;-2" chunks.
-			</instruction>
-			<instruction>
-				Place Potatoes into a large saucepan or small pot.
-			</instruction>
-			<instruction>
-				Add enough Water to cover Potatoes then add Salt.
-			</instruction>
-			<instruction>
-				Heat to a boil, and boil for 20 minutes, or until Potatoes are soft.
-			</instruction>
-			<instruction>
-				Strain all Water out, and place Potatoes and Butter into a bowl.
-			</instruction>
-			<instruction>
-				Using a potato masher, mash the Potatoes until the Butter is melted and well mixed into the Potatoes.
-			</instruction>
-			<instruction>
-				Add Milk and stir until fluffy.
-			</instruction>
+			<instruction>Peel Potatoes.</instruction>
+			<instruction>Cut Potatoes into 1&frac12;-2" chunks.</instruction>
+			<instruction>Place Potatoes into a large saucepan or small pot.</instruction>
+			<instruction>Add enough Water to cover Potatoes then add Salt.</instruction>
+			<instruction>Heat to a boil, and boil for 20 minutes, or until Potatoes are soft.</instruction>
+			<instruction>Strain all Water out, and place Potatoes and Butter into a bowl.</instruction>
+			<instruction>Using a potato masher, mash the Potatoes until the Butter is melted and well mixed into the Potatoes.</instruction>
+			<instruction>Add Milk and stir until fluffy.</instruction>
 		</section>
 	</Instructions>
 
 	<Notes>
-		<note>
-			When available, you may use a hand mixer instead of a potato masher.
-		</note>
+		<note>When available, you may use a hand mixer instead of a potato masher.</note>
 	</Notes>
 
 	<Modifications>

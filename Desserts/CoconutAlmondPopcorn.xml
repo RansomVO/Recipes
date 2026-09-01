@@ -2,17 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Coconut Almond Popcorn</Title>
 	<Yields>12 1-Cup Servings</Yields>
 	<Source>Not sure where we got this recipe.</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -24,10 +21,7 @@
 	<Ingredients>
 		<section>
 			<ingredient>Unpopped Popcorn<amount>&frac12; Cup</amount></ingredient>
-			<ingredient>
-				Butter
-				<amount>&frac12; Cup<note>1 Stick</note></amount>
-			</ingredient>
+			<ingredient>Butter <amount>&frac12; Cup<note>1 Stick</note></amount></ingredient>
 			<ingredient>Sugar<amount>1 Cups</amount></ingredient>
 			<ingredient>White Corn Syrup<amount>&frac14; Cup</amount></ingredient>
 			<ingredient>Salt<amount>&frac12; teaspoon</amount></ingredient>
@@ -58,7 +52,7 @@
 			<instruction>
 				Remove from heat and stir in:
 				<ul>
-					<li>Baking Soda </li>
+					<li>Baking Soda</li>
 					<li>Vanilla</li>
 					<li>Almond Extract</li>
 				</ul>

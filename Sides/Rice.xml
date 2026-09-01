@@ -2,22 +2,24 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Rice</Title>
 	<Yields>2 servings</Yields>
 	<Source>Basic</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		It wasn't until my mission that I found out how much of a difference there is between Minute Rice, and real Rice.
-		In Puerto Rico, <span class="HIGHLIGHT">nobody</span> uses Minute Rice because its taste and consistency are <span class="EMPHASIZE">terrible</span> compared to the real stuff.<br />
+		In Puerto Rico,
+		<span class="HIGHLIGHT">nobody</span>
+		uses Minute Rice because its taste and consistency are
+		<span class="EMPHASIZE">terrible</span>
+		compared to the real stuff.
+		<br />
 		Rice is cheap, can be stored for years and years before it is cooked, and it's a great, generic side dish.
 	</Description>
 

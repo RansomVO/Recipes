@@ -2,36 +2,24 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Dutch Oven Fruit Crispy</Title>
 	<Yields>6-8 Servings</Yields>
 	<Source>One of the simplest and most well known dessert recipes for Dutch Ovens.</Source>
-	<Requires class="TODO">12&inch; Dutch Oven?</Requires>
-
-	&section;
+	<Requires class="TODO">12&inches; Dutch Oven?</Requires>
 	<LastModified year="2025" month="5" day="5" />
 
 	<Description>A simple dessert that tastes good, but takes very little preparation.</Description>
 
 	<Ingredients>
 		<section>
-			<ingredient>
-				Fruit<note>Apples, Peaches, etc.</note>
-				<amount>3-4 15-oz. Cans</amount>
-			</ingredient>
-			<ingredient>
-				Cake Mix<note>Yellow or White</note>
-				<amount>1</amount>
-			</ingredient>
-			<ingredient>
-				Butter
-				<amount>&frac12; Cup<note>1 Stick</note></amount>
-			</ingredient>
+			<ingredient>Fruit<note>Apples, Peaches, etc.</note><amount>3-4 15-oz. Cans</amount></ingredient>
+			<ingredient>Cake Mix<note>Yellow or White</note><amount>1</amount></ingredient>
+			<ingredient>Butter <amount>&frac12; Cup<note>1 Stick</note></amount></ingredient>
 		</section>
 	</Ingredients>
 
@@ -42,7 +30,9 @@
 			<instruction>Sprinkle Cake Mix evenly over the Fruit.</instruction>
 			<instruction>Slice the Butter as thinly as possible and place evenly over Cake Mix.</instruction>
 			<instruction>
-				Bake very slowly, only from the top <span class="NOTE">(&approx;6-8 charcoal briquettes)</span>, until top is golden brown and the Fruit is starting to bubble.
+				Bake very slowly, only from the top
+				<span class="NOTE">(&approx;6-8 charcoal briquettes)</span>,
+				until top is golden brown and the Fruit is starting to bubble.
 				<span class="TODO">(Determine approximate time.)</span>
 			</instruction>
 		</section>

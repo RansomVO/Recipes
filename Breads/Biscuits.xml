@@ -2,17 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Biscuits</Title>
 	<Yields>about 12</Yields>
 	<Source>From an old cookbook</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -26,10 +23,7 @@
 			<ingredient>Flour<amount>1&frac34; Cups</amount></ingredient>
 			<ingredient>Salt<amount>&frac12; teaspoon</amount></ingredient>
 			<ingredient>Baking Powder<amount>1 Tablespoon</amount></ingredient>
-			<ingredient>
-				Butter<note>COLD!</note>
-				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
-			</ingredient>
+			<ingredient>Butter<note>COLD!</note><amount>&frac14; Cup<note>&frac12; Stick</note></amount></ingredient>
 			<ingredient>Milk<amount>&frac34; Cup</amount></ingredient>
 		</section>
 	</Ingredients>
@@ -43,11 +37,11 @@
 				Add Milk all at once and stir until dough doesn't stick to sides of bowl.
 				<span class="NOTE">(Less than 1 minute.)</span>
 			</instruction>
-			<instruction>Dust the countertop with Flour and roll out the dough until it is it is &approx;&frac12;&inch; thick.</instruction>
+			<instruction>Dust the countertop with Flour and roll out the dough until it is it is &approx;&frac12;&inches; thick.</instruction>
 			<instruction>Fold in half, then in half again.</instruction>
 			<instruction>Repeat Steps 5 and 6 at least four times.</instruction>
-			<instruction>The final time, roll out dough 1&inch; thick.</instruction>
-			<instruction>Cut out Biscuits with a round cookie cutter &approx;&inch; in diameter.</instruction>
+			<instruction>The final time, roll out dough 1&inches; thick.</instruction>
+			<instruction>Cut out Biscuits with a round cookie cutter &approx;&inches; in diameter.</instruction>
 			<instruction>Place on greased cookie sheet.</instruction>
 			<instruction>Bake at 400&deg; for 12-15 minutes, until just turning golden brown.</instruction>
 		</section>
@@ -56,8 +50,10 @@
 	<Notes>
 		<note>
 			A Pastry Blender is not an electrical appliance!
-			It is a hand-held tool with a bunch of blades used to gently mix doughs of this sort.<br />
-			<img src="PastryBlender.png" style="margin-left:5em;" /><br />
+			It is a hand-held tool with a bunch of blades used to gently mix doughs of this sort.
+			<br />
+			<img src="PastryBlender.png" style="margin-left:5em;" />
+			<br />
 			If you cannot find a pastry blender, use a fork.
 		</note>
 		<note>If you do not have a round cookie cutter, use a cup or glass.</note>

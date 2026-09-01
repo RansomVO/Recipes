@@ -2,51 +2,44 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Hot Chocolate</Title>
 	<Yields>3 Servings</Yields>
-	<Source>A VanOrman Original</Source>
-	<Note>Based on trick from Puerto Rico</Note>
-
-	&section;
+	<Source>
+		A VanOrman Original
+		<Note>Based on trick from Puerto Rico</Note>
+	</Source>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
-		On Ransom's mission a member once made hot chocolate for him. He was shocked to see him adding Sugar along with the Chocolate Drink mix! But when he tasted it, he was sold.<br />
-		Once home, Ransom played with ingredients, until he came up with this recipe. It has become so famous with the ward youth that he is asked to make it every time they have an outing where they get cold.
+		On Ransom's mission a member once made hot chocolate for him.
+		He was shocked to see him adding Sugar along with the Chocolate Drink mix!
+		But when he tasted it, he was sold.
+		<br />
+		Once home, Ransom played with ingredients, until he came up with this recipe.
+		It has become so famous with the ward youth that he is asked to make it every time they have an outing where they get cold.
 	</Description>
 
 	<Ingredients>
 		<section>
-			<ingredient>Evaporated Milk<amount>1 Can</amount></ingredient>
-			<ingredient>Water<amount>1&frac12; Cups</amount></ingredient>
-			<ingredient>
-				Chocolate Drink Mix<note>such as Quik</note>
-				<amount>6 teaspoons</amount>
-			</ingredient>
-			<ingredient>Sugar<amount>6 teaspoons</amount></ingredient>
-			<ingredient>Vanilla<amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient>
-				Cinnamon<note>Optional</note>
-				<amount>&frac14; teaspoon</amount>
-			</ingredient>
-			<ingredient>Salt<amount>A Shake</amount></ingredient>
+			<ingredient>Evaporated Milk <amount>1 Can</amount></ingredient>
+			<ingredient>Water <amount>1&frac12; Cups</amount></ingredient>
+			<ingredient>Chocolate Drink Mix <note>such as Quik</note><amount>6 teaspoons</amount></ingredient>
+			<ingredient>Sugar <amount>6 teaspoons</amount></ingredient>
+			<ingredient>Vanilla <amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Cinnamon <note>Optional</note><amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient>Salt <amount>A Shake</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
-			<instruction>
-				Place all ingredients in a saucepan.
-			</instruction>
-			<instruction>
-				Heat, stirring occasionally, until it is at the temperature you like.
-			</instruction>
+			<instruction>Place all ingredients in a saucepan.</instruction>
+			<instruction>Heat, stirring occasionally, until it is at the temperature you like.</instruction>
 		</section>
 	</Instructions>
 
@@ -62,7 +55,10 @@
 			If you do not have Evaporated Milk, you can replace it with:
 			<ul>
 				<li>Plain Milk <span class="NOTE">(Good, but not excellent)</span></li>
-				<li>&frac18;-&frac14; Cups Cream or Powdered Creamer <span class="NOTE">(Very good, but not excellent.)</span></li>
+				<li>
+					&frac18;-&frac14; Cups Cream or Powdered Creamer
+					<span class="NOTE">(Very good, but not excellent.)</span>
+				</li>
 			</ul>
 		</modification>
 		<modification>
@@ -70,8 +66,8 @@
 			<ul>
 				<li>Replace vanilla with &frac14; teaspoon Almond Extract.</li>
 				<li>
-					Add 1 Tablespoon Coconut Cream
-					<span class="NOTE">(Such as Coco Lopez. It is found by the alcohol "mixers".)</span>
+					Add 1 Tablespoon Coconut Cream <span class="NOTE">(Such as Coco Lopez.
+					It is found by the alcohol "mixers".)</span>
 				</li>
 			</ul>
 		</modification>

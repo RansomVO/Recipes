@@ -2,18 +2,24 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
-	<Title> One and Only Ham Glaze <Note>Or "Ransom's <span style="font-size:1.5em; text-decoration:underline;">A</span> Ham Glaze" where "Ransom's" means "Ransom is"</Note>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+	<Title>
+		One and Only Ham Glaze
+		<Note>
+			Or "Ransom's
+			<span style="font-size:1.5em; text-decoration:underline;">A</span>
+			Ham Glaze" where "Ransom's" means "Ransom is"
+		</Note>
 	</Title>
 	<Yields>For 1 Large Ham</Yields>
-	<Source> From the kitchen of Karla Therriault <Note>G's Grandma</Note></Source>
-
-	&section;
+	<Source>
+		From the kitchen of Karla Therriault
+		<Note>G's "Mama"</Note>
+	</Source>
 	<LastModified year="2025" month="5" day="5" />
 
 	<Description>
@@ -23,17 +29,11 @@
 
 	<Ingredients>
 		<section>
-			<ingredient>
-				Butter<note>Melted</note>
-				<amount>&frac12; Cup<note>1 Stick</note></amount>
-			</ingredient>
-			<ingredient>Brown Sugar<amount>2 Cups</amount></ingredient>
-			<ingredient>
-				Garlic<note>Minced</note>
-				<amount>3 Tablespoons</amount>
-			</ingredient>
-			<ingredient>Yellow Mustard<amount>&frac14; Cup</amount></ingredient>
-			<ingredient>Orange Juice Concentrate<amount>&frac12; Can</amount></ingredient>
+			<ingredient>Butter <note>Melted</note><amount>&frac12; Cup <note>1 Stick</note></amount></ingredient>
+			<ingredient>Brown Sugar <amount>2 Cups</amount></ingredient>
+			<ingredient>Garlic <note>Minced</note><amount>3 Tablespoons</amount></ingredient>
+			<ingredient>Yellow Mustard <amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Orange Juice Concentrate <amount>&frac12; Can</amount></ingredient>
 		</section>
 	</Ingredients>
 
@@ -46,9 +46,19 @@
 			<instruction>Follow baking instructions for the Ham.</instruction>
 		</section>
 		<section id="BakingHam" title="Baking Ham">
-			<description>In our case, "<span class="NOTE">Follow baking instructions for the Ham.</span>" usually involves:</description>
+			<description>
+				In our case, "<span class="NOTE">Follow baking instructions for the Ham.</span>
+				" usually involves:
+			</description>
 			<instruction>In a criss-cross pattern, lay several sheets of foil that are long enough to completely wrap around the Ham.</instruction>
-			<instruction>Set the Ham in the middle and fold <span class="EMPHASIZE">up</span> 1 layer of foil, but <span class="SUPER_EMPHASIZE">not</span> fold it <span class="EMPHASIZE">over</span>.</instruction>
+			<instruction>
+				Set the Ham in the middle and fold
+				<span class="EMPHASIZE">up</span>
+				1 layer of foil, but
+				<span class="SUPER_EMPHASIZE">not</span>
+				fold it
+				<span class="EMPHASIZE">over</span>.
+			</instruction>
 			<instruction>Apply the Glaze to the Ham and immediately fold each layer the foil up and over securely.</instruction>
 			<instruction>Bake the Ham at the appropriate temperature for the appropriate amount of time until it is done.</instruction>
 		</section>
@@ -56,7 +66,8 @@
 
 	<Modifications>
 		<modification>
-			If your oven has a convection setting, at the end of cooking the ham, unwrap the foil, change to convection and turn up the heat to 425&deg;.<br />
+			If your oven has a convection setting, at the end of cooking the ham, unwrap the foil, change to convection and turn up the heat to 425&deg;.
+			<br />
 			This gives the glaze a flame-broiled appearance.
 		</modification>
 	</Modifications>

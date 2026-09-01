@@ -2,23 +2,19 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Green Bean Casserole</Title>
 	<Yields><span class="TODO">???</span></Yields>
 	<Source>From the kitchen of Campbell's Soup</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		Ransom doesn't care much for this dish, but he can eat it to avoid getting in trouble.
-		&smiley;
-		However, most other people do like this dish.
+		&smiley; However, most other people do like this dish.
 	</Description>
 
 	<Ingredients>
@@ -28,19 +24,19 @@
 			<ingredient>Soy Sauce<amount>2 Teaspons</amount></ingredient>
 			<ingredient>Pepper<amount>&frac14; Teaspon</amount></ingredient>
 			<ingredient>French's Fried Onions<amount>1 6-oz. Container</amount></ingredient>
-			<ingredient>
-				Cut Green Beans
-				<amount>8 Cups<note>or 4 Cans</note></amount>
-			</ingredient>
+			<ingredient>Cut Green Beans <amount>8 Cups<note>or 4 Cans</note></amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
 			<instruction>Preheat the oven to 350&deg;.</instruction>
-			<instruction>Mix Soup, Milk, Soy Sauce, Pepper and half of the of French's Fried Onions <span class="NOTE">(approximately 1&frac13; Cups)</span>.</instruction>
+			<instruction>
+				Mix Soup, Milk, Soy Sauce, Pepper and half of the of French's Fried Onions
+				<span class="NOTE">(approximately 1&frac13; Cups)</span>.
+			</instruction>
 			<instruction>Mix in Green Beans.</instruction>
-			<instruction>Place in 9&inch; &by; 13&inch; casserole pan.</instruction>
+			<instruction>Place in 9&inches; &by; 13&inches; casserole pan.</instruction>
 			<instruction>Bake at 350&deg; for 25 minutes.</instruction>
 			<instruction>Remove from oven and sprinkle the remaining French's Fried Onions evenly across the top, then bake for an additional 5 minutes.</instruction>
 		</section>
@@ -48,7 +44,7 @@
 
 	<Notes>
 		<note>
-			You can make just an 8&inch; &by; 8&inch; by doing &frac12; a batch.
+			You can make just an 8&inches; &by; 8&inches; by doing &frac12; a batch.
 			<span class="NOTE">(But you'll probably want more than just &frac12; of the French's Fried Onions for the top.)</span>
 		</note>
 	</Notes>
@@ -56,7 +52,8 @@
 	<Modifications>
 		<modification>Add &frac12; Cup Chopped Red Bell Pepper in Step 2.</modification>
 		<modification>
-			Add &frac12; Cup Shredded Cheese in Step 2.<br />
+			Add &frac12; Cup Shredded Cheese in Step 2.
+			<br />
 			Then sprinkle some more on top before adding the French's Fried Onions in Step 6.
 		</modification>
 	</Modifications>

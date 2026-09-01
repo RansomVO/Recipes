@@ -2,17 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Creamy Soft Toffee</Title>
-	<Yields>150 1&inch; squares</Yields>
+	<Yields>150 1&inches; squares</Yields>
 	<Source>A VanOrman Original</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -28,21 +25,19 @@
 			<ingredient>Light Corn Syrup<amount>1 Cup</amount></ingredient>
 			<ingredient>Evaporated milk<amount>1 Cup</amount></ingredient>
 			<ingredient>Heavy Whipping Cream<amount>1 Pint</amount></ingredient>
-			<ingredient>
-				Butter
-				<amount>1 Cup<note>2 Sticks</note></amount>
-			</ingredient>
+			<ingredient>Butter <amount>1 Cup<note>2 Sticks</note></amount></ingredient>
 			<ingredient>Vanilla<amount>1&frac14; teaspoons</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
-			<instruction>Lightly spray a 10&inch; &by; 15&inch; cookie sheet with non-stick spray.</instruction>
+			<instruction>Lightly spray a 10&inches; &by; 15&inches; cookie sheet with non-stick spray.</instruction>
 			<instruction>In a LARGE, non-stick pot, combine all ingredients except Vanilla.</instruction>
 			<instruction>Heat mixture on high, using a candy thermometer to monitor temperature.</instruction>
 			<instruction>
-				Stirring very frequently, heat to 253&deg; F.<br />
+				Stirring very frequently, heat to 253&deg; F.
+				<br />
 				<span class="NOTE">(I know 253&deg; sounds weird, but 250&deg; leaves it runny, and 255&deg; makes it brittle.)</span>
 			</instruction>
 			<instruction>When it reaches temperature, immediately remove the pot from the heat.</instruction>
@@ -55,13 +50,18 @@
 	<Notes>
 		<note>
 			<span class="SUPER_EMPHASIZE">Warning!</span>
-			Mixture will more than double while heating, then will reduce as it nears the correct temperature, so make sure you use a <span class="SUPER_EMPHASIZE">Large</span> non-stick pot.
+			Mixture will more than double while heating, then will reduce as it nears the correct temperature, so make sure you use a
+			<span class="SUPER_EMPHASIZE">Large</span>
+			non-stick pot.
 		</note>
 		<note>
 			Cutting it up is a challenge.
-			At first, I used a hot, large, sharp, chopping knife, and was able to get it if I was patient.<br />
-			Then I found if you waited until was nearly cool you can use a Pizza Cutter to do the primary cutting.<br />
-			<span class="NOTE"><span class="EMPHASIZE">NOTE</span>: If you leave the edges touching, they will merge back together.</span>
+			At first, I used a hot, large, sharp, chopping knife, and was able to get it if I was patient.
+			<br />
+			Then I found if you waited until was nearly cool you can use a Pizza Cutter to do the primary cutting.
+			<br />
+			<span class="NOTE"><span class="EMPHASIZE">NOTE</span>:
+			If you leave the edges touching, they will merge back together.</span>
 		</note>
 	</Notes>
 </Recipe>

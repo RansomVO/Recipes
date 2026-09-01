@@ -2,17 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Monkey Bread</Title>
 	<Yields>6-8 servings</Yields>
 	<Source>Not sure where we got this.</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -25,19 +22,14 @@
 			<ingredient>Sugar<amount>&frac12; Cup</amount></ingredient>
 			<ingredient>Cinnamon<amount>2 teaspoons</amount></ingredient>
 			<ingredient>Biscuit Dough<amount>3 7.5-oz. Tubes</amount></ingredient>
-			<ingredient>
-				Butter
-				<amount>&frac12; Cup<note>1 Stick</note></amount>
-			</ingredient>
+			<ingredient>Butter <amount>&frac12; Cup<note>1 Stick</note></amount></ingredient>
 			<ingredient>Brown Sugar<amount>1 Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
-			<instruction>
-				Preheat oven to 350&deg;.
-			</instruction>
+			<instruction>Preheat oven to 350&deg;.</instruction>
 			<instruction>In a large bag <span class="NOTE">(such as a 1-gallon Ziploc)</span> combine Sugar and Cinnamon.</instruction>
 			<instruction>Remove each Biscuit from the tube and cut them into 4 pieces each.</instruction>
 			<instruction>Place &approx;10 Biscuit pieces into the bag of Cinnamon Sugar and shake until they are completely covered.</instruction>

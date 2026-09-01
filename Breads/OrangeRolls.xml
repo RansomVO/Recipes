@@ -2,27 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Orange Rolls</Title>
 	<Yields><span class="TODO">???</span></Yields>
 	<Source>A VanOrman Original</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description />
 
 	<Ingredients>
 		<section id="IngredientsDough" title="Dough">
-			<ingredient>
-				Butter
-				<amount>&frac12; Cup<note>1 Stick</note></amount>
-			</ingredient>
+			<ingredient>Butter <amount>&frac12; Cup<note>1 Stick</note></amount></ingredient>
 			<ingredient>Buttermilk<amount>2 Cups</amount></ingredient>
 			<ingredient>Yeast<amount>2 Tablespoons</amount></ingredient>
 			<ingredient>Baking Soda<amount>&frac12; teaspoon</amount></ingredient>
@@ -32,25 +26,13 @@
 		</section>
 		<section id="IngredientsFilling" title="Filling">
 			<ingredient>Sugar<amount>&frac34; Cup</amount></ingredient>
-			<ingredient>
-				Butter<note>softened</note>
-				<amount>&frac12; Cup<note>1 Stick</note></amount>
-			</ingredient>
-			<ingredient>
-				Cream Cheese<note>softened</note>
-				<amount>1 8-oz. Package</amount>
-			</ingredient>
+			<ingredient>Butter<note>softened</note><amount>&frac12; Cup<note>1 Stick</note></amount></ingredient>
+			<ingredient>Cream Cheese<note>softened</note><amount>1 8-oz. Package</amount></ingredient>
 			<ingredient>Zest from Rind of 1 Orange</ingredient>
 		</section>
 		<section id="IngredientsGlaze" title="Glaze">
-			<ingredient>
-				Juice from 1 Orange
-				<amount><note>&approx;&frac14; Cup</note></amount>
-			</ingredient>
-			<ingredient>
-				Butter
-				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
-			</ingredient>
+			<ingredient>Juice from 1 Orange <amount><note>&approx;&frac14; Cup</note></amount></ingredient>
+			<ingredient>Butter <amount>&frac14; Cup<note>&frac12; Stick</note></amount></ingredient>
 			<ingredient>Powdered Sugar<amount>1 Cup</amount></ingredient>
 			<ingredient>Vanilla<amount>&frac12; teaspoon</amount></ingredient>
 		</section>
@@ -61,7 +43,10 @@
 			<instruction>In a sauce pan, melt the Butter.</instruction>
 			<instruction>Add Buttermilk and heat until luke warm.</instruction>
 			<instruction>Pour into large mixing bowl, and add Yeast.</instruction>
-			<instruction>Let sit until Yeast begins to foam. (&approx;3 minutes)</instruction>
+			<instruction>
+				Let sit until Yeast begins to foam.
+				(&approx;3 minutes)
+			</instruction>
 			<instruction>Add in Baking Soda, Sugar and Salt, and mix well.</instruction>
 			<instruction>Mix in Flour, one cup at a time, until dough is not sticky</instruction>
 			<instruction>Knead Dough for 10 minutes, adding more Flour if dough is sticky.</instruction>
@@ -74,9 +59,9 @@
 		</section>
 		<section id="InstructionsAssembling" title="Assembling">
 			<instruction>Punch dough down and divide into thirds.</instruction>
-			<instruction>Roll each third out into a 9&inch; &by; 12&inch; rectangle.</instruction>
+			<instruction>Roll each third out into a 9&inches; &by; 12&inches; rectangle.</instruction>
 			<instruction>Spread filling evenly across dough making sure it goes all the way to the edges.</instruction>
-			<instruction>Using a pizza cutter, cut the long way into 6 strips, each one &approx;1&frac12;&inch; wide and 12&inch; long.</instruction>
+			<instruction>Using a pizza cutter, cut the long way into 6 strips, each one &approx;1&frac12;&inches; wide and 12&inches; long.</instruction>
 			<instruction>Roll each strip up into a disk, and place, on its side, into a greased Texas Muffin Tin.</instruction>
 			<instruction>Let rise &approx;30 minutes.</instruction>
 		</section>
@@ -87,7 +72,8 @@
 		<section id="InstructionsFinishing" title="Finishing">
 			<instruction>Preheat Oven to 350&deg;.</instruction>
 			<instruction>
-				 Bake at 350&deg; for 14-16 minutes until golden brown.<br />
+				Bake at 350&deg; for 14-16 minutes until golden brown.
+				<br />
 				<span class="EMPHASIZE">Be very careful to not over cook!</span>
 			</instruction>
 			<instruction>Brush Glaze on while Orange Rolls are still hot.</instruction>

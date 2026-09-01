@@ -2,18 +2,17 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Sour Cream Sugar Cookies</Title>
 	<Yields>About <span class="TODO">???</span></Yields>
-	<Source>From the Kitchen of Heather Johnson</Source>
-	<Note>From Issaquah 5th Ward</Note>
-
-	&section;
+	<Source>
+		From the Kitchen of Heather Johnson
+		<Note>From Issaquah 5th Ward</Note>
+	</Source>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -23,34 +22,22 @@
 
 	<Ingredients>
 		<section id="IngredientsCookies" title="Cookies">
-			<ingredient>Sugar<amount>2 Cups</amount></ingredient>
-			<ingredient>
-				Butter<note>Softened</note>
-				<amount>1 Cup<note>2 Sticks</note></amount>
-			</ingredient>
-			<ingredient>Eggs<amount>3</amount></ingredient>
-			<ingredient>Sour Cream<amount>1 Cup</amount></ingredient>
-			<ingredient>Vanilla<amount>1 teaspoon</amount></ingredient>
-			<ingredient>Baking Soda<amount>1 teaspoon</amount></ingredient>
-			<ingredient>Flour<amount>6&frac12; Cups</amount></ingredient>
-			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Sugar <amount>2 Cups</amount></ingredient>
+			<ingredient>Butter <note>Softened</note><amount>1 Cup <note>2 Sticks</note></amount></ingredient>
+			<ingredient>Eggs <amount>3</amount></ingredient>
+			<ingredient>Sour Cream <amount>1 Cup</amount></ingredient>
+			<ingredient>Vanilla <amount>1 teaspoon</amount></ingredient>
+			<ingredient>Baking Soda <amount>1 teaspoon</amount></ingredient>
+			<ingredient>Flour <amount>6&frac12; Cups</amount></ingredient>
+			<ingredient>Salt <amount>1 teaspoon</amount></ingredient>
 		</section>
 		<section id="IngredientsFrosting" title="Frosting">
-			<ingredient>
-				Butter<note>Softened</note>
-				<amount>&frac12; Cup<note>1 Stick</note></amount>
-			</ingredient>
-			<ingredient>Cream Cheese<amount>1 8-oz. Package</amount></ingredient>
-			<ingredient>Vanilla<amount>1 teaspoon</amount></ingredient>
-			<ingredient>Powdered Sugar<amount>4 Cups</amount></ingredient>
-			<ingredient>
-				Food Coloring<note>Optional</note>
-				<amount>A Few Drops</amount>
-			</ingredient>
-			<ingredient>
-				Milk
-				<amount><note>as needed</note></amount>
-			</ingredient>
+			<ingredient>Butter <note>Softened</note><amount>&frac12; Cup <note>1 Stick</note></amount></ingredient>
+			<ingredient>Cream Cheese <amount>1 8-oz. Package </amount></ingredient>
+			<ingredient>Vanilla <amount>1 teaspoon</amount></ingredient>
+			<ingredient>Powdered Sugar <amount>4 Cups</amount></ingredient>
+			<ingredient>Food Coloring <note>Optional</note><amount>A Few Drops</amount></ingredient>
+			<ingredient>Milk <amount><note>as needed</note></amount></ingredient>
 		</section>
 	</Ingredients>
 
@@ -62,7 +49,7 @@
 			<instruction>Stir in Sour Cream and Vanilla.</instruction>
 			<instruction>Stir in the rest of the ingredients.</instruction>
 			<instruction>Flatten dough between plastic wrap and refrigerate several hours until cold/hard.</instruction>
-			<instruction>Roll dough to &frac14;&inch; thick, cut with cookie cutters and place on a greased cookie sheet.</instruction>
+			<instruction>Roll dough to &frac14;&inches; thick, cut with cookie cutters and place on a greased cookie sheet.</instruction>
 			<instruction>Bake at 350&deg; for 10 minutes.</instruction>
 			<instruction>Let cool, then frost.</instruction>
 		</section>

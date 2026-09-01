@@ -2,18 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Dutch Father's Pizza</Title>
 	<Yields>See Notes</Yields>
 	<Source>A VanOrman Original</Source>
-	<Requires class="TODO">12&inch;-20&inch; Dutch Oven</Requires>
-
-	&section;
+	<Requires class="TODO">12&inches;-20&inches; Dutch Oven</Requires>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -37,10 +34,7 @@
 			<ingredient>Onion Powder<amount>&frac12; teaspoon</amount></ingredient>
 		</section>
 		<section id="IngredientsCrust" title="Crust">
-			<ingredient>
-				Water<note>Warm</note>
-				<amount>2 Cups</amount>
-			</ingredient>
+			<ingredient>Water<note>Warm</note><amount>2 Cups</amount></ingredient>
 			<ingredient>Sugar<amount>&frac14; Cup</amount></ingredient>
 			<ingredient>Yeast<amount>1 Package</amount></ingredient>
 			<ingredient>Salt<amount>1 Tablespoon</amount></ingredient>
@@ -49,12 +43,8 @@
 			<ingredient>Flour<amount>6 Cups</amount></ingredient>
 		</section>
 		<section id="IngredientsToppingSuggestions" title="Topping Suggestions">
-			<ingredient>
-				Cheese<note>&frac12; Mozzarella + &frac12; Cheddar</note>
-			</ingredient>
-			<ingredient>
-				Ground Sausage<note>Pre-cooked</note>
-			</ingredient>
+			<ingredient>Cheese<note>&frac12; Mozzarella + &frac12; Cheddar</note></ingredient>
+			<ingredient>Ground Sausage<note>Pre-cooked</note></ingredient>
 			<ingredient>Pepperoni</ingredient>
 			<ingredient>Ham</ingredient>
 			<ingredient>Canadian Bacon</ingredient>
@@ -62,9 +52,7 @@
 			<ingredient>Peppers</ingredient>
 			<ingredient>Mushrooms</ingredient>
 			<ingredient>Olives</ingredient>
-			<ingredient>
-				Tomatoes<note>Sliced</note>
-			</ingredient>
+			<ingredient>Tomatoes<note>Sliced</note></ingredient>
 			<ingredient>
 				Pineapple
 				<finePrint>Personally, Ransom thinks pineapple is a desecration on pizza, but his kids forced him to include it.</finePrint>
@@ -73,24 +61,25 @@
 	</Ingredients>
 
 	<Instructions pageBreak="true">
-		<section id="InstructionsSauce" title="Sauce">
-			<instruction>In pot, combine all Sauce Ingredients and simmer for 15 minutes, stirring occationally.</instruction>
-		</section>
+		<section id="InstructionsSauce" title="Sauce"><instruction>In pot, combine all Sauce Ingredients and simmer for 15 minutes, stirring occationally.</instruction></section>
 		<section id="InstructionsCrust" title="Crust">
 			<instruction>Mix Sugar into Water, then add Yeast.</instruction>
 			<instruction>When Yeast begins to foam, add all other ingredients and knead for 10 minutes.</instruction>
-			<instruction>Put in greased bowl, cover and let rise until doubled. (&approx;30 minutes.)</instruction>
+			<instruction>
+				Put in greased bowl, cover and let rise until doubled.
+				(&approx;30 minutes.)
+			</instruction>
 		</section>
 		<section id="InstructionsAssembling" title="Assembling">
 			<instruction>Line Dutch Oven with foil.</instruction>
-			<instruction>Spread butter all over the bottom and up the edges &approx;2&inch;.</instruction>
+			<instruction>Spread butter all over the bottom and up the edges &approx;2&inches;.</instruction>
 			<instruction>
-				Roll out crust to &approx;&frac14;&inch; thick and &approx;2&inch;-4&inch; larger around than Dutch Oven.
+				Roll out crust to &approx;&frac14;&inches; thick and &approx;2&inches;-4&inches; larger around than Dutch Oven.
 				(There should be enough dough for 2-3 crusts.)
 			</instruction>
 			<instruction>
 				Place in Dutch Oven.
-				Press the edges so they go up the side 1&inch;-2&inch;.
+				Press the edges so they go up the side 1&inches;-2&inches;.
 			</instruction>
 			<instruction>Cover crust with sauce.</instruction>
 			<instruction>Add the toppings desired.</instruction>
@@ -102,16 +91,22 @@
 		<section id="Cooking" title="Cooking">
 			<instruction>
 				On top, put 2 charcol briquettes for each inch in diameter.
-				<span class="NOTE">(For example, 24 briquettes for a 12&inch; Dutch Oven.)</span>
+				<span class="NOTE">(For example, 24 briquettes for a 12&inches; Dutch Oven.)</span>
 			</instruction>
 			<instruction>
 				The bottom should just be warm.
-				<span class="NOTE">(1 briquette for each 3&inch; in diameter. For example, 4 briquettes for a 12&inch; Dutch Oven.)</span>
+				<span class="NOTE">(1 briquette for each 3&inches; in diameter.
+				For example, 4 briquettes for a 12&inches; Dutch Oven.)</span>
 			</instruction>
-			<instruction>Cook until Cheese has melted then begins to turn golden brown. <span class="NOTE">(20-30 minutes)</span></instruction>
+			<instruction>
+				Cook until Cheese has melted then begins to turn golden brown.
+				<span class="NOTE">(20-30 minutes)</span>
+			</instruction>
 			<instruction>Remove all briquettes from the top and place them in a circle just under the edges of the bottom.</instruction>
 			<instruction>
-				Cook until bottom crust begins to brown. <span class="NOTE">(5-10 minutes)</span><br />
+				Cook until bottom crust begins to brown.
+				<span class="NOTE">(5-10 minutes)</span>
+				<br />
 				<span class="NOTE">(Check this by pulling up on the foil to lift the edge of the pizza.)</span>
 			</instruction>
 			<instruction>Remove the HOT lid from the Dutch Oven and place it upside down on the table.</instruction>
@@ -131,19 +126,27 @@
 	<Notes>
 		<note>It is best to make the sauce the night before you use it.</note>
 		<note>
-			A 2&inch;-thick 12&inch; pizza will feed 4 adults
-			<span class="NOTE">(or 2 Boy Scouts.<span class="EMPHASIZE">Not Kidding!</span>)</span>.
+			A 2&inches;-thick 12&inches; pizza will feed 4 adults <span class="NOTE">(or 2 Boy Scouts.
+			<span class="EMPHASIZE">Not Kidding!</span>
+			)</span>.
 		</note>
 		<note>
 			The thicker the pizza, the slower it must be cooked.
 			I made one where each layer of toppings obscured the layer below.
-			It was over 3&inch; thick and took over an hour to cook.
-			It sure was good though. &smiley; <br />
-			CAUTION: The most common problem is over-cooking the <span class="EMPHASIZE">bottom</span>.
+			It was over 3&inches; thick and took over an hour to cook.
+			It sure was good though.
+			&smiley;
+			<br />
+			CAUTION:
+			The most common problem is over-cooking the <span class="EMPHASIZE">bottom</span>.
 		</note>
 		<note>Use left-over sauce as a dipping sauce for the Pizza crusts.</note>
-		<note>Use the left-over dough to make <a href=".../Camping/Desserts/Twisties.xml">"Twisties"</a></note>
+		<note>Use the left-over dough to make <a href="&hellip;/Camping/Desserts/Twisties.xml">"Twisties"</a></note>
 	</Notes>
 
-	<FinalNote>A similar recipe for use at home: <a href=".../Entrees/Oven/Pizza.xml">Entrees / Oven: Pizza</a></FinalNote>
+	<FinalNote>
+		A similar recipe for use at home:
+		<a href="&hellip;/Entrees/Oven/Pizza.xml">Entrees / Oven:
+		Pizza</a>
+	</FinalNote>
 </Recipe>

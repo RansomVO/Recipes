@@ -2,21 +2,20 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Mud Punch</Title>
 	<Yields>8 1-Cup servings</Yields>
 	<Source>A VanOrman Original</Source>
-
-	&section;
 	<LastModified year="2025" month="3" day="27" />
 
 	<Description>
-		We have no idea why, but at a family gathering with nephews and nieces, Grandpa John just decided to mix a couple of juices. The results looked <span class="EMPHASIZE">disgusting</span> , but actually tasted really good.<br />
+		We have no idea why, but at a family gathering with nephews and nieces, Grandpa John just decided to mix a couple of juices.
+		The results looked <span class="EMPHASIZE">disgusting</span> , but actually tasted really good.
+		<br />
 		Because of the brown color, we decided to call it "Mud Punch".
 	</Description>
 
@@ -29,9 +28,7 @@
 
 	<Instructions>
 		<section>
-			<instruction>
-				In a large pitcher, combine both cans of Juice Concentrate.
-			</instruction>
+			<instruction>In a large pitcher, combine both cans of Juice Concentrate.</instruction>
 			<instruction>
 				Add the appropriate amount of water.
 				<span class="NOTE">(2 cans for each.)</span>
@@ -41,8 +38,6 @@
 	</Instructions>
 
 	<Notes>
-		<note>
-			These days, the coloring of the Juice Concentrates is generally artificial, so it doesn't look like mud so much, but it still tastes good.
-		</note>
+		<note>These days, the coloring of the Juice Concentrates is generally artificial, so it doesn't look like mud so much, but it still tastes good.</note>
 	</Notes>
 </Recipe>

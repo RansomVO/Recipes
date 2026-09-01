@@ -2,18 +2,17 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Pumpkin Pie</Title>
-	<Yields>2 9&inch; Pies</Yields>
-	<Source>From the Kitchen of Bobbi Beagley</Source>
-	<Note>Jennie's Mom</Note>
-
-	&section;
+	<Yields>2 9&inches; Pies</Yields>
+	<Source>
+		From the Kitchen of Bobbi Beagley
+		<Note>Jennie's Mom</Note>
+	</Source>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -25,57 +24,35 @@
 
 	<Ingredients>
 		<section>
-			<ingredient>Pumpkin<amount>1 29-oz. Can</amount></ingredient>
-			<ingredient>Evaporated Milk<amount>2 12-fl.Oz. Cans</amount></ingredient>
-			<ingredient>Sugar<amount>2 Cups</amount></ingredient>
-			<ingredient>Eggs<amount>4</amount></ingredient>
-			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
-			<ingredient>
-				Cinnamon<note>ground</note>
-				<amount>3 teaspoons</amount>
-			</ingredient>
-			<ingredient>
-				Nutmeg<note>ground</note>
-				<amount>1 teaspoon</amount>
-			</ingredient>
-			<ingredient>
-				Ginger<note>ground</note>
-				<amount>1 teaspoon</amount>
-			</ingredient>
-			<ingredient>
-				Allspice<note>ground</note>
-				<amount>1 teaspoon</amount>
-			</ingredient>
-			<ingredient>
-				Cloves<note>ground</note>
-				<amount>1 teaspoon</amount>
-			</ingredient>
+			<ingredient>Pumpkin <amount>1 29-oz. Can </amount></ingredient>
+			<ingredient>Evaporated Milk <amount>2 12-fl. Oz. Cans </amount></ingredient>
+			<ingredient>Sugar <amount>2 Cups</amount></ingredient>
+			<ingredient>Eggs <amount>4</amount></ingredient>
+			<ingredient>Salt <amount>1 teaspoon</amount></ingredient>
+			<ingredient>Cinnamon <note>ground</note><amount>3 teaspoons</amount></ingredient>
+			<ingredient>Nutmeg <note>ground</note><amount>1 teaspoon</amount></ingredient>
+			<ingredient>Ginger <note>ground</note><amount>1 teaspoon</amount></ingredient>
+			<ingredient>Allspice <note>ground</note><amount>1 teaspoon</amount></ingredient>
+			<ingredient>Cloves <note>ground</note><amount>1 teaspoon</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
-			<instruction>
-				Preheat oven to 425&deg;.
-			</instruction>
-			<instruction>
-				Mix all ingredients with a beater until smooth.
-			</instruction>
-			<instruction>
-				Pour into pie pans with uncooked pie crust.
-			</instruction>
-			<instruction>
-				Bake at 425&deg; for 15 minutes.
-			</instruction>
-			<instruction>
-				Reduce temperature to 350&deg; and bake for an additional 35 minutes.
-			</instruction>
+			<instruction>Preheat oven to 425&deg;.</instruction>
+			<instruction>Mix all ingredients with a beater until smooth.</instruction>
+			<instruction>Pour into pie pans with uncooked pie crust.</instruction>
+			<instruction>Bake at 425&deg; for 15 minutes.</instruction>
+			<instruction>Reduce temperature to 350&deg; and bake for an additional 35 minutes.</instruction>
 		</section>
 	</Instructions>
 
 	<Notes>
 		<note>
-			You <span class="SUPER_EMPHASIZE">cannot</span> serve pumpkin pie without whipped cream, or vanilla ice cream.<br />
+			You
+			<span class="SUPER_EMPHASIZE">cannot</span>
+			serve pumpkin pie without whipped cream, or vanilla ice cream.
+			<br />
 			<span class="HIGHLIGHT">(Or both &smiley;)</span>
 		</note>
 	</Notes>

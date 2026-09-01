@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE summary [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
 <Summary>
-	We really think this is a <b><u>HUGE</u></b> thing!<br />
-	We just haven't gotten anything here. <i>(Yet. &#x1F600;)</i>
+	We really think this is a <b><u>HUGE</u></b> thing!
+	<br />
+	We just haven't gotten anything here.
+	<i>(Yet.
+	&smiley;)</i>
 </Summary>

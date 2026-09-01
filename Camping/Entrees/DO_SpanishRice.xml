@@ -2,20 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Dutch Oven Spanish Rice</Title>
-	<Yields>6-8 Servings <Note>or 10-15 if just used as a side dish</Note>
+	<Yields>
+		6-8 Servings
+		<Note>or 10-15 if just used as a side dish</Note>
 	</Yields>
-	<Source>A VanOrman Original</Source>
-	<Requires>12&inch; Dutch Oven</Requires>
-	<Note>From Grandpa John</Note>
-
-	&section;
+	<Source>
+		A VanOrman Original
+		<Note>From Grandpa John</Note>
+	</Source>
+	<Requires>12&inches; Dutch Oven</Requires>
 	<LastModified year="2025" month="5" day="5" />
 
 	<Description>
@@ -25,33 +26,41 @@
 
 	<Ingredients>
 		<section>
-			<ingredient>Onions<amount>2</amount></ingredient>
-			<ingredient>Hamburger<amount>2-3 Lbs.</amount></ingredient>
-			<ingredient>Rice<amount>3 Cups</amount></ingredient>
-			<ingredient>
-				Water
-				<amount>1 Quart<note>Add more if necessary</note></amount>
-			</ingredient>
-			<ingredient>Green Bell Pepper<amount>1</amount></ingredient>
-			<ingredient>Tomato Soup<amount>1 10.75-oz. Can</amount></ingredient>
-			<ingredient>Tomato Sauce<amount>2 8-oz. Cans</amount></ingredient>
+			<ingredient>Onions <amount>2</amount></ingredient>
+			<ingredient>Hamburger <amount>2-3 Lbs.</amount></ingredient>
+			<ingredient>Rice <amount>3 Cups</amount></ingredient>
+			<ingredient>Water <amount>1 Quart <note>Add more if necessary</note></amount></ingredient>
+			<ingredient>Green Bell Pepper <amount>1</amount></ingredient>
+			<ingredient>Tomato Soup <amount>1 10. 75-oz. Can </amount></ingredient>
+			<ingredient>Tomato Sauce <amount>2 8-oz. Cans </amount></ingredient>
 			<ingredient>
 				Stewed Tomatoes
-				<amount>1 28-oz. Can<note>or 2 14.5-oz. Cans</note></amount>
+				<amount>
+					1 28-oz.
+					Can
+					<note>
+						or 2 14.
+						5-oz.
+						Cans
+					</note>
+				</amount>
 			</ingredient>
-			<ingredient>Salt<amount>1 Tablespoon</amount></ingredient>
-			<ingredient>Pepper<amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient>Salt <amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Pepper <amount>&frac14; teaspoon</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
-			<instruction>Cut Onion into &approx;&frac14;&inch; square pieces.</instruction>
-			<instruction>Cut Green Bell Pepper into &approx;&frac14;&inch; square pieces.</instruction>
+			<instruction>Cut Onion into &approx;&frac14;&inches; square pieces.</instruction>
+			<instruction>Cut Green Bell Pepper into &approx;&frac14;&inches; square pieces.</instruction>
 			<instruction>Place Dutch Oven on medium amount of charcoals.</instruction>
 			<instruction>Add Hamburger and Onions and cooke until browned.</instruction>
 			<instruction>Add all other ingredients and stir well.</instruction>
-			<instruction>Stirring occastionally, simmer until Rice is cooked. <span class="NOTE">(&approx;20-45 minutes)</span></instruction>
+			<instruction>
+				Stirring occastionally, simmer until Rice is cooked.
+				<span class="NOTE">(&approx;20-45 minutes)</span>
+			</instruction>
 		</section>
 	</Instructions>
 

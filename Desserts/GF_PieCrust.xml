@@ -2,46 +2,29 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Gluten-Free Pie Crust</Title>
 	<Yields><span class="TODO">ToDo</span></Yields>
-	<Source> From the kitchen of <span class="TODO">ToDo</span></Source>
-	<Note><span class="TODO">ToDo</span></Note>
-
-	&section;
+	<Source>
+		From the kitchen of <span class="TODO">ToDo</span>
+		<Note><span class="TODO">ToDo</span></Note>
+	</Source>
 	<LastModified year="2025" month="3" day="3" />
 
-	<Description>
-		<span class="TODO">ToDo</span>
-	</Description>
+	<Description><span class="TODO">ToDo</span></Description>
 
 	<Ingredients>
-		<section id="IngredientsToDo" title="ToDo">
-			<ingredient>
-				ToDo<note>ToDo</note>
-				<amount>1 ToDo<note>ToDo</note></amount>
-			</ingredient>
-		</section>
-		<section id="IngredientsToDo" title="ToDo">
-			<ingredient>
-				ToDo<note>ToDo</note>
-				<amount>1 ToDo<note>ToDo</note></amount>
-			</ingredient>
-		</section>
+		<section id="IngredientsToDo" title="ToDo"><ingredient>ToDo <note>ToDo</note><amount>1 ToDo <note>ToDo</note></amount></ingredient></section>
+		<section id="IngredientsToDo" title="ToDo"><ingredient>ToDo <note>ToDo</note><amount>1 ToDo <note>ToDo</note></amount></ingredient></section>
 	</Ingredients>
 
 	<Instructions>
-		<section id="InstructionsToDo" title="ToDo">
-			<instruction>Preheat oven to <span class="TODO">ToDo</span>&deg;</instruction>
-		</section>
-		<section id="InstructionsToDo" title="ToDo">
-			<instruction><span class="TODO">ToDo</span></instruction>
-		</section>
+		<section id="InstructionsToDo" title="ToDo"><instruction>Preheat oven to <span class="TODO">ToDo</span>&deg;</instruction></section>
+		<section id="InstructionsToDo" title="ToDo"><instruction><span class="TODO">ToDo</span></instruction></section>
 	</Instructions>
 
 	<Notes>

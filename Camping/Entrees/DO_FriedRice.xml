@@ -2,20 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Dutch Oven Fried Rice</Title>
-	<Yields>8-10 Servings <span class="Note">(or 15-20 if just used as a side dish)</span>
-	</Yields>
-	<Source>Based on a Recipe from <a href="https://en.wikipedia.org/wiki/Joy_of_Cooking">Joy of Cooking</a>
-	</Source>
-	<Requires>12&inch; Dutch Oven</Requires>
-
-	&section;
+	<Yields>8-10 Servings <span class="NOTE">(or 15-20 if just used as a side dish)</span></Yields>
+	<Source>Based on a Recipe from <a href="https://en.wikipedia.org/wiki/Joy_of_Cooking">Joy of Cooking</a></Source>
+	<Requires>12&inches; Dutch Oven</Requires>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -31,20 +26,12 @@
 			<ingredient>Water<amount>6 Cups</amount></ingredient>
 			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
 			<ingredient>Eggs<amount>4-6</amount></ingredient>
+			<ingredient>Ham<note>cut into &frac14;&inches; chunks</note><amount>1-2 Cups</amount></ingredient>
+			<ingredient>Chinese Cabbage<note>Shredded</note><amount>1-2 Cups</amount></ingredient>
+			<ingredient>Carrots<note>Sliced Thinly</note><amount>&frac12; Cup</amount></ingredient>
 			<ingredient>
-				Ham<note>cut into &frac14;&inch; chunks</note>
-				<amount>1-2 Cups</amount>
-			</ingredient>
-			<ingredient>
-				Chinese Cabbage<note>Shredded</note>
-				<amount>1-2 Cups</amount>
-			</ingredient>
-			<ingredient>
-				Carrots<note>Sliced Thinly</note>
-				<amount>&frac12; Cup</amount>
-			</ingredient>
-			<ingredient>
-				Onions<note>Cut into &frac12;&inch; &by; 1&inch;</note>
+				Onions
+				<note>Cut into &frac12;&inches; &by; 1&inches;</note>
 				<amount>&frac12;-1 Cup</amount>
 			</ingredient>
 			<ingredient>Soy Sauce<amount>2-4 Tablespoons</amount></ingredient>
@@ -56,10 +43,15 @@
 			<instruction>Place Dutch Oven on medium amount of charcoals.</instruction>
 			<instruction>Add Oil and Uncooked Rice and saut&eacute;, stirring/scraping frequently until Rice begins to brown.</instruction>
 			<instruction>Add Water and Salt and stir well.</instruction>
-			<instruction>Cook with the lid on, stirring occasionally until Rice is cooked. <span class="NOTE">(&approx;20-45 minutes)</span></instruction>
+			<instruction>
+				Cook with the lid on, stirring occasionally until Rice is cooked.
+				<span class="NOTE">(&approx;20-45 minutes)</span>
+			</instruction>
 			<instruction>
 				Dig as large of a hole as possible in the center, all the way to the bottom.
-				Then add Eggs and stir them <span class="NOTE">(not Rice)</span> until they are small fully-cooked pieces.
+				Then add Eggs and stir them
+				<span class="NOTE">(not Rice)</span>
+				until they are small fully-cooked pieces.
 			</instruction>
 			<instruction>Add Ham, Chineese Cabbage, Carrots, and Onion then stir and let steam for 5-10 minutes.</instruction>
 			<instruction>Add Soy Sauce and stir very well.</instruction>
@@ -68,7 +60,7 @@
 
 	<Modifications>
 		<modification>Instead of Chinese Cabbage, use Celery Greens</modification>
-		<modification>Replace some or all of the Onions with Scallions cut into &frac12;&inch; lengths.</modification>
+		<modification>Replace some or all of the Onions with Scallions cut into &frac12;&inches; lengths.</modification>
 		<modification>If it just going to be a side dish, the amount of Ham can be reduced or left out completely.</modification>
 		<modification>Instead of Ham, use pre-cooked Chicken or Beef pieces.</modification>
 	</Modifications>

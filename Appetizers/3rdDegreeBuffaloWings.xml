@@ -1,23 +1,20 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>3<sup>rd</sup> Degree Buffalo Wings</Title>
 	<Yields>5 Servings</Yields>
 	<Source>A VanOrman Original</Source>
 	<LastModified year="2025" month="6" day="6" />
 
-	<!-- -->&section;<!-- -->
-
 	<Description>
-		When Ransom made his first attempt at this recipe, he left the room while the oil heated <span class="NOTE">(with the lid on)</span>.
+		When Ransom made his first attempt at this recipe, he left the room while the oil heated
+		<span class="NOTE">(with the lid on)</span>.
 		When he came back, the oil was smoking, so he lifted the lid to let it cool.
 		<br />
 		Long story short, it burst into flames, splashed on his hand, arm and foot causing 1<sup>st</sup>, 2<sup>nd</sup> and near 3<sup>rd</sup> degree burns.
@@ -35,24 +32,12 @@
 			<ingredient>Paprika<amount>&frac12; teaspoon</amount></ingredient>
 			<ingredient>Cayenne Pepper<amount>&frac12; teaspoon</amount></ingredient>
 			<ingredient>Salt<amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient>
-				Chicken Wings
-				<amount>20 Pieces<note>&approx;3 Lbs.</note></amount>
-			</ingredient>
-			<ingredient>
-				Oil
-				<amount><note>for Deep Frying</note></amount>
-			</ingredient>
+			<ingredient>Chicken Wings <amount>20 Pieces<note>&approx;3 Lbs.</note></amount></ingredient>
+			<ingredient>Oil <amount><note>for Deep Frying</note></amount></ingredient>
 		</section>
 		<section id="IngredientsSauce" title="Sauce">
-			<ingredient>
-				Butter
-				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
-			</ingredient>
-			<ingredient>
-				Hot Sauce<note>Such as Tapat&iacute;o</note>
-				<amount>&frac12; Cup</amount>
-			</ingredient>
+			<ingredient>Butter <amount>&frac14; Cup<note>&frac12; Stick</note></amount></ingredient>
+			<ingredient>Hot Sauce<note>Such as Tapat&iacute;o</note><amount>&frac12; Cup</amount></ingredient>
 			<ingredient>Ground Black Pepper<amount>2 Dashes</amount></ingredient>
 			<ingredient>Garlic Powder<amount>2 Dashes</amount></ingredient>
 		</section>
@@ -65,7 +50,7 @@
 			<instruction>
 				Cover bowl and refrigerate for 60 to 90 minutes.
 				<br />
-				<span class="Note">(While waiting, make sauce)</span>
+				<span class="NOTE">(While waiting, make sauce)</span>
 			</instruction>
 			<instruction>Heat Oil in a deep fryer to 375&deg;</instruction>
 			<instruction>Fry Chicken Wings in hot Oil for 10 to 15 minutes, until they begin to turn brown.</instruction>

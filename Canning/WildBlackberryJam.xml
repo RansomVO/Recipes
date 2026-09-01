@@ -2,17 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Wild Blackberry Jam</Title>
 	<Yields>4 pints</Yields>
 	<Source>Basic</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -24,7 +21,8 @@
 	<Ingredients>
 		<section>
 			<ingredient>
-				Wild Blackberries<note>Mashed</note>
+				Wild Blackberries
+				<note>Mashed</note>
 				<amount>5 Cups<note>Requires &approx;7-8 Cups fresh berries</note></amount>
 			</ingredient>
 			<ingredient>Sugar<amount>4 Cups</amount></ingredient>
@@ -49,7 +47,10 @@
 			<instruction>In a separate bowl, mix Sugar and Pectin.</instruction>
 			<instruction>When berry mixture is boiling, slowly mix in Sugar/Pectin mixture and stir until well dissolved.</instruction>
 			<instruction>Bring mixture to a boil again, and boil for 1 minute, then remove from heat immediately.</instruction>
-			<instruction>Follow instructions in the <a href=".../Canning/BathCanningHowTo.xml">Bath Canning: How-To</a> section.</instruction>
+			<instruction>
+				Follow instructions in the <a href="&hellip;/Canning/BathCanningHowTo.xml">Bath Canning:
+				How-To</a> section.
+			</instruction>
 		</section>
 	</Instructions>
 

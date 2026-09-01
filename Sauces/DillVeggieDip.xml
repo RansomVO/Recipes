@@ -2,17 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Dill Veggie Dip</Title>
 	<Yields>1 Pint</Yields>
 	<Source>A VanOrman Original</Source>
-
-	&section;
 	<LastModified year="2025" month="3" day="31" />
 
 	<Description>This dip is ideal for veggie trays.</Description>
@@ -23,10 +20,7 @@
 			<ingredient>Mayonnaise<amount>1 Cup</amount></ingredient>
 			<ingredient>Dill Weed<amount>1 teaspoon</amount></ingredient>
 			<ingredient>Bon Ap&eacute;tite<amount>2 teaspoons</amount></ingredient>
-			<ingredient>
-				Scallions<note>Green Onions</note>
-				<amount>5</amount>
-			</ingredient>
+			<ingredient>Scallions<note>Green Onions</note><amount>5</amount></ingredient>
 		</section>
 	</Ingredients>
 
@@ -38,15 +32,15 @@
 	</Instructions>
 
 	<Notes>
+		<note>Bon Ap&eacute;tite is a spice you can find near the Ginger powder, etc.</note>
 		<note>
-			Bon Ap&eacute;tite is a spice you can find near the Ginger powder, etc.
-		</note>
-		<note>
-			Do <span class="SUPER_EMPHASIZE">not</span> use fat-free mayonnaise!<br />
+			Do <span class="SUPER_EMPHASIZE">not</span> use fat-free mayonnaise!
+			<br />
 			It will cause the dip to become a clumpy mess.
 		</note>
 		<note>
-			Do <span class="SUPER_EMPHASIZE">not</span> substitute Miracle Whip or "salad dressing" for the mayonnaise!<br />
+			Do <span class="SUPER_EMPHASIZE">not</span> substitute Miracle Whip or "salad dressing" for the mayonnaise!
+			<br />
 			It changes the taste negatively.
 		</note>
 	</Notes>

@@ -2,18 +2,10 @@
 <?xml-stylesheet type="text/xsl" href="../../index.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Index [
-	<!ENTITY section SYSTEM "section.xml">
-	<!ENTITY parentSection SYSTEM "../section.xml">
-	<!ENTITY summary SYSTEM "summary.xml">
-	<!ENTITY pages SYSTEM "pages.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
 <Index>
-	&section;
-	<ParentSection>&parentSection;</ParentSection>
-	&summary;
 	<LastModified year="2025" month="4" day="9" />
-	&pages;
 </Index>

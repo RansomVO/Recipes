@@ -2,31 +2,26 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Fried Rice</Title>
 	<Yields>12-15 Servings</Yields>
 	<Source>Classic</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		When Ransom was a Scout Master for 11-year-olds, he wanted to make a special Dutch Oven meal for their first campout.
-		He went through a bunch of cookbooks and came up with a recipe similar to this one, which he used as a main course.<br />
+		He went through a bunch of cookbooks and came up with a recipe similar to this one, which he used as a main course.
+		<br />
 		Later, after he was married, he was given a Wok, so he modified that recipe to this one for use as a side dish.
 	</Description>
 
 	<Ingredients>
 		<section>
-			<ingredient>
-				Cooked Rice<note>Cold or Cool</note>
-				<amount>6-8 Cups</amount>
-			</ingredient>
+			<ingredient>Cooked Rice<note>Cold or Cool</note><amount>6-8 Cups</amount></ingredient>
 			<ingredient>Vegetable Oil<amount>1 Cup</amount></ingredient>
 			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
 			<ingredient>Chicken<amount>&frac14;-1 Lbs.</amount></ingredient>
@@ -34,10 +29,7 @@
 		</section>
 		<section>
 			<ingredient>Carrots<amount>1-2</amount></ingredient>
-			<ingredient>
-				Scallions<note>Green Onions</note>
-				<amount>3-4</amount>
-			</ingredient>
+			<ingredient>Scallions<note>Green Onions</note><amount>3-4</amount></ingredient>
 			<ingredient>Eggs<amount>3-4</amount></ingredient>
 			<ingredient>Soy Sauce<amount>&frac14; Cup</amount></ingredient>
 		</section>
@@ -50,20 +42,28 @@
 				<span class="NOTE">(Goal is to have 1-2 Cups.)</span>
 			</instruction>
 			<instruction>Coarsely shred the Carrots.</instruction>
-			<instruction>Slice the Scallions into &frac12;&inch; pieces.</instruction>
-			<instruction>Cut Chicken into &frac14;&inch; chunks, thoroughly cook, then set aside.</instruction>
+			<instruction>Slice the Scallions into &frac12;&inches; pieces.</instruction>
+			<instruction>Cut Chicken into &frac14;&inches; chunks, thoroughly cook, then set aside.</instruction>
 			<instruction>In a large wok or pot, combine Rice and Oil.</instruction>
-			<instruction>Cook the mixture on medium-high heat, stirring frequently, until Rice begins to brown. <span class="NOTE">(10-15 minutes)</span></instruction>
+			<instruction>
+				Cook the mixture on medium-high heat, stirring frequently, until Rice begins to brown.
+				<span class="NOTE">(10-15 minutes)</span>
+			</instruction>
 			<instruction>Add Chicken and vegetables, then stir well.</instruction>
 			<instruction>Dig as large of a hole as possible in the center of the Rice, all the way to the bottom, pushing the Rice to the outside edges of the wok or pot.</instruction>
-			<instruction>Break the Eggs into the hole, then stir the Eggs <span class="NOTE">(not the Rice)</span> until the Eggs are cooked and shredded.</instruction>
+			<instruction>
+				Break the Eggs into the hole, then stir the Eggs
+				<span class="NOTE">(not the Rice)</span>
+				until the Eggs are cooked and shredded.
+			</instruction>
 			<instruction>Stir entire mixture together, then add Soy Sauce.</instruction>
 		</section>
 	</Instructions>
 
 	<Notes>
 		<note>
-			For best results, cook the Rice the day before, then let it sit in the refrigerator overnight.<br />
+			For best results, cook the Rice the day before, then let it sit in the refrigerator overnight.
+			<br />
 			If that is not possible, cook the Rice then spread it out to cool on a cookie sheet or butcher paper.
 		</note>
 		<note>A cheese grater is ideal for "coarsely shredding" the Carrots.</note>
@@ -71,7 +71,9 @@
 
 	<Modifications>
 		<modification>
-			Instead of Chicken, you can use other meats, such as Ham <span class="NOTE">(which doesn't need to be precooked)</span> or Beef.
+			Instead of Chicken, you can use other meats, such as Ham
+			<span class="NOTE">(which doesn't need to be precooked)</span>
+			or Beef.
 			You could also use a mixture of several meats, or even leave the meat completely out.
 		</modification>
 		<modification>

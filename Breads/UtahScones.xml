@@ -2,23 +2,22 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Utah Scones</Title>
 	<Yields>12</Yields>
 	<Source>Traditional Utah Recipe</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
-		Throughout the world, "Scones" are a type of quick bread similar to Biscuits.<br />
+		Throughout the world, "Scones" are a type of quick bread similar to Biscuits.
+		<br />
 		Everywhere except <span class="EMPHASIZE">Utah</span>.
-		In Utah "Scones" are a type of fluffy fry bread.<br />
+		In Utah "Scones" are a type of fluffy fry bread.
+		<br />
 		We have encountered a lot of versions of this recipe, but this is the one that gives the best results for us.
 	</Description>
 
@@ -42,10 +41,10 @@
 			<instruction>When Yeast begins to foam, pour it into mixing bowl.</instruction>
 			<instruction>Add Oil and Egg, then knead for 5 minutes.</instruction>
 			<instruction>Let sit for 30 minutes to rise.</instruction>
-			<instruction>Roll out into a thin rectangle, &approx;9&inch; &by; 16&inch;.</instruction>
+			<instruction>Roll out into a thin rectangle, &approx;9&inches; &by; 16&inches;.</instruction>
 			<instruction>
 				Use a pizza cutter to cut into 12 pieces.
-				(&approx;3&inch; &by; 4&inch; each)
+				(&approx;3&inches; &by; 4&inches; each)
 			</instruction>
 			<instruction>Let rise for &approx;15 minutes.</instruction>
 			<instruction>Meanwhile start heating Oil for Frying.</instruction>
@@ -58,7 +57,9 @@
 
 	<Notes>
 		<note>
-			To eat a Utah Scone, you should make a slit on one end, then put in <a href=".../Sauces/HoneyButter.xml"> Sauces: Honey Butter</a>!<br />
+			To eat a Utah Scone, you should make a slit on one end, then put in <a href="&hellip;/Sauces/HoneyButter.xml">Sauces:
+			Honey Butter</a>!
+			<br />
 			<span class="NOTE">(or Honey, Butter, Jam, or something similar.)</span>
 		</note>
 	</Notes>

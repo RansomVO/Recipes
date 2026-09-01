@@ -2,37 +2,50 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Garlic-Ginger Stir-Fry Green Beans</Title>
 	<Yields>6-8 servings</Yields>
 	<Source>A VanOrman Original</Source>
-
-	&section;
 	<LastModified year="2025" month="5" day="5" />
 
 	<Description>
 		One day Di wanted some oriental style green beans.
-		We tried a few recipes and each had some good and bad to them, so we started experimenting.
-		Each time we found one thing that wasn't right, so we would adjust that, then something else would stand out.<br />
-		After <span class="EMPHASIZE">many</span> attempts we finally came up with this recipe that is just right for us.
+		We tried a few recipes and each had some good and some bad to them, so we started experimenting.
+		Each time we found one thing that wasn't right, so we would adjust that, then something else would stand out.
+		<br />
+		After
+		<span class="EMPHASIZE">many</span>
+		attempts we finally came up with this recipe that is just right for us.
 		<br /><br />
-		<div class="NOTE">NOTE: Later on, Di decided she doesn't want Ginger in it, but the rest of us <span class="EMPHASIZE">Love</span> it</div>
+		<div class="NOTE">
+			NOTE:
+			Later on, Di decided she doesn't want Ginger in it, but the rest of us
+			<span class="EMPHASIZE">Love</span>
+			it
+		</div>
 	</Description>
 
 	<Ingredients>
 		<section>
 			<ingredient>Crushed Red Chili Pepper Flakes<amount>1 teaspoon</amount></ingredient>
 			<ingredient>
-				Ginger<note>Finely Grated</note>
-				<amount>&frac12; Tablespoon<note>Unless Di says to not use it. &smiley;</note></amount>
+				Ginger
+				<note>Finely Grated</note>
+				<amount>
+					&frac12; Tablespoon
+					<note>
+						Unless Di says to not use it.
+						&smiley;
+					</note>
+				</amount>
 			</ingredient>
 			<ingredient>
-				Chili Sauce<note>Tapat&iacute;o is our favorite</note>
+				Chili Sauce
+				<note>Tapat&iacute;o is our favorite</note>
 				<amount>&frac14; teaspoon</amount>
 			</ingredient>
 			<ingredient>Soy Sauce<amount>3 Tablespoons</amount></ingredient>
@@ -57,7 +70,10 @@
 			<instruction>Add sauce mix set aside earlier and bring it to a boil for 3 minutes.</instruction>
 			<instruction>Add Green Beans and stir until they are thinly covered in sauce.</instruction>
 			<instruction>Stir every few minutes, carefully scraping sauce and garlic from the wok and the Green Beans are freshly covered with sauce.</instruction>
-			<instruction>Continue until Green Beans are cooked to desired amount. <span class="NOTE">(20-30 minutes)</span></instruction>
+			<instruction>
+				Continue until Green Beans are cooked to desired amount.
+				<span class="NOTE">(20-30 minutes)</span>
+			</instruction>
 		</section>
 	</Instructions>
 

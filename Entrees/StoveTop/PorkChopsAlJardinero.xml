@@ -2,27 +2,24 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
-	<!ENTITY parentSection SYSTEM "../section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Pork Chops al Jardinero</Title>
 	<Yields>2 servings</Yields>
 	<Source>Classic</Source>
-
-	&section;
-	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		"Jardinero" is the Spanish word for gardener.
-		It is pronounced "Har-dee-neh-row".<br />
+		It is pronounced "Har-dee-neh-row".
+		<br />
 		Ransom prepared this recipe once when he had been out on his mission in Puerto Rico for only a couple of months.
 		His senior companion just about died of pleasure.
-		He said it was the first "real American" meal he had had in over a year!<br />
+		He said it was the first "real American" meal he had had in over a year!
+		<br />
 		Later, some members told Ransom what the name of the dish is in Spanish.
 	</Description>
 
@@ -33,10 +30,7 @@
 			<ingredient>Potatoes<amount>2-4</amount></ingredient>
 			<ingredient>Carrots<amount>2-4</amount></ingredient>
 			<ingredient>Water<amount>&frac12; Cup</amount></ingredient>
-			<ingredient>
-				Salt and Pepper
-				<amount><note>To taste</note></amount>
-			</ingredient>
+			<ingredient>Salt and Pepper <amount><note>To taste</note></amount></ingredient>
 		</section>
 	</Ingredients>
 

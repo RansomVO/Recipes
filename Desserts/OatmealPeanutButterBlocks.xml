@@ -2,53 +2,45 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Oatmeal Peanut Butter Blocks</Title>
 	<Yields>18</Yields>
-	<Source>From the Kitchen of Mrs. Boat</Source>
-	<Note>Head Lunch Lady at Ransom's Elementary School</Note>
-
-	&section;
+	<Source>
+		From the Kitchen of Mrs.
+		Boat
+		<Note>Head Lunch Lady at Ransom's Elementary School</Note>
+	</Source>
 	<LastModified year="2026" month="8" day="21" />
 
 	<Description>
-		When Ransom was in Cherry Hill Elementary School in Orem, Utah, the head cook was an immigrant named Mrs. Boat.
+		When Ransom was in Cherry Hill Elementary School in Orem, Utah, the head cook was an immigrant named Mrs.
+		Boat.
 		<span class="NOTE">(Her name was pronounced "Boot".)</span>
 		This recipe is for one of the favorite treats that she made.
 	</Description>
 
 	<Ingredients>
 		<section id="IngredientsDough" title="Dough">
-			<ingredient>
-				Butter
-				<amount>&frac12; Cup<note>1 Stick</note></amount>
-			</ingredient>
-			<ingredient>White Sugar<amount>&frac12; Cup</amount></ingredient>
-			<ingredient>Brown Sugar<amount>&frac12; Cup</amount></ingredient>
-			<ingredient>Baking Soda<amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
-			<ingredient>Vanilla<amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient>Egg<amount>1</amount></ingredient>
-			<ingredient>
-				Peanut Butter
-				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
-			</ingredient>
-			<ingredient>Flour<amount>1 Cup</amount></ingredient>
-			<ingredient>Quick Oats<amount>1 Cup</amount></ingredient>
+			<ingredient>Butter <amount>&frac12; Cup <note>1 Stick</note></amount></ingredient>
+			<ingredient>White Sugar <amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Brown Sugar <amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Baking Soda <amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Salt <amount>1 teaspoon</amount></ingredient>
+			<ingredient>Vanilla <amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Egg <amount>1</amount></ingredient>
+			<ingredient>Peanut Butter <amount>&frac14; Cup <note>&frac12; Stick</note></amount></ingredient>
+			<ingredient>Flour <amount>1 Cup</amount></ingredient>
+			<ingredient>Quick Oats <amount>1 Cup</amount></ingredient>
 		</section>
 		<section id="IngredientsTopping" title="Topping">
-			<ingredient>Chocolate Chips<amount>&frac12; 12-oz. Package</amount></ingredient>
-			<ingredient>Powdered Sugar<amount>&frac12; Cup</amount></ingredient>
-			<ingredient>
-				Peanut Butter
-				<amount>&frac14; Cup<note>&frac12; Stick</note></amount>
-			</ingredient>
-			<ingredient>Cream<amount>2-3 Tablespoons</amount></ingredient>
+			<ingredient>Chocolate Chips <amount>&frac12; 12-oz. Package </amount></ingredient>
+			<ingredient>Powdered Sugar <amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Peanut Butter <amount>&frac14; Cup <note>&frac12; Stick</note></amount></ingredient>
+			<ingredient>Cream <amount>2-3 Tablespoons</amount></ingredient>
 		</section>
 	</Ingredients>
 
@@ -57,12 +49,12 @@
 			<instruction>In a large mixing bowl, Cream together Butter, White Sugar and Brown Sugar.</instruction>
 			<instruction>Blend in Baking Soda, Salt, Vanilla, Egg and Peanut Butter.</instruction>
 			<instruction>Stir in Flour and Oats.</instruction>
-			<instruction>Press dough evenly into a 9&inch; &by; 13&inch; pan.</instruction>
+			<instruction>Press dough evenly into a 9&inches; &by; 13&inches; pan.</instruction>
 			<instruction>Bake at 350&deg; for 20 minutes.</instruction>
 			<instruction>Remove from oven and immediately sprinkle with Chocolate Chips.</instruction>
 			<instruction>Let stand for 5 minutes, then, using a spatula, spread the soft Chocolate Chips evenly across the top.</instruction>
 			<instruction>Mix Frosting ingredients together, then spread evenly across the top.</instruction>
-			<instruction>Let cool, then cut into rectangles &approx;2&inch; &by; 3&inch;.</instruction>
+			<instruction>Let cool, then cut into rectangles &approx;2&inches; &by; 3&inches;.</instruction>
 		</section>
 	</Instructions>
 

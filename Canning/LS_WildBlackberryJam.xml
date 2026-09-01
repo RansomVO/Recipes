@@ -2,17 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>No-Sugar-Added Wild Blackberry Jam</Title>
 	<Yields>3 pints</Yields>
 	<Source>Basic</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -24,13 +21,11 @@
 	<Ingredients>
 		<section>
 			<ingredient>
-				Wild Blackberries<note>Mashed</note>
+				Wild Blackberries
+				<note>Mashed</note>
 				<amount>5 Cups<note>Requires &approx;7-8 Cups fresh berries</note></amount>
 			</ingredient>
-			<ingredient>
-				Sucralose<note>Such as Splenda</note>
-				<amount>2&frac12; Cups</amount>
-			</ingredient>
+			<ingredient>Sucralose<note>Such as Splenda</note><amount>2&frac12; Cups</amount></ingredient>
 			<ingredient>Lemon Juice<amount>&frac14; Cup</amount></ingredient>
 			<ingredient>No-Sugar-Needed Pectin<amount>1 1.75-oz. Package</amount></ingredient>
 		</section>
@@ -39,7 +34,10 @@
 	<Instructions>
 		<section id="MakingMashedBerries" title="Making Mashed Berries">
 			<instruction>Remove any stems from berries</instruction>
-			<instruction>Let berries soak in a large bowl, and pick out grass, leaves, etc. that floats to the top.</instruction>
+			<instruction>
+				Let berries soak in a large bowl, and pick out grass, leaves, etc.
+				that floats to the top.
+			</instruction>
 			<instruction>Drain, then rinse berries in a strainer or colander.</instruction>
 			<instruction>Mash berries, using a potato masher or something similar.</instruction>
 		</section>
@@ -49,7 +47,10 @@
 			<instruction>In a separate bowl, mix Sucralose and No-Sugar-Needed Pectin.</instruction>
 			<instruction>When berry mixture is boiling, slowly mix in Sucralose/Pectin mixture and stir until well dissolved.</instruction>
 			<instruction>Bring mixture to a boil again, and boil for 1 minute, then remove from heat immediately.</instruction>
-			<instruction>Follow instructions in the <a href="BathCanningHowTo.xml">Bath Canning: How-To</a> section.</instruction>
+			<instruction>
+				Follow instructions in the <a href="BathCanningHowTo.xml">Bath Canning:
+				How-To</a> section.
+			</instruction>
 		</section>
 	</Instructions>
 

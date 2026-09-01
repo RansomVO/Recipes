@@ -2,37 +2,28 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Sheet Pan Veggies</Title>
 	<Yields>QZX Servings</Yields>
 	<Source>A VanOrman Original</Source>
-
-	<Description class="TODO">
-		QZX TODO: Need to come up with a better name.
-	</Description>
-
-	&section;
 	<LastModified year="2025" month="11" day="29" />
 
-	<Ingredients>
-	</Ingredients>
+	<Description class="TODO">
+		QZX TODO:
+		Need to come up with a better name.
+	</Description>
+
+	<Ingredients />
 
 	<Instructions class="TODO">
-		<section>
-			<instruction>
-				QZX TODO
-			</instruction>
-		</section>
+		<section><instruction>QZX TODO</instruction></section>
 	</Instructions>
 
 	<Modifications class="TODO">
-		<modification>
-			QZX TODO
-		</modification>
+		<modification>QZX TODO</modification>
 	</Modifications>
 </Recipe>

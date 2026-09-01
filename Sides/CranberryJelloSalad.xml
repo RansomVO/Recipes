@@ -2,35 +2,25 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Layered Cranberry Jello Salad</Title>
 	<Yields>12 Servings</Yields>
 	<Source>A VanOrman Original</Source>
-
-	<Description>
-	</Description>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
+
+	<Description />
 
 	<Ingredients>
 		<section>
 			<ingredient>Cranberries<amount>1 Lb.</amount></ingredient>
 			<ingredient>Pineapple Tidbits<amount>1 20-oz. Can</amount></ingredient>
 			<ingredient>Cranberry Gelatin<amount>2 3-oz. Boxes</amount></ingredient>
-			<ingredient>
-				Water
-				<amount>1 Cup<note>Boiling</note></amount>
-			</ingredient>
-			<ingredient>
-				Lemon-Lime Soda<note>Cold</note>
-				<amount>2 12-oz. Cans</amount>
-			</ingredient>
+			<ingredient>Water <amount>1 Cup<note>Boiling</note></amount></ingredient>
+			<ingredient>Lemon-Lime Soda<note>Cold</note><amount>2 12-oz. Cans</amount></ingredient>
 		</section>
 		<section>
 			<ingredient>Milk<amount>5 Cups</amount></ingredient>
@@ -42,11 +32,7 @@
 	</Ingredients>
 
 	<Instructions class="TODO">
-		<section>
-			<instruction>
-				QZX TODO
-			</instruction>
-		</section>
+		<section><instruction>QZX TODO</instruction></section>
 	</Instructions>
 
 	<Modifications>

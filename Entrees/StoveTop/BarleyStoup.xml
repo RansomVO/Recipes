@@ -2,67 +2,51 @@
 <?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
-	<!ENTITY parentSection SYSTEM "../section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Barley Stoup</Title>
 	<Yields>4 servings</Yields>
-	<Source>From the Kitchen of Orrilla VanOrman <Note>Ransom's Mom</Note>
+	<Source>
+		From the Kitchen of Orrilla VanOrman
+		<Note>Ransom's Mom</Note>
 	</Source>
-
-	&section;
-	<ParentSection>&parentSection;</ParentSection>
 	<LastModified year="2025" month="6" day="6" />
 
-	<Description>
-		When Ransom was growing up, his mother used to make a simple dish that was chunky like a stew, but brothy like a soup, so, we decided to call it "stoup".
-	</Description>
+	<Description>When Ransom was growing up, his mother used to make a simple dish that was chunky like a stew, but brothy like a soup, so, we decided to call it "stoup".</Description>
 
 	<Ingredients>
 		<section>
-			<ingredient>Hamburger<amount>1 Lb.</amount></ingredient>
-			<ingredient>Water<amount>1-2 Quarts</amount></ingredient>
-			<ingredient>Potatoes<amount>3-5</amount></ingredient>
-			<ingredient>Carrots<amount>1-3</amount></ingredient>
-			<ingredient>Celery<amount>1 Stick</amount></ingredient>
-			<ingredient>Onions<amount>1</amount></ingredient>
-			<ingredient>Pearl Barley<amount>&frac14; Cup</amount></ingredient>
-			<ingredient>Frozen Petite Peas<amount>&frac12; 12-oz. Bag</amount></ingredient>
-			<ingredient>Salt and Pepper<amount>To Taste</amount></ingredient>
+			<ingredient>Hamburger <amount>1 Lb.</amount></ingredient>
+			<ingredient>Water <amount>1-2 Quarts</amount></ingredient>
+			<ingredient>Potatoes <amount>3-5</amount></ingredient>
+			<ingredient>Carrots <amount>1-3</amount></ingredient>
+			<ingredient>Celery <amount>1 Stick</amount></ingredient>
+			<ingredient>Onions <amount>1</amount></ingredient>
+			<ingredient>Pearl Barley <amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Frozen Petite Peas <amount>&frac12; 12-oz. Bag </amount></ingredient>
+			<ingredient>Salt and Pepper <amount>To Taste</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
-			<instruction>
-				Peel Potatoes, Carrots and Onions.
-			</instruction>
-			<instruction>
-				Cut all vegetables into spoon-sized chunks.
-			</instruction>
-			<instruction>
-				In a large saucepan, brown the Hamburger.
-			</instruction>
-			<instruction>
-				Add Water, Potatoes, Carrots, Onions, Pearl Barley, Salt and Pepper.
-			</instruction>
-			<instruction>
-				Bring to a boil, then reduce heat and simmer until Potatoes and Carrots are tender.
-			</instruction>
-			<instruction>
-				Remove from heat then add Frozen Petite Peas.
-			</instruction>
+			<instruction>Peel Potatoes, Carrots and Onions.</instruction>
+			<instruction>Cut all vegetables into spoon-sized chunks.</instruction>
+			<instruction>In a large saucepan, brown the Hamburger.</instruction>
+			<instruction>Add Water, Potatoes, Carrots, Onions, Pearl Barley, Salt and Pepper.</instruction>
+			<instruction>Bring to a boil, then reduce heat and simmer until Potatoes and Carrots are tender.</instruction>
+			<instruction>Remove from heat then add Frozen Petite Peas.</instruction>
 		</section>
 	</Instructions>
 
 	<Modifications>
 		<modification>
 			If you like a little more flavor, add 4 beef bouillon cubes with the Water.
-			<span class="NOTE">(Ransom <span class="QZX">always does.</span> &smiley;)</span>
+			<span class="NOTE">(Ransom <span class="QZX">always does.</span>
+			&smiley;)</span>
 		</modification>
 	</Modifications>
 </Recipe>

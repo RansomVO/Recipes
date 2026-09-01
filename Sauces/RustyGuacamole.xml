@@ -2,33 +2,41 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Rusty Guacamole</Title>
 	<Yields><span class="NOTE">ToDo</span></Yields>
-	<Source>From the kitchen of Rusty Taco</Source>
-	<Note>Via Josh VanOrman</Note>
+	<Source>
+		From the kitchen of Rusty Taco
+		<Note>Via Josh VanOrman</Note>
+	</Source>
 	<LastModified year="2026" month="8" day="31" />
 
-	<!-- -->&section;<!-- -->
-
 	<Description>
-		<span class="TODO">ToDo: Add Description</span>
+		<span class="TODO">ToDo:
+		Add Description</span>
 	</Description>
 
 	<Ingredients>
 		<section>
-			<ingredient>Tomato<amount>1</amount></ingredient>
-			<ingredient>Onion<note>Diced</note><amount>&frac12; Cup<note>&approx;<span class="TODO">&frac14;?</span></note></amount></ingredient>
-			<ingredient>Jalepe&ntilde;o<note>Fresh, Diced</note><amount>1 Tablespoon<note>&approx;<span class="TODO">&frac14;?</span></note></amount></ingredient>
-			<ingredient>Avacadoes<note>Ripe</note><amount>6</amount></ingredient>
-			<ingredient>Lime Juice<amount>1 Tablespoon</amount></ingredient>
-			<ingredient>Granulated Garlic<amount>&frac34; teaspoon</amount></ingredient>
-			<ingredient>Kosher Salt<amount>1&frac12; teaspoon</amount></ingredient>
+			<ingredient>Tomato <amount>1</amount></ingredient>
+			<ingredient>
+				Onion
+				<note>Diced</note>
+				<amount>&frac12; Cup <note>&approx;<span class="TODO">&frac14;?</span></note></amount>
+			</ingredient>
+			<ingredient>
+				Jalepe&ntilde;o
+				<note>Fresh, Diced</note>
+				<amount>1 Tablespoon <note>&approx;<span class="TODO">&frac14;?</span></note></amount>
+			</ingredient>
+			<ingredient>Avacadoes <note>Ripe</note><amount>6</amount></ingredient>
+			<ingredient>Lime Juice <amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Granulated Garlic <amount>&frac34; teaspoon</amount></ingredient>
+			<ingredient>Kosher Salt <amount>1&frac12; teaspoon</amount></ingredient>
 		</section>
 	</Ingredients>
 
@@ -39,7 +47,6 @@
 			<prep><span class="TODO">Dice the Jalepe&ntilde;o</span></prep>
 		</section>
 	</Preparation>
-
 	<Instructions>
 		<section>
 			<instruction><span class="TODO">ToDo</span></instruction>

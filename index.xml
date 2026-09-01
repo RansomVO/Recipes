@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Index [
-	<!ENTITY section SYSTEM "section.xml">
-	<!ENTITY summary SYSTEM "summary.xml">
-	<!ENTITY pages SYSTEM "pages.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
 <Index>
-	&section;
-	&summary;
 	<LastModified year="2025" month="4" day="8" />
-
-	&pages;
 </Index>

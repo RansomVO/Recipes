@@ -2,17 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>InstaPot Roast</Title>
 	<Yields>Depends upon Beef Roast Size and amount of vegetables.</Yields>
 	<Source>A VanOrman Original</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -23,38 +20,20 @@
 
 	<Ingredients>
 		<section id="IngredientsGravy">
-			<ingredient>
-				Beef Broth<note>1&frac12;-Strength</note>
-				<amount>4 Cups</amount>
-			</ingredient>
+			<ingredient>Beef Broth<note>1&frac12;-Strength</note><amount>4 Cups</amount></ingredient>
 			<ingredient>Worcestershire Sauce<amount>&frac12; Tablespoon</amount></ingredient>
 			<ingredient>Tomato Sauce<amount>1 8-oz. Can</amount></ingredient>
 			<ingredient comment="Spacer">&nbsp;</ingredient>
 			<ingredient>Onion<amount>1</amount></ingredient>
-			<ingredient>
-				Butter
-				<amount>&frac12; Cup<note>1 Stick</note></amount>
-			</ingredient>
-			<ingredient>
-				Beef Roast<note>Fresh or Frozen</note>
-				<amount>1</amount>
-			</ingredient>
+			<ingredient>Butter <amount>&frac12; Cup<note>1 Stick</note></amount></ingredient>
+			<ingredient>Beef Roast<note>Fresh or Frozen</note><amount>1</amount></ingredient>
 			<ingredient>Minced Garlic<amount>&frac12; Tablespoon</amount></ingredient>
 		</section>
 		<section id="IngredientsVegetables">
-			<ingredient>
-				Carrots
-				<amount>3-10<note>Whatever amount you feel like.</note></amount>
-			</ingredient>
-			<ingredient>
-				Potatoes
-				<amount>3-10<note>Whatever amount you feel like.</note></amount>
-			</ingredient>
+			<ingredient>Carrots <amount>3-10<note>Whatever amount you feel like.</note></amount></ingredient>
+			<ingredient>Potatoes <amount>3-10<note>Whatever amount you feel like.</note></amount></ingredient>
 			<ingredient>Corn Starch<amount>5 Tablespoons</amount></ingredient>
-			<ingredient>
-				Water<note>Cool</note>
-				<amount>&frac12; Cup</amount>
-			</ingredient>
+			<ingredient>Water<note>Cool</note><amount>&frac12; Cup</amount></ingredient>
 		</section>
 	</Ingredients>
 
@@ -82,23 +61,34 @@
 			<instruction>Combine Corn Starch and Cool Water in a small cup and mix <span class="EMPHASIZE">thoroughly</span>.</instruction>
 			<instruction>
 				Peel Carrots and Potatoes then cut them into chunks the size that you would like.
-				(We like the Carrots spoon sized, and the Potatoes &approx;1&inch;-2&inch; cubes.)
+				(We like the Carrots spoon sized, and the Potatoes &approx;1&inches;-2&inches; cubes.)
 			</instruction>
 		</section>
 		<section id="InstructionsWhenPressureCookingCompletes" title="When Pressure Cooking Completes">
 			<instruction>Let sit for 20 minutes, then release any pressure.</instruction>
-			<instruction>Remove Roast and cover with foil, then use a slotted spoon <span class="NOTE">(or similar)</span> to remove Onions and set in a bowl.</instruction>
+			<instruction>
+				Remove Roast and cover with foil, then use a slotted spoon
+				<span class="NOTE">(or similar)</span>
+				to remove Onions and set in a bowl.
+			</instruction>
 			<instruction>Put Carrots and Potatoes in Broth in InstaPot and set to Pressure Cook for 3 minutes.</instruction>
 			<instruction>When Pressure Cooking completes, release pressure immediately, and put Carrots and Potatoes in separate serving bowls.</instruction>
 			<instruction>Drain any broth that collected in the bowl of Onions into the InstaPot.</instruction>
-			<instruction>Mix the Corn Starch mixture again <span class="SUPER_EMPHASIZE">very</span> well, then slowly stir it into the Broth to create Gravy.</instruction>
+			<instruction>
+				Mix the Corn Starch mixture again
+				<span class="SUPER_EMPHASIZE">very</span>
+				well, then slowly stir it into the Broth to create Gravy.
+			</instruction>
 			<instruction>Remove foil and slice the Roast.</instruction>
 		</section>
 	</Instructions>
 
 	<Notes pageBreak="true">
 		<note>If using a frozen Roast, be very careful to ensure all packaging is removed, especially the pad on the bottom.</note>
-		<note>You can create the 1&frac12;-Strength Beef Broth by using 4 Cups of Water + 6 Bouillon Cubes <span class="NOTE">(or the equivalent)</span>.</note>
+		<note>
+			You can create the 1&frac12;-Strength Beef Broth by using 4 Cups of Water + 6 Bouillon Cubes
+			<span class="NOTE">(or the equivalent)</span>.
+		</note>
 		<note>When slicing the Roast, make sure to use a very sharp knife and cut very carefully, otherwise, the meat may end up shredding and falling apart.</note>
 	</Notes>
 

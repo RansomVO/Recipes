@@ -2,17 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Cheap Soft Toffee</Title>
-	<Yields>about 100 1&inch; squares</Yields>
+	<Yields>about 100 1&inches; squares</Yields>
 	<Source>A VanOrman Original</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -29,17 +26,14 @@
 			<ingredient>Corn Syrup<amount>&frac12; Cup</amount></ingredient>
 			<ingredient>Sugar<amount>1 Cup</amount></ingredient>
 			<ingredient>Evaporated Milk<amount>1 Can</amount></ingredient>
-			<ingredient>
-				Butter
-				<amount>&frac12; Cup<note>1 Stick</note></amount>
-			</ingredient>
+			<ingredient>Butter<amount>&frac12; Cup<note>1 Stick</note></amount></ingredient>
 			<ingredient>Vanilla<amount>1 teaspoon</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
-			<instruction>Lightly spray a 9&inch; &by; 13&inch; pan with non-stick spray.</instruction>
+			<instruction>Lightly spray a 9&inches; &by; 13&inches; pan with non-stick spray.</instruction>
 			<instruction>In a large, non-stick pot, combine all ingredients except Vanilla.</instruction>
 			<instruction>Heat mixture on medium, using a candy thermometer to monitor temperature.</instruction>
 			<instruction>
@@ -66,8 +60,11 @@
 		</note>
 		<note>
 			Cutting it up is a challenge.
-			I used a hot, large, sharp chopping knife, and was able to get it if I was patient.<br />
-			Alternatively, you can cut it when it is <span class="NOTE">mostly</span> cool, but you need to place the cut pieces around so they don't touch.
+			I used a hot, large, sharp chopping knife, and was able to get it if I was patient.
+			<br />
+			Alternatively, you can cut it when it is
+			<span class="NOTE">mostly</span>
+			cool, but you need to place the cut pieces around so they don't touch.
 		</note>
 	</Notes>
 

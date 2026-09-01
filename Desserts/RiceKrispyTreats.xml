@@ -2,19 +2,17 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Rice Krispy Treats</Title>
 	<Yields>about 9 large pieces</Yields>
-	<Source>From the <a class="no-print" href="https://www.ricekrispies.us/recipes/the-original-treats-recipe">Rice Krispies web site</a>
-	<span class="no-screen">Rice Krispies web site</span>
+	<Source>
+		From the <a class="no-print" href="https://www.ricekrispies.us/recipes/the-original-treats-recipe">Rice Krispies web site</a>
+		<span class="no-screen">Rice Krispies web site</span>
 	</Source>
-
-	&section;
 	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
@@ -36,13 +34,13 @@
 	<Instructions>
 		<section>
 			<instruction>
-				Prepare a 9&inch; &by; 9&inch; pan by greasing it.
+				Prepare a 9&inches; &by; 9&inches; pan by greasing it.
 				The best way to do this is with cooking spray, such as Pam.
 			</instruction>
 			<instruction>In large saucepan melt Butter over medium heat.</instruction>
 			<instruction>Add marshmallows and stir until completely melted, then remove from heat.</instruction>
 			<instruction>In a large bowl, combine Rice Krispies and melted Marshmallow mixture.</instruction>
-			<instruction>Using greased spatula, evenly press mixture into prepared 9&inch; &by; 9&inch; pan.</instruction>
+			<instruction>Using greased spatula, evenly press mixture into prepared 9&inches; &by; 9&inches; pan.</instruction>
 			<instruction>Let cool</instruction>
 			<instruction>Using a sharp knife, cut into 9 equally-sized squares.</instruction>
 		</section>
@@ -59,7 +57,10 @@
 	<Modifications>
 		<modification>Instead of Rice Krispies, use Cocoa Krispies or Fruity Pebbles</modification>
 		<modification>
-			Add some M<span style="font-size:.75em;">&amp;</span>Ms and/or Reese's Pieces to the Rice Krispies <span class="NOTE">(or Cocoa Krispies)</span>
+			Add some
+			M<span style="font-size:.75em;">&amp;</span>Ms
+			and/or Reese's Pieces to the Rice Krispies
+			<span class="NOTE">(or Cocoa Krispies)</span>
 			just before adding the melted Marshmallow mixture.
 		</modification>
 		<modification>Instead of Miniature Marshmallows, regular Marshmallows can be used, but extra care will need to be used when melting them.</modification>

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pages [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
 <Pages>
 	<CollapseSection folder="Camping/Breakfast" />
@@ -9,7 +13,8 @@
 	<CollapseSection title="Additional Recipes">
 		<inline>
 			<description>
-				There are also a number of Recipes throughout this <span class="no-print">site</span>
+				There are also a number of Recipes throughout this
+				<span class="no-print">site</span>
 				<span class="no-screen">book</span>
 				that may be of interest.
 			</description>

@@ -2,25 +2,20 @@
 <?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<Title>Gluten-Free Bread Machine Bread</Title>
 	<Yields>1 Loaf</Yields>
 	<Source>A VanOrman Original</Source>
-
-	&section;
 	<LastModified year="2025" month="4" day="2" />
 
 	<Description>
-		<span class="TODO">
-			This recipe is too liquidy.
-			It boiled over and made a mess.
-			Need to make another attempt.
-		</span>
+		<span class="TODO">This recipe is too liquidy.
+		It boiled over and made a mess.
+		Need to make another attempt.</span>
 	</Description>
 
 	<Ingredients>
@@ -47,27 +42,15 @@
 					<li>Yeast</li>
 				</ol>
 			</instruction>
-			<instruction>
-				Cook using settings for Rapid and Light Crust.
-			</instruction>
+			<instruction>Cook using settings for Rapid and Light Crust.</instruction>
 		</section>
 	</Instructions>
 
 	<Modifications>
-		<modification>
-			Instead of Gluten-Free All Purpose Baking Flour, you can use:
-		</modification>
-		<modification>
-			2 Cups Rice Flour.
-		</modification>
-		<modification>
-			&frac12; Cup Potato Starch.
-		</modification>
-		<modification>
-			&frac12; Cup Tapioca Flour or Soy Flour.
-		</modification>
-		<modification>
-			&frac13; Cup Corn Starch.
-		</modification>
+		<modification>Instead of Gluten-Free All Purpose Baking Flour, you can use:</modification>
+		<modification>2 Cups Rice Flour.</modification>
+		<modification>&frac12; Cup Potato Starch.</modification>
+		<modification>&frac12; Cup Tapioca Flour or Soy Flour.</modification>
+		<modification>&frac13; Cup Corn Starch.</modification>
 	</Modifications>
 </Recipe>

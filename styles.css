@@ -11,6 +11,12 @@
 	padding-right: 2em;
 }
 
+.RECIPE_SOURCE_NOTE {
+	font-size: .75em;
+	font-weight: normal;
+	font-style: italic;
+}
+
 .RECIPE_REQUIRES {
 	white-space: nowrap;
 	padding-right: 2em;
