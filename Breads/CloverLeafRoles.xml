@@ -7,6 +7,7 @@
 ]>
 
 <Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+	<Title>Clover Leaf Rolls</Title>
 	<Yields><span class="TODO">ToDo</span></Yields>
 	<Source>
 		From the kitchen of <span class="TODO">ToDo</span>

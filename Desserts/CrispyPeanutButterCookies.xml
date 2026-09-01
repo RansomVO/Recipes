@@ -30,8 +30,7 @@
 			<ingredient>Butter<note>Softened</note><amount>1 Cup<note>2 Sticks</note></amount></ingredient>
 			<ingredient>Eggs<amount>3</amount></ingredient>
 			<ingredient>
-				Peanut Butter
-				<note>Chunky or Creamy</note>
+				Peanut Butter <note>Chunky or Creamy</note>
 				<amount>1 Cup<note>2 Sticks</note></amount>
 			</ingredient>
 			<ingredient>Vanilla<amount>2 teaspoons</amount></ingredient>

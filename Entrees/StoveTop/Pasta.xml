@@ -23,8 +23,7 @@
 	<Ingredients>
 		<section>
 			<ingredient>
-				Pasta
-				<note>Spaghetti, Linguini, Fettuccini, etc.</note>
+				Pasta <note>Spaghetti, Linguini, Fettuccini, etc.</note>
 				<amount>1 16-oz. Box</amount>
 			</ingredient>
 			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>

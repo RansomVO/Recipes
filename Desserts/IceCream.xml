@@ -32,8 +32,7 @@
 		<section id="IngredientsFlavorings" title="Flavoring Ideas">
 			<ingredient>Vanilla <amount>1&frac12;-2 Tablespoons</amount></ingredient>
 			<ingredient>
-				Hot Chocolate Mix
-				<finePrint>Makes a normal chocolate flavor</finePrint>
+				Hot Chocolate Mix <finePrint>Makes a normal chocolate flavor</finePrint>
 				<amount>&frac12; Cup</amount>
 			</ingredient>
 			<ingredient>
@@ -44,8 +43,7 @@
 			<ingredient>Fruit <note>Mashed</note><amount>2-4 Cups</amount></ingredient>
 			<ingredient>Peanut Butter <amount>2 Cups <note>4 Sticks</note></amount></ingredient>
 			<ingredient>
-				Peppermint Candy
-				<note>Crushed, &frac34; of it finely</note>
+				Peppermint Candy <note>Crushed, &frac34; of it finely</note>
 				<amount>1&frac12;-2 Cups <note>15-20 Candy Canes</note></amount>
 			</ingredient>
 			<ingredient>
