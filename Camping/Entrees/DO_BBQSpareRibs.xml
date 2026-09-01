@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
@@ -9,7 +9,10 @@
 <Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<Title>Dutch Oven BBQ Spare Ribs</Title>
 	<Yields>6-8 Servings</Yields>
-	<Source>Adapted from the kitchen of Bobbi Beagley<Note>Jennie's Mom</Note></Source>
+	<Source>
+		Adapted from the kitchen of Bobbi Beagley
+		<Note>Jennie's Mom</Note>
+	</Source>
 	<Requires class="TODO">12&inches; Dutch Oven</Requires>
 	<LastModified year="2025" month="6" day="6" />
 
@@ -40,7 +43,8 @@
 			<instruction>Put the lid on the Dutch Oven and simmer, stirring occationally.</instruction>
 			<instruction>
 				Simmer until the Spare Ribs are cooked.
-				<span class="TODO NOTE">(ToDo: Need to verify this takes &approx;1 hour.)</span>
+				<span class="TODO NOTE">(ToDo:
+				Need to verify this takes &approx;1 hour.)</span>
 			</instruction>
 		</section>
 	</Instructions>
