@@ -5,6 +5,8 @@
 ]>
 
 <Pages>
+	<LastModified year="2025" month="6" day="6" />
+
 	<page href="Pasta.xml">Pasta (Spaghetti)</page>
 	<page href="BarleyStoup.xml">Barley Stoup</page>
 	<page href="CreamOfEverythingSoup.xml">Cream of Everything Soup</page>

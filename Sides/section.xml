@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Section [
+<!DOCTYPE section [
 	<!-- Include entities to be used in the xml -->
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;

@@ -5,6 +5,8 @@
 ]>
 
 <Pages>
+	<LastModified year="2026" month="8" day="30" />
+
 	<page href="MashedPotatoes.xml">Mashed Potatoes</page>
 	<page href="Rice.xml">Rice</page>
 	<page href="LehiRice.xml">Lehi Rice</page>
