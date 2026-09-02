@@ -5,9 +5,13 @@
 ]>
 
 <Pages>
+	<LastModified year="2025" month="6" day="6" />
+
 	<CollapseSection title="Dutch Oven">
 		<inline>
 			<Pages>
+				<LastModified year="2025" month="6" day="6" />
+
 				<page href="Camping/Desserts/DO_AppleBerryCrumble.xml">Dutch Oven Apple-Berry Crumble</page>
 				<page href="Camping/Desserts/DO_AppleBerryCrumbleCake.xml">Dutch Oven Apple-Berry Crumble Cake</page>
 				<page href="Camping/Desserts/DO_CherryChocolateVolcanoCake.xml">Dutch Oven Cherry-Chocolate Volcano Cake</page>
@@ -18,6 +22,8 @@
 	<CollapseSection title="Other">
 		<inline>
 			<Pages>
+				<LastModified year="2025" month="6" day="6" />
+
 				<page href="Camping/Desserts/BananaBoats.xml">Banana Boats</page>
 				<page href="Camping/Desserts/Twisties.xml">Twisties</page>
 			</Pages>

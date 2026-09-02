@@ -5,9 +5,13 @@
 ]>
 
 <Pages>
+	<LastModified year="2025" month="6" day="6" />
+
 	<CollapseSection title="Dutch Oven">
 		<inline>
 			<Pages>
+				<LastModified year="2025" month="6" day="6" />
+
 				<page href="Camping/Breakfast/DO_OrangeRolls.xml">Dutch Oven Orange Rolls</page>
 			</Pages>
 		</inline>
