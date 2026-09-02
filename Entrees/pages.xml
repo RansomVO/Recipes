@@ -5,6 +5,8 @@
 ]>
 
 <Pages>
+	<LastModified year="2026" month="8" day="26" />
+
 	<CollapseSection folder="Entrees/NoCook" />
 	<CollapseSection folder="Entrees/StoveTop" />
 	<CollapseSection folder="Entrees/Oven" />

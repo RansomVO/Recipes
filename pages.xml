@@ -6,6 +6,8 @@
 ]>
 
 <Pages>
+	<LastModified year="2026" month="8" day="31" />
+
 	<CollapseSection folder="CookingBasics" />
 	<CollapseSection folder="Beverages" />
 	<CollapseSection folder="Appetizers" />

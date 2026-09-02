@@ -5,10 +5,14 @@
 ]>
 
 <Pages>
+	<LastModified year="2025" month="6" day="6" />
+
 	<!-- QZX TODO: Link all recipes to Home-cook version if one exists -->
 	<CollapseSection title="Dutch Oven">
 		<inline>
 			<Pages>
+				<LastModified year="2025" month="6" day="6" />
+
 				<page href="Camping/Entrees/DO_DutchFathersPizza.xml">Dutch Father's Pizza</page>
 				<page href="Camping/Entrees/DO_BBQSpareRibs.xml">Dutch Oven BBQ Spare Ribs</page>
 				<page href="Camping/Entrees/DO_KlondikeChili.xml">Dutch Oven Klondike Chili</page>
