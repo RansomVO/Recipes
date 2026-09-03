@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Include entities to be used in the xml -->
 <!DOCTYPE pages [
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
 <Pages>
-	<LastModified year="2025" month="6" day="6" />
-
 	<page href="Pizza.xml">Pizza</page>
 	<page href="ShepherdsPie.xml">Shepherd's Pie</page>
 	<page href="EasyEnchiladas.xml">Easy Enchiladas</page>
 	<page href="PerfectPrimeRib.xml">Perfect Prime Rib</page>
 	<page href="BBQRibsToDiFor.xml">BBQ Ribs to Di For</page>
+	<page href="BBQSpareRibs.xml">BBQ Spare Ribs</page>
+	<page href="GF_PizzaCrust.xml">Gluten-Free Pizza Crust</page>
 </Pages>

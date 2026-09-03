@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Include entities to be used in the xml -->
 <!DOCTYPE pages [
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
 <Pages>
-	<LastModified year="2026" month="8" day="26" />
-
 	<page href="SlowCookerRoast.xml">Slow Cooker Roast</page>
 	<page href="BBQSpareRibs.xml">BBQ Spare Ribs</page>
 	<page href="StealthAttackChili.xml">Stealth-Attack Chili</page>

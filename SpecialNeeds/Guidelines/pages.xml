@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Include entities to be used in the xml -->
 <!DOCTYPE pages [
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
 <Pages>
-	<LastModified year="2025" month="4" day="8" />
-
 	<page class="TODO" href="Diabetes.xml">Diabetes</page>
 	<page class="TODO" href="GlutenSensitivity.xml">Gluten Sensitivity / Celiac Disease</page>
 	<page class="TODO" href="LactoseIntolerance.xml">Lactose Intolerance</page>

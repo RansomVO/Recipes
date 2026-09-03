@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Include entities to be used in the xml -->
 <!DOCTYPE pages [
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
 <Pages>
-	<LastModified year="2025" month="6" day="6" />
-
 	<page href="DeadlyRolls.xml">Deadly Rolls</page>
 	<page href="BreadMachineSandwichBread.xml">Bread-Machine Sandwich Bread</page>
 	<page href="Biscuits.xml">Biscuits</page>
@@ -15,4 +14,5 @@
 	<page href="OrangeRolls.xml">Orange Rolls</page>
 	<page class="TODO qzxDisabled" href="GF_Biscuits.xml">Gluten-Free Biscuits</page>
 	<page class="TODO" href="GF_BreadMachineBread.xml">Gluten-Free Bread Machine Bread</page>
+	<page href="CloverLeafRoles.xml">Clover Leaf Rolls</page>
 </Pages>

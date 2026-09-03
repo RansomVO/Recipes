@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Include entities to be used in the xml -->
 <!DOCTYPE pages [
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
 <Pages>
-	<LastModified year="2025" month="6" day="6" />
-
 	<CollapseSection folder="Camping/Breakfast" />
 	<CollapseSection folder="Camping/Entrees" />
 	<CollapseSection folder="Camping/Desserts" />
@@ -22,8 +21,6 @@
 			</description>
 
 			<Pages>
-				<LastModified year="2025" month="6" day="6" />
-
 				<page href="Beverages/HotChocolate.xml">Beverages / Hot Chocolate</page>
 				<page href="Beverages/RootBeer.xml">Beverages / Root Beer</page>
 				<page href="Breakfast/FluffyPancakes.xml">Breakfast / Fluffy Pancakes</page>

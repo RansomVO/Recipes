@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Include entities to be used in the xml -->
 <!DOCTYPE pages [
-	<!-- Include entities to be used in the xml -->
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
 <Pages>
-	<LastModified year="2026" month="8" day="31" />
-
 	<CollapseSection folder="CookingBasics" />
 	<CollapseSection folder="Beverages" />
 	<CollapseSection folder="Appetizers" />
