@@ -6,7 +6,8 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="5" day="5" />
 	<Title>Perfect Prime Rib</Title>
 	<Yields>about 2 servings per Lb.</Yields>
 	<Source>
@@ -18,7 +19,6 @@
 		seriouseats.
 		com/</span>
 	</Source>
-	<LastModified year="2025" month="5" day="5" />
 
 	<Description>
 		Cutler worked in the meat department of a Fred Meyer store when he was a teenager.

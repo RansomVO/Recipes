@@ -5,8 +5,8 @@
 	%externalEntities;
 ]>
 
-<Pages>
-	<page href="ChileColorado.xml">Chile Colorado</page>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
+	<page class="TODO" href="ChileColorado.xml">Chile Colorado</page>
 	<page href="InstaPotRoast.xml">InstaPot Roast</page>
-	<page href="NightmareAlfredo.xml">InstaPot Nightmare Alfredo</page>
+	<page class="TODO" href="NightmareAlfredo.xml">InstaPot Nightmare Alfredo</page>
 </Pages>

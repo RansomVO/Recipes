@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Lehi Rice</Title>
 	<Yields>2 servings</Yields>
 	<Source>Adapted from the World-Wide Ward Cookbook</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		While thumbing through the World-Wide Ward Cookbook we saw a recipe for a Rice side dish that sounded pretty good.

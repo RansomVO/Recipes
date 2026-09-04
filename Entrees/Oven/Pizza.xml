@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Pizza</Title>
 	<Yields>4-6</Yields>
 	<Source>A VanOrman Original</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		We have a family tradition of having home-made pizza every year on Halloween.
@@ -82,7 +82,7 @@
 	<Notes>
 		<note>
 			For Gluten Sensitive people, check out:
-			<a class="TODO qzxDisabled" href="&hellip;/Entrees/Oven/GF_PizzaCrust.xml">Entrees / Oven:
+			<a class="qzxDisabled TODO" href="&hellip;/Entrees/Oven/GF_PizzaCrust.xml">Entrees / Oven:
 			Gluten-Free Pizza Crust</a>
 		</note>
 		<note>If time is short, you can just buy a simple spaghetti sauce to use for the pizza sauce, but if you do, don't get chunky sauce because it is hard to spread evenly over the crust.</note>

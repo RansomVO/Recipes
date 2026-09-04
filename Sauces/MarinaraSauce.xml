@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="5" day="5" />
 	<Title>Marinara Sauce</Title>
 	<Yields>about 5 Cups</Yields>
 	<Source>A VanOrman Original</Source>
-	<LastModified year="2025" month="5" day="5" />
 
 	<Description>
 		These days, it is cheapest and easiest to buy an inexpensive can of spaghetti sauce.

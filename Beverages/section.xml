@@ -5,4 +5,4 @@
 	%externalEntities;
 ]>
 
-<Section folder="Beverages">Beverages</Section>
+<Section folder="Beverages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="section.xsd">Beverages</Section>

@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Biscuits</Title>
 	<Yields>about 12</Yields>
 	<Source>From an old cookbook</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		These days, the easiest way to do biscuits is to buy a tube of them at the grocery story, pop them open and bake them.

@@ -5,6 +5,6 @@
 	%externalEntities;
 ]>
 
-<Summary>
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
 	A yummy <span class="EMPHASIZE">hot</span> dessert while you are out camping cannot be beat!
 </Summary>

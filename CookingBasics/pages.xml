@@ -5,11 +5,11 @@
 	%externalEntities;
 ]>
 
-<Pages>
-	<page class="TODO qzxDisabled" href="Processes.xml">Terms and Processes</page>
-	<page class="TODO qzxDisabled" href="Ingredients.xml">Ingredients</page>
-	<page class="TODO qzxDisabled" href="Spices.xml">Spices</page>
-	<page class="TODO qzxDisabled" href="Tools.xml">Tools</page>
-	<page class="TODO qzxDisabled" href="MealPlanning.xml">Meal Planning</page>
-	<page href="Substitutions.xml">Conversions and Substitutions</page>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
+	<page class="qzxDisabled TODO" href="Processes.xml">Terms and Processes</page>
+	<page class="qzxDisabled TODO" href="Ingredients.xml">Ingredients</page>
+	<page class="qzxDisabled TODO" href="Spices.xml">Spices</page>
+	<page class="qzxDisabled TODO" href="Tools.xml">Tools</page>
+	<page class="qzxDisabled TODO" href="MealPlanning.xml">Meal Planning</page>
+	<page class="qzxDisabled TODO" href="Substitutions.xml">Conversions and Substitutions</page>
 </Pages>

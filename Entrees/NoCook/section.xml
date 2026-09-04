@@ -5,4 +5,4 @@
 	%externalEntities;
 ]>
 
-<Section folder="Entrees/NoCook">No Cook</Section>
+<Section folder="Entrees/NoCook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="section.xsd">No Cook</Section>

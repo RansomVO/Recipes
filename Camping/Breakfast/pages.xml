@@ -5,13 +5,12 @@
 	%externalEntities;
 ]>
 
-<Pages>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
 	<CollapseSection title="Dutch Oven">
 		<inline>
 			<Pages>
-				<page href="Camping/Breakfast/DO_OrangeRolls.xml">Dutch Oven Orange Rolls</page>
+				<page class="TODO" href="Camping/Breakfast/DO_OrangeRolls.xml">Dutch Oven Orange Rolls</page>
 			</Pages>
 		</inline>
 	</CollapseSection>
-	<page href="DO_OrangeRolls.xml">Dutch Oven Orange Rolls</page>
 </Pages>

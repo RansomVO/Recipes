@@ -5,8 +5,8 @@
 	%externalEntities;
 ]>
 
-<Pages>
-	<page class="TODO qzxDisabled" href="CranMamaSauce.xml">Cran Mama Sauce</page>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
+	<page class="TODO" href="CranMamaSauce.xml">Cran Mama Sauce</page>
 	<page href="MarinaraSauce.xml">Marinara Sauce</page>
 	<page href="EasyGravy.xml">Easy Gravy</page>
 	<page href="DillVeggieDip.xml">Dill Veggie Dip</page>
@@ -16,6 +16,6 @@
 	<page href="DaddydasSauce.xml">Daddyda's Sauce</page>
 	<page href="OneAndOnlyHamGlaze.xml">One and Only Ham Glaze</page>
 	<page href="RustyQueso.xml">Rusty Queso</page>
-	<page class="TODO qzxDisabled" href="RustyGuacamole.xml">Rusty Guacamole</page>
+	<page class="TODO" href="RustyGuacamole.xml">Rusty Guacamole</page>
 	<page href="TeriyakiSauce.xml">Teriyaki Sauce</page>
 </Pages>

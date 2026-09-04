@@ -5,4 +5,4 @@
 	%externalEntities;
 ]>
 
-<Section folder="Sides">Side Dishes</Section>
+<Section folder="Sides" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="section.xsd">Side Dishes</Section>

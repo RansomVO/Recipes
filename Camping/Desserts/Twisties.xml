@@ -6,14 +6,14 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Twisties</Title>
 	<Yields>
 		Depends upon how much Dough you make.
 		&smiley;
 	</Yields>
 	<Source>A VanOrman Original</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		When ever you make Dutch Father's Pizza, make sure you make extra Crust dough.

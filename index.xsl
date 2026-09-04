@@ -223,7 +223,16 @@
 	<xsl:template match="page">
 		<xsl:param name="linkPrefix" />
 		<xsl:param name="folder" />
-		<li><a href="{concat($linkPrefix, '/',$folder, '/', @href)}"><xsl:copy-of select="." /></a></li>
+		<li>
+			<xsl:choose>
+				<xsl:when test="contains(concat(' ', @class, ' '), ' qzxDisabled ')">
+					<span><xsl:copy-of select="." /></span>
+				</xsl:when>
+				<xsl:otherwise>
+					<a href="{concat($linkPrefix, '/',$folder, '/', @href)}"><xsl:copy-of select="." /></a>
+				</xsl:otherwise>
+			</xsl:choose>
+		</li>
 	</xsl:template>
 
 	<xsl:template match="inline">

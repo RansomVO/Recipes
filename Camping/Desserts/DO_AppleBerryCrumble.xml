@@ -6,12 +6,12 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="5" day="5" />
 	<Title>Dutch Oven Apple-Berry Crumble</Title>
 	<Yields>6-8 Servings</Yields>
 	<Source>A VanOrman Original</Source>
-	<Requires class="TODO">14&inches; Dutch Oven</Requires>
-	<LastModified year="2025" month="5" day="5" />
+	<Requires>14&inches; Dutch Oven</Requires>
 
 	<Description>
 		We had been trying to find something that is as easy to make as the traditional "Crispy" but tastes a little better.

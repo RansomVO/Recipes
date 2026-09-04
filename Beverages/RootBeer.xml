@@ -6,14 +6,14 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="5" day="5" />
 	<Title>Root Beer</Title>
 	<Yields>4-5 gallons</Yields>
 	<Source>
 		From the kitchen of David Beagley
 		<Note>Jennie's Dad</Note>
 	</Source>
-	<LastModified year="2025" month="5" day="5" />
 
 	<Description>
 		On a hot summer day, nothing is better than a big Cooler Jug of sweet Root Beer.

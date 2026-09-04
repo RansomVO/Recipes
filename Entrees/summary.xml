@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Summary>
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
 	Generally, an Entree is the biggest part of a lunch or dinner.
 	<br />
 	This section breaks the recipes down by what manner of cooking is used to create the dish.

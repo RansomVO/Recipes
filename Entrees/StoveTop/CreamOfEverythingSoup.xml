@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Cream of Everything Soup</Title>
 	<Yields>6-8 Servings</Yields>
 	<Source>A VanOrman Original</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		In general, Di doesn't like to eat soup.

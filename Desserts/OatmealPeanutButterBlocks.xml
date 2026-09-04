@@ -6,7 +6,8 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2026" month="8" day="21" />
 	<Title>Oatmeal Peanut Butter Blocks</Title>
 	<Yields>18</Yields>
 	<Source>
@@ -14,7 +15,6 @@
 		Boat
 		<Note>Head Lunch Lady at Ransom's Elementary School</Note>
 	</Source>
-	<LastModified year="2026" month="8" day="21" />
 
 	<Description>
 		When Ransom was in Cherry Hill Elementary School in Orem, Utah, the head cook was an immigrant named Mrs.

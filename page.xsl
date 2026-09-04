@@ -68,7 +68,7 @@
 									</xsl:otherwise>
 								</xsl:choose>
 							</td>
-							<td class="LAST_MODIFIED" style="text-align:right;"> Last updated: <xsl:apply-templates select="LastModified" />
+							<td class="LAST_MODIFIED" style="text-align:right;"> Last updated: <xsl:apply-templates select="html/LastModified" />
 							</td>
 						</tr>
 					</table>

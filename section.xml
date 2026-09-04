@@ -5,4 +5,4 @@
 	%externalEntities;
 ]>
 
-<Section folder=".">VanOrman Family Recipes</Section>
+<Section folder="." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="section.xsd">VanOrman Family Recipes</Section>

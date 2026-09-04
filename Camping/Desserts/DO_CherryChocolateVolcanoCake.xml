@@ -6,12 +6,12 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Cherry-Chocolate Volcano Cake</Title>
 	<Yields><span class="TODO">???</span></Yields>
 	<Source>A VanOrman Original</Source>
 	<Requires>10&inches; Dutch Oven</Requires>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		When there was a Dutch Oven cook-off for desserts at a ward campout, Ransom tried doing a simple twist on upside-down cake.

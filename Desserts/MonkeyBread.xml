@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Monkey Bread</Title>
 	<Yields>6-8 servings</Yields>
 	<Source>Not sure where we got this.</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		This dish is fairly easy to make and is a lot of fun to eat.

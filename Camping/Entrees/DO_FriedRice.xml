@@ -6,12 +6,12 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Dutch Oven Fried Rice</Title>
 	<Yields>8-10 Servings <span class="NOTE">(or 15-20 if just used as a side dish)</span></Yields>
 	<Source>Based on a Recipe from <a href="https://en.wikipedia.org/wiki/Joy_of_Cooking">Joy of Cooking</a></Source>
 	<Requires>12&inches; Dutch Oven</Requires>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		Ransom used the recipe book Joy of Cooking while on his mission.

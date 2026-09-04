@@ -5,23 +5,23 @@
 	%externalEntities;
 ]>
 
-<Pages>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
 	<page href="RangerCookies.xml">Ranger Cookies</page>
-	<page href="SourCreamSugarCookies.xml">Sour Cream Sugar Cookies</page>
+	<page class="TODO" href="SourCreamSugarCookies.xml">Sour Cream Sugar Cookies</page>
 	<page href="CrispyPeanutButterCookies.xml">Crispy Peanut Butter Cookies</page>
 	<page href="OatmealPeanutButterBlocks.xml">Oatmeal Peanut Butter Blocks</page>
 	<page href="RiceKrispyTreats.xml">Rice Krispy Treats</page>
 	<page href="PieCrustPastry.xml">Pie Crust Pastry</page>
 	<page href="PumpkinPie.xml">Pumpkin Pie</page>
-	<page class="TODO qzxDisabled" href="CreamLimePie.xml">Cream Lime Pie</page>
+	<page class="TODO" href="CreamLimePie.xml">Cream Lime Pie</page>
 	<page href="CoconutAlmondPopcorn.xml">Coconut Almond Popcorn</page>
 	<page href="MonkeyBread.xml">Monkey Bread</page>
 	<page href="TresLechesCake.xml">Tres Leches Cake</page>
 	<page href="CreamySoftToffee.xml">Creamy Soft Toffee</page>
 	<page href="CheapSoftToffee.xml">Cheap Soft Toffee</page>
 	<page href="RobertRedfordDessert.xml">Robert Redford Dessert</page>
-	<page href="Jigglers.xml">Jigglers</page>
-	<page href="LS_GummyTreats.xml">Sugar-Free Gummy Treats</page>
-	<page href="IceCream.xml">Ice Cream</page>
-	<page href="GF_PieCrust.xml">Gluten-Free Pie Crust</page>
+	<page class="TODO" href="Jigglers.xml">Jigglers</page>
+	<page class="TODO" href="LS_GummyTreats.xml">Sugar-Free Gummy Treats</page>
+	<page class="TODO" href="IceCream.xml">Ice Cream</page>
+	<page class="TODO" href="GF_PieCrust.xml">Gluten-Free Pie Crust</page>
 </Pages>

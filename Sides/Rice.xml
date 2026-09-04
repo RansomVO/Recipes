@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Rice</Title>
 	<Yields>2 servings</Yields>
 	<Source>Basic</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		It wasn't until my mission that I found out how much of a difference there is between Minute Rice, and real Rice.

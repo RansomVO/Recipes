@@ -6,14 +6,14 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Barley Stoup</Title>
 	<Yields>4 servings</Yields>
 	<Source>
 		From the Kitchen of Orrilla VanOrman
 		<Note>Ransom's Mom</Note>
 	</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>When Ransom was growing up, his mother used to make a simple dish that was chunky like a stew, but brothy like a soup, so, we decided to call it "stoup".</Description>
 

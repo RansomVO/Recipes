@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="3" day="29" />
 	<Title>Wonton Soup</Title>
 	<Yields>6-8 servings</Yields>
 	<Source>From the Kitchen of Mitsuko Barnhardt, Di's Mom</Source>
-	<LastModified year="2025" month="3" day="29" />
 
 	<Description>
 		When Di looks back and remembers peaceful times at home, she remembers her mom making Wonton Soup.

@@ -6,12 +6,12 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Ice Cream</Title>
 	<Yields>8-12 Servings</Yields>
 	<Source><Note>Classic Recipe</Note></Source>
 	<Requires>4-Quart Ice Cream Maker</Requires>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		Fresh-made Ice Cream

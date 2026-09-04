@@ -6,7 +6,8 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="5" day="5" />
 	<Title>
 		One and Only Ham Glaze
 		<Note>
@@ -20,7 +21,6 @@
 		From the kitchen of Karla Therriault
 		<Note>G's "Mama"</Note>
 	</Source>
-	<LastModified year="2025" month="5" day="5" />
 
 	<Description>
 		When you bake a ham, it turns out better if it has a glaze covering the outside.

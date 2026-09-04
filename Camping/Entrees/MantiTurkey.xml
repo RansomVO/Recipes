@@ -6,14 +6,14 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Manti Turkey</Title>
 	<Yields>4-6 Servings</Yields>
 	<Source>
 		From turkey farmers in Manti, Utah
 		<Note>Thus the name</Note>
 	</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		The youth in our ward did a service project where they went to Manti and helped do some spring cleaning at some turkey farms.

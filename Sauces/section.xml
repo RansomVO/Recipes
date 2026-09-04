@@ -5,4 +5,4 @@
 	%externalEntities;
 ]>
 
-<Section folder="Sauces">Sauces and Dips</Section>
+<Section folder="Sauces" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="section.xsd">Sauces and Dips</Section>

@@ -5,4 +5,4 @@
 	%externalEntities;
 ]>
 
-<Section folder="CookingBasics">Cooking Basics</Section>
+<Section folder="CookingBasics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="section.xsd">Cooking Basics</Section>

@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Pages>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
 	<page href="SinglePageCampingSheet.pdf" title="Single Page Camping Sheet">
 		Print this out with:<ul style="margin:0;">
 		<li>
@@ -22,5 +22,5 @@
 		</li>
 		</ul> Then fold on the lines between the columns to end up with a simple small folded flyer.
 	</page>
-	<page class="qzxDisabled TODO" href="MultiPage.xml">Multiple Page Camping Sheets</page>
+	<page href="MultiPage.xml">Multiple Page Camping Sheets</page>
 </Pages>

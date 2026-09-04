@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Pages>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
 	<CollapseSection folder="CookingBasics" />
 	<CollapseSection folder="Beverages" />
 	<CollapseSection folder="Appetizers" />

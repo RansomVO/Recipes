@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Cr&ecirc;pes</Title>
 	<Yields>6-8</Yields>
 	<Source>Modified from Classic French Recipe</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>After trying a few recipes, we found this one to be the easiest to make and it tastes great.</Description>
 

@@ -5,4 +5,4 @@
 	%externalEntities;
 ]>
 
-<Section folder="Entrees/StoveTop">Stove Top</Section>
+<Section folder="Entrees/StoveTop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="section.xsd">Stove Top</Section>

@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Summary>
-	Part of every meal are the things you serve beside it.
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
+	Part of every meal are the things you serve beside the entree.
 	For a really good meal, you will probably need to use one or two of the recipes in this section.
 </Summary>

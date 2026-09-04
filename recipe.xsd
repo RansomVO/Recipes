@@ -7,12 +7,12 @@
 	<xs:element name="Recipe">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element name="LastModified" type="LastModified" />
 				<xs:element name="Title" type="MixedContent" />
 				<xs:element name="Yields" type="MixedContent" minOccurs="0" />
 				<xs:element name="Source" type="MixedContent" minOccurs="0" />
 				<xs:element name="Note" type="MixedContent" minOccurs="0" />
 				<xs:element name="Requires" type="MixedContent" minOccurs="0" />
-				<xs:element name="LastModified" type="LastModified" />
 
 				<xs:element name="Description" type="MixedContent" minOccurs="0" />
 				<xs:element name="Ingredients" type="Ingredients" />
@@ -32,10 +32,22 @@
 
 	<!-- ===== LastModified ======================================================== -->
 	<xs:complexType name="LastModified">
-		<xs:attribute name="year" type="xs:integer" use="required" />
-		<xs:attribute name="month" type="xs:integer" use="required" />
-		<xs:attribute name="day" type="xs:integer" use="required" />
+		<xs:attribute name="year" type="IntegerOrTodo" use="required" />
+		<xs:attribute name="month" type="IntegerOrTodo" use="required" />
+		<xs:attribute name="day" type="IntegerOrTodo" use="required" />
 	</xs:complexType>
+
+	<!-- A real date part, or the literal "TODO" for a recipe that's still a placeholder (its pages.xml
+		entry carries both the "TODO" and "qzxDisabled" classes) rather than a real LastModified date. -->
+	<xs:simpleType name="IntegerOrTodo">
+		<xs:union memberTypes="xs:integer">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="TODO" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:union>
+	</xs:simpleType>
 
 	<!-- ===== Ingredients ========================================================== -->
 	<xs:complexType name="Ingredients">

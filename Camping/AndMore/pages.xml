@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Pages>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
 	<CollapseSection title="Dutch Oven">
 		<inline>
 			<Pages>
@@ -13,5 +13,4 @@
 			</Pages>
 		</inline>
 	</CollapseSection>
-	<page href="DO_BasqueSheepherdersBread.xml">Dutch Oven Basque Sheepherder's Bread</page>
 </Pages>

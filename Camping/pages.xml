@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Pages>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
 	<CollapseSection folder="Camping/Breakfast" />
 	<CollapseSection folder="Camping/Entrees" />
 	<CollapseSection folder="Camping/Desserts" />
@@ -25,7 +25,7 @@
 				<page href="Beverages/RootBeer.xml">Beverages / Root Beer</page>
 				<page href="Breakfast/FluffyPancakes.xml">Breakfast / Fluffy Pancakes</page>
 				<page href="Breads/NavajoFryBread.xml">Breads / Navajo Fry Bread</page>
-				<page href="Desserts/IceCream.xml">Desserts / Ice Cream</page>
+				<page class="TODO" href="Desserts/IceCream.xml">Desserts / Ice Cream</page>
 			</Pages>
 		</inline>
 	</CollapseSection>

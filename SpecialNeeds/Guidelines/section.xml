@@ -5,4 +5,4 @@
 	%externalEntities;
 ]>
 
-<Section folder="SpecialNeeds/Guidelines">General Guidelines</Section>
+<Section folder="SpecialNeeds/Guidelines" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="section.xsd">General Guidelines</Section>

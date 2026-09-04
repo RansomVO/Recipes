@@ -6,14 +6,14 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="5" day="5" />
 	<Title>Cheese Ball</Title>
 	<Yields>1</Yields>
 	<Source>
 		From the Kitchen of Bobbi Beagley
 		<Note>Jennie's Mom</Note>
 	</Source>
-	<LastModified year="2025" month="5" day="5" />
 
 	<Description>
 		Jennie's mom made this cheese ball every Christmas season and shared it with all of her friends.

@@ -6,14 +6,14 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2026" month="8" day="28" />
 	<Title>Rusty Queso</Title>
 	<Yields>&approx;2 Cups</Yields>
 	<Source>
 		From the kitchen of Rusty Taco
 		<Note>Via Josh VanOrman</Note>
 	</Source>
-	<LastModified year="2026" month="8" day="28" />
 
 	<Description>
 		Want to have yummy Nachos?

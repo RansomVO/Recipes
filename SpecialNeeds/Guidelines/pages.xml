@@ -5,8 +5,8 @@
 	%externalEntities;
 ]>
 
-<Pages>
-	<page class="TODO" href="Diabetes.xml">Diabetes</page>
-	<page class="TODO" href="GlutenSensitivity.xml">Gluten Sensitivity / Celiac Disease</page>
-	<page class="TODO" href="LactoseIntolerance.xml">Lactose Intolerance</page>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
+	<page class="qzxDisabled TODO" href="Diabetes.xml">Diabetes</page>
+	<page class="qzxDisabled TODO" href="GlutenSensitivity.xml">Gluten Sensitivity / Celiac Disease</page>
+	<page href="LactoseIntolerance.xml">Lactose Intolerance</page>
 </Pages>

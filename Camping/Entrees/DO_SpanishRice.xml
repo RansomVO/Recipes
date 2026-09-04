@@ -6,7 +6,8 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="5" day="5" />
 	<Title>Dutch Oven Spanish Rice</Title>
 	<Yields>
 		6-8 Servings
@@ -17,7 +18,6 @@
 		<Note>From Grandpa John</Note>
 	</Source>
 	<Requires>12&inches; Dutch Oven</Requires>
-	<LastModified year="2025" month="5" day="5" />
 
 	<Description>
 		Grandpa John created this recipe to be eaten as an Entree.

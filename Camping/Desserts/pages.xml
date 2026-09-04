@@ -5,14 +5,14 @@
 	%externalEntities;
 ]>
 
-<Pages>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
 	<CollapseSection title="Dutch Oven">
 		<inline>
 			<Pages>
 				<page href="Camping/Desserts/DO_AppleBerryCrumble.xml">Dutch Oven Apple-Berry Crumble</page>
-				<page href="Camping/Desserts/DO_AppleBerryCrumbleCake.xml">Dutch Oven Apple-Berry Crumble Cake</page>
-				<page href="Camping/Desserts/DO_CherryChocolateVolcanoCake.xml">Dutch Oven Cherry-Chocolate Volcano Cake</page>
-				<page href="Camping/Desserts/DO_FruitCrispy.xml">Dutch Oven Fruit Crispy</page>
+				<page class="TODO" href="Camping/Desserts/DO_AppleBerryCrumbleCake.xml">Dutch Oven Apple-Berry Crumble Cake</page>
+				<page class="TODO" href="Camping/Desserts/DO_CherryChocolateVolcanoCake.xml">Dutch Oven Cherry-Chocolate Volcano Cake</page>
+				<page class="TODO" href="Camping/Desserts/DO_FruitCrispy.xml">Dutch Oven Fruit Crispy</page>
 			</Pages>
 		</inline>
 	</CollapseSection>
@@ -24,10 +24,4 @@
 			</Pages>
 		</inline>
 	</CollapseSection>
-	<page href="BananaBoats.xml">Banana Boats</page>
-	<page href="DO_AppleBerryCrumble.xml">Dutch Oven Apple-Berry Crumble</page>
-	<page href="DO_AppleBerryCrumbleCake.xml">Dutch Oven Apple-Berry Crumble Cake</page>
-	<page href="DO_CherryChocolateVolcanoCake.xml">Cherry-Chocolate Volcano Cake</page>
-	<page href="DO_FruitCrispy.xml">Dutch Oven Fruit Crispy</page>
-	<page href="Twisties.xml">Twisties</page>
 </Pages>

@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="5" day="5" />
 	<Title>Sugar-Free Gummy Treats</Title>
 	<Yields><span class="TODO">???</span></Yields>
 	<Source>A VanOrman Original</Source>
-	<LastModified year="2025" month="5" day="5" />
 
 	<Description>
 		This recipe is tasty, and very easy to make, but the best part is:

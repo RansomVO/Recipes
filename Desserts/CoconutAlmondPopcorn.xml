@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Coconut Almond Popcorn</Title>
 	<Yields>12 1-Cup Servings</Yields>
 	<Source>Not sure where we got this recipe.</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		When settling down to watch a movie, popcorn is a great treat.

@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Summary>
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
 	Sometimes you want to have dinner ready right on time, but you aren't going to be home to do the cooking.
 	In this case, you might want to throw everything together and let it cook while you are gone.
 	<br />

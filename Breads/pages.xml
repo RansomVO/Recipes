@@ -5,14 +5,14 @@
 	%externalEntities;
 ]>
 
-<Pages>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
 	<page href="DeadlyRolls.xml">Deadly Rolls</page>
 	<page href="BreadMachineSandwichBread.xml">Bread-Machine Sandwich Bread</page>
 	<page href="Biscuits.xml">Biscuits</page>
 	<page href="NavajoFryBread.xml">Navajo Fry Bread</page>
 	<page href="UtahScones.xml">Utah Scones</page>
-	<page href="OrangeRolls.xml">Orange Rolls</page>
-	<page class="TODO qzxDisabled" href="GF_Biscuits.xml">Gluten-Free Biscuits</page>
+	<page class="TODO" href="OrangeRolls.xml">Orange Rolls</page>
+	<page class="TODO" href="GF_Biscuits.xml">Gluten-Free Biscuits</page>
 	<page class="TODO" href="GF_BreadMachineBread.xml">Gluten-Free Bread Machine Bread</page>
-	<page href="CloverLeafRoles.xml">Clover Leaf Rolls</page>
+	<page class="qzxDisabled TODO" href="CloverLeafRoles.xml">Clover Leaf Rolls</page>
 </Pages>

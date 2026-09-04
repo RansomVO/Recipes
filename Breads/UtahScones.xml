@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Utah Scones</Title>
 	<Yields>12</Yields>
 	<Source>Traditional Utah Recipe</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		Throughout the world, "Scones" are a type of quick bread similar to Biscuits.

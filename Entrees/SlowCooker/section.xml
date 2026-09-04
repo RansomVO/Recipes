@@ -5,4 +5,4 @@
 	%externalEntities;
 ]>
 
-<Section folder="Entrees/SlowCooker">Slow Cooker</Section>
+<Section folder="Entrees/SlowCooker" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="section.xsd">Slow Cooker</Section>

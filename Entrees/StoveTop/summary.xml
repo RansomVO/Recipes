@@ -5,6 +5,6 @@
 	%externalEntities;
 ]>
 
-<Summary>
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
 	Some of the easiest Entrees to cook are done on a Stove.
 </Summary>

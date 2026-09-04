@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="3" day="31" />
 	<Title>Teriyaki Sauce</Title>
 	<Yields>1 Cup</Yields>
 	<Source>A VanOrman Original</Source>
-	<LastModified year="2025" month="3" day="31" />
 
 	<Description>
 		One night, we started making Teriyaki chicken, then we found we didn't have any Teriyaki sauce.

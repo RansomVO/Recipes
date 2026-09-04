@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Summary>
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
 	Before you start trying to cook anything, you are going to need to know the basic stuff.
 	<br />
 	This section goes over these.

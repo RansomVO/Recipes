@@ -5,16 +5,20 @@
 	%externalEntities;
 ]>
 
-<Summary>
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
 	<p>
 		The VanOrmans <span class="SUPER_EMPHASIZE">love</span> to go camping.
 		So cooking outdoors is one of our things.
+		<br />
 		<span class="NOTE">(Di <u>doesn't</u> like the camping, but she does like the outdoor cooking since she gets to sit back for a change.)</span>
 	</p>
 	<p>
 		We especially <span class="SUPER_DUPER_EMPHASIZE">love</span> to do Dutch Oven cooking!
 		<br />
-		The VanOrmans have been doing it since Ransom was about 12 years old.
-		In that time, we have gathered several award-winning recipes, and have made up several recipes of our own.
+		When Ransom was a 11-year-old Boy Scout, he was introduced to Dutch Oven cooking by his Dad.
+		<span class="NOTE">(Grandpa John was his Scoutmaster.)</span>
+		And we have been doing it ever since.
+		<br />
+		In in all that time, we have gathered several award-winning recipes, and have made up several recipes of our own.
 	</p>
 </Summary>

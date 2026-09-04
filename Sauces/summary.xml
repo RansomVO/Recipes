@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Summary>
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
 	A
 	<span class="EMPHASIZE">lot</span>
 	of dishes just have to have some sort of Sauce on them, or something to Dip them in.

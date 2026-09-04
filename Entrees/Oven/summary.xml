@@ -5,6 +5,6 @@
 	%externalEntities;
 ]>
 
-<Summary>
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
 	For a lot of Entrees, cooking them in an Oven yields the best results.
 </Summary>

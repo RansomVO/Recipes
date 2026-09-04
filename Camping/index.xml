@@ -6,6 +6,6 @@
 	%externalEntities;
 ]>
 
-<Index>
-	<LastModified year="2026" month="9" day="3" />
+<Index xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd">
+	<LastModified year="2026" month="9" day="4" />
 </Index>

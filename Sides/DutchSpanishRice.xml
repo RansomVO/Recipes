@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Dutch Spanish Rice</Title>
 	<Yields>10-12 Servings</Yields>
 	<Source />
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		Ransom's dad, Grandpa John, originally cooked a version of this recipe over a camp fire in a Dutch Oven.

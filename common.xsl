@@ -92,24 +92,40 @@
 	<xsl:template match="a">
 		<xsl:param name="linkPrefix" />
 
-		<a>
-			<xsl:attribute name="class">
-				<xsl:value-of select="concat('no-print ', @class)" />
-			</xsl:attribute>
-			<xsl:copy-of select="@*[name() != 'href' and name() != 'class']" />
-			<xsl:attribute name="href">
-				<xsl:call-template name="ResolveLink">
-					<xsl:with-param name="href" select="@href" />
-					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-				</xsl:call-template>
-			</xsl:attribute>
-			<xsl:apply-templates>
-				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-			</xsl:apply-templates>
-		</a>
-		<span class="no-screen">
-			<xsl:value-of select="text()" />
-		</span>
+		<xsl:choose>
+			<!-- A disabled link (e.g. pointing at a Recipe that isn't ready yet) has nothing usable to
+				link to either way, so it just becomes plain text: one <span>, not the no-print/no-screen
+				pair below (that pair exists to hide a REAL link from print and show its text instead;
+				there's no real link here to hide). -->
+			<xsl:when test="contains(concat(' ', @class, ' '), ' qzxDisabled ')">
+				<span>
+					<xsl:copy-of select="@*[name() != 'href']" />
+					<xsl:apply-templates>
+						<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+					</xsl:apply-templates>
+				</span>
+			</xsl:when>
+			<xsl:otherwise>
+				<a>
+					<xsl:attribute name="class">
+						<xsl:value-of select="concat('no-print ', @class)" />
+					</xsl:attribute>
+					<xsl:copy-of select="@*[name() != 'href' and name() != 'class']" />
+					<xsl:attribute name="href">
+						<xsl:call-template name="ResolveLink">
+							<xsl:with-param name="href" select="@href" />
+							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+						</xsl:call-template>
+					</xsl:attribute>
+					<xsl:apply-templates>
+						<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+					</xsl:apply-templates>
+				</a>
+				<span class="no-screen">
+					<xsl:value-of select="text()" />
+				</span>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
 
 	<!-- For hand-written links built directly in a stylesheet (not sourced from recipe XML content),

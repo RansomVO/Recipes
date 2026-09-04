@@ -5,19 +5,19 @@
 	%externalEntities;
 ]>
 
-<Pages>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
 	<page href="MashedPotatoes.xml">Mashed Potatoes</page>
 	<page href="Rice.xml">Rice</page>
 	<page href="LehiRice.xml">Lehi Rice</page>
 	<page href="DutchSpanishRice.xml">Dutch Spanish Rice</page>
 	<page href="FriedRice.xml">Fried Rice</page>
 	<page href="Stuff(Me)ing.xml">Stuff<span class="SMALL_NOTE">(Me)</span>ing</page>
-	<page href="GreenBeanCasserole.xml">Green Bean Casserole</page>
+	<page class="TODO" href="GreenBeanCasserole.xml">Green Bean Casserole</page>
 	<page href="GarlicGingerStirFryGreenBeans.xml">Garlic-Ginger Stir-Fry Green Beans</page>
 	<page href="EasyPotatoesAuGratin.xml">Easy Potatoes Au Gratin</page>
 	<page href="RedheadCarrots.xml">Redhead Carrots</page>
 	<page href="ComfortRice.xml">Mexican Rice of Comfort</page>
 	<page class="TODO" href="ComfortBeans.xml">Mexican Beans of Comfort</page>
 	<page class="TODO" href="CranberryJelloSalad.xml">Cranberry Jello Salad</page>
-	<page class="TODO qzxDisabled" href="SheetPanVeggies.xml">Sheet Pan Veggies</page>
+	<page class="TODO" href="SheetPanVeggies.xml">Sheet Pan Veggies</page>
 </Pages>

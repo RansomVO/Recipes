@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="3" day="31" />
 	<Title>Fluffy Pancakes</Title>
 	<Yields>4-6</Yields>
 	<Source>A VanOrman Original</Source>
-	<LastModified year="2025" month="3" day="31" />
 
 	<Description>
 		We ran out of pancake mix one day and decided to try to make our own recipe.

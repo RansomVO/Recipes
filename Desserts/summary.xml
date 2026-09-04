@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Summary>
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
 	Life is short.
 	Eat Dessert first.
 	Or make tasty snacks to eat between meals.

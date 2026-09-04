@@ -6,14 +6,14 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Stuff<span class="SMALL_NOTE">(Me)</span>ing</Title>
 	<Yields>8-10 Servings</Yields>
 	<Source>
 		Based on a Recipe from Karla Therriault
 		<Note>(G's "Mama")</Note>
 	</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		Most Thanksgivings we have used boxes of Stove Top Stuffing, but one year we ate at our in-laws, the Therriault's, and fell in love with their stuffing.

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="Index">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="LastModified" type="LastModified" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="LastModified">
+		<xs:attribute name="year" type="xs:integer" use="required" />
+		<xs:attribute name="month" type="xs:integer" use="required" />
+		<xs:attribute name="day" type="xs:integer" use="required" />
+	</xs:complexType>
+
+</xs:schema>

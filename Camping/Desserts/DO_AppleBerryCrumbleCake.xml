@@ -6,12 +6,12 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Dutch Oven Apple-Berry Crumble Cake</Title>
 	<Yields>4-6 Servings</Yields>
 	<Source>A VanOrman Original</Source>
 	<Requires class="TODO">12&inches; Dutch Oven</Requires>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		One morning, Ransom woke up a couple of hours early, so he went out and picked a bunch of fresh wild blackberries.

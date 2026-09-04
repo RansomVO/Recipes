@@ -5,6 +5,6 @@
 	%externalEntities;
 ]>
 
-<Summary>
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
 	There are a few other recipes that don't fit into the other Camping categories, and you'll find them here.
 </Summary>

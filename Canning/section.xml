@@ -5,4 +5,4 @@
 	%externalEntities;
 ]>
 
-<Section folder="Canning">Canning</Section>
+<Section folder="Canning" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="section.xsd">Canning</Section>

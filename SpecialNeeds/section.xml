@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Section folder="SpecialNeeds">
+<Section folder="SpecialNeeds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="section.xsd">
 	Special Needs
 	<span style="font-size:.66em;">(Diabetes - Gluten Sensitivity/Celiac Disease - Lactose Intolerance)</span>
 </Section>

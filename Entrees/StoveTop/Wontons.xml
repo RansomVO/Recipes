@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Wontons</Title>
 	<Yields>20-25 Wontons</Yields>
 	<Source>From the Kitchen of Gramma Mitzi, Di's Mom</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		When Di looks back and remembers peaceful times at home, she remembers her mom making Wonton Soup.

@@ -6,11 +6,11 @@
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Orange Rolls</Title>
 	<Yields><span class="TODO">???</span></Yields>
 	<Source>A VanOrman Original</Source>
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description />
 

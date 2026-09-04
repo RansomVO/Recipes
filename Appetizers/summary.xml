@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Summary>
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
 	Is everybody going to be <span class="EMPHASIZE">starving</span>?
 	And do you know before you get started that they will be grumbling that cooking is taking too long?
 	<span class="NOTE">(Like at Thanksgiving)</span>
