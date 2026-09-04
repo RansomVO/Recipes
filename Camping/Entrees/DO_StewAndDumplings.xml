@@ -12,10 +12,7 @@
 	<Yields>ToDo</Yields>
 	<Requires class="TODO">12&inches; Dutch Oven?</Requires>
 
-	<Description>
-		<span class="TODO">ToDo:
-		Add a Description.</span>
-	</Description>
+	<Description><span class="TODO">ToDo: Add a Description.</span></Description>
 
 	<Ingredients>
 		<section id="IngredientsStew" title="Stew">

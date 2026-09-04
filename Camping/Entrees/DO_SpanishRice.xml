@@ -19,10 +19,7 @@
 	</Source>
 	<Requires>12&inches; Dutch Oven</Requires>
 
-	<Description>
-		Grandpa John created this recipe to be eaten as an Entree.
-		It also makes a great side dish.
-	</Description>
+	<Description>Grandpa John created this recipe to be eaten as an Entree. It also makes a great side dish.</Description>
 
 	<Ingredients>
 		<section>
@@ -33,18 +30,7 @@
 			<ingredient>Green Bell Pepper <amount>1</amount></ingredient>
 			<ingredient>Tomato Soup <amount>1 10. 75-oz. Can </amount></ingredient>
 			<ingredient>Tomato Sauce <amount>2 8-oz. Cans </amount></ingredient>
-			<ingredient>
-				Stewed Tomatoes
-				<amount>
-					1 28-oz.
-					Can
-					<note>
-						or 2 14.
-						5-oz.
-						Cans
-					</note>
-				</amount>
-			</ingredient>
+			<ingredient>Stewed Tomatoes <amount>1 28-oz. Can <note>or 2 14. 5-oz. Cans</note></amount></ingredient>
 			<ingredient>Salt <amount>1 Tablespoon</amount></ingredient>
 			<ingredient>Pepper <amount>&frac14; teaspoon</amount></ingredient>
 		</section>
@@ -57,10 +43,7 @@
 			<instruction>Place Dutch Oven on medium amount of charcoals.</instruction>
 			<instruction>Add Hamburger and Onions and cooke until browned.</instruction>
 			<instruction>Add all other ingredients and stir well.</instruction>
-			<instruction>
-				Stirring occastionally, simmer until Rice is cooked.
-				<span class="NOTE">(&approx;20-45 minutes)</span>
-			</instruction>
+			<instruction>Stirring occastionally, simmer until Rice is cooked. <span class="NOTE">(&approx;20-45 minutes)</span></instruction>
 		</section>
 	</Instructions>
 

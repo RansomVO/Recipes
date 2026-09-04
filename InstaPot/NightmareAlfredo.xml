@@ -41,26 +41,14 @@
 
 	<Instructions>
 		<section>
-			<instruction>
-				In a pot, combine Chicken Broth, Milk, Evaporated Milk and Cream of Mushroom Soup.
-				Stir and set aside.
-			</instruction>
+			<instruction>In a pot, combine Chicken Broth, Milk, Evaporated Milk and Cream of Mushroom Soup. Stir and set aside.</instruction>
 			<instruction>Slice the Chicken into very thin slices, then cut into segments &approx;1&inches;-2&inches; long.</instruction>
-			<instruction>
-				Set InstaPot to Saut&eacute; and add Butter.
-				Let it sit until Butter is melted.
-			</instruction>
-			<instruction>
-				Add Chicken and Garlic and saut&eacute; until Chicken is cooked.
-				(&approx;5-10 minutes)
-			</instruction>
+			<instruction>Set InstaPot to Saut&eacute; and add Butter. Let it sit until Butter is melted.</instruction>
+			<instruction>Add Chicken and Garlic and saut&eacute; until Chicken is cooked. (&approx;5-10 minutes)</instruction>
 			<instruction>Turn off Saut&eacute; on the InstaPot, add liquid and stir well.</instruction>
 			<instruction>Break Fettuccini in half so it fits in InstaPot.</instruction>
 			<instruction>Carefully stir the Pasta in the mixture until it is well covered.</instruction>
-			<instruction>
-				Sprinkle Parmesan Cheese over the top.
-				<span class="EMPHASIZE">Don't stir.</span>
-			</instruction>
+			<instruction>Sprinkle Parmesan Cheese over the top. <span class="EMPHASIZE">Don't stir.</span></instruction>
 			<instruction>Set InstaPot to Pressure Cook for 6 minutes.</instruction>
 			<instruction>When done, turn off InstaPot and let sit for 6 minutes more.</instruction>
 			<instruction>Release pressure from InstaPot.</instruction>

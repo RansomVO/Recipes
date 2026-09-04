@@ -39,7 +39,9 @@
 			<ingredient>Salt <amount>1 teaspoon</amount></ingredient>
 			<ingredient>Flour <amount>3-4 Cups</amount></ingredient>
 		</section>
-		<section><ingredient>Butter <amount>&frac14; Cup <note>&frac12; Stick</note></amount></ingredient></section>
+		<section>
+			<ingredient>Butter <amount>&frac14; Cup <note>&frac12; Stick</note></amount></ingredient>
+		</section>
 	</Ingredients>
 
 	<Instructions>

@@ -8,10 +8,7 @@
 
 <Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
 	<LastModified year="2025" month="6" day="6" />
-	<Title>
-		Bath Canning:
-		How-To
-	</Title>
+	<Title>Bath Canning: How-To</Title>
 	<Yields />
 	<Source />
 
@@ -31,10 +28,7 @@
 		<section>
 			<ingredient>
 				Canning Bottles of the appropriate size
-				<note>
-					For example:
-					Mason, Kerr, Ball, etc.
-				</note>
+				<note>For example: Mason, Kerr, Ball, etc.</note>
 			</ingredient>
 			<ingredient>
 				Canning-appropriate Food
@@ -74,10 +68,7 @@
 				<span class="NOTE">(Refer to the specific recipe.)</span>
 			</instruction>
 			<instruction>Remove the bottles from the Bath Canner and set on a towel on a flat surface.</instruction>
-			<instruction>
-				Let cool for several hours.
-				<span class="NOTE">(Overnight is good.)</span>
-			</instruction>
+			<instruction>Let cool for several hours. <span class="NOTE">(Overnight is good.)</span></instruction>
 			<instruction>
 				Once cooled, make sure the lids have sealed by pressing down on the center of the lids.
 				If they pop in, then pop back out, the bottle did not seal.

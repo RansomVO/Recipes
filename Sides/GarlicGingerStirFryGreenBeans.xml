@@ -33,15 +33,8 @@
 		<section>
 			<ingredient>Crushed Red Chili Pepper Flakes<amount>1 teaspoon</amount></ingredient>
 			<ingredient>
-				Ginger
-				<note>Finely Grated</note>
-				<amount>
-					&frac12; Tablespoon
-					<note>
-						Unless Di says to not use it.
-						&smiley;
-					</note>
-				</amount>
+				Ginger <note>Finely Grated</note>
+				<amount>&frac12; Tablespoon <note>Unless Di says to not use it. &smiley;</note></amount>
 			</ingredient>
 			<ingredient>
 				Chili Sauce <note>Tapat&iacute;o is our favorite</note>
@@ -69,10 +62,7 @@
 			<instruction>Add sauce mix set aside earlier and bring it to a boil for 3 minutes.</instruction>
 			<instruction>Add Green Beans and stir until they are thinly covered in sauce.</instruction>
 			<instruction>Stir every few minutes, carefully scraping sauce and garlic from the wok and the Green Beans are freshly covered with sauce.</instruction>
-			<instruction>
-				Continue until Green Beans are cooked to desired amount.
-				<span class="NOTE">(20-30 minutes)</span>
-			</instruction>
+			<instruction>Continue until Green Beans are cooked to desired amount. <span class="NOTE">(20-30 minutes)</span></instruction>
 		</section>
 	</Instructions>
 

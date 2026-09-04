@@ -6,10 +6,7 @@
 ]>
 
 <Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
-	<page href="BathCanningHowTo.xml">
-		Bath Canning:
-		How-To
-	</page>
+	<page href="BathCanningHowTo.xml">Bath Canning: How-To</page>
 	<page href="Salsa.xml">Salsa</page>
 	<page href="WildBlackberryJam.xml">Wild Blackberry Jam</page>
 	<page href="LS_WildBlackberryJam.xml">No-Sugar-Added Wild Blackberry Jam</page>

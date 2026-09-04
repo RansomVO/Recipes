@@ -12,10 +12,7 @@
 	<Yields>1 serving</Yields>
 	<Source>Basic</Source>
 
-	<Description>
-		Eggs for breakfast is a standard staple.
-		But if they are not done right, they end up a rubbery or burnt mess.
-	</Description>
+	<Description>Eggs for breakfast is a standard staple. But if they are not done right, they end up a rubbery or burnt mess.</Description>
 
 	<Ingredients>
 		<section>
@@ -27,10 +24,7 @@
 
 	<Instructions>
 		<section>
-			<instruction>
-				Break Eggs into a cup.
-				<span class="NOTE">(Make sure any shell pieces are removed.)</span>
-			</instruction>
+			<instruction>Break Eggs into a cup. <span class="NOTE">(Make sure any shell pieces are removed.)</span></instruction>
 			<instruction>Using a fork, or small whisk, stir the Egg until it is thoroughly blended.</instruction>
 			<instruction>Add Milk and mix thoroughly.</instruction>
 			<instruction>Place a small skillet on the stove set to medium heat.</instruction>

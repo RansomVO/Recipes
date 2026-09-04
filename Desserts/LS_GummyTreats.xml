@@ -21,16 +21,8 @@
 		<section>
 			<ingredient>Water<amount>&frac12; Cup</amount></ingredient>
 			<ingredient>
-				Sugar-free Flavored Gelatin
-				<note>Such as Jello</note>
-				<amount>
-					2 Packages
-					<note>
-						0.
-						6-oz.
-						Each
-					</note>
-				</amount>
+				Sugar-free Flavored Gelatin <note>Such as Jello</note>
+				<amount>2 Packages <note>0. 6-oz. Each</note></amount>
 			</ingredient>
 		</section>
 	</Ingredients>
@@ -47,10 +39,7 @@
 				<span class="NOTE">Hint:
 				If you lightly spray the molds with non-stick spray (such as Pam) then the treats are easier to remove when done.</span>
 			</instruction>
-			<instruction>
-				Refridgerate until firm.
-				<span class="NOTE">(This only takes about an hour.)</span>
-			</instruction>
+			<instruction>Refridgerate until firm. <span class="NOTE">(This only takes about an hour.)</span></instruction>
 			<instruction>Remove from the molds and enjoy!</instruction>
 		</section>
 	</Instructions>
@@ -83,16 +72,12 @@
 		<modification>
 			<span class="POINT_HIGHLIGHT">To make the treats extra tart:</span>
 			<br />
-			Add 1 0.
-			13-oz.
-			Envelope unsweetened Soft Drink Mix <span class="NOTE">(Such as Kool-Aid)</span>
+			Add 1 0. 13-oz. Envelope unsweetened Soft Drink Mix <span class="NOTE">(Such as Kool-Aid)</span>
 		</modification>
 		<modification>
 			<span class="POINT_HIGHLIGHT">To make the treats sweeter and more flavorful:</span>
 			<br />
-			Add 1 1.
-			7g.
-			Package Sugar-free Soft Drink Mix <span class="NOTE">(Such as Crystal Light)</span>
+			Add 1 1. 7g. Package Sugar-free Soft Drink Mix <span class="NOTE">(Such as Crystal Light)</span>
 		</modification>
 	</Modifications>
 </Recipe>

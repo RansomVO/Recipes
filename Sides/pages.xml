@@ -19,5 +19,5 @@
 	<page href="ComfortRice.xml">Mexican Rice of Comfort</page>
 	<page class="TODO" href="ComfortBeans.xml">Mexican Beans of Comfort</page>
 	<page class="TODO" href="CranberryJelloSalad.xml">Cranberry Jello Salad</page>
-	<page class="TODO" href="SheetPanVeggies.xml">Sheet Pan Veggies</page>
+	<page class="qzxDisabled TODO" href="SheetPanVeggies.xml">Sheet Pan Veggies</page>
 </Pages>

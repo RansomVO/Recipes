@@ -37,10 +37,7 @@
 				Place it so the side with the most fat is up.
 			</instruction>
 			<instruction>Sprinkle a 1-2 Tablespoons of the Water on the top of the Roast, then sprinkle Onion Soup Mix on the top of the Roast.</instruction>
-			<instruction>
-				Peel Potatoes and Carrots.
-				Rinse them in clean Water, then cut them into spoon-sized chunks.
-			</instruction>
+			<instruction>Peel Potatoes and Carrots. Rinse them in clean Water, then cut them into spoon-sized chunks.</instruction>
 			<instruction>Place Potatoes and Carrots in Slow Cooker, between the Roast and the side of the crock, then over the top of the Roast.</instruction>
 			<instruction>Sprinkle the rest of the Water over the entire contents of the Slow Cooker.</instruction>
 			<instruction>Cook on High for 4-6 hours, or Low for 8-12 hours.</instruction>
@@ -53,10 +50,7 @@
 	</Instructions>
 
 	<Notes>
-		<note>
-			The amount of Carrots depends how much your family eats.
-			You may want more or less than what is listed.
-		</note>
+		<note>The amount of Carrots depends how much your family eats. You may want more or less than what is listed.</note>
 		<note>
 			You should use enough Potatoes to fill the Slow Cooker, nearly touching the lid.
 			That depends upon the size of the Potatoes, the size of the Roast, the amount of Carrots, etc.
@@ -81,9 +75,6 @@
 
 	<Modifications>
 		<modification>Instead of Lipton Onion Soup Mix, use Montreal Steak seasoning.</modification>
-		<modification>
-			Use the broth to make <a href="&hellip;/SaucesAndDips/EasyGravy.xml">Sauces and Dips:
-			Easy Gravy</a>.
-		</modification>
+		<modification>Use the broth to make <a href="&hellip;/SaucesAndDips/EasyGravy.xml">Sauces and Dips: Easy Gravy</a>.</modification>
 	</Modifications>
 </Recipe>

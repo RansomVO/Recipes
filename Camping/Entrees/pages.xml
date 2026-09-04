@@ -10,9 +10,9 @@
 	<CollapseSection title="Dutch Oven">
 		<inline>
 			<Pages>
-				<page class="TODO" href="Camping/Entrees/DO_DutchFathersPizza.xml">Dutch Father's Pizza</page>
+				<page href="Camping/Entrees/DO_DutchFathersPizza.xml">Dutch Father's Pizza</page>
 				<page class="TODO" href="Camping/Entrees/DO_BBQSpareRibs.xml">Dutch Oven BBQ Spare Ribs</page>
-				<page class="TODO" href="Camping/Entrees/DO_KlondikeChili.xml">Dutch Oven Klondike Chili</page>
+				<page href="Camping/Entrees/DO_KlondikeChili.xml">Dutch Oven Klondike Chili</page>
 				<page class="TODO" href="Camping/Entrees/DO_Fajitas.xml">Dutch Oven Fajitas</page>
 				<page href="Camping/Entrees/DO_FriedRice.xml">Dutch Oven Fried Rice</page>
 				<page href="Camping/Entrees/DO_SpanishRice.xml">Dutch Oven Spanish Rice</page>

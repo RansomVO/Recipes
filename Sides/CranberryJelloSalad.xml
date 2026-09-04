@@ -32,7 +32,9 @@
 	</Ingredients>
 
 	<Instructions class="TODO">
-		<section><instruction>QZX TODO</instruction></section>
+		<section>
+			<instruction>QZX TODO</instruction>
+		</section>
 	</Instructions>
 
 	<Modifications>

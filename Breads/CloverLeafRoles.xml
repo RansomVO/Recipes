@@ -15,10 +15,7 @@
 		<Note><span class="TODO">ToDo</span></Note>
 	</Source>
 
-	<Description>
-		<span class="TODO">ToDo:
-		Add Description</span>
-	</Description>
+	<Description><span class="TODO">ToDo: Add Description</span></Description>
 
 	<Ingredients>
 		<section id="IngredientsToDo" title="ToDo">
@@ -32,8 +29,12 @@
 	</Ingredients>
 
 	<Instructions>
-		<section id="InstructionsToDo" title="ToDo"><instruction>Preheat oven to <span class="TODO">ToDo</span> &deg;</instruction></section>
-		<section id="InstructionsToDo" title="ToDo"><instruction><span class="TODO">ToDo</span></instruction></section>
+		<section id="InstructionsToDo" title="ToDo">
+			<instruction>Preheat oven to <span class="TODO">ToDo</span> &deg;</instruction>
+		</section>
+		<section id="InstructionsToDo" title="ToDo">
+			<instruction><span class="TODO">ToDo</span></instruction>
+		</section>
 	</Instructions>
 
 	<Notes>

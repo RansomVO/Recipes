@@ -47,14 +47,8 @@
 	</Instructions>
 
 	<Notes>
-		<note>
-			Do not use Plain Cheese, such as Cheddar.
-			It turns into a glob instead of a spread.
-		</note>
-		<note>
-			Do not use Nacho Cheese.
-			It turns into a soup instead of a spread.
-		</note>
+		<note>Do not use Plain Cheese, such as Cheddar. It turns into a glob instead of a spread.</note>
+		<note>Do not use Nacho Cheese. It turns into a soup instead of a spread.</note>
 		<note>Chunky salsa is usually more appealing.</note>
 		<note>You can use Mild, Medium, or Hot Salsa, depending on your preference.</note>
 	</Notes>

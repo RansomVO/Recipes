@@ -59,10 +59,7 @@
 		</section>
 		<section id="InstructionsFilling" title="Filling">
 			<instruction>In a separate bowl, combine Filling ingredients and mix well.</instruction>
-			<instruction>
-				Remove 1 Cup of mixture.
-				<span class="NOTE">(It won't be used in this recipe.)</span>
-			</instruction>
+			<instruction>Remove 1 Cup of mixture. <span class="NOTE">(It won't be used in this recipe.)</span></instruction>
 			<instruction>Punch holes in the cake with a fork, then drizzle remaining mixture all over the cake.</instruction>
 			<instruction>Let sit for 30 minutes.</instruction>
 			<instruction>Combine Topping ingredients and mix well.</instruction>

@@ -18,13 +18,21 @@
 	<Description><span class="TODO">ToDo</span></Description>
 
 	<Ingredients>
-		<section id="IngredientsToDo" title="ToDo"><ingredient>ToDo <note>ToDo</note><amount>1 ToDo <note>ToDo</note></amount></ingredient></section>
-		<section id="IngredientsToDo" title="ToDo"><ingredient>ToDo <note>ToDo</note><amount>1 ToDo <note>ToDo</note></amount></ingredient></section>
+		<section id="IngredientsToDo" title="ToDo">
+			<ingredient>ToDo <note>ToDo</note><amount>1 ToDo <note>ToDo</note></amount></ingredient>
+		</section>
+		<section id="IngredientsToDo" title="ToDo">
+			<ingredient>ToDo <note>ToDo</note><amount>1 ToDo <note>ToDo</note></amount></ingredient>
+		</section>
 	</Ingredients>
 
 	<Instructions>
-		<section id="InstructionsToDo" title="ToDo"><instruction>Preheat oven to <span class="TODO">ToDo</span>&deg;</instruction></section>
-		<section id="InstructionsToDo" title="ToDo"><instruction><span class="TODO">ToDo</span></instruction></section>
+		<section id="InstructionsToDo" title="ToDo">
+			<instruction>Preheat oven to <span class="TODO">ToDo</span>&deg;</instruction>
+		</section>
+		<section id="InstructionsToDo" title="ToDo">
+			<instruction><span class="TODO">ToDo</span></instruction>
+		</section>
 	</Instructions>
 
 	<Notes>

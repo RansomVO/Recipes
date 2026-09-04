@@ -36,7 +36,9 @@
 			<ingredient>Vanilla Instant Pudding Mix <amount>4 Ounces</amount></ingredient>
 			<ingredient>Milk <amount>3 Cups</amount></ingredient>
 		</section>
-		<section id="IngredientsTopLayer" title="Top Layer"><ingredient>Milk Chocolate Candy Bar <note>grated</note><amount>1&frac12;-oz. Bar </amount></ingredient></section>
+		<section id="IngredientsTopLayer" title="Top Layer">
+			<ingredient>Milk Chocolate Candy Bar <note>grated</note><amount>1&frac12;-oz. Bar </amount></ingredient>
+		</section>
 	</Ingredients>
 
 	<Instructions>

@@ -43,10 +43,7 @@
 			<instruction>Let rise for &approx;15 minutes, then punch down.</instruction>
 			<instruction>Place in Dutch Oven and mash down evenly across the bottom.</instruction>
 			<instruction>Let rise until it barely touches the lid.</instruction>
-			<instruction>
-				Bake slowly, mostly from the top.
-				<span class="NOTE">(&approx;45 minutes)</span>
-			</instruction>
+			<instruction>Bake slowly, mostly from the top. <span class="NOTE">(&approx;45 minutes)</span></instruction>
 			<instruction>Gently remove from Dutch Oven and place on cutting board while removing the foil.</instruction>
 			<instruction>Cut and eat.</instruction>
 		</section>

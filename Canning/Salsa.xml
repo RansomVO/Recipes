@@ -80,10 +80,7 @@
 			</instruction>
 			<instruction>When all of the ingredients are prepared, put them into a pot and bring to a full boil for 5 minutes.</instruction>
 			<instruction>Immediately fill hot pint jars leaving &frac12;&inches;-1&inches; at the top of the jar, then put on the lids.</instruction>
-			<instruction>
-				Follow instructions in the <a href="BathCanningHowTo.xml">Bath Canning:
-				How-To</a> section.
-			</instruction>
+			<instruction>Follow instructions in the <a href="BathCanningHowTo.xml">Bath Canning: How-To</a> section.</instruction>
 		</section>
 	</Instructions>
 

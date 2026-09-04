@@ -9,10 +9,7 @@
 <Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
 	<LastModified year="2025" month="6" day="6" />
 	<Title>Twisties</Title>
-	<Yields>
-		Depends upon how much Dough you make.
-		&smiley;
-	</Yields>
+	<Yields>Depends upon how much Dough you make. &smiley;</Yields>
 	<Source>A VanOrman Original</Source>
 
 	<Description>
@@ -48,8 +45,5 @@
 		</section>
 	</Instructions>
 
-	<FinalNote>
-		Sometimes, one per person is nowhere near enough.
-		&smiley;
-	</FinalNote>
+	<FinalNote>Sometimes, one per person is nowhere near enough. &smiley;</FinalNote>
 </Recipe>

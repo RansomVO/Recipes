@@ -50,10 +50,7 @@
 		<section id="InstructionsCrust" title="Crust">
 			<instruction>Mix Sugar into Water, then add Yeast.</instruction>
 			<instruction>When Yeast begins to foam, add all other ingredients and knead for 10 minutes.</instruction>
-			<instruction>
-				Put in greased bowl, cover and let rise until doubled.
-				(&approx;30 minutes.)
-			</instruction>
+			<instruction>Put in greased bowl, cover and let rise until doubled. (&approx;30 minutes.)</instruction>
 		</section>
 		<section id="InstructionsAssembling" title="Assembling">
 			<instruction>Preheat oven to 425&deg;</instruction>

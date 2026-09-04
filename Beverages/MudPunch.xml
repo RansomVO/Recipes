@@ -29,10 +29,7 @@
 	<Instructions>
 		<section>
 			<instruction>In a large pitcher, combine both cans of Juice Concentrate.</instruction>
-			<instruction>
-				Add the appropriate amount of water.
-				<span class="NOTE">(2 cans for each.)</span>
-			</instruction>
+			<instruction>Add the appropriate amount of water. <span class="NOTE">(2 cans for each.)</span></instruction>
 			<instruction>Mix well.</instruction>
 		</section>
 	</Instructions>

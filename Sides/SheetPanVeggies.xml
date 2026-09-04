@@ -7,20 +7,26 @@
 ]>
 
 <Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
-	<LastModified year="2025" month="11" day="29" />
+	<LastModified year="TODO" month="TODO" day="TODO" />
 	<Title>Sheet Pan Veggies</Title>
 	<Yields>QZX Servings</Yields>
 	<Source>A VanOrman Original</Source>
 
-	<Description class="TODO">
-		QZX TODO:
-		Need to come up with a better name.
-	</Description>
+	<Description class="TODO">QZX TODO: Need to come up with a better name.</Description>
 
-	<Ingredients />
+	<Ingredients>
+		<section id="IngredientsToDo" title="ToDo">
+			<ingredient>ToDo <note>ToDo</note><amount>1 ToDo<note>ToDo</note></amount></ingredient>
+		</section>
+		<section id="IngredientsToDo" title="ToDo">
+			<ingredient>ToDo <note>ToDo</note><amount>1 ToDo<note>ToDo</note></amount></ingredient>
+		</section>
+	</Ingredients>
 
 	<Instructions class="TODO">
-		<section><instruction>QZX TODO</instruction></section>
+		<section>
+			<instruction>QZX TODO</instruction>
+		</section>
 	</Instructions>
 
 	<Modifications class="TODO">

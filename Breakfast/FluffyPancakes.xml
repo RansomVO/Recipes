@@ -13,8 +13,7 @@
 	<Source>A VanOrman Original</Source>
 
 	<Description>
-		We ran out of pancake mix one day and decided to try to make our own recipe.
-		This is what we came up with.
+		We ran out of pancake mix one day and decided to try to make our own recipe. This is what we came up with.
 		<br />
 		They are light, fluffy and sweet, but extremely simple to make.
 	</Description>
@@ -51,8 +50,5 @@
 		<modification>To make Buttermilk Pancakes, replace Milk with Buttermilk.</modification>
 	</Modifications>
 
-	<FinalNote>
-		See, I told you it was simple.
-		&smiley;
-	</FinalNote>
+	<FinalNote>See, I told you it was simple. &smiley;</FinalNote>
 </Recipe>

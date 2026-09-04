@@ -18,11 +18,17 @@
 	<Description class="TODO" />
 
 	<Ingredients class="TODO">
-		<section id="IngredientsToDo" title="ToDo"><ingredient>ToDo <note>ToDo</note><amount>1 ToDo <note>ToDo</note></amount></ingredient></section>
-		<section id="IngredientsToDo" title="ToDo"><ingredient>ToDo <note>ToDo</note><amount>1 ToDo <note>ToDo</note></amount></ingredient></section>
+		<section id="IngredientsToDo" title="ToDo">
+			<ingredient>ToDo <note>ToDo</note><amount>1 ToDo <note>ToDo</note></amount></ingredient>
+		</section>
+		<section id="IngredientsToDo" title="ToDo">
+			<ingredient>ToDo <note>ToDo</note><amount>1 ToDo <note>ToDo</note></amount></ingredient>
+		</section>
 	</Ingredients>
 
 	<Instructions class="TODO">
-		<section><instruction>QZX TODO</instruction></section>
+		<section>
+			<instruction>QZX TODO</instruction>
+		</section>
 	</Instructions>
 </Recipe>

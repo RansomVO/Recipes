@@ -14,7 +14,7 @@
 		Adapted from the kitchen of Bobbi Beagley
 		<Note>Jennie's Mom</Note>
 	</Source>
-	<Requires class="TODO">12&inches; Dutch Oven</Requires>
+	<Requires>12&inches; Dutch Oven</Requires>
 
 	<Description>
 		When Jennie was growing up, her mom used to make a wonderful BBQ Spare Ribs recipe.
@@ -23,7 +23,9 @@
 	</Description>
 
 	<Ingredients>
-		<section><ingredient>Boneless Country Style Spare Ribs <note>Pork or Beef</note><amount>4 Lbs.</amount></ingredient></section>
+		<section>
+			<ingredient>Boneless Country Style Spare Ribs <note>Pork or Beef</note><amount>4 Lbs.</amount></ingredient>
+		</section>
 		<section title="Sauce">
 			<ingredient>Tomato Paste <amount>3 6-oz. Cans </amount></ingredient>
 			<ingredient>Ketchup <amount>1 Cup</amount></ingredient>
