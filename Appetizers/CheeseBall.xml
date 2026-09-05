@@ -38,7 +38,9 @@
 	<Instructions>
 		<section>
 			<instruction>Let Cream Cheese come to room temperature.</instruction>
-			<instruction>Place all ingredients, except Pecans, into a large bowl and knead together until well mixed.</instruction>
+			<instruction>
+				Place all ingredients, except Pecans, into a large bowl and knead together until well mixed.
+			</instruction>
 			<instruction>Shape cheese into a ball.</instruction>
 			<instruction>Spread Chopped Pecans onto a flat surface, like a cookie sheet, then roll ball around in Pecans until it is covered.</instruction>
 			<instruction>Serve at room temperature.</instruction>

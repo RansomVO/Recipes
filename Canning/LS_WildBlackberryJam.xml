@@ -33,7 +33,9 @@
 	<Instructions>
 		<section id="MakingMashedBerries" title="Making Mashed Berries">
 			<instruction>Remove any stems from berries</instruction>
-			<instruction>Let berries soak in a large bowl, and pick out grass, leaves, etc. that floats to the top.</instruction>
+			<instruction>
+				Let berries soak in a large bowl, and pick out grass, leaves, etc. that floats to the top.
+			</instruction>
 			<instruction>Drain, then rinse berries in a strainer or colander.</instruction>
 			<instruction>Mash berries, using a potato masher or something similar.</instruction>
 		</section>
@@ -41,8 +43,12 @@
 			<instruction>Put Mashed Wild Blackberries into a large pot, add Lemon Juice and mix well.</instruction>
 			<instruction>Bring berry mixture to a boil.</instruction>
 			<instruction>In a separate bowl, mix Sucralose and No-Sugar-Needed Pectin.</instruction>
-			<instruction>When berry mixture is boiling, slowly mix in Sucralose/Pectin mixture and stir until well dissolved.</instruction>
-			<instruction>Bring mixture to a boil again, and boil for 1 minute, then remove from heat immediately.</instruction>
+			<instruction>
+				When berry mixture is boiling, slowly mix in Sucralose/Pectin mixture and stir until well dissolved.
+			</instruction>
+			<instruction>
+				Bring mixture to a boil again, and boil for 1 minute, then remove from heat immediately.
+			</instruction>
 			<instruction>Follow instructions in the <a href="BathCanningHowTo.xml">Bath Canning: How-To</a> section.</instruction>
 		</section>
 	</Instructions>

@@ -35,7 +35,9 @@
 			<instruction>Add enough Water to cover Potatoes then add Salt.</instruction>
 			<instruction>Heat to a boil, and boil for 20 minutes, or until Potatoes are soft.</instruction>
 			<instruction>Strain all Water out, and place Potatoes and Butter into a bowl.</instruction>
-			<instruction>Using a potato masher, mash the Potatoes until the Butter is melted and well mixed into the Potatoes.</instruction>
+			<instruction>
+				Using a potato masher, mash the Potatoes until the Butter is melted and well mixed into the Potatoes.
+			</instruction>
 			<instruction>Add Milk and stir until fluffy.</instruction>
 		</section>
 	</Instructions>

@@ -11,7 +11,9 @@
 			<Pages>
 				<page href="Camping/Desserts/DO_AppleBerryCrumble.xml">Dutch Oven Apple-Berry Crumble</page>
 				<page href="Camping/Desserts/DO_AppleBerryCrumbleCake.xml">Dutch Oven Apple-Berry Crumble Cake</page>
-				<page class="TODO" href="Camping/Desserts/DO_CherryChocolateVolcanoCake.xml">Dutch Oven Cherry-Chocolate Volcano Cake</page>
+				<page class="TODO" href="Camping/Desserts/DO_CherryChocolateVolcanoCake.xml">
+					Dutch Oven Cherry-Chocolate Volcano Cake
+				</page>
 				<page class="TODO" href="Camping/Desserts/DO_FruitCrispy.xml">Dutch Oven Fruit Crispy</page>
 			</Pages>
 		</inline>

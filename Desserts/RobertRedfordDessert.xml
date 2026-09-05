@@ -53,9 +53,13 @@
 			<instruction>Spread over cooled crust.</instruction>
 		</section>
 		<section id="InstructionsTopLayer" title="Top Layer">
-			<instruction>Mix the Puddings with the Milk, beat slowly with mixer until smooth (&approx;2 minutes).</instruction>
+			<instruction>
+				Mix the Puddings with the Milk, beat slowly with mixer until smooth (&approx;2 minutes).
+			</instruction>
 			<instruction>Spread on top of Bottom Layer.</instruction>
-			<instruction>Let stand a few minutes, then spoon remaining Whipped Topping over top and spread carefully.</instruction>
+			<instruction>
+				Let stand a few minutes, then spoon remaining Whipped Topping over top and spread carefully.
+			</instruction>
 		</section>
 		<section id="InstructionsFinishingTouch" title="Finishing Touch">
 			<instruction>Sprinkle with grated Milk chocolate bar.</instruction>

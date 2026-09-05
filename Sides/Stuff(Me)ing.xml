@@ -44,7 +44,9 @@
 			<instruction>Remove Thyme Leaves from stems, but don't chop.</instruction>
 			<instruction>
 				If Mushrooms are not already sliced, cut into &frac14;&inches; thick slices.
-				<span class="NOTE">(If slices are more than 1&frac12;&inches; wide, cut in half from top to bottom.)</span>
+				<span class="NOTE">
+					(If slices are more than 1&frac12;&inches; wide, cut in half from top to bottom.)
+				</span>
 			</instruction>
 			<instruction>
 				Using a Bread knife, cut Bread slices into 1&inches; x 1&inches; squares.
@@ -66,16 +68,14 @@
 
 	<Notes>
 		<note>
-			If a Thanksgiving Turkey is being prepared:<ul>
-			<li>Take the Giblets <span class="NOTE">(neck, gizzard, liver, and heart)</span> from inside the Turkey.
-			</li>
-			<li>Put them in a small pot with an amount of Water matching the amount of Turkey Broth needed, plus &frac12; Cup.
-			</li>
-			<li>Bring to a boil, then turn to low and let simmer for 1-2 hours.
-			</li>
-			<li>Filter out the Giblets and use the remaining liquid as the Turkey Broth.
-			</li>
-			</ul> Alternatively, the Turkey Broth can be obtained from the Turkey's drippings when it is done cooking.
+			If a Thanksgiving Turkey is being prepared:
+			<ul>
+				<li>Take the Giblets <span class="NOTE">(neck, gizzard, liver, and heart)</span> from inside the Turkey.</li>
+				<li>Put them in a small pot with an amount of Water matching the amount of Turkey Broth needed, plus &frac12; Cup.</li>
+				<li>Bring to a boil, then turn to low and let simmer for 1-2 hours.</li>
+				<li>Filter out the Giblets and use the remaining liquid as the Turkey Broth.</li>
+			</ul>
+			Alternatively, the Turkey Broth can be obtained from the Turkey's drippings when it is done cooking.
 		</note>
 	</Notes>
 
@@ -85,11 +85,15 @@
 			<br />
 			Then increase the Turkey Broth to 1 Cup per 8 Oz. bag or package of dried Bread.
 		</modification>
-		<modification>If not being prepared as a side dish for turkey, use chicken, vegetable, or some other flavor of broth.</modification>
+		<modification>
+			If not being prepared as a side dish for turkey, use chicken, vegetable, or some other flavor of broth.
+		</modification>
 		<modification>
 			Instead of Fresh Sage and Thyme, dried can be used.
 			If you gently crush them before adding, it helps release more flavor.
 		</modification>
-		<modification>Add 2-4 Oz. fully cooked Sausage, broken into pea-sized chunks, just before adding the bread.</modification>
+		<modification>
+			Add 2-4 Oz. fully cooked Sausage, broken into pea-sized chunks, just before adding the bread.
+		</modification>
 	</Modifications>
 </Recipe>

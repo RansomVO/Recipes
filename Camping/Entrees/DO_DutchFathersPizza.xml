@@ -66,7 +66,9 @@
 
 	<Instructions pageBreak="true">
 		<section id="InstructionsSauce" title="Sauce">
-			<instruction>In pot, combine all Sauce Ingredients and simmer for 15 minutes, stirring occationally.</instruction>
+			<instruction>
+				In pot, combine all Sauce Ingredients and simmer for 15 minutes, stirring occationally.
+			</instruction>
 		</section>
 		<section id="InstructionsCrust" title="Crust">
 			<instruction>Mix Sugar into Water, then add Yeast.</instruction>
@@ -99,7 +101,9 @@
 				For example, 4 briquettes for a 12&inches; Dutch Oven.)</span>
 			</instruction>
 			<instruction>Cook until Cheese has melted then begins to turn golden brown. <span class="NOTE">(20-30 minutes)</span></instruction>
-			<instruction>Remove all briquettes from the top and place them in a circle just under the edges of the bottom.</instruction>
+			<instruction>
+				Remove all briquettes from the top and place them in a circle just under the edges of the bottom.
+			</instruction>
 			<instruction>
 				Cook until bottom crust begins to brown. <span class="NOTE">(5-10 minutes)</span>
 				<br />

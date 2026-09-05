@@ -28,8 +28,7 @@
 		By a fortunate coincidence, one of our neighbors worked at a cannery and had equipment to perform testing for FDA regulations.
 		We tested our recipe and it passed!
 		<div class="EMPHASIZE">
-			<span class="SUPER_EMPHASIZE">Caution</span>:
-			Follow the recipe exactly!
+			<span class="SUPER_EMPHASIZE">Caution</span>: Follow the recipe exactly!
 			Do not substitute <span class="NOTE">(except as noted below)</span>!
 			Especially with the tomatoes!
 		</div>
@@ -57,7 +56,9 @@
 
 	<Instructions>
 		<section>
-			<instruction>Core the tomatoes by cutting out the white portion inside the tomato where the stem was attached.</instruction>
+			<instruction>
+				Core the tomatoes by cutting out the white portion inside the tomato where the stem was attached.
+			</instruction>
 			<instruction>
 				Peel the tomatoes by cutting an X just through the skin on the bottom of the tomato.
 				<br />
@@ -65,7 +66,9 @@
 				<br />
 				The tomato should now just slip out of its skin.
 			</instruction>
-			<instruction>Chop tomatoes into chunks about the size of the end of your thumb, from the last knuckle to the tip.</instruction>
+			<instruction>
+				Chop tomatoes into chunks about the size of the end of your thumb, from the last knuckle to the tip.
+			</instruction>
 			<instruction>Chop peppers and Onions into pieces &approx;&frac14;&inches; square.</instruction>
 			<instruction>
 				Make sure the lime juice is bottled
@@ -78,7 +81,9 @@
 				Remove the leaves and discard the stems.
 				Finely chop the leaves and press into cup when measuring.
 			</instruction>
-			<instruction>When all of the ingredients are prepared, put them into a pot and bring to a full boil for 5 minutes.</instruction>
+			<instruction>
+				When all of the ingredients are prepared, put them into a pot and bring to a full boil for 5 minutes.
+			</instruction>
 			<instruction>Immediately fill hot pint jars leaving &frac12;&inches;-1&inches; at the top of the jar, then put on the lids.</instruction>
 			<instruction>Follow instructions in the <a href="BathCanningHowTo.xml">Bath Canning: How-To</a> section.</instruction>
 		</section>
@@ -116,7 +121,9 @@
 		</modification>
 		<modification>You may adjust the amount of Cilantro, Garlic, Salt or Black Pepper to taste.</modification>
 		<modification>You may reduce the amount of Peppers or Onions, but do not increase.</modification>
-		<modification>You may substitute 1 cup of the Anaheim peppers with 1 cup of Jalape&ntilde;o peppers, for a spicier salsa.</modification>
+		<modification>
+			You may substitute 1 cup of the Anaheim peppers with 1 cup of Jalape&ntilde;o peppers, for a spicier salsa.
+		</modification>
 		<modification>
 			You may substitute some or all of the bottled real lime juice with bottled real lemon juice.
 			<span class="NOTE">(This is usually less expensive, but in my opinion, tastes nowhere near as good.)</span>

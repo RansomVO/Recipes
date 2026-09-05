@@ -59,12 +59,13 @@
 			<instruction>Drop large spoonfuls of Dumpling mix around top of Stew.</instruction>
 			<instruction>
 				Reduce heat from bottom and simmer until Potatoes are beginning to fall apart.
-				<span class="TODO no-print">(TODO:
-				Determine about how long this takes.)</span>
+				<span class="TODO no-print">(TODO: Determine about how long this takes.)</span>
 			</instruction>
 		</section>
 		<section id="InstructionsDumplings" title="Dumplings">
-			<instruction>In a bowl, combine Shortening, Flour, Baking Powder, and Salt, then mix well with a fork.</instruction>
+			<instruction>
+				In a bowl, combine Shortening, Flour, Baking Powder, and Salt, then mix well with a fork.
+			</instruction>
 			<instruction>Stir in Milk.</instruction>
 		</section>
 	</Instructions>

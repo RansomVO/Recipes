@@ -35,12 +35,18 @@
 			<instruction>Line the Dutch Oven with foil and butter the bottom and sides.</instruction>
 			<instruction>In a bowl, prepare Chocolate Cake Mix.</instruction>
 			<instruction>Open the Cherry Pie Filling and quickly place the can upside-down in the middle of the Dutch Oven so as much as possible of the Filling is trapped in the can.</instruction>
-			<instruction>Pour &approx;&frac14;th of the Cake Mix evenly around the outter edge of the Dutch Oven.</instruction>
-			<instruction>Gently lift the Cherry Pie Filling can so the Filling stays piled as high as possible.</instruction>
+			<instruction>
+				Pour &approx;&frac14;th of the Cake Mix evenly around the outter edge of the Dutch Oven.
+			</instruction>
+			<instruction>
+				Gently lift the Cherry Pie Filling can so the Filling stays piled as high as possible.
+			</instruction>
 			<instruction>Pour the rest of the Cake Mix evenly around and over the top of the Pie Filling.</instruction>
 			<instruction>
 				Slowly cook mostly from the top.
-				<span class="TODO">Determine number of charcoal briquettes for top and bottom, and the approximate cook time.</span>
+				<span class="TODO">
+					Determine number of charcoal briquettes for top and bottom, and the approximate cook time.
+				</span>
 			</instruction>
 			<instruction>
 				Prepare a place to hold a hot Dutch Oven lid so it will stay balanced but not damage the table it is on.

@@ -61,9 +61,13 @@
 			</instruction>
 			<instruction>In a large pot, melt Butter, then add the Garlic and Onion and saut&eacute; until Onion is nearly cooked.</instruction>
 			<instruction>Add Broth, Carrots and Celery, then bring to a boil.</instruction>
-			<instruction>Add Potatoes, and boil until Carrots, Celery and Potatoes are cooked, then reduce heat to medium.</instruction>
+			<instruction>
+				Add Potatoes, and boil until Carrots, Celery and Potatoes are cooked, then reduce heat to medium.
+			</instruction>
 			<instruction>Stir the Milk mixture again, then add Milk mixture, Cream and Broccoli.</instruction>
-			<instruction>Bring to a boil, stirring occasionally. This should cause soup to thicken. Then remove from heat.</instruction>
+			<instruction>
+				Bring to a boil, stirring occasionally. This should cause soup to thicken. Then remove from heat.
+			</instruction>
 		</section>
 		<section id="InstructionsToppings" title="Toppings">
 			<instruction>
@@ -87,6 +91,8 @@
 		<modification>Do <span class="SUPER_EMPHASIZE">NOT</span> use Celery if Di is eating with you.</modification>
 		<modification>You can use gluten-free Flour if desired.</modification>
 		<modification>Add 1 teaspoon of minced fresh Parsley. <span class="EMPHASIZE">(Not dried!)</span></modification>
-		<modification>For a little zing, try &frac12; teaspoon Cayenne Pepper, or serve Hot Sause as a "topping".</modification>
+		<modification>
+			For a little zing, try &frac12; teaspoon Cayenne Pepper, or serve Hot Sause as a "topping".
+		</modification>
 	</Modifications>
 </Recipe>

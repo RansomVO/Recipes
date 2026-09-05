@@ -44,7 +44,9 @@
 
 	<Instructions>
 		<section>
-			<instruction>Fill Bath Canner with water to about the depth necessary to cover the bottles that will be used.</instruction>
+			<instruction>
+				Fill Bath Canner with water to about the depth necessary to cover the bottles that will be used.
+			</instruction>
 			<instruction>Place Bath Canner on stove burner set to high and bring water to a boil.</instruction>
 			<instruction>
 				Place

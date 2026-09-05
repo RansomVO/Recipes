@@ -35,7 +35,9 @@
 
 	<Instructions>
 		<section>
-			<instruction>Peel Onion, then cut into chunks, then place across the bottom of a large saucepan.</instruction>
+			<instruction>
+				Peel Onion, then cut into chunks, then place across the bottom of a large saucepan.
+			</instruction>
 			<instruction>Peel the Potatoes and cut into chunks slightly bigger than the head of a spoon.</instruction>
 			<instruction>Peel the Carrots and cut into chunks about the size of the head of a spoon.</instruction>
 			<instruction>Mix the Potatoes and Carrots together.</instruction>

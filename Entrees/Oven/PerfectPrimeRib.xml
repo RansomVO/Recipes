@@ -11,13 +11,11 @@
 	<Title>Perfect Prime Rib</Title>
 	<Yields>about 2 servings per Lb.</Yields>
 	<Source>
-		From web site <a class="no-print" href="https://www.seriouseats.com/perfect-prime-rib-beef-recipe">http:
-		//www.
-		seriouseats.
-		com/</a><span class="no-screen">http:
-		//www.
-		seriouseats.
-		com/</span>
+		From web site
+		<a class="no-print" href="https://www.seriouseats.com/perfect-prime-rib-beef-recipe">
+			https://www.seriouseats.com/
+		</a>
+		<span class="no-screen">https://www.seriouseats.com/</span>
 	</Source>
 
 	<Description>
@@ -58,7 +56,9 @@
 					<tr>
 						<td><b>Medium-Rare:</b></td>
 						<td>120&deg;-125&deg;</td>
-						<td class="NOTE">(About 40 to 45 minutes per pound. So a 5 lb. Roast will take roughly 3-4 hours)</td>
+						<td class="NOTE">
+							(About 40 to 45 minutes per pound. So a 5 lb. Roast will take roughly 3-4 hours)
+						</td>
 					</tr>
 					<tr>
 						<td><b>Medium:</b></td>
@@ -72,12 +72,16 @@
 					<tr>
 						<td><b>Medium-Well:</b></td>
 						<td>140&deg;-145&deg;</td>
-						<td class="NOTE">(About 50 to 55 minutes per pound. So a 5 lb. Roast will roughly take 4-5 hours)</td>
+						<td class="NOTE">
+							(About 50 to 55 minutes per pound. So a 5 lb. Roast will roughly take 4-5 hours)
+						</td>
 					</tr>
 					<tr>
 						<td><b>Well Done:</b></td>
 						<td>150&deg;-155&deg;</td>
-						<td class="NOTE">(About 55 to 60 minutes per pound. So a 5 lb. Roast will take roughly 4&frac12;-5 hours)</td>
+						<td class="NOTE">
+							(About 55 to 60 minutes per pound. So a 5 lb. Roast will take roughly 4&frac12;-5 hours)
+						</td>
 					</tr>
 				</table>
 			</instruction>

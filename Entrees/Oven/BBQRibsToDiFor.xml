@@ -14,8 +14,7 @@
 
 	<Description>
 		Before they were married Di and Ransom had a BBQ Rips bake-off with missionaries as the judges.
-		Ransom did the <a href="&hellip;/Entrees/SlowCooker/BBQSpareRibs.xml">Slow Cooker:
-		BBQ Spare Ribs recipe</a>.
+		Ransom did the <a href="&hellip;/Entrees/SlowCooker/BBQSpareRibs.xml">Slow Cooker: BBQ Spare Ribs recipe</a>.
 		Di did one similar to this one.
 		She won, but then
 		<span class="NOTE">(a long time later)</span>
@@ -51,7 +50,9 @@
 	<Instructions>
 		<section id="InstructionsRibs" title="Ribs">
 			<instruction>Preheat the oven to 400&deg;</instruction>
-			<instruction>Cut &frac23; Onion into discs &approx;&frac14;&inches; thick, then separate the discs into rings.</instruction>
+			<instruction>
+				Cut &frac23; Onion into discs &approx;&frac14;&inches; thick, then separate the discs into rings.
+			</instruction>
 			<instruction>Spread the Onions around on the bottom of a 9&inches; &by; 13&inches; baking pan.</instruction>
 			<instruction>
 				Place Ribs over Onions, with the bones showing on top.
@@ -71,7 +72,9 @@
 			<instruction>Mince &frac13; Onion <span class="NOTE">(Chop it very finely.)</span></instruction>
 			<instruction>Put all ingredients into a saucepan.</instruction>
 			<instruction>Heat to a boil.</instruction>
-			<instruction>Reduce heat, cover with a lid and let simmer for 10 minutes, stirring occasionally.</instruction>
+			<instruction>
+				Reduce heat, cover with a lid and let simmer for 10 minutes, stirring occasionally.
+			</instruction>
 			<instruction>Turn off burner and let Sauce sit.</instruction>
 		</section>
 	</Instructions>

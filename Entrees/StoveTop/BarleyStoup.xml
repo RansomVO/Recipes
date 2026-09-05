@@ -37,7 +37,9 @@
 			<instruction>Cut all vegetables into spoon-sized chunks.</instruction>
 			<instruction>In a large saucepan, brown the Hamburger.</instruction>
 			<instruction>Add Water, Potatoes, Carrots, Onions, Pearl Barley, Salt and Pepper.</instruction>
-			<instruction>Bring to a boil, then reduce heat and simmer until Potatoes and Carrots are tender.</instruction>
+			<instruction>
+				Bring to a boil, then reduce heat and simmer until Potatoes and Carrots are tender.
+			</instruction>
 			<instruction>Remove from heat then add Frozen Petite Peas.</instruction>
 		</section>
 	</Instructions>

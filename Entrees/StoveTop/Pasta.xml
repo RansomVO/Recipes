@@ -33,7 +33,9 @@
 
 	<Instructions>
 		<section>
-			<instruction>Fill a medium sized pot &frac34; full of water and add Salt and 1 teaspoon of Oil.</instruction>
+			<instruction>
+				Fill a medium sized pot &frac34; full of water and add Salt and 1 teaspoon of Oil.
+			</instruction>
 			<instruction>Bring water to a boil.</instruction>
 			<instruction>
 				Place Pasta into boiling water. This can be done in two ways:
@@ -61,7 +63,9 @@
 				If it sticks, it is done, if not it needs to cook longer.
 			</instruction>
 			<instruction>Strain the Water from the Pasta and return it to the pot.</instruction>
-			<instruction>Add the other 2 teaspoons of Oil and stir the Pasta so that the Oil is distributed evenly.</instruction>
+			<instruction>
+				Add the other 2 teaspoons of Oil and stir the Pasta so that the Oil is distributed evenly.
+			</instruction>
 		</section>
 	</Instructions>
 
@@ -71,7 +75,9 @@
 			<span class="EMPHASIZE">boiling!</span>
 			If you do, the Pasta will begin to break down before it cooks and either gets pasty, or completely falls apart.
 		</note>
-		<note>The Oil added to the water will help keep the foaming down so it is easier to see the cooking Pasta.</note>
+		<note>
+			The Oil added to the water will help keep the foaming down so it is easier to see the cooking Pasta.
+		</note>
 		<note>
 			Traditional Italian cooks will choke on step 6.
 			However, it keeps the Pasta from sticking and becoming an unservable mass.

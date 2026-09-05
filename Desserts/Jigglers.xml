@@ -36,7 +36,9 @@
 				If you lightly spray the pan with non-stick spray (such as Pam) then the treats are easier to remove when done.
 			</instruction>
 			<instruction>Refridgerate until firm. <span class="NOTE">(About three hours.)</span></instruction>
-			<instruction>After Jigglers have set, cut them into 1&inches; &by; 2&inches; rectangles with a knife.</instruction>
+			<instruction>
+				After Jigglers have set, cut them into 1&inches; &by; 2&inches; rectangles with a knife.
+			</instruction>
 			<instruction>Remove from the pan and enjoy!</instruction>
 		</section>
 	</Instructions>
@@ -52,7 +54,9 @@
 	</Notes>
 
 	<Modifications>
-		<modification>Instead of cutting Jigglers into rectangles, use cookie cutters to cut into decorative shapes.</modification>
+		<modification>
+			Instead of cutting Jigglers into rectangles, use cookie cutters to cut into decorative shapes.
+		</modification>
 		<modification>
 			<span class="POINT_HIGHLIGHT">To make the treats more nutritious <span class="NOTE">(and better tasting)</span>
 			</span>:
@@ -70,7 +74,7 @@
 	</Modifications>
 
 	<FinalNote>
-		A similar recipe for Diabetics is <a href="&hellip;/Desserts/LS_GummyTreats.xml">Desserts and Snacks:
-		Sugar-Free Gummy Treats</a>
+		A similar recipe for Diabetics is
+		<a href="&hellip;/Desserts/LS_GummyTreats.xml">Desserts and Snacks: Sugar-Free Gummy Treats</a>
 	</FinalNote>
 </Recipe>

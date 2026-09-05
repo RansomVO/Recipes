@@ -17,8 +17,7 @@
 		This is Ransom's second Chili recipe.
 		The first one was really good, but it was complex and actually had to be started the day before you wanted to eat it.
 		<span class="NOTE">(Additionally, most people found it to be too spicy.)</span>
-		<span class="NOTE">(See <a href="../Entrees/SlowCooker/StealthAttackChili.xml">Entrees / Slow Cooker:
-		Stealth-Attack Chili</a>.)</span>
+		<span class="NOTE">(See <a href="../Entrees/SlowCooker/StealthAttackChili.xml">Entrees / Slow Cooker: Stealth-Attack Chili</a>.)</span>
 		<br />
 		This recipe is geared towards quick preparation, and has actually won the first-place award at multiple Boy Scout district Dutch-oven chili cook-offs!
 	</Description>
@@ -49,10 +48,16 @@
 
 	<Instructions>
 		<section>
-			<instruction>Peel Onion and slice into disks that are &frac12;&inches; thick, then cut the disks into quarters.</instruction>
-			<instruction>Cut top off of each of the Peppers, slice them in half, then remove and discard the seeds.</instruction>
+			<instruction>
+				Peel Onion and slice into disks that are &frac12;&inches; thick, then cut the disks into quarters.
+			</instruction>
+			<instruction>
+				Cut top off of each of the Peppers, slice them in half, then remove and discard the seeds.
+			</instruction>
 			<instruction>Cut the Peppers into chunks that are &frac12;&inches; &by; &frac12;&inches;.</instruction>
-			<instruction>In the Dutch Oven, combine Onions and Hamburger and cook until Hamburger is browned.</instruction>
+			<instruction>
+				In the Dutch Oven, combine Onions and Hamburger and cook until Hamburger is browned.
+			</instruction>
 			<instruction>Add all of the rest of ingredients.</instruction>
 			<instruction>Bring to a boil, reduce heat and simmer for 30 minutes.</instruction>
 		</section>
@@ -65,11 +70,10 @@
 			Then the leaves need to be chopped.
 		</note>
 		<note>
-			The Onions and Peppers should be cut into chunks that are as large as possible, but still easy to get into a spoon.<ul>
-			<li>1&inches; &by; 1&inches; is too big.
-			</li>
-			<li>&frac18;&inches; &by; &frac18;&inches; is too small.
-			</li>
+			The Onions and Peppers should be cut into chunks that are as large as possible, but still easy to get into a spoon.
+			<ul>
+				<li>1&inches; &by; 1&inches; is too big.</li>
+				<li>&frac18;&inches; &by; &frac18;&inches; is too small.</li>
 			</ul>
 			<span class="NOTE">(We generally use &frac12;&inches; &by; &frac12;&inches;, but don't hesitate to make them bigger if you want.)</span>
 		</note>
@@ -120,7 +124,6 @@
 
 	<FinalNote>
 		A similar recipe for use at home:
-		<a href="&hellip;/Entrees/StoveTop/KlondikeChili.xml">Entrees / Stove Top:
-		Klondike Chili</a>
+		<a href="&hellip;/Entrees/StoveTop/KlondikeChili.xml">Entrees / Stove Top: Klondike Chili</a>
 	</FinalNote>
 </Recipe>

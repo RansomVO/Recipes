@@ -35,7 +35,9 @@
 
 	<Instructions>
 		<section>
-			<instruction>In a 5-gallon Cooler Jug, combine 3 gallons Warm Water and Sugar and mix well until Sugar is dissolved.</instruction>
+			<instruction>
+				In a 5-gallon Cooler Jug, combine 3 gallons Warm Water and Sugar and mix well until Sugar is dissolved.
+			</instruction>
 			<instruction>Add Root Beer Extract and Vanilla.</instruction>
 			<instruction>
 				<span class="EMPHASIZE">Gently</span>
@@ -71,13 +73,14 @@
 				<li>
 					If the Water is cool to begin, the whole thing will freeze before it is carbonated.
 					Water that is slightly warmer than luke-warm works best for me.
-					<span class="NOTE">(For you perfectionists, I just measured the temperature We use and it is about the same as body temperature:
-					98&deg; F / 37&deg; C)</span>
+					<span class="NOTE">(For you perfectionists, I just measured the temperature we use and it is about the same as body temperature: 98&deg; F / 37&deg; C)</span>
 				</li>
 				<li>
 					Only 3 gallons of Warm Water is used at first because the rapidly evaporating Dry Ice will create a lot of bubbling.
 					<br />
-					<span class="NOTE">If the full 5 gallons is used, sticky, Root Beer-flavored water splashes all over the place.</span>
+					<span class="NOTE">
+						If the full 5 gallons is used, sticky, Root Beer-flavored water splashes all over the place.
+					</span>
 				</li>
 			</ul>
 		</note>
@@ -93,7 +96,11 @@
 	</Notes>
 
 	<Modifications pageBreak="true">
-		<modification>Adding <a href="&hellip;/Desserts/IceCream.xml">Home-made Vanilla Ice Cream</a> makes a fantastic Root-Beer Float.</modification>
+		<modification>
+			Adding
+			<a href="&hellip;/Desserts/IceCream.xml">Home-made Vanilla Ice Cream</a>
+			makes a fantastic Root-Beer Float.
+		</modification>
 	</Modifications>
 
 	<AdditionalNotes>

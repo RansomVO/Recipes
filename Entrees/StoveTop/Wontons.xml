@@ -44,14 +44,24 @@
 					list-style="lower-alpha"
 					image="EnvelopeStyleWonton.png"
 					font-size=".9em">
-					<instruction>Place 1 skin flat on the table and place 1 teaspoon of the filler in the middle.</instruction>
+					<instruction>
+						Place 1 skin flat on the table and place 1 teaspoon of the filler in the middle.
+					</instruction>
 					<instruction>Dip a finger in the Water and moisten each edge of the Wrapper.</instruction>
-					<instruction>Fold one corner of the Wrapper to the corner opposite of it, so that you will get a triangle.</instruction>
-					<instruction>Press down the edges, taking care to press all of the air out before the seal is complete.</instruction>
+					<instruction>
+						Fold one corner of the Wrapper to the corner opposite of it, so that you will get a triangle.
+					</instruction>
+					<instruction>
+						Press down the edges, taking care to press all of the air out before the seal is complete.
+					</instruction>
 					<instruction>Arrange the Wonton so that the longest edge is toward you.</instruction>
 					<instruction>Moisten the top &frac12;" surface of the right corner and the bottom &frac12;" surface of the left corner.</instruction>
-					<instruction>Place index finger, fingernail down, halfway between right and left corners.</instruction>
-					<instruction>Fold the left corner up onto your finger, then the right corner on top of the left corner.</instruction>
+					<instruction>
+						Place index finger, fingernail down, halfway between right and left corners.
+					</instruction>
+					<instruction>
+						Fold the left corner up onto your finger, then the right corner on top of the left corner.
+					</instruction>
 					<instruction>Pinch the two corners together.</instruction>
 					<instruction>Gently set aside.</instruction>
 				</subSection>
@@ -60,7 +70,9 @@
 					list-style="lower-alpha"
 					image="4StarStyleWonton.png"
 					font-size=".9em">
-					<instruction>Place 1 skin flat on the table and place 1 teaspoon of the filler in the middle.</instruction>
+					<instruction>
+						Place 1 skin flat on the table and place 1 teaspoon of the filler in the middle.
+					</instruction>
 					<instruction>Dip a finger in the Water and moisten each edge of the Wrapper.</instruction>
 					<instruction>Fold all 4 points of the wonton skin up to the center.</instruction>
 					<instruction>Pinch each edge from the center point to the outside edge, taking care to press all air out before the seal is complete.</instruction>

@@ -34,11 +34,14 @@
 	<Instructions>
 		<section>
 			<instruction>
-				If desired, get the Wontons by using the <a href="&hellip;/Entrees/StoveTop/Wontons.xml">Entrees / Stove Top:
-				Wontons</a> Recipe.
+				If desired, get the Wontons by using the
+				<a href="&hellip;/Entrees/StoveTop/Wontons.xml">Entrees / Stove Top: Wontons</a>
+				Recipe.
 				<span class="NOTE">(Use the Envelope Style folding.)</span>
 			</instruction>
-			<instruction>Slice the Carrots into very thing discs. Then lay the discs out flat and slice them into into strands.</instruction>
+			<instruction>
+				Slice the Carrots into very thing discs. Then lay the discs out flat and slice them into into strands.
+			</instruction>
 			<instruction>In a large pot Place Oil and Garlic. Heat on high until Garlic begins to sizzle.</instruction>
 			<instruction>Carefully add Broth, Carrots and Ginger, then bring to a boil.</instruction>
 			<instruction>Add Green Onions and Bok Choy.</instruction>

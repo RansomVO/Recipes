@@ -38,7 +38,9 @@
 		<section>
 			<instruction>In a skillet, brown Ribs over high heat.</instruction>
 			<instruction>In slow cooker, mix all other ingredients to create sauce.</instruction>
-			<instruction>Remove ribs from skillet and place in slow cooker, gently rolling ribs until they are coated in sauce.</instruction>
+			<instruction>
+				Remove ribs from skillet and place in slow cooker, gently rolling ribs until they are coated in sauce.
+			</instruction>
 			<instruction>Cook on high for 2-3 hours, or on low for 4-6 hours.</instruction>
 		</section>
 	</Instructions>
@@ -48,7 +50,9 @@
 			CAUTION:
 			If you over-cook the ribs they will begin to fall apart, and you end up with shredded BBQ pork or beef.
 		</note>
-		<note>When serving the ribs, the extra sauce tastes wonderful over baked potatoes, with a dollop of sour cream.</note>
+		<note>
+			When serving the ribs, the extra sauce tastes wonderful over baked potatoes, with a dollop of sour cream.
+		</note>
 	</Notes>
 
 	<Modifications>

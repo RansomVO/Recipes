@@ -21,7 +21,8 @@
 		Di told Ransom that her sauce recipe was something like:
 		"Buy a bottle of Tony Roma BBQ Sauce".
 		<br />
-		Ransom tried her cooking method and found it did give the ribs a great consistency, so, after several attempts, we came up with <a href="&hellip;/Entrees/Oven/BBQRibsToDiFor.xml">BBQ Ribs to Di For</a>.
+		Ransom tried her cooking method and found it did give the ribs a great consistency, so, after several attempts, we came up with
+		<a href="&hellip;/Entrees/Oven/BBQRibsToDiFor.xml">BBQ Ribs to Di For</a>.
 		<br />
 		Then we modified it slightly to go in a Dutch Oven and it turned out <span class="EMPHASIZE">great!</span>
 	</Description>
@@ -49,7 +50,9 @@
 			<instruction>While it is heating, cut Onion into rings &approx;&frac14;&inches; thick.</instruction>
 			<instruction>Place Onions, Water and Spare Ribs into Dutch Oven and turn until browned.</instruction>
 			<instruction>Add all other ingredients and mix well.</instruction>
-			<instruction>Bring to a boil, then reduce heat and simmer, stirring occasionallly, until meat is thoroughly cooked.</instruction>
+			<instruction>
+				Bring to a boil, then reduce heat and simmer, stirring occasionallly, until meat is thoroughly cooked.
+			</instruction>
 		</section>
 	</Instructions>
 </Recipe>

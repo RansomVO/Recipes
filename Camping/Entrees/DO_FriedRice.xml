@@ -40,7 +40,9 @@
 	<Instructions>
 		<section>
 			<instruction>Place Dutch Oven on medium amount of charcoals.</instruction>
-			<instruction>Add Oil and Uncooked Rice and saut&eacute;, stirring/scraping frequently until Rice begins to brown.</instruction>
+			<instruction>
+				Add Oil and Uncooked Rice and saut&eacute;, stirring/scraping frequently until Rice begins to brown.
+			</instruction>
 			<instruction>Add Water and Salt and stir well.</instruction>
 			<instruction>
 				Cook with the lid on, stirring occasionally until Rice is cooked.
@@ -52,7 +54,9 @@
 				<span class="NOTE">(not Rice)</span>
 				until they are small fully-cooked pieces.
 			</instruction>
-			<instruction>Add Ham, Chineese Cabbage, Carrots, and Onion then stir and let steam for 5-10 minutes.</instruction>
+			<instruction>
+				Add Ham, Chineese Cabbage, Carrots, and Onion then stir and let steam for 5-10 minutes.
+			</instruction>
 			<instruction>Add Soy Sauce and stir very well.</instruction>
 		</section>
 	</Instructions>
@@ -60,7 +64,9 @@
 	<Modifications>
 		<modification>Instead of Chinese Cabbage, use Celery Greens</modification>
 		<modification>Replace some or all of the Onions with Scallions cut into &frac12;&inches; lengths.</modification>
-		<modification>If it just going to be a side dish, the amount of Ham can be reduced or left out completely.</modification>
+		<modification>
+			If it just going to be a side dish, the amount of Ham can be reduced or left out completely.
+		</modification>
 		<modification>Instead of Ham, use pre-cooked Chicken or Beef pieces.</modification>
 	</Modifications>
 </Recipe>

@@ -37,10 +37,15 @@
 
 	<Instructions>
 		<section>
-			<instruction>Make Crust dough from the recipe for <a href="&hellip;/Camping/Entrees/DO_DutchFathersPizza.xml#IngredientsCrust">Dutch Father's Pizza</a></instruction>
+			<instruction>
+				Make Crust dough from the recipe for
+				<a href="&hellip;/Camping/Entrees/DO_DutchFathersPizza.xml#IngredientsCrust">Dutch Father's Pizza</a>
+			</instruction>
 			<instruction>Roll dough into 2&feet; long &by; &frac12;&inches; diameter "snakes".</instruction>
 			<instruction>Wrap around a smooth, 1&inches; diameter stick.</instruction>
-			<instruction>Cook over a campfire, like you would a marshmallow, only slower, until golden brown.</instruction>
+			<instruction>
+				Cook over a campfire, like you would a marshmallow, only slower, until golden brown.
+			</instruction>
 			<instruction>Slide off stick, and drizzle desired Fillings down the middle.</instruction>
 		</section>
 	</Instructions>

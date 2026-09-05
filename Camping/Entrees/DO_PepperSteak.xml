@@ -69,7 +69,9 @@
 				<span class="EMPHASIZE">completely</span>
 				disolved.
 			</instruction>
-			<instruction>Slice Onion and Bell Peppers into long strips approximately &frac14;&inches;-&frac12;&inches; wide.</instruction>
+			<instruction>
+				Slice Onion and Bell Peppers into long strips approximately &frac14;&inches;-&frac12;&inches; wide.
+			</instruction>
 			<instruction>Place Dutch Oven on medium amount of charcoals.</instruction>
 			<instruction>Remove Beef from Marinade sauce, place in Dutch Oven and brown lightly.</instruction>
 			<instruction>Add Marinade sauce and simmer until Beef is fully cooked.</instruction>
@@ -78,7 +80,9 @@
 			<instruction>Put Beef back into the Dutch Oven and bring to a simmer for 1 minute.</instruction>
 			<instruction>Mix Flour and Water again to ensure it is <span class="EMPHASIZE">completely</span> disolved.</instruction>
 			<instruction>While stirring contstantly, slowly add the Flour and Water mixture.</instruction>
-			<instruction>Continue stirring occasionally until it comes to a boil then let simmer for 10 minutes.</instruction>
+			<instruction>
+				Continue stirring occasionally until it comes to a boil then let simmer for 10 minutes.
+			</instruction>
 		</section>
 	</Instructions>
 

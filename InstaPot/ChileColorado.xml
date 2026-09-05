@@ -47,21 +47,29 @@
 			<instruction>Turn burner off and let pot sit for 20 minutes.</instruction>
 			<instruction>Cut Stew Meat into chunks that are &approx;1&inches; square.</instruction>
 			<instruction>Place Oil in InstaPot and set it to Saut&eacute;.</instruction>
-			<instruction>When hot, add Stew Meat and cook until it starts to look golden on the outside, then turn InstaPot off.</instruction>
+			<instruction>
+				When hot, add Stew Meat and cook until it starts to look golden on the outside, then turn InstaPot off.
+			</instruction>
 			<instruction>
 				Remove all of the Chiles and Onions from the pot of Water and place in a blender, along with 1 cup of the now Red Water from the pot.
 				Add Flour, Salt, Pepper, Oregano, Cumin and Garlic and blend until evenly smooth.
 			</instruction>
 			<instruction>Pour the sauce from the blender into the InstaPot and stir.</instruction>
-			<instruction>Place the Beef Broth in the blender, and run it for a few seconds, then pour that into the InstaPot.</instruction>
+			<instruction>
+				Place the Beef Broth in the blender, and run it for a few seconds, then pour that into the InstaPot.
+			</instruction>
 			<instruction>Set the InstaPot to Pressure Cook for 15 minutes.</instruction>
-			<instruction>After Pressure Cooking is complete, let it sit for 15 minutes, then release any pressure.</instruction>
+			<instruction>
+				After Pressure Cooking is complete, let it sit for 15 minutes, then release any pressure.
+			</instruction>
 			<instruction>Stir gently and serve.</instruction>
 		</section>
 	</Instructions>
 
 	<Notes>
-		<note>If you put the meat into the InstaPot before it gets hot, it will change the texture in a not so good way.</note>
+		<note>
+			If you put the meat into the InstaPot before it gets hot, it will change the texture in a not so good way.
+		</note>
 		<note>
 			This must <span class="SMALL_NOTE">(sarcasm)</span> be served with Mexican Fried Rice.
 			If you start the recipe right when the Pressure Cooking is set, then both recipes should complete at about the same time.

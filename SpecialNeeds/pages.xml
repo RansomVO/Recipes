@@ -20,17 +20,37 @@
 			<blockquote>
 				<div class="SUBSUBSECTION_HEADER">Entrees</div>
 				<ul>
-					<li><a class="qzxDisabled TODO" href="&hellip;/Entrees/Oven/GF_PizzaCrust.xml">Gluten-Free Pizza Crust <span class="SMALL_NOTE">(Gluten Sensitivity)</span></a></li>
+					<li>
+						<a class="qzxDisabled TODO" href="&hellip;/Entrees/Oven/GF_PizzaCrust.xml">
+							Gluten-Free Pizza Crust <span class="SMALL_NOTE">(Gluten Sensitivity)</span>
+						</a>
+					</li>
 				</ul>
 				<div class="SUBSUBSECTION_HEADER">Breads</div>
 				<ul>
-					<li><a class="qzxDisabled TODO" href="&hellip;/Breads/GF_Biscuits.xml">Gluten-Free Biscuits <span class="SMALL_NOTE">(Gluten Sensitivity)</span></a></li>
-					<li><a class="TODO" href="&hellip;/Breads/GF_BreadMachineBread.xml">Gluten-Free Bread Machine Bread <span class="SMALL_NOTE">(Gluten Sensitivity)</span></a></li>
+					<li>
+						<a class="qzxDisabled TODO" href="&hellip;/Breads/GF_Biscuits.xml">
+							Gluten-Free Biscuits <span class="SMALL_NOTE">(Gluten Sensitivity)</span>
+						</a>
+					</li>
+					<li>
+						<a class="TODO" href="&hellip;/Breads/GF_BreadMachineBread.xml">
+							Gluten-Free Bread Machine Bread <span class="SMALL_NOTE">(Gluten Sensitivity)</span>
+						</a>
+					</li>
 				</ul>
 				<div class="SUBSUBSECTION_HEADER">Desserts and Snacks</div>
 				<ul>
-					<li><a href="&hellip;/Desserts/LS_GummyTreats.xml">Sugar-Free Gummy Treats <span class="SMALL_NOTE">(Diabetes)</span></a></li>
-					<li><a class="qzxDisabled TODO" href="&hellip;/Desserts/GF_PieCrust.xml">Gluten-Free Pie Crust <span class="SMALL_NOTE">(Gluten Sensitivity)</span></a></li>
+					<li>
+						<a href="&hellip;/Desserts/LS_GummyTreats.xml">
+							Sugar-Free Gummy Treats <span class="SMALL_NOTE">(Diabetes)</span>
+						</a>
+					</li>
+					<li>
+						<a class="qzxDisabled TODO" href="&hellip;/Desserts/GF_PieCrust.xml">
+							Gluten-Free Pie Crust <span class="SMALL_NOTE">(Gluten Sensitivity)</span>
+						</a>
+					</li>
 				</ul>
 			</blockquote>
 		</details>
