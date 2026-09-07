@@ -12,7 +12,7 @@
 	<page href="NavajoFryBread.xml">Navajo Fry Bread</page>
 	<page href="UtahScones.xml">Utah Scones</page>
 	<page class="TODO" href="OrangeRolls.xml">Orange Rolls</page>
-	<page class="TODO" href="GF_Biscuits.xml">Gluten-Free Biscuits</page>
+	<page class="qzxDisabled TODO" href="GF_Biscuits.xml">Gluten-Free Biscuits</page>
 	<page class="TODO" href="GF_BreadMachineBread.xml">Gluten-Free Bread Machine Bread</page>
 	<page class="qzxDisabled TODO" href="CloverLeafRoles.xml">Clover Leaf Rolls</page>
 </Pages>

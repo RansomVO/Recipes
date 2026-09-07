@@ -9,7 +9,7 @@
 <Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
 	<LastModified year="2025" month="5" day="5" />
 	<Title>Sugar-Free Gummy Treats</Title>
-	<Yields><span class="TODO">???</span></Yields>
+	<Yields><span class="NOTE">(Depends on the size of the molds used)</span></Yields>
 	<Source>A VanOrman Original</Source>
 
 	<Description>
@@ -22,7 +22,7 @@
 			<ingredient>Water<amount>&frac12; Cup</amount></ingredient>
 			<ingredient>
 				Sugar-free Flavored Gelatin <note>Such as Jello</note>
-				<amount>2 Packages <note>0. 6-oz. Each</note></amount>
+				<amount>2 Packages <note>0.6-oz. Each</note></amount>
 			</ingredient>
 		</section>
 	</Ingredients>
@@ -46,7 +46,7 @@
 
 	<Notes>
 		<note>
-			In Step 3, if you add the powder directly into the Boiling Water, it may "flash boil".
+			In Steps 2-3, if you add the powder directly into the Boiling Water, it may " flash boil".
 			<br />
 			This will cause it to spray all over and somebody usually gets burned.
 			<br />
@@ -72,12 +72,12 @@
 		<modification>
 			<span class="POINT_HIGHLIGHT">To make the treats extra tart:</span>
 			<br />
-			Add 1 0. 13-oz. Envelope unsweetened Soft Drink Mix <span class="NOTE">(Such as Kool-Aid)</span>
+			Add 1 0.13-oz. Envelope unsweetened Soft Drink Mix <span class="NOTE">(Such as Kool-Aid)</span>
 		</modification>
 		<modification>
 			<span class="POINT_HIGHLIGHT">To make the treats sweeter and more flavorful:</span>
 			<br />
-			Add 1 1. 7g. Package Sugar-free Soft Drink Mix <span class="NOTE">(Such as Crystal Light)</span>
+			Add 1 1.7g. Package Sugar-free Soft Drink Mix <span class="NOTE">(Such as Crystal Light)</span>
 		</modification>
 	</Modifications>
 </Recipe>

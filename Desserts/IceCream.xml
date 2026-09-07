@@ -79,8 +79,9 @@
 			</instruction>
 			<instruction>
 				Chill in Ice Cream Maker until it is at desired thickness.
-				<span class="TODO NOTE">(&approx;??
-				minutes)</span>
+				<br />
+				<span class="NOTE">(&approx;30-45 minutes for electric Ice Cream Makers.
+				&approx;45-60 minutes for hand-crank Ice Cream Makers)</span>
 			</instruction>
 		</section>
 	</Instructions>

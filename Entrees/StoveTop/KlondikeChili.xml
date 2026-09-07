@@ -15,7 +15,7 @@
 	<Description>
 		This is Ransom's second Chili recipe.
 		The first one,
-		<a href="&hellip;/SlowCooker/StealthAttackChili.xml">Entrees / Slow Cooker: Stealth-Attack Chili</a>,
+		<a href=".../SlowCooker/StealthAttackChili.xml">Entrees / Slow Cooker: Stealth-Attack Chili</a>,
 		was really good, but it was complex and actually had to be started the day before you wanted to eat it.
 		On top of that, when we moved to Washington, nobody could handle it.
 		&smiley;
@@ -136,8 +136,6 @@
 
 	<FinalNote>
 		A similar recipe for use at home:
-		<a href="&hellip;/Camping/DO_KlondikeChili.xml">
-			Dutch Oven and other Camping Recipes: Dutch Oven Klondike Chili
-		</a>
+		<a href=".../Camping/DO_KlondikeChili.xml">Dutch Oven and other Camping Recipes: Dutch Oven Klondike Chili</a>
 	</FinalNote>
 </Recipe>

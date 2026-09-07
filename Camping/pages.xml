@@ -25,7 +25,7 @@
 				<page href="Beverages/RootBeer.xml">Beverages / Root Beer</page>
 				<page href="Breakfast/FluffyPancakes.xml">Breakfast / Fluffy Pancakes</page>
 				<page href="Breads/NavajoFryBread.xml">Breads / Navajo Fry Bread</page>
-				<page class="TODO" href="Desserts/IceCream.xml">Desserts / Ice Cream</page>
+				<page href="Desserts/IceCream.xml">Desserts / Ice Cream</page>
 			</Pages>
 		</inline>
 	</CollapseSection>

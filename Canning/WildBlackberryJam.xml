@@ -49,11 +49,7 @@
 			<instruction>
 				Bring mixture to a boil again, and boil for 1 minute, then remove from heat immediately.
 			</instruction>
-			<instruction>
-				Follow instructions in the
-				<a href="&hellip;/Canning/BathCanningHowTo.xml">Bath Canning: How-To</a>
-				section.
-			</instruction>
+			<instruction>Follow instructions in the <a href=".../Canning/BathCanningHowTo.xml">Bath Canning: How-To</a> section.</instruction>
 		</section>
 	</Instructions>
 
