@@ -9,7 +9,7 @@
 <Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
 	<LastModified year="2025" month="6" day="6" />
 	<Title>Cheap Soft Toffee</Title>
-	<Yields>about 100 1&inches; squares</Yields>
+	<Yields>about 100 1&inch; squares</Yields>
 	<Source>A VanOrman Original</Source>
 
 	<Description>
@@ -33,7 +33,7 @@
 
 	<Instructions>
 		<section>
-			<instruction>Lightly spray a 9&inches; &by; 13&inches; pan with non-stick spray.</instruction>
+			<instruction>Lightly spray a 9&inches;$by;13&inches; pan with non-stick spray.</instruction>
 			<instruction>In a large, non-stick pot, combine all ingredients except Vanilla.</instruction>
 			<instruction>Heat mixture on medium, using a candy thermometer to monitor temperature.</instruction>
 			<instruction>
