@@ -18,9 +18,6 @@
 		It was a huge hit!
 		<br />
 		As we tried to serve it, the Pie Filling started to drip down the side of the cake, thus the name.
-		<!-- QZX -->
-		<div class="TODO">The Ingredient amounts need to be validated.</div>
-		<!-- QZX -->
 	</Description>
 
 	<Ingredients>
@@ -36,7 +33,7 @@
 			<instruction>In a bowl, prepare Chocolate Cake Mix.</instruction>
 			<instruction>Open the Cherry Pie Filling and quickly place the can upside-down in the middle of the Dutch Oven so as much as possible of the Filling is trapped in the can.</instruction>
 			<instruction>
-				Pour &approx;&frac14;th of the Cake Mix evenly around the outter edge of the Dutch Oven.
+				Pour &approx;&frac14;<sup>th</sup> of the Cake Mix evenly around the outter edge of the Dutch Oven.
 			</instruction>
 			<instruction>
 				Gently lift the Cherry Pie Filling can so the Filling stays piled as high as possible.
@@ -44,6 +41,7 @@
 			<instruction>Pour the rest of the Cake Mix evenly around and over the top of the Pie Filling.</instruction>
 			<instruction>
 				Slowly cook mostly from the top.
+				<br />
 				<span class="TODO">
 					Determine number of charcoal briquettes for top and bottom, and the approximate cook time.
 				</span>
