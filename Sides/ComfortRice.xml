@@ -26,10 +26,12 @@
 			"Mexican Rice from Consuelo" translated to Spanish is "Arroz Mexicano de Consuelo"
 			<br />
 			Since they are both the same, and since this recipe <b><u>is</u></b> &nbsp;from Consuelo&hellip; &smiley;
+			<!-- QZX TODO: Uncomment this when Mexican Beans of Comfort is completed
 			<br />
 			<span class="NOTE">
-				(See Also <a href="./ComfortBeans.xml" class="TODO qzxDisabled">Mexican Beans of Comfort</a>)
+				(See Also <a href="./ComfortBeans.xml">Mexican Beans of Comfort</a>)
 			</span>
+			-->
 		</div>
 	</Description>
 

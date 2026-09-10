@@ -16,7 +16,7 @@
 	<page href="GarlicGingerStirFryGreenBeans.xml">Garlic-Ginger Stir-Fry Green Beans</page>
 	<page href="EasyPotatoesAuGratin.xml">Easy Potatoes Au Gratin</page>
 	<page href="RedheadCarrots.xml">Redhead Carrots</page>
-	<page class="TODO" href="ComfortRice.xml">Mexican Rice of Comfort</page>
+	<page href="ComfortRice.xml">Mexican Rice of Comfort</page>
 	<page class="qzxDisabled TODO" href="ComfortBeans.xml">Mexican Beans of Comfort</page>
 	<page class="qzxDisabled TODO" href="CranberryJelloSalad.xml">Cranberry Jello Salad</page>
 	<page class="qzxDisabled TODO" href="SheetPanVeggies.xml">Sheet Pan Veggies</page>
