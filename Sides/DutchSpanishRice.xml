@@ -35,7 +35,7 @@
 
 	<Instructions>
 		<section>
-			<instruction>Chop Onions into small pieces. <span class="NOTE">(&approx;&frac12;&inch;$by;1&inch;)</span></instruction>
+			<instruction>Chop Onions into small pieces. <span class="NOTE">(&approx;&frac12;&inch;&by;1&inch;)</span></instruction>
 			<instruction>
 				In a large pot, combine Onions and Hamburger, and cook on high until Hamburger is browned.
 			</instruction>
@@ -43,7 +43,7 @@
 			<instruction>
 				Put a lid on the pot and stirring frequently with a Spatula, heat mixture until it starts to boil.
 			</instruction>
-			<instruction>While mixture is heating, cut Peppers into small pieces (&approx;&frac12;&inch;$by;1&inch;), then stir them into the mixture.</instruction>
+			<instruction>While mixture is heating, cut Peppers into small pieces (&approx;&frac12;&inch;&by;1&inch;), then stir them into the mixture.</instruction>
 			<instruction>Once mixture starts to boil, reduce heat to medium.</instruction>
 			<instruction>Stirring occasionally, let simmer until Rice is cooked. (&approx;30-45 minutes.)</instruction>
 		</section>
