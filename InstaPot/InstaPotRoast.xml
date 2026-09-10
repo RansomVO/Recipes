@@ -60,7 +60,9 @@
 			</instruction>
 		</section>
 		<section id="InstructionsWhileRoastIscooking" title="While Roast Is cooking">
-			<instruction>Combine Corn Starch and Cool Water in a small cup and mix <span class="EMPHASIZE">thoroughly</span>.</instruction>
+			<instruction>
+				Combine Corn Starch and Cool Water in a small cup and mix <span class="EMPHASIZE">thoroughly</span>.
+			</instruction>
 			<instruction>
 				Peel Carrots and Potatoes then cut them into chunks the size that you would like.
 				(We like the Carrots spoon sized, and the Potatoes &approx;1&inch;-2&inches; cubes.)

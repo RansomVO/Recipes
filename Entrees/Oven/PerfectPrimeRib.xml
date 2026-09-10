@@ -96,7 +96,9 @@
 				<span class="NOTE">(Approximately 20-30 minutes.)</span>
 			</instruction>
 			<instruction>Return Roast to oven for 8 minutes.</instruction>
-			<instruction>Remove and carve as soon as possible. <span class="NOTE">(No need for additional resting.)</span></instruction>
+			<instruction>
+				Remove and carve as soon as possible. <span class="NOTE">(No need for additional resting.)</span>
+			</instruction>
 		</section>
 	</Instructions>
 

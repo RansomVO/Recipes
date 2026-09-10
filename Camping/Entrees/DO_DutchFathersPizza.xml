@@ -100,7 +100,9 @@
 				<span class="NOTE">(1 briquette for each 3&inches; in diameter.
 				For example, 4 briquettes for a 12&inches; Dutch Oven.)</span>
 			</instruction>
-			<instruction>Cook until Cheese has melted then begins to turn golden brown. <span class="NOTE">(20-30 minutes)</span></instruction>
+			<instruction>
+				Cook until Cheese has melted then begins to turn golden brown. <span class="NOTE">(20-30 minutes)</span>
+			</instruction>
 			<instruction>
 				Remove all briquettes from the top and place them in a circle just under the edges of the bottom.
 			</instruction>
@@ -143,5 +145,7 @@
 		<note>Use the left-over dough to make <a href=".../Camping/Desserts/Twisties.xml">"Twisties"</a></note>
 	</Notes>
 
-	<FinalNote>A similar recipe for use at home: <a href=".../Entrees/Oven/Pizza.xml">Entrees / Oven: Pizza</a></FinalNote>
+	<FinalNote>
+		A similar recipe for use at home: <a href=".../Entrees/Oven/Pizza.xml">Entrees / Oven: Pizza</a>
+	</FinalNote>
 </Recipe>

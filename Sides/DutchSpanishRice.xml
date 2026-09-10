@@ -35,7 +35,9 @@
 
 	<Instructions>
 		<section>
-			<instruction>Chop Onions into small pieces. <span class="NOTE">(&approx;&frac12;&inch;&by;1&inch;)</span></instruction>
+			<instruction>
+				Chop Onions into small pieces. <span class="NOTE">(&approx;&frac12;&inch;&by;1&inch;)</span>
+			</instruction>
 			<instruction>
 				In a large pot, combine Onions and Hamburger, and cook on high until Hamburger is browned.
 			</instruction>

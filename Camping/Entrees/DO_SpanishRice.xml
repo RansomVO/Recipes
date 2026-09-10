@@ -45,7 +45,9 @@
 			<instruction>Place Dutch Oven on medium amount of charcoals.</instruction>
 			<instruction>Add Hamburger and Onions and cooke until browned.</instruction>
 			<instruction>Add all other ingredients and stir well.</instruction>
-			<instruction>Stirring occastionally, simmer until Rice is cooked. <span class="NOTE">(&approx;20-45 minutes)</span></instruction>
+			<instruction>
+				Stirring occastionally, simmer until Rice is cooked. <span class="NOTE">(&approx;20-45 minutes)</span>
+			</instruction>
 		</section>
 	</Instructions>
 

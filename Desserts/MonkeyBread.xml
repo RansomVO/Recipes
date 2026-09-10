@@ -30,10 +30,14 @@
 	<Instructions>
 		<section>
 			<instruction>Preheat oven to 350&deg;.</instruction>
-			<instruction>In a large bag <span class="NOTE">(such as a 1-gallon Ziploc)</span> combine Sugar and Cinnamon.</instruction>
+			<instruction>
+				In a large bag <span class="NOTE">(such as a 1-gallon Ziploc)</span> combine Sugar and Cinnamon.
+			</instruction>
 			<instruction>Remove each Biscuit from the tube and cut them into 4 pieces each.</instruction>
 			<instruction>Place &approx;10 Biscuit pieces into the bag of Cinnamon Sugar and shake until they are completely covered.</instruction>
-			<instruction>Place coated pieces into a Tube Pan <span class="NOTE">(such as a Bundt Pan)</span>.</instruction>
+			<instruction>
+				Place coated pieces into a Tube Pan <span class="NOTE">(such as a Bundt Pan)</span>.
+			</instruction>
 			<instruction>Repeat steps 3-4 until all pieces are placed into the pan.</instruction>
 			<instruction>In a separate pan, melt the Butter, and stir in the Brown Sugar.</instruction>
 			<instruction>Pour the Butter mixture over the pieces in the Tube Pan.</instruction>
