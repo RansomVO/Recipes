@@ -645,6 +645,7 @@
 
 		<div class="NOTE" id="FinalNote" style="margin-top:.5em;">
 			<xsl:copy-of select="@*" />
+			<div class="SUBSECTION_HEADER" id="FinalNote">Final Note</div>
 			<xsl:apply-templates>
 				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 			</xsl:apply-templates>
