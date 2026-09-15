@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE Recipe [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2026" month="9" day="14" />
+	<Title>Snickerdoodles</Title>
+	<Yields><span class="NOTE">ToDo</span></Yields>
+	<Source>Based on a recipe from the website modernhoney.com</Source>
+
+	<Description><span class="TODO">ToDo: Add Description</span></Description>
+
+	<Ingredients>
+		<section title="Cookie Dough">
+			<ingredient>Butter<note>softened</note><amount>1 Cup</amount></ingredient>
+			<ingredient>Sugar<amount>1&frac12; Cups</amount></ingredient>
+			<ingredient>Eggs<note>large</note><amount>2</amount></ingredient>
+			<ingredient>Vanilla<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Flour<amount>2&frac34; Cups</amount></ingredient>
+			<ingredient>Cream of Tartar<amount>1&frac12; teaspoons</amount></ingredient>
+			<ingredient>Baking Soda<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Salt<amount>&frac34; teaspoon</amount></ingredient>
+		</section>
+		<section title="Cinnamon-Sugar Mixture">
+			<ingredient>Sugar<amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Cinnamon<amount>1&frac12; Tablespoons</amount></ingredient>
+		</section>
+	</Ingredients>
+
+	<Preparation>
+		<section>
+			<prep>In a large mixing bowl, cream butter and sugar for 4-5 minutes until light and fluffy.</prep>
+			<prep>Scrape the sides of the bowl and add the eggs and vanilla, then cream for 1-2 minutes longer.</prep>
+			<prep>Add Flour, Cream of Tartar, Baking Soda, and Salt, and stirjust until combined.</prep>
+			<prep>Wrap the dough in plastic wrap and refrigerate for at least 20 minutes.</prep>
+			<prep>In a small bowl, stir together Sugar and Cinnamon.</prep>
+		</section>
+	</Preparation>
+	<Instructions>
+		<section title="ToDo">
+			<instruction>Preheat oven to 350 degrees.</instruction>
+			<instruction>Remove dough from plastic wrap and roll it out &approx;1-1&frac12;&inches; thick.</instruction>
+			<instruction>Cut the rolled dough into &approx;1-1&frac12;&inches; squares.</instruction>
+			<instruction>
+				For each cube:
+				<ul>
+					<li>Roll it by hand into a smooth, round ball.</li>
+					<li>Drop the ball into the cinnamon-sugar mixture.</li>
+					<li>Using a spoon, roll and stir it around until it is well coated.</li>
+					<li>Place on a parchment paper-lined cookie sheet &approx;2-3&inches; apart.</li>
+				</ul>
+			</instruction>
+			<instruction>Bake for 9-11 minutes.</instruction>
+			<instruction>Let cool for several minutes on baking sheet before removing from the pan.</instruction>
+		</section>
+	</Instructions>
+
+	<Modifications>
+		<modification>For less "tang", use only 1 teaspoon of Cream of Tartar.</modification>
+		<modification>
+			To make flatter Snickerdoodles, after placing the ball of dough on the cookie sheet, press down in its center.
+			This helps to keep them from puffing up in the middle.
+		</modification>
+	</Modifications>
+</Recipe>
