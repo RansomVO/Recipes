@@ -6,7 +6,10 @@
 ]>
 
 <Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
-	<page href="DeadlyRolls.xml">Deadly Rolls</page>
+	<page href="DeadlyRolls.xml">
+		Deadly Rolls
+		<Simple>Formerly Known as Refrigerator Rolls</Simple>
+	</page>
 	<page href="BreadMachineSandwichBread.xml">Bread-Machine Sandwich Bread</page>
 	<page href="Biscuits.xml">Biscuits</page>
 	<page href="NavajoFryBread.xml">Navajo Fry Bread</page>

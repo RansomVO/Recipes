@@ -10,10 +10,12 @@
 	<LastModified year="2025" month="5" day="5" />
 	<Title>
 		One and Only Ham Glaze
+		<Simple>
+			AKA:
+			"Ransom's <span style="font-size:1.5em; font-style:normal; text-decoration:underline;">A</span> Ham" Glaze
+		</Simple>
 		<Note>
-			Or "Ransom's
-			<span style="font-size:1.5em; text-decoration:underline;">A</span>
-			Ham Glaze" where "Ransom's" means "Ransom is"
+			Where "Ransom's" means "Ransom is" because he was trying to get credit for something that wasn't his.
 		</Note>
 	</Title>
 	<Yields>For 1 Large Ham</Yields>
@@ -69,9 +71,16 @@
 
 	<Modifications>
 		<modification>
-			If your oven has a convection setting, at the end of cooking the ham, unwrap the foil, change to convection and turn up the heat to 425&deg;.
+			If your oven has a convection setting, at the end of cooking the Ham:
+			<ol>
+				<li>Remove the Ham from the oven.</li>
+				<li>Unwrap the foil.</li>
+				<li>Change to convection.</li>
+				<li>Turn up the heat to 425&deg;.</li>
+				<li>Put the Ham back in the oven for 5-15 minutes.</li>
+			</ol>
 			<br />
-			This gives the glaze a flame-broiled appearance.
+			This gives the Glaze a flame-broiled appearance.
 		</modification>
 	</Modifications>
 </Recipe>

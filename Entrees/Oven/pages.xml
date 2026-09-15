@@ -13,4 +13,9 @@
 	<page href="BBQRibsToDiFor.xml">BBQ Ribs to Di For</page>
 	<page href="BBQSpareRibs.xml">BBQ Spare Ribs</page>
 	<page class="qzxDisabled TODO" href="GF_PizzaCrust.xml">Gluten-Free Pizza Crust</page>
+	<page href="CrossroadsRice.xml">
+		Crossroads Rice Casserole
+		<Simple>Chicken and Rice Casserole</Simple>
+		<Note>Get it? Crossroads &rarr; Cross the road? Chicken? &lol;</Note>
+	</page>
 </Pages>

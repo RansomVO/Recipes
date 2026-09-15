@@ -185,11 +185,32 @@
 	<xsl:variable name="noteRatio">.4</xsl:variable>
 	<xsl:variable name="widthRatio">.66</xsl:variable>
 
-	<xsl:template match="Note">
+	<xsl:template match="Simple">
 		<xsl:param name="linkPrefix" />
 		<xsl:param name="mode" />
 
 		<span>
+			<xsl:attribute name="class">
+				<xsl:choose>
+					<xsl:when test="$mode = 'TITLE'">TITLE_NOTE</xsl:when>
+					<xsl:when test="$mode = 'SOURCE'">RECIPE_SOURCE_NOTE</xsl:when>
+					<xsl:otherwise>SMALL_NOTE</xsl:otherwise>
+				</xsl:choose>
+			</xsl:attribute>
+			<xsl:attribute name="style">
+				display: inline-block; font-weight: normal; margin-left: 1em;
+			</xsl:attribute>
+
+			(<xsl:apply-templates select="./text()|*">
+				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+			</xsl:apply-templates>)
+		</span>
+	</xsl:template>
+	<xsl:template match="Note">
+		<xsl:param name="linkPrefix" />
+		<xsl:param name="mode" />
+
+		<div>
 			<xsl:attribute name="class">
 				<xsl:choose>
 					<xsl:when test="$mode = 'TITLE'">TITLE_NOTE</xsl:when>
@@ -206,17 +227,14 @@
 				<xsl:otherwise>&#xA0;&#xA0;</xsl:otherwise>
 			</xsl:choose>
 
-			<!-- -->
-			(<xsl:apply-templates select="./text()|*">
+			(<xsl:call-template name="RenderTrimmedContent">
 				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-			</xsl:apply-templates>)
-			<!-- -->
+			</xsl:call-template>)
 
-			<!-- -->
 			&#xA0;&#xA0;&#xA0;&#xA0;
-			<!-- -->
-		</span>
+		</div>
 	</xsl:template>
+
 	<xsl:template match="Description">
 		<xsl:param name="linkPrefix" />
 
@@ -228,13 +246,11 @@
 		<xsl:param name="linkPrefix" />
 
 		<span class="TITLE">
-			<xsl:apply-templates select="./text()|*">
+			<xsl:call-template name="RenderTrimmedContent">
 				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 				<xsl:with-param name="mode" select="'TITLE'" />
-			</xsl:apply-templates>
+			</xsl:call-template>
 		</span>
-
-
 	</xsl:template>
 	<xsl:template match="Source">
 		<xsl:param name="linkPrefix" />

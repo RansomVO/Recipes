@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-	<!-- Shared rich, HTML-like inline/block content model reused by summary.xsd and pages.xsd. A
-		superset of recipe.xsd's own MixedContent/InlineContent: it isn't reused directly since these two
-		file types also need a handful of structural elements (p, details, blockquote) that never appear
-		inside an actual Recipe. -->
 	<xs:complexType name="RichContent" mixed="true">
 		<xs:choice minOccurs="0" maxOccurs="unbounded">
 			<xs:group ref="RichInlineContent" />
@@ -18,6 +14,7 @@
 		<xs:choice>
 			<xs:element name="span" type="RichContent" />
 			<xs:element name="Note" type="RichContent" />
+			<xs:element name="Simple" type="RichContent" />
 			<xs:element name="b" type="RichContent" />
 			<xs:element name="i" type="RichContent" />
 			<xs:element name="u" type="RichContent" />
@@ -43,8 +40,6 @@
 		<xs:attribute name="class" type="xs:string" />
 	</xs:complexType>
 
-	<!-- Unlike recipe.xsd's List (list-style only), real summary.xml/pages.xml content uses
-		"<ul style=...>" and "<li class=...>", so both are declared here. -->
 	<xs:complexType name="RichList">
 		<xs:sequence>
 			<xs:element name="li" type="RichContent" minOccurs="1" maxOccurs="unbounded" />
@@ -54,8 +49,6 @@
 		<xs:attribute name="list-style" type="xs:string" />
 	</xs:complexType>
 
-	<!-- "summary" (lowercase) is intentionally NOT a member of RichInlineContent; every real example
-		has it exclusively as <details>'s own first child, never floating elsewhere. -->
 	<xs:complexType name="RichDetails">
 		<xs:sequence>
 			<xs:element name="summary" type="RichContent" minOccurs="0" />

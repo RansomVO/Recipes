@@ -165,10 +165,6 @@
 	<!-- ***************************** Inline formatting **************************** -->
 	<!-- *************************************************************************** -->
 
-	<!-- Reused everywhere rich, HTML-like inline content can appear: Title/Yields/Source/Note/Requires,
-		Description, prep, note, modification, FinalNote, the lowercase per-section description, etc.
-		id/class/style are declared here (rather than only on the specific types that are known to use
-		them) since they show up ad hoc on many of these elements without a consistent pattern. -->
 	<xs:complexType name="MixedContent" mixed="true">
 		<xs:choice minOccurs="0" maxOccurs="unbounded">
 			<xs:group ref="InlineContent" />
@@ -181,9 +177,8 @@
 	<xs:group name="InlineContent">
 		<xs:choice>
 			<xs:element name="span" type="Span" />
-			<!-- A literal <Note> used as inline parenthetical/annotation text (distinct from the
-				top-level <Note> Ribbon element), e.g. Source's "...<Note>G's Grandma</Note>". -->
 			<xs:element name="Note" type="Span" />
+			<xs:element name="Simple" type="Span" />
 			<xs:element name="b" type="MixedContent" />
 			<xs:element name="i" type="MixedContent" />
 			<xs:element name="u" type="MixedContent" />

@@ -8,13 +8,6 @@
 	<!-- @@@@@@@@@@@@@@@@@@@@                        Main Template                       @@@@@@@@@@@@@@@@@@@@ -->
 	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 	<xsl:template match="Index">
-		<!-- section.xml/summary.xml/pages.xml can never carry their own <!DOCTYPE (they're also loaded
-			standalone via document() below, from CollapseSection, when a DIFFERENT page needs them; and per
-			the XML spec an external general entity's replacement text can't contain a doctypedecl); so,
-			uniformly, this folder's own Section/Summary/Pages/ParentSection are fetched via document() too,
-			rather than via the &section;/&summary;/&pages;/&parentSection; entities this file used to
-			declare. That lets section.xml etc. keep their own <!DOCTYPE with entities.dtd, so named entities
-			like &eacute; work there like anywhere else. -->
 		<xsl:variable name="section" select="document('section.xml', .)/Section" />
 		<xsl:variable name="summary" select="document('summary.xml', .)/Summary" />
 		<xsl:variable name="pages" select="document('pages.xml', .)/Pages" />
@@ -26,9 +19,6 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
-		<!-- Only fetched when needed: at depth <= 1, "../section.xml" is either the site root's own
-			section.xml (Recipes/section.xml, not a meaningful "parent") or, at depth 0, outside Recipes/
-			entirely and likely missing; so the document() call itself is gated, not just its display. -->
 		<xsl:variable name="parentSectionName">
 			<xsl:if test="$depth > 1">
 				<xsl:value-of select="document('../section.xml', .)/Section" />
@@ -223,15 +213,31 @@
 	<xsl:template match="page">
 		<xsl:param name="linkPrefix" />
 		<xsl:param name="folder" />
+
+		<xsl:variable name="displayContent">
+			<xsl:copy>
+				<xsl:copy-of select="@*" />
+				<xsl:copy-of select="node()[not(self::Simple or self::Note)]" />
+				<xsl:if test="Simple">
+					<span class="SMALL_NOTE">(<xsl:call-template name="RenderTrimmedContent"><xsl:with-param name="node" select="Simple" /><xsl:with-param name="linkPrefix" select="$linkPrefix" /></xsl:call-template>)</span>
+				</xsl:if>
+			</xsl:copy>
+		</xsl:variable>
+
 		<li>
 			<xsl:choose>
 				<xsl:when test="contains(concat(' ', @class, ' '), ' qzxDisabled ')">
-					<span><xsl:copy-of select="." /></span>
+					<span><xsl:copy-of select="$displayContent" /></span>
 				</xsl:when>
 				<xsl:otherwise>
-					<a href="{concat($linkPrefix, '/',$folder, '/', @href)}"><xsl:copy-of select="." /></a>
+					<a href="{concat($linkPrefix, '/',$folder, '/', @href)}"><xsl:copy-of select="$displayContent" /></a>
 				</xsl:otherwise>
 			</xsl:choose>
+
+			<xsl:if test="Note">
+				<br />
+				&#xA0;&#xA0;&#xA0;&#xA0;<span class="SMALL_NOTE">(<xsl:call-template name="RenderTrimmedContent"><xsl:with-param name="node" select="Note" /><xsl:with-param name="linkPrefix" select="$linkPrefix" /></xsl:call-template>)</span>
+			</xsl:if>
 		</li>
 	</xsl:template>
 
