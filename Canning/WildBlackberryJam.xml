@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Wild Blackberry Jam</Title>
 	<Yields>4 pints</Yields>
 	<Source>Basic</Source>
-
-	&section;
-	<LastModified year="2025" month="6" day="6" />
 
 	<Description>
 		In Washington, we have wild blackberries growing everywhere.
@@ -24,7 +21,7 @@
 	<Ingredients>
 		<section>
 			<ingredient>
-				Wild Blackberries<note>Mashed</note>
+				Wild Blackberries <note>Mashed</note>
 				<amount>5 Cups<note>Requires &approx;7-8 Cups fresh berries</note></amount>
 			</ingredient>
 			<ingredient>Sugar<amount>4 Cups</amount></ingredient>
@@ -37,8 +34,7 @@
 		<section id="MakingMashedBerries" title="Making Mashed Berries">
 			<instruction>Remove any stems from berries</instruction>
 			<instruction>
-				Let berries soak in a large bowl, and pick out grass, leaves, etc.
-				that floats to the top.
+				Let berries soak in a large bowl, and pick out grass, leaves, etc. that floats to the top.
 			</instruction>
 			<instruction>Drain, then rinse berries in a strainer or colander.</instruction>
 			<instruction>Mash berries, using a potato masher or something similar.</instruction>
@@ -47,9 +43,15 @@
 			<instruction>Put Mashed Wild Blackberries into a large pot, add Lemon Juice and mix well.</instruction>
 			<instruction>Bring berry mixture to a boil.</instruction>
 			<instruction>In a separate bowl, mix Sugar and Pectin.</instruction>
-			<instruction>When berry mixture is boiling, slowly mix in Sugar/Pectin mixture and stir until well dissolved.</instruction>
-			<instruction>Bring mixture to a boil again, and boil for 1 minute, then remove from heat immediately.</instruction>
-			<instruction>Follow instructions in the <a href=".../Canning/BathCanningHowTo.xml">Bath Canning: How-To</a> section.</instruction>
+			<instruction>
+				When berry mixture is boiling, slowly mix in Sugar/Pectin mixture and stir until well dissolved.
+			</instruction>
+			<instruction>
+				Bring mixture to a boil again, and boil for 1 minute, then remove from heat immediately.
+			</instruction>
+			<instruction>
+				Follow instructions in the <a href=".../Canning/BathCanningHowTo.xml">Bath Canning: How-To</a> section.
+			</instruction>
 		</section>
 	</Instructions>
 
@@ -76,10 +78,7 @@
 			</table>
 		</note>
 		<note>If you let the jam boil too long, it will not "set" and you end up with runny syrup instead of jam.</note>
-		<note>
-			We do not recommend using liquid pectin.
-			When we do, we have had problems getting it to set.
-		</note>
+		<note>We do not recommend using liquid pectin. When we do, we have had problems getting it to set.</note>
 		<note>Instead of mashing fruit, you can place fruit in a blender and blend it for a few seconds until it is just barely liquefied.</note>
 		<note>The Lemon Juice raises the acidity level of the jam so it will not spoil when stored.</note>
 		<note>If you have a big enough pot, there is no reason that you can't double the recipe.</note>

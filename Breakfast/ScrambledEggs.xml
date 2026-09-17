@@ -1,44 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="3" day="31" />
 	<Title>Scrambled Eggs</Title>
 	<Yields>1 serving</Yields>
 	<Source>Basic</Source>
 
-	&section;
-	<LastModified year="2025" month="3" day="31" />
-
 	<Description>
-		Eggs for breakfast is a standard staple.
-		But if they are not done right, they end up a rubbery or burnt mess.
+		Eggs for breakfast is a standard staple. But if they are not done right, they end up a rubbery or burnt mess.
 	</Description>
 
 	<Ingredients>
 		<section>
 			<ingredient>Eggs<amount>1-2</amount></ingredient>
-			<ingredient>
-				Milk
-				<amount>1 Tablespoon<note>per Egg</note></amount>
-			</ingredient>
-			<ingredient>
-				Salt and Pepper
-				<amount><note>To Taste</note></amount>
-			</ingredient>
+			<ingredient>Milk <amount>1 Tablespoon<note>per Egg</note></amount></ingredient>
+			<ingredient>Salt and Pepper <amount><note>To Taste</note></amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
 			<instruction>
-				Break Eggs into a cup.
-				<span class="NOTE">(Make sure any shell pieces are removed.)</span>
+				Break Eggs into a cup. <span class="NOTE">(Make sure any shell pieces are removed.)</span>
 			</instruction>
 			<instruction>Using a fork, or small whisk, stir the Egg until it is thoroughly blended.</instruction>
 			<instruction>Add Milk and mix thoroughly.</instruction>

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE pages [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
-<Pages>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
 	<page class="TODO" href="CranMamaSauce.xml">Cran Mama Sauce</page>
 	<page href="MarinaraSauce.xml">Marinara Sauce</page>
 	<page href="EasyGravy.xml">Easy Gravy</page>
@@ -9,7 +14,17 @@
 	<page href="HoneyButter.xml">Honey Butter</page>
 	<page href="FrySauce.xml">Fry Sauce</page>
 	<page href="DaddydasSauce.xml">Daddyda's Sauce</page>
-	<page href="OneAndOnlyHamGlaze.xml">One and Only Ham Glaze</page>
+	<page href="OneAndOnlyHamGlaze.xml">
+		One and Only Ham Glaze
+		<Simple>
+			AKA:
+			"Ransom's <span style="font-size:1.5em; font-style:normal; text-decoration:underline;">A</span> Ham" Glaze
+		</Simple>
+		<Note>
+			Where "Ransom's" means "Ransom is" because he was trying to get credit for something that wasn't his.
+		</Note>
+	</page>
 	<page href="RustyQueso.xml">Rusty Queso</page>
-	<page class="TODO qzxDisabled" href="RustyGuacamole.xml">Rusty Guacamole</page>
+	<page class="TODO" href="RustyGuacamole.xml">Rusty Guacamole</page>
+	<page href="TeriyakiSauce.xml">Teriyaki Sauce</page>
 </Pages>

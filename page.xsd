@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="Page">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="html" type="ExternalHtml" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="LastModified">
+		<xs:attribute name="year" type="IntegerOrTodo" use="required" />
+		<xs:attribute name="month" type="IntegerOrTodo" use="required" />
+		<xs:attribute name="day" type="IntegerOrTodo" use="required" />
+	</xs:complexType>
+
+	<!-- A real date part, or the literal "TODO" for a page that's still a placeholder (its pages.xml
+		entry carries both the "TODO" and "qzxDisabled" classes) rather than a real LastModified date. -->
+	<xs:simpleType name="IntegerOrTodo">
+		<xs:union memberTypes="xs:integer">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="TODO" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:union>
+	</xs:simpleType>
+
+	<!-- The &page; entity (declared in this file's own <!DOCTYPE, e.g. <!ENTITY page SYSTEM
+		"Ingredients.html">) expands to this Page's own external, hand-authored .html file's full
+		content: an "<html lang="..."><LastModified .../><head>...</head><body>...</body></html>"
+		document. LastModified carries this page's own date (this Page's counterpart to the sibling
+		LastModified element every other document type keeps); it must come first, as a sibling of
+		head/body, NOT nested inside either: page.xsl sweeps every child of html/head and html/body
+		individually, and common.xsl's own LastModified template would fire on it wherever it landed,
+		so nesting it in there would print the formatted date as stray text in the rendered page.
+		Everything else below <html> has no fixed structure to declare for someone else's HTML, so it's
+		deliberately left unvalidated (processContents="skip"). -->
+	<xs:complexType name="ExternalHtml" mixed="true">
+		<xs:sequence>
+			<xs:element name="LastModified" type="LastModified" />
+			<xs:any processContents="skip" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+		<xs:anyAttribute processContents="skip" />
+	</xs:complexType>
+
+</xs:schema>

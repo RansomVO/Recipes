@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:complexType name="RichContent" mixed="true">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:group ref="RichInlineContent" />
+		</xs:choice>
+		<xs:attribute name="id" type="xs:string" />
+		<xs:attribute name="class" type="xs:string" />
+		<xs:attribute name="style" type="xs:string" />
+	</xs:complexType>
+
+	<xs:group name="RichInlineContent">
+		<xs:choice>
+			<xs:element name="span" type="RichContent" />
+			<xs:element name="Note" type="RichContent" />
+			<xs:element name="Simple" type="RichContent" />
+			<xs:element name="b" type="RichContent" />
+			<xs:element name="i" type="RichContent" />
+			<xs:element name="u" type="RichContent" />
+			<xs:element name="sup" type="RichContent" />
+			<xs:element name="sub" type="RichContent" />
+			<xs:element name="a" type="RichAnchor" />
+			<xs:element name="br" type="RichEmpty" />
+			<xs:element name="div" type="RichContent" />
+			<xs:element name="p" type="RichContent" />
+			<xs:element name="blockquote" type="RichContent" />
+			<xs:element name="ul" type="RichList" />
+			<xs:element name="details" type="RichDetails" />
+		</xs:choice>
+	</xs:group>
+
+	<xs:complexType name="RichEmpty" />
+
+	<xs:complexType name="RichAnchor" mixed="true">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:group ref="RichInlineContent" />
+		</xs:choice>
+		<xs:attribute name="href" type="xs:string" use="required" />
+		<xs:attribute name="class" type="xs:string" />
+	</xs:complexType>
+
+	<xs:complexType name="RichList">
+		<xs:sequence>
+			<xs:element name="li" type="RichContent" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+		<xs:attribute name="style" type="xs:string" />
+		<xs:attribute name="class" type="xs:string" />
+		<xs:attribute name="list-style" type="xs:string" />
+	</xs:complexType>
+
+	<xs:complexType name="RichDetails">
+		<xs:sequence>
+			<xs:element name="summary" type="RichContent" minOccurs="0" />
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:group ref="RichInlineContent" />
+			</xs:choice>
+		</xs:sequence>
+		<xs:attribute name="open" type="xs:string" />
+		<xs:attribute name="section" type="xs:string" />
+		<xs:attribute name="class" type="xs:string" />
+	</xs:complexType>
+
+</xs:schema>

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE pages [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
-<Pages>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
 	<page href="CheeseBall.xml">Cheese Ball</page>
-	<page href="3rdDegreeBuffaloWings.xml">3rd Degree Buffalo Wings</page>
+	<page href="3rdDegreeBuffaloWings.xml">3<sup>rd</sup> Degree Buffalo Wings</page>
 	<page href="StuffedMushrooms.xml">Stuffed Mushrooms</page>
 </Pages>

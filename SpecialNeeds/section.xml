@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE section [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
-<Section folder="SpecialNeeds">Special Needs <span style="font-size:.66em;">(Diabetes - Gluten Sensitivity/Celiac Disease - Lactose Intolerance)</span></Section>
+<Section folder="SpecialNeeds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="section.xsd">
+	Special Needs
+	<span style="font-size:.66em;">(Diabetes - Gluten Sensitivity/Celiac Disease - Lactose Intolerance)</span>
+</Section>

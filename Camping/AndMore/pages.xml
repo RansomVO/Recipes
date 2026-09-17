@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE pages [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
-<Pages>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
 	<CollapseSection title="Dutch Oven">
 		<inline>
-
 			<Pages>
 				<page href="Camping/AndMore/DO_BasqueSheepherdersBread.xml">Dutch Oven Basque Sheepherder's Bread</page>
 			</Pages>

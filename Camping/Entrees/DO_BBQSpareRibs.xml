@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Dutch Oven BBQ Spare Ribs</Title>
 	<Yields>6-8 Servings</Yields>
-	<Source>Adapted from the kitchen of Bobbi Beagley</Source>
-	<Note>Jennie's Mom</Note>
-	<Requires class="TODO">12&inch; Dutch Oven</Requires>
-
-	&section;
-	<LastModified year="2025" month="6" day="6" />
+	<Source>
+		Adapted from the kitchen of Bobbi Beagley
+		<Note>Jennie's Mom</Note>
+	</Source>
+	<Requires>12&inches; Dutch Oven</Requires>
 
 	<Description>
 		When Jennie was growing up, her mom used to make a wonderful BBQ Spare Ribs recipe.
@@ -25,22 +24,16 @@
 
 	<Ingredients>
 		<section>
-			<ingredient>
-				Boneless Country Style Spare Ribs<note>Pork or Beef</note>
-				<amount>4 Lbs.</amount>
-			</ingredient>
+			<ingredient>Boneless Country Style Spare Ribs <note>Pork or Beef</note><amount>4 Lbs.</amount></ingredient>
 		</section>
 		<section title="Sauce">
-			<ingredient>Tomato Paste<amount>3 6-oz. Cans</amount></ingredient>
-			<ingredient>Ketchup<amount>1 Cup</amount></ingredient>
-			<ingredient>Apple Cider Vinegar<amount>&frac14; Cup</amount></ingredient>
-			<ingredient>Prepared Mustard<amount>2 Tablespoons</amount></ingredient>
-			<ingredient>Brown Sugar<amount>&frac34; Cup</amount></ingredient>
-			<ingredient>
-				Onion<note>Finely Diced</note>
-				<amount>&frac12;</amount>
-			</ingredient>
-			<ingredient>Salt<amount>2 teaspoons</amount></ingredient>
+			<ingredient>Tomato Paste <amount>3 6-oz. Cans </amount></ingredient>
+			<ingredient>Ketchup <amount>1 Cup</amount></ingredient>
+			<ingredient>Apple Cider Vinegar <amount>&frac14; Cup</amount></ingredient>
+			<ingredient>Prepared Mustard <amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Brown Sugar <amount>&frac34; Cup</amount></ingredient>
+			<ingredient>Onion <note>Finely Diced</note><amount>&frac12;</amount></ingredient>
+			<ingredient>Salt <amount>2 teaspoons</amount></ingredient>
 		</section>
 	</Ingredients>
 
@@ -49,19 +42,12 @@
 			<instruction>
 				Heat Dutch Oven with high heat from the bottom, then add the Spare Ribs and stir them occasionally.
 			</instruction>
-			<instruction>
-				Meanwhile, in a seaparate container, mix all the Sauce Ingredients.
-			</instruction>
-			<instruction>
-				When the Spare Ribs are brown, move the Dutch Oven to medium low heat, pour Sauce over the Spare Ribs, and gently stir until Spare Ribs are all coated in sauce.
-			</instruction>
-			<instruction>
-				Put the lid on the Dutch Oven and simmer, stirring occationally.
-			</instruction>
+			<instruction>Meanwhile, in a seaparate container, mix all the Sauce Ingredients.</instruction>
+			<instruction>When the Spare Ribs are brown, move the Dutch Oven to medium low heat, pour Sauce over the Spare Ribs, and gently stir until Spare Ribs are all coated in sauce.</instruction>
+			<instruction>Put the lid on the Dutch Oven and simmer, stirring occationally.</instruction>
 			<instruction>
 				Simmer until the Spare Ribs are cooked.
-				(ToDo:
-				Need to verify this takes &approx;1 hour.)
+				<span class="TODO NOTE">(ToDo: Need to verify this takes &approx;1 hour.)</span>
 			</instruction>
 		</section>
 	</Instructions>
@@ -76,8 +62,8 @@
 		</note>
 	</Notes>
 
-	<FinalNote> A similar recipe for use at home: <a href=".../Entrees/SlowCooker/BBQSpareRibs.xml">Entrees / Slow Cooker:
-			BBQ Spare Ribs
-		</a>
+	<FinalNote>
+		A similar recipe for use at home:
+		<a href=".../Entrees/SlowCooker/BBQSpareRibs.xml">Entrees / Slow Cooker: BBQ Spare Ribs QZX Check this out.</a>
 	</FinalNote>
 </Recipe>

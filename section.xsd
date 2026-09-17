@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:include schemaLocation="common.xsd" />
+
+	<!-- Usually plain text, but at least one real Section (SpecialNeeds) uses a "<span style=...>" for a
+		styled sub-title, so this needs the same rich inline content model as Summary, not plain text. -->
+	<xs:element name="Section">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:group ref="RichInlineContent" />
+			</xs:choice>
+			<xs:attribute name="folder" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

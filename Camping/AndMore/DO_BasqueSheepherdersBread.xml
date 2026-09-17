@@ -1,41 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="6" day="6" />
 	<Title>Dutch Oven Basque Sheepherder's Bread</Title>
 	<Yields>8-16 Servings</Yields>
-	<Source> Not sure where this one came from, but Grandpa John used to make it when Ransom was a kid.</Source>
-	<Note>Maybe a VanOrman Original?</Note>
-	<Requires>12&inch; Dutch Oven</Requires>
-
-	&section;
-	<LastModified year="2025" month="6" day="6" />
+	<Source>
+		Not sure where this one came from, but Grandpa John used to make it when Ransom was a kid.
+		<Note>Maybe a VanOrman Original?</Note>
+	</Source>
+	<Requires>12&inches; Dutch Oven</Requires>
 
 	<Description>
 		Grandpa John used to take the family on a long trip up and through Canada, then down the western coast.
-		While in Washington or Oregon, they would stop and pick a bunch of wild blackberries then find a camping spot.<br />
+		While in Washington or Oregon, they would stop and pick a bunch of wild blackberries then find a camping spot.
+		<br />
 		There, Gramma 'Rilla would make jam, while Grandpa John would make Basque Sheepherder's Bread.
 		It made a <span class="EMPHASIZE">wonderful</span> treat the kids all loved!
 	</Description>
 
 	<Ingredients>
 		<section>
-			<ingredient>Butter<amount>2 Tablespoons</amount></ingredient>
-			<ingredient>Hot Water<amount>3 Cups</amount></ingredient>
-			<ingredient>
-				Butter<note>Melted</note>
-				<amount>&frac12; Cup<note>1 Stick</note></amount>
-			</ingredient>
-			<ingredient>Sugar<amount>&frac12; Cup</amount></ingredient>
-			<ingredient>Salt<amount>2&frac12; teaspoons</amount></ingredient>
-			<ingredient>Yeast<amount>2 Tablespoons</amount></ingredient>
-			<ingredient>Flour<amount>9&frac12; Cups</amount></ingredient>
+			<ingredient>Butter <amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Hot Water <amount>3 Cups</amount></ingredient>
+			<ingredient>Butter <note>Melted</note><amount>&frac12; Cup <note>1 Stick</note></amount></ingredient>
+			<ingredient>Sugar <amount>&frac12; Cup</amount></ingredient>
+			<ingredient>Salt <amount>2&frac12; teaspoons</amount></ingredient>
+			<ingredient>Yeast <amount>2 Tablespoons</amount></ingredient>
+			<ingredient>Flour <amount>9&frac12; Cups</amount></ingredient>
 		</section>
 	</Ingredients>
 
@@ -53,7 +50,11 @@
 	</Instructions>
 
 	<Notes>
-		<note>It is always good to have something to put on top of slices, like the <a href=".../Canning/WildBlackberryJam.xml">Black Berry Jam</a> Grandma 'Rilla used to make.</note>
+		<note>
+			It is always good to have something to put on top of slices, like the
+			<a href=".../Canning/WildBlackberryJam.xml">Black Berry Jam</a>
+			Grandma 'Rilla used to make.
+		</note>
 	</Notes>
 
 	<Modifications>

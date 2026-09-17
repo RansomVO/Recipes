@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE Recipe [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
+
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="3" day="14" />
+	<Title>
+		Crossroads Rice Casserole
+		<Simple>Chicken and Rice Casserole</Simple>
+		<Note>Get it? Crossroads &rarr; Cross the road? Chicken? &lol;</Note>
+	</Title>
+	<Yields>4-6 Servings</Yields>
+	<Source>
+		From the kitchen of AI
+		<Note>Why did the AI cross the road? It stole the chicken's job.</Note>
+	</Source>
+
+	<Description>
+		Ransom used to make Chicken and Rice Casserole all the time.
+		But one night, he had to go out, and leave Di to make it herself.
+		<br />
+		Turns out we didn't have the recipe in our book, so he did a quick search for the recipe online.
+		AI came up with this, and it was so good, that we decided to keep it in our recipe book.
+	</Description>
+
+	<Ingredients>
+		<section>
+			<ingredient>Condensed Cream of Mushroom Soup<amount>1 Can<note>10.5 oz.</note></amount></ingredient>
+			<ingredient>Chicken Broth<amount>1&frac12; Cups</amount></ingredient>
+			<ingredient>Garlic Powder<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Onion Powder<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Salt<amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Black Pepper<amount>&frac14; teaspoon</amount></ingredient>
+			<ingredient>Long-grain White Rice<note>not instant</note><amount>1 Cup</amount></ingredient>
+			<ingredient>Chicken Breasts<note>Boneless, Skinless</note><amount>2 to 4</amount></ingredient>
+			<ingredient>Butter<note>Optional</note><amount>1 Tablespoon</amount></ingredient>
+		</section>
+	</Ingredients>
+
+	<Preparation>
+		<section>
+			<prep>
+				Cut Chicken into pieces of the desired size.
+				<span class="NOTE">(In general, cut each breast in half.)</span>
+				<br />
+				Then pat each piece dry and set aside.
+			</prep>
+			<prep>Grease a 9&inches;&by;13&inches; baking dish.</prep>
+		</section>
+	</Preparation>
+	<Instructions>
+		<section>
+			<instruction>Preheat oven to 375&deg;</instruction>
+			<instruction>In a medium bowl, combine Condensed Cream of Mushroom Soup, Chicken Broth, Garlic Powder, Onion Powder, Salt, and Black Pepper then whisk together until smooth.</instruction>
+			<instruction>Add Rice and stir well.</instruction>
+			<instruction>Pour the mixture into the prepared baking dish and spread it evenly.</instruction>
+			<instruction>
+				Arrange the Chicken pieces on top of the rice mixture.
+				If desired, add a small pat of butter on each piece.
+			</instruction>
+			<instruction>
+				Season the tops of the Chicken pieces with additional Salt and Black Pepper, if desired.
+			</instruction>
+			<instruction>Cover the pan tightly with aluminum foil.</instruction>
+			<instruction>Bake for 1 hour until the Rice is tender and the Chicken reaches 165&deg;.</instruction>
+			<instruction>Remove from oven, peel back the foil, and fluff the rice with a fork.</instruction>
+		</section>
+	</Instructions>
+
+	<Modifications>
+		<modification>Instead of Garlic Powder, use 1 teaspoon of fresh minced garlic.</modification>
+		<modification>Replace Onion Powder with &frac12;-1 Onion sliced into &frac14;&inch; discs, then cut discs into 4 pieces each.</modification>
+	</Modifications>
+</Recipe>

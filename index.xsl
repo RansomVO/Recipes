@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
-	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:exsl="http://exslt.org/common">
+<xsl:stylesheet version="2.0"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<xsl:include href="common.xsl" />
 
@@ -9,13 +8,21 @@
 	<!-- @@@@@@@@@@@@@@@@@@@@                        Main Template                       @@@@@@@@@@@@@@@@@@@@ -->
 	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 	<xsl:template match="Index">
+		<xsl:variable name="section" select="document('section.xml', .)/Section" />
+		<xsl:variable name="summary" select="document('summary.xml', .)/Summary" />
+		<xsl:variable name="pages" select="document('pages.xml', .)/Pages" />
 		<xsl:variable name="depth">
 			<xsl:choose>
-				<xsl:when test="Section/@folder = '.'">0</xsl:when>
+				<xsl:when test="$section/@folder = '.'">0</xsl:when>
 				<xsl:otherwise>
-					<xsl:value-of select="string-length(Section/@folder) - string-length(translate(Section/@folder, '/', '')) + 1" />
+					<xsl:value-of select="string-length($section/@folder) - string-length(translate($section/@folder, '/', '')) + 1" />
 				</xsl:otherwise>
 			</xsl:choose>
+		</xsl:variable>
+		<xsl:variable name="parentSectionName">
+			<xsl:if test="$depth > 1">
+				<xsl:value-of select="document('../section.xml', .)/Section" />
+			</xsl:if>
 		</xsl:variable>
 		<xsl:variable name="linkPrefix">
 			<xsl:call-template name="LinkPrefix">
@@ -28,26 +35,26 @@
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<link rel="stylesheet" type="text/css" href="styles.css" />
 				<title>
-					<xsl:if test="Section != 'VanOrman Family Recipes'">
+					<xsl:if test="$section != 'VanOrman Family Recipes'">
 						VanOrman Family Recipes:
 					</xsl:if>
 					<!-- QZX TODO: Handle multiple levels of Sections in the title. E.G.: Entrees/StoveTop -->
-					<xsl:if test="ParentSection"><xsl:value-of select="ParentSection" /> /</xsl:if>
-					<xsl:value-of select="Section" />
+					<xsl:if test="$depth > 1"><xsl:value-of select="$parentSectionName" /> /</xsl:if>
+					<xsl:value-of select="$section" />
 				</title>
 			</head>
 
 			<body>
-				<xsl:apply-templates select="Section">
+				<xsl:apply-templates select="$section">
 					<xsl:with-param name="linkPrefix" select="''" />
 				</xsl:apply-templates>
 
-				<xsl:apply-templates select="Summary" />
+				<xsl:apply-templates select="$summary" />
 
 				<hr />
-				<xsl:apply-templates select="Pages">
+				<xsl:apply-templates select="$pages">
 					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-					<xsl:with-param name="folder" select="Section/@folder" />
+					<xsl:with-param name="folder" select="$section/@folder" />
 				</xsl:apply-templates>
 
 				<footer class="FLEX_FOOTER">
@@ -55,16 +62,23 @@
 						<tr>
 							<td class="no-print">
 								<a href="/">Home</a> / <xsl:choose>
-									<xsl:when test="ParentSection">
+									<!-- At the Recipes root itself, "current section" IS the recipes root; so unlike
+										the other two cases, there's no separate ancestor level to link to. Show one
+										"Recipes" crumb (self-linked, matching how the last crumb in the other cases
+										also links to its own page) instead of an extra, redundant $section crumb. -->
+									<xsl:when test="$depth = 0">
+										<a href=".">Recipes</a>
+									</xsl:when>
+									<xsl:when test="$depth > 1">
 										<a href="../..">Recipes</a> / <a href="..">
-											<xsl:value-of select="ParentSection" />
+											<xsl:value-of select="$parentSectionName" />
 										</a> / <a href=".">
-											<xsl:value-of select="Section" />
+											<xsl:value-of select="$section" />
 										</a>
 									</xsl:when>
 									<xsl:otherwise>
 										<a href="..">Recipes</a> / <a href=".">
-											<xsl:value-of select="Section" />
+											<xsl:value-of select="$section" />
 										</a>
 									</xsl:otherwise>
 								</xsl:choose>
@@ -199,7 +213,32 @@
 	<xsl:template match="page">
 		<xsl:param name="linkPrefix" />
 		<xsl:param name="folder" />
-		<li><a href="{concat($linkPrefix, '/',$folder, '/', @href)}"><xsl:copy-of select="." /></a></li>
+
+		<xsl:variable name="displayContent">
+			<xsl:copy>
+				<xsl:copy-of select="@*" />
+				<xsl:copy-of select="node()[not(self::Simple or self::Note)]" />
+				<xsl:if test="Simple">
+					<span class="SMALL_NOTE">(<xsl:call-template name="RenderTrimmedContent"><xsl:with-param name="node" select="Simple" /><xsl:with-param name="linkPrefix" select="$linkPrefix" /></xsl:call-template>)</span>
+				</xsl:if>
+			</xsl:copy>
+		</xsl:variable>
+
+		<li>
+			<xsl:choose>
+				<xsl:when test="contains(concat(' ', @class, ' '), ' qzxDisabled ')">
+					<span><xsl:copy-of select="$displayContent" /></span>
+				</xsl:when>
+				<xsl:otherwise>
+					<a href="{concat($linkPrefix, '/',$folder, '/', @href)}"><xsl:copy-of select="$displayContent" /></a>
+				</xsl:otherwise>
+			</xsl:choose>
+
+			<xsl:if test="Note">
+				<br />
+				&#xA0;&#xA0;&#xA0;&#xA0;<span class="SMALL_NOTE">(<xsl:call-template name="RenderTrimmedContent"><xsl:with-param name="node" select="Note" /><xsl:with-param name="linkPrefix" select="$linkPrefix" /></xsl:call-template>)</span>
+			</xsl:if>
+		</li>
 	</xsl:template>
 
 	<xsl:template match="inline">

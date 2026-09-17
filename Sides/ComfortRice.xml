@@ -1,27 +1,24 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2026" month="8" day="30" />
 	<Title>Mexican Rice of Comfort</Title>
 	<Yields>8-10 servings</Yields>
-	<Source>A Mexican waitress friend named Consuelo</Source>
-	<LastModified year="2026" month="8" day="30" />
-
-	<!-- -->&section;<!-- -->
+	<Source>From the kitchen of a Mexican waitress and friend named Consuelo</Source>
 
 	<Description>
 		At a Mexican restaurant that we love, we built up a relationship with one of the waitresses named Consuelo.
 		At one point she came over to our house and made us a Mexican meal from scratch.
 		<br />
 		It was so AWESOME, that Ransom and Di had her come back over and make it again so he could write down what she did and create this recipe.
-		<br /><br />
-		<div class="RECIPE_INSTRUCTION_NOTE" style="margin-left:2em;">
+		<br />
+		<div class="RECIPE_INSTRUCTION_NOTE" style="margin:.5em 0 .5em 2em;">
 			<b>NOTE</b>:
 			<br />
 			"Mexican Rice of Comfort" translated to Spanish is "Arroz Mexicano de Consuelo"
@@ -29,8 +26,8 @@
 			"Mexican Rice from Consuelo" translated to Spanish is "Arroz Mexicano de Consuelo"
 			<br />
 			Since they are both the same, and since this recipe <b><u>is</u></b> &nbsp;from Consuelo&hellip; &smiley;
+			<!-- QZX TODO: Uncomment this when Mexican Beans of Comfort is completed <br /> <span class="NOTE"> (See Also <a href="./ComfortBeans.xml">Mexican Beans of Comfort</a>) </span> -->
 		</div>
-		<br />
 	</Description>
 
 	<Ingredients>
@@ -58,7 +55,7 @@
 				Then add it to the bowl and set the bowl aside.
 			</prep>
 			<prep>
-				Slice Onion into &frac14;&inch; disks, then cut the disks into &frac18;ths.
+				Slice Onion into &frac14;&inch; disks, then cut the disks into &frac18;<sup>ths</sup>.
 				Separate the Onion pieces and set aside.
 			</prep>
 		</section>
@@ -68,14 +65,18 @@
 			<instruction>Put Olive Oil in a skillet and tip it around until bottom is covered.</instruction>
 			<instruction>Put skillet on a burner at medium-high and give it a minute to heat up.</instruction>
 			<instruction>Add Onions and saut&eacute; for 2 minutes.</instruction>
-			<instruction>Add Garlic <span class="RECIPE_INGREDIENT_NOTE">(Minced)</span> and saut&eacute; for another minute.</instruction>
+			<instruction>
+				Add Garlic <span class="RECIPE_INGREDIENT_NOTE">(Minced)</span> and saut&eacute; for another minute.
+			</instruction>
 			<instruction>Add Rice and saut&eacute; for another minute.</instruction>
 			<instruction>
 				Add all other ingredients and stir well, then cover with skillet's lid.
+				<br />
 				<b><i>DO NOT REMOVE LID OR STIR AGAIN UNTIL COOKING IS COMPLETED!!!</i></b>
 			</instruction>
 			<instruction>
 				Turn burner to medium and simmer for 15-20 minutes.
+				<br />
 				<b><i>DO NOT REMOVE LID OR STIR AGAIN UNTIL COOKING IS COMPLETED!!!</i></b>
 			</instruction>
 			<instruction>
@@ -94,8 +95,7 @@
 	</Modifications>
 
 	<FinalNote>
-		<br />
-		<b>Final Note</b>:
-		While cooking, <b><i>DO NOT REMOVE LID OR STIR AGAIN UNTIL COOKING IS COMPLETED!!!</i></b>
+		<span class="SUBSECTION_HEADER"><u>Final Note</u></span>
+		<div>While cooking, <b><i>DO NOT REMOVE LID OR STIR AGAIN UNTIL COOKING IS COMPLETED!!!</i></b></div>
 	</FinalNote>
 </Recipe>

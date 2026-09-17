@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE summary [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
-<Summary>
-	Life is short.
-	Eat Dessert first.
-	Or make tasty snacks to eat between meals.
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
+	Life is short. Eat Dessert first. Or make tasty snacks to eat between meals.
 	<br />
 	<span class="SUPER_EMPHASIZE">Yum!!!</span>
 </Summary>

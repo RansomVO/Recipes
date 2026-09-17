@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE summary [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
-<Summary>
-	We really think this is a <b><u>HUGE</u></b> thing!<br />
-	We just haven't gotten anything here. <i>(Yet. &#x1F600;)</i>
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
+	We really think this is a <b><u>HUGE</u></b> thing!
+	<br />
+	We just haven't gotten anything here. <i>(Yet. &smiley;)</i>
 </Summary>

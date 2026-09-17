@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE pages [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
-<Pages>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
 	<page href="MashedPotatoes.xml">Mashed Potatoes</page>
 	<page href="Rice.xml">Rice</page>
 	<page href="LehiRice.xml">Lehi Rice</page>
@@ -12,6 +17,7 @@
 	<page href="EasyPotatoesAuGratin.xml">Easy Potatoes Au Gratin</page>
 	<page href="RedheadCarrots.xml">Redhead Carrots</page>
 	<page href="ComfortRice.xml">Mexican Rice of Comfort</page>
-	<page class="TODO" href="CranberryJelloSalad.xml">Cranberry Jello Salad</page>
-	<page class="TODO" href="SheetPanVeggies.xml">Sheet Pan Veggies</page>
+	<page class="qzxDisabled TODO" href="ComfortBeans.xml">Mexican Beans of Comfort</page>
+	<page class="qzxDisabled TODO" href="CranberryJelloSalad.xml">Cranberry Jello Salad</page>
+	<page class="qzxDisabled TODO" href="SheetPanVeggies.xml">Sheet Pan Veggies</page>
 </Pages>

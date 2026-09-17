@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
-	<!ENTITY section SYSTEM "section.xml">
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+	<LastModified year="2025" month="3" day="31" />
 	<Title>Teriyaki Sauce</Title>
 	<Yields>1 Cup</Yields>
 	<Source>A VanOrman Original</Source>
-
-	&section;
-	<LastModified year="2025" month="3" day="31" />
 
 	<Description>
 		One night, we started making Teriyaki chicken, then we found we didn't have any Teriyaki sauce.
@@ -26,28 +23,16 @@
 			<ingredient>Soy Sauce<amount>&frac12; Cup</amount></ingredient>
 			<ingredient>Rice Vinegar<amount>2 Tablespoons</amount></ingredient>
 			<ingredient>Sesame Oil<amount>1 Tablespoon</amount></ingredient>
-			<ingredient>
-				Ginger<note>Fresh, Grated</note>
-				<amount>&frac12; teaspoon</amount>
-			</ingredient>
-			<ingredient>
-				Garlic<note>Minced</note>
-				<amount>&frac12; teaspoon</amount>
-			</ingredient>
+			<ingredient>Ginger<note>Fresh, Grated</note><amount>&frac12; teaspoon</amount></ingredient>
+			<ingredient>Garlic<note>Minced</note><amount>&frac12; teaspoon</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
-			<instruction>
-				Place all ingredients in a small pot and mix.
-			</instruction>
-			<instruction>
-				Heat on medium heat until it comes to a boil.
-			</instruction>
-			<instruction>
-				Remove immediately and let cool.
-			</instruction>
+			<instruction>Place all ingredients in a small pot and mix.</instruction>
+			<instruction>Heat on medium heat until it comes to a boil.</instruction>
+			<instruction>Remove immediately and let cool.</instruction>
 		</section>
 	</Instructions>
 
@@ -58,8 +43,6 @@
 	</Notes>
 
 	<Modifications>
-		<modification>
-			Use &frac12; Cup Corn Syrup instead of Brown Sugar.
-		</modification>
+		<modification>Use &frac12; Cup Corn Syrup instead of Brown Sugar.</modification>
 	</Modifications>
 </Recipe>

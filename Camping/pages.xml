@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Include entities to be used in the xml -->
+<!DOCTYPE pages [
+	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
+	%externalEntities;
+]>
 
-<Pages>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
 	<CollapseSection folder="Camping/Breakfast" />
 	<CollapseSection folder="Camping/Entrees" />
 	<CollapseSection folder="Camping/Desserts" />
@@ -9,7 +14,8 @@
 	<CollapseSection title="Additional Recipes">
 		<inline>
 			<description>
-				There are also a number of Recipes throughout this <span class="no-print">site</span>
+				There are also a number of Recipes throughout this
+				<span class="no-print">site</span>
 				<span class="no-screen">book</span>
 				that may be of interest.
 			</description>

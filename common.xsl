@@ -45,6 +45,85 @@
 
 		<xsl:copy-of select="$step2" />
 	</xsl:template>
+	<xsl:template name="TrimStart">
+		<xsl:param name="string" />
+
+		<xsl:choose>
+			<xsl:when test="starts-with($string, ' ') or starts-with($string, '&#9;') or starts-with($string, '&#10;') or starts-with($string, '&#13;')">
+				<xsl:call-template name="TrimStart">
+					<xsl:with-param name="string" select="substring($string, 2)" />
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$string" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	<xsl:template name="TrimEnd">
+		<xsl:param name="string" />
+
+		<xsl:variable name="lastChar" select="substring($string, string-length($string))" />
+		<xsl:choose>
+			<xsl:when test="$lastChar = ' ' or $lastChar = '&#9;' or $lastChar = '&#10;' or $lastChar = '&#13;'">
+				<xsl:call-template name="TrimEnd">
+					<xsl:with-param name="string" select="substring($string, 1, string-length($string) - 1)" />
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$string" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	<xsl:template name="RenderTrimmedContent">
+		<xsl:param name="node" select="." />
+		<xsl:param name="linkPrefix" />
+		<xsl:param name="mode" />
+
+		<xsl:for-each select="$node/text()|$node/*">
+			<xsl:choose>
+				<xsl:when test="self::text()">
+					<xsl:variable name="precededByAside" select="preceding-sibling::*[1][self::Note or self::Simple]" />
+					<xsl:variable name="followedByAside" select="following-sibling::*[1][self::Note or self::Simple]" />
+
+					<xsl:variable name="afterLeading">
+						<xsl:choose>
+							<xsl:when test="position() = 1 or $precededByAside">
+								<xsl:call-template name="TrimStart">
+									<xsl:with-param name="string" select="." />
+								</xsl:call-template>
+							</xsl:when>
+							<xsl:otherwise>
+								<xsl:value-of select="." />
+							</xsl:otherwise>
+						</xsl:choose>
+					</xsl:variable>
+					<xsl:variable name="trimmed">
+						<xsl:choose>
+							<xsl:when test="position() = last() or $followedByAside">
+								<xsl:call-template name="TrimEnd">
+									<xsl:with-param name="string" select="$afterLeading" />
+								</xsl:call-template>
+							</xsl:when>
+							<xsl:otherwise>
+								<xsl:value-of select="$afterLeading" />
+							</xsl:otherwise>
+						</xsl:choose>
+					</xsl:variable>
+
+					<xsl:if test="(position() = 1 or position() = last()) or normalize-space($trimmed) != ''">
+						<xsl:value-of select="$trimmed" />
+					</xsl:if>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:apply-templates select=".">
+						<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+						<xsl:with-param name="mode" select="$mode" />
+					</xsl:apply-templates>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:for-each>
+	</xsl:template>
+
 	<xsl:template name="section-link">
 		<xsl:param name="section" />
 
@@ -74,10 +153,6 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
-
-	<!-- Resolves a ".../" prefix (meaning "the root of the Recipes section") against $linkPrefix,
-		leaving any other href untouched. Shared by the "a" content-link template below and by
-		RecipeLink, so hand-written links (e.g. the footer breadcrumb) resolve the same way. -->
 	<xsl:template name="ResolveLink">
 		<xsl:param name="href" />
 		<xsl:param name="linkPrefix" />
@@ -92,29 +167,38 @@
 	<xsl:template match="a">
 		<xsl:param name="linkPrefix" />
 
-		<a>
-			<xsl:attribute name="class">
-				<xsl:value-of select="concat('no-print ', @class)" />
-			</xsl:attribute>
-			<xsl:copy-of select="@*[name() != 'href' and name() != 'class']" />
-			<xsl:attribute name="href">
-				<xsl:call-template name="ResolveLink">
-					<xsl:with-param name="href" select="@href" />
-					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-				</xsl:call-template>
-			</xsl:attribute>
-			<xsl:apply-templates>
-				<xsl:with-param name="linkPrefix" select="$linkPrefix" />
-			</xsl:apply-templates>
-		</a>
-		<span class="no-screen">
-			<xsl:value-of select="text()" />
-		</span>
+		<xsl:choose>
+			<xsl:when test="contains(concat(' ', @class, ' '), ' qzxDisabled ')">
+				<span>
+					<xsl:copy-of select="@*[name() != 'href']" />
+					<xsl:apply-templates>
+						<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+					</xsl:apply-templates>
+				</span>
+			</xsl:when>
+			<xsl:otherwise>
+				<a>
+					<xsl:attribute name="class">
+						<xsl:value-of select="concat('no-print ', @class)" />
+					</xsl:attribute>
+					<xsl:copy-of select="@*[name() != 'href' and name() != 'class']" />
+					<xsl:attribute name="href">
+						<xsl:call-template name="ResolveLink">
+							<xsl:with-param name="href" select="@href" />
+							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+						</xsl:call-template>
+					</xsl:attribute>
+					<xsl:apply-templates>
+						<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+					</xsl:apply-templates>
+				</a>
+				<span class="no-screen">
+					<xsl:value-of select="text()" />
+				</span>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
 
-	<!-- For hand-written links built directly in a stylesheet (not sourced from recipe XML content),
-		where apply-templates isn't available. Shares ResolveLink's ".../" substitution and the
-		no-print/no-screen convention with the "a" template above; $text must be plain text. -->
 	<xsl:template name="RecipeLink">
 		<xsl:param name="href" />
 		<xsl:param name="text" />
