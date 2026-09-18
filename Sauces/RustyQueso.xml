@@ -20,6 +20,7 @@
 		<br />
 		This recipe is based on one from a restaurant named Rusty Taco, and it is
 		<span class="EMPHASIZE">AWESOME!!!</span>
+		<p class="NOTE">(You may want to check out the recipe for <a href="RustyGuacamole.xml">Rusty Guacamole</a> to include with this.)</p>
 	</Description>
 
 	<Ingredients>

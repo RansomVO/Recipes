@@ -187,6 +187,7 @@
 			<xs:element name="a" type="Anchor" />
 			<xs:element name="br" type="Empty" />
 			<xs:element name="div" type="Div" />
+			<xs:element name="p" type="Div" />
 			<xs:element name="ul" type="List" />
 			<xs:element name="ol" type="OrderedList" />
 			<xs:element name="table" type="Table" />

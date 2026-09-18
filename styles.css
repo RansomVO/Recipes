@@ -35,7 +35,9 @@
 	padding-right: .25em;
 }
 
-.RECIPE_INGREDIENT_QUANTITY {}
+.RECIPE_INGREDIENT_QUANTITY {
+	font-weight: normal;
+}
 
 .RECIPE_INGREDIENT_QUANTITY_NOTE {
 	font-size: .75em;
