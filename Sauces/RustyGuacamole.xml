@@ -9,8 +9,14 @@
 <Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
 	<LastModified year="2026" month="9" day="17" />
 	<Title>Rusty Guacamole</Title>
-	<Yields>&approx;3&frac12; Cups</Yields>
-	<Source>From the kitchen of Rusty Taco <Note>Via Josh VanOrman</Note></Source>
+	<Yields>
+		&approx;5&frac12; Cups
+		<Note>10-15 Servings</Note>
+	</Yields>
+	<Source>
+		From the kitchen of Rusty Taco
+		<Note>Via Josh VanOrman</Note>
+	</Source>
 
 	<Description>
 		Guacamole is just one of the things you can dip nacho chips into.
@@ -18,7 +24,9 @@
 		<br />
 		This recipe is based on one from a restaurant named Rusty Taco, and it is
 		<span class="EMPHASIZE">AWESOME!!!</span>
-		<p class="NOTE">(You may want to check out the recipe for <a href="RustyQueso.xml">Rusty Queso</a> to include with this.)</p>
+		<p class="NOTE">
+			(You may want to check out the recipe for <a href="RustyQueso.xml">Rusty Queso</a> to include with this.)
+		</p>
 		<p>
 			One thing to note:
 			The original recipe was for a few days' worth at a restaurant, but this recipe cuts it down to an amount reasonable for a family.
@@ -29,13 +37,16 @@
 
 	<Ingredients>
 		<section>
-			<ingredient>Roma Tomato<note>Fresh</note><amount>1&frac12;</amount></ingredient>
-			<ingredient>Onion<note>Fresh</note><amount>&frac13;</amount></ingredient>
-			<ingredient>Jalepe&ntilde;o<note>Fresh</note><amount>&approx;&frac14;</amount></ingredient>
-			<ingredient>Avacadoes<note>Ripe</note><amount>4</amount></ingredient>
-			<ingredient>Lime Juice<amount>2 teaspoons</amount></ingredient>
-			<ingredient>Granulated Garlic<amount>&frac12; teaspoon</amount></ingredient>
-			<ingredient>Kosher Salt<amount>1 teaspoon</amount></ingredient>
+			<ingredient>Roma Tomato<note>Fresh</note><amount>2</amount></ingredient>
+			<ingredient>Onion<note>Fresh</note><amount>&frac12;</amount></ingredient>
+			<ingredient>
+				Jalepe&ntilde;o<note>Fresh</note>
+				<amount>&frac14;-&frac12;<note>&approx;&frac12;-1 Tablespoon</note></amount>
+			</ingredient>
+			<ingredient>Avacadoes<note>Ripe</note><amount>6</amount></ingredient>
+			<ingredient>Lime Juice<amount>1 Tablespoon</amount></ingredient>
+			<ingredient>Granulated Garlic<amount>&frac34; teaspoon</amount></ingredient>
+			<ingredient>Kosher Salt<amount>1&frac12; teaspoons</amount></ingredient>
 		</section>
 	</Ingredients>
 
@@ -48,10 +59,15 @@
 	</Preparation>
 	<Instructions>
 		<section>
-			<instruction>Cut the Avocados in half and remove the pit. Then scoop the pulp out into a medium-large bowl.</instruction>
+			<instruction>
+				Cut the Avocados in half and remove the pit. Then scoop the pulp out into a medium-large bowl.
+			</instruction>
 			<instruction>Mash the Avocados until chunks are no larger than &frac14;&inch;.</instruction>
 			<instruction>Add Lime Juice, Granulated Garlic, and Kosher Salt, then mix well.</instruction>
-			<instruction>Fold diced Tomato, diced Onion, and diced Jalepe&ntilde;o into Guacamole <span class="EMPHASIZE">gently</span>.</instruction>
+			<instruction>
+				Add diced Tomato, diced Onion, and diced Jalepe&ntilde;o into Guacamole and stir
+				<span class="EMPHASIZE">gently</span>.
+			</instruction>
 		</section>
 	</Instructions>
 
@@ -68,6 +84,10 @@
 	</Notes>
 
 	<Modifications>
-		<modification>Obviously, you can increase or decrease the amount of Jalape&ntilde;os to make it hotter or milder.</modification>
+		<modification>
+			Obviously, you can increase
+			<span class="NOTE">(or decrease)</span>
+			the amount of Jalape&ntilde;os to adjust how hot it is.
+		</modification>
 	</Modifications>
 </Recipe>

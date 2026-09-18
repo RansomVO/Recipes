@@ -6,7 +6,7 @@
 ]>
 
 <Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
-	<page class="TODO qzxDisabled" href="CranMamaSauce.xml">Cran Mama Sauce</page>
+	<page class="qzxDisabled TODO" href="CranMamaSauce.xml">Cran Mama Sauce</page>
 	<page href="MarinaraSauce.xml">Marinara Sauce</page>
 	<page href="EasyGravy.xml">Easy Gravy</page>
 	<page href="DillVeggieDip.xml">Dill Veggie Dip</page>
@@ -25,6 +25,7 @@
 		</Note>
 	</page>
 	<page href="RustyQueso.xml">Rusty Queso</page>
-	<page class="TODO" href="RustyGuacamole.xml">Rusty Guacamole</page>
+	<page href="RustyGuacamole.xml">Rusty Guacamole</page>
 	<page href="TeriyakiSauce.xml">Teriyaki Sauce</page>
+	<page href="RustyGuacamole.party.xml">Rusty Guacamole</page>
 </Pages>

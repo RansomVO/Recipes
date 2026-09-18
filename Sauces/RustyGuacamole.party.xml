@@ -10,7 +10,10 @@
 	<LastModified year="2026" month="9" day="17" />
 	<Title>Rusty Guacamole</Title>
 	<Yields>&approx;4 Cups</Yields>
-	<Source>From the kitchen of Rusty Taco <Note>Via Josh VanOrman</Note></Source>
+	<Source>
+		From the kitchen of Rusty Taco
+		<Note>Via Josh VanOrman</Note>
+	</Source>
 
 	<Description>
 		Guacamole is just one of the things you can dip nacho chips into.
@@ -19,7 +22,9 @@
 		This recipe is based on one from a restaurant named Rusty Taco, and it is
 		<span class="EMPHASIZE">AWESOME!!!</span>
 		<br />
-		<p class="NOTE">(You may want to check out the recipe for <a href="RustyQueso.xml">Rusty Queso</a> to include with this.)</p>
+		<p class="NOTE">
+			(You may want to check out the recipe for <a href="RustyQueso.xml">Rusty Queso</a> to include with this.)
+		</p>
 	</Description>
 
 	<Ingredients>
@@ -43,10 +48,15 @@
 	</Preparation>
 	<Instructions>
 		<section>
-			<instruction>Cut the Avocados in half and remove the pit, then scoop the pulp out into a medium-large bowl.</instruction>
+			<instruction>
+				Cut the Avocados in half and remove the pit, then scoop the pulp out into a medium-large bowl.
+			</instruction>
 			<instruction>Mash the Avocados until chunks are no larger than &frac14;&inch;.</instruction>
 			<instruction>Add Lime Juice, Granulated Garlic, and Kosher Salt, then mix well.</instruction>
-			<instruction>Fold diced Tomato, diced Onion, and diced Jalepe&ntilde;os into Guacamole <span class="EMPHASIZE">gently</span>.</instruction>
+			<instruction>
+				Fold diced Tomato, diced Onion, and diced Jalepe&ntilde;os into Guacamole
+				<span class="EMPHASIZE">gently</span>.
+			</instruction>
 		</section>
 	</Instructions>
 
@@ -63,6 +73,8 @@
 	</Notes>
 
 	<Modifications>
-		<modification>Obviously, you can increase or decrease the amount of Jalape&ntilde;os to make it hotter or milder.</modification>
+		<modification>
+			Obviously, you can increase or decrease the amount of Jalape&ntilde;os to make it hotter or milder.
+		</modification>
 	</Modifications>
 </Recipe>
