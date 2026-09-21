@@ -8,7 +8,7 @@
 
 <Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
 	<LastModified year="2026" month="9" day="14" />
-	<Title>Snickerdoodles</Title>
+	<Title>Snackerdoodles<Note>Snicker, Snicker &lol;</Note></Title>
 	<Yields><span class="TODO">ToDo</span></Yields>
 	<Source>Based on a recipe from the website modernhoney.com</Source>
 
