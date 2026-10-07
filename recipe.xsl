@@ -45,9 +45,9 @@
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<link rel="stylesheet" type="text/css" href="{$linkPrefix}/styles.css" />
 				<title>
-					VanOrman Family Recipes -
+					<xsl:value-of select="Title" /> | VanOrman Family Recipes -
 					<xsl:if test="$depth > 1"><xsl:value-of select="$parentSectionName" /> / </xsl:if>
-					<xsl:value-of select="normalize-space($section)" />: <xsl:value-of select="Title" />
+					<xsl:value-of select="normalize-space($section)" />
 				</title>
 			</head>
 
