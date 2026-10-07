@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../pages.xsd">
 	<page href="RangerCookies.xml">Ranger Cookies</page>
 	<page class="TODO" href="SourCreamSugarCookies.xml">Sour Cream Sugar Cookies</page>
 	<page href="CrispyPeanutButterCookies.xml">Crispy Peanut Butter Cookies</page>

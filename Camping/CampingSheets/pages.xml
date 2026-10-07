@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../pages.xsd">
 	<page href="SinglePageCampingSheet.pdf" title="Single Page Camping Sheet">
 		Print this out with:
 		<ul style="margin:0;">

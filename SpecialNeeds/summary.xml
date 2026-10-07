@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../summary.xsd">
 	The VanOrmans have a number of family members that have dietary restrictions.
 	<ul>
 		<li>

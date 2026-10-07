@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../pages.xsd">
 	<!-- QZX TODO: Link all recipes to Home-cook version if one exists -->
 	<CollapseSection title="Dutch Oven">
 		<inline>

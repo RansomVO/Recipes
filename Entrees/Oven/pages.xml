@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pages.xsd">
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../pages.xsd">
 	<page href="Pizza.xml">Pizza</page>
 	<page href="ShepherdsPie.xml">Shepherd's Pie</page>
 	<page href="EasyEnchiladas.xml">Easy Enchiladas</page>

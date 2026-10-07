@@ -5,7 +5,7 @@
 	%externalEntities;
 ]>
 
-<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
+<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../summary.xsd">
 	<p>
 		The VanOrmans <span class="SUPER_EMPHASIZE">love</span> to go camping. So cooking outdoors is one of our things.
 		<br />

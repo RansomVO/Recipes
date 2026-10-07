@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<LastModified year="2025" month="6" day="6" />
 	<Title>Dutch Oven Klondike Chili</Title>
 	<Yields>6-8 Servings</Yields>
@@ -17,7 +17,7 @@
 		This is Ransom's second Chili recipe.
 		The first one was really good, but it was complex and actually had to be started the day before you wanted to eat it.
 		<span class="NOTE">(Additionally, most people found it to be too spicy.)</span>
-		<span class="NOTE">(See <a href="../Entrees/SlowCooker/StealthAttackChili.xml">Entrees / Slow Cooker: Stealth-Attack Chili</a>.)</span>
+		<span class="NOTE">(See <a href="Entrees/SlowCooker/StealthAttackChili.xml">Entrees / Slow Cooker: Stealth-Attack Chili</a>.)</span>
 		<br />
 		This recipe is geared towards quick preparation, and has actually won the first-place award at multiple Boy Scout district Dutch-oven chili cook-offs!
 	</Description>

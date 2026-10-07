@@ -43,7 +43,7 @@
 		<html lang="en">
 			<head>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<link rel="stylesheet" type="text/css" href="styles.css" />
+				<link rel="stylesheet" type="text/css" href="{$linkPrefix}/styles.css" />
 				<title>
 					VanOrman Family Recipes -
 					<xsl:if test="$depth > 1"><xsl:value-of select="$parentSectionName" /> / </xsl:if>

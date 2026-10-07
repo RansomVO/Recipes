@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../index.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Index [
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Index xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd">
+<Index xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../index.xsd">
 	<LastModified year="2025" month="6" day="6" />
 </Index>
