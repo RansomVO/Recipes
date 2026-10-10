@@ -5,4 +5,17 @@
 	%externalEntities;
 ]>
 
-<Section folder="Entrees" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">Entrees</Section>
+<Section folder="Entrees" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">
+	<Name>Entrees</Name>
+	<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../summary.xsd">
+		Generally, an Entree is the biggest part of a lunch or dinner.
+		<br />
+		This section breaks the recipes down by what manner of cooking is used to create the dish.
+	</Summary>
+	<Pages>
+		<CollapseSection folder="Entrees/NoCook" />
+		<CollapseSection folder="Entrees/StoveTop" />
+		<CollapseSection folder="Entrees/Oven" />
+		<CollapseSection folder="Entrees/SlowCooker" />
+	</Pages>
+</Section>

@@ -5,4 +5,12 @@
 	%externalEntities;
 ]>
 
-<Section folder="Entrees/NoCook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../section.xsd">No Cook</Section>
+<Section folder="Entrees/NoCook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../section.xsd">
+	<Name>No Cook</Name>
+	<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../summary.xsd">
+		We really think this is a <b><u>HUGE</u></b> thing!
+		<br />
+		We just haven't gotten anything here. <i>(Yet. &smiley;)</i>
+	</Summary>
+	<Pages />
+</Section>

@@ -5,4 +5,47 @@
 	%externalEntities;
 ]>
 
-<Section folder="Camping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">Camping</Section>
+<Section folder="Camping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">
+	<Name>Camping</Name>
+	<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../summary.xsd">
+		<p>
+			The VanOrmans <span class="SUPER_EMPHASIZE">love</span> to go camping. So cooking outdoors is one of our things.
+			<br />
+			<span class="NOTE">(Di <u>doesn't</u> like the camping, but she does like the outdoor cooking since she gets to sit back for a change.)</span>
+		</p>
+		<p>
+			We especially <span class="SUPER_DUPER_EMPHASIZE">love</span> to do Dutch Oven cooking!
+			<br />
+			When Ransom was a 11-year-old Boy Scout, he was introduced to Dutch Oven cooking by his Dad.
+			<span class="NOTE">(Grandpa John was his Scoutmaster.)</span>
+			And we have been doing it ever since.
+			<br />
+			In in all that time, we have gathered several award-winning recipes, and have made up several recipes of our own.
+		</p>
+	</Summary>
+	<Pages>
+		<CollapseSection folder="Camping/Breakfast" />
+		<CollapseSection folder="Camping/Entrees" />
+		<CollapseSection folder="Camping/Desserts" />
+		<CollapseSection folder="Camping/CampingSheets" />
+		<CollapseSection folder="Camping/AndMore" />
+		<CollapseSection title="Additional Recipes">
+			<inline>
+				<description>
+					There are also a number of Recipes throughout this
+					<span class="no-print">site</span>
+					<span class="no-screen">book</span>
+					that may be of interest.
+				</description>
+
+				<Pages>
+					<page href="Beverages/HotChocolate.xml">Beverages / Hot Chocolate</page>
+					<page href="Beverages/RootBeer.xml">Beverages / Root Beer</page>
+					<page href="Breakfast/FluffyPancakes.xml">Breakfast / Fluffy Pancakes</page>
+					<page href="Breads/NavajoFryBread.xml">Breads / Navajo Fry Bread</page>
+					<page href="Desserts/IceCream.xml">Desserts / Ice Cream</page>
+				</Pages>
+			</inline>
+		</CollapseSection>
+	</Pages>
+</Section>

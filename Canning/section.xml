@@ -5,4 +5,17 @@
 	%externalEntities;
 ]>
 
-<Section folder="Canning" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">Canning</Section>
+<Section folder="Canning" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">
+	<Name>Canning</Name>
+	<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../summary.xsd">
+		In general, when you cook something, it has to be used within a fairly short time or it will spoil.
+		<br />
+		However, if you use the Canning process, it can be stored for a fairly long time.
+	</Summary>
+	<Pages>
+		<page href="BathCanningHowTo.xml">Bath Canning: How-To</page>
+		<page href="Salsa.xml">Salsa</page>
+		<page href="WildBlackberryJam.xml">Wild Blackberry Jam</page>
+		<page href="LS_WildBlackberryJam.xml">No-Sugar-Added Wild Blackberry Jam</page>
+	</Pages>
+</Section>

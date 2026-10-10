@@ -5,4 +5,16 @@
 	%externalEntities;
 ]>
 
-<Section folder="Beverages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">Beverages</Section>
+<Section folder="Beverages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">
+	<Name>Beverages</Name>
+	<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../summary.xsd">
+		You always need something to drink.
+		You just need to choose what would be best for the meal you are preparing, or if it is something between meals.
+	</Summary>
+	<Pages>
+		<page href="HotChocolate.xml">Hot Chocolate</page>
+		<page href="RootBeer.xml">Root Beer</page>
+		<page href="PiňaColada.xml">Piňa Colada</page>
+		<page href="MudPunch.xml">Mud Punch</page>
+	</Pages>
+</Section>

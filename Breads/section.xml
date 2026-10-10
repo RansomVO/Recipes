@@ -5,4 +5,23 @@
 	%externalEntities;
 ]>
 
-<Section folder="Breads" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">Breads</Section>
+<Section folder="Breads" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">
+	<Name>Breads</Name>
+	<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../summary.xsd">
+		Breads can be part of every meal. Or they can be used as a meal or treat by themselves.
+	</Summary>
+	<Pages>
+		<page href="DeadlyRolls.xml">
+			Deadly Rolls
+			<Simple>Formerly Known as Refrigerator Rolls</Simple>
+		</page>
+		<page href="BreadMachineSandwichBread.xml">Bread-Machine Sandwich Bread</page>
+		<page href="Biscuits.xml">Biscuits</page>
+		<page href="NavajoFryBread.xml">Navajo Fry Bread</page>
+		<page href="UtahScones.xml">Utah Scones</page>
+		<page class="TODO" href="OrangeRolls.xml">Orange Rolls</page>
+		<page class="qzxDisabled TODO" href="GF_Biscuits.xml">Gluten-Free Biscuits</page>
+		<page class="TODO" href="GF_BreadMachineBread.xml">Gluten-Free Bread Machine Bread</page>
+		<page class="qzxDisabled TODO" href="CloverLeafRoles.xml">Clover Leaf Rolls</page>
+	</Pages>
+</Section>

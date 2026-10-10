@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0"
+<xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<xsl:include href="common.xsl" />
@@ -11,12 +11,12 @@
 	<!-- @@@@@@@@@@@@@@@@@@@@                        Main Template                       @@@@@@@@@@@@@@@@@@@@ -->
 	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 	<xsl:template match="Recipe">
-		<!-- section.xml/summary.xml/pages.xml can never carry their own <!DOCTYPE (they're also loaded
-			standalone via document() from OTHER pages' CollapseSection listings, and per the XML spec an
-			external general entity's replacement text can't contain a doctypedecl); so, uniformly, this
-			recipe's own Section/ParentSection are fetched via document() too, rather than via the
-			&section;/&parentSection; entities this file used to declare. That lets section.xml keep its own
-			<!DOCTYPE with entities.dtd, so named entities like &eacute; work there like anywhere else. -->
+		<!-- section.xml can never carry its own <!DOCTYPE (it's also loaded standalone via document() from
+			OTHER pages' CollapseSection listings, and per the XML spec an external general entity's
+			replacement text can't contain a doctypedecl); so, uniformly, this recipe's own Section/
+			ParentSection are fetched via document() too, rather than via the &section;/&parentSection;
+			entities this file used to declare. That lets section.xml keep its own <!DOCTYPE with
+			entities.dtd, so named entities like &eacute; work there like anywhere else. -->
 		<xsl:variable name="section" select="document('section.xml', .)/Section" />
 		<xsl:variable name="depth">
 			<xsl:choose>
@@ -31,7 +31,7 @@
 			entirely and likely missing; so the document() call itself is gated, not just its display. -->
 		<xsl:variable name="parentSectionName">
 			<xsl:if test="$depth > 1">
-				<xsl:value-of select="document('../section.xml', .)/Section" />
+				<xsl:value-of select="normalize-space(document('../section.xml', .)/Section/Name)" />
 			</xsl:if>
 		</xsl:variable>
 		<xsl:variable name="linkPrefix">
@@ -47,7 +47,7 @@
 				<title>
 					<xsl:value-of select="Title" /> | VanOrman Family Recipes -
 					<xsl:if test="$depth > 1"><xsl:value-of select="$parentSectionName" /> / </xsl:if>
-					<xsl:value-of select="normalize-space($section)" />
+					<xsl:value-of select="normalize-space($section/Name)" />
 				</title>
 			</head>
 
@@ -134,7 +134,7 @@
 										<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 									</xsl:call-template> / </xsl:if><xsl:call-template name="RecipeLink">
 									<xsl:with-param name="href" select="'.'" />
-									<xsl:with-param name="text" select="$section" />
+									<xsl:with-param name="text" select="normalize-space($section/Name)" />
 									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 								</xsl:call-template>
 							</td>

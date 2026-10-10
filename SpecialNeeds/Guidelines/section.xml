@@ -5,4 +5,14 @@
 	%externalEntities;
 ]>
 
-<Section folder="SpecialNeeds/Guidelines" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../section.xsd">General Guidelines</Section>
+<Section folder="SpecialNeeds/Guidelines" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../section.xsd">
+	<Name>General Guidelines</Name>
+	<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../summary.xsd">
+		This section goes over what you need to know about the different kinds of Special Needs.
+	</Summary>
+	<Pages>
+		<page class="qzxDisabled TODO" href="Diabetes.xml">Diabetes</page>
+		<page class="qzxDisabled TODO" href="GlutenSensitivity.xml">Gluten Sensitivity / Celiac Disease</page>
+		<page class="TODO" href="LactoseIntolerance.xml">Lactose Intolerance</page>
+	</Pages>
+</Section>

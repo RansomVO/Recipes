@@ -5,4 +5,18 @@
 	%externalEntities;
 ]>
 
-<Section folder="Camping/Breakfast" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../section.xsd">Breakfast</Section>
+<Section folder="Camping/Breakfast" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../section.xsd">
+	<Name>Breakfast</Name>
+	<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../summary.xsd">
+		A nice warm breakfast to people just waking up while camping is a wonderful surprise!
+	</Summary>
+	<Pages>
+		<CollapseSection title="Dutch Oven">
+			<inline>
+				<Pages>
+					<page class="TODO" href="Camping/Breakfast/DO_OrangeRolls.xml">Dutch Oven Orange Rolls</page>
+				</Pages>
+			</inline>
+		</CollapseSection>
+	</Pages>
+</Section>

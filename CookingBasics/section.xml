@@ -5,4 +5,19 @@
 	%externalEntities;
 ]>
 
-<Section folder="CookingBasics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">Cooking Basics</Section>
+<Section folder="CookingBasics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">
+	<Name>Cooking Basics</Name>
+	<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../summary.xsd">
+		Before you start trying to cook anything, you are going to need to know the basic stuff.
+		<br />
+		This section goes over these.
+	</Summary>
+	<Pages>
+		<page class="qzxDisabled TODO" href="Processes.xml">Terms and Processes</page>
+		<page class="qzxDisabled TODO" href="Ingredients.xml">Ingredients</page>
+		<page class="qzxDisabled TODO" href="Spices.xml">Spices</page>
+		<page class="qzxDisabled TODO" href="Tools.xml">Tools</page>
+		<page class="qzxDisabled TODO" href="MealPlanning.xml">Meal Planning</page>
+		<page class="qzxDisabled TODO" href="Substitutions.xml">Conversions and Substitutions</page>
+	</Pages>
+</Section>

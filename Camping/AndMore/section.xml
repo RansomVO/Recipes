@@ -5,4 +5,18 @@
 	%externalEntities;
 ]>
 
-<Section folder="Camping/AndMore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../section.xsd">And More</Section>
+<Section folder="Camping/AndMore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../section.xsd">
+	<Name>And More</Name>
+	<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../summary.xsd">
+		There are a few other recipes that don't fit into the other Camping categories, and you'll find them here.
+	</Summary>
+	<Pages>
+		<CollapseSection title="Dutch Oven">
+			<inline>
+				<Pages>
+					<page href="Camping/AndMore/DO_BasqueSheepherdersBread.xml">Dutch Oven Basque Sheepherder's Bread</page>
+				</Pages>
+			</inline>
+		</CollapseSection>
+	</Pages>
+</Section>

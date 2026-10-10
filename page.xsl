@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0"
+<xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<xsl:include href="common.xsl" />
@@ -24,7 +24,7 @@
 			existing behavior. Only fetched when needed, same reasoning as recipe.xsl/index.xsl. -->
 		<xsl:variable name="parentSectionName">
 			<xsl:if test="$depth > 1">
-				<xsl:value-of select="document('../section.xml', .)/Section" />
+				<xsl:value-of select="normalize-space(document('../section.xml', .)/Section/Name)" />
 			</xsl:if>
 		</xsl:variable>
 		<xsl:variable name="linkPrefix">
@@ -58,12 +58,12 @@
 										<a href="../..">Recipes</a> / <a href="..">
 											<xsl:value-of select="$parentSectionName" />
 										</a> / <a href=".">
-											<xsl:value-of select="$section" />
+											<xsl:value-of select="normalize-space($section/Name)" />
 										</a>
 									</xsl:when>
 									<xsl:otherwise>
 										<a href="..">Recipes</a> / <a href=".">
-											<xsl:value-of select="$section" />
+											<xsl:value-of select="normalize-space($section/Name)" />
 										</a>
 									</xsl:otherwise>
 								</xsl:choose>

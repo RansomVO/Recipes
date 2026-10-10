@@ -5,4 +5,35 @@
 	%externalEntities;
 ]>
 
-<Section folder="Sauces" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">Sauces and Dips</Section>
+<Section folder="Sauces" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">
+	<Name>Sauces and Dips</Name>
+	<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../summary.xsd">
+		A
+		<span class="EMPHASIZE">lot</span>
+		of dishes just have to have some sort of Sauce on them, or something to Dip them in.
+		And some just taste a lot better with the right one.
+	</Summary>
+	<Pages>
+		<page class="qzxDisabled TODO" href="CranMamaSauce.xml">Cran Mama Sauce</page>
+		<page href="MarinaraSauce.xml">Marinara Sauce</page>
+		<page href="EasyGravy.xml">Easy Gravy</page>
+		<page href="DillVeggieDip.xml">Dill Veggie Dip</page>
+		<page href="QuesoHondo.xml">Queso Hondo</page>
+		<page href="HoneyButter.xml">Honey Butter</page>
+		<page href="FrySauce.xml">Fry Sauce</page>
+		<page href="DaddydasSauce.xml">Daddyda's Sauce</page>
+		<page href="OneAndOnlyHamGlaze.xml">
+			One and Only Ham Glaze
+			<Simple>
+				AKA:
+				"Ransom's <span style="font-size:1.5em; font-style:normal; text-decoration:underline;">A</span> Ham" Glaze
+			</Simple>
+			<Note>
+				Where "Ransom's" means "Ransom is" because he was trying to get credit for something that wasn't his.
+			</Note>
+		</page>
+		<page href="RustyQueso.xml">Rusty Queso</page>
+		<page href="RustyGuacamole.xml">Rusty Guacamole</page>
+		<page href="TeriyakiSauce.xml">Teriyaki Sauce</page>
+	</Pages>
+</Section>

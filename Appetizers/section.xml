@@ -5,4 +5,18 @@
 	%externalEntities;
 ]>
 
-<Section folder="Appetizers" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">Appetizers</Section>
+<Section folder="Appetizers" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">
+	<Name>Appetizers</Name>
+	<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../summary.xsd">
+		Is everybody going to be <span class="EMPHASIZE">starving</span>?
+		And do you know before you get started that they will be grumbling that cooking is taking too long?
+		<span class="NOTE">(Like at Thanksgiving)</span>
+		<br />
+		If so, plan on preparing one or more Appetizers that will keep them busy.
+	</Summary>
+	<Pages>
+		<page href="CheeseBall.xml">Cheese Ball</page>
+		<page href="3rdDegreeBuffaloWings.xml">3<sup>rd</sup> Degree Buffalo Wings</page>
+		<page href="StuffedMushrooms.xml">Stuffed Mushrooms</page>
+	</Pages>
+</Section>

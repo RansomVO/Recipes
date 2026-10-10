@@ -5,4 +5,31 @@
 	%externalEntities;
 ]>
 
-<Section folder="Camping/Desserts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../section.xsd">Desserts</Section>
+<Section folder="Camping/Desserts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../section.xsd">
+	<Name>Desserts</Name>
+	<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../summary.xsd">
+		A yummy <span class="EMPHASIZE">hot</span> dessert while you are out camping cannot be beat!
+	</Summary>
+	<Pages>
+		<CollapseSection title="Dutch Oven">
+			<inline>
+				<Pages>
+					<page href="Camping/Desserts/DO_AppleBerryCrumble.xml">Dutch Oven Apple-Berry Crumble</page>
+					<page href="Camping/Desserts/DO_AppleBerryCrumbleCake.xml">Dutch Oven Apple-Berry Crumble Cake</page>
+					<page class="TODO" href="Camping/Desserts/DO_CherryChocolateVolcanoCake.xml">
+						Dutch Oven Cherry-Chocolate Volcano Cake
+					</page>
+					<page class="TODO" href="Camping/Desserts/DO_FruitCrispy.xml">Dutch Oven Fruit Crispy</page>
+				</Pages>
+			</inline>
+		</CollapseSection>
+		<CollapseSection title="Other">
+			<inline>
+				<Pages>
+					<page href="Camping/Desserts/BananaBoats.xml">Banana Boats</page>
+					<page href="Camping/Desserts/Twisties.xml">Twisties</page>
+				</Pages>
+			</inline>
+		</CollapseSection>
+	</Pages>
+</Section>

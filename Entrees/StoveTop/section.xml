@@ -5,4 +5,20 @@
 	%externalEntities;
 ]>
 
-<Section folder="Entrees/StoveTop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../section.xsd">Stove Top</Section>
+<Section folder="Entrees/StoveTop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../section.xsd">
+	<Name>Stove Top</Name>
+	<Summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../summary.xsd">
+		Some of the easiest Entrees to cook are done on a Stove.
+	</Summary>
+	<Pages>
+		<page href="Pasta.xml">Pasta (Spaghetti)</page>
+		<page href="BarleyStoup.xml">Barley Stoup</page>
+		<page href="CreamOfEverythingSoup.xml">Cream of Everything Soup</page>
+		<page class="qzxDisabled TODO" href="HickOnionSoup.xml">Hick Onion Soup</page>
+		<page class="qzxDisabled TODO" href="CreamOfPizzaSoup.xml">Cream of Pizza Soup</page>
+		<page href="Wontons.xml">Wontons</page>
+		<page href="WontonSoup.xml">Wonton Soup</page>
+		<page href="KlondikeChili.xml">Klondike Chili</page>
+		<page href="PorkChopsAlJardinero.xml">Pork Chops al Jardinero</page>
+	</Pages>
+</Section>

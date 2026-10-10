@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0"
+<xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<xsl:include href="common.xsl" />
@@ -8,9 +8,10 @@
 	<!-- @@@@@@@@@@@@@@@@@@@@                        Main Template                       @@@@@@@@@@@@@@@@@@@@ -->
 	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 	<xsl:template match="Index">
+		<!-- Section/Summary/Pages were merged into one file 2026-10-09 (see FormattingNotes.md), so a
+			category's summary and page list now come from $section/Summary and $section/Pages directly,
+			rather than their own separate document() fetches. -->
 		<xsl:variable name="section" select="document('section.xml', .)/Section" />
-		<xsl:variable name="summary" select="document('summary.xml', .)/Summary" />
-		<xsl:variable name="pages" select="document('pages.xml', .)/Pages" />
 		<xsl:variable name="depth">
 			<xsl:choose>
 				<xsl:when test="$section/@folder = '.'">0</xsl:when>
@@ -21,7 +22,7 @@
 		</xsl:variable>
 		<xsl:variable name="parentSectionName">
 			<xsl:if test="$depth > 1">
-				<xsl:value-of select="document('../section.xml', .)/Section" />
+				<xsl:value-of select="normalize-space(document('../section.xml', .)/Section/Name)" />
 			</xsl:if>
 		</xsl:variable>
 		<xsl:variable name="linkPrefix">
@@ -36,7 +37,7 @@
 				<link rel="stylesheet" type="text/css" href="{$linkPrefix}/styles.css" />
 				<title>
 					<xsl:if test="$depth > 1"><xsl:value-of select="$parentSectionName" /> / </xsl:if>
-					<xsl:value-of select="$section" />
+					<xsl:value-of select="normalize-space($section/Name)" />
 					| VanOrman Family Recipes
 				</title>
 			</head>
@@ -46,10 +47,10 @@
 					<xsl:with-param name="linkPrefix" select="''" />
 				</xsl:apply-templates>
 
-				<xsl:apply-templates select="$summary" />
+				<xsl:apply-templates select="$section/Summary" />
 
 				<hr />
-				<xsl:apply-templates select="$pages">
+				<xsl:apply-templates select="$section/Pages">
 					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 					<xsl:with-param name="folder" select="$section/@folder" />
 				</xsl:apply-templates>
@@ -70,12 +71,12 @@
 										<a href="../..">Recipes</a> / <a href="..">
 											<xsl:value-of select="$parentSectionName" />
 										</a> / <a href=".">
-											<xsl:value-of select="$section" />
+											<xsl:value-of select="normalize-space($section/Name)" />
 										</a>
 									</xsl:when>
 									<xsl:otherwise>
 										<a href="..">Recipes</a> / <a href=".">
-											<xsl:value-of select="$section" />
+											<xsl:value-of select="normalize-space($section/Name)" />
 										</a>
 									</xsl:otherwise>
 								</xsl:choose>
@@ -110,23 +111,24 @@
 				</xsl:choose>
 			</xsl:attribute>
 			<xsl:choose>
-				<xsl:when test="$linkPrefix = ''"><xsl:copy-of select="." /></xsl:when>
+				<xsl:when test="$linkPrefix = ''"><xsl:copy-of select="Name/node()" /></xsl:when>
 				<xsl:otherwise>
 					<a class="no-print">
 						<xsl:attribute name="href">
 							<xsl:value-of select="concat($linkPrefix, '/',  @folder, '/index.xml')" />
 						</xsl:attribute>
-						<xsl:copy-of select="." />
+						<xsl:copy-of select="Name/node()" />
 					</a>
 					<span class="no-screen">
-						<xsl:copy-of select="." />
+						<xsl:copy-of select="Name/node()" />
 					</span>
 				</xsl:otherwise>
 			</xsl:choose>
 		</div>
 	</xsl:template>
 
-	<!-- Handles stuff from pages.xml files. -->
+	<!-- Handles a section's page list: a folder's section.xml <Pages> child, since the 2026-10-09 merge
+		(see FormattingNotes.md); previously that folder's own standalone pages.xml. -->
 	<xsl:template match="Pages">
 		<xsl:param name="linkPrefix" />
 		<xsl:param name="folder" />
@@ -168,17 +170,12 @@
 					</xsl:when>
 
 					<xsl:otherwise>
-						<xsl:apply-templates select="document(concat(@folder, '/section.xml'))">
+						<xsl:apply-templates select="document(concat(@folder, '/section.xml'))/Section">
 							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 						</xsl:apply-templates>
 
 						<div class="SUBSECTION_DESCRIPTION">
-							<!-- document() parses summary.xml standalone, with no DOCTYPE (it can't have one;
-								see FilenameDocumentTypes in RecipeFixer/XmlFixer.cs), so entities.dtd's named
-								entities (e.g. &eacute;, &smiley;) are undefined here and fail the parse,
-								silently emptying this apply-templates. Use numeric character references
-								(&#xE9;, &#x1F600;) in section.xml/summary.xml/pages.xml instead. -->
-							<xsl:apply-templates select="document(concat(@folder, '/summary.xml'))">
+							<xsl:apply-templates select="document(concat(@folder, '/section.xml'))/Section/Summary">
 								<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 							</xsl:apply-templates>
 						</div>
@@ -196,7 +193,7 @@
 					</xsl:when>
 
 					<xsl:otherwise>
-						<xsl:apply-templates select="document(concat(@folder, '/pages.xml'))">
+						<xsl:apply-templates select="document(concat(@folder, '/section.xml'))/Section/Pages">
 							<xsl:with-param name="linkPrefix" select="$linkPrefix" />
 							<xsl:with-param name="folder" select="@folder" />
 						</xsl:apply-templates>
