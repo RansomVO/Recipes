@@ -166,7 +166,10 @@
 					<xsl:if test="@image">
 						<img style="float:right;">
 							<xsl:attribute name="src">
-								<xsl:value-of select="@image" />
+								<xsl:call-template name="ResolveLink">
+									<xsl:with-param name="href" select="@image" />
+									<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+								</xsl:call-template>
 							</xsl:attribute>
 						</img>
 					</xsl:if>
