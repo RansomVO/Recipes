@@ -37,6 +37,12 @@
 		</section>
 	</Ingredients>
 
+	<Preparation>
+		<section>
+			<prep>Make or get the pie crust pastry.<Note>See <a href="PieCrustPastry.xml">Pie Crust Pastry</a></Note></prep>
+		</section>
+	</Preparation>
+
 	<Instructions>
 		<section>
 			<instruction>Preheat oven to 425&deg;.</instruction>

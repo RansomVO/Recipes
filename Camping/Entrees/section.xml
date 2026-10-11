@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE section [
-	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
-	%externalEntities;
-]>
+<!DOCTYPE section>
 
 <Section folder="Camping/Entrees" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../section.xsd">
 	<Name>Entrees</Name>
@@ -28,7 +25,9 @@
 					<page class="TODO" href="Camping/Entrees/DO_Fajitas.xml">Dutch Oven Fajitas</page>
 					<page href="Camping/Entrees/DO_FriedRice.xml">Dutch Oven Fried Rice</page>
 					<page href="Camping/Entrees/DO_SpanishRice.xml">Dutch Oven Spanish Rice</page>
-					<page class="TODO" href="Camping/Entrees/DO_StewAndDumplings.xml">Dutch Oven Stew and Dumplings</page>
+					<page class="TODO" href="Camping/Entrees/DO_StewAndDumplings.xml">
+						Dutch Oven Stew and Dumplings
+					</page>
 					<page href="Camping/Entrees/DO_PepperSteak.xml">Dutch Oven Pepper Steak</page>
 					<page class="TODO" href="Camping/Entrees/DO_BBQRibstoDiFor.xml">Dutch Oven BBQ Ribs to Di For</page>
 				</Pages>

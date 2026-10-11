@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Include entities to be used in the xml -->
-<!DOCTYPE section [
-	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
-	%externalEntities;
-]>
+<!DOCTYPE section>
 
 <Section folder="Sauces" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../section.xsd">
 	<Name>Sauces and Dips</Name>
@@ -26,7 +23,9 @@
 			One and Only Ham Glaze
 			<Simple>
 				AKA:
-				"Ransom's <span style="font-size:1.5em; font-style:normal; text-decoration:underline;">A</span> Ham" Glaze
+				"Ransom's
+				<span style="font-size:1.5em; font-style:normal; text-decoration:underline;">A</span>
+				Ham" Glaze
 			</Simple>
 			<Note>
 				Where "Ransom's" means "Ransom is" because he was trying to get credit for something that wasn't his.
