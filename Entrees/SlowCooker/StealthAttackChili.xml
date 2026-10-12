@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<LastModified year="2025" month="6" day="6" />
 	<Title>Stealth-Attack Chili</Title>
 	<Yields>10-12 servings</Yields>
@@ -22,7 +22,7 @@
 		Unfortunately, when we moved to Washington, nobody could stand how hot it was.
 		<span class="NOTE">(It's not <span class="HIGHLIGHT">that</span> hot to me.)</span>
 		And when made for Boy Scout competitions, it didn't have a good "look" to it, so we invented
-		<a href=".../StoveTop/KlondikeChili.xml">Entrees / Stove Top: Klondike Chili</a>.
+		<a href=".../Entrees/StoveTop/KlondikeChili.xml">Entrees / Stove Top: Klondike Chili</a>.
 		But, we still make this one from time to time.
 	</Description>
 

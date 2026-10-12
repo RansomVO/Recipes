@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0"
+<xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<!-- ************************************************************************************************************************ -->
@@ -199,6 +199,20 @@
 		</xsl:choose>
 	</xsl:template>
 
+	<xsl:template match="img">
+		<xsl:param name="linkPrefix" />
+
+		<img>
+			<xsl:copy-of select="@*[name() != 'src']" />
+			<xsl:attribute name="src">
+				<xsl:call-template name="ResolveLink">
+					<xsl:with-param name="href" select="@src" />
+					<xsl:with-param name="linkPrefix" select="$linkPrefix" />
+				</xsl:call-template>
+			</xsl:attribute>
+		</img>
+	</xsl:template>
+
 	<xsl:template name="RecipeLink">
 		<xsl:param name="href" />
 		<xsl:param name="text" />
@@ -226,7 +240,6 @@
 		head|title|link|body|
 		blockquote|div|p|span|
 		br|hr|
-		img|
 		table|td|th|tr|
 		ul|ol|li|
 		b|i|u|

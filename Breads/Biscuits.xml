@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<LastModified year="2025" month="6" day="6" />
 	<Title>Biscuits</Title>
 	<Yields>about 12</Yields>
@@ -43,7 +43,9 @@
 			<instruction>Fold in half, then in half again.</instruction>
 			<instruction>Repeat Steps 5 and 6 at least four times.</instruction>
 			<instruction>The final time, roll out dough 1&inch; thick.</instruction>
-			<instruction>Cut out Biscuits with a round cookie cutter &approx;&inches; in diameter.</instruction>
+			<instruction>
+				Cut out Biscuits with a round cookie cutter &approx;2&frac12;&inches; in diameter.
+			</instruction>
 			<instruction>Place on greased cookie sheet.</instruction>
 			<instruction>Bake at 400&deg; for 12-15 minutes, until just turning golden brown.</instruction>
 		</section>
@@ -54,16 +56,16 @@
 			A Pastry Blender is not an electrical appliance!
 			It is a hand-held tool with a bunch of blades used to gently mix doughs of this sort.
 			<br />
-			<img src="PastryBlender.png" style="margin-left:5em;" />
+			<img src=".../images/PastryBlender.png" style="margin-left:5em;" />
 			<br />
-			If you cannot find a pastry blender, use a fork.
+			If you do not have a pastry blender, use a fork.
 		</note>
 		<note>If you do not have a round cookie cutter, use a cup or glass.</note>
 	</Notes>
 
 	<Modifications>
 		<modification>
-			To make the tops a little more tender, gently brush the tops with milk or butter just before baking.
+			To make the tops a little more tender, gently brush the tops with milk or melted butter just before baking.
 		</modification>
 		<modification>If you want to have larger Biscuits for something like Biscuits &amp; Gravy, just use a larger cutter in step 9, but it will yield fewer Biscuits.</modification>
 	</Modifications>

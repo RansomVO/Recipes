@@ -3,15 +3,71 @@
 
 	<xs:include schemaLocation="common.xsd" />
 
-	<!-- Usually plain text, but at least one real Section (SpecialNeeds) uses a "<span style=...>" for a
-		styled sub-title, so this needs the same rich inline content model as Summary, not plain text. -->
+	<!-- Merged 2026-10-09: a Section now also carries its own Summary and Pages directly (previously
+		separate summary.xml/pages.xml documents, fetched via their own document() calls at render time),
+		so a page that aggregates several folders' worth of content only needs one document() fetch per
+		folder instead of three. summary.xsd/pages.xsd are left as-is for reference but no longer used by
+		any real file. -->
 	<xs:element name="Section">
-		<xs:complexType mixed="true">
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
-				<xs:group ref="RichInlineContent" />
-			</xs:choice>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Name" type="SectionName" />
+				<xs:element name="Summary" type="RichContent" />
+				<xs:element name="Pages" type="PagesList" />
+			</xs:sequence>
 			<xs:attribute name="folder" type="xs:string" use="required" />
 		</xs:complexType>
 	</xs:element>
+
+	<!-- Usually plain text, but at least one real Section (SpecialNeeds) uses a "<span style=...>" for a
+		styled sub-title, so this needs the same rich inline content model as Summary, not plain text. -->
+	<xs:complexType name="SectionName" mixed="true">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:group ref="RichInlineContent" />
+		</xs:choice>
+	</xs:complexType>
+
+	<!-- Carried over from pages.xsd's PagesList/CollapseSection/Inline/Page, unchanged, so a <Pages> here
+		accepts exactly what a standalone pages.xml did. -->
+	<xs:complexType name="PagesList">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="CollapseSection" type="CollapseSection" />
+			<xs:element name="page" type="Page" />
+			<xs:element name="inline" type="Inline" />
+		</xs:choice>
+	</xs:complexType>
+
+	<!-- folder (pulls in another folder's whole page list) and title+inline (an inline sub-section) are
+		never combined in practice, but XSD can't cleanly enforce that "folder XOR title+inline" split
+		without XSD 1.1 assertions, so both are just optional here. -->
+	<xs:complexType name="CollapseSection">
+		<xs:sequence>
+			<xs:element name="inline" type="Inline" minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute name="folder" type="xs:string" />
+		<xs:attribute name="title" type="xs:string" />
+	</xs:complexType>
+
+	<!-- Covers every real shape found: an optional <description> followed by a nested <Pages>, a single
+		bare <page> with no <Pages> wrapper, or a fully custom rich block (details/blockquote/ul/etc). -->
+	<xs:complexType name="Inline" mixed="true">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="description" type="RichContent" />
+			<xs:element name="Pages" type="PagesList" />
+			<xs:element name="page" type="Page" />
+			<xs:group ref="RichInlineContent" />
+		</xs:choice>
+	</xs:complexType>
+
+	<!-- href usually points at a sibling Recipe .xml, but can point at another asset (e.g. a .pdf);
+		in that case title supplies the link text/tooltip and the body can be rich block content. -->
+	<xs:complexType name="Page" mixed="true">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:group ref="RichInlineContent" />
+		</xs:choice>
+		<xs:attribute name="href" type="xs:string" use="required" />
+		<xs:attribute name="class" type="xs:string" />
+		<xs:attribute name="title" type="xs:string" />
+	</xs:complexType>
 
 </xs:schema>

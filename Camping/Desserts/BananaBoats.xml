@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<LastModified year="2025" month="6" day="6" />
 	<Title>Banana Boats</Title>
 	<Yields>1</Yields>
@@ -31,7 +31,7 @@
 			<instruction>Build a campfire that will have lots of coles.</instruction>
 			<instruction>
 				Hold the Banana flat and slice it half way deep, from end to end, making sure to not cut through bottom peel.
-				<img src="SlicingBanana.png" style="width:10em; vertical-align:text-top;" />
+				<img src=".../images/SlicingBanana.png" style="width:10em; vertical-align:text-top;" />
 			</instruction>
 			<instruction>
 				Position the Banana in the middle of a sheet of foil that is big enough to wrap all the way around the Banana.

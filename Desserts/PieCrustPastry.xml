@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../recipe.xsd">
 	<LastModified year="2025" month="6" day="6" />
 	<Title>Pie Crust Pastry</Title>
 	<Yields>about 2 8&inches; crusts</Yields>
@@ -23,19 +23,19 @@
 			<ingredient>Salt<amount>1 teaspoon</amount></ingredient>
 			<ingredient>Sugar<amount>&frac12; Tablespoon</amount></ingredient>
 			<ingredient>Baking Powder<amount>1 teaspoon</amount></ingredient>
-			<ingredient>Vanilla<amount>1 teaspoon</amount></ingredient>
 			<ingredient>Butter<note>Cold</note><amount>&frac14; Cup<note>&frac12; Stick</note></amount></ingredient>
 			<ingredient>Shortening<amount>&frac14; Cup</amount></ingredient>
-			<ingredient>8 teaspoons Cold Water<amount>Approximately</amount></ingredient>
+			<ingredient>Cold Water<amount>&approx;8 teaspoons</amount></ingredient>
+			<ingredient>Vanilla<amount>1 teaspoon</amount></ingredient>
 		</section>
 	</Ingredients>
 
 	<Instructions>
 		<section>
 			<instruction>If the pie crust is to be baked before filling, preheat the oven to 425&deg;.</instruction>
-			<instruction>In a mixing bowl, combine dry ingredients, and mix well.</instruction>
+			<instruction>In a mixing bowl, combine dry ingredients and mix well.</instruction>
 			<instruction>Add Cold Butter and Shortening, and cut in with a pastry blender.</instruction>
-			<instruction>Add Cold Water and stir until dough is consistent.</instruction>
+			<instruction>Add Cold Water and Vanilla then stir until dough is consistent.</instruction>
 			<instruction>Take half of the dough and make a round ball.</instruction>
 			<instruction>
 				Place between two sheets of wax paper and use a rolling pin to roll into a 12&inches; diameter circle.
@@ -65,7 +65,7 @@
 			A Pastry Blender is not an electrical appliance!
 			It is a hand-held tool with a bunch of blades used to gently mix doughs of this sort.
 			<br />
-			<img src="PastryBlender.png" style="margin-left:5em;" />
+			<img src=".../images/PastryBlender.png" style="margin-left:5em;" />
 			<br />
 			If you cannot find a pastry blender, use a fork.
 		</note>

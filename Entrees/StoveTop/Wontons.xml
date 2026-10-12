@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../recipe.xsl"?>
 <!-- Include entities to be used in the xml -->
 <!DOCTYPE Recipe [
 	<!ENTITY % externalEntities SYSTEM "/entities.dtd">
 	%externalEntities;
 ]>
 
-<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../recipe.xsd">
 	<LastModified year="2025" month="6" day="6" />
 	<Title>Wontons</Title>
 	<Yields>20-25 Wontons</Yields>
@@ -42,7 +42,7 @@
 				<subSection
 					title="Envelope Style"
 					list-style="lower-alpha"
-					image="EnvelopeStyleWonton.png"
+					image=".../images/EnvelopeStyleWonton.png"
 					font-size=".9em">
 					<instruction>
 						Place 1 skin flat on the table and place 1 teaspoon of the filler in the middle.
@@ -68,7 +68,7 @@
 				<subSection
 					title="4-Star Style"
 					list-style="lower-alpha"
-					image="4StarStyleWonton.png"
+					image=".../images/4StarStyleWonton.png"
 					font-size=".9em">
 					<instruction>
 						Place 1 skin flat on the table and place 1 teaspoon of the filler in the middle.
