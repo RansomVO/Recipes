@@ -31,7 +31,7 @@
 			<instruction>Build a campfire that will have lots of coles.</instruction>
 			<instruction>
 				Hold the Banana flat and slice it half way deep, from end to end, making sure to not cut through bottom peel.
-				<img src=".../_images/SlicingBanana.png" style="width:10em; vertical-align:text-top;" />
+				<img src=".../images/SlicingBanana.png" style="width:10em; vertical-align:text-top;" />
 			</instruction>
 			<instruction>
 				Position the Banana in the middle of a sheet of foil that is big enough to wrap all the way around the Banana.

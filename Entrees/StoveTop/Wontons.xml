@@ -42,7 +42,7 @@
 				<subSection
 					title="Envelope Style"
 					list-style="lower-alpha"
-					image=".../_images/EnvelopeStyleWonton.png"
+					image=".../images/EnvelopeStyleWonton.png"
 					font-size=".9em">
 					<instruction>
 						Place 1 skin flat on the table and place 1 teaspoon of the filler in the middle.
@@ -68,7 +68,7 @@
 				<subSection
 					title="4-Star Style"
 					list-style="lower-alpha"
-					image=".../_images/4StarStyleWonton.png"
+					image=".../images/4StarStyleWonton.png"
 					font-size=".9em">
 					<instruction>
 						Place 1 skin flat on the table and place 1 teaspoon of the filler in the middle.
